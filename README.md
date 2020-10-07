@@ -1,6 +1,6 @@
 # Summary
 
-Originally a constituency treebank, created at Computer Science Universitas Indonesia, converted to UD.
+Originally a constituency treebank, created at Faculty of Computer Science, Universitas Indonesia, converted to UD.
 
 
 # Introduction
@@ -11,11 +11,12 @@ Originally a constituency treebank, created at Computer Science Universitas Indo
 
 # Acknowledgments
 
-...
+Contributor: Ika Alfina, Jessica Naraiswari Arwidarasti, Arawinda Dinakaramani
 
 ## References
 
-* (citation)
+* Jessica Naraiswari Arwidarasti, Ika Alfina, and Adila Alfa Krisnadhi. "**Converting an Indonesian Constituency Treebank to the Penn Treebank Format**". In the Proceeding of The 2019 International Conference of Asian Language Processing (IALP 2019) in Shanghai, China, 15-17 November 2019. _The paper can be downloaded [here](https://ieeexplore.ieee.org/abstract/document/9037723)._
+
 
 
 # Changelog
@@ -30,13 +31,13 @@ Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: nonfiction news
-Lemmas: converted from manual
+Lemmas: not available
 UPOS: converted from manual
 XPOS: manual native
-Features: converted from manual
+Features: not available
 Relations: converted from manual
-Contributors: Alfina, Ika
+Contributors: Alfina, Ika; Arwidarasti, Jessica Naraiswari;  Dinakaramani, Arawinda 
 Contributing: elsewhere
-Contact: ika.alfina@gmail.com
+Contact: ika.alfina@cs.ui.ac.id
 ===============================================================================
 </pre>
