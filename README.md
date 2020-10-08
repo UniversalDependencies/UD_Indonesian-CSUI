@@ -1,12 +1,12 @@
 # Summary
 
-UD Indonesian-CSUI is a conversion from an Indonesian constituency treebank in the Penn Treebank format named [**Kethu**](https://github.com/ialfina/kethu) that was also a conversion from a constituency treebank named [**idn-treebank**](https://github.com/famrashel/idn-treebank). 
+UD Indonesian-CSUI is a conversion from an Indonesian constituency treebank in the Penn Treebank format named [**Kethu**](https://github.com/ialfina/kethu) that was also a conversion from a constituency treebank built by [**Dinakaramani et al. (2015)**](https://github.com/famrashel/idn-treebank). 
 We named this treebank **Indonesian-CSUI**, since all the three versions of the treebanks were built at Faculty of Computer Science, Universitas Indonesia.
 
 
 # Introduction
 
-This Indonesian-CSUI treebank was converted automatically from the **Kethu** treebank, an Indonesian constituency treebank in the Penn Treebank format. This treebank consists of 1030 sentences and 28,228 words. The Kethu treebank itself was converted from a consituency treebank named **idn-treebank** using semi-automatic approach. The bracketing conversion to the PTB format was automatic, but the revising of word segmentation, POS tagging and some syntactic annotations was done manually.
+This Indonesian-CSUI treebank was converted automatically from the **Kethu** treebank, an Indonesian constituency treebank in the Penn Treebank format. This treebank consists of 1030 sentences and 28,228 words. The Kethu treebank itself was converted from a consituency treebank built by [**Dinakaramani et al. (2015)**](https://github.com/famrashel/idn-treebank) using a semi-automatic approach. The bracketing conversion to the PTB format was automatic, but the revising of word segmentation, POS tagging and some syntactic annotations was done manually.
 
 Other characteristics of the treebank:
 * The genre of the sentences are mainly news in formal Indonesian. 
@@ -15,7 +15,7 @@ Other characteristics of the treebank:
 
 # Acknowledgments
 
-* The original constituency treebank named [**idn-treebank**](https://github.com/famrashel/idn-treebank) was built with manual annotation by Arawinda Dinakaramani, Fam Rashel, Andry Luthfi, and Ruli Manurung from Faculty of Computer Science, Universitas Indonesia in 2015.
+* The original constituency treebank was built with manual annotation by [Arawinda Dinakaramani, Fam Rashel, Andry Luthfi, and Ruli Manurung](https://github.com/famrashel/idn-treebank) at Faculty of Computer Science, Universitas Indonesia in 2015.
 * The idn-treebank was converted to the Penn Treebank format by Ika Alfina and Jessica Naraiswari Arwidarasti from Faculty of Computer Science, Universitas Indonesia in 2019. This PTB version of the _idn-treebank_ was named [**Kethu**](https://github.com/ialfina/kethu).
 * The Kethu treebank was converted to a UD treebank by Ika Alfina and Jessica Naraiswari Arwidarasti
 
