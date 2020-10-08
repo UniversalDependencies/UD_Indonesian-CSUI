@@ -1,6 +1,6 @@
 # Summary
 
-UD Indonesian-CSUI is a conversion from an Indonesian constituency treebank in the Penn Treebank format named [**Kethu**](https://github.com/ialfina/kethu) that also was also a conversion from the original constituency treebank named [**idn-treebank**](https://github.com/famrashel/idn-treebank). 
+UD Indonesian-CSUI is a conversion from an Indonesian constituency treebank in the Penn Treebank format named [**Kethu**](https://github.com/ialfina/kethu) that was also a conversion from a constituency treebank named [**idn-treebank**](https://github.com/famrashel/idn-treebank). 
 We named this treebank **Indonesian-CSUI**, since all the three versions of the treebanks were built at Faculty of Computer Science, Universitas Indonesia.
 
 
@@ -15,12 +15,12 @@ Other characteristics of the treebank:
 
 # Acknowledgments
 
-* The original constituency treebank named [**idn-treebank**](https://github.com/famrashel/idn-treebank) was built by Arawinda Dinakaramani, Fam Rashel, Andry Luthfi, and Ruli Manurung from Faculty of Computer Science, Universitas Indonesia in 2015.
+* The original constituency treebank named [**idn-treebank**](https://github.com/famrashel/idn-treebank) was built with manual annotation by Arawinda Dinakaramani, Fam Rashel, Andry Luthfi, and Ruli Manurung from Faculty of Computer Science, Universitas Indonesia in 2015.
 * The idn-treebank was converted to the Penn Treebank format by Ika Alfina and Jessica Naraiswari Arwidarasti from Faculty of Computer Science, Universitas Indonesia in 2019. This PTB version of the _idn-treebank_ was named [**Kethu**](https://github.com/ialfina/kethu).
 * The Kethu treebank was converted to a UD treebank by Ika Alfina and Jessica Naraiswari Arwidarasti
 
 ## References
-* Ika Alfina, Indra Budi, and Heru Suhartanto. Tree Rotations for Dependency Trees: **Converting the Head-Directionality of Noun Phrases**. In Journal of Computer Science (_accepted_)
+* Ika Alfina, Indra Budi, and Heru Suhartanto. "**Tree Rotations for Dependency Trees: Converting the Head-Directionality of Noun Phrases**". In Journal of Computer Science (_accepted_)
 * Jessica Naraiswari Arwidarasti, Ika Alfina, and Adila Alfa Krisnadhi. ["**Converting an Indonesian Constituency Treebank to the Penn Treebank Format**"](https://ieeexplore.ieee.org/abstract/document/9037723). In the Proceeding of The 2019 International Conference of Asian Language Processing (IALP 2019) in Shanghai, China, 15-17 November 2019. 
 
 
