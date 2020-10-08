@@ -13,9 +13,7 @@ Originally a constituency treebank, created at Faculty of Computer Science, Univ
 
 * The original constituency treebank named [**idn-treebank**](https://github.com/famrashel/idn-treebank) was built by Arawinda Dinakaramani, Fam Rashel, Andry Luthfi, and Ruli Manurung from Faculty of Computer Science, Universitas Indonesia in 2015.
 * The idn-treebank was converted to the Penn Treebank format by Ika Alfina and Jessica Naraiswari Arwidarasti from Faculty of Computer Science, Universitas Indonesia in 2019. This PTB version of the _idn-treebank_ was named [**Kethu**](https://github.com/ialfina/kethu).
-* Alfina et al. (2020) used Stanford UD converter to convert the Kethu treebank to a dependency treebank
-* The output of Stanford UD converter was converted again so that it aligns to Indonesian grammar by Ika Alfina
-
+* The Kethu treebank was converted to a UD treebank by Ika Alfina
 
 ## References
 
