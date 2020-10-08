@@ -6,11 +6,11 @@ We named this treebank **Indonesian-CSUI**, since all the three versions of the 
 
 # Introduction
 
-This Indonesian-CSUI treebank was converted automatically from the Kethu treebank, an Indonesian constituency treebank in the Penn Treebank format. This treebank consists of 1030 sentences and 28,228 words. The Kethu treebank itself was converted from a consituency treebank using semi-manual approach. The bracketing conversion was automatic, but the revising of POS tagging and some syntactic annotation was done manually.
+This Indonesian-CSUI treebank was converted automatically from the **Kethu** treebank, an Indonesian constituency treebank in the Penn Treebank format. This treebank consists of 1030 sentences and 28,228 words. The Kethu treebank itself was converted from a consituency treebank named **idn-treebank** using semi-automatic approach. The bracketing conversion to the PTB format was automatic, but the revising of word segmentation, POS tagging and some syntactic annotations was done manually.
 
 Other characteristics of the treebank:
 * The genre of the sentences are mainly news in formal Indonesian. 
-* Average of sentence length is around 27 words per-sentence, which is very high compare to Indonesian-PUD treebank that has average sentence length of 19.4.
+* Average sentence length is around 27 words per-sentence, which is very high compare to the [Indonesian-PUD](https://github.com/UniversalDependencies/UD_Indonesian-PUD) treebank that has average sentence length of 19.4.
 
 
 # Acknowledgments
