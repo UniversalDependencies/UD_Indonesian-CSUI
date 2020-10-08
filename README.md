@@ -11,12 +11,15 @@ Originally a constituency treebank, created at Faculty of Computer Science, Univ
 
 # Acknowledgments
 
-Contributor: Ika Alfina, Jessica Naraiswari Arwidarasti, Arawinda Dinakaramani
+* The original constituency treebank named [**idn-treebank**](https://github.com/famrashel/idn-treebank) was built by Arawinda Dinakaramani, Fam Rashel, Andry Luthfi, and Ruli Manurung from Faculty of Computer Science, Universitas Indonesia in 2015.
+* The idn-treebank was converted to the Penn Treebank format by Ika Alfina and Jessica Naraiswari Arwidarasti from Faculty of Computer Science, Universitas Indonesia in 2019. This PTB version of the _idn-treebank_ was named [**Kethu**](https://github.com/ialfina/kethu).
+* We used Stanford UD converter to convert the Kethu treebank to a dependency treebank
+* The output of Stanford UD converter was converted again so that it aligns to Indonesian grammar by Ika Alfina
+
 
 ## References
 
-* Jessica Naraiswari Arwidarasti, Ika Alfina, and Adila Alfa Krisnadhi. "**Converting an Indonesian Constituency Treebank to the Penn Treebank Format**". In the Proceeding of The 2019 International Conference of Asian Language Processing (IALP 2019) in Shanghai, China, 15-17 November 2019. _The paper can be downloaded [here](https://ieeexplore.ieee.org/abstract/document/9037723)._
-
+* Jessica Naraiswari Arwidarasti, Ika Alfina, and Adila Alfa Krisnadhi. ["**Converting an Indonesian Constituency Treebank to the Penn Treebank Format**"](https://ieeexplore.ieee.org/abstract/document/9037723). In the Proceeding of The 2019 International Conference of Asian Language Processing (IALP 2019) in Shanghai, China, 15-17 November 2019. 
 
 
 # Changelog
