@@ -6,10 +6,12 @@ We named this treebank **Indonesian-CSUI**, since all the three versions of the 
 
 # Introduction
 
-UD Indonesian-CSUI treebank was converted automatically from the **Kethu** treebank, an Indonesian constituency treebank in the Penn Treebank format. The Kethu treebank itself was converted from a consituency treebank built by [**Dinakaramani et al. (2015)**](https://github.com/famrashel/idn-treebank) using a semi-automatic approach. The bracketing conversion to the PTB format was automatic, but the revising of word segmentation, POS tagging and some syntactic annotations was done manually.
+UD Indonesian-CSUI treebank was converted automatically from the **Kethu** treebank, an Indonesian constituency treebank in the Penn Treebank format. The Kethu treebank itself was converted from a consituency treebank built by [**Dinakaramani et al. (2015)**](https://github.com/famrashel/idn-treebank). 
 
 Other characteristics of the treebank:
-* This treebank consists of 1030 sentences and 28K words.
+* This treebank consists of 1030 sentences and 28K words. We devide CSUI treebank into testing and training dataset:
+  * Testing dataset consist of around 10K words
+  * Training dataset consist of around 18K words
 * The genre of the sentences are mainly news in formal Indonesian. 
 * Average sentence length is around 27.4 words per-sentence, which is very high compare to the [Indonesian-PUD](https://github.com/UniversalDependencies/UD_Indonesian-PUD) treebank that has average sentence length of 19.4.
 
@@ -17,7 +19,7 @@ Other characteristics of the treebank:
 # Acknowledgments
 
 * The original constituency treebank was built with manual annotation by [Arawinda Dinakaramani, Fam Rashel, Andry Luthfi, and Ruli Manurung](https://github.com/famrashel/idn-treebank) at Faculty of Computer Science, Universitas Indonesia in 2015.
-* The previous treebank was converted to the Penn Treebank format by Ika Alfina and Jessica Naraiswari Arwidarasti at Faculty of Computer Science, Universitas Indonesia in 2019. This PTB version was named [**Kethu**](https://github.com/ialfina/kethu).
+* The previous treebank was converted to the Penn Treebank format by Ika Alfina and Jessica Naraiswari Arwidarasti at Faculty of Computer Science, Universitas Indonesia in 2019-2020. This PTB version was named [**Kethu**](https://github.com/ialfina/kethu).
 * The Kethu treebank was converted to a UD treebank by Ika Alfina et al. in 2020.
 
 ## References
