@@ -5,13 +5,13 @@ UD Indonesian-CSUI is a conversion from an Indonesian constituency treebank in t
 
 # Introduction
 
-UD Indonesian-CSUI treebank was converted automatically from the **Kethu** treebank, an Indonesian constituency treebank in the Penn Treebank format. The Kethu treebank itself was converted from a consituency treebank built by [**Dinakaramani et al. (2015)**](https://github.com/famrashel/idn-treebank). 
+UD Indonesian-CSUI treebank was converted automatically from the [**Kethu**](https://github.com/ialfina/kethu) treebank, an Indonesian constituency treebank in the Penn Treebank format. The Kethu treebank itself was converted from a consituency treebank built by [**Dinakaramani et al. (2015)**](https://github.com/famrashel/idn-treebank). 
 
 Other characteristics of the treebank:
-* This treebank consists of 1030 sentences and 28K words. We devide CSUI treebank into testing and training dataset:
-  * Testing dataset consist of around 10K words
-  * Training dataset consist of around 18K words
-* The genre of the sentences are mainly news in formal Indonesian. 
+* Genre: news in formal Indonesian (the majority is economic news)
+* This treebank consists of 1030 sentences and 28K words. We divide CSUI treebank into testing and training dataset:
+  * Testing dataset consists of around 10K words
+  * Training dataset consists of around 18K words
 * Average sentence length is around 27.4 words per-sentence, which is very high compare to the [Indonesian-PUD](https://github.com/UniversalDependencies/UD_Indonesian-PUD) treebank that has average sentence length of 19.4.
 
 
@@ -40,7 +40,7 @@ Includes text: yes
 Genre: nonfiction news
 Lemmas: automatic
 UPOS: converted from manual
-XPOS: manual native
+XPOS: converted from manual
 Features: automatic with corrections
 Relations: converted with corrections
 Contributors: Alfina, Ika; Arwidarasti, Jessica Naraiswari; Hanifmuti, Muhammad Yudistira;  Dinakaramani, Arawinda; Manurung, Ruli; Rashel, Fam; Luthfi, Andry 
