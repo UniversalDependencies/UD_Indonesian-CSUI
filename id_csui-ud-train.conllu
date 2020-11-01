@@ -64,7 +64,7 @@
 2	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	6	obl	_	_
 3	,	,	PUNCT	,	_	6	punct	_	_
 4	peringkat	peringkat	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
-5	tersebut	sebut	DET	DT	Voice=Pass	4	det	_	_
+5	tersebut	sebut	DET	DT	_	4	det	_	_
 6	diberikan	beri	VERB	VB	Voice=Pass	0	root	_	_
 7	berdasarkan	dasar	VERB	VB	Voice=Act	6	ccomp	_	_
 8	data	data	NOUN	NN	Number=Sing	7	obj	_	_
@@ -311,7 +311,7 @@
 10	menjadi	jadi	VERB	VB	Voice=Act	9	ccomp	_	_
 11	sutradara	sutradara	NOUN	NN	Number=Sing	10	obj	_	_
 12	film	film	NOUN	NN	Number=Sing	11	nmod	_	_
-13	tersebut	sebut	DET	DT	Voice=Pass	12	det	_	SpaceAfter=No
+13	tersebut	sebut	DET	DT	_	12	det	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	16	punct	_	_
 15	tapi	tapi	CCONJ	CC	_	16	cc	_	_
 16	menarik	tarik	VERB	VB	Voice=Act	9	conj	_	_
@@ -332,7 +332,7 @@
 # sent_id = s-train-12
 # text = Transaksi tersebut, kata dia, bukan merupakan transaksi yang mengandung benturan kepentingan dan bukan merupakan transaksi yang bersifat material.
 1	Transaksi	transaksi	NOUN	NN	Number=Sing	8	nsubj	_	_
-2	tersebut	sebut	DET	DT	Voice=Pass	1	det	_	SpaceAfter=No
+2	tersebut	sebut	DET	DT	_	1	det	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	_	_
 4	kata	kata	VERB	VB	Voice=Act	8	parataxis	_	_
 5	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
@@ -832,7 +832,7 @@
 1	Ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	_
 3	persentase	persentase	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
-4	tersebut	sebut	DET	DT	Voice=Pass	3	det	_	_
+4	tersebut	sebut	DET	DT	_	3	det	_	_
 5	termasuk	masuk	VERB	VB	Voice=Pass	2	ccomp	_	_
 6	tinggi	tinggi	ADJ	JJ	_	5	xcomp	_	_
 7	karena	karena	SCONJ	IN	_	15	mark	_	_
@@ -960,7 +960,7 @@
 6	equity	equity	X	FW	Foreign=Yes	5	obj	_	_
 7	transfer	transfer	X	FW	Foreign=Yes	6	flat:foreign	_	_
 8	agreement	agreement	X	FW	Foreign=Yes	6	flat:foreign	_	_
-9	tersebut	sebut	DET	DT	Voice=Pass	4	det	_	_
+9	tersebut	sebut	DET	DT	_	4	det	_	_
 10	tergantung	gantung	VERB	VB	Voice=Pass	0	root	_	_
 11	pada	pada	ADP	IN	_	12	case	_	_
 12-13	dikeluarkannya	_	_	_	_	_	_	_	_
@@ -1173,7 +1173,7 @@
 20	minoritas	minoritas	NOUN	NN	Number=Sing	19	nmod	_	_
 21	di	di	ADP	IN	_	22	case	_	_
 22	bank	bank	NOUN	NN	Number=Sing	19	nmod	_	_
-23	tersebut	sebut	DET	DT	Voice=Pass	22	det	_	SpaceAfter=No
+23	tersebut	sebut	DET	DT	_	22	det	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = s-train-39
@@ -1295,7 +1295,7 @@
 3	Rp	Rp	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
 4	10	10	NUM	CD	_	3	nummod	_	_
 5	triliun	triliun	NUM	CD	_	4	flat	_	_
-6	tersebut	sebut	DET	DT	Voice=Pass	1	det	_	_
+6	tersebut	sebut	DET	DT	_	1	det	_	_
 7	menurut	turut	ADP	IN	_	8	case	_	_
 8	Jahja	Jahja	PROPN	NNP	_	10	obl	_	_
 9	akan	akan	AUX	MD	_	10	aux	_	_
@@ -1886,7 +1886,7 @@
 11	mengatasi	atas	VERB	VB	Voice=Act	10	acl	_	_
 12	wabah	wabah	NOUN	NN	Number=Sing	11	obj	_	_
 13	demam	demam	NOUN	NN	Number=Sing	12	nmod	_	_
-14	berdarah	darah	NOUN	NN	Voice=Act	13	nmod	_	SpaceAfter=No
+14	berdarah	darah	VERB	VB	Voice=Act	13	acl	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = s-train-62
@@ -2188,7 +2188,7 @@
 16	dari	dari	ADP	IN	_	15	fixed	_	_
 17	5	5	NUM	CD	_	18	nummod	_	_
 18	persen	persen	NOUN	NN	Number=Sing	13	acl:relcl	_	_
-19	tersebut	sebut	DET	DT	Voice=Pass	18	det	_	SpaceAfter=No
+19	tersebut	sebut	DET	DT	_	18	det	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	23	punct	_	_
 21	bank	bank	NOUN	NN	Number=Sing	23	nsubj	_	_
 22	Mandiri	Mandiri	PROPN	NNP	_	21	nmod	_	_
@@ -2747,7 +2747,7 @@
 5	sendiri	sendiri	DET	DT	_	2	det	_	_
 6	dalam	dalam	ADP	IN	_	7	case	_	_
 7	periode	periode	NOUN	NN	Number=Sing	2	nmod:tmod	_	_
-8	tersebut	sebut	DET	DT	Voice=Pass	7	det	_	_
+8	tersebut	sebut	DET	DT	_	7	det	_	_
 9	masih	masih	ADV	RB	_	10	advmod	_	_
 10	meningkat	tingkat	VERB	VB	Voice=Act	0	root	_	_
 11	39,1	39,1	NUM	CD	_	12	nummod	_	_
@@ -2776,7 +2776,7 @@
 2	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	_
 3	perolehan	perolehan	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
 4	laba	laba	NOUN	NN	Number=Sing	3	nmod	_	_
-5	tersebut	sebut	DET	DT	Voice=Pass	3	det	_	_
+5	tersebut	sebut	DET	DT	_	3	det	_	_
 6	didukung	dukung	VERB	VB	Voice=Pass	2	ccomp	_	_
 7	oleh	oleh	ADP	IN	_	8	case	_	_
 8	kinerja	kinerja	NOUN	NN	Number=Sing	6	obl:agent	_	_
@@ -3823,7 +3823,7 @@
 23	,	,	PUNCT	,	_	24	punct	_	_
 24	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	_
 25	transaksi	transaksi	NOUN	NN	Number=Sing	28	nsubj	_	_
-26	tersebut	sebut	DET	DT	Voice=Pass	25	det	_	_
+26	tersebut	sebut	DET	DT	_	25	det	_	_
 27	tidak	tidak	PART	RP	Polarity=Neg	28	advmod	_	_
 28	mengandung	kandung	VERB	VB	Voice=Act	24	ccomp	_	_
 29	unsur	unsur	NOUN	NN	Number=Sing	28	obj	_	_
@@ -4000,7 +4000,7 @@
 # sent_id = s-train-123
 # text = EPA tersebut merupakan pertama kalinya bagi Indonesia, namun yang kedelapan bagi Jepang.
 1	EPA	epa	PROPN	NNP	_	3	nsubj	_	_
-2	tersebut	sebut	DET	DT	Voice=Pass	1	det	_	_
+2	tersebut	sebut	DET	DT	_	1	det	_	_
 3	merupakan	rupa	VERB	VB	Voice=Act	0	root	_	_
 4	pertama	pertama	ADJ	JJ	_	5	amod	_	_
 5-6	kalinya	_	_	_	_	_	_	_	_
@@ -4020,7 +4020,7 @@
 # text = Dalam kesempatan tersebut diumumkan pemenang Annual Reports Award (ARA) 2006 yang terdiri dari 6 kategori.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	kesempatan	kesempatan	NOUN	NN	Number=Sing	4	obl	_	_
-3	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	_
+3	tersebut	sebut	DET	DT	_	2	det	_	_
 4	diumumkan	umum	VERB	VB	Voice=Pass	0	root	_	_
 5	pemenang	menang	NOUN	NN	Number=Sing	4	obl	_	_
 6	Annual	Annual	PROPN	NNP	_	5	nmod	_	_
@@ -4054,7 +4054,7 @@
 12	2007	2007	NUM	CD	_	11	nummod	_	_
 13	dan	dan	CCONJ	CC	_	18	cc	_	_
 14	rencana	rencana	NOUN	NN	Number=Sing	18	nsubj:pass	_	_
-15	tersebut	sebut	DET	DT	Voice=Pass	14	det	_	_
+15	tersebut	sebut	DET	DT	_	14	det	_	_
 16	masih	masih	ADV	RB	_	18	advmod	_	_
 17	akan	akan	AUX	MD	_	18	aux	_	_
 18	didiskusikan	diskusi	VERB	VB	Voice=Pass	7	conj	_	SpaceAfter=No
@@ -4139,7 +4139,7 @@
 # sent_id = s-train-128
 # text = Ketentuan tersebut diatur dalam Permenkeu No. 34/PMK.011/2007 tanggal 3 April 2007 dan mulai berlaku 30 hari setelah ditetapkan selama satu tahun sejak tanggal berlaku.
 1	Ketentuan	tentu	NOUN	NN	Number=Sing	3	nsubj:pass	_	_
-2	tersebut	sebut	DET	DT	Voice=Pass	1	det	_	_
+2	tersebut	sebut	DET	DT	_	1	det	_	_
 3	diatur	atur	VERB	VB	Voice=Pass	0	root	_	_
 4	dalam	dalam	ADP	IN	_	5	case	_	_
 5	Permenkeu	Permenkeu	PROPN	NNP	_	3	obl	_	_
@@ -4184,7 +4184,7 @@
 1	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
 2	Perusahaan	Perusahaan	NOUN	NN	Number=Sing	6	nsubj	_	_
 3	travel	travel	X	FW	Foreign=Yes	2	nmod	_	_
-4	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	_
+4	tersebut	sebut	DET	DT	_	2	det	_	_
 5	sudah	sudah	AUX	MD	_	6	aux	_	_
 6	mempunyai	mempunyai	VERB	VB	Voice=Act	0	root	_	_
 7	keinginan	ingin	NOUN	NN	Number=Sing	6	obj	_	_
@@ -4535,7 +4535,7 @@
 1	Periode	periode	NOUN	NN	Number=Sing	5	nsubj	_	_
 2	penawaran	tawar	NOUN	NN	Number=Sing	1	nmod	_	_
 3	obligasi	obligasi	NOUN	NN	Number=Sing	2	nmod	_	_
-4	tersebut	sebut	DET	DT	Voice=Pass	1	det	_	_
+4	tersebut	sebut	DET	DT	_	1	det	_	_
 5	berlangsung	langsung	VERB	VB	Voice=Act	0	root	_	_
 6	pada	pada	ADP	IN	_	10	case	_	_
 7	24	24	NUM	CD	_	10	nummod	_	SpaceAfter=No
@@ -4606,7 +4606,7 @@
 7	dari	dari	ADP	IN	_	9	case	_	_
 8	keempat	keempat	NUM	CD	_	9	nummod	_	_
 9	bank	bank	NOUN	NN	Number=Sing	5	obl	_	_
-10	tersebut	sebut	DET	DT	Voice=Pass	9	det	_	_
+10	tersebut	sebut	DET	DT	_	9	det	_	_
 11	dengan	dengan	ADP	IN	_	12	case	_	_
 12	total	total	NOUN	NN	Number=Sing	5	obl	_	_
 13	nilai	nilai	NOUN	NN	Number=Sing	12	nmod	_	_
@@ -5306,7 +5306,7 @@
 # sent_id = s-train-167
 # text = Selama bertahun-tahun monyet mengganggu warga Delhi.
 1	Selama	selama	ADP	IN	_	2	case	_	_
-2	bertahun-tahun	tahun	NOUN	NN	Voice=Act	4	obl	_	_
+2	bertahun-tahun	tahun	NOUN	NN	Number=Plur	4	obl	_	_
 3	monyet	monyet	NOUN	NN	Number=Sing	4	nsubj	_	_
 4	mengganggu	ganggu	VERB	VB	Voice=Act	0	root	_	_
 5	warga	warga	NOUN	NN	Number=Sing	4	obj	_	_
@@ -5653,7 +5653,7 @@
 39	gas	gas	NOUN	NN	Number=Sing	38	obj	_	_
 40	dari	dari	ADP	IN	_	41	case	_	_
 41	sumur	sumur	NOUN	NN	Number=Sing	38	obl	_	_
-42	tersebut	sebut	DET	DT	Voice=Pass	41	det	_	_
+42	tersebut	sebut	DET	DT	_	41	det	_	_
 43	ke	ke	ADP	IN	_	44	case	_	_
 44	fasilitas	fasilitas	NOUN	NN	Number=Sing	38	obl	_	_
 45	terdekat	dekat	ADJ	JJ	Degree=Sup	44	amod	_	_
@@ -5731,7 +5731,7 @@
 1	Roekman	roekman	PROPN	NNP	_	2	nsubj	_	_
 2	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	_
 3	pesawat	pesawat	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
-4	tersebut	sebut	DET	DT	Voice=Pass	3	det	_	_
+4	tersebut	sebut	DET	DT	_	3	det	_	_
 5	akan	akan	AUX	MD	_	6	aux	_	_
 6	disewakan	sewa	VERB	VB	Voice=Pass	2	ccomp	_	_
 7	dengan	dengan	ADP	IN	_	8	case	_	_
@@ -5875,7 +5875,7 @@
 2	menjelaskan	jelas	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	defisit	defisit	NOUN	NN	Number=Sing	6	nsubj	_	_
-5	tersebut	sebut	DET	DT	Voice=Pass	4	det	_	_
+5	tersebut	sebut	DET	DT	_	4	det	_	_
 6	merupakan	rupa	VERB	VB	Voice=Act	2	ccomp	_	_
 7	selisih	selisih	NOUN	NN	Number=Sing	6	obj	_	_
 8	kebutuhan	butuh	NOUN	NN	Number=Sing	7	nmod	_	_
@@ -6276,7 +6276,7 @@
 6	di	di	ADP	IN	_	8	case	_	_
 7	dua	dua	NUM	CD	_	8	nummod	_	_
 8	stadion	stadion	NOUN	NN	Number=Sing	5	obl	_	_
-9	tersebut	sebut	DET	DT	Voice=Pass	8	det	_	_
+9	tersebut	sebut	DET	DT	_	8	det	_	_
 10	untuk	untuk	SCONJ	IN	_	11	mark	_	_
 11	mengusir	usir	VERB	VB	Voice=Act	5	advcl	_	_
 12	serbuan	serbu	NOUN	NN	Number=Sing	11	obj	_	_
@@ -6412,7 +6412,7 @@
 3	marah	marah	ADJ	JJ	_	0	root	_	_
 4	dengan	dengan	ADP	IN	_	5	case	_	_
 5	peristiwa	peristiwa	NOUN	NN	Number=Sing	3	obl	_	_
-6	tersebut	sebut	DET	DT	Voice=Pass	5	det	_	_
+6	tersebut	sebut	DET	DT	_	5	det	_	_
 7	dan	dan	CCONJ	CC	_	8	cc	_	_
 8	mengatakan	kata	VERB	VB	Voice=Act	3	conj	_	_
 9	tidak	tidak	PART	RP	Polarity=Neg	10	advmod	_	_
@@ -6441,7 +6441,7 @@
 10	pertambangan	tambang	NOUN	NN	Number=Sing	7	nmod	_	_
 11	minyak	minyak	NOUN	NN	Number=Sing	10	nmod	_	_
 12	pantai	pantai	NOUN	NN	Number=Sing	10	nmod	_	_
-13	tersebut	sebut	DET	DT	Voice=Pass	10	det	_	SpaceAfter=No
+13	tersebut	sebut	DET	DT	_	10	det	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = s-train-207
@@ -6503,14 +6503,14 @@
 18	hak	hak	NOUN	NN	Number=Sing	17	nmod	_	_
 19	atas	atas	ADP	IN	_	20	case	_	_
 20	batu	batu	NOUN	NN	Number=Sing	18	nmod	_	_
-21	tersebut	sebut	DET	DT	Voice=Pass	20	det	_	SpaceAfter=No
+21	tersebut	sebut	DET	DT	_	20	det	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = s-train-209
 # text = "Pertumbuhan tersebut didorong oleh meningkatnya konsumsi serta ekspor," katanya dalam rapat kerja dengan Komisi XI bidang keuangan dan perbankan DPR di Jakarta, Senin.
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
 2	Pertumbuhan	Pertumbuhan	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
-3	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	_
+3	tersebut	sebut	DET	DT	_	2	det	_	_
 4	didorong	dorong	VERB	VB	Voice=Pass	0	root	_	_
 5	oleh	oleh	ADP	IN	_	6	case	_	_
 6-7	meningkatnya	_	_	_	_	_	_	_	_
@@ -6805,7 +6805,7 @@
 # sent_id = s-train-219
 # text = Perusahaan tersebut adalah PT Dinamika Reinsurance Broker pialang reasuransi dan PT Primasindo Insurance Brokers pialang asuransi.
 1	Perusahaan	usaha	NOUN	NN	Number=Sing	4	nsubj	_	_
-2	tersebut	sebut	DET	DT	Voice=Pass	1	det	_	_
+2	tersebut	sebut	DET	DT	_	1	det	_	_
 3	adalah	adalah	AUX	VBZ	_	4	cop	_	_
 4	PT	PT	PROPN	NNP	_	0	root	_	_
 5	Dinamika	Dinamika	PROPN	NNP	_	4	flat:name	_	_
@@ -7212,7 +7212,7 @@
 11	bersih	bersih	ADJ	JJ	_	10	amod	_	_
 12	yang	yang	SCONJ	IN	_	13	mark	_	_
 13	signifikan	signifikan	ADJ	JJ	_	9	acl:relcl	_	_
-14	tersebut	sebut	DET	DT	Voice=Pass	9	det	_	_
+14	tersebut	sebut	DET	DT	_	9	det	_	_
 15	didorong	dorong	VERB	VB	Voice=Pass	8	ccomp	_	_
 16	oleh	oleh	ADP	IN	_	17	case	_	_
 17	peningkatan	tingkat	NOUN	NN	Number=Sing	15	obl:agent	_	_
@@ -8078,7 +8078,7 @@
 26	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	_
 27	bahwa	bahwa	SCONJ	IN	_	30	mark	_	_
 28	jumlah	jumlah	NOUN	NN	Number=Sing	30	nsubj:pass	_	_
-29	tersebut	sebut	DET	DT	Voice=Pass	28	det	_	_
+29	tersebut	sebut	DET	DT	_	28	det	_	_
 30	tercapai	capai	VERB	VB	Voice=Pass	26	advcl	_	_
 31	setelah	setelah	SCONJ	IN	_	36	mark	_	_
 32	pada	pada	ADP	IN	_	34	case	_	_
@@ -8548,7 +8548,7 @@
 1	Fitch	fitch	PROPN	NNP	_	2	nsubj	_	_
 2	menyatakan	nyata	VERB	VB	Voice=Act	0	root	_	_
 3	peringkat-peringkat	peringkat	NOUN	NN	Number=Plur	5	nsubj	_	_
-4	tersebut	sebut	DET	DT	Voice=Pass	3	det	_	_
+4	tersebut	sebut	DET	DT	_	3	det	_	_
 5	mencerminkan	cermin	VERB	VB	Voice=Act	2	ccomp	_	_
 6	posisi	posisi	NOUN	NN	Number=Sing	5	obj	_	_
 7	permodalan	modal	NOUN	NN	Number=Sing	6	nmod	_	_
@@ -8949,7 +8949,7 @@
 4	yang	yang	SCONJ	IN	_	6	mark	_	_
 5	relatif	relatif	ADJ	JJ	_	6	advmod	_	_
 6	tinggi	tinggi	ADJ	JJ	_	2	acl:relcl	_	_
-7	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	_
+7	tersebut	sebut	DET	DT	_	2	det	_	_
 8	masih	masih	ADV	RB	_	10	advmod	_	_
 9	dengan	dengan	ADP	IN	_	10	case	_	_
 10	asumsi	asumsi	NOUN	NN	Number=Sing	0	root	_	_
@@ -8982,7 +8982,7 @@
 10	bersih	bersih	ADJ	JJ	_	9	amod	_	_
 11	yang	yang	SCONJ	IN	_	12	mark	_	_
 12	signifikan	signifikan	ADJ	JJ	_	8	acl:relcl	_	_
-13	tersebut	sebut	DET	DT	Voice=Pass	8	det	_	_
+13	tersebut	sebut	DET	DT	_	8	det	_	_
 14	didorong	dorong	VERB	VB	Voice=Pass	7	ccomp	_	_
 15	oleh	oleh	ADP	IN	_	16	case	_	_
 16	penjualan	jual	NOUN	NN	Number=Sing	14	obl:agent	_	_
@@ -9025,7 +9025,7 @@
 14	22	22	NUM	CD	_	15	nummod	_	_
 15	Februari	Februari	PROPN	NNP	_	12	obl:tmod	_	_
 16	2007	2007	NUM	CD	_	15	nummod	_	_
-17	tersebut	sebut	DET	DT	Voice=Pass	4	det	_	_
+17	tersebut	sebut	DET	DT	_	4	det	_	_
 18	akan	akan	AUX	MD	_	19	aux	_	_
 19	jatuh	jatuh	VERB	VB	Voice=Act	0	root	_	_
 20	tempo	tempo	NOUN	NN	Number=Sing	19	obj	_	_
@@ -9482,7 +9482,7 @@
 2	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	6	obl	_	_
 3	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
 4	kredit	kredit	NOUN	NN	Number=Sing	3	nmod	_	_
-5	tersebut	sebut	DET	DT	Voice=Pass	3	det	_	_
+5	tersebut	sebut	DET	DT	_	3	det	_	_
 6	didorong	dorong	VERB	VB	Voice=Pass	0	root	_	_
 7	oleh	oleh	ADP	IN	_	8	case	_	_
 8	kredit	kredit	NOUN	NN	Number=Sing	6	obl:agent	_	_
@@ -9516,7 +9516,7 @@
 3	mengungkapkan	ungkap	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	ekspor	ekspor	NOUN	NN	Number=Sing	7	nmod	_	_
-6	tersebut	sebut	DET	DT	Voice=Pass	5	det	_	_
+6	tersebut	sebut	DET	DT	_	5	det	_	_
 7	sebesar	sebesar	NOUN	NN	Number=Sing	3	obl	_	_
 8	18	18	NUM	CD	_	9	nummod	_	_
 9	persen	persen	NOUN	NN	Number=Sing	7	nmod	_	_
@@ -9830,7 +9830,7 @@
 14	menjelaskan	jelas	VERB	VB	Voice=Act	0	root	_	_
 15	bahwa	bahwa	SCONJ	IN	_	19	mark	_	_
 16	konsep	konsep	NOUN	NN	Number=Sing	19	nsubj:pass	_	_
-17	tersebut	sebut	DET	DT	Voice=Pass	16	det	_	_
+17	tersebut	sebut	DET	DT	_	16	det	_	_
 18	sudah	sudah	AUX	MD	_	19	aux	_	_
 19	dibahas	bahas	VERB	VB	Voice=Pass	14	advcl	_	_
 20	sehingga	sehingga	SCONJ	IN	_	21	mark	_	_
@@ -9967,7 +9967,7 @@
 # text = Dalam RUPS tersebut pemegang saham juga mengangkat Rozik B Soetjipto sebagai Komisaris Independen untuk periode sampai penutupan RUPS tahunan 2008.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	RUPS	RUPS	PROPN	NNP	_	7	obl	_	_
-3	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	_
+3	tersebut	sebut	DET	DT	_	2	det	_	_
 4	pemegang	pegang	NOUN	NN	Number=Sing	7	nsubj	_	_
 5	saham	saham	NOUN	NN	Number=Sing	4	nmod	_	_
 6	juga	juga	ADV	RB	_	7	advmod	_	_
@@ -10285,7 +10285,7 @@
 1	Dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	_
 3	transaksi	transaksi	NOUN	NN	Number=Sing	6	nsubj	_	_
-4	tersebut	sebut	DET	DT	Voice=Pass	3	det	_	_
+4	tersebut	sebut	DET	DT	_	3	det	_	_
 5	tidak	tidak	PART	RP	Polarity=Neg	6	advmod	_	_
 6	mengandung	kandung	VERB	VB	Voice=Act	2	ccomp	_	_
 7	unsur	unsur	NOUN	NN	Number=Sing	6	obj	_	_
@@ -10623,7 +10623,7 @@
 # text = "Peringkat tersebut mencerminkan industri telekomunikasi yang menguntungkan, model bisnis yang potensial," kata analis dari Pefindo Niken Indriarsih dan Salyadi Saputra kepada BEJ, Jumat.
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
 2	Peringkat	Peringkat	NOUN	NN	Number=Sing	4	nsubj	_	_
-3	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	_
+3	tersebut	sebut	DET	DT	_	2	det	_	_
 4	mencerminkan	cermin	VERB	VB	Voice=Act	0	root	_	_
 5	industri	industri	NOUN	NN	Number=Sing	4	obj	_	_
 6	telekomunikasi	telekomunikasi	NOUN	NN	Number=Sing	5	nmod	_	_
@@ -10967,7 +10967,7 @@
 15	transaksi	transaksi	NOUN	NN	Number=Sing	13	nmod	_	_
 16	penjualan	jual	NOUN	NN	Number=Sing	15	nmod	_	_
 17	kapal	kapal	NOUN	NN	Number=Sing	15	nmod	_	_
-18	tersebut	sebut	DET	DT	Voice=Pass	13	det	_	_
+18	tersebut	sebut	DET	DT	_	13	det	_	_
 19	berkisar	kisar	VERB	VB	Voice=Act	12	ccomp	_	_
 20	antara	antara	ADP	IN	_	23	case	_	_
 21	29,88	29,88	NUM	CD	_	23	nummod	_	_
@@ -11080,7 +11080,7 @@
 # text = Dari angka tersebut, belanja pemerintah pusat mencapai Rp564,6 triliun, sedangkan belanja ke daerah sekitar Rp271,8 triliun.
 1	Dari	dari	ADP	IN	_	2	case	_	_
 2	angka	angka	NOUN	NN	Number=Sing	8	obl	_	_
-3	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	SpaceAfter=No
+3	tersebut	sebut	DET	DT	_	2	det	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	8	punct	_	_
 5	belanja	belanja	NOUN	NN	Number=Sing	8	nsubj	_	_
 6	pemerintah	perintah	NOUN	NN	Number=Sing	5	nmod	_	_
@@ -11108,7 +11108,7 @@
 4	untuk	untuk	SCONJ	IN	_	5	mark	_	_
 5	mengatasi	atas	VERB	VB	Voice=Act	13	advcl	_	_
 6	masalah	masalah	NOUN	NN	Number=Sing	5	obj	_	_
-7	tersebut	sebut	DET	DT	Voice=Pass	6	det	_	SpaceAfter=No
+7	tersebut	sebut	DET	DT	_	6	det	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	13	punct	_	_
 9	BI	BI	PROPN	NNP	_	13	nsubj	_	_
 10	tidak	tidak	PART	RP	Polarity=Neg	13	advmod	_	_
@@ -11496,7 +11496,7 @@
 4	perseroan	perseroan	NOUN	NN	Number=Sing	2	nmod	_	_
 5	dalam	dalam	ADP	IN	_	6	case	_	_
 6	periode	periode	NOUN	NN	Number=Sing	2	nmod:tmod	_	_
-7	tersebut	sebut	DET	DT	Voice=Pass	6	det	_	_
+7	tersebut	sebut	DET	DT	_	6	det	_	_
 8	tampak	tampak	VERB	VB	Voice=Act	0	root	_	_
 9	naik	naik	VERB	VB	Voice=Act	8	ccomp	_	_
 10	tipis	tipis	ADJ	JJ	_	9	xcomp	_	_
@@ -11548,7 +11548,7 @@
 13	exposure	exposure	X	FW	Foreign=Yes	12	flat:foreign	_	_
 14	(	(	PUNCT	-LRB-	_	12	punct	_	SpaceAfter=No
 15	paparan	papar	NOUN	NN	Number=Sing	12	nmod	_	_
-16	berlebihan	lebih	ADJ	JJ	Voice=Act	15	amod	_	SpaceAfter=No
+16	berlebihan	lebih	ADJ	JJ	_	15	amod	_	SpaceAfter=No
 17	)	)	PUNCT	-RRB-	_	12	punct	_	_
 18	ekonomi	ekonomi	NOUN	NN	Number=Sing	12	nmod	_	_
 19	Indonesia	Indonesia	PROPN	NNP	_	18	nmod	_	_
@@ -11619,7 +11619,7 @@
 8	belakang	belakang	NOUN	NN	Number=Sing	7	nmod	_	_
 9	kebijakan	bijak	NOUN	NN	Number=Sing	7	nmod	_	_
 10	investasi	investasi	NOUN	NN	Number=Sing	9	nmod	_	_
-11	tersebut	sebut	DET	DT	Voice=Pass	9	det	_	SpaceAfter=No
+11	tersebut	sebut	DET	DT	_	9	det	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = s-train-372
@@ -11756,7 +11756,7 @@
 9	melakukan	laku	VERB	VB	Voice=Act	0	root	_	_
 10	lelang	lelang	NOUN	NN	Number=Sing	9	obj	_	_
 11	obligasi	obligasi	NOUN	NN	Number=Sing	10	nmod	_	_
-12	tersebut	sebut	DET	DT	Voice=Pass	10	det	_	_
+12	tersebut	sebut	DET	DT	_	10	det	_	_
 13	atau	atau	CCONJ	CC	_	14	cc	_	_
 14	Surat	Surat	PROPN	NNP	_	10	conj	_	_
 15	Utang	Utang	PROPN	NNP	_	14	flat:name	_	_
@@ -11853,7 +11853,7 @@
 15	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	15	punct	_	_
 17	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	19	nsubj:pass	_	_
-18	tersebut	sebut	DET	DT	Voice=Pass	17	det	_	_
+18	tersebut	sebut	DET	DT	_	17	det	_	_
 19	didorong	dorong	VERB	VB	Voice=Pass	15	ccomp	_	_
 20	oleh	oleh	ADP	IN	_	21	case	_	_
 21	laju	laju	NOUN	NN	Number=Sing	19	obl:agent	_	_
@@ -11913,7 +11913,7 @@
 7	Jumat	Jumat	PROPN	NNP	_	1	obl:tmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	1	punct	_	_
 9	buku	buku	NOUN	NN	Number=Sing	11	nsubj	_	_
-10	tersebut	sebut	DET	DT	Voice=Pass	9	det	_	_
+10	tersebut	sebut	DET	DT	_	9	det	_	_
 11	merupakan	rupa	VERB	VB	Voice=Act	0	root	_	_
 12	hasil	hasil	NOUN	NN	Number=Sing	11	obj	_	_
 13	kajian	kaji	NOUN	NN	Number=Sing	12	nmod	_	_
@@ -12300,7 +12300,7 @@
 2	produksi	produksi	NOUN	NN	Number=Sing	1	nmod	_	_
 3	CPO	CPO	PROPN	NNP	_	2	nmod	_	_
 4	AALI	AALI	PROPN	NNP	_	2	nmod	_	_
-5	tersebut	sebut	DET	DT	Voice=Pass	1	det	_	_
+5	tersebut	sebut	DET	DT	_	1	det	_	_
 6	karena	karena	ADP	IN	_	7	case	_	_
 7-8	meningkatnya	_	_	_	_	_	_	_	_
 7	meningkat	tingkat	VERB	VB	Voice=Act	1	acl:relcl	_	_
@@ -13224,7 +13224,7 @@
 19	merealisasikan	realisasi	VERB	VB	Voice=Act	17	advcl	_	_
 20	rencana	rencana	NOUN	NN	Number=Sing	19	obj	_	_
 21	film	film	NOUN	NN	Number=Sing	20	nmod	_	_
-22	tersebut	sebut	DET	DT	Voice=Pass	20	det	_	SpaceAfter=No
+22	tersebut	sebut	DET	DT	_	20	det	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = s-train-424
@@ -13348,7 +13348,7 @@
 11	triliun	triliun	NUM	CD	_	10	flat	_	_
 12	namun	namun	CCONJ	CC	_	15	cc	_	_
 13	penurunan	turun	NOUN	NN	Number=Sing	15	nsubj:pass	_	_
-14	tersebut	sebut	DET	DT	Voice=Pass	13	det	_	_
+14	tersebut	sebut	DET	DT	_	13	det	_	_
 15	diperkirakan	kira	VERB	VB	Voice=Pass	6	conj	_	_
 16	bersifat	sifat	VERB	VB	Voice=Act	15	ccomp	_	_
 17	musiman	musim	NOUN	NN	_	16	obl	_	_
@@ -13468,7 +13468,7 @@
 # text = "Proyek-proyek tersebut dibiayai pinjaman yang dibuat pada 2000-2006," katanya.
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
 2	Proyek-proyek	Proyek-proyek	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
-3	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	_
+3	tersebut	sebut	DET	DT	_	2	det	_	_
 4	dibiayai	biaya	VERB	VB	Voice=Pass	0	root	_	_
 5	pinjaman	pinjam	NOUN	NN	Number=Sing	4	obl	_	_
 6	yang	yang	SCONJ	IN	_	7	mark	_	_
@@ -13652,7 +13652,7 @@
 9	pelaksanaan	laksana	NOUN	NN	Number=Sing	2	nmod	_	_
 10	corporate	corporate	X	FW	Foreign=Yes	9	nmod	_	_
 11	action	action	X	FW	Foreign=Yes	10	flat:foreign	_	_
-12	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	SpaceAfter=No
+12	tersebut	sebut	DET	DT	_	2	det	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	_	_
 14	saat	saat	NOUN	NN	Number=Sing	16	nsubj	_	_
 15	ini	ini	DET	DT	PronType=Dem	14	det	_	_
@@ -13706,7 +13706,7 @@
 # text = "Surplus tersebut didukung oleh surplus pada neraca transaksi berjalan sebesar 8,9 miliar dolar AS dan surplus neraca modal dan finansial sebesar 4,9 miliar dolar AS," kata Gubernur Bank Indonesia Burhanudin Abdullah pada rapat kerja dengan DPR RI Komisi XI di Jakarta, Jumat dini hari.
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
 2	Surplus	Surplus	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
-3	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	_
+3	tersebut	sebut	DET	DT	_	2	det	_	_
 4	didukung	dukung	VERB	VB	Voice=Pass	0	root	_	_
 5	oleh	oleh	ADP	IN	_	6	case	_	_
 6	surplus	surplus	NOUN	NN	Number=Sing	4	obl:agent	_	_
@@ -13941,7 +13941,7 @@
 4	transaksi	transaksi	NOUN	NN	Number=Sing	8	nsubj	_	_
 5	pembelian	beli	NOUN	NN	Number=Sing	4	nmod	_	_
 6	saham	saham	NOUN	NN	Number=Sing	4	nmod	_	_
-7	tersebut	sebut	DET	DT	Voice=Pass	4	det	_	_
+7	tersebut	sebut	DET	DT	_	4	det	_	_
 8	berlangsung	langsung	VERB	VB	Voice=Act	0	root	_	_
 9	pada	pada	ADP	IN	_	11	case	_	_
 10	5	5	NUM	CD	_	11	nummod	_	_
@@ -14244,7 +14244,7 @@
 10	dana	dana	NOUN	NN	Number=Sing	9	nmod	_	_
 11	pembelian	beli	NOUN	NN	Number=Sing	9	nmod	_	_
 12	kapal	kapal	NOUN	NN	Number=Sing	11	nmod	_	_
-13	tersebut	sebut	DET	DT	Voice=Pass	11	det	_	SpaceAfter=No
+13	tersebut	sebut	DET	DT	_	11	det	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
 15	"	"	PUNCT	''	_	4	punct	_	_
 16	kata	kata	VERB	VB	Voice=Act	4	parataxis	_	_
@@ -14302,7 +14302,7 @@
 19	saham	saham	NOUN	NN	Number=Sing	18	nmod	_	_
 20	dalam	dalam	ADP	IN	_	21	case	_	_
 21	PLTA	PLTA	PROPN	NNP	_	17	nmod	_	_
-22	tersebut	sebut	DET	DT	Voice=Pass	21	det	_	_
+22	tersebut	sebut	DET	DT	_	21	det	_	_
 23	dan	dan	CCONJ	CC	_	27	cc	_	_
 24	hal	hal	NOUN	NN	Number=Sing	27	nsubj:pass	_	_
 25	itu	itu	DET	DT	PronType=Dem	24	det	_	_
@@ -14479,7 +14479,7 @@
 29	60.000	60.000	NUM	CD	_	27	nummod	_	_
 30	untuk	untuk	ADP	IN	_	31	case	_	_
 31	jamrud	jamrud	NOUN	NN	Number=Sing	19	obl	_	_
-32	tersebut	sebut	DET	DT	Voice=Pass	31	det	_	_
+32	tersebut	sebut	DET	DT	_	31	det	_	_
 33	tak	tak	PART	RP	Polarity=Neg	34	advmod	_	_
 34	lama	lama	ADJ	JJ	_	19	xcomp	_	_
 35	setelah	setelah	SCONJ	IN	_	36	mark	_	_
@@ -14678,7 +14678,7 @@
 4	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	3	punct	_	_
 6	peringkat	peringkat	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
-7	tersebut	sebut	DET	DT	Voice=Pass	6	det	_	_
+7	tersebut	sebut	DET	DT	_	6	det	_	_
 8	dibatasi	batas	VERB	VB	Voice=Pass	0	root	_	_
 9	oleh	oleh	ADP	IN	_	10	case	_	_
 10	rata-rata	rata	NOUN	NN	Number=Sing	8	obl:agent	_	_
@@ -14707,7 +14707,7 @@
 # sent_id = s-train-470
 # text = Transaksi tersebut, katanya, dilakukan di BEJ antara 30 menit sesudah pembukaan dan 30 menit sebelum penutupan pada harga rata-rata Rp9.770 per saham melalui broker pelaksana PT Danareksa, sehingga total saham yang tersisa dari jumlah maksimal pembelian yang diizinkan menjadi 885.473.464 lembar saham.
 1	Transaksi	transaksi	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
-2	tersebut	sebut	DET	DT	Voice=Pass	1	det	_	SpaceAfter=No
+2	tersebut	sebut	DET	DT	_	1	det	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	_	_
 4-5	katanya	_	_	_	_	_	_	_	SpaceAfter=No
 4	kata	kata	VERB	VB	Voice=Act	7	parataxis	_	_
@@ -14776,7 +14776,7 @@
 4	krisis	krisis	NOUN	NN	Number=Sing	10	nsubj	_	_
 5	subprime	subprime	X	FW	Foreign=Yes	4	nmod	_	_
 6	mortgage	mortgage	X	FW	Foreign=Yes	5	flat:foreign	_	_
-7	tersebut	sebut	DET	DT	Voice=Pass	4	det	_	_
+7	tersebut	sebut	DET	DT	_	4	det	_	_
 8	dapat	dapat	AUX	MD	_	10	aux	_	_
 9	segera	segera	ADV	RB	_	10	advmod	_	_
 10	selesai	selesai	VERB	VB	Voice=Act	2	ccomp	_	_
@@ -14973,7 +14973,7 @@
 # sent_id = s-train-480
 # text = Defisit tersebut, merupakan selisih antara penerimaan negara dan hibah sebesar Rp761,4 triliun dengan belanja negara Rp836,4 triliun.
 1	Defisit	defisit	NOUN	NN	Number=Sing	4	nsubj	_	_
-2	tersebut	sebut	DET	DT	Voice=Pass	1	det	_	SpaceAfter=No
+2	tersebut	sebut	DET	DT	_	1	det	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	_	_
 4	merupakan	rupa	VERB	VB	Voice=Act	0	root	_	_
 5	selisih	selisih	NOUN	NN	Number=Sing	4	obj	_	_
@@ -15343,7 +15343,7 @@
 1	Ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	_
 3	anomali	anomali	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
-4	tersebut	sebut	DET	DT	Voice=Pass	3	det	_	_
+4	tersebut	sebut	DET	DT	_	3	det	_	_
 5	terjadi	jadi	VERB	VB	Voice=Pass	2	ccomp	_	_
 6	di	di	ADP	IN	_	7	case	_	_
 7	mana	mana	PRON	PRP	Number=Sing	14	obl	_	_
@@ -15639,7 +15639,7 @@
 12	adalah	adalah	AUX	VBZ	_	13	cop	_	_
 13	mendorong	dorong	VERB	VB	Voice=Act	0	root	_	_
 14	perdebatan	debat	NOUN	NN	Number=Sing	13	obj	_	_
-15	mengenai	kena	SCONJ	IN	Voice=Act	17	mark	_	_
+15	mengenai	kena	SCONJ	IN	_	17	mark	_	_
 16	apa	apa	PRON	WP	_	17	nmod	_	_
 17	arti	arti	NOUN	NN	Number=Sing	14	acl	_	_
 18	beramal	amal	VERB	VB	Voice=Act	17	acl:relcl	_	_
@@ -15878,7 +15878,7 @@
 4	di	di	ADP	IN	_	5	case	_	_
 5	Sumatera	Sumatera	PROPN	NNP	_	3	obl	_	_
 6	Utara	Utara	PROPN	NNP	_	5	flat:name	_	_
-7	tersebut	sebut	DET	DT	Voice=Pass	1	det	_	_
+7	tersebut	sebut	DET	DT	_	1	det	_	_
 8	dituding	tuding	VERB	VB	Voice=Pass	0	root	_	_
 9	menjadi	jadi	VERB	VB	Voice=Act	8	ccomp	_	_
 10	penyebab	sebab	NOUN	NN	Number=Sing	9	obj	_	_
@@ -15912,7 +15912,7 @@
 10	dari	dari	ADP	IN	_	11	case	_	_
 11	penjualan	jual	NOUN	NN	Number=Sing	9	nmod	_	_
 12	saham	saham	NOUN	NN	Number=Sing	11	nmod	_	_
-13	tersebut	sebut	DET	DT	Voice=Pass	6	det	_	SpaceAfter=No
+13	tersebut	sebut	DET	DT	_	6	det	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = s-train-511
@@ -16726,7 +16726,7 @@
 20	dalam	dalam	ADP	IN	_	21	case	_	_
 21	pelaksanaan	laksana	NOUN	NN	Number=Sing	14	nmod	_	_
 22	program	program	NOUN	NN	Number=Sing	21	nmod	_	_
-23	tersebut	sebut	DET	DT	Voice=Pass	21	det	_	_
+23	tersebut	sebut	DET	DT	_	21	det	_	_
 24	mencapai	capai	VERB	VB	Voice=Act	0	root	_	_
 25	Rp	Rp	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
 26	255	255	NUM	CD	_	25	nummod	_	_
@@ -17149,7 +17149,7 @@
 6	pinjaman	pinjam	NOUN	NN	Number=Sing	5	nmod	_	_
 7	menjadi	jadi	VERB	VB	Voice=Act	3	advcl	_	_
 8	modal	modal	NOUN	NN	Number=Sing	7	obj	_	_
-9	tersebut	sebut	DET	DT	Voice=Pass	3	det	_	SpaceAfter=No
+9	tersebut	sebut	DET	DT	_	3	det	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	15	punct	_	_
 11	maka	maka	SCONJ	IN	_	12	mark	_	_
 12	modal	modal	NOUN	NN	Number=Sing	15	nsubj	_	_
@@ -17937,7 +17937,7 @@
 5	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	9	obl	_	_
 6	sektor	sektor	NOUN	NN	Number=Sing	5	nmod	_	_
 7	riil	riil	ADJ	JJ	_	6	amod	_	_
-8	tersebut	sebut	DET	DT	Voice=Pass	5	det	_	_
+8	tersebut	sebut	DET	DT	_	5	det	_	_
 9	diprediksi	diprediksi	VERB	VB	Voice=Pass	0	root	_	_
 10	dapat	dapat	AUX	MD	_	11	aux	_	_
 11	mendorong	dorong	VERB	VB	Voice=Act	9	ccomp	_	_
@@ -18172,7 +18172,7 @@
 3	,	,	PUNCT	,	_	8	punct	_	_
 4	penjualan	jual	NOUN	NN	Number=Sing	8	nsubj	_	_
 5	saham	saham	NOUN	NN	Number=Sing	4	nmod	_	_
-6	tersebut	sebut	DET	DT	Voice=Pass	4	det	_	_
+6	tersebut	sebut	DET	DT	_	4	det	_	_
 7	akan	akan	AUX	MD	_	8	aux	_	_
 8	berlaku	laku	VERB	VB	Voice=Act	0	root	_	_
 9	efektif	efektif	ADJ	JJ	_	8	xcomp	_	_
@@ -18351,7 +18351,7 @@
 5	prospek	prospek	NOUN	NN	Number=Sing	3	nmod	_	_
 6	untuk	untuk	ADP	IN	_	7	case	_	_
 7	peringkat	peringkat	NOUN	NN	Number=Sing	3	nmod	_	_
-8	tersebut	sebut	DET	DT	Voice=Pass	7	det	_	_
+8	tersebut	sebut	DET	DT	_	7	det	_	_
 9	adalah	adalah	AUX	VBZ	_	10	cop	_	_
 10	stabil	stabil	ADJ	JJ	_	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	10	punct	_	_
@@ -18649,7 +18649,7 @@
 # sent_id = s-train-600
 # text = Perusahaan-perusahaan tersebut terdiri dari dua perusahaan di bidang pialang asuransi, yaitu PT Putera Master Insurance Broker dan PT Esa Tama.
 1	Perusahaan-perusahaan	usaha	NOUN	NN	Number=Plur	3	nsubj:pass	_	_
-2	tersebut	sebut	DET	DT	Voice=Pass	1	det	_	_
+2	tersebut	sebut	DET	DT	_	1	det	_	_
 3	terdiri	terdiri	VERB	VB	Voice=Pass	0	root	_	_
 4	dari	dari	ADP	IN	_	6	case	_	_
 5	dua	dua	NUM	CD	_	6	nummod	_	_
@@ -18739,12 +18739,12 @@
 18	pembuatan	buat	NOUN	NN	Number=Sing	14	nmod	_	_
 19	komponen	komponen	NOUN	NN	Number=Sing	18	nmod	_	_
 20	kendaraan	kendara	NOUN	NN	Number=Sing	18	nmod	_	_
-21	bermotor	motor	NOUN	NN	Voice=Act	20	nmod	_	_
+21	bermotor	motor	VERB	VB	Voice=Act	20	acl	_	_
 22	oleh	oleh	ADP	IN	_	23	case	_	_
 23	industri	industri	NOUN	NN	Number=Sing	14	nmod	_	_
 24	komponen	komponen	NOUN	NN	Number=Sing	23	nmod	_	_
 25	kendaraan	kendara	NOUN	NN	Number=Sing	23	nmod	_	_
-26	bermotor	motor	NOUN	NN	Voice=Act	25	nmod	_	SpaceAfter=No
+26	bermotor	motor	VERB	VB	Voice=Act	25	acl	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = s-train-603
@@ -19013,7 +19013,7 @@
 20	cara	cara	NOUN	NN	Number=Sing	6	nmod	_	_
 21	mengalihkan	alih	VERB	VB	Voice=Act	20	acl:relcl	_	_
 22	piutang	piutang	NOUN	NN	Number=Sing	21	obj	_	_
-23	tersebut	sebut	DET	DT	Voice=Pass	22	det	_	_
+23	tersebut	sebut	DET	DT	_	22	det	_	_
 24	kepada	kepada	ADP	IN	_	25	case	_	_
 25	PT	PT	PROPN	NNP	_	21	obl	_	_
 26	Inter	Inter	PROPN	NNP	_	25	flat:name	_	_
@@ -19559,7 +19559,7 @@
 1	"	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
 2	Untuk	Untuk	ADP	IN	_	3	case	_	_
 3	kebutuhan	butuh	NOUN	NN	Number=Sing	7	obl	_	_
-4	tersebut	sebut	DET	DT	Voice=Pass	3	det	_	_
+4	tersebut	sebut	DET	DT	_	3	det	_	_
 5	kami	kami	PRON	PRP	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 6	akan	akan	AUX	MD	_	7	aux	_	_
 7	menanam	tanam	VERB	VB	Voice=Act	0	root	_	_
@@ -19637,7 +19637,7 @@
 41	kembali	kembali	ADV	RB	_	40	advmod	_	_
 42	atas	atas	ADP	IN	_	43	case	_	_
 43	saham	saham	NOUN	NN	Number=Sing	40	nmod	_	_
-44	tersebut	sebut	DET	DT	Voice=Pass	43	det	_	_
+44	tersebut	sebut	DET	DT	_	43	det	_	_
 45	hingga	hingga	ADP	IN	_	46	case	_	_
 46	Juni	Juni	PROPN	NNP	_	36	nmod:tmod	_	_
 47	2007	2007	NUM	CD	_	46	nummod	_	SpaceAfter=No
@@ -19690,7 +19690,7 @@
 7	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
 8	laba	laba	NOUN	NN	Number=Sing	7	nmod	_	_
 9	bersih	bersih	ADJ	JJ	_	8	amod	_	_
-10	tersebut	sebut	DET	DT	Voice=Pass	7	det	_	_
+10	tersebut	sebut	DET	DT	_	7	det	_	_
 11	didukung	dukung	VERB	VB	Voice=Pass	6	ccomp	_	_
 12	oleh	oleh	ADP	IN	_	13	case	_	_
 13	penjualan	jual	NOUN	NN	Number=Sing	11	obl:agent	_	_
@@ -20135,7 +20135,7 @@
 4	jumlah	jumlah	NOUN	NN	Number=Sing	2	nmod	_	_
 5	nilai	nilai	NOUN	NN	Number=Sing	4	nmod	_	_
 6	transaksi	transaksi	NOUN	NN	Number=Sing	4	nmod	_	_
-7	tersebut	sebut	DET	DT	Voice=Pass	4	det	_	SpaceAfter=No
+7	tersebut	sebut	DET	DT	_	4	det	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	2	punct	_	_
 9	yaitu	yaitu	SCONJ	IN	_	10	mark	_	_
 10	sebesar	sebesar	NOUN	NN	Number=Sing	2	nmod	_	_
@@ -20279,7 +20279,7 @@
 35	resmi	resmi	ADJ	JJ	_	34	amod	_	_
 36	mengenai	kena	ADP	IN	_	37	case	_	_
 37	pergantian	ganti	NOUN	NN	Number=Sing	34	nmod	_	_
-38	tersebut	sebut	DET	DT	Voice=Pass	37	det	_	SpaceAfter=No
+38	tersebut	sebut	DET	DT	_	37	det	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	23	punct	_	_
 
 # sent_id = s-train-651
