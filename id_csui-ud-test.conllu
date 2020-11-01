@@ -5944,7 +5944,7 @@
 7	untuk	untuk	SCONJ	IN	_	8	mark	_	_
 8	makan	makan	VERB	VB	Voice=Act	6	ccomp	_	_
 9	pangsit	pangsit	NOUN	NN	Number=Sing	8	obj	_	_
-10	kapan	kapan	ADV	WRB	Number=Sing	13	advmod	_	_
+10	kapan	kapan	ADV	WRB	_	13	advmod	_	_
 11	pun	pun	PART	RP	_	10	advmod:emph	_	_
 12	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	mau	mau	VERB	VB	Voice=Act	8	advcl	_	SpaceAfter=No
@@ -10567,7 +10567,7 @@
 
 # sent_id = s-test-350
 # text = Mengenai adanya kekhawatiran tentang besarnya utang perseroan, Kevin mengatakan, hal itu tidak perlu dirisaukan, karena perseroan tidak hanya mengutang saja, melainkan juga berbuat sesuatu untuk mengembalikan rasio-rasio utangnya sehingga kembali menjadi perusahaan yang sehat.
-1	Mengenai	kena	SCONJ	IN	Voice=Act	2	mark	_	_
+1	Mengenai	kena	SCONJ	IN	_	2	mark	_	_
 2-3	adanya	_	_	_	_	_	_	_	_
 2	ada	ada	VERB	VB	Voice=Act	12	advcl	_	_
 3	nya	nya	DET	DT	_	2	det	_	_
