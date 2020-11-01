@@ -15071,7 +15071,7 @@
 # sent_id = s-train-483
 # text = "Ini mendorong kenaikan Indeks Harga Saham Gabungan (IHSG) pada level tertinggi pada Oktober 2007 karena dipicu oleh arus modal masuk," katanya.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
-2	ini	ini	PRON	PRP	PronType=Dem	3	nsubj	_	_
+2	Ini	ini	PRON	PRP	PronType=Dem	3	nsubj	_	_
 3	mendorong	dorong	VERB	VB	Voice=Act	0	root	_	_
 4	kenaikan	naik	NOUN	NN	Number=Sing	3	obj	_	_
 5	Indeks	Indeks	NOUN	NN	Number=Sing	4	nmod	_	_
@@ -18223,7 +18223,7 @@
 # sent_id = s-train-585
 # text = "Ini penting terutama pada saat kita harus menghadapi kondisi perekonomian dan pasar uang global yang tidak selalu tenang, dan berpotensi untuk bergejolak," kata Presiden.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
-2	ini	ini	PRON	PRP	PronType=Dem	3	obl	_	_
+2	Ini	ini	PRON	PRP	PronType=Dem	3	obl	_	_
 3	penting	penting	ADJ	JJ	_	0	root	_	_
 4	terutama	utama	ADV	RB	_	3	advmod	_	_
 5	pada	pada	ADP	IN	_	6	case	_	_
@@ -18255,7 +18255,7 @@
 # sent_id = s-train-586
 # text = "Ini untuk pembangunan hutan tanaman rakyat di seluruh Indonesia, daerahnya belum ditentukan tapi bisa saja di Riau, Jambi, atau daerah lainnya," katanya.
 1	"	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
-2	ini	ini	PRON	PRP	PronType=Dem	0	root	_	_
+2	Ini	ini	PRON	PRP	PronType=Dem	0	root	_	_
 3	untuk	untuk	ADP	IN	_	4	case	_	_
 4	pembangunan	bangun	NOUN	NN	Number=Sing	2	nmod	_	_
 5	hutan	hutan	NOUN	NN	Number=Sing	4	nmod	_	_
