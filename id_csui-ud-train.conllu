@@ -1168,7 +1168,7 @@
 15	)	)	PUNCT	-RRB-	_	10	punct	_	_
 16	dan	dan	CCONJ	CC	_	18	cc	_	_
 17	ANZ	ANZ	PROPN	NNP	_	18	nsubj	_	_
-18	memiliki	milik	VERB	VB	Voice=Act	2	conj	_	_
+18	memiliki	milik	VERB	VB	Voice=Act	3	conj	_	_
 19	kepemilikan	kepemilikan	NOUN	NN	Number=Sing	18	obj	_	_
 20	minoritas	minoritas	NOUN	NN	Number=Sing	19	nmod	_	_
 21	di	di	ADP	IN	_	22	case	_	_
@@ -6935,7 +6935,7 @@
 
 # sent_id = csui-train-223
 # text = Sedangkan outstanding pinjaman LN pada akhir triwulan I/2006 mencapai 134,627 miliar dolar AS, turun menjadi 129,934 miliar dolar AS pada akhir triwulan II/2006, dan menjadi 127,528 miliar dolar AS pada akhir triwulan III/2006.
-1	Sedangkan	sedangkan	CCONJ	CC	_	15	cc	_	_
+1	Sedangkan	sedangkan	CCONJ	CC	_	9	cc	_	_
 2	outstanding	outstanding	X	FW	Foreign=Yes	9	nsubj	_	_
 3	pinjaman	pinjam	NOUN	NN	Number=Sing	2	nmod	_	_
 4	LN	LN	NOUN	NN	Number=Sing	3	nmod	_	_
@@ -7886,7 +7886,7 @@
 1	"	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
 2	Kalau	Kalau	SCONJ	IN	_	4	mark	_	_
 3	itu	itu	PRON	PRP	PronType=Dem	4	nsubj:pass	_	_
-4	dimasukkan	masuk	VERB	VB	Voice=Pass	14	advcl	_	_
+4	dimasukkan	masuk	VERB	VB	Voice=Pass	10	advcl	_	_
 5	mungkin	mungkin	AUX	MD	_	10	aux	_	_
 6-7	pendapatannya	_	_	_	_	_	_	_	_
 6	pendapatan	dapat	NOUN	NN	Number=Sing	10	nsubj	_	_
@@ -17533,7 +17533,7 @@
 8	Goeltom	Goeltom	PROPN	NNP	_	6	flat:name	_	_
 9	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	_	_
-11	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	20	nsubj	_	_
+11	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	21	nsubj	_	_
 12	ekonomi	ekonomi	NOUN	NN	Number=Sing	11	nmod	_	_
 13	Indonesia	Indonesia	PROPN	NNP	_	11	nmod	_	_
 14	yang	yang	PRON	PRP	PronType=Rel	11	nmod	_	_
