@@ -181,7 +181,7 @@
 10	instrumen	instrumen	NOUN	NN	Number=Sing	9	nmod	_	_
 11	nya	nya	PRON	PRP$	_	9	nmod:poss	_	_
 12	,	,	PUNCT	,	_	14	punct	_	_
-13	kapan	kapan	ADV	WRB	Number=Sing	14	advmod	_	_
+13	kapan	kapan	ADV	WRB	_	14	advmod	_	_
 14	mengeluarkan	keluar	VERB	VB	Voice=Act	9	conj	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	18	punct	_	_
 16	dan	dan	CCONJ	CC	_	18	cc	_	_
@@ -11484,7 +11484,7 @@
 9	'	'	PUNCT	''	_	6	punct	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	4	punct	_	_
 11	jadi	jadi	SCONJ	IN	_	13	mark	_	_
-12	jangan-jangan	jangan	PART	RP	Polarity=Neg	13	advmod	_	_
+12	jangan-jangan	jangan	ADV	RB	_	13	advmod	_	_
 13	susah	susah	ADJ	JJ	_	4	advcl	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	4	punct	_	_
 
