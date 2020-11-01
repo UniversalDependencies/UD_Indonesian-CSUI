@@ -1,4 +1,4 @@
-# sent_id = s-test-1
+# sent_id = csui-test-1
 # text = Kera untuk amankan pesta olahraga
 1	Kera	kera	NOUN	NN	Number=Sing	0	root	_	_
 2	untuk	untuk	SCONJ	IN	_	3	mark	_	_
@@ -6,7 +6,7 @@
 4	pesta	pesta	NOUN	NN	Number=Sing	3	obj	_	_
 5	olahraga	olahraga	NOUN	NN	Number=Sing	4	nmod	_	_
 
-# sent_id = s-test-2
+# sent_id = csui-test-2
 # text = Pemerintah kota Delhi mengerahkan monyet untuk mengusir monyet-monyet lain yang berbadan lebih kecil dari arena Pesta Olahraga Persemakmuran.
 1	Pemerintah	perintah	NOUN	NN	Number=Sing	4	nsubj	_	_
 2	kota	kota	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -28,7 +28,7 @@
 18	Persemakmuran	Persemakmuran	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-3
+# sent_id = csui-test-3
 # text = Beberapa laporan menyebutkan setidaknya 10 monyet ditempatkan di luar arena lomba dan pertandingan di ibukota India.
 1	Beberapa	beberapa	DET	DT	_	2	det	_	_
 2	laporan	lapor	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -48,7 +48,7 @@
 16	India	India	PROPN	NNP	_	15	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-4
+# sent_id = csui-test-4
 # text = Pemkot Delhi memiliki 28 monyet dan berencana mendatangkan 10 monyet sejenis dari negara bagian Rajasthan.
 1	Pemkot	pemkot	PROPN	NNP	_	3	nsubj	_	_
 2	Delhi	Delhi	PROPN	NNP	_	1	flat:name	_	_
@@ -67,7 +67,7 @@
 15	Rajasthan	Rajasthan	PROPN	NNP	_	13	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-5
+# sent_id = csui-test-5
 # text = Jumlah monyet di ibukota India mencapai ribuan, sebagian besar berada di kantor-kantor pemerintah dan hewan ini dianggap mengganggu ketertiban umum.
 1	Jumlah	jumlah	NOUN	NN	Number=Sing	6	nsubj	_	_
 2	monyet	monyet	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -92,7 +92,7 @@
 21	umum	umum	ADJ	JJ	_	20	amod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-6
+# sent_id = csui-test-6
 # text = Thomas hanya salah satu dari enam pihak yang mengklaim sebagai pemilik jamrud raksasa itu.
 1	Thomas	thomas	PROPN	NNP	_	4	nsubj	_	_
 2	hanya	hanya	ADV	RB	_	4	advmod	_	_
@@ -110,7 +110,7 @@
 14	itu	itu	DET	DT	PronType=Dem	12	det	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-7
+# sent_id = csui-test-7
 # text = Satu masalah yang dihadapi adalah dia kehilangan tanda terima akibat kebakaran yang melanda rumahnya.
 1	Satu	satu	NUM	CD	_	2	nummod	_	_
 2	masalah	masalah	NOUN	NN	Number=Sing	5	nsubj	_	_
@@ -130,7 +130,7 @@
 15	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
 16	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-8
+# sent_id = csui-test-8
 # text = Jamrud itu akhirnya sampai ke Amerika, meskipun setibanya di Amerika tidak jelas siapa pemiliknya.
 1	Jamrud	jamrud	NOUN	NN	Number=Sing	4	nsubj	_	_
 2	itu	itu	DET	DT	PronType=Dem	1	det	_	_
@@ -155,7 +155,7 @@
 18	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
 19	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-9
+# sent_id = csui-test-9
 # text = Satu hal yang diketahui batu itu sempat disimpan di lemari besi bank di New Orleans yang terkena banjir ketika daerah itu diterjang Badai Katrina, sehingga batu berharga terendam di dalam air untuk beberapa bulan.
 1	Satu	satu	NUM	CD	_	2	nummod	_	_
 2	hal	hal	NOUN	NN	Number=Sing	8	obl	_	_
@@ -194,7 +194,7 @@
 35	bulan	bulan	NOUN	NN	Number=Sing	29	obl:tmod	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-10
+# sent_id = csui-test-10
 # text = Jamrud Bahia kemudian dibawa ke Las Vegas untuk dilihat oleh calon pembeli namun disita oleh polisi Los Angeles.
 1	Jamrud	jamrud	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
 2	Bahia	Bahia	PROPN	NNP	_	1	nmod	_	_
@@ -216,7 +216,7 @@
 18	Angeles	Angeles	PROPN	NNP	_	17	flat:name	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-11
+# sent_id = csui-test-11
 # text = Dan Sarah Murdoch- seorang model yang merangkap presenter TV - menikah dengan putra Rupert, Lachlan.
 1	Dan	dan	CCONJ	CC	_	12	cc	_	_
 2	Sarah	Sarah	PROPN	NNP	_	12	nsubj	_	_
@@ -237,7 +237,7 @@
 17	Lachlan	Lachlan	PROPN	NNP	_	14	appos	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-12
+# sent_id = csui-test-12
 # text = Membaca Don Quixote untuk YouTube
 1	Membaca	baca	VERB	VB	Voice=Act	0	root	_	_
 2	Don	Don	PROPN	NNP	_	1	obj	_	_
@@ -245,7 +245,7 @@
 4	untuk	untuk	ADP	IN	_	5	case	_	_
 5	YouTube	YouTube	PROPN	NNP	_	1	obl	_	_
 
-# sent_id = s-test-13
+# sent_id = csui-test-13
 # text = Akademi Kerajaan Spanyol mengundang orang di seluruh dunia untuk merekam segmen dari novel klasik Don Quixote dan mengunggahnya ke YouTube.
 1	Akademi	akademi	PROPN	NNP	_	4	nsubj	_	_
 2	Kerajaan	Kerajaan	PROPN	NNP	_	1	flat:name	_	_
@@ -271,7 +271,7 @@
 21	YouTube	YouTube	PROPN	NNP	_	18	obl	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-14
+# sent_id = csui-test-14
 # text = Karya Miguel de Cervantes ini sering disebut sebagai novel Spanyol yang paling populer walau tak banyak yang pernah membacanya.
 1	Karya	karya	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
 2	Miguel	Miguel	PROPN	NNP	_	1	nmod:poss	_	_
@@ -296,7 +296,7 @@
 20	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	19	obj	_	_
 21	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-15
+# sent_id = csui-test-15
 # text = Namun kini Akademi Kerajaan Spanyol, yang merupakan pelindung resmi bahasa Spanyol, membagi karya itu ke dalam 2.000 segmen.
 1	Namun	namun	CCONJ	CC	_	14	cc	_	_
 2	kini	kini	NOUN	NN	Number=Sing	14	obl:tmod	_	_
@@ -320,7 +320,7 @@
 20	segmen	segmen	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	14	punct	_	_
 
-# sent_id = s-test-16
+# sent_id = csui-test-16
 # text = Ketika Wayne Rooney tertangkap basah merokok di beberapa kesempatan saat jeda libur antara akhir Piala Dunia dan dimulainya musim kompetisi Liga Primer, ia dikecam habis.
 1	Ketika	ketika	SCONJ	IN	_	4	mark	_	_
 2	Wayne	Wayne	PROPN	NNP	_	4	nsubj:pass	_	_
@@ -352,7 +352,7 @@
 27	habis	habis	ADV	RB	_	26	advmod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	26	punct	_	_
 
-# sent_id = s-test-17
+# sent_id = csui-test-17
 # text = Sebagai seorang pesepak bola profesional, ia sepertinya harus menjaga kesehatan tubuhnya tanpa terkecuali, bahkan ketika musim libur.
 1	Sebagai	bagai	ADP	IN	_	3	case	_	_
 2	seorang	orang	DET	DT	Number=Sing|PronType=Ind	3	det	_	_
@@ -377,7 +377,7 @@
 20	libur	libur	VERB	VB	Voice=Act	19	acl	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = s-test-18
+# sent_id = csui-test-18
 # text = Namun Rooney tidak sendirian.
 1	Namun	namun	CCONJ	CC	_	4	cc	_	_
 2	Rooney	Rooney	PROPN	NNP	_	4	nsubj	_	_
@@ -385,7 +385,7 @@
 4	sendirian	sendiri	ADJ	JJ	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-19
+# sent_id = csui-test-19
 # text = Banyak olahragawan terkenal melakukannya.
 1	Banyak	banyak	DET	DT	_	2	det	_	_
 2	olahragawan	olahragawan	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -395,7 +395,7 @@
 5	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 6	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-20
+# sent_id = csui-test-20
 # text = Zinedine Zidane dan pebasket Michael Jordan melakukannya.
 1	Zinedine	zinedine	PROPN	NNP	_	7	nsubj	_	_
 2	Zidane	Zidane	PROPN	NNP	_	1	flat:name	_	_
@@ -408,7 +408,7 @@
 8	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	7	obj	_	_
 9	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-21
+# sent_id = csui-test-21
 # text = Namun di sisi lain, tidak banyak pengusaha Indonesia yang melakukan ekspansi ke Inggris.
 1	Namun	namun	CCONJ	CC	_	7	cc	_	_
 2	di	di	ADP	IN	_	3	case	_	_
@@ -426,7 +426,7 @@
 14	Inggris	Inggris	PROPN	NNP	_	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-22
+# sent_id = csui-test-22
 # text = Celah ini yang bisa dilakukan oleh ICMI London dalam upaya menjembatani para pengusaha Indonesia yang akan melebarkan sayapnya di Kerajaan Inggris.
 1	Celah	celah	NOUN	NN	Number=Sing	0	root	_	_
 2	ini	ini	DET	DT	PronType=Dem	1	det	_	_
@@ -453,7 +453,7 @@
 22	Inggris	Inggris	PROPN	NNP	_	21	flat:name	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = s-test-23
+# sent_id = csui-test-23
 # text = "Mari kita sama-sama melakukan inventarisasi dan juga melihat produk unggulan Indonesia yang bisa dijual di Inggris," ujar Dubes yang melihat banyak hal yang bisa dilakukan pengusaha Indonesia.
 1	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
 2	Mari	Mari	INTJ	UH	_	5	discourse	_	_
@@ -487,7 +487,7 @@
 30	Indonesia	Indonesia	PROPN	NNP	_	29	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-24
+# sent_id = csui-test-24
 # text = Sebelumnya Ketua ICMI London Muslimin Anwar mengatakan hubungan dagang antara Indonesia dan Inggris belakangan ini cukup menggembirakan.
 1	Sebelumnya	sebelumnya	ADV	RB	_	7	advmod	_	_
 2	Ketua	Ketua	PROPN	NNP	_	7	nsubj	_	_
@@ -508,7 +508,7 @@
 17	menggembirakan	gembira	VERB	VB	Voice=Act	7	ccomp	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-25
+# sent_id = csui-test-25
 # text = Menurut UK Trade and Investment (UKTI), nilai ekspor Indonesia ke Inggris sepanjang tahun 2005 tercatat senilai 517 juta Pound Sterling, yang kebanyakan didominasi jenis barang-barang tekstil dan alas kaki.
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	UK	UK	PROPN	NNP	_	18	obl	_	_
@@ -545,7 +545,7 @@
 33	kaki	kaki	NOUN	NN	Number=Sing	32	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	18	punct	_	_
 
-# sent_id = s-test-26
+# sent_id = csui-test-26
 # text = Dalam sindikasi yang akan mengucurkan dana Rp1,461 triliun tersebut, BCA menyalurkan kredit sebesar Rp584 miliar.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	sindikasi	sindikasi	NOUN	NN	Number=Sing	13	obl	_	_
@@ -567,7 +567,7 @@
 18	miliar	miliar	NUM	CD	_	17	flat	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = s-test-27
+# sent_id = csui-test-27
 # text = Penanaman modal asing (PMA) di Malaysia tahun 2006 mencapai lima kali lebih besar dibandingkan Indonesia, hal ini menunjukkan pembangunan ekonomi Malaysia jauh lebih menarik dibandingkan Indonesia bagi investor asing.
 1	Penanaman	tanam	NOUN	NN	Number=Sing	11	nsubj	_	_
 2	modal	modal	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -603,7 +603,7 @@
 32	asing	asing	ADJ	JJ	_	31	amod	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-28
+# sent_id = csui-test-28
 # text = Menurut harian Utusan Malaysia, Rabu, di Kuala Lumpur, PMA yang masuk ke Malaysia mencapai 20,2 miliar Ringgit Malaysia (5,6 miliar dolar AS) dibandingkan Indonesia yang hanya mencapai 4,7 miliar Ringgit Malaysia (1,3 miliar dolar AS).
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	harian	hari	NOUN	NN	Number=Sing	17	obl	_	_
@@ -649,7 +649,7 @@
 42	)	)	PUNCT	-RRB-	_	40	punct	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	17	punct	_	_
 
-# sent_id = s-test-29
+# sent_id = csui-test-29
 # text = Juru bicara parlemen Malaysia bidang perdagangan dan industri luar negeri Dr Tan Yee Kew mengemukakan dalam sidang parlemen, Malaysia menduduki urutan ke-2 setelah Singapura di kalangan Asean dari segi masuknya PMA.
 1	Juru	juru	NOUN	NN	Number=Sing	15	nsubj	_	_
 2	bicara	bicara	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -687,7 +687,7 @@
 33	PMA	PMA	PROPN	NNP	_	31	nsubj	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	15	punct	_	_
 
-# sent_id = s-test-30
+# sent_id = csui-test-30
 # text = Singapura sendiri berhasil mendatangkan PMA tahun 2006 sebesar 30 miliar Ringgit (8,3 miliar dolar AS).
 1	Singapura	singapura	PROPN	NNP	_	3	nsubj	_	_
 2	sendiri	sendiri	DET	DT	_	1	det	_	_
@@ -708,7 +708,7 @@
 17	)	)	PUNCT	-RRB-	_	15	punct	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-31
+# sent_id = csui-test-31
 # text = Pada 2006, Bank Mandiri berhasil memperoleh penghargaan The Best Overall for Corporate Governance Award dan The Best Disclosure and Transparency dari Asia Money.
 1	Pada	pada	ADP	IN	_	2	case	_	_
 2	2006	2006	NUM	CD	_	6	obl	_	SpaceAfter=No
@@ -736,7 +736,7 @@
 24	Money	Money	PROPN	NNP	_	23	flat:name	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-32
+# sent_id = csui-test-32
 # text = Meneg Perencanaan Pembangunan Nasional/Kepala Bappenas, Paskah Suzetta direncanakan mengadakan sejumlah pertemuan, di antaranya dengan Presiden Bank Dunia, Paul Wolfowitz dalam Spring Meeting Dana Moneter Internasional/Bank Dunia (IMF/WB) pekan ini di Washington AS.
 1	Meneg	meneg	PROPN	NNP	_	11	nsubj:pass	_	_
 2	Perencanaan	Perencanaan	PROPN	NNP	_	1	flat:name	_	_
@@ -785,7 +785,7 @@
 44	AS	AS	PROPN	NNP	_	43	flat:name	_	SpaceAfter=No
 45	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-33
+# sent_id = csui-test-33
 # text = "Salah satunya Pak Menteri bakal ketemu dengan Paul Wolfowitz, tentu saja ditemani oleh James Adams, Vice President Bank Dunia untuk Asia Pasifik," kata Sekretaris Utama Bappenas, Syahrial Loetan di Jakarta, Jumat.
 1	"	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
 2	Salah	Salah	ADJ	JJ	_	3	advmod	_	_
@@ -829,7 +829,7 @@
 39	Jumat	Jumat	PROPN	NNP	_	29	obl:tmod	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-34
+# sent_id = csui-test-34
 # text = Dia menjelaskan dalam pertemuan itu, Meneg PPN akan menyampaikan kondisi terakhir di Indonesia yang mengalami banyak bencana pada awal tahun 2007 sehingga akan ada kenaikan defisit dan kemungkinan meminta bantuan pinjaman berbunga rendah kepada Bank Dunia.
 1	Dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	menjelaskan	jelas	VERB	VB	Voice=Act	0	root	_	_
@@ -870,7 +870,7 @@
 37	Dunia	Dunia	PROPN	NNP	_	36	flat:name	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-35
+# sent_id = csui-test-35
 # text = Pak Adams kemarin sudah beri petunjuk kalau dia akan membantu Indonesia yang ingin meminta IDA (International Development Assistance - red) yang berbunga rendah, tapi kita tahu diri juga.
 1	Pak	pak	PROPN	NNP	_	5	nsubj	_	_
 2	Adams	Adams	PROPN	NNP	_	1	flat:name	_	_
@@ -905,7 +905,7 @@
 31	juga	juga	ADV	RB	_	29	advmod	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-36
+# sent_id = csui-test-36
 # text = Produksi nikel dalam matte untuk K1 2007 sebesar 0,776388889 ton dibandingkan periode sama sebelumnya 17.361 ton.
 1	Produksi	produksi	NOUN	NN	Number=Sing	8	nsubj	_	_
 2	nikel	nikel	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -925,7 +925,7 @@
 16	ton	ton	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-37
+# sent_id = csui-test-37
 # text = Menteri Keuangan Jepang Koji Omi, menurut rencana dalam waktu dekat ini akan berkunjung ke Jakarta, guna memperkukuh hubungan bilateral kedua negara, khususnya peningkatan kerja sama di sektor keuangan, menyusul pembubaran lembaga donor CGI di awal tahun ini.
 1	Menteri	menteri	PROPN	NNP	_	14	nsubj	_	_
 2	Keuangan	Keuangan	PROPN	NNP	_	1	flat:name	_	_
@@ -970,7 +970,7 @@
 41	ini	ini	DET	DT	PronType=Dem	40	det	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	14	punct	_	_
 
-# sent_id = s-test-38
+# sent_id = csui-test-38
 # text = Menteri Keuangan Indonesia Sri Mulyani mengemukakan hal itu kepada ANTARA di Kyoto, Sabtu, sesaat sebelum memasuki seminar yang diadakan dalam rangka pertemuan tahunan Asian Development Bank (ADB) ke-40.
 1	Menteri	menteri	PROPN	NNP	_	6	nsubj	_	_
 2	Keuangan	Keuangan	PROPN	NNP	_	1	flat:name	_	_
@@ -1006,7 +1006,7 @@
 32	ke-40	ke-40	ADJ	JJ	_	24	amod	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-39
+# sent_id = csui-test-39
 # text = "Jepang sangat mendukung peningkatan kerja sama bilateral, bahkan kedatangan Omi ke Jakarta adalah untuk melakukan diskusi yang lebih mendetail baik soal keuangan maupun pinjaman," ujar mantan direktur eksekutif IMF itu.
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
 2	Jepang	Jepang	PROPN	NNP	_	4	nsubj	_	_
@@ -1044,7 +1044,7 @@
 34	itu	itu	DET	DT	PronType=Dem	30	det	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-40
+# sent_id = csui-test-40
 # text = Pasca-CGI, Indonesia memang memfokuskan pada kerja sama bilateral yang dinilai lebih adil dan tidak menekan posisi Indonesia dalam memberikan pinjaman.
 1	Pasca-CGI	pasca-cgi	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	5	punct	_	_
@@ -1069,7 +1069,7 @@
 21	pinjaman	pinjam	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-41
+# sent_id = csui-test-41
 # text = "Ini ada dalam draft kami, tapi pastinya bisa saja bertambah, karena situasi yang khusus di mana membutuhkan belanja teknologi yang baru," kata Direktur Teknologi dan Operasional Bank Mandiri, Sasmita di Jakarta, Jumat.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
 2	Ini	ini	PRON	PRP	PronType=Dem	3	nsubj	_	_
@@ -1112,7 +1112,7 @@
 39	Jumat	Jumat	PROPN	NNP	_	27	obl:tmod	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-42
+# sent_id = csui-test-42
 # text = Menurut dia, investasi TI Bank Mandiri dimulai sejak tahun 2000, dengan dana yang dipersiapkan sebesar 200 juta dolar.
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
@@ -1136,7 +1136,7 @@
 20	dolar	dolar	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-43
+# sent_id = csui-test-43
 # text = Namun dana tersebut baru terpakai 168 juta dolar AS.
 1	Namun	namun	CCONJ	CC	_	5	cc	_	_
 2	dana	dana	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
@@ -1149,7 +1149,7 @@
 9	AS	AS	PROPN	NNP	_	8	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-44
+# sent_id = csui-test-44
 # text = Ia mengatakan, belanja TI sejak tahun 2004 hingga 2007, rata-rata per tahun mencapai 30-35 juta dolar AS.
 1	Ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
@@ -1174,7 +1174,7 @@
 21	AS	AS	PROPN	NNP	_	20	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-45
+# sent_id = csui-test-45
 # text = "Dan tahun 2008 dalam rencana kita meski bisa berubah masih sekitar itu," katanya.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
 2	Dan	Dan	CCONJ	CC	_	3	cc	_	_
@@ -1196,7 +1196,7 @@
 17	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 18	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-46
+# sent_id = csui-test-46
 # text = "Keputusan ini diambil sejak dari awal supaya ada kepastian hukum bagi pelaku usaha, ini pun tidak mendadak karena kita sudah memberikan sinyal sejak awal," katanya.
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
 2	Keputusan	Keputusan	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
@@ -1231,7 +1231,7 @@
 30	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
 31	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-47
+# sent_id = csui-test-47
 # text = Ia menyebutkan, pemerintah merencanakan kenaikan HJE rokok mulai Maret 2007 sementara penerapan cukai spesifik rokok akan mulai diberlakukan pada Juni 2007.
 1	Ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	menyebutkan	sebut	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
@@ -1257,7 +1257,7 @@
 22	2007	2007	NUM	CD	_	21	nummod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-48
+# sent_id = csui-test-48
 # text = Lembaga pemeringkat internasional Fitch Ratings, Senin, merevisi outlook prospek atas peringkat mata uang asing dan mata uang lokal dari Indonesia, yang disebut Issuer Default Ratings (IDRs) menjadi positif dari stabil, walaupun tetap mempertahankan kedua peringkat tersebut pada 'BB-' (BB minus).
 1	Lembaga	lembaga	PROPN	NNP	_	9	nsubj	_	_
 2	pemeringkat	peringkat	PROPN	NNP	_	1	flat:name	_	_
@@ -1313,7 +1313,7 @@
 51	)	)	PUNCT	-RRB-	_	49	punct	_	SpaceAfter=No
 52	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-49
+# sent_id = csui-test-49
 # text = Demikian pula pada saat yang sama, Fitch mempertahankan peringkat mata uang rupiah (IDR) jangka pendek Indonesia pada 'B' dan batas negara (Country Ceiling) pada 'BB'.
 1	Demikian	demikian	NOUN	NN	PronType=Dem	9	obl	_	_
 2	pula	pula	ADV	RB	_	1	advmod	_	_
@@ -1351,7 +1351,7 @@
 34	'	'	PUNCT	''	_	33	punct	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-50
+# sent_id = csui-test-50
 # text = "Revisi atas' outlook 'peringkat Sovereign Indonesia mencerminkan komitmen otoritas untuk menjaga stabilitas ekonomi dan disiplin fiskal, serta kebijakan menyeluruh pemerintah untuk melaksanakan agenda reformasi struktural yang bertujuan untuk memperbaiki iklim investasi," kata Ai Ling Ngiam, Direktur pada Tim Sovereign Ratings Fitch di Singapura dalam statemennya.
 1	"	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
 2	Revisi	Revisi	NOUN	NN	Number=Sing	10	nsubj	_	_
@@ -1409,7 +1409,7 @@
 53	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	52	nmod:poss	_	_
 54	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = s-test-51
+# sent_id = csui-test-51
 # text = "Memiliki CGI sangat bagus bagi Indonesia, tapi Indonesia berkembang dan saat ini Indonesia tidak butuh CGI lagi," katanya.
 1	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
 2	Memiliki	milik	VERB	VB	Voice=Act	5	csubj	_	_
@@ -1437,7 +1437,7 @@
 23	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 24	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-52
+# sent_id = csui-test-52
 # text = Dia menambahkan penting bagi Indonesia untuk tetap melakukan dialog dengan masyarakat internasional secara multilateral maupun bilateral.
 1	Dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	menambahkan	tambah	VERB	VB	Voice=Act	0	root	_	_
@@ -1457,7 +1457,7 @@
 16	bilateral	bilateral	ADJ	JJ	_	14	conj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-53
+# sent_id = csui-test-53
 # text = "Tapi memang tidak perlu duduk bersama dan mengajukan komitmen seperti itu," ujarnya.
 1	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
 2	Tapi	Tapi	CCONJ	CC	_	6	cc	_	_
@@ -1478,7 +1478,7 @@
 16	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 17	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-54
+# sent_id = csui-test-54
 # text = Menurutnya, dialog multilateral sendiri bukan hal yang buruk mengingat dalam multilateral Indonesia bisa menghemat waktu dan bertemu dengan sekitar 35 negara dan lembaga donor sekaligus.
 1-2	Menurutnya	_	_	_	_	_	_	_	SpaceAfter=No
 1	Menurut	turut	ADP	IN	_	2	case	_	_
@@ -1510,7 +1510,7 @@
 27	sekaligus	sekaligus	ADV	RB	_	23	advmod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-55
+# sent_id = csui-test-55
 # text = Badan Perencana Pembangunan Nasional (Bappenas) telah mengusulkan pembatalan pinjaman luar negeri (LN) pada 2006 senilai 370 juta dolar AS pada 11 proyek di berbagai departemen karena proyek yang dibiayai berjalan lambat atau telah selesai.
 1	Badan	badan	PROPN	NNP	_	9	nsubj	_	_
 2	Perencana	Perencana	PROPN	NNP	_	1	flat:name	_	_
@@ -1552,7 +1552,7 @@
 38	selesai	selesai	VERB	VB	Voice=Act	34	conj	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-56
+# sent_id = csui-test-56
 # text = Sebelumnya, Dirjen Perbendaharaan Depkeu Herry Purnomo mengungkapkan, hingga akhir Februari 2007 penerimaan negara dari sektor pajak telah mencapai sekitar Rp40-50 triliun, dari target 2007 Rp452,556 triliun.
 1	Sebelumnya	sebelumnya	ADV	RB	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	8	punct	_	_
@@ -1589,7 +1589,7 @@
 33	triliun	triliun	NUM	CD	_	32	flat	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-57
+# sent_id = csui-test-57
 # text = "Itu baru PPN dan PPh, belum termasuk yang valuta asing," katanya di Jakarta, Senin.
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
 2	Itu	Itu	PRON	PRP	_	4	nsubj	_	_
@@ -1614,7 +1614,7 @@
 20	Senin	Senin	PROPN	NNP	_	15	obl:tmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-58
+# sent_id = csui-test-58
 # text = Sedangkan untuk penerimaan dari sektor cukai, Herry menyatakan pihaknya telah mencatat angka lebih dari Rp10 triliun.
 1	Sedangkan	sedangkan	CCONJ	CC	_	9	cc	_	_
 2	untuk	untuk	ADP	IN	_	3	case	_	_
@@ -1638,7 +1638,7 @@
 19	triliun	triliun	NUM	CD	_	18	flat	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-59
+# sent_id = csui-test-59
 # text = Meski demikian, dia menyatakan bahwa penyerapan anggaran dari belanja barang hingga saat ini masih sangat rendah, pada kisaran 5 persen, tidak seperti Dana Alokasi Umum (DAU) dan belanja pegawai.
 1	Meski	meski	ADP	IN	_	2	case	_	_
 2	demikian	demikian	PRON	PRP	PronType=Dem	5	obl	_	SpaceAfter=No
@@ -1676,7 +1676,7 @@
 34	pegawai	pegawai	NOUN	NN	Number=Sing	33	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-60
+# sent_id = csui-test-60
 # text = Tapi (anggaran - red) masih amanlah sampai sekarang ini karena pengeluarannya masih kecil.
 1	Tapi	tapi	CCONJ	CC	_	8	cc	_	_
 2	(	(	PUNCT	-LRB-	_	3	punct	_	SpaceAfter=No
@@ -1699,7 +1699,7 @@
 17	kecil	kecil	ADJ	JJ	_	8	advcl	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-61
+# sent_id = csui-test-61
 # text = Bank Mandiri menyumbang NPL terbanyak sebesar 56 persen dari total NPL, Bank BNI 23 persen, BRI 17 persen dan BTN 3,1 persen.
 1	Bank	bank	NOUN	NN	Number=Sing	3	nsubj	_	_
 2	Mandiri	Mandiri	PROPN	NNP	_	1	flat:name	_	_
@@ -1727,7 +1727,7 @@
 24	persen	persen	NOUN	NN	Number=Sing	22	orphan	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-62
+# sent_id = csui-test-62
 # text = PT Indofood Sukses Makmur Tbk telah menyelesaikan transaksi akuisisi 70 persen saham PT Mitra Inti Sejati Plantation (MISP) dengan nilai Rp66,5 miliar, dengan akuisisi ini dilakukan oleh anak perusahaan Indofood yakni PT Salim Ivomas Pratama (SIMP) pada 1 Oktober 2007.
 1	PT	pt	PROPN	NNP	_	7	nsubj	_	_
 2	Indofood	Indofood	PROPN	NNP	_	1	flat:name	_	_
@@ -1777,7 +1777,7 @@
 46	2007	2007	NUM	CD	_	44	flat	_	SpaceAfter=No
 47	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-63
+# sent_id = csui-test-63
 # text = "Transaksi pembelian tersebut telah selesai pada 1 Oktober 2007, karenanya PT Mitra menjadi anak perusahaan SIMP," kata Sekretaris Perusahaan Indofood Werianty dalam penjelasannya ke Bursa Efek Jakarta (BEJ) di Jakarta Rabu.
 1	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
 2	Transaksi	Transaksi	NOUN	NN	Number=Sing	6	nsubj	_	_
@@ -1822,7 +1822,7 @@
 39	Rabu	Rabu	PROPN	NNP	_	22	obl:tmod	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-64
+# sent_id = csui-test-64
 # text = Berdasarkan hasil due dilligence, luas tanah perkebunan milik PT Mitra mencapai 12.950 hektar di Kalimantan Barat.
 1	Berdasarkan	dasar	VERB	VB	Voice=Act	12	advcl	_	_
 2	hasil	hasil	NOUN	NN	Number=Sing	1	obj	_	_
@@ -1843,7 +1843,7 @@
 17	Barat	Barat	PROPN	NNP	_	16	flat:name	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-65
+# sent_id = csui-test-65
 # text = Luas ini lebih kecil dari keterbukaan informasi yang disampaikan pada 14 Maret 2007 lalu yakni sekitar 16.268 hektar.
 1	Luas	luas	NOUN	NN	Number=Sing	4	nsubj	_	_
 2	ini	ini	DET	DT	PronType=Dem	1	det	_	_
@@ -1865,7 +1865,7 @@
 18	hektar	hektar	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-66
+# sent_id = csui-test-66
 # text = Ketika hal itu dikonfirmasi, Direktur Toba Pulp Firman Mulya Nauli membenarkan perihal rencana akuisisi Toba Pulp oleh Pinnacle.
 1	Ketika	ketika	SCONJ	IN	_	4	mark	_	_
 2	hal	hal	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
@@ -1888,7 +1888,7 @@
 19	Pinnacle	Pinnacle	PROPN	NNP	_	14	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-67
+# sent_id = csui-test-67
 # text = Hal senada juga dikatakan Vice President Coporate Affair Raja Garuda Mas (RGM) Tjandra Putra.
 1	Hal	hal	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
 2	senada	nada	ADJ	JJ	_	1	amod	_	_
@@ -1908,7 +1908,7 @@
 16	Putra	Putra	PROPN	NNP	_	15	flat:name	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-68
+# sent_id = csui-test-68
 # text = Kendati sempat membantahnya, namun Tjandra akhirnya mengakui jika memang Pinnacle berencana mengakuisisi Toba Pulp.
 1	Kendati	kendati	SCONJ	IN	_	3	mark	_	_
 2	sempat	sempat	ADV	RB	_	3	advmod	_	_
@@ -1929,7 +1929,7 @@
 16	Pulp	Pulp	PROPN	NNP	_	15	flat:name	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-69
+# sent_id = csui-test-69
 # text = Namun menurutnya, pihak RGM masih mengkaji tawaran dari Pinnacle.
 1	Namun	namun	CCONJ	CC	_	8	cc	_	_
 2-3	menurutnya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1945,7 +1945,7 @@
 11	Pinnacle	Pinnacle	PROPN	NNP	_	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-70
+# sent_id = csui-test-70
 # text = Rencana akuisisi ini sendiri hingga kini belum dilaporkan kepada Badan Pengawas Pasar Modal, maupun otoritas Bursa Efek Surabaya (BES), tempat Toba Pulp mencatatkan sahamnya.
 1	Rencana	rencana	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
 2	akuisisi	akuisisi	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -1979,7 +1979,7 @@
 29	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
 30	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-71
+# sent_id = csui-test-71
 # text = Sedangkan cadangan devisa diperkirakan mencapai 56,6 miliar dolar AS dengan transaksi perdagangan ekspor 118,6 miliar dolar AS dan impor 85,6 miliar dolar AS.
 1	Sedangkan	sedangkan	CCONJ	CC	_	4	cc	_	_
 2	cadangan	cadang	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
@@ -2006,7 +2006,7 @@
 23	AS	AS	PROPN	NNP	_	22	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-72
+# sent_id = csui-test-72
 # text = Menkeu juga mengatakan pertumbuhan ekonomi juga akan didorong oleh pertumbuhan ekspor sekitar 8 persen, konsumsi rumah tangga 5 persen dan investasi 10 persen.
 1	Menkeu	menkeu	NOUN	NN	Number=Sing	3	nsubj	_	_
 2	juga	juga	ADV	RB	_	3	advmod	_	_
@@ -2034,7 +2034,7 @@
 24	persen	persen	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-73
+# sent_id = csui-test-73
 # text = Dalam APBN-P 2007 pemerintah menargetkan pertumbuhan ekonomi 6,3 persen, inflasi 6 persen, nilai tukar Rp9.050 per dolar AS, SBI tiga bulan 8 persen, harga minyak 60 dolar AS per barel dan lifting minyak 950.000 barel per hari.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	APBN-P	APBN-P	PROPN	NNP	_	5	obl	_	_
@@ -2080,7 +2080,7 @@
 42	hari	hari	NOUN	NN	Number=Sing	40	nmod	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-74
+# sent_id = csui-test-74
 # text = Dengan demikian, lanjut Mulyani, defisit anggaran diperkirakan akan tetap 1,5 persen atau Rp58 triliun dengan penerimaan negara Rp722,1 triliun atau naik Rp28 triliun dari APBN-P dan belanja negara Rp780,3 triliun atau naik Rp27,9 dari APBN-P.
 1	Dengan	dengan	ADP	IN	_	2	case	_	_
 2	demikian	demikian	PRON	PRP	PronType=Dem	9	obl	_	SpaceAfter=No
@@ -2126,7 +2126,7 @@
 42	APBN-P	APBN-P	PROPN	NNP	_	38	obl	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-75
+# sent_id = csui-test-75
 # text = Deputi Gubernur Senior BI, Miranda Goeltom memperkirakan cadangan devisa akhir tahun 2007 mencapai 56,655 miliar dolar AS karena kenaikan harga minyak mentah dunia yang terjadi baru-baru ini.
 1	Deputi	deputi	PROPN	NNP	_	8	nsubj	_	_
 2	Gubernur	Gubernur	PROPN	NNP	_	1	flat:name	_	_
@@ -2158,7 +2158,7 @@
 28	ini	ini	DET	DT	PronType=Dem	27	fixed	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-76
+# sent_id = csui-test-76
 # text = "Al Hilal akan menyediakan semua jasa yang ada pada bank modern, termasuk kegiatan komersial keuangan, industri, pariwisata dan real estate, dengan fokus khusus pada sektor swasta," katanya.
 1	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
 2	Al	Al	PROPN	NNP	_	5	nsubj	_	_
@@ -2198,7 +2198,7 @@
 35	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
 36	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-77
+# sent_id = csui-test-77
 # text = Keputusan Presiden menunjuk Badan Investasi Abu Dhabi sebagai pemilik tunggal bank baru itu dan menetapkan modal 4 miliar dirham itu akan dibagi dalam empat saham dengan masing-masing saham senilai 1 miliar dirham, demikian Gulf News melaporkannya.
 1	Keputusan	putus	NOUN	NN	Number=Sing	3	nsubj	_	_
 2	Presiden	Presiden	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -2241,7 +2241,7 @@
 38	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	37	obj	_	_
 39	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-78
+# sent_id = csui-test-78
 # text = Dalam keputusan itu diputuskan mengangkat Eisa Mohammad Al Suwaidi sebagai Ketua Badan Al Hilal.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	keputusan	putus	NOUN	NN	Number=Sing	4	obl	_	_
@@ -2259,7 +2259,7 @@
 14	Hilal	Hilal	PROPN	NNP	_	12	flat:name	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-79
+# sent_id = csui-test-79
 # text = Anggota lainnya yaitu Mohammad Hassan Omran, Abdullah Nasser Al Suwaidi, Yunus Haji Khoory dan Ahmad Sari Al Mazroui.
 1	Anggota	anggota	NOUN	NN	Number=Sing	5	nsubj	_	_
 2-3	lainnya	_	_	_	_	_	_	_	_
@@ -2285,7 +2285,7 @@
 21	Mazroui	Mazroui	PROPN	NNP	_	18	flat:name	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-80
+# sent_id = csui-test-80
 # text = Bank syariah baru itu juga akan menginvestasikan di pembiayaan konsumen yang selaras dengan kerangka instrumen keuangan syariah.
 1	Bank	bank	NOUN	NN	Number=Sing	7	nsubj	_	_
 2	syariah	syariah	ADJ	JJ	_	1	amod	_	_
@@ -2306,7 +2306,7 @@
 17	syariah	syariah	ADJ	JJ	_	16	amod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-81
+# sent_id = csui-test-81
 # text = "Industri pengolahan yang selama ini dianggap sebagai tempat menciptakan lapangan kerja juga mengalami peningkatan cukup besar di mana PPh-nya naik 10,4 persen, sedangkan PPN -nya naik 12,4 persen," ujar Sri Mulyani.
 1	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
 2	Industri	Industri	NOUN	NN	Number=Sing	14	nsubj	_	_
@@ -2348,7 +2348,7 @@
 38	Mulyani	Mulyani	PROPN	NNP	_	37	flat:name	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	14	punct	_	_
 
-# sent_id = s-test-82
+# sent_id = csui-test-82
 # text = Demikian halnya dengan industri pengolahan seperti industri makanan dan minuman yang PPh-nya tumbuh 19,5 persen dari sebelumnya pertumbuhannya tercatat negatif.
 1	Demikian	demikian	NOUN	NN	PronType=Dem	0	root	_	_
 2-3	halnya	_	_	_	_	_	_	_	_
@@ -2378,7 +2378,7 @@
 24	negatif	negatif	ADJ	JJ	_	23	xcomp	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = s-test-83
+# sent_id = csui-test-83
 # text = Selanjutnya industri tekstil PPh -nya tumbuh 6,3 persen, dari periode sebelumnya masih minus 1,2 persen.
 1	Selanjutnya	selanjutnya	ADV	RB	_	2	advmod	_	_
 2	industri	industri	NOUN	NN	Number=Sing	0	root	_	_
@@ -2399,7 +2399,7 @@
 17	persen	persen	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-84
+# sent_id = csui-test-84
 # text = Tahun lalu kata Sri Mulyani, industri logam minus 6,7 persen, namun tahun ini, ini sudah positif 8,9 persen.
 1	Tahun	tahun	NOUN	NN	Number=Sing	11	obl:tmod	_	_
 2	lalu	lalu	VERB	VB	Voice=Act	1	acl	_	_
@@ -2424,7 +2424,7 @@
 21	persen	persen	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-85
+# sent_id = csui-test-85
 # text = Industri elektronika yang tahun lalu minus 13,6 persen, tahun ini naik 8,7 persen itu PPh-nya.
 1	Industri	industri	NOUN	NN	Number=Sing	0	root	_	_
 2	elektronika	elektronika	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -2446,7 +2446,7 @@
 18	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = s-test-86
+# sent_id = csui-test-86
 # text = Upaya akselerasi laju pertumbuhan ekonomi dan investasi yang tinggi dan sustainable tidak akan optimal tanpa adanya dukungan dari masyarakat luas khususnya sektor korporasi Indonesia.
 1	Upaya	upaya	NOUN	NN	Number=Sing	14	nsubj	_	_
 2	akselerasi	akselerasi	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -2476,7 +2476,7 @@
 25	Indonesia	Indonesia	PROPN	NNP	_	23	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	14	punct	_	_
 
-# sent_id = s-test-87
+# sent_id = csui-test-87
 # text = "Sekeras apa pun upaya yang dilakukan pemerintah tidak akan optimal untuk mengakselerasi laju pertumbuhan ekonomi dan investasi yang tinggi dan sustainable tanpa dukungan masyarakat luas, khususnya sektor korporasi Indonesia," kata Menteri Keuangan Sri Mulyani dalam penyerahan Annual Report Awards 2006 di Jakarta, Selasa.
 1	"	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
 2	Sekeras	Sekeras	NOUN	NN	Number=Sing	11	nsubj	_	_
@@ -2528,7 +2528,7 @@
 48	Selasa	Selasa	PROPN	NNP	_	34	obl:tmod	_	SpaceAfter=No
 49	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-88
+# sent_id = csui-test-88
 # text = Dari dimensi ekonomis, menurut Menkeu, besar-kecilnya kontribusi sektor korporasi dalam mendorong laju pertumbuhan ekonomi nasional akan banyak ditentukan oleh daya entrepreneurship dan kemampuan inovatif pelaku bisnis untuk mentransformasi tantangan menjadi peluang.
 1	Dari	dari	ADP	IN	_	2	case	_	_
 2	dimensi	dimensi	NOUN	NN	Number=Sing	21	obl	_	_
@@ -2567,7 +2567,7 @@
 34	peluang	peluang	NOUN	NN	Number=Sing	33	obj	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	21	punct	_	_
 
-# sent_id = s-test-89
+# sent_id = csui-test-89
 # text = Namun dari sisi responsibilitas sebagai anggota masyarakat, korporasi dituntut pula untuk menunjukkan kepedulian untuk berbuat yang terbaik tidak hanya untuk pemegang saham dan perusahaan, tetapi juga kepada stakeholders lainnya yang mewakili kepentingan bangsa.
 1	Namun	namun	CCONJ	CC	_	10	cc	_	_
 2	dari	dari	ADP	IN	_	3	case	_	_
@@ -2608,7 +2608,7 @@
 36	bangsa	bangsa	NOUN	NN	Number=Sing	35	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = s-test-90
+# sent_id = csui-test-90
 # text = Dimensi terakhir inilah yang mendasari lahirnya prinsip-prinsip mulia dari tata kelola yang baik, mulai dari transparansi, akuntabilitas, responsibilitas, independensi, dan fairness.
 1	Dimensi	dimensi	NOUN	NN	Number=Sing	0	root	_	_
 2	terakhir	akhir	ADJ	JJ	Degree=Sup	1	amod	_	_
@@ -2642,7 +2642,7 @@
 28	fairness	fairness	X	FW	Foreign=Yes	19	conj	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = s-test-91
+# sent_id = csui-test-91
 # text = Jumlah itu antara lain bersumber dari penerbitan surat utang berharga negara netto Rp91,6 triliun, penjualan aset program restrukturisasi perbankan dan penggunaan rekening pemerintah RDI sebesar Rp0,6 triliun, juga hasil privatisasi netto Rp1,5 triliun.
 1	Jumlah	jumlah	NOUN	NN	Number=Sing	5	nsubj	_	_
 2	itu	itu	DET	DT	PronType=Dem	1	det	_	_
@@ -2684,7 +2684,7 @@
 38	triliun	triliun	NUM	CD	_	37	flat	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-92
+# sent_id = csui-test-92
 # text = "Sementara, pembiayaan anggaran yang bersumber dari pinjaman luar negeri direncanakan negatif Rp16,7 triliun, akibat penarikan pinjaman program dan pinjaman proyek Rp43 triliun, yang lebih kecil dari pembayaran cicilan pokok utang luar negeri sebesar Rp59,7 triliun," kata Kepala Negara.
 1	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
 2	Sementara	Sementara	ADV	RB	_	12	cc	_	SpaceAfter=No
@@ -2735,7 +2735,7 @@
 47	Negara	Negara	NOUN	NN	Number=Sing	46	nmod	_	SpaceAfter=No
 48	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-93
+# sent_id = csui-test-93
 # text = Presiden menegaskan, bahwa rencana membuat pinjaman luar negeri menjadi negatif, merupakan konsistensi pemerintah mengurangi porsi utang luar negeri dalam pembiayaan anggaran.
 1	Presiden	presiden	NOUN	NN	Number=Sing	2	nsubj	_	_
 2	menegaskan	tegas	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
@@ -2762,7 +2762,7 @@
 23	anggaran	anggar	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-94
+# sent_id = csui-test-94
 # text = Meski demikian, diutarakan Presiden, kenaikan defisit anggaran perlu ditopang dengan perkuatan ketahanan fiskal.
 1	Meski	meski	ADP	IN	_	2	case	_	_
 2	demikian	demikian	PRON	PRP	PronType=Dem	11	obl	_	SpaceAfter=No
@@ -2781,7 +2781,7 @@
 15	fiskal	fiskal	ADJ	JJ	_	14	amod	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-95
+# sent_id = csui-test-95
 # text = Langkah kebijakan meningkatkan ketahanan fiskal tersebut, diambil dengan cara meningkatkan pengelolaan Surat Berharga Negara (SBN) secara hati-hati, transparan, dan akuntabel.
 1	Langkah	langkah	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
 2	kebijakan	bijak	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -2810,7 +2810,7 @@
 25	akuntabel	akuntabel	ADJ	JJ	_	20	conj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-96
+# sent_id = csui-test-96
 # text = "Kisaran nilai tukar tersebut cukup realistis dengan mempertimbangkan perkembangan faktor fundamental perekonomian nasional yang semakin membaik," kata Deputi Gubernur BI, Aslim Tadjuddin dalam Rapat Kerja Komisi XI DPR dengan Menteri Keuangan di Gedung DPR/MPR Jakarta, Senin.
 1	"	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
 2	Kisaran	Kisaran	NOUN	NN	Number=Sing	7	nsubj	_	_
@@ -2857,7 +2857,7 @@
 43	Senin	Senin	PROPN	NNP	_	20	obl:tmod	_	SpaceAfter=No
 44	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-97
+# sent_id = csui-test-97
 # text = Ia menambahkan, meski rupiah pada akhir-akhir ini sempat tertekan akibat kasus subprime mortgage namun berbagai langkah bank sentral asing terutama The Federal Reserves Bank Sentral AS untuk mengendalikan masalah tersebut bekerja dengan baik sehingga pada tahun 2008 diharapkan keadaan rupiah semakin terkendali.
 1	Ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	menambahkan	tambah	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
@@ -2904,7 +2904,7 @@
 43	terkendali	terkendali	VERB	VB	Voice=Pass	39	ccomp	_	SpaceAfter=No
 44	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-98
+# sent_id = csui-test-98
 # text = "Memperhatikan langkah kemajuan dari berbagai langkah kebijakan yang ditempuh beberapa bank sentral negara maju khususnya The Federal Reserves untuk mengatasi krisis pasar kredit global, kami mengharapkan kondisi pasar keuangan global kembali pulih sehingga turut memberikan dampak positif terhadap pasar keuangan domestik," katanya.
 1	"	"	PUNCT	``	_	28	punct	_	SpaceAfter=No
 2	Memperhatikan	hati	VERB	VB	Voice=Act	28	advcl	_	_
@@ -2956,7 +2956,7 @@
 47	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	46	nsubj	_	_
 48	.	.	PUNCT	.	_	28	punct	_	_
 
-# sent_id = s-test-99
+# sent_id = csui-test-99
 # text = Ia juga menambahkan, pengaruh negatif dari krisis subprime mortgage yang menekan rupiah bukanlah faktor penyebab yang fundamental.
 1	Ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	juga	juga	ADV	RB	_	3	advmod	_	_
@@ -2980,7 +2980,7 @@
 19	fundamental	fundamental	ADJ	JJ	_	16	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-100
+# sent_id = csui-test-100
 # text = Namun demikian ia mengatakan, BI dan Pemerintah tetap waspada memandang dampak lanjutan dari akibat krisis tersebut meski telah mulai terkendali.
 1	Namun	namun	CCONJ	CC	_	4	cc	_	_
 2	demikian	demikian	PRON	PRP	PronType=Dem	4	obl	_	_
@@ -3005,7 +3005,7 @@
 21	terkendali	terkendali	VERB	VB	Voice=Pass	20	xcomp	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-101
+# sent_id = csui-test-101
 # text = Dalam sebuah pernyataannya di Jakarta, Rabu, Pefindo mengatakan, saldo kas perusahaan pada akhir semester pertama 2007 hanya sebesar Rp30,7 miliar, sehingga perusahaan akan memerlukan pinjaman baru untuk membayar kembali obligasi yang jatuh tempo tersebut.
 1	Dalam	dalam	ADP	IN	_	3	case	_	_
 2	sebuah	buah	DET	DT	Number=Sing|PronType=Ind	3	det	_	_
@@ -3050,7 +3050,7 @@
 40	tersebut	sebut	DET	DT	_	36	det	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-102
+# sent_id = csui-test-102
 # text = "Perusahaan sekarang sedang dalam proses finalisasi dokumentasi pinjaman dengan sebuah bank swasta dan sebuah bank milik pemerintah untuk pinjaman sejumlah Rp255,1 miliar," kata Pefindo.
 1	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
 2	Perusahaan	Perusahaan	NOUN	NN	Number=Sing	6	nsubj	_	_
@@ -3082,7 +3082,7 @@
 28	Pefindo	Pefindo	PROPN	NNP	_	27	nsubj	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-103
+# sent_id = csui-test-103
 # text = "Pemeringkat Efek Indonesia (Pefindo) menegaskan peringkat idA- untuk PT Serasi Autoraya (SERA) dan outstanding Obligasi I Tahun 2003 sebesar Rp165 miliar yang akan jatuh tempo pada Juli 2008 dengan prospek peringkat tersebut stabil," kata Pefindo dalam pernyataannya di Jakarta, Rabu.
 1	"	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
 2	Pemeringkat	Pemeringkat	PROPN	NNP	_	8	nsubj	_	_
@@ -3119,8 +3119,8 @@
 33	Juli	Juli	PROPN	NNP	_	30	obl	_	_
 34	2008	2008	NUM	CD	_	33	flat	_	_
 35	dengan	dengan	ADP	IN	_	36	case	_	_
-36	prospek	prospek	NOUN	NN	Number=Sing	39	nsubj	_	_
-37	peringkat	peringkat	NOUN	NN	Number=Sing	30	obl	_	_
+36	prospek	prospek	NOUN	NN	Number=Sing	30	obl	_	_
+37	peringkat	peringkat	NOUN	NN	Number=Sing	36	nmod	_	_
 38	tersebut	sebut	DET	DT	_	36	det	_	_
 39	stabil	stabil	ADJ	JJ	_	8	ccomp	_	SpaceAfter=No
 40	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
@@ -3137,7 +3137,7 @@
 50	Rabu	Rabu	PROPN	NNP	_	42	obl:tmod	_	SpaceAfter=No
 51	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-104
+# sent_id = csui-test-104
 # text = Menurut Pefindo, peringkat tersebut didukung oleh posisi pasar SERA yang kuat di usaha penyewaan mobil, aliran pendapatan yang berkelanjutan dari jasa leasing (sewa guna usaha) dan proteksi arus kas yang terus-menerus.
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	Pefindo	Pefindo	PROPN	NNP	_	6	obl	_	SpaceAfter=No
@@ -3176,7 +3176,7 @@
 35	terus-menerus	terus	ADV	RB	_	31	acl:relcl	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-105
+# sent_id = csui-test-105
 # text = Namun, kata lembaga tersebut, peringkat tersebut dibatasi oleh posisi leverage perusahaan yang tinggi dan rendahnya margin dari bisnis mobil bekas.
 1	Namun	namun	CCONJ	CC	_	9	cc	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	3	punct	_	_
@@ -3204,7 +3204,7 @@
 23	bekas	bekas	ADJ	JJ	_	21	amod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-106
+# sent_id = csui-test-106
 # text = Sedangkan berkenaan dengan rencana divestasi saham milik Negara RI di BNI, kata dia, berdasarkan surat Menteri Negara BUMN pada 19 Desember 2006 dinyatakan bahwa BNI termasuk dalam program tahunan privatisasi BUMN tahun 2007.
 1	Sedangkan	sedangkan	CCONJ	CC	_	25	cc	_	_
 2	berkenaan	kena	VERB	VB	Voice=Act	25	advcl	_	_
@@ -3243,7 +3243,7 @@
 35	2007	2007	NUM	CD	_	34	nummod	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	25	punct	_	_
 
-# sent_id = s-test-107
+# sent_id = csui-test-107
 # text = Kondisi Juni ini adalah kondisi perekonomian tertinggi selama 6 bulan terakhir.
 1	Kondisi	kondisi	NOUN	NN	Number=Sing	5	nsubj	_	_
 2	Juni	Juni	PROPN	NNP	_	1	nmod:tmod	_	_
@@ -3258,7 +3258,7 @@
 11	terakhir	akhir	ADJ	JJ	Degree=Sup	10	amod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-108
+# sent_id = csui-test-108
 # text = Total NPL bank nasional hingga Juni 2007 mencapai Rp49,7 triliun dengan 62 persen atau Rp30,8 berasal dari bank BUMN.
 1	Total	total	NOUN	NN	Number=Sing	8	nsubj	_	_
 2	NPL	NPL	PROPN	NNP	_	1	nmod	_	_
@@ -3283,7 +3283,7 @@
 21	BUMN	BUMN	PROPN	NNP	_	20	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-109
+# sent_id = csui-test-109
 # text = Jean King, direktur pengontrolan tembakau di Cancer Research UK mengatakan atlet, terutama pemain sepak bola, diidolakan dan karena statusnya mereka perlu menempatkan diri sebagai figur panutan.
 1	Jean	jean	PROPN	NNP	_	11	nsubj	_	_
 2	King	King	PROPN	NNP	_	1	flat:name	_	SpaceAfter=No
@@ -3318,7 +3318,7 @@
 30	panutan	panutan	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-110
+# sent_id = csui-test-110
 # text = "Dengan demikian total kapasitas kapal tankernya menjadi 820.600 DWT (dry weigh ton) dengan pangsa pasar sekitar 10 persen secara internasional," katanya.
 1	"	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
 2	Dengan	Dengan	ADP	IN	_	3	case	_	_
@@ -3352,7 +3352,7 @@
 28	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
 29	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-111
+# sent_id = csui-test-111
 # text = Menurut data Depkeu, net buy obligasi negara atau SUN oleh investor asing non-residence pada saat ini mencapai Rp20,3 triliun dari posisi awal 2006 Rp4,2 triliun.
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	data	data	NOUN	NN	Number=Sing	18	obl	_	_
@@ -3384,7 +3384,7 @@
 28	triliun	triliun	NUM	CD	_	27	flat	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	18	punct	_	_
 
-# sent_id = s-test-112
+# sent_id = csui-test-112
 # text = Pada sisi eksternal, peningkatan yang besar pada cadangan devisa terutama karena kenaikan harga komoditas, tekanan pada impor oleh sektor manufaktur yang lebih tinggi dari perkiraan dan masuknya dana portofolio telah menyediakan bantalan peredam untuk menghadapi kejutan-kejutan sistemik.
 1	Pada	pada	ADP	IN	_	2	case	_	_
 2	sisi	sisi	NOUN	NN	Number=Sing	34	obl	_	_
@@ -3429,7 +3429,7 @@
 40	sistemik	sistemik	X	FW	Foreign=Yes	39	nmod	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	34	punct	_	_
 
-# sent_id = s-test-113
+# sent_id = csui-test-113
 # text = Dolar AS diperdagangkan pada level tengah 119 yen pada awal transaksi Kamis, di Tokyo, masih datar dari posisi terakhir Rabu di New York.
 1	Dolar	dolar	NOUN	NN	Number=Sing	3	nsubj:pass	_	_
 2	AS	AS	PROPN	NNP	_	1	nmod	_	_
@@ -3458,7 +3458,7 @@
 25	York	York	PROPN	NNP	_	24	flat:name	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-114
+# sent_id = csui-test-114
 # text = "Apabila indikator ekonomi AS melemah, maka rupiah akan mendapat dukungan besar yang diperkirakan akan bisa mencapai level Rp9.000 per dolar AS," katanya.
 1	"	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
 2	Apabila	Apabila	SCONJ	IN	_	6	mark	_	_
@@ -3491,7 +3491,7 @@
 28	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
 29	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-115
+# sent_id = csui-test-115
 # text = PT Medco Energy Internasional Tbk melalui anak usahanya Medco E&P Malaka telah menandatangani penjualan gas ke Perusahaan Listrik Negara (PLN) senilai 430 juta dolar AS.
 1	PT	pt	PROPN	NNP	_	14	nsubj	_	_
 2	Medco	Medco	PROPN	NNP	_	1	flat:name	_	_
@@ -3524,7 +3524,7 @@
 28	AS	AS	PROPN	NNP	_	24	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	14	punct	_	_
 
-# sent_id = s-test-116
+# sent_id = csui-test-116
 # text = "Pembelian 38.360 saham atau yang merupakan 70 persen saham PT Chandra Asri dilakukan baik melalui pembelian langsung maupun tidak langsung," kata Direktur Utama Barito Pacific, Anton BS Hudyana kepada Bursa Efek Jakarta Jumat.
 1	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
 2	Pembelian	Pembelian	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
@@ -3565,7 +3565,7 @@
 37	Jumat	Jumat	PROPN	NNP	_	24	obl	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	14	punct	_	_
 
-# sent_id = s-test-117
+# sent_id = csui-test-117
 # text = Namun Simon Clark, direktur kelompok lobi untuk perokok Forest, mengatakan menyalahkan olahragawan idola sebagai penyebab remaja merokok tidaklah tepat.
 1	Namun	namun	CCONJ	CC	_	12	cc	_	_
 2	Simon	Simon	PROPN	NNP	_	12	nsubj	_	_
@@ -3592,7 +3592,7 @@
 22	tepat	tepat	ADJ	JJ	_	13	advcl	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-118
+# sent_id = csui-test-118
 # text = Sambil menggeleng-gelengkan kepala dan mendengarkan ear piece dia mengatakan: "Saya mual dengan masalah ini. Saya amat meminta maaf, ini semata-mata kecelakaan."
 1	Sambil	sambil	SCONJ	IN	_	2	mark	_	_
 2	menggeleng-gelengkan	geleng	VERB	VB	Voice=Act	9	advcl	_	_
@@ -3622,7 +3622,7 @@
 26	.	.	PUNCT	.	_	20	punct	_	SpaceAfter=No
 27	"	"	PUNCT	''	_	13	punct	_	_
 
-# sent_id = s-test-119
+# sent_id = csui-test-119
 # text = Ia juga melaporkan bahwa Mitsubishi Corporation Mitsubishi, salah satu perusahaan terbuka terbesar bidang perdagangan di Jepang, telah menanamkan modalnya 352 juta dolar AS untuk mendapatkan 39,4 persen saham yang diterbitkan Encore Energy.
 1	Ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	juga	juga	ADV	RB	_	3	advmod	_	_
@@ -3662,7 +3662,7 @@
 35	Energy	Energy	PROPN	NNP	_	34	flat:name	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-120
+# sent_id = csui-test-120
 # text = Menurut Direktur MedcoEnergi Yani Panigoro dalam laporannya kepada Ketua Bapepam-LK di Jakarta, Selasa, sebelumnya 50,695 persen saham MedcoEnergi tersebut dimiliki oleh anak perusahaan perseroan yakni Dencisco Energy Resources Pte. Ltd. dan Aman Energy Resources Pte. Ltd.
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	Direktur	Direktur	PROPN	NNP	_	25	obl	_	_
@@ -3708,7 +3708,7 @@
 41	Ltd	Ltd	PROPN	NNP	_	37	flat:name	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	25	punct	_	_
 
-# sent_id = s-test-121
+# sent_id = csui-test-121
 # text = Toba Pulp yang dahulu bernama PT Inti Indorayon dikenal sebagai perusahaan bubur kertas milik konglomerat Sukanto Tanoto.
 1	Toba	toba	PROPN	NNP	_	9	nsubj:pass	_	_
 2	Pulp	Pulp	PROPN	NNP	_	1	flat:name	_	_
@@ -3729,7 +3729,7 @@
 17	Tanoto	Tanoto	PROPN	NNP	_	16	flat:name	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-122
+# sent_id = csui-test-122
 # text = Dia menambahkan dana akuisisi senilai Rp8,4 triliun akan dibiayai oleh dana internal perseroan dan pinjaman.
 1	Dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	menambahkan	tambah	VERB	VB	Voice=Act	0	root	_	_
@@ -3749,7 +3749,7 @@
 16	pinjaman	pinjam	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-123
+# sent_id = csui-test-123
 # text = "Peringkat tersebut mencerminkan berkembangnya permintaan untuk usaha konstruksi dan posisi usaha perusahaan yang kuat dalam bisnis pembangunan pembangkit listrik dan pabrik industri," kata analis Pefindo Ronald Hertanto, dalam sebuah pernyataannya di Jakarta, Rabu.
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
 2	Peringkat	Peringkat	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -3795,7 +3795,7 @@
 40	Rabu	Rabu	PROPN	NNP	_	27	obl	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-124
+# sent_id = csui-test-124
 # text = Analis valas PT Bank Saudara, Ruri Nova di Jakarta, mengatakan, rupiah tertekan, karena pelaku pasar berspekulasi melepas mata uang lokal itu, namun koreksi harga yang terjadi relatif kecil.
 1	Analis	analis	NOUN	NN	Number=Sing	12	nsubj	_	_
 2	valas	valas	PROPN	NNP	_	1	nmod	_	_
@@ -3832,7 +3832,7 @@
 33	kecil	kecil	ADJ	JJ	_	15	conj	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-125
+# sent_id = csui-test-125
 # text = "23.100 ton CPO ini selanjutnya berdasarkan perjanjian Offtake CPO dijual ke perseroan," jelas Fitri.
 1	"	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
 2	23.100	23.100	NUM	CD	_	3	nummod	_	_
@@ -3853,7 +3853,7 @@
 17	Fitri	Fitri	PROPN	NNP	_	16	nsubj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-126
+# sent_id = csui-test-126
 # text = Sementara itu, nilai tukar rupiah pada Oktober 2007 secara rata-rata menguat 2,2 persen dibandingkan September atau rata-rata Rp9.101 per dolar AS.
 1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
 2	itu	itu	PRON	PRP	PronType=Dem	12	advcl	_	SpaceAfter=No
@@ -3880,7 +3880,7 @@
 23	AS	AS	PROPN	NNP	_	22	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-127
+# sent_id = csui-test-127
 # text = Menteri Keuangan Sri Mulyani Indrawati, Selasa, mengungkapkan, surplus anggaran hingga 31 Oktober 2007 masih mencapai Rp17,6 triliun.
 1	Menteri	menteri	PROPN	NNP	_	9	nsubj	_	_
 2	Keuangan	Keuangan	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -3905,7 +3905,7 @@
 21	triliun	triliun	NUM	CD	_	20	flat	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-128
+# sent_id = csui-test-128
 # text = Sementara pertumbuhan kredit sebesar 10 persen menjadi 111,4 triliun.
 1	Sementara	sementara	SCONJ	IN	_	7	mark	_	_
 2	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	7	nsubj	_	_
@@ -3918,7 +3918,7 @@
 9	triliun	triliun	NUM	CD	_	8	flat	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-129
+# sent_id = csui-test-129
 # text = Dari total penjualan sepanjang 9 bulan 2007, penjualan mobil untuk produk Astra Internasional mencapai 179.603 unit.
 1	Dari	dari	ADP	IN	_	2	case	_	_
 2	total	total	NOUN	NN	Number=Sing	15	obl	_	_
@@ -3939,7 +3939,7 @@
 17	unit	unit	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	15	punct	_	_
 
-# sent_id = s-test-130
+# sent_id = csui-test-130
 # text = "Insya Allah gejolak ini akan dapat kita lewati dengan dampak seminimal mungkin," katanya dalam Pidato Kenegaraan dan Keterangan Pemerintah Atas RAPBN 2008 beserta Nota Keuangannya dalam Sidang Paripurna DPR di Jakarta, Kamis.
 1	"	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
 2	Insya	Insya	X	FW	Foreign=Yes	9	discourse	_	_
@@ -3983,7 +3983,7 @@
 38	Kamis	Kamis	PROPN	NNP	_	16	obl	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-131
+# sent_id = csui-test-131
 # text = Dia mengatakan, hal-hal yang mendorong pertumbuhan tersebut, antara lain investasi yang mulai tumbuh dan berjalan.
 1	Dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
@@ -4004,7 +4004,7 @@
 17	berjalan	jalan	VERB	VB	Voice=Act	15	conj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-132
+# sent_id = csui-test-132
 # text = Menurut Sekretaris Perusahaan UNTR Tjandrawati Waas dalam laporannya kepada Bursa Efek Jakarta (BEJ), Kamis, pesatnya kebutuhan alat berat di sektor non-tambang hingga pertengahan tahun ini memacu kenaikan kontribusi pendapatan divisi mesin konstruksi dari 48 persen tahun lalu menjadi 51 persen tahun ini.
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	Sekretaris	Sekretaris	NOUN	NN	Number=Sing	18	nmod	_	_
@@ -4058,7 +4058,7 @@
 48	ini	ini	DET	DT	PronType=Dem	47	det	_	SpaceAfter=No
 49	.	.	PUNCT	.	_	18	punct	_	_
 
-# sent_id = s-test-133
+# sent_id = csui-test-133
 # text = Dia merupakan salah seorang dari puluhan calon yang berasal dari dunia olahraga maupun pertunjukan, yang berjuang untuk merebut kursi di majelis rendah parlemen dengan bersaing melawan politikus berpengalaman.
 1	Dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	merupakan	rupa	VERB	VB	Voice=Act	0	root	_	_
@@ -4091,7 +4091,7 @@
 29	berpengalaman	alam	VERB	VB	Voice=Act	28	ccomp	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-134
+# sent_id = csui-test-134
 # text = "Mereka menggunakan mesin pemanen anggur. Itu artinya mereka tidak memerlukan banyak orang untuk melakukan pemanenan, dua orang saja cukup," kata Cavaille kepada harian Le Parisien.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
 2	Mereka	Mereka	PRON	PRP	_	3	nsubj	_	_
@@ -4127,7 +4127,7 @@
 31	Parisien	Parisien	PROPN	NNP	_	29	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-135
+# sent_id = csui-test-135
 # text = Harga realisasi rata-rata nikel dalam matte PT Inco sebesar 29,149 dolar AS per ton pada K1 2007 atau lebih baik dibandingkan periode sama sebelumnya 11,136 dolar AS per ton.
 1	Harga	harga	NOUN	NN	Number=Sing	9	nmod	_	_
 2	realisasi	realisasi	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -4160,7 +4160,7 @@
 29	ton	ton	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-136
+# sent_id = csui-test-136
 # text = Hartadi menjelaskan keengganan perbankan untuk memberikan pembiayaan pada industri tersebut membuat perkembangannya sungguh sangat memprihatinkan.
 1	Hartadi	hartadi	PROPN	NNP	_	2	nsubj	_	_
 2	menjelaskan	jelas	VERB	VB	Voice=Act	0	root	_	_
@@ -4181,7 +4181,7 @@
 16	memprihatinkan	prihatin	VERB	VB	Voice=Act	11	ccomp	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-137
+# sent_id = csui-test-137
 # text = "Jepang tetap berkomitmen untuk membantu pemerintah Indonesia memperbaiki sistem pajak mereka," kata Ken Okinawa, pejabat Kedutaan Besar Jepang di Jakarta dalam siaran pers Bank Dunia yang diterima ANTARA, Jumat.
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
 2	Jepang	Jepang	PROPN	NNP	_	4	nsubj	_	_
@@ -4219,7 +4219,7 @@
 34	Jumat	Jumat	PROPN	NNP	_	31	obl:tmod	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-138
+# sent_id = csui-test-138
 # text = Pencabutan izin usaha atas dua perusahaan lainnya dilakukan berdasarkan pengajuan permohonan pengembalian izin usaha setelah tidak berusaha lagi.
 1	Pencabutan	cabut	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
 2	izin	izin	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -4243,7 +4243,7 @@
 19	lagi	lagi	ADV	RB	_	18	advmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-139
+# sent_id = csui-test-139
 # text = PT Barito Pacific Timber Tbk akan mengakuisisi 70 persen saham PT Chandra Asri.
 1	PT	pt	PROPN	NNP	_	7	nsubj	_	_
 2	Barito	Barito	PROPN	NNP	_	1	flat:name	_	_
@@ -4260,7 +4260,7 @@
 13	Asri	Asri	PROPN	NNP	_	11	flat:name	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-140
+# sent_id = csui-test-140
 # text = Ia menambahkan rata-rata suku bunga kredit bank saat ini berada di kisaran rata-rata 9,6-13,8 persen.
 1	Ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	menambahkan	tambah	VERB	VB	Voice=Act	0	root	_	_
@@ -4281,7 +4281,7 @@
 17	persen	persen	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-141
+# sent_id = csui-test-141
 # text = Sementara itu, ujarnya, konsumsi rumah tangga tumbuh 1,46 persen pada triwulan I 2007 dibanding periode sebelumnya, dan 4,71 persen secara 'year on year', yang terdiri atas 1,1 persen pertumbuhan konsumsi makanan, dan 3,92 persen pertumbuhan konsumsi bukan makanan.
 1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
 2	itu	itu	PRON	PRP	PronType=Dem	10	advcl	_	SpaceAfter=No
@@ -4332,7 +4332,7 @@
 46	makanan	makan	NOUN	NN	Number=Sing	44	nmod	_	SpaceAfter=No
 47	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = s-test-142
+# sent_id = csui-test-142
 # text = Sedangkan Inflasi pada Oktober yang sebesar 6,88 persen atau lebih rendah dibandingkan September yaitu 6,95 persen menurut dia karena menurunnya inflasi pada kelompok makanan yang bergejolak (volatile food) sehubungan dengan berlalunya pola musiman Idul Fitri.
 1	Sedangkan	sedangkan	ADV	RB	_	2	advmod	_	_
 2	Inflasi	Inflasi	NOUN	NN	Number=Sing	0	root	_	_
@@ -4377,7 +4377,7 @@
 39	Fitri	Fitri	PROPN	NNP	_	38	flat:name	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-143
+# sent_id = csui-test-143
 # text = Dalam pengertian Fitch, pinjaman dengan jaminan merupakan porsi mayoritas dari total kredit bank di akhir tahun 2006.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	pengertian	pengertian	NOUN	NN	Number=Sing	8	obl	_	_
@@ -4399,7 +4399,7 @@
 18	2006	2006	NUM	CD	_	17	nummod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-144
+# sent_id = csui-test-144
 # text = Demikian pula laba usaha perseroan, dalam waktu yang sama terangkat dari semula Rp3,67 miliar menjadi Rp19,65 miliar, sehingga laba bersih per saham EPS-nya meningkat dari Rp0,39 menjadi Rp2,48 meski perseroan menanggung beban lain-lain bersih yang meningkat dari Rp2,25 miliar menjadi Rp4,99 miliar.
 1	Demikian	demikian	NOUN	NN	PronType=Dem	11	nsubj:pass	_	_
 2	pula	pula	ADV	RB	_	1	advmod	_	_
@@ -4455,7 +4455,7 @@
 52	miliar	miliar	NUM	CD	_	51	flat	_	SpaceAfter=No
 53	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-145
+# sent_id = csui-test-145
 # text = Rencananya akuisisi ini akan dimintakan persetujuan dalam RUPSLB yang akan diselenggarakan pada 26 Oktober mendatang.
 1-2	Rencananya	_	_	_	_	_	_	_	_
 1	Rencana	rencana	NOUN	NN	Number=Sing	0	root	_	_
@@ -4476,7 +4476,7 @@
 16	mendatang	datang	VERB	VB	Voice=Act	15	acl:relcl	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = s-test-146
+# sent_id = csui-test-146
 # text = Sementara Menko Perekonomian Boediono di tempat yang sama mengatakan secara umum APBNP 2007 aman, meskipun terjadi kenaikan harga minyak dunia.
 1	Sementara	sementara	SCONJ	IN	_	9	mark	_	_
 2	Menko	Menko	PROPN	NNP	_	9	nsubj	_	_
@@ -4503,7 +4503,7 @@
 22	dunia	dunia	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-147
+# sent_id = csui-test-147
 # text = Gubernur Bank Indonesia Burhanuddin Abdullah mengatakan situasi perekonomian dunia saat ini semakin membaik sehingga nilai tukar rupiah diperkirakan akan kembali stabil di sekitar Rp9.000 per dolar AS.
 1	Gubernur	gubernur	NOUN	NN	Number=Sing	6	nsubj	_	_
 2	Bank	Bank	PROPN	NNP	_	1	nmod	_	_
@@ -4535,7 +4535,7 @@
 28	AS	AS	PROPN	NNP	_	27	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-148
+# sent_id = csui-test-148
 # text = Tujuannya adalah mempromosikan bahasa Spanyol dan novel terkenal itu, yang akan menggunakan judul lengkapnya The Ingenious Hidalgo Don Quixote of La Mancha.
 1-2	Tujuannya	_	_	_	_	_	_	_	_
 1	Tujuan	tuju	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -4566,7 +4566,7 @@
 25	Mancha	Mancha	PROPN	NNP	_	18	flat:name	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-149
+# sent_id = csui-test-149
 # text = Ia mengatakan, pemegang saham Indonesia akan menerima dividen dalam rupiah yang nilainya setara dengan dividen yang dibayarkan dalam dollar AS berdasarkan kurs tengah yang ditetapkan oleh Bank Indonesia pada tanggal 27 April 2007.
 1	Ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
@@ -4606,7 +4606,7 @@
 35	2007	2007	NUM	CD	_	32	nummod	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-150
+# sent_id = csui-test-150
 # text = Menurutnya, kedua unit tanker tersebut akan ditempatkan di bawah anak perusahaan APOL, yang merupakan usaha patungan antara perseroan dengan Hyundai Merchant Marine Co. Ltd. dari Korea Selatan.
 1-2	Menurutnya	_	_	_	_	_	_	_	SpaceAfter=No
 1	Menurut	turut	ADP	IN	_	2	case	_	_
@@ -4641,7 +4641,7 @@
 30	Selatan	Selatan	PROPN	NNP	_	29	flat:name	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-151
+# sent_id = csui-test-151
 # text = Dalam kesempatan yang sama, Menkeu mengungkapkan, inflasi 2007 diperkirakan akan mencapai 6,5 persen dengan pertumbuhan ekonomi 6,3 persen.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	kesempatan	kesempatan	NOUN	NN	Number=Sing	11	obl	_	_
@@ -4665,7 +4665,7 @@
 20	persen	persen	NOUN	NN	Number=Sing	13	advcl	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-152
+# sent_id = csui-test-152
 # text = Persoalannya apakah mereka harus menghentikan kebiasaan itu untuk memberi contoh yang lebih baik karena mereka diidolakan banyak orang?
 1-2	Persoalannya	_	_	_	_	_	_	_	_
 1	Persoalan	soal	NOUN	NN	Number=Sing	0	root	_	_
@@ -4691,7 +4691,7 @@
 20	orang	orang	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
 21	?	?	PUNCT	.	_	1	punct	_	_
 
-# sent_id = s-test-153
+# sent_id = csui-test-153
 # text = Sementara itu, posisi ketiga adalah Thailand sebesar 11,4 miliar Ringgit 3,16 miliar dolar AS dan Indonesia berada di urutan ke-4 dengan nilai 4,7 miliar Ringgit.
 1	Sementara	sementara	ADP	IN	_	2	case	_	_
 2	itu	itu	PRON	PRP	PronType=Dem	7	nmod	_	SpaceAfter=No
@@ -4721,7 +4721,7 @@
 26	Ringgit	Ringgit	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-154
+# sent_id = csui-test-154
 # text = Direktur Perencanaan Strategis dan Humas BI, Budi Mulya di Jakarta, Selasa, mengatakan penurunan kembali BI rate ini karena bank sentral memperkirakan target inflasi tahun 2007 akan terkendali dan perekonomian makro masih pada jalurnya.
 1	Direktur	direktur	PROPN	NNP	_	15	nsubj	_	_
 2	Perencanaan	Perencanaan	PROPN	NNP	_	1	flat:name	_	_
@@ -4763,7 +4763,7 @@
 37	nya	nya	PRON	PRP$	_	36	nmod:poss	_	_
 38	.	.	PUNCT	.	_	15	punct	_	_
 
-# sent_id = s-test-155
+# sent_id = csui-test-155
 # text = Jepang menghibahkan 1 juta dolar AS yang berasal dari Policy and Human Resource Development (PHRD) Trust Fund, untuk mendukung penguatan sistem administrasi perpajakan dan perbaikan pelayanan.
 1	Jepang	jepang	PROPN	NNP	_	2	nsubj	_	_
 2	menghibahkan	hibah	VERB	VB	Voice=Act	0	root	_	_
@@ -4796,7 +4796,7 @@
 29	pelayanan	layan	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-156
+# sent_id = csui-test-156
 # text = Dia kemudian mengumumkan pemenang yang sebenarnya, yaitu Amanda Ware yang berusia 18 tahun.
 1	Dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	kemudian	kemudian	ADV	RB	_	3	advmod	_	_
@@ -4814,7 +4814,7 @@
 14	tahun	tahun	NOUN	NN	Number=Sing	12	obl:tmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-157
+# sent_id = csui-test-157
 # text = Dengan demikian komposisi kepemilikan saham di blok pertambangan minyak Ramba terdiri dari Elnusa 60 persen dan Talisman Energi 40 persen.
 1	Dengan	dengan	ADP	IN	_	2	case	_	_
 2	demikian	demikian	PRON	PRP	PronType=Dem	11	obl	_	_
@@ -4838,7 +4838,7 @@
 20	persen	persen	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-158
+# sent_id = csui-test-158
 # text = Sri Mulyani dalam acara pembukaan Indonesia Investor Forum II di Jakarta, Selasa, mengatakan kontribusi pasar modal terhadap PDB ini menunjukkan trend naik dibanding pada akhir 2006 yang hanya sebesar 37,4 persen dari PDB dengan kapitalisasi Rp1.250 triliun.
 1	Sri	sri	PROPN	NNP	_	15	nsubj	_	_
 2	Mulyani	Mulyani	PROPN	NNP	_	1	flat:name	_	_
@@ -4882,7 +4882,7 @@
 40	triliun	triliun	NUM	CD	_	39	flat	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	15	punct	_	_
 
-# sent_id = s-test-159
+# sent_id = csui-test-159
 # text = Tingginya suku bunga tersebut karena biaya dana (cost of fund), target margin keuntungan (profit margin) dan biaya operasional (overhead cost) diperkirakan masih tinggi.
 1-2	Tingginya	_	_	_	_	_	_	_	_
 1	Tinggi	tinggi	ADJ	JJ	_	0	root	_	_
@@ -4918,7 +4918,7 @@
 31	tinggi	tinggi	ADJ	JJ	_	29	ccomp	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	29	punct	_	_
 
-# sent_id = s-test-160
+# sent_id = csui-test-160
 # text = Deputi Gubernur Bank Indonesia Muliaman D Hadad mengatakan pertumbuhan kredit per Agustus 2007 yoy mencapai lebih dari 20 persen karena adanya realisasi dari Anggaran Pendapatan Belanja Daerah (APBD).
 1	Deputi	deputi	NOUN	NN	Number=Sing	8	nsubj	_	_
 2	Gubernur	Gubernur	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -4954,7 +4954,7 @@
 31	)	)	PUNCT	-RRB-	_	30	punct	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-161
+# sent_id = csui-test-161
 # text = kemudian perusahaan penerbangan Japan Airlines (JAL), All Nippon Airways (ANA), perusahaan-perusahaan elektronik/komputer, seperti Toshiba Corp, Hitachi, NEC dan Sony Corp, Sojitz Corp, dan Itochu Corp.
 1	kemudian	kemudian	ADV	RB	_	2	advmod	_	_
 2	perusahaan	usaha	NOUN	NN	Number=Sing	0	root	_	_
@@ -4996,7 +4996,7 @@
 38	Corp	Corp	PROPN	NNP	_	37	flat:name	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-162
+# sent_id = csui-test-162
 # text = "Jumlah yang sama sebesar 0,11 dolar AS per lembar saham telah dibayarkan untuk tahun 2005," kata dia.
 1	"	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
 2	Jumlah	Jumlah	NOUN	NN	Number=Sing	13	nsubj:pass	_	_
@@ -5020,7 +5020,7 @@
 20	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	19	nsubj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = s-test-163
+# sent_id = csui-test-163
 # text = "Kalau ditanya ini baik atau tidak, saya katakan baik dan mereka (investor asing, red) tidak lari," kata Menkeu.
 1	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
 2	Kalau	Kalau	SCONJ	IN	_	3	mark	_	_
@@ -5049,7 +5049,7 @@
 25	Menkeu	Menkeu	PROPN	NNP	_	24	nsubj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-164
+# sent_id = csui-test-164
 # text = Sebelumnya, pada 2007 pihaknya menambah 400 unit ATM dari jumlah yang ada saat ini, 2650 unit di seluruh Indonesia serta menambah menjadi 25.000 unit EDC dari 21.500 EDC yang ada saat ini.
 1	Sebelumnya	sebelumnya	ADV	RB	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
@@ -5089,7 +5089,7 @@
 35	ini	ini	DET	DT	PronType=Dem	34	det	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-165
+# sent_id = csui-test-165
 # text = Perusahaan ini juga sempat berhenti beroperasi sejak tahun 1998, dan baru mulai beroperasi pada Maret 2003.
 1	Perusahaan	usaha	NOUN	NN	Number=Sing	5	nsubj	_	_
 2	ini	ini	DET	DT	PronType=Dem	1	det	_	_
@@ -5110,7 +5110,7 @@
 17	2003	2003	NUM	CD	_	16	nummod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-166
+# sent_id = csui-test-166
 # text = "Rozik B Soetjipto menggantikan Soetaryo Sigit, yang efektif pensiun dari perseroan pada penutupan rapat tersebut," ujarnya.
 1	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
 2	Rozik	Rozik	PROPN	NNP	_	5	nsubj	_	_
@@ -5136,7 +5136,7 @@
 21	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 22	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-167
+# sent_id = csui-test-167
 # text = Mereka melakukan aksi di Villeneuve-les-Beziers Minggu malam (26-Sep) memanfaatkan terang bulan untuk mencuri hingga 30 ton anggur dengan menggunakan mesin.
 1	Mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	melakukan	laku	VERB	VB	Voice=Act	0	root	_	_
@@ -5164,7 +5164,7 @@
 24	mesin	mesin	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-168
+# sent_id = csui-test-168
 # text = Namun, peringkat tersebut diperlemah oleh relatif tingginya level leverage LTLS dan eksposure perseroan terhadap fluktuasi valuta asing.
 1	Namun	namun	CCONJ	CC	_	5	cc	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	5	punct	_	_
@@ -5188,7 +5188,7 @@
 19	asing	asing	ADJ	JJ	_	17	amod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-169
+# sent_id = csui-test-169
 # text = Dengan pengalamannya, dia kini menjadi salah seorang pelawak yang terkenal di TV.
 1	Dengan	dengan	ADP	IN	_	2	case	_	_
 2-3	pengalamannya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -5207,7 +5207,7 @@
 14	TV	TV	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-170
+# sent_id = csui-test-170
 # text = Mitra menambahkan bahwa penurunan tajam dalam subsidi harga minyak dan tumbuhnya kepercayaan fiskal pada utang dalam mata uang lokal dengan bunga tetap telah mengurangi vulnerability (sifat rentan terserang terhadap guncangan bunga atau harga domestik yang mendadak).
 1	Mitra	mitra	PROPN	NNP	_	2	nsubj	_	_
 2	menambahkan	tambah	VERB	VB	Voice=Act	0	root	_	_
@@ -5251,7 +5251,7 @@
 39	)	)	PUNCT	-RRB-	_	28	punct	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-171
+# sent_id = csui-test-171
 # text = Ia berharap forum ini (acara sosialisasi) dapat memberikan akses informasi kepada perbankan khususnya mengenai bidang-bidang usaha yang memiliki prospek yang baik dan potensial untuk dibiayai.
 1	Ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	berharap	harap	VERB	VB	Voice=Act	0	root	_	_
@@ -5282,7 +5282,7 @@
 27	dibiayai	biaya	VERB	VB	Voice=Pass	25	ccomp	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-172
+# sent_id = csui-test-172
 # text = Pemeringkat Efek Indonesia Pefindo memberikan peringkat idBBB+ untuk PT Truba Jaya Engineering (TRJE) dan rencana penerbitan Obligasi I/2007 berjangka waktu 2,5 tahun sebesar maksimum Rp300 miliar dengan prospek stabil.
 1	Pemeringkat	peringkat	PROPN	NNP	_	5	nsubj	_	_
 2	Efek	Efek	PROPN	NNP	_	1	flat:name	_	_
@@ -5318,7 +5318,7 @@
 32	stabil	stabil	ADJ	JJ	_	31	amod	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-173
+# sent_id = csui-test-173
 # text = Depkeu memperkirakan pertumbuhan ekonomi pada semester I/2007 akan berada pada kisaran 6,04 persen mengingat sangat baiknya kondisi pada bulan Juni.
 1	Depkeu	depkeu	PROPN	NNP	_	2	nsubj	_	_
 2	memperkirakan	kira	VERB	VB	Voice=Act	0	root	_	_
@@ -5344,7 +5344,7 @@
 21	Juni	Juni	PROPN	NNP	_	20	nmod:tmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-174
+# sent_id = csui-test-174
 # text = Dalam penjelasannya ke Badan Pengawas Pasar Modal Bapepam, direksi Medco menjelaskan, pihaknya telah menandatangani nota kesepahaman perjanjian jual beli gas, dengan PLN, pada 21 Maret lalu.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2-3	penjelasannya	_	_	_	_	_	_	_	_
@@ -5382,7 +5382,7 @@
 32	lalu	lalu	VERB	VB	Voice=Act	31	acl:relcl	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = s-test-175
+# sent_id = csui-test-175
 # text = Gates dan Buffett mengatakan mereka berada di Cina untuk mempelajari kegiatan amal di negara itu.
 1	Gates	gates	PROPN	NNP	_	4	nsubj	_	_
 2	dan	dan	CCONJ	CC	_	3	cc	_	_
@@ -5401,7 +5401,7 @@
 15	itu	itu	DET	DT	PronType=Dem	14	det	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-176
+# sent_id = csui-test-176
 # text = Perusahaan perkebunan PT Bakrie Sumatera Plantations Tbk (UNSP) telah melakukan pembelian sebanyak 2.700 saham dengan nilai nominal Rp1.000 per saham di PT Nibung Arthamulia yang berkedudukan di Palembang.
 1	Perusahaan	usaha	NOUN	NN	Number=Sing	12	nsubj	_	_
 2	perkebunan	kebun	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -5436,7 +5436,7 @@
 31	Palembang	Palembang	PROPN	NNP	_	29	obl	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-177
+# sent_id = csui-test-177
 # text = Selain ke Indonesia, PM Abe juga akan berkunjung ke India 21-23 Agustus dan Malaysia 23-25 Agustus.
 1	Selain	selain	ADP	IN	_	3	case	_	_
 2	ke	ke	ADP	IN	_	3	case	_	_
@@ -5461,7 +5461,7 @@
 21	Agustus	Agustus	PROPN	NNP	_	17	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-178
+# sent_id = csui-test-178
 # text = Menurut Menkeu, guna memastikan bahwa perbankan BUMN melakukan persiapan yang proper dalam implementasi PP 33/2006 tentang Tata Cara Penghapusan Piutang Negara/Daerah, maka telah diamanatkan pembentukan oversight commitee bagi restrukturisasi dan penyelesaian kredit bermasalah.
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	Menkeu	Menkeu	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
@@ -5502,7 +5502,7 @@
 37	bermasalah	masalah	VERB	VB	Voice=Act	36	ccomp	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	28	punct	_	_
 
-# sent_id = s-test-179
+# sent_id = csui-test-179
 # text = "Dengan berubahnya rata-rata harga minyak perkiraan BI sebesar 69,8 dolar AS per barel, maka cadangan devisa menjadi 56,655 miliar dolar AS," katanya dalam rapat kerja BI dengan Komisi XI DPR, di Gedung DPR, Jakarta, Selasa.
 1	"	"	PUNCT	``	_	20	punct	_	SpaceAfter=No
 2	Dengan	Dengan	SCONJ	IN	_	3	mark	_	_
@@ -5552,7 +5552,7 @@
 44	Selasa	Selasa	PROPN	NNP	_	27	obl	_	SpaceAfter=No
 45	.	.	PUNCT	.	_	20	punct	_	_
 
-# sent_id = s-test-180
+# sent_id = csui-test-180
 # text = Lembaga pemeringkat Fitch Ratings, Senin, menyatakan pihaknya telah menaikkan rating individual PT Bank Niaga Tbk (BNGA) dan PT Bank Lippo Tbk (LPBN) menjadi 'C/D' dari 'D'.
 1	Lembaga	lembaga	NOUN	NN	Number=Sing	8	nsubj	_	_
 2	pemeringkat	peringkat	PROPN	NNP	_	1	nmod	_	_
@@ -5594,7 +5594,7 @@
 37	'	'	PUNCT	''	_	36	punct	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-181
+# sent_id = csui-test-181
 # text = Sementara itu, suku bunga penjaminan untuk simpanan dalam bentuk dolar AS tetap dipertahankan pada level 4,75 persen
 1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
 2	itu	itu	PRON	PRP	PronType=Dem	14	advcl	_	SpaceAfter=No
@@ -5615,7 +5615,7 @@
 17	4,75	4,75	NUM	CD	_	18	nummod	_	_
 18	persen	persen	NOUN	NN	Number=Sing	16	nmod	_	_
 
-# sent_id = s-test-182
+# sent_id = csui-test-182
 # text = Sementara itu Direktur Utama PT Mirantha Nuansa Ayu, Henry Sulysto, mengatakan, kerja sama dengan perusahaan penyewaan pesawat sangat diperlukan karena tidak mungkin perseroan menyediakan pesawat sendiri, karena risiko dan investasinya besar, kata Henry
 1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
 2	itu	itu	PRON	PRP	PronType=Dem	13	advcl	_	_
@@ -5658,7 +5658,7 @@
 38	kata	kata	VERB	VB	Voice=Act	13	parataxis	_	_
 39	Henry	Henry	PROPN	NNP	_	13	obl	_	_
 
-# sent_id = s-test-183
+# sent_id = csui-test-183
 # text = Ditulis pada tahun 1605, novel ini berkisah tentang petualangan seorang pria pensiunan di kawasan la Mancha, yang punya obsesi dengan gagasan-gagasan kesatria.
 1	Ditulis	tulis	VERB	VB	Voice=Pass	8	ccomp	_	_
 2	pada	pada	ADP	IN	_	3	case	_	_
@@ -5686,7 +5686,7 @@
 24	kesatria	kesatria	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-184
+# sent_id = csui-test-184
 # text = Budaya takut untuk melakukan korupsi secara terbuka telah muncul seraya investigasi-investigasi antikorupsi mengarah ke beberapa tuntutan hukum yang berprofil tinggi, pemulihan aset dan peningkatan pengaduan melalui program pengaduan.
 1	Budaya	budaya	NOUN	NN	Number=Sing	9	nsubj	_	_
 2	takut	takut	ADJ	JJ	_	1	amod	_	_
@@ -5719,7 +5719,7 @@
 29	pengaduan	adu	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-185
+# sent_id = csui-test-185
 # text = Dalam perjanjian tersebut, Medco akan memasok gas dalam kurun waktu 2008-2017, dengan total volume 133 miliar kaki kubik, dari lapangan Singa, Sumatera Selatan, ke fasilitas pembangkit listrik PLN di Jawa Barat.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	perjanjian	janji	NOUN	NN	Number=Sing	7	obl	_	_
@@ -5761,7 +5761,7 @@
 38	Barat	Barat	PROPN	NNP	_	37	flat:name	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-186
+# sent_id = csui-test-186
 # text = Dia mengatakan kepada BBC bahwa dia sudah berencana menyumbangkan seluruh hartanya untuk amal bila dia meninggal.
 1	Dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	_
@@ -5783,7 +5783,7 @@
 17	meninggal	tinggal	VERB	VB	Voice=Act	9	advcl	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-187
+# sent_id = csui-test-187
 # text = "Hibah dari Jepang akan digunakan untuk membiayai sebuah kajian atas praktik kami selama ini dan membuat sebuah rencana reformasi yang komprehensif dalam bidang proses bisnis, IT dan pengembangan sumber daya," kata Darmin.
 1	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
 2	Hibah	Hibah	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
@@ -5823,7 +5823,7 @@
 36	Darmin	Darmin	PROPN	NNP	_	35	nsubj	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-188
+# sent_id = csui-test-188
 # text = Jepang sendiri telah menunjukkan komitmennya dalam hubungan bilateral dengan membantu memberikan pinjaman sebesar 200 juta dolar AS untuk tahun ini yang terealisasi Maret lalu.
 1	Jepang	jepang	PROPN	NNP	_	4	nsubj	_	_
 2	sendiri	sendiri	DET	DT	_	1	det	_	_
@@ -5853,7 +5853,7 @@
 25	lalu	lalu	VERB	VB	Voice=Act	24	acl:relcl	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-189
+# sent_id = csui-test-189
 # text = Yen terhadap dolar AS mencapai 121,32.
 1	Yen	yen	NOUN	NN	Number=Sing	5	nsubj	_	_
 2	terhadap	hadap	ADP	IN	_	3	case	_	_
@@ -5863,7 +5863,7 @@
 6	121,32	121,32	NUM	CD	_	5	obj	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-190
+# sent_id = csui-test-190
 # text = "Kondisi curah hujan yang berada di atas rata-rata sejak akhir Februari 2007 telah sedikit meningkatkan ketinggian permukaan air penampungan utama kami, sehingga perseroan dapat meningkatkan pengoperasian pembangkit listrik tenaga air (PLTA) pada tingkat normal," kata Arif.
 1	"	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
 2	Kondisi	Kondisi	NOUN	NN	Number=Sing	16	nsubj	_	_
@@ -5909,7 +5909,7 @@
 42	Arif	Arif	PROPN	NNP	_	41	nsubj	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	16	punct	_	_
 
-# sent_id = s-test-191
+# sent_id = csui-test-191
 # text = Menurut Pefindo peringkat tersebut didukung oleh diversifikasi produk dan pasar LTLS yang baik, termasuk operasionalnya yang terintegrasi.
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	Pefindo	Pefindo	PROPN	NNP	_	5	obl	_	_
@@ -5933,7 +5933,7 @@
 19	terintegrasi	terintegrasi	VERB	VB	Voice=Pass	16	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-192
+# sent_id = csui-test-192
 # text = Penyanyi amatir ini akan mendapat kupon untuk makan pangsit kapan pun dia mau.
 1	Penyanyi	nyanyi	NOUN	NN	Number=Sing	5	nsubj	_	_
 2	amatir	amatir	ADJ	JJ	_	1	amod	_	_
@@ -5950,7 +5950,7 @@
 13	mau	mau	VERB	VB	Voice=Act	8	advcl	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-193
+# sent_id = csui-test-193
 # text = Anak perusahaan Pertamina yakni PT Elnusa telah melakukan akuisisi 100 persen saham Conocophilips Ramba Ltd (CPRL) di blok pertambangan minyak onshore Ramba Sumatra Selatan, yang merupakan salah satu anak perusahaan Conocophilips AS.
 1	Anak	anak	NOUN	NN	Number=Sing	8	nsubj	_	_
 2	perusahaan	usaha	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -5989,7 +5989,7 @@
 35	AS	AS	PROPN	NNP	_	34	flat:name	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-194
+# sent_id = csui-test-194
 # text = "Apalagi hubungan kerja sama ini telah terjalin sejak 1972 dengan menjadi nasabah giro dan menjadi debitur sejak tahun 1994," ucapnya.
 1	"	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
 2	Apalagi	Apalagi	CCONJ	CC	_	8	cc	_	_
@@ -6018,7 +6018,7 @@
 24	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 25	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-195
+# sent_id = csui-test-195
 # text = "Demikian pula jika proyek telah selesai dan ada potensi sisa dana pinjaman maka bappenas akan mengusulkan pembatalan sisa pinjaman yang tidak terpakai itu," kata Meneg PPN/Kepala Bappenas, Paskah Suzetta di Jakarta, Kamis.
 1	"	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
 2	Demikian	Demikian	NOUN	NN	Number=Sing	17	nsubj	_	_
@@ -6061,7 +6061,7 @@
 39	Kamis	Kamis	PROPN	NNP	_	27	obl	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	17	punct	_	_
 
-# sent_id = s-test-196
+# sent_id = csui-test-196
 # text = "Pada tingkat laba bersih, perseroan mencatat kenaikan tiga persen dari Rp538 miliar pada semester pertama tahun lalu menjadi Rp552 miliar pada semester pertama tahun ini dan laba bersih per saham EPS meningkat dari Rp189 menjadi Rp194," ungkapnya.
 1	"	"	PUNCT	``	_	36	punct	_	SpaceAfter=No
 2	Pada	Pada	ADP	IN	_	3	case	_	_
@@ -6112,7 +6112,7 @@
 46	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	45	nsubj	_	_
 47	.	.	PUNCT	.	_	36	punct	_	_
 
-# sent_id = s-test-197
+# sent_id = csui-test-197
 # text = Penandatanganan kerja sama fasilitas kredit itu dilaksanakan antara Direktur Utama PT Bank Mandiri, Agus Martowardoyo dan Direktur Utama PT PKG Arifin Tasrif di Jakarta, Rabu.
 1	Penandatanganan	penandatanganan	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
 2	kerja	kerja	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -6143,7 +6143,7 @@
 27	Rabu	Rabu	PROPN	NNP	_	7	obl:tmod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-198
+# sent_id = csui-test-198
 # text = Direktur Multi Prima Sejahtera Tbk, Hery Soegiarto dalam laporannya kepada Bursa Efek Surabaya (BES) di Jakarta, Rabu, mengatakan transaksi tersebut dilaksanakan pada 24 Agustus lalu dan perseroan telah menerima dana hasil penjualan saham tersebut.
 1	Direktur	direktur	PROPN	NNP	_	24	nsubj	_	_
 2	Multi	Multi	PROPN	NNP	_	1	flat:name	_	_
@@ -6188,7 +6188,7 @@
 40	tersebut	sebut	DET	DT	_	36	det	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	24	punct	_	_
 
-# sent_id = s-test-199
+# sent_id = csui-test-199
 # text = Dalam acara Seminar Nasional Peran Diplomasi Ekonomi dalam Mendorong Pertumbuhan Ekspor di Jakarta, Selasa, Miranda mengatakan kecilnya pertumbuhan ekspor non-migas ini karena neraca pembayaran 2007 akan menghadapi melemahnya pertumbuhan ekonomi global dan anjloknya harga ekspor komoditi.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	acara	acara	NOUN	NN	Number=Sing	18	obl	_	_
@@ -6236,7 +6236,7 @@
 41	komoditi	komoditi	NOUN	NN	Number=Sing	40	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	18	punct	_	_
 
-# sent_id = s-test-200
+# sent_id = csui-test-200
 # text = Sedangkan sisanya sebesar 17 persen digolongkan sebagai kredit bermasalah komersial dan konsumsi, yang walaupun meningkat di 2006 tetapi dari basis yang rendah, dengan rasio kredit bermasalah dari kedua segmen tersebut meningkat menjadi 2,1 persen di akhir tahun 2006 dari 1,7 persen di akhir 2005.
 1	Sedangkan	sedangkan	CCONJ	CC	_	7	cc	_	_
 2-3	sisanya	_	_	_	_	_	_	_	_
@@ -6290,7 +6290,7 @@
 48	2005	2005	NUM	CD	_	45	nmod	_	SpaceAfter=No
 49	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-201
+# sent_id = csui-test-201
 # text = Sedangkan untuk nilai penjualan mengalami peningkatan karena didorong oleh harga jual rata-rata CPO perseroan sebesar 66,1 persen atau menjadi Rp5.763 per kg.
 1	Sedangkan	sedangkan	CCONJ	CC	_	19	cc	_	_
 2	untuk	untuk	ADP	IN	_	3	case	_	_
@@ -6317,7 +6317,7 @@
 23	kg	kg	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-202
+# sent_id = csui-test-202
 # text = "Kita tahu anak-anak itu terpengaruh oleh orang di sekeliling mereka. Penelitian membuktikan mereka yang tumbuh dengan orang tua perokok, 90% menjadi perokok."
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
 2	Kita	Kita	PRON	PRP	_	3	nsubj	_	_
@@ -6348,7 +6348,7 @@
 27	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
 28	"	"	PUNCT	''	_	3	punct	_	_
 
-# sent_id = s-test-203
+# sent_id = csui-test-203
 # text = "APBNP 2007 akan ditutup dengan defisit sebesar Rp49,5 triliun atau lebih kecil dari sasaran Rp58,3 triliun," kata Menkeu dalam jumpa pers usai sidang kabinet paripurna di Kantor Presiden Jakarta, Selasa.
 1	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
 2	APBNP	APBNP	PROPN	NNP	_	5	nsubj:pass	_	_
@@ -6388,7 +6388,7 @@
 36	Selasa	Selasa	PROPN	NNP	_	22	obl	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-204
+# sent_id = csui-test-204
 # text = "Penurunan produksi sawit berakibat pula pada penurunan produksi minyak sawit mentah CPO AALI sebesar 10 persen dari 223 ton pada kuartal I 2006 menjadi 200.662 ton pada kuartal I 2007," katanya.
 1	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
 2	Penurunan	Penurunan	NOUN	NN	Number=Sing	5	nsubj	_	_
@@ -6428,7 +6428,7 @@
 35	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
 36	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-205
+# sent_id = csui-test-205
 # text = Namun demikian rating ini sama dengan peringkat ekspektasi yang diberikan di bulan April 2007.
 1	Namun	namun	CCONJ	CC	_	5	cc	_	_
 2	demikian	demikian	PRON	PRP	PronType=Dem	5	obl	_	_
@@ -6446,7 +6446,7 @@
 14	2007	2007	NUM	CD	_	12	nummod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-206
+# sent_id = csui-test-206
 # text = Pencarian casting untuk The Hobbit dijadwalkan berlangsung hari Minggu di National Dance and Drama Centre di Wellington.
 1	Pencarian	cari	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
 2	casting	casting	X	FW	Foreign=Yes	1	nmod	_	_
@@ -6467,7 +6467,7 @@
 17	Wellington	Wellington	PROPN	NNP	_	11	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-207
+# sent_id = csui-test-207
 # text = Dengan penurunan rasio utang pemerintah itu, makin memperkuat struktur ketahanan fiskal, sejalan dengan tujuan untuk mencapai kemandirian fiskal yang berkelanjutan.
 1	Dengan	dengan	ADP	IN	_	2	case	_	_
 2	penurunan	turun	NOUN	NN	Number=Sing	9	obl	_	_
@@ -6493,7 +6493,7 @@
 22	berkelanjutan	berkelanjutan	VERB	VB	Voice=Act	19	acl:relcl	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-208
+# sent_id = csui-test-208
 # text = Acara TV Australia's Next Top Model, sempat mengumumkan pemenang yang salah dalam final yang disiarkan langsung pada serinya yang keenam.
 1	Acara	acara	NOUN	NN	Number=Sing	10	nsubj	_	_
 2	TV	TV	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -6521,7 +6521,7 @@
 23	keenam	keenam	ADJ	JJ	_	20	acl:relcl	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = s-test-209
+# sent_id = csui-test-209
 # text = Sektor-sektor lain yang berhubungan dengan sektor primer misalnya, pertanian, pertambangan, dan pertambangan migas maupun non-migas juga menunjukkan pertumbuhan yang baik, atau bahkan di atas 10 persen.
 1	Sektor-sektor	sektor	NOUN	NN	Number=Plur	20	nsubj	_	_
 2	lain	lain	ADJ	JJ	_	1	amod	_	_
@@ -6555,7 +6555,7 @@
 30	persen	persen	NOUN	NN	Number=Sing	23	conj	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	20	punct	_	_
 
-# sent_id = s-test-210
+# sent_id = csui-test-210
 # text = Kelsey Martinovich dianugerahi mahkota kemenangan sesuai pilihan pemirsa dan sedang menyampaikan pidato, namun presenter Sarah Murdoch menyela.
 1	Kelsey	kelsey	PROPN	NNP	_	3	nsubj:pass	_	_
 2	Martinovich	Martinovich	PROPN	NNP	_	1	flat:name	_	_
@@ -6577,7 +6577,7 @@
 18	menyela	sela	VERB	VB	Voice=Act	3	conj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-211
+# sent_id = csui-test-211
 # text = Lembaga pemeringkat efek Indonesia, Pefindo, menegaskan kembali peringkat idA- untuk PT Lautan Luas Tbk (LTLS) dan Obligasi II/2003 sebesar Rp300 miliar yang akan jatuh tempo pada 24 Juni 2008, dan memberikan outlook stabil untuk peringkat tersebut.
 1	Lembaga	lembaga	NOUN	NN	Number=Sing	8	nsubj	_	_
 2	pemeringkat	peringkat	PROPN	NNP	_	1	nmod	_	_
@@ -6623,7 +6623,7 @@
 42	tersebut	sebut	DET	DT	_	41	det	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-212
+# sent_id = csui-test-212
 # text = Sementara itu, Menteri Keuangan Sri Mulyani menjelaskan, indikasi membaiknya sektor riil juga terlihat dari peningkatan penerimaan Pajak Penghasilan (PPh) dan Pajak Pertambahan Nilai (PPN) yang hingga akhir tahun bisa diperkirakan lebih tinggi dari rata-rata tingkat inflasi 6 persen.
 1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
 2	itu	itu	PRON	PRP	PronType=Dem	0	root	_	SpaceAfter=No
@@ -6673,7 +6673,7 @@
 45	persen	persen	NOUN	NN	Number=Sing	41	nmod	_	SpaceAfter=No
 46	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-213
+# sent_id = csui-test-213
 # text = Akhir pekan lalu, Departemen Keuangan meminta direksi bank-bank BUMN untuk tidak takut dan ragu untuk mempercepat restrukturisasi NPL berdasar peraturan yang telah diterbitkan yaitu Peraturan Pemerintah (PP) Nomor 33 tahun 2006 dan Peraturan Menteri Keuangan (PMK) Nomor 87 tahun 2006.
 1	Akhir	akhir	NOUN	NN	Number=Sing	7	nsubj	_	_
 2	pekan	pekan	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -6722,7 +6722,7 @@
 45	2006	2006	PROPN	NNP	_	44	nmod	_	SpaceAfter=No
 46	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-214
+# sent_id = csui-test-214
 # text = Pada periode 10 bulan pertama, produksi super CPO AALI naik sebesar 4,6 persen dari 482.302 ton menjadi 504.469 ton.
 1	Pada	pada	ADP	IN	_	2	case	_	_
 2	periode	periode	NOUN	NN	Number=Sing	11	obl:tmod	_	_
@@ -6746,7 +6746,7 @@
 20	ton	ton	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-215
+# sent_id = csui-test-215
 # text = Badan Pusat Statistik (BPS) menyatakan perekonomian Indonesia tumbuh pada triwulan II 2007 sebesar 2,41 persen, sedangkan pertumbuhan ekonomi pada enam bulan pertama 2007 sebesar 6,13 persen dan secara year on year 6,28 persen.
 1	Badan	badan	NOUN	NN	Number=Sing	7	nsubj	_	_
 2	Pusat	Pusat	PROPN	NNP	_	1	nmod	_	_
@@ -6786,7 +6786,7 @@
 36	persen	persen	NOUN	NN	Number=Sing	27	conj	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-216
+# sent_id = csui-test-216
 # text = Dalam sebuah pernyataannya yang dikutip Thomson Financial, Kamis, Moody's menaikkan peringkat obligasi pemerintah dalam mata uang asing dan lokal menjadi Ba3 dari B1.
 1	Dalam	dalam	ADP	IN	_	3	case	_	_
 2	sebuah	buah	DET	DT	Number=Sing|PronType=Ind	3	det	_	_
@@ -6818,7 +6818,7 @@
 27	B1	B1	PROPN	NNP	_	14	obl	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	14	punct	_	_
 
-# sent_id = s-test-217
+# sent_id = csui-test-217
 # text = Atas keberhasilan menyelesaikan penyelesaian tiga Undang-undang yang mendukung penyempurnaan penerapan ketentuan penerimaan pajak dan PNBP, Presiden memberikan apresiasi kepada DPR.
 1	Atas	atas	ADP	IN	_	2	case	_	_
 2	keberhasilan	hasil	NOUN	NN	Number=Sing	18	obl	_	_
@@ -6843,7 +6843,7 @@
 21	DPR	DPR	PROPN	NNP	_	18	obl	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	18	punct	_	_
 
-# sent_id = s-test-218
+# sent_id = csui-test-218
 # text = "Berdasarkan laporan keuangan LTLS per 30 Juni 2007, outstanding Obligasi II/2003 hanya Rp246,76 miliar karena beberapa di antaranya telah dibeli kembali (buy back)," kata Pefindo dalam sebuah pernyataannya di Jakarta, Kamis.
 1	"	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
 2	Berdasarkan	Berdasarkan	VERB	VB	Voice=Act	0	root	_	_
@@ -6890,7 +6890,7 @@
 41	Kamis	Kamis	PROPN	NNP	_	32	obl	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-219
+# sent_id = csui-test-219
 # text = PT Indonesia Air Transport Tbk (IATA) pada tahun ini berencana menambah lima pesawat terbang lagi untuk memenuhi kebutuhan pasar di wilayah Nusa Tenggara Timur (NTT), Nusa Tenggara Barat (NTB), Labuhan Bajo dan Bali.
 1	PT	pt	PROPN	NNP	_	12	nsubj	_	_
 2	Indonesia	Indonesia	PROPN	NNP	_	1	flat:name	_	_
@@ -6935,7 +6935,7 @@
 41	Bali	Bali	PROPN	NNP	_	24	conj	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-220
+# sent_id = csui-test-220
 # text = Film yang ditulis oleh pencipta serial West Wing Aaron Sorkin dan disutradarai oleh David Fincher yang pernah menggarap film Fight's Club ini sebenarnya belum memperoleh izin Mark Zuckerberg.
 1	Film	film	NOUN	NN	Number=Sing	26	nsubj	_	_
 2	yang	yang	SCONJ	IN	_	3	mark	_	_
@@ -6968,7 +6968,7 @@
 29	Zuckerberg	Zuckerberg	PROPN	NNP	_	28	flat:name	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	26	punct	_	_
 
-# sent_id = s-test-221
+# sent_id = csui-test-221
 # text = Dalam prospektusnya yang dipublikasikan di Jakarta, Selasa, Bank Mayapada mengatakan Obligasi Bank Mayapada II Tahun 2007 akan diterbitkan dalam Seri A berjangka waktu tiga tahun dan Seri B berjangka waktu lima tahun dengan memberikan tingkat suku bunga tetap dan nilai nominal yang akan ditentukan kemudian.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2-3	prospektusnya	_	_	_	_	_	_	_	_
@@ -7021,7 +7021,7 @@
 48	kemudian	kemudian	ADV	RB	_	47	obl	_	SpaceAfter=No
 49	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = s-test-222
+# sent_id = csui-test-222
 # text = Dia mengatakan, rakortas yang dihadiri seluruh pengambil kebijakan moneter dan fiskal itu belum menentukan apakah Tim Koordinasi Pinjaman Komersial Luar Negeri (PKLN).
 1	Dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
@@ -7052,7 +7052,7 @@
 26	)	)	PUNCT	-RRB-	_	25	punct	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-223
+# sent_id = csui-test-223
 # text = Namun saat ini perseroan juga menyediakan juga kebutuhan pesawat untuk perusahaan travel.
 1	Namun	namun	CCONJ	CC	_	6	cc	_	_
 2	saat	saat	NOUN	NN	Number=Sing	6	nsubj	_	_
@@ -7068,7 +7068,7 @@
 12	travel	travel	X	FW	Foreign=Yes	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-224
+# sent_id = csui-test-224
 # text = Sekretaris Perusahaan TRUB Jenty Tjandradjaja, dalam keterbukaan informasi di Bursa Efek Jakarta (BEJ), Rabu, mengatakan, pembelian ini dalam rangka investasi.
 1	Sekretaris	sekretaris	NOUN	NN	Number=Sing	20	nsubj	_	_
 2	Perusahaan	Perusahaan	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -7098,7 +7098,7 @@
 26	investasi	investasi	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	20	punct	_	_
 
-# sent_id = s-test-225
+# sent_id = csui-test-225
 # text = Walau ladang anggur diasuransikan, pencurian tidak termasuk dalam lindungan asuransi.
 1	Walau	walau	SCONJ	IN	_	4	mark	_	_
 2	ladang	ladang	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
@@ -7113,7 +7113,7 @@
 11	asuransi	asuransi	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-226
+# sent_id = csui-test-226
 # text = Pencabutan suspensi ini setelah pihak manajemen PGAS melakukan penjelasan kepada publik dan otoritas bursa mengenai penurunan harga sahamnya yang mencapai 23,32 persen.
 1	Pencabutan	cabut	NOUN	NN	Number=Sing	8	obl	_	_
 2	suspensi	suspensi	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -7141,7 +7141,7 @@
 23	persen	persen	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-227
+# sent_id = csui-test-227
 # text = Lebih rendahnya penerimaan PNBP disebabkan turunnya penerimaan bagian pemerintah atas laba Badan Usaha Milik Negara (BUMN) dan penurunan PNBP lainnya.
 1	Lebih	lebih	ADV	RB	_	2	advmod	_	_
 2-3	rendahnya	_	_	_	_	_	_	_	_
@@ -7173,7 +7173,7 @@
 25	nya	nya	DET	DT	_	22	det	_	_
 26	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-228
+# sent_id = csui-test-228
 # text = Dengan langkah penurunan ini, maka suku bunga penjaminan (LPS rate) dan suku bunga BI (BI rate) kembali pada posisi yang sama, yaitu 9 persen, setelah pada awal pekan lalu, Rapat Dewan Gubernur (RDG) BI memutuskan untuk mempertahankan BI rate pada level itu.
 1	Dengan	dengan	ADP	IN	_	2	case	_	_
 2	langkah	langkah	NOUN	NN	Number=Sing	0	root	_	_
@@ -7229,7 +7229,7 @@
 52	itu	itu	DET	DT	PronType=Dem	51	det	_	SpaceAfter=No
 53	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-229
+# sent_id = csui-test-229
 # text = "Mestinya BI rate lebih rendah dibandingkan suku bunga deposito," katanya.
 1	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
 2	Mestinya	Mestinya	ADV	RB	_	6	advmod	_	_
@@ -7248,7 +7248,7 @@
 14	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 15	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-230
+# sent_id = csui-test-230
 # text = Sektor perdagangan, hotel dan restoran PPh tumbuh 25,8 persen, PPN 27,4 persen.
 1	Sektor	sektor	NOUN	NN	Number=Sing	8	obl	_	_
 2	perdagangan	dagang	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
@@ -7261,12 +7261,12 @@
 9	25,8	25,8	NUM	CD	_	10	nummod	_	_
 10	persen	persen	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	8	punct	_	_
-12	PPN	PPN	NOUN	NN	Number=Sing	14	nmod	_	_
+12	PPN	PPN	NOUN	NN	Number=Sing	8	conj	_	_
 13	27,4	27,4	NUM	CD	_	14	nummod	_	_
-14	persen	persen	NOUN	NN	Number=Sing	8	parataxis	_	SpaceAfter=No
+14	persen	persen	NOUN	NN	Number=Sing	12	orphan	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-231
+# sent_id = csui-test-231
 # text = Namun produksi ini mengalami penurunan 8,7 persen dibanding periode Januari-Oktober 2006 yang mencapai 761.253 ton.
 1	Namun	namun	CCONJ	CC	_	4	cc	_	_
 2	produksi	produksi	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -7287,7 +7287,7 @@
 17	ton	ton	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-232
+# sent_id = csui-test-232
 # text = Untuk itu, menurut dia, BI dan Pemerintah akan senantiasa menjaga kestabilan makro ekonomi dengan memberikan sinyal positif kepada pasar keuangan untuk meningkatkan kepercayaan pasar terhadap stabilitas sistem keuangan dan makroekonomi.
 1	Untuk	untuk	ADP	IN	_	2	case	_	_
 2	itu	itu	PRON	PRP	PronType=Dem	12	obl	_	SpaceAfter=No
@@ -7323,7 +7323,7 @@
 32	makroekonomi	makroekonomi	NOUN	NN	Number=Sing	29	conj	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-233
+# sent_id = csui-test-233
 # text = Sedangkan Anggaran Pendapatan dan Belanja Negara (APBN) 2007 sebesar Rp763 triliun dengan alokasi untuk pemerintah pusat dan daerah masing-masing Rp504 dan Rp259 triliun.
 1	Sedangkan	sedangkan	CCONJ	CC	_	11	cc	_	_
 2	Anggaran	Anggaran	NOUN	NN	Number=Sing	11	nmod	_	_
@@ -7355,7 +7355,7 @@
 28	triliun	triliun	NUM	CD	_	27	flat	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-234
+# sent_id = csui-test-234
 # text = Perusahaan properti PT Bakrieland Development Tbk (ELTY) di Jakarta, Rabu, menyatakan dalam tiga bulan pertama hingga Maret 2007 berhasil membukukan laba bersih konsolidasi Rp13,91 miliar, atau melonjak 543,98 persen dari Rp2,16 miliar pada periode sama tahun lalu.
 1	Perusahaan	usaha	NOUN	NN	Number=Sing	15	nsubj	_	_
 2	properti	properti	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -7403,7 +7403,7 @@
 44	lalu	lalu	VERB	VB	Voice=Act	43	ccomp	_	SpaceAfter=No
 45	.	.	PUNCT	.	_	15	punct	_	_
 
-# sent_id = s-test-235
+# sent_id = csui-test-235
 # text = Selain itu, kurangnya pasokan gas menyebabkan produksi urea tidak maksimal.
 1	Selain	selain	ADP	IN	_	2	case	_	_
 2	itu	itu	PRON	PRP	PronType=Dem	8	obl	_	SpaceAfter=No
@@ -7420,7 +7420,7 @@
 12	maksimal	maksimal	ADJ	JJ	_	8	xcomp	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-236
+# sent_id = csui-test-236
 # text = "Dari kontrak awal 62 MMSCFD pasokan gas yang diterima hanya 45 juta metrik kaki kubik per hari (MMSFD)," katanya.
 1	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
 2	Dari	Dari	ADP	IN	_	3	case	_	_
@@ -7450,7 +7450,7 @@
 25	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 26	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-237
+# sent_id = csui-test-237
 # text = "Ini merupakan indikator yang kita amati agar tekanan inflasi tidak berlebihan," katanya.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
 2	Ini	ini	PRON	PRP	PronType=Dem	3	nsubj	_	_
@@ -7471,7 +7471,7 @@
 16	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 17	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-238
+# sent_id = csui-test-238
 # text = PT Pemeringkat Efek Indonesia (Pefindo) memberikan rating A- kepada PT Bakrie Telecom dan obligasi I tahun 2007 senilai Rp750 miliar yang digunakan untuk sebagian belanja modal perseroan.
 1	PT	pt	PROPN	NNP	_	8	nsubj	_	_
 2	Pemeringkat	Pemeringkat	PROPN	NNP	_	1	flat:name	_	_
@@ -7505,7 +7505,7 @@
 30	perseroan	perseroan	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-239
+# sent_id = csui-test-239
 # text = Menteri Keuangan Sri Mulyani mengatakan bahwa pemerintah tengah menyelesaikan mekanisme restrukturisasi NPL (kredit bermasalah) Bank BUMN.
 1	Menteri	menteri	PROPN	NNP	_	5	nsubj	_	_
 2	Keuangan	Keuangan	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -7527,7 +7527,7 @@
 18	BUMN	BUMN	PROPN	NNP	_	17	flat:name	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-240
+# sent_id = csui-test-240
 # text = Produksi TBS AALI tersebut, kata dia, 49,6 persen berasal dari Sumatera, 29,6 persen dari Kalimantan dan 20,9 persen dari Sulawesi.
 1	Produksi	produksi	NOUN	NN	Number=Sing	11	obl	_	_
 2	TBS	TBS	PROPN	NNP	_	1	nmod	_	_
@@ -7554,7 +7554,7 @@
 23	Sulawesi	Sulawesi	PROPN	NNP	_	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-241
+# sent_id = csui-test-241
 # text = "Mereka akan mulai merokok kalau melihat idola mereka merokok."
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
 2	Mereka	Mereka	PRON	PRP	_	4	nsubj	_	_
@@ -7569,7 +7569,7 @@
 11	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
 12	"	"	PUNCT	''	_	4	punct	_	_
 
-# sent_id = s-test-242
+# sent_id = csui-test-242
 # text = Ia menambahkan, sebagai bank sentral maka intervensi untuk mengurangi pelemahan rupiah perlu dilakukan agar nilai tukar rupiah tidak jatuh dan membahayakan perekonomian.
 1	Ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	menambahkan	tambah	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
@@ -7596,7 +7596,7 @@
 23	perekonomian	ekonomi	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-243
+# sent_id = csui-test-243
 # text = Bank Panin didirikan pada tahun 1971 oleh keluarga Gunawan yang masih memegang kontrol terhadap bank sampai saat ini melalui PT Panin Life Tbk yang menguasai 45,1% saham.
 1	Bank	bank	PROPN	NNP	_	3	nsubj:pass	_	_
 2	Panin	Panin	PROPN	NNP	_	1	flat:name	_	_
@@ -7628,7 +7628,7 @@
 28	saham	saham	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-244
+# sent_id = csui-test-244
 # text = "Ladang itu terletak di kawasan yang cukup terpencil, beberapa kilometer dari desa terdekat dan di dekat sungai. Jadi mereka bisa mencuri dengan aman."
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
 2	Ladang	Ladang	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
@@ -7659,7 +7659,7 @@
 27	.	.	PUNCT	.	_	24	punct	_	SpaceAfter=No
 28	"	"	PUNCT	''	_	4	punct	_	_
 
-# sent_id = s-test-245
+# sent_id = csui-test-245
 # text = Pelaku pasar, lanjut dia masih menunggu keluarnya data indikator ekonomi AS yang akan menunjukkan pertumbuhan ekonomi AS membaik atau makin melemah
 1	Pelaku	laku	NOUN	NN	Number=Sing	7	nsubj	_	_
 2	pasar	pasar	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
@@ -7686,7 +7686,7 @@
 22	makin	makin	ADV	RB	_	23	advmod	_	_
 23	melemah	lemah	VERB	VB	Voice=Act	20	conj	_	_
 
-# sent_id = s-test-246
+# sent_id = csui-test-246
 # text = Bagi yang berminat harus mendaftarkan diri di YouTube dan yang terpilih akan membaca segmen tertentu untuk diunggah di YouTube.
 1	Bagi	bagi	SCONJ	IN	_	3	mark	_	_
 2	yang	yang	PRON	PRP	PronType=Rel	3	obl	_	_
@@ -7709,7 +7709,7 @@
 19	YouTube	YouTube	PROPN	NNP	_	17	obl	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-247
+# sent_id = csui-test-247
 # text = Menurut Santoso, ekspor tersebut sebesar 45,6 persen dipasarkan ke India yang merupakan negara tujuan utama ekspor perseroan, sedangkan sisanya ke Vietnam 14,5 persen, Belanda 13,1 persen, China 9,4 persen, Malaysia 2,4 persen dan lainnya 15 persen.
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	Santoso	Santoso	PROPN	NNP	_	9	obl	_	SpaceAfter=No
@@ -7758,7 +7758,7 @@
 43	persen	persen	NOUN	NN	Number=Sing	40	obl	_	SpaceAfter=No
 44	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-248
+# sent_id = csui-test-248
 # text = PT Indofood Sukses Makmur Tbk (Indofood) telah menyediakan dana sekitar Rp8,4 triliun untuk mengakuisisi PT London Sumatera Plantations tbk (Lonsum)
 1	PT	pt	PROPN	NNP	_	10	nsubj	_	_
 2	Indofood	Indofood	PROPN	NNP	_	1	flat:name	_	_
@@ -7786,7 +7786,7 @@
 24	Lonsum	Lonsum	PROPN	NNP	_	18	appos	_	SpaceAfter=No
 25	)	)	PUNCT	-RRB-	_	24	punct	_	_
 
-# sent_id = s-test-249
+# sent_id = csui-test-249
 # text = Perkembangan sektor riil di bulan Juni 2007 sangat positif.
 1	Perkembangan	kembang	NOUN	NN	Number=Sing	9	obl	_	_
 2	sektor	sektor	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -7799,7 +7799,7 @@
 9	positif	positif	ADJ	JJ	_	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-250
+# sent_id = csui-test-250
 # text = Penurunan kredit tersebut diikuti pula dengan penurunan dana pihak ketiga sebesar Rp7,4 triliun.
 1	Penurunan	turun	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
 2	kredit	kredit	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -7817,7 +7817,7 @@
 14	triliun	triliun	NUM	CD	_	13	flat	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-251
+# sent_id = csui-test-251
 # text = Enam perusahaan di bidang Penilai Kerugian Asuransi, yaitu PT Aspac Insurance Adjuster, PT Catur Dharma Karya, PT First National Adjustment, PT Manggala Pirsa Nusantara, PT Piranti Nusa Arta Manunggal, dan PT Trias Adjastama.
 1	Enam	enam	NUM	CD	_	2	nummod	_	_
 2	perusahaan	usaha	NOUN	NN	Number=Sing	0	root	_	_
@@ -7860,7 +7860,7 @@
 39	Adjastama	Adjastama	PROPN	NNP	_	37	flat:name	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-252
+# sent_id = csui-test-252
 # text = Cavaille menambahkan bahwa kawanan pencuri jelas sangat profesional dan tak akan kesulitan menjual anggur curian itu.
 1	Cavaille	cavaille	PROPN	NNP	_	2	nsubj	_	_
 2	menambahkan	tambah	VERB	VB	Voice=Act	0	root	_	_
@@ -7880,7 +7880,7 @@
 16	itu	itu	DET	DT	PronType=Dem	14	det	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-253
+# sent_id = csui-test-253
 # text = Dibandingkan median 'BB' Indonesia lemah di rasio-rasio utang eksternal bruto, pembayaran utang eksternal dan pembayaran bunga.
 1	Dibandingkan	banding	VERB	VB	Voice=Pass	0	root	_	_
 2	median	median	NOUN	NN	Number=Sing	1	obj	_	_
@@ -7903,7 +7903,7 @@
 19	bunga	bunga	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = s-test-254
+# sent_id = csui-test-254
 # text = Hanya butuh enam tahun bagi Zuckerberg untuk bisa mencapai kesuksesan seperti sekarang ini, setelah sebelumnya dia meluncurkan situs ini saat masih duduk sebagai mahasiswa di Universitas Harvard.
 1	Hanya	hanya	ADV	RB	_	2	advmod	_	_
 2	butuh	butuh	VERB	VB	Voice=Act	0	root	_	_
@@ -7935,7 +7935,7 @@
 28	Harvard	Harvard	PROPN	NNP	_	27	flat:name	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-255
+# sent_id = csui-test-255
 # text = Produksi Crude Palm Oil (CPO) PT Astra Agro Lestari (AALI) pada Oktober 2007 naik sebesar 11,6 persen menjadi 88.343 ton dibanding September yang hanya 79.161 ton.
 1	Produksi	produksi	NOUN	NN	Number=Sing	18	nsubj	_	_
 2	Crude	Crude	X	FW	Foreign=Yes	1	nmod	_	_
@@ -7969,7 +7969,7 @@
 30	ton	ton	NOUN	NN	Number=Sing	25	advcl	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	18	punct	_	_
 
-# sent_id = s-test-256
+# sent_id = csui-test-256
 # text = Di dalam negeri, jelas Kepala Negara, pemerintah juga melakukan langkah-langkah antisipasif dengan memperkuat koordinasi kebijakan antara otoritas fiskal dan otoritas moneter, untuk meningkatkan kesiagaan.
 1	Di	di	ADP	IN	_	3	case	_	_
 2	dalam	dalam	NOUN	NN	Number=Sing	3	nmod:lmod	_	_
@@ -8000,7 +8000,7 @@
 27	kesiagaan	siaga	NOUN	NN	Number=Sing	26	obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-257
+# sent_id = csui-test-257
 # text = "Penelitian membuktikan bahwa tekanan dari lingkungan pergaulan sekitar dan anggota keluargalah yang mendorong remaja untuk merokok," katanya.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
 2	Penelitian	Penelitian	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -8028,7 +8028,7 @@
 22	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 23	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-258
+# sent_id = csui-test-258
 # text = Efektif sejak Agustus 2007, TRJE berubah nama menjadi PT Truba Jaya Engineering, setelah PT Manunggal Infrasolusi mengakuisisi 45 persen sahamnya dari JEL.
 1	Efektif	efektif	ADJ	JJ	_	7	advcl	_	_
 2	sejak	sejak	ADP	IN	_	3	case	_	_
@@ -8058,7 +8058,7 @@
 25	JEL	JEL	PROPN	NNP	_	21	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-259
+# sent_id = csui-test-259
 # text = Dalam APBN 2007, DPR dan pemerintah meningkatkan penerimaan cukai menjadi Rp42,03 triliun karena adanya peningkatan kebutuhan pendanaan.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	APBN	APBN	PROPN	NNP	_	8	obl	_	_
@@ -8083,7 +8083,7 @@
 20	pendanaan	dana	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-260
+# sent_id = csui-test-260
 # text = Menurutnya dengan akuisisi ini diharapkan perolehan laba bersih perseroan untuk 2007 dapat meningkat signifikan dari 70 juta dolar AS menjadi 120 juta dolar AS.
 1-2	Menurutnya	_	_	_	_	_	_	_	_
 1	Menurut	turut	ADP	IN	_	2	case	_	_
@@ -8113,7 +8113,7 @@
 25	AS	AS	PROPN	NNP	_	24	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-261
+# sent_id = csui-test-261
 # text = "Pada lelang kali ini akan dilakukan secara dual transaksi yaitu reopening obligasi negara seri FR0046 dan lelang obligasi negara baru seri FR0047," kata Dirjen Pengelolaan Utang Departemen Keuangan, Rahmat Waluyanto di Jakarta, Selasa.
 1	"	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
 2	Pada	Pada	ADP	IN	_	3	case	_	_
@@ -8155,7 +8155,7 @@
 38	Selasa	Selasa	PROPN	NNP	_	26	obl	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-262
+# sent_id = csui-test-262
 # text = "Memamerkan naskah Balada Nick si Kepala Nyaris Putus adalah cara yang sangat bagus untuk membantu mendukung acara ini."
 1	"	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
 2	Memamerkan	Memamerkan	VERB	VB	Voice=Act	11	csubj	_	_
@@ -8179,7 +8179,7 @@
 20	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
 21	"	"	PUNCT	''	_	11	punct	_	_
 
-# sent_id = s-test-263
+# sent_id = csui-test-263
 # text = Direktur perseroan Susanto, dalam laporannya ke bursa, Senin, mengatakan, tingginya permintaan CPO dalam negeri menyebabkan volume ekspor sepanjang periode Januari-Oktober 2007 hanya 124.450 ton atau turun 51,6 persen dibanding periode sama 2006 yang mencapai 257.145 ton.
 1	Direktur	direktur	PROPN	NNP	_	13	nsubj	_	_
 2	perseroan	perseroan	PROPN	NNP	_	1	flat:name	_	_
@@ -8229,7 +8229,7 @@
 44	ton	ton	NOUN	NN	Number=Sing	42	obj	_	SpaceAfter=No
 45	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = s-test-264
+# sent_id = csui-test-264
 # text = Namun demikian, BI mencermati sentimen negatif yang bisa mempengaruhi perekonomian Indonesia seperti sentimen ekspektasi terhadap tekanan inflasi menjelang akhir 2007.
 1	Namun	namun	CCONJ	CC	_	5	cc	_	_
 2	demikian	demikian	PRON	PRP	PronType=Dem	5	nsubj	_	SpaceAfter=No
@@ -8254,7 +8254,7 @@
 21	2007	2007	NUM	CD	_	17	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-265
+# sent_id = csui-test-265
 # text = "Semakin membaiknya pertumbuhan kredit tersebut karena iklim ekonomi yang baik, dan kita perkirakan dalam kuartal III dan Kuartal IV kredit akan terus tumbuh membaik," katanya.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
 2	Semakin	Semakin	ADV	RB	_	3	advmod	_	_
@@ -8291,7 +8291,7 @@
 31	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
 32	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-266
+# sent_id = csui-test-266
 # text = Indonesia meminta perpanjangan masa pinjaman Bank Pembangunan Asia ADB untuk sejumlah proyek PLTA dengan nilai total sekitar 7,5 juta dolar AS yang seharusnya berakhir pada 2008 menjadi 2011 karena adanya beberapa keterlambatan.
 1	Indonesia	indonesia	PROPN	NNP	_	2	nsubj	_	_
 2	meminta	pinta	VERB	VB	Voice=Act	0	root	_	_
@@ -8329,7 +8329,7 @@
 33	keterlambatan	keterlambatan	NOUN	NN	Number=Sing	30	nsubj	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-267
+# sent_id = csui-test-267
 # text = Menurut dia, pemerintah perlu membangun Hutan Tanaman Rakyat supaya rakyat memiliki akses terhadap sumber daya hutan, dan rakyat berperan dalam membangun hutan tanaman sehingga pada akhirnya pengamanan hutan juga akan lebih efektif.
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
@@ -8369,7 +8369,7 @@
 35	efektif	efektif	ADJ	JJ	_	6	advcl	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-268
+# sent_id = csui-test-268
 # text = "Jadi tidak benar PMA ke Malaysia semakin memburuk," kata Tan Yee Kew menanggapi pernyataan Tan Lian Hoe, pimpinan Barisan Nasional Bukit Gantang, yang menyatakan bahwa PMA Malaysia semakin memburuk dibandingkan tetangganya di Asean.
 1	"	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
 2	Jadi	Jadi	SCONJ	IN	_	9	mark	_	_
@@ -8413,7 +8413,7 @@
 39	Asean	Asean	PROPN	NNP	_	36	nmod	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-269
+# sent_id = csui-test-269
 # text = Menurut Boediono, APBN 2008 akan aman jika produksi minyak bisa dijaga sesuai sasaran sebesar 1.034 juta barel per hari atau kalau bisa ditingkatkan.
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	Boediono	Boediono	PROPN	NNP	_	7	obl	_	SpaceAfter=No
@@ -8441,14 +8441,14 @@
 24	ditingkatkan	tingkat	VERB	VB	Voice=Pass	12	conj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-270
+# sent_id = csui-test-270
 # text = Perebutan jamrud Bahia raksasa
 1	Perebutan	rebut	NOUN	NN	Number=Sing	0	root	_	_
 2	jamrud	jamrud	NOUN	NN	Number=Sing	1	nmod	_	_
 3	Bahia	Bahia	PROPN	NNP	_	2	nmod	_	_
 4	raksasa	raksasa	ADJ	JJ	_	2	amod	_	_
 
-# sent_id = s-test-271
+# sent_id = csui-test-271
 # text = Kisah pendiri Facebook Mark Zuckerberg akan diceritakan dalam sebuah komik biografi.
 1	Kisah	kisah	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
 2	pendiri	diri	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -8463,7 +8463,7 @@
 11	biografi	biografi	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-272
+# sent_id = csui-test-272
 # text = Dua halaman naskah yang dibingkai dan ditandatangani oleh JK Rowling itu berisi Balada Nick Si Kepala Nyaris Putus.
 1	Dua	dua	NUM	CD	_	2	nummod	_	_
 2	halaman	halaman	NOUN	NN	Number=Sing	12	nsubj	_	_
@@ -8485,7 +8485,7 @@
 18	Putus	Putus	VERB	VB	Voice=Act	16	ccomp	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-273
+# sent_id = csui-test-273
 # text = Rencana pembelian dua unit tanker tersebut, kata dia, sesuai dengan rencana Rapat Umum Pemegang Saham Luar Biasa (RUPSLB) perseroan yang diselenggarakan pada 28 Juli 2006.
 1	Rencana	rencana	NOUN	NN	Number=Sing	11	obl	_	_
 2	pembelian	beli	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -8518,7 +8518,7 @@
 29	2006	2006	NUM	CD	_	28	nummod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-274
+# sent_id = csui-test-274
 # text = Saya akan bekerja di pemerintah Inggris.
 1	Saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	akan	akan	AUX	MD	_	3	aux	_	_
@@ -8528,7 +8528,7 @@
 6	Inggris	Inggris	PROPN	NNP	_	5	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-275
+# sent_id = csui-test-275
 # text = Mata uang lokal kita itu aneh sulit diduga anomali pergerakannya.
 1	Mata	mata	NOUN	NN	Number=Sing	6	obl	_	_
 2	uang	uang	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -8544,7 +8544,7 @@
 11	nya	nya	PRON	PRP$	_	10	nmod:poss	_	_
 12	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-276
+# sent_id = csui-test-276
 # text = Sementara Direktur INCO Sri Kuncoro, dalam kesempatan yang sama, perseroan tahun ini telah membeli 32 pembangkit listrik tenaga diesel (PLTD) yang setara dengan 32 Mega Watt untuk memberikan tenaga listrik tambahan bagi perseroan.
 1	Sementara	sementara	SCONJ	IN	_	16	mark	_	_
 2	Direktur	Direktur	PROPN	NNP	_	16	obl	_	_
@@ -8585,7 +8585,7 @@
 37	perseroan	perseroan	NOUN	NN	Number=Sing	32	obl	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	16	punct	_	_
 
-# sent_id = s-test-277
+# sent_id = csui-test-277
 # text = Tiririca- yang nama aslinya Francisco Everardo Oliveira Silva- mulai bekerja di sirkus sejak berusia delapan tahun di negara bagian miskin, Ceara.
 1	Tiririca	tiririca	PROPN	NNP	_	12	nsubj	_	SpaceAfter=No
 2	-	-	PUNCT	:	_	1	punct	_	_
@@ -8615,7 +8615,7 @@
 25	Ceara	Ceara	PROPN	NNP	_	21	appos	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-278
+# sent_id = csui-test-278
 # text = "Penerimaan pajak sudah mencapai 76,8 persen dari target, sedangkan penerimaan negara bukan pajak (PNBP) mencapai 73,5 persen dari target," kata Menkeu.
 1	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
 2	Penerimaan	Penerimaan	NOUN	NN	Number=Sing	5	nsubj	_	_
@@ -8646,7 +8646,7 @@
 27	Menkeu	Menkeu	NOUN	NN	Number=Sing	26	nsubj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-279
+# sent_id = csui-test-279
 # text = Sedangkan target laba bersih 2007 sebesar Rp30 miliar atau naik dibandingkan 2006 sebesar Rp28,6 miliar.
 1	Sedangkan	sedangkan	CCONJ	CC	_	11	cc	_	_
 2	target	target	NOUN	NN	Number=Sing	3	nmod	_	_
@@ -8667,7 +8667,7 @@
 17	miliar	miliar	NUM	CD	_	16	flat	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-280
+# sent_id = csui-test-280
 # text = Ronzulli yang mewakili Partai Kebebasan Rakyat pimpinan PM Italia Silvio Berlusconi mendapat sambutan meriah ketika berdiri untuk menyampaikan pidatonya.
 1	Ronzulli	ronzulli	PROPN	NNP	_	12	nsubj	_	_
 2	yang	yang	SCONJ	IN	_	3	mark	_	_
@@ -8692,7 +8692,7 @@
 20	nya	nya	PRON	PRP$	_	19	nmod:poss	_	_
 21	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-281
+# sent_id = csui-test-281
 # text = Dari obligasi yang bisa diperdagangkan itu, obligasi negara dalam mata uang rupiah mencapai Rp438,823 triliun dan obligasi negara dalam mata uang dolar AS mencapai Rp63,945 triliun kurs Rp9.135, termasuk penerbitan terakhir RI0037 pada 14 Februari 2007 senilai 1,5 miliar dolar AS.
 1	Dari	dari	ADP	IN	_	2	case	_	_
 2	obligasi	obligasi	NOUN	NN	Number=Sing	14	obl	_	_
@@ -8742,7 +8742,7 @@
 46	AS	AS	PROPN	NNP	_	45	nmod	_	SpaceAfter=No
 47	.	.	PUNCT	.	_	14	punct	_	_
 
-# sent_id = s-test-282
+# sent_id = csui-test-282
 # text = Dengan kata lain, pemerintah sekarang dalam posisi yang kuat secara finansial dan itu sangat bagus.
 1	Dengan	dengan	ADP	IN	_	2	case	_	_
 2	kata	kata	NOUN	NN	Number=Sing	6	nmod	_	_
@@ -8762,7 +8762,7 @@
 16	bagus	bagus	ADJ	JJ	_	6	conj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-283
+# sent_id = csui-test-283
 # text = Restrukturisasi kredit bermasalah yang sedang dilakukan terutama untuk beberapa kredit korporasi bermasalah yang jumlahnya besar dan ekspektasi ekonomi yang lebih baik diharapkan akan membantu memperbaiki kualitas kredit Panin di tahun ini.
 1	Restrukturisasi	restrukturisasi	NOUN	NN	Number=Sing	23	nsubj:pass	_	_
 2	kredit	kredit	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -8799,7 +8799,7 @@
 32	ini	ini	DET	DT	PronType=Dem	31	det	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	23	punct	_	_
 
-# sent_id = s-test-284
+# sent_id = csui-test-284
 # text = Perusahaan perkebunan PT Bakrie Sumatra Plantation Tbk (UNSP) menyatakan perolehan laba bersihnya dalam sembilan bulan pertama yang berakhir 30 September 2007, turun 6 persen menjadi Rp136,14 miliar dari Rp144,88 miliar pada periode yang sama tahun lalu.
 1	Perusahaan	usaha	NOUN	NN	Number=Sing	11	nsubj	_	_
 2	perkebunan	kebun	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -8846,7 +8846,7 @@
 42	lalu	lalu	VERB	VB	Voice=Act	41	ccomp	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-285
+# sent_id = csui-test-285
 # text = Monyet ini diikat dengan tali panjang dan pelatih yang mengawasi mereka akan melepas tali begitu monyet-monyet kecil lain mendekat.
 1	Monyet	monyet	NOUN	NN	Number=Sing	3	nsubj:pass	_	_
 2	ini	ini	DET	DT	PronType=Dem	1	det	_	_
@@ -8869,7 +8869,7 @@
 19	mendekat	dekat	VERB	VB	Voice=Act	13	advcl	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-286
+# sent_id = csui-test-286
 # text = Meski telah merencanakan untuk merger dan mengakuisisi perusahaan multifinance, Agus enggan mengemukakan lebih lanjut perihal rencananya tersebut.
 1	Meski	meski	SCONJ	IN	_	3	mark	_	_
 2	telah	telah	AUX	MD	_	3	aux	_	_
@@ -8893,7 +8893,7 @@
 19	tersebut	sebut	DET	DT	_	17	det	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = s-test-287
+# sent_id = csui-test-287
 # text = Video kampanyenya yang kocak berhasil meraih jutaan penonton di YouTube.
 1	Video	video	NOUN	NN	Number=Sing	6	nsubj	_	_
 2-3	kampanyenya	_	_	_	_	_	_	_	_
@@ -8909,7 +8909,7 @@
 11	YouTube	YouTube	PROPN	NNP	_	7	obl	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-288
+# sent_id = csui-test-288
 # text = Misalnya untuk perkebunan di Kalimantan turun 23,9 persen, wilayah Sumatera turun 6,5 persen.
 1-2	Misalnya	_	_	_	_	_	_	_	_
 1	Misal	misal	NOUN	NN	Number=Sing	7	obl	_	_
@@ -8929,7 +8929,7 @@
 15	persen	persen	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-289
+# sent_id = csui-test-289
 # text = Dengan prediksi pertumbuhan ekonomi 6-6,11 persen pada kuartal Feb-07, pemerintah optimis target pertumbuhan 6,3 persen pada 2007 akan bisa dicapai.
 1	Dengan	dengan	ADP	IN	_	2	case	_	_
 2	prediksi	prediksi	NOUN	NN	Number=Sing	14	nmod	_	_
@@ -8956,7 +8956,7 @@
 23	dicapai	capai	VERB	VB	Voice=Pass	14	ccomp	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	14	punct	_	_
 
-# sent_id = s-test-290
+# sent_id = csui-test-290
 # text = Untuk meningkatkan efisiensi dan tingkat profitabilitas, perseroan mengusulkan menjual armada kapal tersebut dan menggunakan hasil penjualannya untuk membeli kapal dengan jenis lain.
 1	Untuk	untuk	SCONJ	IN	_	2	mark	_	_
 2	meningkatkan	tingkat	VERB	VB	Voice=Act	9	advcl	_	_
@@ -8985,7 +8985,7 @@
 24	lain	lain	ADJ	JJ	_	23	amod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-291
+# sent_id = csui-test-291
 # text = Nilai tukar rupiah melemah menjadi Rp9.175/9.180 per dolar AS dari penutupan hari sebelumnya Rp9.165/9.177 per dolar AS atau turun 10 poin.
 1	Nilai	nilai	NOUN	NN	Number=Sing	4	nsubj	_	_
 2	tukar	tukar	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -9016,7 +9016,7 @@
 27	poin	poin	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-292
+# sent_id = csui-test-292
 # text = "Bahasa Spanyol tidak mendapat ruang yang sepatutnya di internet," kata sekretaris akademi, Dario Villanueva, kepada kantor berita AFP.
 1	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
 2	Bahasa	Bahasa	NOUN	NN	Number=Sing	5	nsubj	_	_
@@ -9043,7 +9043,7 @@
 23	AFP	AFP	PROPN	NNP	_	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-293
+# sent_id = csui-test-293
 # text = Pada Akhir Oktober 2007 cadangan devisa menurut dia tercatat 54,2 miliar dolar AS.
 1	Pada	pada	ADP	IN	_	2	case	_	_
 2	Akhir	Akhir	NOUN	NN	Number=Sing	9	obl	_	_
@@ -9060,7 +9060,7 @@
 13	AS	AS	PROPN	NNP	_	12	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-294
+# sent_id = csui-test-294
 # text = Kondisi APBN 2007 pada dua pekan awal secara umum baik dan pemerintah akan terus menjalankan kebijakan yang sound (tepat, red) sehingga tercipta konsistensi kebijakan yang memberikan keyakinan kepada investor.
 1	Kondisi	kondisi	NOUN	NN	Number=Sing	10	obl	_	_
 2	APBN	APBN	PROPN	NNP	_	1	nmod	_	_
@@ -9096,7 +9096,7 @@
 32	investor	investor	NOUN	NN	Number=Sing	29	obl	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = s-test-295
+# sent_id = csui-test-295
 # text = Sedangkan kredit Komersial dan Usaha Kecil dan Menengah (UKM) tumbuh 16,1 persen menjadi Rp29,2 triliun dan Kredit Konsumer turun 4,9 persen menjadi Rp8,5 triliun terutama disebabkan oleh penurunan Kredit Kendaraan Bermotor yang turun 40,9 persen menjadi Rp2,5 triliun.
 1	Sedangkan	sedangkan	CCONJ	CC	_	22	cc	_	_
 2	kredit	kredit	NOUN	NN	Number=Sing	12	nsubj	_	_
@@ -9143,7 +9143,7 @@
 43	triliun	triliun	NUM	CD	_	42	flat	_	SpaceAfter=No
 44	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-296
+# sent_id = csui-test-296
 # text = Kurs rupiah terhadap dolar AS di Pasar Spot Antar Bank Jakarta, Selasa pagi, merosot tajam kembali di atas level Rp9.400 per dolar AS, pelaku pasar masih khawatir dengan prospek ekonomi AS.
 1	Kurs	kurs	NOUN	NN	Number=Sing	16	nsubj	_	_
 2	rupiah	rupiah	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -9182,7 +9182,7 @@
 35	AS	AS	PROPN	NNP	_	33	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	16	punct	_	_
 
-# sent_id = s-test-297
+# sent_id = csui-test-297
 # text = EPA gencar dilakukan Jepang guna menciptakan iklim pertumbuhan ekonomi Asia yang tetap kondusif dalam percaturan ekonomi global, selain sebagai upaya menjamin pertumbuhan ekonomi Negeri Sakura itu sendiri.
 1	EPA	epa	PROPN	NNP	_	3	nsubj:pass	_	_
 2	gencar	gencar	ADJ	JJ	_	3	advcl	_	_
@@ -9214,7 +9214,7 @@
 28	sendiri	sendiri	DET	DT	_	25	det	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-298
+# sent_id = csui-test-298
 # text = Ke-23 saham (BES) yang akan dilelang tersebut atas nama PT Inti Prebon Securities, PT Mashill Jaya Sekuritas, PT Trisula Cipta Dana, PT Pamamitra Artha Pertiwi, PT Kestrel Sekuritas Surabaya, PT Finanza Indonesia, PT Pentasena Arthasentosa dan PT Bomar Sekuritas.
 1	Ke-23	ke-23	NUM	CD	_	2	nummod	_	_
 2	saham	saham	NOUN	NN	Number=Sing	11	nmod	_	_
@@ -9265,7 +9265,7 @@
 47	Sekuritas	Sekuritas	PROPN	NNP	_	45	flat:name	_	SpaceAfter=No
 48	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-299
+# sent_id = csui-test-299
 # text = Dia mengingatkan, pada bulan Desember akan terjadi 'demand pull inflation' karena ada tekanan menjelang Natal dan Tahun Baru.
 1	Dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	mengingatkan	ingat	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
@@ -9290,7 +9290,7 @@
 21	Baru	Baru	PROPN	NNP	_	20	flat:name	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-300
+# sent_id = csui-test-300
 # text = Dalam Rapat Kerja Komisi XI DPR di Jakarta, Selasa, Miranda mengatakan, pemerintah harus menganalisis sumber-sumber pertumbuhan ekonomi pada triwulan I hingga mencapai 5,97 persen, apakah sumber-sumber pertumbuhan tersebut mempunyai multiplier effect yang besar atau tidak, serta apakah memiliki trend meningkat atau tidak.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	Rapat	Rapat	NOUN	NN	Number=Sing	13	obl	_	_
@@ -9345,7 +9345,7 @@
 49	tidak	tidak	PART	RP	Polarity=Neg	47	conj	_	SpaceAfter=No
 50	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = s-test-301
+# sent_id = csui-test-301
 # text = Mengenai kekhawatiran besarnya kredit akan mengancam kondisi perbankan, akibat meningkatnya kredit bermasalah.
 1	Mengenai	kena	ADP	IN	_	2	case	_	_
 2	kekhawatiran	khawatir	NOUN	NN	Number=Sing	0	root	_	_
@@ -9366,7 +9366,7 @@
 15	bermasalah	masalah	VERB	VB	Voice=Act	14	ccomp	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-302
+# sent_id = csui-test-302
 # text = "Ini edan, edan, edan."
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
 2	Ini	ini	PRON	PRP	PronType=Dem	3	obl	_	_
@@ -9378,7 +9378,7 @@
 8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
 9	"	"	PUNCT	''	_	3	punct	_	_
 
-# sent_id = s-test-303
+# sent_id = csui-test-303
 # text = Sedangkan jika dibandingkan dengan semester I 2006, pertumbuhan tiga sektor tersebut adalah pengangkutan - komunikasi tumbuh 11,9 persen, listrik - gas - air bersih 10,5 persen dan sektor perdagangan - hotel restoran 8,3 persen.
 1	Sedangkan	sedangkan	CCONJ	CC	_	14	cc	_	_
 2	jika	jika	SCONJ	IN	_	3	mark	_	_
@@ -9393,32 +9393,32 @@
 11	sektor	sektor	NOUN	NN	Number=Sing	9	nmod	_	_
 12	tersebut	sebut	DET	DT	_	9	det	_	_
 13	adalah	adalah	AUX	VBZ	_	14	cop	_	_
-14	pengangkutan	angkut	NOUN	NN	Number=Sing	0	root	_	_
+14	pengangkutan	angkut	NOUN	NN	Number=Sing	17	nsubj	_	_
 15	-	-	PUNCT	:	_	16	punct	_	_
-16	komunikasi	komunikasi	NOUN	NN	Number=Sing	14	nmod	_	_
-17	tumbuh	tumbuh	VERB	VB	Voice=Act	14	acl	_	_
+16	komunikasi	komunikasi	NOUN	NN	Number=Sing	14	conj	_	_
+17	tumbuh	tumbuh	VERB	VB	Voice=Act	0	root	_	_
 18	11,9	11,9	NUM	CD	_	19	nummod	_	_
 19	persen	persen	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	_	_
-21	listrik	listrik	NOUN	NN	Number=Sing	14	conj	_	_
+21	listrik	listrik	NOUN	NN	Number=Sing	17	conj	_	_
 22	-	-	PUNCT	:	_	23	punct	_	_
 23	gas	gas	NOUN	NN	Number=Sing	21	conj	_	_
 24	-	-	PUNCT	:	_	25	punct	_	_
 25	air	air	NOUN	NN	Number=Sing	21	conj	_	_
 26	bersih	bersih	ADJ	JJ	_	25	amod	_	_
 27	10,5	10,5	NUM	CD	_	28	nummod	_	_
-28	persen	persen	NOUN	NN	Number=Sing	11	nmod	_	_
+28	persen	persen	NOUN	NN	Number=Sing	21	orphan	_	_
 29	dan	dan	CCONJ	CC	_	30	cc	_	_
-30	sektor	sektor	NOUN	NN	Number=Sing	14	conj	_	_
+30	sektor	sektor	NOUN	NN	Number=Sing	17	conj	_	_
 31	perdagangan	dagang	NOUN	NN	Number=Sing	30	nmod	_	_
 32	-	-	PUNCT	:	_	33	punct	_	_
 33	hotel	hotel	NOUN	NN	Number=Sing	31	conj	_	_
 34	restoran	restoran	NOUN	NN	Number=Sing	31	conj	_	_
 35	8,3	8,3	NUM	CD	_	36	nummod	_	_
-36	persen	persen	NOUN	NN	Number=Sing	30	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	14	punct	_	_
+36	persen	persen	NOUN	NN	Number=Sing	30	orphan	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	17	punct	_	_
 
-# sent_id = s-test-304
+# sent_id = csui-test-304
 # text = "Kami ingin mengadukannya dan melakukan sesuatu untuk mengoreksinya."
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
 2	Kami	Kami	PRON	PRP	_	3	nsubj	_	_
@@ -9436,7 +9436,7 @@
 12	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
 13	"	"	PUNCT	''	_	3	punct	_	_
 
-# sent_id = s-test-305
+# sent_id = csui-test-305
 # text = Selama di Jakarta, PM Abe bersama Presiden Susilo Bambang Yudhyono akan menandatangani kerja sama ekonomi dalam format Economic Partnership Agreement (EPA).
 1	Selama	selama	ADP	IN	_	3	case	_	_
 2	di	di	ADP	IN	_	3	case	_	_
@@ -9464,7 +9464,7 @@
 24	)	)	PUNCT	-RRB-	_	23	punct	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = s-test-306
+# sent_id = csui-test-306
 # text = Nilai kontrak berdasarkan jam terbang pesawat atau paling tidak sebulan sebesar 160 ribu dolar AS per pesawat.
 1	Nilai	nilai	NOUN	NN	Number=Sing	3	obl	_	_
 2	kontrak	kontrak	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -9485,7 +9485,7 @@
 17	pesawat	pesawat	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-307
+# sent_id = csui-test-307
 # text = Produksi sawit PT Astra Agro Lestari AALI pada kuartal pertama 2007 turun 8,3 persen dibandingkan periode sama sebelumnya.
 1	Produksi	produksi	NOUN	NN	Number=Sing	12	nsubj	_	_
 2	sawit	sawit	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -9507,7 +9507,7 @@
 18	sebelumnya	sebelumnya	ADV	RB	_	16	advmod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-308
+# sent_id = csui-test-308
 # text = Sektor pengangkutan dan komunikasi PPh -nya tumbuh 35,4 persen, meski PPN agak rendah tumbuh sebesar 3,4 persen.
 1	Sektor	sektor	NOUN	NN	Number=Sing	8	nsubj	_	_
 2	pengangkutan	angkut	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -9530,7 +9530,7 @@
 19	persen	persen	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-309
+# sent_id = csui-test-309
 # text = Sepanjang sepuluh bulan 2007 penjualan mobil nasional mencapai 349.489 unit.
 1	Sepanjang	sepanjang	NOUN	NN	Number=Sing	3	nmod	_	_
 2	sepuluh	sepuluh	NUM	CD	_	3	nummod	_	_
@@ -9544,7 +9544,7 @@
 10	unit	unit	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-310
+# sent_id = csui-test-310
 # text = Ditanya tentang pembubaran CGI, Andrew menyatakan pihaknya sangat mendukung keputusan pemerintah karena itu berarti kemajuan.
 1	Ditanya	tanya	VERB	VB	Voice=Pass	7	ccomp	_	_
 2	tentang	tentang	ADP	IN	_	3	case	_	_
@@ -9566,7 +9566,7 @@
 17	kemajuan	maju	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-311
+# sent_id = csui-test-311
 # text = Fitch Ratings, dalam siaran persnya, Senin, mengatakan bahwa prospek rating kedua bank itu tetap stabil.
 1	Fitch	fitch	PROPN	NNP	_	11	nsubj	_	_
 2	Ratings	Ratings	PROPN	NNP	_	1	flat:name	_	SpaceAfter=No
@@ -9590,7 +9590,7 @@
 19	stabil	stabil	ADJ	JJ	_	11	advcl	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-312
+# sent_id = csui-test-312
 # text = Meski pada kuartal II/2007 ini turun 26 persen dibandingkan kuartal I 2007, namun neraca modal finansial tetap surplus sebesar 1,7 miliar dolar AS.
 1	Meski	meski	SCONJ	IN	_	6	mark	_	_
 2	pada	pada	ADP	IN	_	3	case	_	_
@@ -9618,7 +9618,7 @@
 24	AS	AS	PROPN	NNP	_	23	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-313
+# sent_id = csui-test-313
 # text = Untuk penerimaan masih 'on track'.
 1	Untuk	untuk	ADP	IN	_	2	case	_	_
 2	penerimaan	terima	NOUN	NN	Number=Sing	5	nmod	_	_
@@ -9629,7 +9629,7 @@
 7	'	'	PUNCT	''	_	5	punct	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-314
+# sent_id = csui-test-314
 # text = Dalam pertemuan itu, Dubes melihat banyak hal yang bisa dilakukan oleh ICMI London dalam mengisi peluang yang ada dalam upaya membantu pengusaha Indonesia yang akan mengembangkan sayapnya di Inggris.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	pertemuan	temu	NOUN	NN	Number=Sing	6	obl	_	_
@@ -9665,7 +9665,7 @@
 31	Inggris	Inggris	PROPN	NNP	_	27	obl	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-315
+# sent_id = csui-test-315
 # text = Penjualan mobil Astra ini naik dibandingkan periode sama sebelumnya sebanyak 174.827 unit.
 1	Penjualan	jual	NOUN	NN	Number=Sing	5	nsubj	_	_
 2	mobil	mobil	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -9681,7 +9681,7 @@
 12	unit	unit	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-316
+# sent_id = csui-test-316
 # text = "Di November tahun lalu, inflasi' cooling down 'cuma 0,34 persen, tapi kita kan tidak bisa memotret yang lalu dan yakin sekali akan terjadi seperti itu," kata Kepala BPS, Rusman Heriawan.
 1	"	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
 2	Di	Di	ADP	IN	_	3	case	_	_
@@ -9723,7 +9723,7 @@
 38	Heriawan	Heriawan	PROPN	NNP	_	37	flat:name	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-317
+# sent_id = csui-test-317
 # text = Namun ia tidak menyebutkan nilai transaksi dan porsi kepemilikan saham pada PT Nibung Arthamulia tersebut.
 1	Namun	namun	CCONJ	CC	_	4	cc	_	_
 2	ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
@@ -9742,7 +9742,7 @@
 15	tersebut	sebut	DET	DT	_	5	det	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-318
+# sent_id = csui-test-318
 # text = Menurut dia saat ini kredit tumbuh rata-rata 20-25 triliun, meski hal ini tidak sebesar bulan Juni yang mencapai Rp36 triliun.
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	6	obl	_	_
@@ -9770,7 +9770,7 @@
 24	triliun	triliun	NUM	CD	_	23	flat	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-319
+# sent_id = csui-test-319
 # text = Kisah hantu Nick itu awalnya ditulis sebagai bagian dari buku Harry Potter dan Kamar Rahasia tetapi kemudian kedua halaman itu dibuang sehingga tidak termasuk dalam buku yang diterbitkan.
 1	Kisah	kisah	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
 2	hantu	hantu	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -9802,7 +9802,7 @@
 28	diterbitkan	terbit	VERB	VB	Voice=Pass	26	ccomp	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-320
+# sent_id = csui-test-320
 # text = Dana pinjaman yang diperoleh dari Bank Mandiri, menurut Agus Wartowardoyo untuk keempat pabrik baru hanya mencapai 70 persen kebutuhan dana yang diperlukan, sedangkan 30 persen lagi berasal dari internal PKG.
 1	Dana	dana	NOUN	NN	Number=Sing	17	nsubj	_	_
 2	pinjaman	pinjam	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -9838,7 +9838,7 @@
 32	PKG	PKG	PROPN	NNP	_	29	obl	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	17	punct	_	_
 
-# sent_id = s-test-321
+# sent_id = csui-test-321
 # text = Pemerintah merencanakan peningkatan penerimaan perpajakan dalam RAPBN 2008 mencapai Rp583,7 triliun, naik sebesar Rp93,8 triliun, atau 19,1 persen dibanding sasaran penerimaan perpajakan pada RAPBN-P 2007 sebesar Rp489,9 triliun.
 1	Pemerintah	perintah	NOUN	NN	Number=Sing	2	nsubj	_	_
 2	merencanakan	rencana	VERB	VB	Voice=Act	0	root	_	_
@@ -9875,7 +9875,7 @@
 33	triliun	triliun	NUM	CD	_	32	flat	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-322
+# sent_id = csui-test-322
 # text = "Jasa manajemen ini untuk meningkatkan produktivitas lahan kebun sawit dan pabrik GIN untuk menghasilkan minimal sebanyak 23.100 ton minyak sawit mentah CPO," katanya.
 1	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
 2	Jasa	Jasa	NOUN	NN	Number=Sing	6	obl	_	_
@@ -9907,7 +9907,7 @@
 27	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 28	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-323
+# sent_id = csui-test-323
 # text = Di negara maju itu, instrumennya sangat lengkap dengan jatuh tempo yang berbeda-beda.
 1	Di	di	ADP	IN	_	2	case	_	_
 2	negara	negara	NOUN	NN	Number=Sing	9	obl	_	_
@@ -9926,7 +9926,7 @@
 14	berbeda-beda	beda	VERB	VB	Voice=Act	11	advcl	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-324
+# sent_id = csui-test-324
 # text = "Secara' overall 'saya belum lihat, tapi nampaknya masih surplus dalam dua bulan ini," kata Menkeu di Istana Negara, Selasa.
 1	"	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
 2	Secara	Secara	ADP	IN	_	4	case	_	SpaceAfter=No
@@ -9956,7 +9956,7 @@
 26	Selasa	Selasa	PROPN	NNP	_	20	obl	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = s-test-325
+# sent_id = csui-test-325
 # text = Sementara itu sampai akhir 2007 perseroan menargetkan pendapatan sebesar Rp300 miliar atau naik dibandingkan 2006 hanya sebesar Rp204 miliar.
 1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
 2	itu	itu	PRON	PRP	PronType=Dem	7	advcl	_	_
@@ -9981,7 +9981,7 @@
 21	miliar	miliar	NUM	CD	_	20	flat	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-326
+# sent_id = csui-test-326
 # text = Kebutuhan pendanaan bruto Indonesia termasuk utang jangka pendek diperkirakan akan turun ke sekitar 66 persen dari cadangan resmi, selaras dengan median 'BB'.
 1	Kebutuhan	butuh	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
 2	pendanaan	dana	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -10010,7 +10010,7 @@
 25	'	'	PUNCT	''	_	24	punct	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-327
+# sent_id = csui-test-327
 # text = Saham PT Perusahaan Gas Negara Persero Tbk (PGAS) langsung melejit naik setelah suspensi penghentian sementara dicabut Bursa Efek Jakarta (BEJ).
 1	Saham	saham	NOUN	NN	Number=Sing	12	nsubj	_	_
 2	PT	PT	PROPN	NNP	_	1	nmod	_	_
@@ -10038,7 +10038,7 @@
 24	)	)	PUNCT	-RRB-	_	23	punct	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-328
+# sent_id = csui-test-328
 # text = Sementara untuk penjualan mobil non-Astra selama 9 bulan 2007 mencapai 169.886 unit.
 1	Sementara	sementara	SCONJ	IN	_	10	mark	_	_
 2	untuk	untuk	ADP	IN	_	3	case	_	_
@@ -10054,7 +10054,7 @@
 12	unit	unit	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = s-test-329
+# sent_id = csui-test-329
 # text = Olahragawan, panutan dan merokok
 1	Olahragawan	olahragawan	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	3	punct	_	_
@@ -10062,7 +10062,7 @@
 4	dan	dan	CCONJ	CC	_	5	cc	_	_
 5	merokok	rokok	VERB	VB	Voice=Act	1	conj	_	_
 
-# sent_id = s-test-330
+# sent_id = csui-test-330
 # text = Ia mengatakan, peluang rupiah untuk naik lagi masih bisa, namun kenaikan itu diharapkan tidak terlalu cepat, karena bisa menekan rupiah kembali melemah dalam waktu yang cepat pula.
 1	Ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
@@ -10096,7 +10096,7 @@
 30	pula	pula	ADV	RB	_	22	advmod	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-331
+# sent_id = csui-test-331
 # text = Dampak yang dirasakan dapat dilihat pada koreksi harga saham dan nilai tukar uang yang cukup tajam di seluruh dunia termasuk Indonesia.
 1	Dampak	dampak	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
 2	yang	yang	SCONJ	IN	_	3	mark	_	_
@@ -10121,7 +10121,7 @@
 21	Indonesia	Indonesia	PROPN	NNP	_	20	obl	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-332
+# sent_id = csui-test-332
 # text = Pada pukul 09.00, dolar dikutip pada 119,52-57 yen dibandingkan dengan Rabu pukul 17.00 yang dikutip pada 119,58-68 yen di New York dan 119,26-29 yen di Tokyo.
 1	Pada	pada	ADP	IN	_	2	case	_	_
 2	pukul	pukul	NOUN	NN	Number=Sing	6	obl	_	_
@@ -10158,7 +10158,7 @@
 33	Tokyo	Tokyo	PROPN	NNP	_	31	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-333
+# sent_id = csui-test-333
 # text = CPRL memiliki 60 persen sahamnya di blok pertambangan minyak onshore Ramba di Sumatera Selatan.
 1	CPRL	cprl	PROPN	NNP	_	2	nsubj	_	_
 2	memiliki	milik	VERB	VB	Voice=Act	0	root	_	_
@@ -10178,7 +10178,7 @@
 15	Selatan	Selatan	PROPN	NNP	_	14	flat:name	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-334
+# sent_id = csui-test-334
 # text = Ini sangat meyakinkan dan memberi suasana kondusif.
 1	Ini	ini	PRON	PRP	PronType=Dem	3	nsubj	_	_
 2	sangat	sangat	ADV	RB	_	3	advmod	_	_
@@ -10189,7 +10189,7 @@
 7	kondusif	kondusif	ADJ	JJ	_	6	amod	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-335
+# sent_id = csui-test-335
 # text = Tahun ini akan 22 persen.
 1	Tahun	tahun	NOUN	NN	Number=Sing	0	root	_	_
 2	ini	ini	DET	DT	PronType=Dem	1	det	_	_
@@ -10198,7 +10198,7 @@
 5	persen	persen	NOUN	NN	Number=Sing	1	orphan	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-336
+# sent_id = csui-test-336
 # text = The Hobbit cari aktor kerdil
 1	The	the	PROPN	NNP	_	3	nsubj	_	_
 2	Hobbit	Hobbit	PROPN	NNP	_	1	flat:name	_	_
@@ -10206,7 +10206,7 @@
 4	aktor	aktor	NOUN	NN	Number=Sing	3	obj	_	_
 5	kerdil	kerdil	ADJ	JJ	_	4	amod	_	_
 
-# sent_id = s-test-337
+# sent_id = csui-test-337
 # text = Frekuensi perdagangan mencapai 2.343 kali dengan volume 52,033 juta lembar dan nilai Rp424,222 miliar.
 1	Frekuensi	frekuensi	NOUN	NN	Number=Sing	3	nsubj	_	_
 2	perdagangan	dagang	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -10225,7 +10225,7 @@
 15	miliar	miliar	NUM	CD	_	14	flat	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-338
+# sent_id = csui-test-338
 # text = "Kita melihat faktor inflasi dari makanan akan segera hilang yang terkonfirmasi dari harga beras di semua provinsi," katanya.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
 2	Kita	Kita	PRON	PRP	_	3	nsubj	_	_
@@ -10252,13 +10252,13 @@
 22	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 23	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-339
+# sent_id = csui-test-339
 # text = Pencurian ladang anggur
 1	Pencurian	curi	NOUN	NN	Number=Sing	0	root	_	_
 2	ladang	ladang	NOUN	NN	Number=Sing	1	nmod	_	_
 3	anggur	anggur	NOUN	NN	Number=Sing	1	nmod	_	_
 
-# sent_id = s-test-340
+# sent_id = csui-test-340
 # text = Dengan demikian, pada akhir tahun cadangan devisa diperkirakan akan mencapai 56,2 miliar dolar AS atau setara dengan 5,6 bulan impor dan pembayaran utang luar negeri Pemerintah.
 1	Dengan	dengan	ADP	IN	_	2	case	_	_
 2	demikian	demikian	PRON	PRP	PronType=Dem	9	obl	_	SpaceAfter=No
@@ -10289,7 +10289,7 @@
 27	Pemerintah	Pemerintah	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-341
+# sent_id = csui-test-341
 # text = Sementara itu, pendapatan bukan bunga yang lebih tinggi berasal dari penjualan obligasi pemerintah di 2006.
 1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
 2	itu	itu	PRON	PRP	PronType=Dem	10	advcl	_	SpaceAfter=No
@@ -10309,7 +10309,7 @@
 16	2006	2006	NUM	CD	_	12	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = s-test-342
+# sent_id = csui-test-342
 # text = "Jadi kita sepakat untuk semakin mempererat hubungan itu," ujarnya.
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
 2	Jadi	Jadi	SCONJ	IN	_	4	mark	_	_
@@ -10327,7 +10327,7 @@
 13	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 14	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-343
+# sent_id = csui-test-343
 # text = Disebutkannya, keuangan publik dan perbaikan pengawasan atas risiko fiskal secara luas adalah kekuatan fundamental peringkat Indonesia.
 1-2	Disebutkannya	_	_	_	_	_	_	_	SpaceAfter=No
 1	Disebutkan	sebut	VERB	VB	Voice=Pass	15	parataxis	_	_
@@ -10350,7 +10350,7 @@
 18	Indonesia	Indonesia	PROPN	NNP	_	15	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	15	punct	_	_
 
-# sent_id = s-test-344
+# sent_id = csui-test-344
 # text = Hingga Juli 2010 lebih dari 500 juta yang terdaftar dalam situs jejaring sosial tersebut.
 1	Hingga	hingga	ADP	IN	_	2	case	_	_
 2	Juli	Juli	PROPN	NNP	_	6	nmod	_	_
@@ -10368,7 +10368,7 @@
 14	tersebut	sebut	DET	DT	_	11	det	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-345
+# sent_id = csui-test-345
 # text = Sedangkan untuk obligasi negara dalam mata uang rupiah, Pemerintah telah menerbitkan obligasi negara berbunga tetap hingga Rp263,38 triliun, yang terdiri atas Rp253,863 triliun berupa Surat Utang Negara atau SUN dan Rp9,516 triliun berupa Obligasi Negara Ritel atau ORI.
 1	Sedangkan	sedangkan	CCONJ	CC	_	12	cc	_	_
 2	untuk	untuk	ADP	IN	_	3	case	_	_
@@ -10415,7 +10415,7 @@
 43	ORI	ORI	PROPN	NNP	_	39	conj	_	SpaceAfter=No
 44	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-346
+# sent_id = csui-test-346
 # text = Menurut dia, dalam rangka meningkatkan penerapan good governance, saat ini pemerintah juga tengah melaksanakan Program Reformasi Birokrasi yang bertujuan untuk mendorong kapasitas atau kemampuan pemerintah dalam mendorong pertumbuhan ekonomi nasional serta meningkatkan pelayanan masyarakat secara lebih maksimal.
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
@@ -10458,7 +10458,7 @@
 39	maksimal	maksimal	ADJ	JJ	_	34	advcl	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	16	punct	_	_
 
-# sent_id = s-test-347
+# sent_id = csui-test-347
 # text = Tercatat nama-nama perusahaan Toyota Motor Corp, Suzuki, Mitsubishi, Mizuho Bank, JBIC, Bank of Tokyo-Mitsubishi, JETRO, Daiwa Securitas, Kawasaki Heavy Industry, Canon Inc. dan Marubeni Corp, dan Sumitomo Life Insurance Co.
 1	Tercatat	catat	VERB	VB	Voice=Pass	0	root	_	_
 2	nama-nama	nama	NOUN	NN	Number=Plur	1	obj	_	_
@@ -10504,7 +10504,7 @@
 42	Co	Co	PROPN	NNP	_	39	flat:name	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = s-test-348
+# sent_id = csui-test-348
 # text = Sedangkan konsumsi pemerintah tumbuh 8,9 persen yang terdiri atas, pertumbuhan belanja pegawai 55,8 persen, belanja barang 10,1 persen, belanja lainnya 47,2 persen, dan belanja daerah -4,9 persen.
 1	Sedangkan	sedangkan	CCONJ	CC	_	4	cc	_	_
 2	konsumsi	konsumsi	NOUN	NN	Number=Sing	4	nsubj	_	_
@@ -10541,14 +10541,14 @@
 32	persen	persen	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-349
+# sent_id = csui-test-349
 # text = Untuk meningkatkan ekspor ini katanya, perlu adanya regulasi untuk meningkatkan dan dapat menghilangkan hambatan ekspor.
 1	Untuk	untuk	SCONJ	IN	_	2	mark	_	_
 2	meningkatkan	tingkat	VERB	VB	Voice=Act	5	advcl	_	_
 3	ekspor	ekspor	NOUN	NN	Number=Sing	2	obj	_	_
 4	ini	ini	DET	DT	PronType=Dem	3	det	_	_
 5-6	katanya	_	_	_	_	_	_	_	SpaceAfter=No
-5	kata	kata	VERB	VB	Voice=Act	11	parataxis	_	_
+5	kata	kata	VERB	VB	Voice=Act	9	parataxis	_	_
 6	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 7	,	,	PUNCT	,	_	5	punct	_	_
 8	perlu	perlu	AUX	MD	_	9	aux	_	_
@@ -10565,7 +10565,7 @@
 18	ekspor	ekspor	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-350
+# sent_id = csui-test-350
 # text = Mengenai adanya kekhawatiran tentang besarnya utang perseroan, Kevin mengatakan, hal itu tidak perlu dirisaukan, karena perseroan tidak hanya mengutang saja, melainkan juga berbuat sesuatu untuk mengembalikan rasio-rasio utangnya sehingga kembali menjadi perusahaan yang sehat.
 1	Mengenai	kena	SCONJ	IN	_	2	mark	_	_
 2-3	adanya	_	_	_	_	_	_	_	_
@@ -10613,7 +10613,7 @@
 41	sehat	sehat	ADJ	JJ	_	39	ccomp	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = s-test-351
+# sent_id = csui-test-351
 # text = Pinjaman LPBN meningkat dengan cepat di tahun 2005-2006 namun kualitasnya belum cukup teruji.
 1	Pinjaman	pinjam	NOUN	NN	Number=Sing	3	nsubj	_	_
 2	LPBN	LPBN	PROPN	NNP	_	1	nmod	_	_
@@ -10634,7 +10634,7 @@
 16	teruji	uji	VERB	VB	Voice=Pass	3	conj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-352
+# sent_id = csui-test-352
 # text = Iklan yang muncul di koran terbitan Wellington, Selandia Baru menyebutkan Wingnut Films mencari pria dengan tinggi badan antara 123 cm dan maksimum 158 cm.
 1	Iklan	iklan	NOUN	NN	Number=Sing	11	nsubj	_	_
 2	yang	yang	SCONJ	IN	_	3	mark	_	_
@@ -10663,7 +10663,7 @@
 25	cm	cm	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-353
+# sent_id = csui-test-353
 # text = Sebelumnya, berdasarkan data Bursa Efek Jakarta (BEJ) pemegang saham lima persen atau lebih PT Mobile-8 Telecom Tbk per 31 Agustus 2007 terdiri dari PT Global Mediacom Tbk 38,52 persen, PT Global Mediacom Tbk 18,18 persen dan Qualcomm Incorporated 5,01 persen.
 1	Sebelumnya	sebelumnya	ADV	RB	_	27	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	27	punct	_	_
@@ -10713,7 +10713,7 @@
 46	persen	persen	NOUN	NN	Number=Sing	43	nmod	_	SpaceAfter=No
 47	.	.	PUNCT	.	_	27	punct	_	_
 
-# sent_id = s-test-354
+# sent_id = csui-test-354
 # text = "Kita juga tahu bahwa sponsor pabrik rokok kepada olahraga ikut mempengaruhi anak-anak untuk merokok. Jadi panutan yang negatif, termasuk olahragawan, memiliki efek yang kurang baik."
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
 2	Kita	Kita	PRON	PRP	_	4	nsubj	_	_
@@ -10747,7 +10747,7 @@
 30	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
 31	"	"	PUNCT	''	_	4	punct	_	_
 
-# sent_id = s-test-355
+# sent_id = csui-test-355
 # text = Dalam keterangan persnya di Jakarta, Kamis, rating final tersebut diberikan menyusul selesainya proses penerbitan obligasi Bank Panin.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	keterangan	terang	NOUN	NN	Number=Sing	13	obl	_	_
@@ -10774,7 +10774,7 @@
 21	Panin	Panin	PROPN	NNP	_	20	flat:name	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = s-test-356
+# sent_id = csui-test-356
 # text = Dia antara lain menggunakan slogan "Tidak bisa lebih buruk lagi" dan "Apa yang dilakukan wakil anda? Sungguh saya tidak tahu. Tapi pilihlah saya dan saya akan mencari tahu untuk anda."
 1	Dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	antara	antara	ADP	IN	_	3	case	_	_
@@ -10816,7 +10816,7 @@
 37	.	.	PUNCT	.	_	24	punct	_	SpaceAfter=No
 38	"	"	PUNCT	''	_	24	punct	_	_
 
-# sent_id = s-test-357
+# sent_id = csui-test-357
 # text = Penjualan ini lebih besar dibandingkan periode sama sebelumnya sebanyak 144.077 unit.
 1	Penjualan	jual	NOUN	NN	Number=Sing	4	obl	_	_
 2	ini	ini	DET	DT	PronType=Dem	1	det	_	_
@@ -10831,7 +10831,7 @@
 11	unit	unit	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-358
+# sent_id = csui-test-358
 # text = Namun peringkat tersebut diperlemah oleh agresifnya ekspansi perusahaan yang akan mengarah pada tingginya leverage keuangan dan potensi tingginya risiko perusahaan terhadap fluktuasi mata uang asing maupun persaingan di industri yang makin ketat.
 1	Namun	namun	CCONJ	CC	_	4	cc	_	_
 2	peringkat	peringkat	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
@@ -10873,7 +10873,7 @@
 35	ketat	ketat	ADJ	JJ	_	30	acl:relcl	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-359
+# sent_id = csui-test-359
 # text = Sistem administrasi perpajakan adalah faktor kunci dalam upaya memperbaiki iklim investasi dan memobilisasi pendanaan untuk pembangunan.
 1	Sistem	sistem	NOUN	NN	Number=Sing	5	nsubj	_	_
 2	administrasi	administrasi	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -10893,7 +10893,7 @@
 16	pembangunan	bangun	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-360
+# sent_id = csui-test-360
 # text = "Dengan demikian, belanja pemerintah secara keseluruhan tumbuh 24,18 persen dibanding periode sebelumnya, atau 3,83 persen dibanding triwulan II 2006," katanya.
 1	"	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
 2	Dengan	Dengan	ADP	IN	_	3	case	_	_
@@ -10924,7 +10924,7 @@
 26	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 27	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-361
+# sent_id = csui-test-361
 # text = Direktur Utama PT Bursa Efek Surabaya BES Bastian Purnama di Jakarta, Jumat, mengatakan pihaknya kembali akan melakukan pelelangan atas 23 saham BES kategori A treasury stock pada 4 Juni 2007 di Jakarta.
 1	Direktur	direktur	NOUN	NN	Number=Sing	15	nsubj	_	_
 2	Utama	Utama	ADJ	JJ	_	1	amod	_	_
@@ -10964,7 +10964,7 @@
 35	Jakarta	Jakarta	PROPN	NNP	_	24	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	15	punct	_	_
 
-# sent_id = s-test-362
+# sent_id = csui-test-362
 # text = Menurut data BKF, konsumsi masyarakat pada kuartal II/2007 tumbuh 4,9 persen, yang terdiri atas pertumbuhan penjualan mobil 7,46 persen, penjualan motor 61,9 persen, konsumsi listrik 8,2 persen, kredit konsumsi 18 persen, PPN dalam negeri 20 persen, dan PPN Impor 28 persen.
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	data	data	NOUN	NN	Number=Sing	10	obl	_	_
@@ -11016,7 +11016,7 @@
 48	persen	persen	NOUN	NN	Number=Sing	45	nmod	_	SpaceAfter=No
 49	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = s-test-363
+# sent_id = csui-test-363
 # text = "Sehingga rasio utang pemerintah pada akhir 2008 diperkirakan turun menjadi sekitar 33 persen," ujar Presiden.
 1	"	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
 2	Sehingga	Sehingga	SCONJ	IN	_	9	mark	_	_
@@ -11038,7 +11038,7 @@
 18	Presiden	Presiden	NOUN	NN	Number=Sing	17	nsubj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-364
+# sent_id = csui-test-364
 # text = Kita melihat dari laporan perkembangan terakhir, situasi semakin kondusif dan 'manageable' (dapat dikendalikan) serta perekonomian dan nilai tukar sudah kembali ke level yang cukup baik.
 1	Kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	melihat	lihat	VERB	VB	Voice=Act	0	root	_	_
@@ -11072,7 +11072,7 @@
 30	baik	baik	ADJ	JJ	_	27	ccomp	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = s-test-365
+# sent_id = csui-test-365
 # text = Jumlah ini jauh melampaui penjualan mobil selama 2006 sebanyak 318.904 unit.
 1	Jumlah	jumlah	NOUN	NN	Number=Sing	4	nsubj	_	_
 2	ini	ini	DET	DT	PronType=Dem	1	det	_	_
@@ -11087,7 +11087,7 @@
 11	unit	unit	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-366
+# sent_id = csui-test-366
 # text = "Pemegang saham asing akan menerima dividen dalam dolar AS," ujarnya.
 1	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
 2	Pemegang	Pemegang	NOUN	NN	Number=Sing	6	nsubj	_	_
@@ -11106,7 +11106,7 @@
 14	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 15	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = s-test-367
+# sent_id = csui-test-367
 # text = "Produksi awal diharapkan berlangsung dalam 90 hingga 120 hari. Medco Energi US memiliki 60 persen working interest dan merupakan operator dalam proyek ini," jelasnya.
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
 2	Produksi	Produksi	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
@@ -11140,7 +11140,7 @@
 29	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
 30	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-368
+# sent_id = csui-test-368
 # text = Menurut dia, dengan menggunakan batu bara, PKG bisa menghemat biaya Rp100 miliar per tahun.
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
@@ -11161,7 +11161,7 @@
 17	tahun	tahun	NOUN	NN	Number=Sing	13	nmod:tmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = s-test-369
+# sent_id = csui-test-369
 # text = Sementara ekspor mengalami pertumbuhan 9,4 persen non-migas 22 persen, migas 7 persen, dan sisi impor yang tumbuh 11,99 persen barang modal 40 persen, barang konsumsi 2 persen.
 1	Sementara	sementara	SCONJ	IN	_	3	mark	_	_
 2	ekspor	ekspor	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -11195,7 +11195,7 @@
 30	persen	persen	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = s-test-370
+# sent_id = csui-test-370
 # text = Namun menurut dia, tingkat suku bunga dapat ditekan bila persaingan bisnis perbankan makin kompetitif sehingga intermediasi perbankan pun semakin membaik.
 1	Namun	namun	CCONJ	CC	_	9	cc	_	_
 2	menurut	turut	ADP	IN	_	3	case	_	_
@@ -11220,7 +11220,7 @@
 21	membaik	baik	VERB	VB	Voice=Act	15	ccomp	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = s-test-371
+# sent_id = csui-test-371
 # text = Pertumbuhan ekonomi Indonesia saat ini masih didorong oleh sektor konsumsi, sementara dari sisi investasi masih rendah, walaupun ada prospek positif.
 1	Pertumbuhan	tumbuh	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
 2	ekonomi	ekonomi	NOUN	NN	Number=Sing	1	nmod	_	_
@@ -11248,7 +11248,7 @@
 23	positif	positif	ADJ	JJ	_	22	amod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = s-test-372
+# sent_id = csui-test-372
 # text = Target tersebut belum memasukkan pendapatan sewa/kontrak dari Mirantha.
 1	Target	target	NOUN	NN	Number=Sing	4	nsubj	_	_
 2	tersebut	sebut	DET	DT	_	1	det	_	_
@@ -11262,7 +11262,7 @@
 10	Mirantha	Mirantha	PROPN	NNP	_	5	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = s-test-373
+# sent_id = csui-test-373
 # text = Presiden Susilo Bambang Yudhoyono menyatakan keyakinannya bahwa Indonesia dapat melalui gejolak di pasar modal global dengan dampak seminimal mungkin.
 1	Presiden	presiden	PROPN	NNP	_	5	nsubj	_	_
 2	Susilo	Susilo	PROPN	NNP	_	1	flat:name	_	_
@@ -11287,7 +11287,7 @@
 20	mungkin	mungkin	ADV	RB	_	18	advmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = s-test-374
+# sent_id = csui-test-374
 # text = Rasio kredit bermasalah Panin meningkat ke 9,3 persen di akhir 2005 yang sebagian disebabkan oleh implementasi regulasi penggolongan kredit yang lebih ketat dan juga karena kondisi makroekonomi yang kurang menguntungkan termasuk kenaikan harga bahan bakar dan kemudian tingkat suku bunga yang meningkat sejak 2005.
 1	Rasio	rasio	NOUN	NN	Number=Sing	5	nsubj	_	_
 2	kredit	kredit	NOUN	NN	Number=Sing	1	nmod	_	_
