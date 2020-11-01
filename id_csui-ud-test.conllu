@@ -184,7 +184,7 @@
 25	,	,	PUNCT	,	_	8	punct	_	_
 26	sehingga	sehingga	SCONJ	IN	_	29	mark	_	_
 27	batu	batu	NOUN	NN	Number=Sing	29	nsubj:pass	_	_
-28	berharga	harga	ADJ	JJ	Voice=Act	27	amod	_	_
+28	berharga	harga	ADJ	JJ	_	27	amod	_	_
 29	terendam	rendam	VERB	VB	Voice=Pass	8	advcl	_	_
 30	di	di	ADP	IN	_	32	case	_	_
 31	dalam	dalam	NOUN	NN	Number=Sing	32	nmod:lmod	_	_
@@ -389,7 +389,7 @@
 # text = Banyak olahragawan terkenal melakukannya.
 1	Banyak	banyak	DET	DT	_	2	det	_	_
 2	olahragawan	olahragawan	NOUN	NN	Number=Sing	4	nsubj	_	_
-3	terkenal	kenal	ADJ	JJ	Voice=Pass	2	amod	_	_
+3	terkenal	kenal	ADJ	JJ	_	2	amod	_	_
 4-5	melakukannya	_	_	_	_	_	_	_	SpaceAfter=No
 4	melakukan	laku	VERB	VB	Voice=Act	0	root	_	_
 5	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	4	obj	_	_
@@ -556,7 +556,7 @@
 7	Rp	Rp	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
 8	1,461	1,461	NUM	CD	_	7	nummod	_	_
 9	triliun	triliun	NUM	CD	_	8	flat	_	_
-10	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	SpaceAfter=No
+10	tersebut	sebut	DET	DT	_	2	det	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	_	_
 12	BCA	BCA	PROPN	NNP	_	13	nsubj	_	_
 13	menyalurkan	salur	VERB	VB	Voice=Act	0	root	_	_
@@ -1140,7 +1140,7 @@
 # text = Namun dana tersebut baru terpakai 168 juta dolar AS.
 1	Namun	namun	CCONJ	CC	_	5	cc	_	_
 2	dana	dana	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
-3	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	_
+3	tersebut	sebut	DET	DT	_	2	det	_	_
 4	baru	baru	ADV	RB	_	5	advmod	_	_
 5	terpakai	pakai	VERB	VB	Voice=Pass	0	root	_	_
 6	168	168	NUM	CD	_	8	nummod	_	_
@@ -1302,7 +1302,7 @@
 40	mempertahankan	tahan	VERB	VB	Voice=Act	32	advcl	_	_
 41	kedua	kedua	NUM	CD	_	42	nummod	_	_
 42	peringkat	peringkat	NOUN	NN	Number=Sing	40	obj	_	_
-43	tersebut	sebut	DET	DT	Voice=Pass	42	det	_	_
+43	tersebut	sebut	DET	DT	_	42	det	_	_
 44	pada	pada	ADP	IN	_	46	case	_	_
 45	'	'	PUNCT	``	_	46	punct	_	SpaceAfter=No
 46	BB-	BB-	PROPN	NNP	_	40	nmod	_	SpaceAfter=No
@@ -1465,7 +1465,7 @@
 4	tidak	tidak	PART	RP	Polarity=Neg	6	advmod	_	_
 5	perlu	perlu	AUX	MD	_	6	aux	_	_
 6	duduk	duduk	VB	Voice=Act	0	root	_	_
-7	bersama	sama	ADV	RB	Voice=Act	6	advmod	_	_
+7	bersama	sama	ADV	RB	_	6	advmod	_	_
 8	dan	dan	CCONJ	CC	_	9	cc	_	_
 9	mengajukan	aju	VERB	VB	Voice=Act	6	conj	_	_
 10	komitmen	komitmen	NOUN	NN	Number=Sing	9	obj	_	_
@@ -1782,7 +1782,7 @@
 1	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
 2	Transaksi	Transaksi	NOUN	NN	Number=Sing	6	nsubj	_	_
 3	pembelian	beli	NOUN	NN	Number=Sing	2	nmod	_	_
-4	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	_
+4	tersebut	sebut	DET	DT	_	2	det	_	_
 5	telah	telah	AUX	MD	_	6	aux	_	_
 6	selesai	selesai	VB	Voice=Act	0	root	_	_
 7	pada	pada	ADP	IN	_	8	case	_	_
@@ -2653,7 +2653,7 @@
 7	penerbitan	terbit	NOUN	NN	Number=Sing	5	obl	_	_
 8	surat	surat	NOUN	NN	Number=Sing	7	nmod	_	_
 9	utang	utang	NOUN	NN	Number=Sing	8	nmod	_	_
-10	berharga	harga	ADJ	JJ	Voice=Act	8	amod	_	_
+10	berharga	harga	ADJ	JJ	_	8	amod	_	_
 11	negara	negara	NOUN	NN	Number=Sing	8	nmod	_	_
 12	netto	netto	X	FW	Foreign=Yes	13	amod	_	_
 13	Rp	Rp	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
@@ -2788,7 +2788,7 @@
 3	meningkatkan	tingkat	VERB	VB	Voice=Act	2	acl	_	_
 4	ketahanan	tahan	NOUN	NN	Number=Sing	3	obj	_	_
 5	fiskal	fiskal	ADJ	JJ	_	4	amod	_	_
-6	tersebut	sebut	DET	DT	Voice=Pass	1	det	_	SpaceAfter=No
+6	tersebut	sebut	DET	DT	_	1	det	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	_	_
 8	diambil	ambil	VERB	VB	Voice=Pass	0	root	_	_
 9	dengan	dengan	ADP	IN	_	10	case	_	_
@@ -2816,7 +2816,7 @@
 2	Kisaran	Kisaran	NOUN	NN	Number=Sing	7	nsubj	_	_
 3	nilai	nilai	NOUN	NN	Number=Sing	2	nmod	_	_
 4	tukar	tukar	NOUN	NN	Number=Sing	2	nmod	_	_
-5	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	_
+5	tersebut	sebut	DET	DT	_	2	det	_	_
 6	cukup	cukup	ADV	RB	_	7	advmod	_	_
 7	realistis	realistis	ADJ	JJ	_	0	root	_	_
 8	dengan	dengan	SCONJ	IN	_	9	mark	_	_
@@ -2889,7 +2889,7 @@
 28	untuk	untuk	SCONJ	IN	_	29	mark	_	_
 29	mengendalikan	kendali	VERB	VB	Voice=Act	17	acl	_	_
 30	masalah	masalah	NOUN	NN	Number=Sing	29	obj	_	_
-31	tersebut	sebut	DET	DT	Voice=Pass	30	det	_	_
+31	tersebut	sebut	DET	DT	_	30	det	_	_
 32	bekerja	bekerja	VB	Voice=Act	2	ccomp	_	_
 33	dengan	dengan	ADP	IN	_	34	case:adv	_	_
 34	baik	baik	ADJ	JJ	_	32	advmod	_	_
@@ -2998,7 +2998,7 @@
 14	dari	dari	ADP	IN	_	15	case	_	_
 15	akibat	akibat	NOUN	NN	Number=Sing	12	nmod	_	_
 16	krisis	krisis	NOUN	NN	Number=Sing	15	nmod	_	_
-17	tersebut	sebut	DET	DT	Voice=Pass	15	det	_	_
+17	tersebut	sebut	DET	DT	_	15	det	_	_
 18	meski	meski	SCONJ	IN	_	20	mark	_	_
 19	telah	telah	AUX	MD	_	20	aux	_	_
 20	mulai	mulai	VB	Voice=Act	10	advcl	_	_
@@ -3047,7 +3047,7 @@
 37	yang	yang	SCONJ	IN	_	38	mark	_	_
 38	jatuh	jatuh	VB	Voice=Act	36	acl:relcl	_	_
 39	tempo	tempo	NOUN	NN	Number=Sing	38	obl	_	_
-40	tersebut	sebut	DET	DT	Voice=Pass	36	det	_	SpaceAfter=No
+40	tersebut	sebut	DET	DT	_	36	det	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = s-test-102
@@ -3121,7 +3121,7 @@
 35	dengan	dengan	ADP	IN	_	36	case	_	_
 36	prospek	prospek	NOUN	NN	Number=Sing	39	nsubj	_	_
 37	peringkat	peringkat	NOUN	NN	Number=Sing	30	obl	_	_
-38	tersebut	sebut	DET	DT	Voice=Pass	36	det	_	_
+38	tersebut	sebut	DET	DT	_	36	det	_	_
 39	stabil	stabil	ADJ	JJ	_	8	ccomp	_	SpaceAfter=No
 40	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
 41	"	"	PUNCT	''	_	8	punct	_	_
@@ -3143,7 +3143,7 @@
 2	Pefindo	Pefindo	PROPN	NNP	_	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	peringkat	peringkat	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
-5	tersebut	sebut	DET	DT	Voice=Pass	4	det	_	_
+5	tersebut	sebut	DET	DT	_	4	det	_	_
 6	didukung	dukung	VERB	VB	Voice=Pass	0	root	_	_
 7	oleh	oleh	ADP	IN	_	8	case	_	_
 8	posisi	posisi	NOUN	NN	Number=Sing	6	obl	_	_
@@ -3182,10 +3182,10 @@
 2	,	,	PUNCT	,	_	3	punct	_	_
 3	kata	kata	VERB	VB	Voice=Act	9	parataxis	_	_
 4	lembaga	lembaga	NOUN	NN	Number=Sing	3	nsubj	_	_
-5	tersebut	sebut	DET	DT	Voice=Pass	4	det	_	SpaceAfter=No
+5	tersebut	sebut	DET	DT	_	4	det	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	_	_
 7	peringkat	peringkat	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
-8	tersebut	sebut	DET	DT	Voice=Pass	7	det	_	_
+8	tersebut	sebut	DET	DT	_	7	det	_	_
 9	dibatasi	batas	VERB	VB	Voice=Pass	0	root	_	_
 10	oleh	oleh	ADP	IN	_	11	case	_	_
 11	posisi	posisi	NOUN	NN	Number=Sing	9	obl	_	_
@@ -3688,7 +3688,7 @@
 21	persen	persen	NOUN	NN	Number=Sing	25	nsubj:pass	_	_
 22	saham	saham	NOUN	NN	Number=Sing	21	nmod	_	_
 23	MedcoEnergi	MedcoEnergi	PROPN	NNP	_	21	nmod	_	_
-24	tersebut	sebut	DET	DT	Voice=Pass	21	det	_	_
+24	tersebut	sebut	DET	DT	_	21	det	_	_
 25	dimiliki	milik	VERB	VB	Voice=Pass	0	root	_	_
 26	oleh	oleh	ADP	IN	_	27	case	_	_
 27	anak	anak	NOUN	NN	Number=Sing	25	obl:agent	_	_
@@ -3753,7 +3753,7 @@
 # text = "Peringkat tersebut mencerminkan berkembangnya permintaan untuk usaha konstruksi dan posisi usaha perusahaan yang kuat dalam bisnis pembangunan pembangkit listrik dan pabrik industri," kata analis Pefindo Ronald Hertanto, dalam sebuah pernyataannya di Jakarta, Rabu.
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
 2	Peringkat	Peringkat	NOUN	NN	Number=Sing	4	nsubj	_	_
-3	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	_
+3	tersebut	sebut	DET	DT	_	2	det	_	_
 4	mencerminkan	cermin	VERB	VB	Voice=Act	0	root	_	_
 5-6	berkembangnya	_	_	_	_	_	_	_	_
 5	berkembang	kembang	VERB	VB	Voice=Act	4	advcl	_	_
@@ -3992,7 +3992,7 @@
 5	yang	yang	SCONJ	IN	_	6	mark	_	_
 6	mendorong	dorong	VERB	VB	Voice=Act	4	ccomp	_	_
 7	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	6	obj	_	_
-8	tersebut	sebut	DET	DT	Voice=Pass	7	det	_	SpaceAfter=No
+8	tersebut	sebut	DET	DT	_	7	det	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	_	_
 10	antara	antara	ADP	IN	_	11	case	_	_
 11	lain	lain	ADJ	JJ	_	12	advcl	_	_
@@ -4171,7 +4171,7 @@
 7	pembiayaan	biaya	NOUN	NN	Number=Sing	6	obj	_	_
 8	pada	pada	ADP	IN	_	9	case	_	_
 9	industri	industri	NOUN	NN	Number=Sing	6	obl	_	_
-10	tersebut	sebut	DET	DT	Voice=Pass	3	det	_	_
+10	tersebut	sebut	DET	DT	_	3	det	_	_
 11	membuat	buat	VERB	VB	Voice=Act	2	ccomp	_	_
 12-13	perkembangannya	_	_	_	_	_	_	_	_
 12	perkembangan	kembang	NOUN	NN	Number=Sing	16	nsubj	_	_
@@ -4546,7 +4546,7 @@
 6	Spanyol	Spanyol	PROPN	NNP	_	5	nmod	_	_
 7	dan	dan	CCONJ	CC	_	8	cc	_	_
 8	novel	novel	NOUN	NN	Number=Sing	5	conj	_	_
-9	terkenal	kenal	ADJ	JJ	Voice=Pass	8	amod	_	_
+9	terkenal	kenal	ADJ	JJ	_	8	amod	_	_
 10	itu	itu	DET	DT	PronType=Dem	5	det	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	5	punct	_	_
 12	yang	yang	SCONJ	IN	_	14	mark	_	_
@@ -4615,7 +4615,7 @@
 4	kedua	kedua	NUM	CD	_	5	nummod	_	_
 5	unit	unit	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
 6	tanker	tanker	NOUN	NN	Number=Sing	5	nmod	_	_
-7	tersebut	sebut	DET	DT	Voice=Pass	5	det	_	_
+7	tersebut	sebut	DET	DT	_	5	det	_	_
 8	akan	akan	AUX	MD	_	9	aux	_	_
 9	ditempatkan	tempat	VERB	VB	Voice=Pass	0	root	_	_
 10	di	di	ADP	IN	_	12	case	_	_
@@ -4889,7 +4889,7 @@
 2	nya	nya	DET	DT	_	1	det	_	_
 3	suku	suku	NOUN	NN	Number=Sing	1	nsubj	_	_
 4	bunga	bunga	NOUN	NN	Number=Sing	3	nmod	_	_
-5	tersebut	sebut	DET	DT	Voice=Pass	3	det	_	_
+5	tersebut	sebut	DET	DT	_	3	det	_	_
 6	karena	karena	SCONJ	IN	_	29	mark	_	_
 7	biaya	biaya	NOUN	NN	Number=Sing	29	nsubj:pass	_	_
 8	dana	dana	NOUN	NN	Number=Sing	7	nmod	_	_
@@ -5128,7 +5128,7 @@
 14	pada	pada	ADP	IN	_	15	case	_	_
 15	penutupan	tutup	NOUN	NN	Number=Sing	11	obl	_	_
 16	rapat	rapat	NOUN	NN	Number=Sing	15	nmod	_	_
-17	tersebut	sebut	DET	DT	Voice=Pass	15	det	_	SpaceAfter=No
+17	tersebut	sebut	DET	DT	_	15	det	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
 19	"	"	PUNCT	''	_	5	punct	_	_
 20-21	ujarnya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -5169,7 +5169,7 @@
 1	Namun	namun	CCONJ	CC	_	5	cc	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	5	punct	_	_
 3	peringkat	peringkat	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
-4	tersebut	sebut	DET	DT	Voice=Pass	3	det	_	_
+4	tersebut	sebut	DET	DT	_	3	det	_	_
 5	diperlemah	lemah	VERB	VB	Voice=Pass	0	root	_	_
 6	oleh	oleh	ADP	IN	_	8	case	_	_
 7	relatif	relatif	ADJ	JJ	_	8	advmod	_	_
@@ -5202,7 +5202,7 @@
 9	seorang	orang	DET	DT	Number=Sing|PronType=Ind	7	obj	_	_
 10	pelawak	pelawak	NOUN	NN	Number=Sing	9	nmod	_	_
 11	yang	yang	SCONJ	IN	_	12	mark	_	_
-12	terkenal	kenal	ADJ	JJ	Voice=Pass	10	ccomp	_	_
+12	terkenal	kenal	ADJ	JJ	_	10	ccomp	_	_
 13	di	di	ADP	IN	_	14	case	_	_
 14	TV	TV	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	7	punct	_	_
@@ -5723,7 +5723,7 @@
 # text = Dalam perjanjian tersebut, Medco akan memasok gas dalam kurun waktu 2008-2017, dengan total volume 133 miliar kaki kubik, dari lapangan Singa, Sumatera Selatan, ke fasilitas pembangkit listrik PLN di Jawa Barat.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	perjanjian	janji	NOUN	NN	Number=Sing	7	obl	_	_
-3	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	SpaceAfter=No
+3	tersebut	sebut	DET	DT	_	2	det	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	_	_
 5	Medco	Medco	PROPN	NNP	_	7	nsubj	_	_
 6	akan	akan	AUX	MD	_	7	aux	_	_
@@ -5914,7 +5914,7 @@
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	Pefindo	Pefindo	PROPN	NNP	_	5	obl	_	_
 3	peringkat	peringkat	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
-4	tersebut	sebut	DET	DT	Voice=Pass	3	det	_	_
+4	tersebut	sebut	DET	DT	_	3	det	_	_
 5	didukung	dukung	VERB	VB	Voice=Pass	0	root	_	_
 6	oleh	oleh	ADP	IN	_	7	case	_	_
 7	diversifikasi	diversifikasi	NOUN	NN	Number=Sing	5	obl:agent	_	_
@@ -6171,7 +6171,7 @@
 23	,	,	PUNCT	,	_	24	punct	_	_
 24	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	_
 25	transaksi	transaksi	NOUN	NN	Number=Sing	27	nsubj:pass	_	_
-26	tersebut	sebut	DET	DT	Voice=Pass	25	det	_	_
+26	tersebut	sebut	DET	DT	_	25	det	_	_
 27	dilaksanakan	laksana	VERB	VB	Voice=Pass	24	advcl	_	_
 28	pada	pada	ADP	IN	_	30	case	_	_
 29	24	24	NUM	CD	_	30	nummod	_	_
@@ -6185,7 +6185,7 @@
 37	hasil	hasil	NOUN	NN	Number=Sing	36	nmod	_	_
 38	penjualan	jual	NOUN	NN	Number=Sing	37	nmod	_	_
 39	saham	saham	NOUN	NN	Number=Sing	37	nmod	_	_
-40	tersebut	sebut	DET	DT	Voice=Pass	36	det	_	SpaceAfter=No
+40	tersebut	sebut	DET	DT	_	36	det	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	24	punct	_	_
 
 # sent_id = s-test-199
@@ -6273,7 +6273,7 @@
 31	dari	dari	ADP	IN	_	33	case	_	_
 32	kedua	kedua	NUM	CD	_	33	nummod	_	_
 33	segmen	segmen	NOUN	NN	Number=Sing	28	nmod	_	_
-34	tersebut	sebut	DET	DT	Voice=Pass	33	det	_	_
+34	tersebut	sebut	DET	DT	_	33	det	_	_
 35	meningkat	tingkat	VERB	VB	Voice=Act	23	acl:relcl	_	_
 36	menjadi	jadi	VERB	VB	Voice=Act	35	ccomp	_	_
 37	2,1	2,1	NUM	CD	_	38	nummod	_	_
@@ -6620,7 +6620,7 @@
 39	stabil	stabil	ADJ	JJ	_	38	amod	_	_
 40	untuk	untuk	ADP	IN	_	41	case	_	_
 41	peringkat	peringkat	NOUN	NN	Number=Sing	37	obl	_	_
-42	tersebut	sebut	DET	DT	Voice=Pass	41	det	_	SpaceAfter=No
+42	tersebut	sebut	DET	DT	_	41	det	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = s-test-212
@@ -7463,7 +7463,7 @@
 9	tekanan	tekan	NOUN	NN	Number=Sing	12	obl	_	_
 10	inflasi	inflasi	NOUN	NN	Number=Sing	9	nmod	_	_
 11	tidak	tidak	PART	RP	Polarity=Neg	12	advmod	_	_
-12	berlebihan	lebih	ADJ	JJ	Voice=Act	7	advcl	_	SpaceAfter=No
+12	berlebihan	lebih	ADJ	JJ	_	7	advcl	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
 14	"	"	PUNCT	''	_	3	punct	_	_
 15-16	katanya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -7532,7 +7532,7 @@
 1	Produksi	produksi	NOUN	NN	Number=Sing	11	obl	_	_
 2	TBS	TBS	PROPN	NNP	_	1	nmod	_	_
 3	AALI	AALI	PROPN	NNP	_	1	nmod	_	_
-4	tersebut	sebut	DET	DT	Voice=Pass	1	det	_	SpaceAfter=No
+4	tersebut	sebut	DET	DT	_	1	det	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	_	_
 6	kata	kata	VERB	VB	Voice=Act	11	parataxis	_	_
 7	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
@@ -7715,7 +7715,7 @@
 2	Santoso	Santoso	PROPN	NNP	_	9	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	9	punct	_	_
 4	ekspor	ekspor	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
-5	tersebut	sebut	DET	DT	Voice=Pass	4	det	_	_
+5	tersebut	sebut	DET	DT	_	4	det	_	_
 6	sebesar	sebesar	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
 7	45,6	45,6	NUM	CD	_	8	nummod	_	_
 8	persen	persen	NOUN	NN	Number=Sing	6	nmod	_	_
@@ -7803,7 +7803,7 @@
 # text = Penurunan kredit tersebut diikuti pula dengan penurunan dana pihak ketiga sebesar Rp7,4 triliun.
 1	Penurunan	turun	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
 2	kredit	kredit	NOUN	NN	Number=Sing	1	nmod	_	_
-3	tersebut	sebut	DET	DT	Voice=Pass	1	det	_	_
+3	tersebut	sebut	DET	DT	_	1	det	_	_
 4	diikuti	ikut	VERB	VB	Voice=Pass	0	root	_	_
 5	pula	pula	ADV	RB	_	4	advmod	_	_
 6	dengan	dengan	ADP	IN	_	7	case	_	_
@@ -8263,7 +8263,7 @@
 4	nya	nya	DET	DT	_	3	det	_	_
 5	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	3	nsubj	_	_
 6	kredit	kredit	NOUN	NN	Number=Sing	5	nmod	_	_
-7	tersebut	sebut	DET	DT	Voice=Pass	5	det	_	_
+7	tersebut	sebut	DET	DT	_	5	det	_	_
 8	karena	karena	SCONJ	IN	_	9	mark	_	_
 9	iklim	iklim	NOUN	NN	Number=Sing	3	obl	_	_
 10	ekonomi	ekonomi	NOUN	NN	Number=Sing	9	nmod	_	_
@@ -8492,7 +8492,7 @@
 3	dua	dua	NUM	CD	_	4	nummod	_	_
 4	unit	unit	NOUN	NN	Number=Sing	2	nmod	_	_
 5	tanker	tanker	NOUN	NN	Number=Sing	4	nmod	_	_
-6	tersebut	sebut	DET	DT	Voice=Pass	4	det	_	SpaceAfter=No
+6	tersebut	sebut	DET	DT	_	4	det	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	_	_
 8	kata	kata	VERB	VB	Voice=Act	11	parataxis	_	_
 9	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
@@ -8890,7 +8890,7 @@
 17-18	rencananya	_	_	_	_	_	_	_	_
 17	rencana	rencana	NOUN	NN	Number=Sing	13	obl	_	_
 18	nya	nya	PRON	PRP$	_	17	nmod:poss	_	_
-19	tersebut	sebut	DET	DT	Voice=Pass	17	det	_	SpaceAfter=No
+19	tersebut	sebut	DET	DT	_	17	det	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = s-test-287
@@ -8970,7 +8970,7 @@
 10	menjual	jual	VERB	VB	Voice=Act	9	ccomp	_	_
 11	armada	armada	NOUN	NN	Number=Sing	10	obj	_	_
 12	kapal	kapal	NOUN	NN	Number=Sing	11	nmod	_	_
-13	tersebut	sebut	DET	DT	Voice=Pass	11	det	_	_
+13	tersebut	sebut	DET	DT	_	11	det	_	_
 14	dan	dan	CCONJ	CC	_	15	cc	_	_
 15	menggunakan	guna	VERB	VB	Voice=Act	10	conj	_	_
 16	hasil	hasil	NOUN	NN	Number=Sing	15	obj	_	_
@@ -9224,7 +9224,7 @@
 6	yang	yang	SCONJ	IN	_	8	mark	_	_
 7	akan	akan	AUX	MD	_	8	aux	_	_
 8	dilelang	dilelang	VERB	VB	Voice=Pass	2	acl:relcl	_	_
-9	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	_
+9	tersebut	sebut	DET	DT	_	2	det	_	_
 10	atas	atas	NOUN	NN	Number=Sing	11	nmod:lmod	_	_
 11	nama	nama	NOUN	NN	Number=Sing	0	root	_	_
 12	PT	PT	PROPN	NNP	_	11	nmod	_	_
@@ -9325,7 +9325,7 @@
 30	kah	kah	PART	RP	_	29	advmod:emph	_	_
 31	sumber-sumber	sumber	NOUN	NN	Number=Plur	34	nsubj	_	_
 32	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	31	nmod	_	_
-33	tersebut	sebut	DET	DT	Voice=Pass	31	det	_	_
+33	tersebut	sebut	DET	DT	_	31	det	_	_
 34	mempunyai	mempunyai	VERB	VB	Voice=Act	17	parataxis	_	_
 35	multiplier	multiplier	X	FW	Foreign=Yes	34	obj	_	_
 36	effect	effect	X	FW	Foreign=Yes	35	flat:foreign	_	_
@@ -9391,7 +9391,7 @@
 9	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	14	nsubj	_	_
 10	tiga	tiga	NUM	CD	_	11	nummod	_	_
 11	sektor	sektor	NOUN	NN	Number=Sing	9	nmod	_	_
-12	tersebut	sebut	DET	DT	Voice=Pass	9	det	_	_
+12	tersebut	sebut	DET	DT	_	9	det	_	_
 13	adalah	adalah	AUX	VBZ	_	14	cop	_	_
 14	pengangkutan	angkut	NOUN	NN	Number=Sing	0	root	_	_
 15	-	-	PUNCT	:	_	16	punct	_	_
@@ -9739,7 +9739,7 @@
 12	PT	PT	PROPN	NNP	_	8	nmod	_	_
 13	Nibung	Nibung	PROPN	NNP	_	12	flat:name	_	_
 14	Arthamulia	Arthamulia	PROPN	NNP	_	12	flat:name	_	_
-15	tersebut	sebut	DET	DT	Voice=Pass	5	det	_	SpaceAfter=No
+15	tersebut	sebut	DET	DT	_	5	det	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = s-test-318
@@ -10365,7 +10365,7 @@
 11	situs	situs	NOUN	NN	Number=Sing	9	obl	_	_
 12	jejaring	jejaring	NOUN	NN	Number=Sing	11	nmod	_	_
 13	sosial	sosial	ADJ	JJ	_	12	amod	_	_
-14	tersebut	sebut	DET	DT	Voice=Pass	11	det	_	SpaceAfter=No
+14	tersebut	sebut	DET	DT	_	11	det	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = s-test-345
@@ -10567,7 +10567,7 @@
 
 # sent_id = s-test-350
 # text = Mengenai adanya kekhawatiran tentang besarnya utang perseroan, Kevin mengatakan, hal itu tidak perlu dirisaukan, karena perseroan tidak hanya mengutang saja, melainkan juga berbuat sesuatu untuk mengembalikan rasio-rasio utangnya sehingga kembali menjadi perusahaan yang sehat.
-1	Mengenai	kena	SCONJ	IN	Voice=Act	2	mark	_	_
+1	Mengenai	kena	SCONJ	IN	_	2	mark	_	_
 2-3	adanya	_	_	_	_	_	_	_	_
 2	ada	ada	VERB	VB	Voice=Act	12	advcl	_	_
 3	nya	nya	DET	DT	_	2	det	_	_
@@ -10761,7 +10761,7 @@
 9	,	,	PUNCT	,	_	13	punct	_	_
 10	rating	rating	X	FW	Foreign=Yes	13	nsubj:pass	_	_
 11	final	final	NOUN	NN	Number=Sing	10	nmod	_	_
-12	tersebut	sebut	DET	DT	Voice=Pass	10	det	_	_
+12	tersebut	sebut	DET	DT	_	10	det	_	_
 13	diberikan	beri	VERB	VB	Voice=Pass	0	root	_	_
 14	menyusul	susul	VERB	VB	Voice=Act	13	ccomp	_	_
 15-16	selesainya	_	_	_	_	_	_	_	_
@@ -10835,7 +10835,7 @@
 # text = Namun peringkat tersebut diperlemah oleh agresifnya ekspansi perusahaan yang akan mengarah pada tingginya leverage keuangan dan potensi tingginya risiko perusahaan terhadap fluktuasi mata uang asing maupun persaingan di industri yang makin ketat.
 1	Namun	namun	CCONJ	CC	_	4	cc	_	_
 2	peringkat	peringkat	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
-3	tersebut	sebut	DET	DT	Voice=Pass	2	det	_	_
+3	tersebut	sebut	DET	DT	_	2	det	_	_
 4	diperlemah	lemah	VERB	VB	Voice=Pass	0	root	_	_
 5	oleh	oleh	SCONJ	IN	_	6	mark	_	_
 6-7	agresifnya	_	_	_	_	_	_	_	_
@@ -11251,7 +11251,7 @@
 # sent_id = s-test-372
 # text = Target tersebut belum memasukkan pendapatan sewa/kontrak dari Mirantha.
 1	Target	target	NOUN	NN	Number=Sing	4	nsubj	_	_
-2	tersebut	sebut	DET	DT	Voice=Pass	1	det	_	_
+2	tersebut	sebut	DET	DT	_	1	det	_	_
 3	belum	belum	PART	RP	Polarity=Neg	4	advmod	_	_
 4	memasukkan	masuk	VERB	VB	Voice=Act	0	root	_	_
 5	pendapatan	dapat	NOUN	NN	Number=Sing	4	obj	_	_
