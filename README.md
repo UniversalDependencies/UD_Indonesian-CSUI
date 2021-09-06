@@ -23,8 +23,8 @@ Other characteristics of the treebank:
 * The lemma (LEMMA) and morphological features (FEATS) were generated using [Aksara](https://github.com/bahasa-csui/aksara).
 
 ## References
-* Ika Alfina, Indra Budi, and Heru Suhartanto. "**Tree Rotations for Dependency Trees: Converting the Head-Directionality of Noun Phrases**". In Journal of Computer Science, 2020. (_accepted_)
-* M. Yudistira Hanifmuti and Ika Alfina. **"Aksara: An Indonesian Morphological Analyzer that Conforms to the UD v2 Annotation Guidelines"**. In Proceeding of the 2020 International Conference of Asian Language Processing (IALP)  in Kuala Lumpur, Malaysia, 4-6 Desember 2020. (_accepted_)
+* Ika Alfina, Indra Budi, and Heru Suhartanto. ["**Tree Rotations for Dependency Trees: Converting the Head-Directionality of Noun Phrases**"](http://www.thescipub.com/abstract/jcssp.2020.1585.1597). In Journal of Computer Science, 2020, Vol 16 No 11. 
+* M. Yudistira Hanifmuti and Ika Alfina. [**"Aksara: An Indonesian Morphological Analyzer that Conforms to the UD v2 Annotation Guidelines"**](https://ieeexplore.ieee.org/document/9310490). In Proceeding of the 2020 International Conference of Asian Language Processing (IALP)  in Kuala Lumpur, Malaysia, 4-6 Desember 2020. 
 
 # Changelog
 
