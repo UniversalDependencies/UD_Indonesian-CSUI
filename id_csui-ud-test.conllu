@@ -2350,7 +2350,7 @@
 
 # sent_id = csui-test-82
 # text = Demikian halnya dengan industri pengolahan seperti industri makanan dan minuman yang PPh-nya tumbuh 19,5 persen dari sebelumnya pertumbuhannya tercatat negatif.
-1	Demikian	demikian	NOUN	NN	PronType=Dem	0	root	_	_
+1	Demikian	demikian	PRON	NN	PronType=Dem	0	root	_	_
 2-3	halnya	_	_	_	_	_	_	_	_
 2	hal	hal	NOUN	NN	Number=Sing	1	nsubj	_	_
 3	nya	nya	DET	DT	_	2	det	_	_
@@ -4401,7 +4401,7 @@
 
 # sent_id = csui-test-144
 # text = Demikian pula laba usaha perseroan, dalam waktu yang sama terangkat dari semula Rp3,67 miliar menjadi Rp19,65 miliar, sehingga laba bersih per saham EPS-nya meningkat dari Rp0,39 menjadi Rp2,48 meski perseroan menanggung beban lain-lain bersih yang meningkat dari Rp2,25 miliar menjadi Rp4,99 miliar.
-1	Demikian	demikian	NOUN	NN	PronType=Dem	11	nsubj:pass	_	_
+1	Demikian	demikian	PRON	NN	PronType=Dem	11	nsubj:pass	_	_
 2	pula	pula	ADV	RB	_	1	advmod	_	_
 3	laba	laba	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
 4	usaha	usaha	NOUN	NN	Number=Sing	3	nmod	_	_
