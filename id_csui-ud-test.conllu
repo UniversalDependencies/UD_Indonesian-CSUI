@@ -827,7 +827,7 @@
 4	nya	nya	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 5	Pak	Pak	NOUN	NN	Number=Sing	8	nsubj	_	_
 6	Menteri	Menteri	NOUN	NN	Number=Sing	5	flat	_	_
-7	bakal	bakal	AUX	MD	_	8	aux	_	_
+7	bakal	bakal	X	MD	Foreign=Yes	8	dep	_	_
 8	ketemu	ketemu	VERB	VB	Voice=Act	0	root	_	_
 9	dengan	dengan	ADP	IN	_	10	case	_	_
 10	Paul	Paul	PROPN	NNP	_	8	obl	_	_

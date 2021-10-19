@@ -18,7 +18,7 @@
     <tag name="ADJ">1169</tag><!-- besar, tinggi, sama, pertama, bersih, baik, lain, asing, rendah, utama -->
     <tag name="ADP">2230</tag><!-- di, pada, dari, dalam, dengan, untuk, per, oleh, turut, ke -->
     <tag name="ADV">693</tag><!-- lebih, juga, masih, sekitar, tetap, kembali, sebelumnya, hanya, sangat, kemudian -->
-    <tag name="AUX">447</tag><!-- akan, telah, bisa, dapat, adalah, sudah, harus, sedang, mungkin, tengah -->
+    <tag name="AUX">446</tag><!-- akan, telah, bisa, dapat, adalah, sudah, harus, sedang, mungkin, tengah -->
     <tag name="CCONJ">770</tag><!-- dan, atau, namun, sedangkan, /, serta, maupun, tapi, tetapi, sementara -->
     <tag name="DET">740</tag><!-- ini, nya, sebut, itu, beberapa, buah, seluruh, banyak, sendiri, orang -->
     <tag name="INTJ">4</tag><!-- Mari, Ok, Ya, nih -->
@@ -31,7 +31,7 @@
     <tag name="SCONJ">923</tag><!-- yang, untuk, dengan, karena, sementara, bahwa, sehingga, meski, setelah, maka -->
     <tag name="SYM">17</tag><!-- %, $, +, -, £ -->
     <tag name="VERB">2981</tag><!-- kata, jadi, capai, ada, banding, tingkat, laku, naik, turun, beri -->
-    <tag name="X">376</tag><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
+    <tag name="X">377</tag><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="25">
@@ -40,7 +40,7 @@
     <feat name="Definite" value="Def" upos="DET">174</feat><!-- nya -->
     <feat name="Definite" value="Ind" upos="DET">34</feat><!-- sebuah, seorang, suatu -->
     <feat name="Degree" value="Sup" upos="ADJ">49</feat><!-- terakhir, terbesar, tertinggi, terbaik, tertentu, terkaya, terdekat, terbanyak, terendah, terutama -->
-    <feat name="Foreign" value="Yes" upos="X">376</feat><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
+    <feat name="Foreign" value="Yes" upos="X">377</feat><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">220</feat><!-- kita, mereka, beberapa, kami, banyak, para, berbagai, langkah-langkah, negara-negara, bank-bank -->
     <feat name="Number" value="Sing" upos="NOUN,PRON">8019</feat><!-- persen, nya, Rp, tahun, dolar, sebesar, saham, perusahaan, pemerintah, negara -->
     <feat name="NumType" value="Card" upos="NUM">1857</feat><!-- 2007, triliun, miliar, 2006, juta, 2008, satu, dua, 30, 10 -->
@@ -62,7 +62,7 @@
     <feat name="Voice" value="Pass" upos="VERB">671</feat><!-- dibandingkan, dibanding, terjadi, dilakukan, diperkirakan, termasuk, terdiri, diharapkan, didorong, diterbitkan -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="44">
+  <deps unique="45">
     <dep name="acl">72</dep>
     <dep name="acl:relcl">636</dep>
     <dep name="advcl">678</dep>
@@ -70,7 +70,7 @@
     <dep name="advmod:emph">33</dep>
     <dep name="amod">683</dep>
     <dep name="appos">423</dep>
-    <dep name="aux">406</dep>
+    <dep name="aux">405</dep>
     <dep name="case">2190</dep>
     <dep name="case:adv">28</dep>
     <dep name="cc">767</dep>
@@ -82,6 +82,7 @@
     <dep name="cop">34</dep>
     <dep name="csubj">11</dep>
     <dep name="csubj:pass">2</dep>
+    <dep name="dep">1</dep>
     <dep name="det">728</dep>
     <dep name="discourse">7</dep>
     <dep name="dislocated">1</dep>

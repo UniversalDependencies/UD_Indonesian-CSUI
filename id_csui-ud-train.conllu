@@ -1897,7 +1897,7 @@
 21	suku	suku	NOUN	NN	Number=Sing	20	obl	_	_
 22	bunga	bunga	NOUN	NN	Number=Sing	21	nmod	_	_
 23	deposito	deposito	NOUN	NN	Number=Sing	21	nmod	_	_
-24	bakal	bakal	AUX	MD	_	25	aux	_	_
+24	bakal	bakal	X	MD	Foreign=Yes	25	dep	_	_
 25	tercapai	capai	VERB	VB	Voice=Pass	21	acl:relcl	_	_
 26	di	di	ADP	IN	_	27	case	_	_
 27	masa	masa	NOUN	NN	Number=Sing	25	obl	_	_
