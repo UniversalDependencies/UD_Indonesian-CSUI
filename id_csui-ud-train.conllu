@@ -868,7 +868,7 @@
 10	industri	industri	NOUN	NN	Number=Sing	8	nmod	_	_
 11	perbankan	bank	NOUN	NN	Number=Sing	10	nmod	_	_
 12	pada	pada	ADP	IN	_	13	case	_	_
-13	Maret	Maret	PROPN	NNP	_	15	nmod	_	_
+13	Maret	Maret	PROPN	NNP	_	15	nmod:tmod	_	_
 14	2007	2007	NUM	CD	NumType=Card	13	nummod	_	_
 15	sebesar	sebesar	NOUN	NN	Number=Sing	5	advcl	_	_
 16	6,6	6,6	NUM	CD	NumType=Card	17	nummod	_	_
@@ -958,8 +958,8 @@
 13	Abe	Abe	PROPN	NNP	_	11	flat:name	_	_
 14	ke	ke	ADP	IN	_	15	case	_	_
 15	Jakarta	Jakarta	PROPN	NNP	_	9	nmod	_	_
-16	pada	pada	ADP	IN	_	20	case	_	_
-17	19	19	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
+16	pada	pada	ADP	IN	_	17	case	_	_
+17	19	19	NUM	CD	NumType=Card	20	nmod:tmod	_	SpaceAfter=No
 18	-	-	PUNCT	:	_	17	punct	_	SpaceAfter=No
 19	21	21	NUM	CD	NumType=Card	17	flat	_	_
 20	Agustus	Agustus	PROPN	NNP	_	9	nmod:tmod	_	_
@@ -1486,9 +1486,9 @@
 2	akan	akan	AUX	MD	_	3	aux	_	_
 3	meninggalkan	tinggal	VERB	VB	Voice=Act	0	root	_	_
 4	Indonesia	Indonesia	PROPN	NNP	_	3	obj	_	_
-5	pada	pada	ADP	IN	_	7	case	_	_
-6	28	28	NUM	CD	NumType=Card	7	nummod	_	_
-7	Februari	Februari	PROPN	NNP	_	3	obl:tmod	_	_
+5	pada	pada	ADP	IN	_	6	case	_	_
+6	28	28	NUM	CD	NumType=Card	3	obl:tmod	_	_
+7	Februari	Februari	PROPN	NNP	_	6	flat	_	_
 8	mendatang	datang	VERB	VB	Voice=Act	7	acl:relcl	_	_
 9	ke	ke	ADP	IN	_	10	case	_	_
 10	London	London	PROPN	NNP	_	3	obl	_	SpaceAfter=No
@@ -3168,7 +3168,7 @@
 20	Rp	Rp	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
 21	8.250	8.250	NUM	CD	NumType=Card	20	nummod	_	_
 22	pada	pada	ADP	IN	_	23	case	_	_
-23	waktu	waktu	NOUN	NN	Number=Sing	20	nmod	_	_
+23	waktu	waktu	NOUN	NN	Number=Sing	20	nmod:tmod	_	_
 24	09.48	09.48	NUM	CD	NumType=Card	23	nummod	_	_
 25	waktu	waktu	NOUN	NN	Number=Sing	23	nmod	_	_
 26	JATS	JATS	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
@@ -3707,10 +3707,10 @@
 # text = Sebelumnya pada 29 September 2007, Bapepam-LK juga mengumumkan pencabutan 13 izin usaha perusahaan yang berkaitan dengan perasuransian oleh Menteri Keuangan.
 # text_en = Earlier on September 29, 2007, Bapepam-LK also announced the revocation of 13 companies' business licenses related to insurance by the Minister of Finance.
 1	Sebelumnya	sebelumnya	ADV	RB	_	11	advmod	_	_
-2	pada	pada	ADP	IN	_	4	case	_	_
-3	29	29	NUM	CD	NumType=Card	4	nummod	_	_
-4	September	September	PROPN	NNP	_	11	obl:tmod	_	_
-5	2007	2007	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
+2	pada	pada	ADP	IN	_	3	case	_	_
+3	29	29	NUM	CD	NumType=Card	11	obl:tmod	_	_
+4	September	September	PROPN	NNP	_	3	flat	_	_
+5	2007	2007	NUM	CD	NumType=Card	3	flat	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	11	punct	_	_
 7	Bapepam	Bapepam	PROPN	NNP	_	11	nsubj	_	SpaceAfter=No
 8	-	-	PROPN	NNP	_	7	flat:name	_	SpaceAfter=No
@@ -4679,8 +4679,8 @@
 3	obligasi	obligasi	NOUN	NN	Number=Sing	2	nmod	_	_
 4	tersebut	sebut	DET	DT	_	1	det	_	_
 5	berlangsung	langsung	VERB	VB	Voice=Act	0	root	_	_
-6	pada	pada	ADP	IN	_	10	case	_	_
-7	24	24	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+6	pada	pada	ADP	IN	_	7	case	_	_
+7	24	24	NUM	CD	NumType=Card	10	nmod:tmod	_	SpaceAfter=No
 8	-	-	PUNCT	:	_	7	punct	_	SpaceAfter=No
 9	26	26	NUM	CD	NumType=Card	7	flat	_	_
 10	April	April	PROPN	NNP	_	5	obl:tmod	_	_
@@ -4695,10 +4695,10 @@
 19	(	(	PUNCT	-LRB-	_	20	punct	_	SpaceAfter=No
 20	BES	BES	PROPN	NNP	_	16	appos	_	SpaceAfter=No
 21	)	)	PUNCT	-RRB-	_	20	punct	_	_
-22	pada	pada	ADP	IN	_	24	case	_	_
-23	1	1	NUM	CD	NumType=Card	24	nummod	_	_
-24	Mei	Mei	PROPN	NNP	_	14	obl:tmod	_	_
-25	2007	2007	NUM	CD	NumType=Card	24	nummod	_	SpaceAfter=No
+22	pada	pada	ADP	IN	_	23	case	_	_
+23	1	1	NUM	CD	NumType=Card	14	obl:tmod	_	_
+24	Mei	Mei	PROPN	NNP	_	23	flat	_	_
+25	2007	2007	NUM	CD	NumType=Card	23	flat	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = csui-train-143
@@ -4713,7 +4713,7 @@
 7	yang	yang	SCONJ	IN	_	8	mark	_	_
 8	lain	lain	ADJ	JJ	_	5	acl:relcl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	3	punct	_	_
-10	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+10	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
 11	ini	ini	DET	DT	PronType=Dem	10	det	_	_
 12	orang	orang	NOUN	NN	Number=Sing	0	root	_	_
 13	dewasa	dewasa	ADJ	JJ	_	12	amod	_	SpaceAfter=No
@@ -5161,8 +5161,8 @@
 12	(	(	PUNCT	-LRB-	_	13	punct	_	SpaceAfter=No
 13	AALI	AALI	PROPN	NNP	_	8	appos	_	SpaceAfter=No
 14	)	)	PUNCT	-RRB-	_	13	punct	_	_
-15	pada	pada	ADP	IN	_	17	case	_	_
-16	10	10	NUM	CD	NumType=Card	17	nummod	_	_
+15	pada	pada	ADP	IN	_	16	case	_	_
+16	10	10	NUM	CD	NumType=Card	17	nmod:tmod	_	_
 17	bulan	bulan	NOUN	NN	Number=Sing	20	obl:tmod	_	_
 18	pertama	pertama	ADJ	JJ	_	17	amod	_	_
 19	2007	2007	NUM	CD	NumType=Card	17	nummod	_	_
@@ -5947,7 +5947,7 @@
 17	AS	AS	PROPN	NNP	_	16	nmod	_	_
 18	setelah	setelah	SCONJ	IN	_	23	mark	_	_
 19	pada	pada	ADP	IN	_	20	case	_	_
-20	pekan	pekan	NOUN	NN	Number=Sing	23	obl	_	_
+20	pekan	pekan	NOUN	NN	Number=Sing	23	obl:tmod	_	_
 21	lalu	lalu	VERB	VB	Voice=Act	20	ccomp	_	_
 22	sempat	sempat	ADV	RB	_	23	advmod	_	_
 23	melemah	lemah	VERB	VB	Voice=Act	12	ccomp	_	_
@@ -7285,7 +7285,7 @@
 18	gas	gas	NOUN	NN	Number=Sing	16	conj	_	SpaceAfter=No
 19	)	)	PUNCT	-RRB-	_	16	punct	_	_
 20	pada	pada	ADP	IN	_	21	case	_	_
-21	tahun	tahun	NOUN	NN	Number=Sing	23	nmod	_	_
+21	tahun	tahun	NOUN	NN	Number=Sing	23	nmod:tmod	_	_
 22	ini	ini	DET	DT	PronType=Dem	21	det	_	_
 23	sebesar	sebesar	NOUN	NN	Number=Sing	11	obl	_	_
 24	sembilan	sembilan	NUM	CD	NumType=Card	25	nummod	_	_
@@ -7315,10 +7315,10 @@
 18	lelang	lelang	NOUN	NN	Number=Sing	2	obl	_	_
 19	obligasi	obligasi	NOUN	NN	Number=Sing	18	nmod	_	_
 20	negara	negara	NOUN	NN	Number=Sing	18	nmod	_	_
-21	pada	pada	ADP	IN	_	23	case	_	_
-22	21	21	NUM	CD	NumType=Card	23	nummod	_	_
-23	Agustus	Agustus	PROPN	NNP	_	18	nmod:tmod	_	_
-24	2007	2007	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
+21	pada	pada	ADP	IN	_	22	case	_	_
+22	21	21	NUM	CD	NumType=Card	18	nmod:tmod	_	_
+23	Agustus	Agustus	PROPN	NNP	_	22	flat	_	_
+24	2007	2007	NUM	CD	NumType=Card	22	flat	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = csui-train-228
@@ -8336,9 +8336,9 @@
 29	tersebut	sebut	DET	DT	_	28	det	_	_
 30	tercapai	capai	VERB	VB	Voice=Pass	26	advcl	_	_
 31	setelah	setelah	SCONJ	IN	_	36	mark	_	_
-32	pada	pada	ADP	IN	_	34	case	_	_
-33	25	25	NUM	CD	NumType=Card	34	nummod	_	_
-34	Januari	Januari	PROPN	NNP	_	36	obl:tmod	_	_
+32	pada	pada	ADP	IN	_	33	case	_	_
+33	25	25	NUM	CD	NumType=Card	36	obl:tmod	_	_
+34	Januari	Januari	PROPN	NNP	_	33	flat	_	_
 35	perseroan	perseroan	NOUN	NN	Number=Sing	36	nsubj	_	_
 36	melakukan	laku	VERB	VB	Voice=Act	30	advcl	_	_
 37	pembelian	beli	NOUN	NN	Number=Sing	36	obj	_	_
@@ -9305,17 +9305,17 @@
 10	triliun	triliun	NUM	CD	NumType=Card	9	flat	_	_
 11	yang	yang	SCONJ	IN	_	12	mark	_	_
 12	diterbitkan	terbit	VERB	VB	Voice=Pass	4	acl:relcl	_	_
-13	pada	pada	ADP	IN	_	15	case	_	_
-14	22	22	NUM	CD	NumType=Card	15	nummod	_	_
-15	Februari	Februari	PROPN	NNP	_	12	obl:tmod	_	_
-16	2007	2007	NUM	CD	NumType=Card	15	nummod	_	_
+13	pada	pada	ADP	IN	_	14	case	_	_
+14	22	22	NUM	CD	NumType=Card	12	obl:tmod	_	_
+15	Februari	Februari	PROPN	NNP	_	14	flat	_	_
+16	2007	2007	NUM	CD	NumType=Card	14	flat	_	_
 17	tersebut	sebut	DET	DT	_	4	det	_	_
 18	akan	akan	AUX	MD	_	19	aux	_	_
 19	jatuh	jatuh	VERB	VB	Voice=Act	0	root	_	_
 20	tempo	tempo	NOUN	NN	Number=Sing	19	obj	_	_
-21	pada	pada	ADP	IN	_	23	case	_	_
-22	15	15	NUM	CD	NumType=Card	23	nummod	_	_
-23	Juli	Juli	PROPN	NNP	_	19	obl:tmod	_	_
+21	pada	pada	ADP	IN	_	22	case	_	_
+22	15	15	NUM	CD	NumType=Card	19	obl:tmod	_	_
+23	Juli	Juli	PROPN	NNP	_	22	flat	_	_
 24	2022	2022	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	19	punct	_	_
 26	memberikan	beri	VERB	VB	Voice=Act	19	advcl	_	_
@@ -9329,9 +9329,9 @@
 34	setiap	setiap	DET	DT	PronType=Tot	36	det	_	_
 35	6	6	NUM	CD	NumType=Card	36	nummod	_	_
 36	bulan	bulan	NOUN	NN	Number=Sing	33	obl:tmod	_	_
-37	pada	pada	ADP	IN	_	39	case	_	_
-38	15	15	NUM	CD	NumType=Card	39	nummod	_	_
-39	Januari	Januari	PROPN	NNP	_	36	nmod:tmod	_	_
+37	pada	pada	ADP	IN	_	38	case	_	_
+38	15	15	NUM	CD	NumType=Card	36	nmod:tmod	_	_
+39	Januari	Januari	PROPN	NNP	_	38	flat	_	_
 40	dan	dan	CCONJ	CC	_	42	cc	_	_
 41	15	15	NUM	CD	NumType=Card	42	nummod	_	_
 42	Juli	Juli	PROPN	NNP	_	39	conj	_	SpaceAfter=No
@@ -9553,7 +9553,7 @@
 15	rupiah	rupiah	NOUN	NN	Number=Sing	12	nmod	_	_
 16	mengingat	ingat	VERB	VB	Voice=Act	24	acl:relcl	_	_
 17	pada	pada	ADP	IN	_	18	case	_	_
-18	November	November	PROPN	NNP	_	24	nmod	_	_
+18	November	November	PROPN	NNP	_	24	nmod:tmod	_	_
 19	2007	2007	NUM	CD	NumType=Card	18	nummod	_	_
 20	rata-rata	rata	NOUN	NN	Number=Sing	24	nmod	_	_
 21	nilai	nilai	NOUN	NN	Number=Sing	20	nmod	_	_
@@ -9606,7 +9606,7 @@
 35	tercapai	capai	VERB	VB	Voice=Pass	34	xcomp	_	_
 36	hanya	hanya	ADV	RB	_	35	advmod	_	_
 37	pada	pada	ADP	IN	_	38	case	_	_
-38	tahun	tahun	NOUN	NN	Number=Sing	35	nmod	_	_
+38	tahun	tahun	NOUN	NN	Number=Sing	35	obl:tmod	_	_
 39	1997	1997	NUM	CD	NumType=Card	38	nummod	_	_
 40	dan	dan	CCONJ	CC	_	42	cc	_	_
 41	lebih	lebih	ADV	RB	_	42	advmod	_	_
@@ -12122,11 +12122,11 @@
 # text = Sebelumnya pada 20 Februari 2007, pemerintah telah melakukan lelang obligasi tersebut atau Surat Utang Negara (SUN) Seri FR0043 dan berhasil menyerap Rp4 triliun.
 # text_en = Previously on February 20, 2007, the government had auctioned the bonds or Government Bonds (SUN) Series FR0043 and managed to absorb Rp4 trillion.
 1	Sebelumnya	sebelumnya	ADV	RB	_	9	advmod	_	_
-2	pada	pada	ADP	IN	_	4	case	_	_
-3	20	20	NUM	CD	NumType=Card	4	nummod	_	_
-4	Februari	Februari	PROPN	NNP	_	9	obl:tmod	_	_
-5	2007	2007	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
-6	,	,	PUNCT	,	_	4	punct	_	_
+2	pada	pada	ADP	IN	_	3	case	_	_
+3	20	20	NUM	CD	NumType=Card	9	obl:tmod	_	_
+4	Februari	Februari	PROPN	NNP	_	3	flat	_	_
+5	2007	2007	NUM	CD	NumType=Card	3	flat	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
 7	pemerintah	perintah	NOUN	NN	Number=Sing	9	nsubj	_	_
 8	telah	telah	AUX	MD	_	9	aux	_	_
 9	melakukan	laku	VERB	VB	Voice=Act	0	root	_	_
@@ -12668,7 +12668,7 @@
 6	untuk	untuk	SCONJ	IN	_	7	mark	_	_
 7	menguat	kuat	VERB	VB	Voice=Act	4	acl:relcl	_	_
 8	pada	pada	ADP	IN	_	9	case	_	_
-9	pekan	pekan	NOUN	NN	Number=Sing	7	obl	_	_
+9	pekan	pekan	NOUN	NN	Number=Sing	7	obl:tmod	_	_
 10	depan	depan	NOUN	NN	Number=Sing	9	nmod	_	_
 11	kemungkinan	mungkin	ADV	RB	_	13	advmod	_	_
 12	akan	akan	AUX	MD	_	13	aux	_	_
@@ -13383,10 +13383,10 @@
 28	transfer	transfer	X	FW	Foreign=Yes	27	flat:foreign	_	_
 29	agreement	agreement	X	FW	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
 30	)	)	PUNCT	-RRB-	_	27	punct	_	_
-31	pada	pada	ADP	IN	_	33	case	_	_
-32	9	9	NUM	CD	NumType=Card	33	nummod	_	_
-33	Juli	Juli	PROPN	NNP	_	22	obl:tmod	_	_
-34	2007	2007	NUM	CD	NumType=Card	33	nummod	_	SpaceAfter=No
+31	pada	pada	ADP	IN	_	32	case	_	_
+32	9	9	NUM	CD	NumType=Card	22	obl:tmod	_	_
+33	Juli	Juli	PROPN	NNP	_	32	flat	_	_
+34	2007	2007	NUM	CD	NumType=Card	32	flat	_	SpaceAfter=No
 35	,	,	PUNCT	,	_	22	punct	_	_
 36	di	di	ADP	IN	_	40	mark	_	MWEPOS=SCONJ
 37	mana	mana	PRON	PRP	PronType=Dem	36	fixed	_	_
@@ -13904,8 +13904,8 @@
 5	pinjaman	pinjam	NOUN	NN	Number=Sing	4	obl	_	_
 6	yang	yang	SCONJ	IN	_	7	mark	_	_
 7	dibuat	buat	VERB	VB	Voice=Pass	5	ccomp	_	_
-8	pada	pada	ADP	IN	_	11	case	_	_
-9	2000	2000	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
+8	pada	pada	ADP	IN	_	9	case	_	_
+9	2000	2000	NUM	CD	NumType=Card	11	nmod:tmod	_	SpaceAfter=No
 10	-	-	PUNCT	:	_	11	punct	_	SpaceAfter=No
 11	2006	2006	NUM	CD	NumType=Card	7	obl	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
@@ -14390,9 +14390,9 @@
 6	saham	saham	NOUN	NN	Number=Sing	4	nmod	_	_
 7	tersebut	sebut	DET	DT	_	4	det	_	_
 8	berlangsung	langsung	VERB	VB	Voice=Act	0	root	_	_
-9	pada	pada	ADP	IN	_	11	case	_	_
-10	5	5	NUM	CD	NumType=Card	11	nummod	_	_
-11	September	September	PROPN	NNP	_	8	obl:tmod	_	_
+9	pada	pada	ADP	IN	_	10	case	_	_
+10	5	5	NUM	CD	NumType=Card	8	obl:tmod	_	_
+11	September	September	PROPN	NNP	_	10	flat	_	_
 12	hingga	hingga	ADP	IN	_	14	case	_	_
 13	14	14	NUM	CD	NumType=Card	14	nummod	_	_
 14	September	September	PROPN	NNP	_	11	nmod:tmod	_	_
@@ -14886,9 +14886,9 @@
 13	dan	dan	CCONJ	CC	_	14	cc	_	_
 14	jatuh	jatuh	VERB	VB	Voice=Act	6	conj	_	_
 15	tempo	tempo	NOUN	NN	Number=Sing	14	obj	_	_
-16	pada	pada	ADP	IN	_	18	case	_	_
-17	15	15	NUM	CD	NumType=Card	18	nummod	_	_
-18	Juli	Juli	PROPN	NNP	_	14	obl:tmod	_	_
+16	pada	pada	ADP	IN	_	17	case	_	_
+17	15	15	NUM	CD	NumType=Card	14	obl:tmod	_	_
+18	Juli	Juli	PROPN	NNP	_	17	flat	_	_
 19	2023	2023	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	6	punct	_	_
 21	FR0047	FR0047	PROPN	NNP	_	23	nsubj	_	_
@@ -14901,10 +14901,10 @@
 28	akan	akan	AUX	MD	_	29	aux	_	_
 29	jatuh	jatuh	VERB	VB	Voice=Act	24	acl:relcl	_	_
 30	tempo	tempo	NOUN	NN	Number=Sing	29	obj	_	_
-31	pada	pada	ADP	IN	_	33	case	_	_
-32	15	15	NUM	CD	NumType=Card	33	nummod	_	_
-33	Oktober	Oktober	PROPN	NNP	_	29	obl:tmod	_	_
-34	2018	2018	NUM	CD	NumType=Card	33	nummod	_	SpaceAfter=No
+31	pada	pada	ADP	IN	_	32	case	_	_
+32	15	15	NUM	CD	NumType=Card	29	obl:tmod	_	_
+33	Oktober	Oktober	PROPN	NNP	_	32	flat	_	_
+34	2018	2018	NUM	CD	NumType=Card	32	flat	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = csui-train-462
@@ -15160,7 +15160,7 @@
 17	kerja	kerja	NOUN	NN	Number=Sing	16	nmod	_	_
 18	besar	besar	ADJ	JJ	_	16	amod	_	_
 19	pada	pada	ADP	IN	_	20	case	_	_
-20	waktu	waktu	NOUN	NN	Number=Sing	16	nmod	_	_
+20	waktu	waktu	NOUN	NN	Number=Sing	16	nmod:tmod	_	_
 21	mendatang	datang	VERB	VB	Voice=Act	20	ccomp	_	_
 22	yang	yang	SCONJ	IN	_	24	mark	_	_
 23	dapat	dapat	AUX	MD	_	24	aux	_	_
@@ -15365,9 +15365,9 @@
 34	Oil	Oil	X	FW	Foreign=Yes	30	flat:foreign	_	_
 35	in	in	X	FW	Foreign=Yes	30	flat:foreign	_	_
 36	Bulk	Bulk	X	FW	Foreign=Yes	30	flat:foreign	_	_
-37	pada	pada	ADP	IN	_	39	case	_	_
-38	13	13	NUM	CD	NumType=Card	39	nummod	_	_
-39	Agustus	Agustus	PROPN	NNP	_	26	obl:tmod	_	_
+37	pada	pada	ADP	IN	_	38	case	_	_
+38	13	13	NUM	CD	NumType=Card	26	obl:tmod	_	_
+39	Agustus	Agustus	PROPN	NNP	_	38	flat	_	_
 40	lalu	lalu	VERB	VB	Voice=Act	39	acl:relcl	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	15	punct	_	_
 
@@ -15937,10 +15937,10 @@
 27	akan	akan	AUX	MD	_	28	aux	_	_
 28	jatuh	jatuh	VERB	VB	Voice=Act	12	acl:relcl	_	_
 29	tempo	tempo	NOUN	NN	Number=Sing	28	obj	_	_
-30	pada	pada	ADP	IN	_	32	case	_	_
-31	1	1	NUM	CD	NumType=Card	32	nummod	_	_
-32	September	September	PROPN	NNP	_	28	obl:tmod	_	_
-33	2007	2007	NUM	CD	NumType=Card	32	nummod	_	SpaceAfter=No
+30	pada	pada	ADP	IN	_	31	case	_	_
+31	1	1	NUM	CD	NumType=Card	28	obl:tmod	_	_
+32	September	September	PROPN	NNP	_	31	flat	_	_
+33	2007	2007	NUM	CD	NumType=Card	31	flat	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = csui-train-494
@@ -17881,9 +17881,9 @@
 3	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	meski	meski	SCONJ	IN	_	10	mark	_	_
-6	pada	pada	ADP	IN	_	8	case	_	_
-7	22	22	NUM	CD	NumType=Card	8	nummod	_	_
-8	Maret	Maret	PROPN	NNP	_	10	obl:tmod	_	_
+6	pada	pada	ADP	IN	_	7	case	_	_
+7	22	22	NUM	CD	NumType=Card	10	obl:tmod	_	_
+8	Maret	Maret	PROPN	NNP	_	7	flat	_	_
 9	LPS	LPS	PROPN	NNP	_	10	nsubj	_	_
 10	mulai	mulai	VERB	VB	Voice=Act	33	advcl	_	_
 11	memberlakukan	memberlakukan	VERB	VB	Voice=Act	10	xcomp	_	_
@@ -18147,10 +18147,10 @@
 20	yang	yang	SCONJ	IN	_	22	mark	_	_
 21	telah	telah	AUX	MD	_	22	aux	_	_
 22	ditandatangani	ditandatangani	VERB	VB	Voice=Pass	14	acl:relcl	_	_
-23	pada	pada	ADP	IN	_	25	case	_	_
-24	30	30	NUM	CD	NumType=Card	25	nummod	_	_
-25	April	April	PROPN	NNP	_	22	obl:tmod	_	_
-26	2007	2007	NUM	CD	NumType=Card	25	nummod	_	_
+23	pada	pada	ADP	IN	_	24	case	_	_
+24	30	30	NUM	CD	NumType=Card	22	obl:tmod	_	_
+25	April	April	PROPN	NNP	_	24	flat	_	_
+26	2007	2007	NUM	CD	NumType=Card	24	flat	_	_
 27	lalu	lalu	VERB	VB	Voice=Act	25	acl:relcl	_	_
 28	oleh	oleh	ADP	IN	_	30	case	_	_
 29	para	para	DET	DT	Number=Plur	30	det	_	_
@@ -18599,10 +18599,10 @@
 # sent_id = csui-train-578
 # text = Pada 31 Desember 2006, porsi kredit Komersial dan UKM mencapai 47,4 persen dari total kredit, sementara kredit Korporasi berkontribusi 38,8 persen dan kredit Konsumer 13,8 persen.
 # text_en = As of December 31, 2006, the portion of Commercial and SME loans reached 47.4 percent of total loans, while Corporate loans contributed 38.8 percent and Consumer loans 13.8 percent.
-1	Pada	pada	ADP	IN	_	3	case	_	_
-2	31	31	NUM	CD	NumType=Card	3	nummod	_	_
-3	Desember	Desember	PROPN	NNP	_	11	obl:tmod	_	_
-4	2006	2006	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
+1	Pada	pada	ADP	IN	_	2	case	_	_
+2	31	31	NUM	CD	NumType=Card	11	obl:tmod	_	_
+3	Desember	Desember	PROPN	NNP	_	2	flat	_	_
+4	2006	2006	NUM	CD	NumType=Card	2	flat	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	11	punct	_	_
 6	porsi	porsi	NOUN	NN	Number=Sing	11	nsubj	_	_
 7	kredit	kredit	NOUN	NN	Number=Sing	6	nmod	_	_
@@ -20234,10 +20234,10 @@
 9	(	(	PUNCT	-LRB-	_	10	punct	_	SpaceAfter=No
 10	RUPSLB	RUPSLB	PROPN	NNP	_	3	appos	_	SpaceAfter=No
 11	)	)	PUNCT	-RRB-	_	10	punct	_	_
-12	pada	pada	ADP	IN	_	14	case	_	_
-13	21	21	NUM	CD	NumType=Card	14	nummod	_	_
-14	Desember	Desember	PROPN	NNP	_	3	nmod:tmod	_	_
-15	2005	2005	NUM	CD	NumType=Card	14	nummod	_	_
+12	pada	pada	ADP	IN	_	13	case	_	_
+13	21	21	NUM	CD	NumType=Card	3	nmod:tmod	_	_
+14	Desember	Desember	PROPN	NNP	_	13	flat	_	_
+15	2005	2005	NUM	CD	NumType=Card	13	flat	_	_
 16	dan	dan	CCONJ	CC	_	17	cc	_	_
 17	Peraturan	Peraturan	PROPN	NNP	_	2	conj	_	_
 18	Bapepam	Bapepam	PROPN	NNP	_	17	flat:name	_	_
