@@ -516,11 +516,11 @@
 17	juga	juga	ADV	RB	_	18	advmod	_	_
 18	mengandung	kandung	VERB	VB	Voice=Act	5	advcl	_	_
 19	risiko-risiko	risiko	NOUN	NN	Number=Plur	18	obj	_	_
-20	yang	yang	SCONJ	IN	_	24	mark	_	_
-21	perlu	perlu	AUX	MD	_	24	aux	_	_
+20	yang	yang	PRON	IN	PronType=Rel	21	nsubj	_	_
+21	perlu	perlu	VERB	VB	_	19	acl:relcl	_	_
 22	terus	terus	ADV	RB	_	24	advmod	_	_
 23	kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
-24	waspadai	waspadai	VERB	VB	Voice=Act	19	ccomp	_	SpaceAfter=No
+24	waspadai	waspadai	VERB	VB	Voice=Act	21	ccomp	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = csui-train-17
@@ -3485,9 +3485,9 @@
 1	Kekuatan	kuat	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
 2	kompetitif	kompetitif	ADJ	JJ	_	1	amod	_	_
 3	Indonesia	Indonesia	PROPN	NNP	_	1	nmod	_	_
-4	juga	juga	ADV	RB	_	6	advmod	_	_
-5	perlu	perlu	AUX	MD	_	6	aux	_	_
-6	diperkuat	kuat	VERB	VB	Voice=Pass	0	root	_	_
+4	juga	juga	ADV	RB	_	5	advmod	_	_
+5	perlu	perlu	VERB	VB	Voice=Act	0	root	_	_
+6	diperkuat	kuat	VERB	VB	Voice=Pass	5	xcomp	_	_
 7	dalam	dalam	ADP	IN	_	8	case	_	_
 8	jangka	jangka	NOUN	NN	Number=Sing	6	obl	_	_
 9	pendek	pendek	ADJ	JJ	_	8	amod	_	_
@@ -11164,12 +11164,12 @@
 # sent_id = csui-train-342
 # text = "Karena itu perlu kita monitor dengan baik," kata Gubernur BI, Burhanuddin Abdullah usai rapat koordinasi terbatas rakortas membahas exposure ekonomi Indonesia terhadap luar negeri di Gedung Depkeu Jakarta, Senin.
 # text_en = "Therefore, we need to monitor it properly," said BI Governor Burhanuddin Abdullah after a limited coordination meeting of the coordination meeting to discuss Indonesia's economic exposure to foreign countries at the Ministry of Finance Building, Jakarta, Monday.
-1	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
 2	Karena	Karena	ADP	IN	_	3	case	_	_
-3	itu	itu	PRON	PRP	PronType=Dem	6	obl	_	_
-4	perlu	perlu	AUX	MD	_	6	aux	_	_
+3	itu	itu	PRON	PRP	PronType=Dem	4	obl	_	_
+4	perlu	perlu	VERB	VB	Voice=Act	0	root	_	_
 5	kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
-6	monitor	monitor	VERB	VB	Voice=Act	0	root	_	_
+6	monitor	monitor	VERB	VB	Voice=Act	4	xcomp	_	_
 7	dengan	dengan	ADP	IN	_	8	case:adv	_	_
 8	baik	baik	ADJ	JJ	_	6	advcl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No

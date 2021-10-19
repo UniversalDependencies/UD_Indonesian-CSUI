@@ -1512,24 +1512,24 @@
 # sent_id = csui-test-53
 # text = "Tapi memang tidak perlu duduk bersama dan mengajukan komitmen seperti itu," ujarnya.
 # text_en = "But there is no need to sit down together and make such a commitment," he said.
-1	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
-2	Tapi	Tapi	CCONJ	CC	_	6	cc	_	_
-3	memang	memang	ADV	RB	_	6	advmod	_	_
-4	tidak	tidak	PART	RP	Polarity=Neg	6	advmod	_	_
-5	perlu	perlu	AUX	MD	_	6	aux	_	_
-6	duduk	duduk	VERB	VB	Voice=Act	0	root	_	_
+1	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Tapi	Tapi	CCONJ	CC	_	5	cc	_	_
+3	memang	memang	ADV	RB	_	5	advmod	_	_
+4	tidak	tidak	PART	RP	Polarity=Neg	5	advmod	_	_
+5	perlu	perlu	VERB	VB	Voice=Act	0	root	_	_
+6	duduk	duduk	VERB	VB	Voice=Act	5	xcomp	_	_
 7	bersama	sama	ADV	RB	_	6	advmod	_	_
 8	dan	dan	CCONJ	CC	_	9	cc	_	_
 9	mengajukan	aju	VERB	VB	Voice=Act	6	conj	_	_
 10	komitmen	komitmen	NOUN	NN	Number=Sing	9	obj	_	_
 11	seperti	seperti	ADP	IN	_	12	case	_	_
 12	itu	itu	PRON	PRP	PronType=Dem	10	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
-14	"	"	PUNCT	''	_	6	punct	_	_
+13	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+14	"	"	PUNCT	''	_	5	punct	_	_
 15-16	ujarnya	_	_	_	_	_	_	_	SpaceAfter=No
-15	ujar	ujar	VERB	VB	Voice=Act	6	parataxis	_	_
+15	ujar	ujar	VERB	VB	Voice=Act	5	parataxis	_	_
 16	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
-17	.	.	PUNCT	.	_	6	punct	_	_
+17	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = csui-test-54
 # text = Menurutnya, dialog multilateral sendiri bukan hal yang buruk mengingat dalam multilateral Indonesia bisa menghemat waktu dan bertemu dengan sekitar 35 negara dan lembaga donor sekaligus.
@@ -2859,21 +2859,21 @@
 # text = Meski demikian, diutarakan Presiden, kenaikan defisit anggaran perlu ditopang dengan perkuatan ketahanan fiskal.
 # text_en = However, the President said, the increase in the budget deficit needs to be supported by strengthening fiscal resilience.
 1	Meski	meski	ADP	IN	_	2	case	_	_
-2	demikian	demikian	PRON	PRP	PronType=Dem	11	obl	_	SpaceAfter=No
+2	demikian	demikian	PRON	PRP	PronType=Dem	10	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	_	_
-4	diutarakan	utara	VERB	VB	Voice=Pass	11	parataxis	_	_
+4	diutarakan	utara	VERB	VB	Voice=Pass	10	parataxis	_	_
 5	Presiden	Presiden	NOUN	NN	Number=Sing	4	obl:agent	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	4	punct	_	_
-7	kenaikan	naik	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+7	kenaikan	naik	NOUN	NN	Number=Sing	10	nsubj	_	_
 8	defisit	defisit	NOUN	NN	Number=Sing	7	nmod	_	_
 9	anggaran	anggar	NOUN	NN	Number=Sing	8	nmod	_	_
-10	perlu	perlu	AUX	MD	_	11	aux	_	_
-11	ditopang	topang	VERB	VB	Voice=Pass	0	root	_	_
+10	perlu	perlu	VERB	VB	Voice=Act	0	root	_	_
+11	ditopang	topang	VERB	VB	Voice=Pass	10	xcomp	_	_
 12	dengan	dengan	ADP	IN	_	13	case	_	_
 13	perkuatan	perkuatan	NOUN	NN	Number=Sing	11	obl	_	_
 14	ketahanan	tahan	NOUN	NN	Number=Sing	13	nmod	_	_
 15	fiskal	fiskal	ADJ	JJ	_	14	amod	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	11	punct	_	_
+16	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = csui-test-95
 # text = Langkah kebijakan meningkatkan ketahanan fiskal tersebut, diambil dengan cara meningkatkan pengelolaan Surat Berharga Negara (SBN) secara hati-hati, transparan, dan akuntabel.
@@ -3416,11 +3416,11 @@
 20	dan	dan	CCONJ	CC	_	26	cc	_	_
 21	karena	karena	ADP	IN	_	22	case	_	_
 22-23	statusnya	_	_	_	_	_	_	_	_
-22	status	status	NOUN	NN	Number=Sing	26	obl	_	_
+22	status	status	NOUN	NN	Number=Sing	25	obl	_	_
 23	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	22	nmod:poss	_	_
-24	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
-25	perlu	perlu	AUX	MD	_	26	aux	_	_
-26	menempatkan	tempat	VERB	VB	Voice=Act	19	conj	_	_
+24	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
+25	perlu	perlu	VERB	VB	Voice=Act	19	conj	_	_
+26	menempatkan	tempat	VERB	VB	Voice=Act	25	xcomp	_	_
 27	diri	diri	PRON	PRP	PronType=Prs|Reflex=Yes	26	obj	_	_
 28	sebagai	bagai	ADP	IN	_	29	case	_	_
 29	figur	figur	NOUN	NN	Number=Sing	26	obl	_	_
@@ -7820,13 +7820,13 @@
 5	bank	bank	NOUN	NN	Number=Sing	14	obl	_	_
 6	sentral	sentral	NOUN	NN	Number=Sing	5	nmod	_	_
 7	maka	maka	SCONJ	IN	_	8	mark	_	_
-8	intervensi	intervensi	NOUN	NN	Number=Sing	14	nsubj	_	_
+8	intervensi	intervensi	NOUN	NN	Number=Sing	13	nsubj	_	_
 9	untuk	untuk	SCONJ	IN	_	10	mark	_	_
 10	mengurangi	kurang	VERB	VB	Voice=Act	8	ccomp	_	_
 11	pelemahan	pelemahan	NOUN	NN	Number=Sing	10	obj	_	_
 12	rupiah	rupiah	NOUN	NN	Number=Sing	11	nmod	_	_
-13	perlu	perlu	AUX	MD	_	14	aux	_	_
-14	dilakukan	laku	VERB	VB	Voice=Pass	2	ccomp	_	_
+13	perlu	perlu	VERB	VB	Voice=Act	2	ccomp	_	_
+14	dilakukan	laku	VERB	VB	Voice=Pass	13	xcomp	_	_
 15	agar	agar	SCONJ	IN	_	20	mark	_	_
 16	nilai	nilai	NOUN	NN	Number=Sing	20	nsubj	_	_
 17	tukar	tukar	NOUN	NN	Number=Sing	16	nmod	_	_
@@ -8600,10 +8600,10 @@
 # text_en = According to him, the government needs to build Community Plantation Forests so that people have access to forest resources, and the people play a role in building plantation forests so that ultimately forest security will also be more effective.
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
-3	,	,	PUNCT	,	_	6	punct	_	_
-4	pemerintah	perintah	NOUN	NN	Number=Sing	6	nsubj	_	_
-5	perlu	perlu	AUX	MD	_	6	aux	_	_
-6	membangun	bangun	VERB	VB	Voice=Act	0	root	_	_
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	pemerintah	perintah	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	perlu	perlu	VERB	VB	Voice=Act	0	root	_	_
+6	membangun	bangun	VERB	VB	Voice=Act	5	xcomp	_	_
 7	Hutan	Hutan	NOUN	NN	Number=Sing	6	obj	_	_
 8	Tanaman	Tanaman	NOUN	NN	Number=Sing	7	nmod	_	_
 9	Rakyat	Rakyat	NOUN	NN	Number=Sing	7	nmod	_	_
@@ -8634,7 +8634,7 @@
 33	akan	akan	AUX	MD	_	35	aux	_	_
 34	lebih	lebih	ADV	RB	_	35	advmod	_	_
 35	efektif	efektif	ADJ	JJ	_	6	advcl	_	SpaceAfter=No
-36	.	.	PUNCT	.	_	6	punct	_	_
+36	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = csui-test-268
 # text = "Jadi tidak benar PMA ke Malaysia semakin memburuk," kata Tan Yee Kew menanggapi pernyataan Tan Lian Hoe, pimpinan Barisan Nasional Bukit Gantang, yang menyatakan bahwa PMA Malaysia semakin memburuk dibandingkan tetangganya di Asean.
@@ -10900,9 +10900,9 @@
 5	kata	kata	VERB	VB	Voice=Act	9	parataxis	_	_
 6	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 7	,	,	PUNCT	,	_	5	punct	_	_
-8	perlu	perlu	AUX	MD	_	9	aux	_	_
+8	perlu	perlu	VERB	VB	Voice=Act	0	root	_	_
 9-10	adanya	_	_	_	_	_	_	_	_
-9	ada	ada	VERB	VB	Voice=Act	0	root	_	_
+9	ada	ada	VERB	VB	Voice=Act	8	xcomp	_	_
 10	nya	nya	DET	DT	Definite=Def|PronType=Art	9	det	_	_
 11	regulasi	regulasi	NOUN	NN	Number=Sing	9	nsubj	_	_
 12	untuk	untuk	SCONJ	IN	_	13	mark	_	_
@@ -10912,7 +10912,7 @@
 16	menghilangkan	hilang	VERB	VB	Voice=Act	13	conj	_	_
 17	hambatan	hambat	NOUN	NN	Number=Sing	16	obj	_	_
 18	ekspor	ekspor	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	9	punct	_	_
+19	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = csui-test-350
 # text = Mengenai adanya kekhawatiran tentang besarnya utang perseroan, Kevin mengatakan, hal itu tidak perlu dirisaukan, karena perseroan tidak hanya mengutang saja, melainkan juga berbuat sesuatu untuk mengembalikan rasio-rasio utangnya sehingga kembali menjadi perusahaan yang sehat.
@@ -10932,11 +10932,11 @@
 11	Kevin	Kevin	PROPN	NNP	_	12	nsubj	_	_
 12	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	_	_
-14	hal	hal	NOUN	NN	Number=Sing	12	nsubj	_	_
+14	hal	hal	NOUN	NN	Number=Sing	17	nsubj	_	_
 15	itu	itu	DET	DT	PronType=Dem	14	det	_	_
-16	tidak	tidak	PART	RP	Polarity=Neg	18	advmod	_	_
-17	perlu	perlu	AUX	MD	_	18	aux	_	_
-18	dirisaukan	risau	VERB	VB	Voice=Pass	12	advcl	_	SpaceAfter=No
+16	tidak	tidak	PART	RP	Polarity=Neg	17	advmod	_	_
+17	perlu	perlu	VERB	VB	Voice=Act	12	advcl	_	_
+18	dirisaukan	risau	VERB	VB	Voice=Pass	17	xcomp	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	18	punct	_	_
 20	karena	karena	SCONJ	IN	_	24	mark	_	_
 21	perseroan	perseroan	NOUN	NN	Number=Sing	24	nsubj	_	_

@@ -18,19 +18,19 @@
     <tag name="ADJ">1169</tag><!-- besar, tinggi, sama, pertama, bersih, baik, lain, asing, rendah, utama -->
     <tag name="ADP">2230</tag><!-- di, pada, dari, dalam, dengan, untuk, per, oleh, turut, ke -->
     <tag name="ADV">692</tag><!-- lebih, juga, masih, sekitar, tetap, kembali, sebelumnya, hanya, sangat, kemudian -->
-    <tag name="AUX">457</tag><!-- akan, telah, bisa, dapat, adalah, sudah, harus, perlu, sedang, mungkin -->
+    <tag name="AUX">447</tag><!-- akan, telah, bisa, dapat, adalah, sudah, harus, sedang, mungkin, tengah -->
     <tag name="CCONJ">771</tag><!-- dan, atau, namun, sedangkan, /, serta, maupun, tapi, tetapi, sementara -->
     <tag name="DET">734</tag><!-- ini, nya, sebut, itu, beberapa, buah, seluruh, banyak, sendiri, orang -->
     <tag name="INTJ">4</tag><!-- Mari, Ok, Ya, nih -->
     <tag name="NOUN">7654</tag><!-- persen, Rp, tahun, dolar, usaha, sebesar, saham, bank, negara, ekonomi -->
     <tag name="NUM">1857</tag><!-- 2007, triliun, miliar, 2006, juta, 2008, satu, dua, 30, 10 -->
     <tag name="PART">159</tag><!-- tidak, belum, pun, bukan, lah, kah, tak, jangan -->
-    <tag name="PRON">881</tag><!-- nya, yang, dia, itu, kita, ia, mereka, demikian, ini, saya -->
+    <tag name="PRON">882</tag><!-- nya, yang, dia, itu, kita, ia, mereka, demikian, ini, saya -->
     <tag name="PROPN">3835</tag><!-- pt, AS, indonesia, Jakarta, bank, BI, tbk, Oktober, efek, Kamis -->
     <tag name="PUNCT">3531</tag><!-- ,, ., ", (, ), -, ', ";", :, ` -->
-    <tag name="SCONJ">925</tag><!-- yang, untuk, dengan, karena, sementara, bahwa, sehingga, meski, setelah, maka -->
+    <tag name="SCONJ">924</tag><!-- yang, untuk, dengan, karena, sementara, bahwa, sehingga, meski, setelah, maka -->
     <tag name="SYM">17</tag><!-- %, $, +, -, £ -->
-    <tag name="VERB">2971</tag><!-- kata, jadi, capai, ada, banding, tingkat, laku, naik, turun, beri -->
+    <tag name="VERB">2981</tag><!-- kata, jadi, capai, ada, banding, tingkat, laku, naik, turun, beri -->
     <tag name="X">376</tag><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -55,22 +55,22 @@
     <feat name="PronType" value="Emp" upos="DET">15</feat><!-- sendiri -->
     <feat name="PronType" value="Ind" upos="DET,PRON">39</feat><!-- beberapa, banyak, sesuatu -->
     <feat name="PronType" value="Prs" upos="PRON">539</feat><!-- nya, dia, kita, ia, mereka, saya, kami, diri, anda -->
-    <feat name="PronType" value="Rel" upos="ADV,PRON">213</feat><!-- yang, siapa, apa, bagaimana -->
+    <feat name="PronType" value="Rel" upos="ADV,PRON">214</feat><!-- yang, siapa, apa, bagaimana -->
     <feat name="PronType" value="Tot" upos="DET,NUM">35</feat><!-- seluruh, semua, setiap, Ke-23, segala -->
     <feat name="Reflex" value="Yes" upos="PRON">5</feat><!-- diri -->
-    <feat name="Voice" value="Act" upos="VERB">2300</feat><!-- kata, menjadi, mencapai, mengatakan, ada, meningkat, naik, lalu, merupakan, turun -->
+    <feat name="Voice" value="Act" upos="VERB">2309</feat><!-- kata, menjadi, mencapai, mengatakan, ada, meningkat, naik, lalu, merupakan, turun -->
     <feat name="Voice" value="Pass" upos="VERB">671</feat><!-- dibandingkan, dibanding, terjadi, dilakukan, diperkirakan, termasuk, terdiri, diharapkan, didorong, diterbitkan -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="44">
     <dep name="acl">66</dep>
-    <dep name="acl:relcl">636</dep>
+    <dep name="acl:relcl">637</dep>
     <dep name="advcl">678</dep>
     <dep name="advmod">844</dep>
     <dep name="advmod:emph">33</dep>
     <dep name="amod">683</dep>
     <dep name="appos">423</dep>
-    <dep name="aux">416</dep>
+    <dep name="aux">406</dep>
     <dep name="case">2190</dep>
     <dep name="case:adv">28</dep>
     <dep name="cc">768</dep>
@@ -90,13 +90,13 @@
     <dep name="flat:foreign">134</dep>
     <dep name="flat:name">1432</dep>
     <dep name="iobj">1</dep>
-    <dep name="mark">927</dep>
+    <dep name="mark">926</dep>
     <dep name="nmod">4897</dep>
     <dep name="nmod:lmod">102</dep>
     <dep name="nmod:poss">169</dep>
     <dep name="nmod:tmod">236</dep>
-    <dep name="nsubj">1633</dep>
-    <dep name="nsubj:pass">326</dep>
+    <dep name="nsubj">1635</dep>
+    <dep name="nsubj:pass">325</dep>
     <dep name="nummod">1338</dep>
     <dep name="obj">1098</dep>
     <dep name="obl">1315</dep>
@@ -106,6 +106,6 @@
     <dep name="parataxis">290</dep>
     <dep name="punct">3531</dep>
     <dep name="root">1030</dep>
-    <dep name="xcomp">133</dep>
+    <dep name="xcomp">142</dep>
   </deps>
 </treebank>
