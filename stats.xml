@@ -34,7 +34,7 @@
     <tag name="X">376</tag><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="23">
+  <feats unique="24">
     <feat name="Clusivity" value="Ex" upos="PRON">20</feat><!-- kami -->
     <feat name="Clusivity" value="In" upos="PRON">36</feat><!-- kita -->
     <feat name="Definite" value="Def" upos="DET">174</feat><!-- nya -->
@@ -43,6 +43,7 @@
     <feat name="Foreign" value="Yes" upos="X">376</feat><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">209</feat><!-- kita, mereka, beberapa, kami, banyak, para, berbagai, langkah-langkah, negara-negara, bank-bank -->
     <feat name="Number" value="Sing" upos="NOUN,PRON">8019</feat><!-- persen, nya, Rp, tahun, dolar, sebesar, saham, perusahaan, pemerintah, negara -->
+    <feat name="NumType" value="Card" upos="NUM">1857</feat><!-- 2007, triliun, miliar, 2006, juta, 2008, satu, dua, 30, 10 -->
     <feat name="Person" value="1" upos="PRON">79</feat><!-- kita, saya, kami -->
     <feat name="Person" value="2" upos="PRON">2</feat><!-- anda -->
     <feat name="Person" value="3" upos="PRON">442</feat><!-- nya, dia, ia, mereka -->

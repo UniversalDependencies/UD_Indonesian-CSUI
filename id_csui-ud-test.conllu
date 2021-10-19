@@ -37,7 +37,7 @@
 2	laporan	lapor	NOUN	NN	Number=Sing	3	nsubj	_	_
 3	menyebutkan	sebut	VERB	VB	Voice=Act	0	root	_	_
 4	setidaknya	setidaknya	ADV	RB	_	5	advmod	_	_
-5	10	10	NUM	CD	_	6	nummod	_	_
+5	10	10	NUM	CD	NumType=Card	6	nummod	_	_
 6	monyet	monyet	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
 7	ditempatkan	tempat	VERB	VB	Voice=Pass	3	ccomp	_	_
 8	di	di	ADP	IN	_	10	case	_	_
@@ -57,12 +57,12 @@
 1	Pemkot	pemkot	PROPN	NNP	_	3	nsubj	_	_
 2	Delhi	Delhi	PROPN	NNP	_	1	flat:name	_	_
 3	memiliki	milik	VERB	VB	Voice=Act	0	root	_	_
-4	28	28	NUM	CD	_	5	nummod	_	_
+4	28	28	NUM	CD	NumType=Card	5	nummod	_	_
 5	monyet	monyet	NOUN	NN	Number=Sing	3	obj	_	_
 6	dan	dan	CCONJ	CC	_	7	cc	_	_
 7	berencana	rencana	VERB	VB	Voice=Act	3	conj	_	_
 8	mendatangkan	datang	VERB	VB	Voice=Act	7	xcomp	_	_
-9	10	10	NUM	CD	_	10	nummod	_	_
+9	10	10	NUM	CD	NumType=Card	10	nummod	_	_
 10	monyet	monyet	NOUN	NN	Number=Sing	8	obj	_	_
 11	sejenis	jenis	ADJ	JJ	_	10	amod	_	_
 12	dari	dari	ADP	IN	_	13	case	_	_
@@ -80,7 +80,7 @@
 4	ibukota	ibukota	NOUN	NN	Number=Sing	1	nmod	_	_
 5	India	India	PROPN	NNP	_	4	nmod	_	_
 6	mencapai	capai	VERB	VB	Voice=Act	0	root	_	_
-7	ribuan	ribu	NUM	CD	_	6	obj	_	SpaceAfter=No
+7	ribuan	ribu	NUM	CD	NumType=Card	6	obj	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	_	_
 9	sebagian	sebagian	NOUN	NN	Number=Sing	11	nsubj	_	_
 10	besar	besar	ADJ	JJ	_	9	amod	_	_
@@ -103,9 +103,9 @@
 1	Thomas	thomas	PROPN	NNP	_	4	nsubj	_	_
 2	hanya	hanya	ADV	RB	_	4	advmod	_	_
 3	salah	salah	ADJ	JJ	_	4	advmod	_	_
-4	satu	satu	NUM	CD	_	0	root	_	_
+4	satu	satu	NUM	CD	NumType=Card	0	root	_	_
 5	dari	dari	ADP	IN	_	7	case	_	_
-6	enam	enam	NUM	CD	_	7	nummod	_	_
+6	enam	enam	NUM	CD	NumType=Card	7	nummod	_	_
 7	pihak	pihak	NOUN	NN	Number=Sing	4	nmod	_	_
 8	yang	yang	PRON	IN	PronType=Rel	9	nsubj	_	_
 9	mengklaim	klaim	VERB	VB	Voice=Act	7	acl:relcl	_	_
@@ -119,7 +119,7 @@
 # sent_id = csui-test-7
 # text = Satu masalah yang dihadapi adalah dia kehilangan tanda terima akibat kebakaran yang melanda rumahnya.
 # text_en = One problem he faced was that he lost his receipt due to a fire that hit his house.
-1	Satu	satu	NUM	CD	_	2	nummod	_	_
+1	Satu	satu	NUM	CD	NumType=Card	2	nummod	_	_
 2	masalah	masalah	NOUN	NN	Number=Sing	5	nsubj	_	_
 3	yang	yang	PRON	IN	PronType=Rel	4	nsubj:pass	_	_
 4	dihadapi	hadap	VERB	VB	Voice=Pass	2	acl:relcl	_	_
@@ -166,7 +166,7 @@
 # sent_id = csui-test-9
 # text = Satu hal yang diketahui batu itu sempat disimpan di lemari besi bank di New Orleans yang terkena banjir ketika daerah itu diterjang Badai Katrina, sehingga batu berharga terendam di dalam air untuk beberapa bulan.
 # text_en = One thing is known that the stone was stored in a bank vault in New Orleans which was flooded when the area was hit by Hurricane Katrina, so the precious stone was submerged in the water for several months.
-1	Satu	satu	NUM	CD	_	2	nummod	_	_
+1	Satu	satu	NUM	CD	NumType=Card	2	nummod	_	_
 2	hal	hal	NOUN	NN	Number=Sing	8	obl	_	_
 3	yang	yang	PRON	IN	PronType=Rel	4	nsubj:pass	_	_
 4	diketahui	diketahui	VERB	VB	Voice=Pass	2	acl:relcl	_	_
@@ -331,7 +331,7 @@
 16	itu	itu	DET	DT	PronType=Dem	15	det	_	_
 17	ke	ke	ADP	IN	_	20	case	_	_
 18	dalam	dalam	NOUN	NN	Number=Sing	20	nmod:lmod	_	_
-19	2.000	2.000	NUM	CD	_	20	nummod	_	_
+19	2.000	2.000	NUM	CD	NumType=Card	20	nummod	_	_
 20	segmen	segmen	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	14	punct	_	_
 
@@ -551,11 +551,11 @@
 14	Inggris	Inggris	PROPN	NNP	_	11	nmod	_	_
 15	sepanjang	sepanjang	NOUN	NN	Number=Sing	16	nmod:lmod	_	_
 16	tahun	tahun	NOUN	NN	Number=Sing	10	nmod:tmod	_	_
-17	2005	2005	NUM	CD	_	16	nummod	_	_
+17	2005	2005	NUM	CD	NumType=Card	16	nummod	_	_
 18	tercatat	catat	VERB	VB	Voice=Pass	0	root	_	_
 19	senilai	nilai	NOUN	NN	Number=Sing	18	obl	_	_
-20	517	517	NUM	CD	_	22	nummod	_	_
-21	juta	juta	NUM	CD	_	20	flat	_	_
+20	517	517	NUM	CD	NumType=Card	22	nummod	_	_
+21	juta	juta	NUM	CD	NumType=Card	20	flat	_	_
 22	Pound	Pound	PROPN	NNP	_	19	nmod	_	_
 23	Sterling	Sterling	PROPN	NNP	_	22	flat:name	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	18	punct	_	_
@@ -580,8 +580,8 @@
 5	mengucurkan	kucur	VERB	VB	Voice=Act	2	acl:relcl	_	_
 6	dana	dana	NOUN	NN	Number=Sing	5	obj	_	_
 7	Rp	Rp	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
-8	1,461	1,461	NUM	CD	_	7	nummod	_	_
-9	triliun	triliun	NUM	CD	_	8	flat	_	_
+8	1,461	1,461	NUM	CD	NumType=Card	7	nummod	_	_
+9	triliun	triliun	NUM	CD	NumType=Card	8	flat	_	_
 10	tersebut	sebut	DET	DT	_	2	det	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	_	_
 12	BCA	BCA	PROPN	NNP	_	13	nsubj	_	_
@@ -589,8 +589,8 @@
 14	kredit	kredit	NOUN	NN	Number=Sing	13	obj	_	_
 15	sebesar	sebesar	NOUN	NN	Number=Sing	14	nmod	_	_
 16	Rp	Rp	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
-17	584	584	NUM	CD	_	16	nummod	_	_
-18	miliar	miliar	NUM	CD	_	17	flat	_	SpaceAfter=No
+17	584	584	NUM	CD	NumType=Card	16	nummod	_	_
+18	miliar	miliar	NUM	CD	NumType=Card	17	flat	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = csui-test-27
@@ -605,9 +605,9 @@
 7	di	di	ADP	IN	_	8	case	_	_
 8	Malaysia	Malaysia	PROPN	NNP	_	1	nmod	_	_
 9	tahun	tahun	NOUN	NN	Number=Sing	1	nmod:tmod	_	_
-10	2006	2006	NUM	CD	_	9	nummod	_	_
+10	2006	2006	NUM	CD	NumType=Card	9	nummod	_	_
 11	mencapai	capai	VERB	VB	Voice=Act	0	root	_	_
-12	lima	lima	NUM	CD	_	13	nummod	_	_
+12	lima	lima	NUM	CD	NumType=Card	13	nummod	_	_
 13	kali	kali	NOUN	NN	Number=Sing	11	obj	_	_
 14	lebih	lebih	ADV	RB	_	15	advmod	_	_
 15	besar	besar	ADJ	JJ	_	13	amod	_	_
@@ -650,13 +650,13 @@
 15	ke	ke	ADP	IN	_	16	case	_	_
 16	Malaysia	Malaysia	PROPN	NNP	_	14	obl	_	_
 17	mencapai	capai	VERB	VB	Voice=Act	0	root	_	_
-18	20,2	20,2	NUM	CD	_	20	nummod	_	_
-19	miliar	miliar	NUM	CD	_	18	flat	_	_
+18	20,2	20,2	NUM	CD	NumType=Card	20	nummod	_	_
+19	miliar	miliar	NUM	CD	NumType=Card	18	flat	_	_
 20	Ringgit	Ringgit	NOUN	NN	Number=Sing	17	obj	_	_
 21	Malaysia	Malaysia	PROPN	NNP	_	20	nmod	_	_
 22	(	(	PUNCT	-LRB-	_	25	punct	_	SpaceAfter=No
-23	5,6	5,6	NUM	CD	_	25	nummod	_	_
-24	miliar	miliar	NUM	CD	_	23	flat	_	_
+23	5,6	5,6	NUM	CD	NumType=Card	25	nummod	_	_
+24	miliar	miliar	NUM	CD	NumType=Card	23	flat	_	_
 25	dolar	dolar	NOUN	NN	Number=Sing	20	appos	_	_
 26	AS	AS	PROPN	NNP	_	25	nmod	_	SpaceAfter=No
 27	)	)	PUNCT	-RRB-	_	25	punct	_	_
@@ -665,13 +665,13 @@
 30	yang	yang	PRON	IN	PronType=Rel	32	nsubj	_	_
 31	hanya	hanya	ADV	RB	_	32	advmod	_	_
 32	mencapai	capai	VERB	VB	Voice=Act	29	acl:relcl	_	_
-33	4,7	4,7	NUM	CD	_	35	nummod	_	_
-34	miliar	miliar	NUM	CD	_	33	flat	_	_
+33	4,7	4,7	NUM	CD	NumType=Card	35	nummod	_	_
+34	miliar	miliar	NUM	CD	NumType=Card	33	flat	_	_
 35	Ringgit	Ringgit	NOUN	NN	Number=Sing	32	obj	_	_
 36	Malaysia	Malaysia	PROPN	NNP	_	35	nmod	_	_
 37	(	(	PUNCT	-LRB-	_	40	punct	_	SpaceAfter=No
-38	1,3	1,3	NUM	CD	_	40	nummod	_	_
-39	miliar	miliar	NUM	CD	_	38	flat	_	_
+38	1,3	1,3	NUM	CD	NumType=Card	40	nummod	_	_
+39	miliar	miliar	NUM	CD	NumType=Card	38	flat	_	_
 40	dolar	dolar	NOUN	NN	Number=Sing	35	appos	_	_
 41	AS	AS	PROPN	NNP	_	40	nmod	_	SpaceAfter=No
 42	)	)	PUNCT	-RRB-	_	40	punct	_	SpaceAfter=No
@@ -725,14 +725,14 @@
 4	mendatangkan	datang	VERB	VB	Voice=Act	3	xcomp	_	_
 5	PMA	PMA	PROPN	NNP	_	4	obj	_	_
 6	tahun	tahun	NOUN	NN	Number=Sing	5	nmod:tmod	_	_
-7	2006	2006	NUM	CD	_	6	nummod	_	_
+7	2006	2006	NUM	CD	NumType=Card	6	nummod	_	_
 8	sebesar	sebesar	NOUN	NN	Number=Sing	5	nmod	_	_
-9	30	30	NUM	CD	_	11	nummod	_	_
-10	miliar	miliar	NUM	CD	_	9	flat	_	_
+9	30	30	NUM	CD	NumType=Card	11	nummod	_	_
+10	miliar	miliar	NUM	CD	NumType=Card	9	flat	_	_
 11	Ringgit	Ringgit	NOUN	NN	Number=Sing	8	nmod	_	_
 12	(	(	PUNCT	-LRB-	_	15	punct	_	SpaceAfter=No
-13	8,3	8,3	NUM	CD	_	15	nummod	_	_
-14	miliar	miliar	NUM	CD	_	13	flat	_	_
+13	8,3	8,3	NUM	CD	NumType=Card	15	nummod	_	_
+14	miliar	miliar	NUM	CD	NumType=Card	13	flat	_	_
 15	dolar	dolar	NOUN	NN	Number=Sing	11	appos	_	_
 16	AS	AS	PROPN	NNP	_	15	nmod	_	SpaceAfter=No
 17	)	)	PUNCT	-RRB-	_	15	punct	_	SpaceAfter=No
@@ -742,7 +742,7 @@
 # text = Pada 2006, Bank Mandiri berhasil memperoleh penghargaan The Best Overall for Corporate Governance Award dan The Best Disclosure and Transparency dari Asia Money.
 # text_en = In 2006, Bank Mandiri was awarded The Best Overall for Corporate Governance Award and The Best Disclosure and Transparency from Asia Money.
 1	Pada	pada	ADP	IN	_	2	case	_	_
-2	2006	2006	NUM	CD	_	6	obl	_	SpaceAfter=No
+2	2006	2006	NUM	CD	NumType=Card	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	6	punct	_	_
 4	Bank	Bank	NOUN	NN	Number=Sing	6	nsubj	_	_
 5	Mandiri	Mandiri	PROPN	NNP	_	4	flat:name	_	_
@@ -823,7 +823,7 @@
 1	"	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
 2	Salah	Salah	ADJ	JJ	_	3	advmod	_	_
 3-4	satunya	_	_	_	_	_	_	_	_
-3	satu	satu	NUM	CD	_	8	obl	_	_
+3	satu	satu	NUM	CD	NumType=Card	8	obl	_	_
 4	nya	nya	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 5	Pak	Pak	NOUN	NN	Number=Sing	8	nsubj	_	_
 6	Menteri	Menteri	NOUN	NN	Number=Sing	5	flat	_	_
@@ -886,7 +886,7 @@
 19	pada	pada	ADP	IN	_	21	case	_	_
 20	awal	awal	NOUN	NN	Number=Sing	21	nmod:lmod	_	_
 21	tahun	tahun	NOUN	NN	Number=Sing	18	nmod:tmod	_	_
-22	2007	2007	NUM	CD	_	21	nummod	_	_
+22	2007	2007	NUM	CD	NumType=Card	21	nummod	_	_
 23	sehingga	sehingga	SCONJ	IN	_	25	mark	_	_
 24	akan	akan	AUX	MD	_	25	aux	_	_
 25	ada	ada	VERB	VB	Voice=Act	16	advcl	_	_
@@ -949,15 +949,15 @@
 4	matte	matte	X	FW	Foreign=Yes	2	nmod	_	_
 5	untuk	untuk	ADP	IN	_	6	case	_	_
 6	K1	K1	PROPN	NNP	_	1	nmod	_	_
-7	2007	2007	NUM	CD	_	6	nummod	_	_
+7	2007	2007	NUM	CD	NumType=Card	6	nummod	_	_
 8	sebesar	sebesar	NOUN	NN	Number=Sing	0	root	_	_
-9	0,776388889	0,776388889	NUM	CD	_	10	nummod	_	_
+9	0,776388889	0,776388889	NUM	CD	NumType=Card	10	nummod	_	_
 10	ton	ton	NOUN	NN	Number=Sing	8	nmod	_	_
 11	dibandingkan	banding	VERB	VB	Voice=Pass	8	acl	_	_
 12	periode	periode	NOUN	NN	Number=Sing	11	obl:tmod	_	_
 13	sama	sama	ADJ	JJ	_	12	amod	_	_
 14	sebelumnya	belum	ADJ	JJ	_	12	amod	_	_
-15	17.361	17.361	NUM	CD	_	16	nummod	_	_
+15	17.361	17.361	NUM	CD	NumType=Card	16	nummod	_	_
 16	ton	ton	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -985,7 +985,7 @@
 19	memperkukuh	kukuh	VERB	VB	Voice=Act	14	advcl	_	_
 20	hubungan	hubung	NOUN	NN	Number=Sing	19	obj	_	_
 21	bilateral	bilateral	ADJ	JJ	_	20	amod	_	_
-22	kedua	kedua	NUM	CD	_	23	nummod	_	_
+22	kedua	kedua	NUM	CD	NumType=Card	23	nummod	_	_
 23	negara	negara	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	20	punct	_	_
 25	khususnya	khususnya	ADV	RB	_	26	advmod	_	_
@@ -1166,15 +1166,15 @@
 8	dimulai	mulai	VERB	VB	Voice=Pass	0	root	_	_
 9	sejak	sejak	ADP	IN	_	10	case	_	_
 10	tahun	tahun	NOUN	NN	Number=Sing	8	obl:tmod	_	_
-11	2000	2000	NUM	CD	_	10	nummod	_	SpaceAfter=No
+11	2000	2000	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	8	punct	_	_
 13	dengan	dengan	ADP	IN	_	14	case	_	_
 14	dana	dana	NOUN	NN	Number=Sing	8	obl	_	_
 15	yang	yang	PRON	IN	PronType=Rel	16	nsubj:pass	_	_
 16	dipersiapkan	siap	VERB	VB	Voice=Pass	14	acl:relcl	_	_
 17	sebesar	sebesar	NOUN	NN	Number=Sing	14	nmod	_	_
-18	200	200	NUM	CD	_	20	nummod	_	_
-19	juta	juta	NUM	CD	_	18	flat	_	_
+18	200	200	NUM	CD	NumType=Card	20	nummod	_	_
+19	juta	juta	NUM	CD	NumType=Card	18	flat	_	_
 20	dolar	dolar	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -1186,8 +1186,8 @@
 3	tersebut	sebut	DET	DT	_	2	det	_	_
 4	baru	baru	ADV	RB	_	5	advmod	_	_
 5	terpakai	pakai	VERB	VB	Voice=Pass	0	root	_	_
-6	168	168	NUM	CD	_	8	nummod	_	_
-7	juta	juta	NUM	CD	_	6	flat	_	_
+6	168	168	NUM	CD	NumType=Card	8	nummod	_	_
+7	juta	juta	NUM	CD	NumType=Card	6	flat	_	_
 8	dolar	dolar	NOUN	NN	Number=Sing	5	obl	_	_
 9	AS	AS	PROPN	NNP	_	8	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	5	punct	_	_
@@ -1202,18 +1202,18 @@
 5	TI	TI	PROPN	NNP	_	4	nmod	_	_
 6	sejak	sejak	ADP	IN	_	7	case	_	_
 7	tahun	tahun	NOUN	NN	Number=Sing	4	nmod:tmod	_	_
-8	2004	2004	NUM	CD	_	7	nummod	_	_
+8	2004	2004	NUM	CD	NumType=Card	7	nummod	_	_
 9	hingga	hingga	ADP	IN	_	10	case	_	_
-10	2007	2007	NUM	CD	_	8	flat	_	SpaceAfter=No
+10	2007	2007	NUM	CD	NumType=Card	8	flat	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	_	_
 12	rata-rata	rata	NOUN	NN	Number=Sing	4	nmod	_	_
 13	per	per	ADP	IN	_	14	case	_	_
 14	tahun	tahun	NOUN	NN	Number=Sing	12	nmod	_	_
 15	mencapai	capai	VERB	VB	Voice=Act	2	advcl	_	_
-16	30	30	NUM	CD	_	20	nummod	_	SpaceAfter=No
+16	30	30	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
 17	-	-	PUNCT	:	_	18	punct	_	SpaceAfter=No
-18	35	35	NUM	CD	_	16	flat	_	_
-19	juta	juta	NUM	CD	_	16	flat	_	_
+18	35	35	NUM	CD	NumType=Card	16	flat	_	_
+19	juta	juta	NUM	CD	NumType=Card	16	flat	_	_
 20	dolar	dolar	NOUN	NN	Number=Sing	15	obj	_	_
 21	AS	AS	PROPN	NNP	_	20	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	2	punct	_	_
@@ -1224,7 +1224,7 @@
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
 2	Dan	Dan	CCONJ	CC	_	3	cc	_	_
 3	tahun	tahun	NOUN	NN	Number=Sing	0	root	_	_
-4	2008	2008	NUM	CD	_	3	nummod	_	_
+4	2008	2008	NUM	CD	NumType=Card	3	nummod	_	_
 5	dalam	dalam	ADP	IN	_	6	case	_	_
 6	rencana	rencana	NOUN	NN	Number=Sing	3	nmod	_	_
 7	kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	6	nmod:poss	_	_
@@ -1290,7 +1290,7 @@
 8	rokok	rokok	NOUN	NN	Number=Sing	7	nmod	_	_
 9	mulai	mulai	VERB	VB	Voice=Act	5	advcl	_	_
 10	Maret	Maret	PROPN	NNP	_	9	obl:tmod	_	_
-11	2007	2007	NUM	CD	_	10	nummod	_	_
+11	2007	2007	NUM	CD	NumType=Card	10	nummod	_	_
 12	sementara	sementara	CCONJ	CC	_	18	cc	_	_
 13	penerapan	terap	NOUN	NN	Number=Sing	18	nsubj	_	_
 14	cukai	cukai	NOUN	NN	Number=Sing	13	nmod	_	_
@@ -1301,7 +1301,7 @@
 19	diberlakukan	diberlakukan	VERB	VB	Voice=Pass	18	xcomp	_	_
 20	pada	pada	ADP	IN	_	21	case	_	_
 21	Juni	Juni	PROPN	NNP	_	19	obl	_	_
-22	2007	2007	NUM	CD	_	21	nummod	_	SpaceAfter=No
+22	2007	2007	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = csui-test-48
@@ -1348,7 +1348,7 @@
 38	pun	pun	PART	RP	_	37	advmod:emph	_	_
 39	tetap	tetap	ADV	RB	_	40	advmod	_	_
 40	mempertahankan	tahan	VERB	VB	Voice=Act	32	advcl	_	_
-41	kedua	kedua	NUM	CD	_	42	nummod	_	_
+41	kedua	kedua	NUM	CD	NumType=Card	42	nummod	_	_
 42	peringkat	peringkat	NOUN	NN	Number=Sing	40	obj	_	_
 43	tersebut	sebut	DET	DT	_	42	det	_	_
 44	pada	pada	ADP	IN	_	46	case	_	_
@@ -1556,7 +1556,7 @@
 19	bertemu	temu	VERB	VB	Voice=Act	16	conj	_	_
 20	dengan	dengan	ADP	IN	_	23	case	_	_
 21	sekitar	sekitar	ADV	RB	_	22	advmod	_	_
-22	35	35	NUM	CD	_	23	nummod	_	_
+22	35	35	NUM	CD	NumType=Card	23	nummod	_	_
 23	negara	negara	NOUN	NN	Number=Sing	19	obl	_	_
 24	dan	dan	CCONJ	CC	_	25	cc	_	_
 25	lembaga	lembaga	NOUN	NN	Number=Sing	23	conj	_	_
@@ -1584,14 +1584,14 @@
 15	LN	LN	NOUN	NN	Number=Sing	13	appos	_	SpaceAfter=No
 16	)	)	PUNCT	-RRB-	_	15	punct	_	_
 17	pada	pada	ADP	IN	_	18	case	_	_
-18	2006	2006	NUM	CD	_	11	nmod	_	_
+18	2006	2006	NUM	CD	NumType=Card	11	nmod	_	_
 19	senilai	nilai	NOUN	NN	Number=Sing	11	nmod	_	_
-20	370	370	NUM	CD	_	22	nummod	_	_
-21	juta	juta	NUM	CD	_	20	flat	_	_
+20	370	370	NUM	CD	NumType=Card	22	nummod	_	_
+21	juta	juta	NUM	CD	NumType=Card	20	flat	_	_
 22	dolar	dolar	NOUN	NN	Number=Sing	19	nmod	_	_
 23	AS	AS	PROPN	NNP	_	22	nmod	_	_
 24	pada	pada	ADP	IN	_	26	case	_	_
-25	11	11	NUM	CD	_	26	nummod	_	_
+25	11	11	NUM	CD	NumType=Card	26	nummod	_	_
 26	proyek	proyek	NOUN	NN	Number=Sing	11	nmod	_	_
 27	di	di	ADP	IN	_	29	case	_	_
 28	berbagai	berbagai	DET	DT	Number=Plur	29	det	_	_
@@ -1622,7 +1622,7 @@
 10	hingga	hingga	ADP	IN	_	12	case	_	_
 11	akhir	akhir	NOUN	NN	Number=Sing	12	nmod:lmod	_	_
 12	Februari	Februari	PROPN	NNP	_	20	obl	_	_
-13	2007	2007	NUM	CD	_	12	nummod	_	_
+13	2007	2007	NUM	CD	NumType=Card	12	nummod	_	_
 14	penerimaan	terima	NOUN	NN	Number=Sing	20	nsubj	_	_
 15	negara	negara	NOUN	NN	Number=Sing	14	nmod	_	_
 16	dari	dari	ADP	IN	_	17	case	_	_
@@ -1632,17 +1632,17 @@
 20	mencapai	capai	VERB	VB	Voice=Act	8	ccomp	_	_
 21	sekitar	sekitar	ADV	RB	_	22	advmod	_	_
 22	Rp	Rp	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
-23	40	40	NUM	CD	_	22	nummod	_	SpaceAfter=No
+23	40	40	NUM	CD	NumType=Card	22	nummod	_	SpaceAfter=No
 24	-	-	PUNCT	:	_	25	punct	_	SpaceAfter=No
-25	50	50	NUM	CD	_	23	flat	_	_
-26	triliun	triliun	NUM	CD	_	23	flat	_	SpaceAfter=No
+25	50	50	NUM	CD	NumType=Card	23	flat	_	_
+26	triliun	triliun	NUM	CD	NumType=Card	23	flat	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	20	punct	_	_
 28	dari	dari	ADP	IN	_	29	case	_	_
 29	target	target	NOUN	NN	Number=Sing	20	obl	_	_
-30	2007	2007	NUM	CD	_	29	nummod	_	_
+30	2007	2007	NUM	CD	NumType=Card	29	nummod	_	_
 31	Rp	Rp	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
-32	452,556	452,556	NUM	CD	_	31	nummod	_	_
-33	triliun	triliun	NUM	CD	_	32	flat	_	SpaceAfter=No
+32	452,556	452,556	NUM	CD	NumType=Card	31	nummod	_	_
+33	triliun	triliun	NUM	CD	NumType=Card	32	flat	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = csui-test-57
@@ -1692,8 +1692,8 @@
 15	lebih	lebih	ADV	RB	_	17	advmod	_	_
 16	dari	dari	ADP	IN	_	15	fixed	_	_
 17	Rp	Rp	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
-18	10	10	NUM	CD	_	17	nummod	_	_
-19	triliun	triliun	NUM	CD	_	18	flat	_	SpaceAfter=No
+18	10	10	NUM	CD	NumType=Card	17	nummod	_	_
+19	triliun	triliun	NUM	CD	NumType=Card	18	flat	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = csui-test-59
@@ -1719,7 +1719,7 @@
 18	,	,	PUNCT	,	_	17	punct	_	_
 19	pada	pada	ADP	IN	_	20	case	_	_
 20	kisaran	kisar	NOUN	NN	Number=Sing	17	obl	_	_
-21	5	5	NUM	CD	_	22	nummod	_	_
+21	5	5	NUM	CD	NumType=Card	22	nummod	_	_
 22	persen	persen	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	17	punct	_	_
 24	tidak	tidak	PART	RP	Polarity=Neg	26	advmod	_	_
@@ -1768,7 +1768,7 @@
 4	NPL	NPL	PROPN	NNP	_	3	obj	_	_
 5	terbanyak	banyak	ADJ	JJ	Degree=Sup	4	amod	_	_
 6	sebesar	sebesar	NOUN	NN	Number=Sing	4	nmod	_	_
-7	56	56	NUM	CD	_	8	nummod	_	_
+7	56	56	NUM	CD	NumType=Card	8	nummod	_	_
 8	persen	persen	NOUN	NN	Number=Sing	6	nmod	_	_
 9	dari	dari	ADP	IN	_	10	case	_	_
 10	total	total	NOUN	NN	Number=Sing	8	nmod	_	_
@@ -1776,15 +1776,15 @@
 12	,	,	PUNCT	,	_	13	punct	_	_
 13	Bank	Bank	NOUN	NN	Number=Sing	3	conj	_	_
 14	BNI	BNI	PROPN	NNP	_	13	flat:name	_	_
-15	23	23	NUM	CD	_	16	nummod	_	_
+15	23	23	NUM	CD	NumType=Card	16	nummod	_	_
 16	persen	persen	NOUN	NN	Number=Sing	13	orphan	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	18	punct	_	_
 18	BRI	BRI	PROPN	NNP	_	3	conj	_	_
-19	17	17	NUM	CD	_	20	nummod	_	_
+19	17	17	NUM	CD	NumType=Card	20	nummod	_	_
 20	persen	persen	NOUN	NN	Number=Sing	18	orphan	_	_
 21	dan	dan	CCONJ	CC	_	22	cc	_	_
 22	BTN	BTN	PROPN	NNP	_	3	conj	_	_
-23	3,1	3,1	NUM	CD	_	24	nummod	_	_
+23	3,1	3,1	NUM	CD	NumType=Card	24	nummod	_	_
 24	persen	persen	NOUN	NN	Number=Sing	22	orphan	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -1800,7 +1800,7 @@
 7	menyelesaikan	selesai	VERB	VB	Voice=Act	0	root	_	_
 8	transaksi	transaksi	NOUN	NN	Number=Sing	7	obj	_	_
 9	akuisisi	akuisisi	NOUN	NN	Number=Sing	8	nmod	_	_
-10	70	70	NUM	CD	_	11	nummod	_	_
+10	70	70	NUM	CD	NumType=Card	11	nummod	_	_
 11	persen	persen	NOUN	NN	Number=Sing	9	nmod	_	_
 12	saham	saham	NOUN	NN	Number=Sing	11	nmod	_	_
 13	PT	PT	PROPN	NNP	_	12	nmod	_	_
@@ -1814,8 +1814,8 @@
 21	dengan	dengan	ADP	IN	_	22	case	_	_
 22	nilai	nilai	NOUN	NN	Number=Sing	8	nmod	_	_
 23	Rp	Rp	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
-24	66,5	66,5	NUM	CD	_	23	nummod	_	_
-25	miliar	miliar	NUM	CD	_	24	flat	_	SpaceAfter=No
+24	66,5	66,5	NUM	CD	NumType=Card	23	nummod	_	_
+25	miliar	miliar	NUM	CD	NumType=Card	24	flat	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	7	punct	_	_
 27	dengan	dengan	SCONJ	IN	_	30	mark	_	_
 28	akuisisi	akuisisi	NOUN	NN	Number=Sing	30	nsubj:pass	_	_
@@ -1834,9 +1834,9 @@
 41	SIMP	SIMP	PROPN	NNP	_	36	appos	_	SpaceAfter=No
 42	)	)	PUNCT	-RRB-	_	41	punct	_	_
 43	pada	pada	ADP	IN	_	44	case	_	_
-44	1	1	NUM	CD	_	30	obl	_	_
+44	1	1	NUM	CD	NumType=Card	30	obl	_	_
 45	Oktober	Oktober	PROPN	NNP	_	44	flat	_	_
-46	2007	2007	NUM	CD	_	44	flat	_	SpaceAfter=No
+46	2007	2007	NUM	CD	NumType=Card	44	flat	_	SpaceAfter=No
 47	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = csui-test-63
@@ -1849,9 +1849,9 @@
 5	telah	telah	AUX	MD	_	6	aux	_	_
 6	selesai	selesai	VERB	VB	Voice=Act	0	root	_	_
 7	pada	pada	ADP	IN	_	8	case	_	_
-8	1	1	NUM	CD	_	6	obl	_	_
+8	1	1	NUM	CD	NumType=Card	6	obl	_	_
 9	Oktober	Oktober	PROPN	NNP	_	8	flat	_	_
-10	2007	2007	NUM	CD	_	8	flat	_	SpaceAfter=No
+10	2007	2007	NUM	CD	NumType=Card	8	flat	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	6	punct	_	_
 12-13	karenanya	_	_	_	_	_	_	_	_
 12	karena	karena	ADP	IN	_	13	case	_	_
@@ -1900,7 +1900,7 @@
 10	PT	PT	PROPN	NNP	_	9	nmod	_	_
 11	Mitra	Mitra	PROPN	NNP	_	10	flat:name	_	_
 12	mencapai	capai	VERB	VB	Voice=Act	0	root	_	_
-13	12.950	12.950	NUM	CD	_	14	nummod	_	_
+13	12.950	12.950	NUM	CD	NumType=Card	14	nummod	_	_
 14	hektar	hektar	NOUN	NN	Number=Sing	12	obj	_	_
 15	di	di	ADP	IN	_	16	case	_	_
 16	Kalimantan	Kalimantan	PROPN	NNP	_	12	obl	_	_
@@ -1920,13 +1920,13 @@
 8	yang	yang	PRON	IN	PronType=Rel	9	nsubj:pass	_	_
 9	disampaikan	sampai	VERB	VB	Voice=Pass	6	acl:relcl	_	_
 10	pada	pada	ADP	IN	_	11	case	_	_
-11	14	14	NUM	CD	_	9	obl	_	_
+11	14	14	NUM	CD	NumType=Card	9	obl	_	_
 12	Maret	Maret	PROPN	NNP	_	11	flat	_	_
-13	2007	2007	NUM	CD	_	11	flat	_	_
+13	2007	2007	NUM	CD	NumType=Card	11	flat	_	_
 14	lalu	lalu	VERB	VB	Voice=Act	11	acl	_	_
 15	yakni	yakni	ADP	IN	_	18	case	_	_
 16	sekitar	sekitar	ADV	RB	_	17	advmod	_	_
-17	16.268	16.268	NUM	CD	_	18	nummod	_	_
+17	16.268	16.268	NUM	CD	NumType=Card	18	nummod	_	_
 18	hektar	hektar	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -2057,22 +2057,22 @@
 3	devisa	devisa	NOUN	NN	Number=Sing	2	nmod	_	_
 4	diperkirakan	kira	VERB	VB	Voice=Pass	0	root	_	_
 5	mencapai	capai	VERB	VB	Voice=Act	4	xcomp	_	_
-6	56,6	56,6	NUM	CD	_	8	nummod	_	_
-7	miliar	miliar	NUM	CD	_	6	flat	_	_
+6	56,6	56,6	NUM	CD	NumType=Card	8	nummod	_	_
+7	miliar	miliar	NUM	CD	NumType=Card	6	flat	_	_
 8	dolar	dolar	NOUN	NN	Number=Sing	5	obj	_	_
 9	AS	AS	PROPN	NNP	_	8	nmod	_	_
 10	dengan	dengan	ADP	IN	_	11	case	_	_
 11	transaksi	transaksi	NOUN	NN	Number=Sing	5	conj	_	_
 12	perdagangan	dagang	NOUN	NN	Number=Sing	11	nmod	_	_
 13	ekspor	ekspor	NOUN	NN	Number=Sing	12	nmod	_	_
-14	118,6	118,6	NUM	CD	_	16	nummod	_	_
-15	miliar	miliar	NUM	CD	_	14	flat	_	_
+14	118,6	118,6	NUM	CD	NumType=Card	16	nummod	_	_
+15	miliar	miliar	NUM	CD	NumType=Card	14	flat	_	_
 16	dolar	dolar	NOUN	NN	Number=Sing	11	orphan	_	_
 17	AS	AS	PROPN	NNP	_	16	nmod	_	_
 18	dan	dan	CCONJ	CC	_	19	cc	_	_
 19	impor	impor	NOUN	NN	Number=Sing	5	conj	_	_
-20	85,6	85,6	NUM	CD	_	22	nummod	_	_
-21	miliar	miliar	NUM	CD	_	20	flat	_	_
+20	85,6	85,6	NUM	CD	NumType=Card	22	nummod	_	_
+21	miliar	miliar	NUM	CD	NumType=Card	20	flat	_	_
 22	dolar	dolar	NOUN	NN	Number=Sing	19	orphan	_	_
 23	AS	AS	PROPN	NNP	_	22	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	4	punct	_	_
@@ -2092,17 +2092,17 @@
 10	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	8	obl	_	_
 11	ekspor	ekspor	NOUN	NN	Number=Sing	10	nmod	_	_
 12	sekitar	sekitar	ADV	RB	_	13	advmod	_	_
-13	8	8	NUM	CD	_	14	nummod	_	_
+13	8	8	NUM	CD	NumType=Card	14	nummod	_	_
 14	persen	persen	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	_	_
 16	konsumsi	konsumsi	NOUN	NN	Number=Sing	10	conj	_	_
 17	rumah	rumah	NOUN	NN	Number=Sing	16	nmod	_	_
 18	tangga	tangga	NOUN	NN	Number=Sing	17	nmod	_	_
-19	5	5	NUM	CD	_	20	nummod	_	_
+19	5	5	NUM	CD	NumType=Card	20	nummod	_	_
 20	persen	persen	NOUN	NN	Number=Sing	16	nmod	_	_
 21	dan	dan	CCONJ	CC	_	22	cc	_	_
 22	investasi	investasi	NOUN	NN	Number=Sing	10	conj	_	_
-23	10	10	NUM	CD	_	24	nummod	_	_
+23	10	10	NUM	CD	NumType=Card	24	nummod	_	_
 24	persen	persen	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -2111,35 +2111,35 @@
 # text_en = In APBN-P 2007 the government targets economic growth of 6.3 percent, inflation of 6 percent, exchange rate of Rp. 9,050 per US dollar, three-month SBI of 8 percent, oil price of 60 US dollars per barrel and oil lifting of 950,000 barrels per day.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	APBN-P	APBN-P	PROPN	NNP	_	5	obl	_	_
-3	2007	2007	NUM	CD	_	2	nummod	_	_
+3	2007	2007	NUM	CD	NumType=Card	2	nummod	_	_
 4	pemerintah	perintah	NOUN	NN	Number=Sing	5	nsubj	_	_
 5	menargetkan	target	VERB	VB	Voice=Act	0	root	_	_
 6	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	5	obj	_	_
 7	ekonomi	ekonomi	NOUN	NN	Number=Sing	6	nmod	_	_
-8	6,3	6,3	NUM	CD	_	9	nummod	_	_
+8	6,3	6,3	NUM	CD	NumType=Card	9	nummod	_	_
 9	persen	persen	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	_	_
 11	inflasi	inflasi	NOUN	NN	Number=Sing	6	conj	_	_
-12	6	6	NUM	CD	_	13	nummod	_	_
+12	6	6	NUM	CD	NumType=Card	13	nummod	_	_
 13	persen	persen	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	15	punct	_	_
 15	nilai	nilai	NOUN	NN	Number=Sing	6	conj	_	_
 16	tukar	tukar	NOUN	NN	Number=Sing	15	nmod	_	_
 17	Rp	Rp	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
-18	9.050	9.050	NUM	CD	_	17	nummod	_	_
+18	9.050	9.050	NUM	CD	NumType=Card	17	nummod	_	_
 19	per	per	ADP	IN	_	20	case	_	_
 20	dolar	dolar	NOUN	NN	Number=Sing	17	nmod	_	_
 21	AS	AS	PROPN	NNP	_	20	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	_	_
 23	SBI	SBI	PROPN	NNP	_	6	conj	_	_
-24	tiga	tiga	NUM	CD	_	25	nummod	_	_
+24	tiga	tiga	NUM	CD	NumType=Card	25	nummod	_	_
 25	bulan	bulan	NOUN	NN	Number=Sing	23	nmod:tmod	_	_
-26	8	8	NUM	CD	_	27	nummod	_	_
+26	8	8	NUM	CD	NumType=Card	27	nummod	_	_
 27	persen	persen	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	,	_	29	punct	_	_
 29	harga	harga	NOUN	NN	Number=Sing	6	conj	_	_
 30	minyak	minyak	NOUN	NN	Number=Sing	29	nmod	_	_
-31	60	60	NUM	CD	_	32	nummod	_	_
+31	60	60	NUM	CD	NumType=Card	32	nummod	_	_
 32	dolar	dolar	NOUN	NN	Number=Sing	29	nmod	_	_
 33	AS	AS	PROPN	NNP	_	32	nmod	_	_
 34	per	per	ADP	IN	_	35	case	_	_
@@ -2147,7 +2147,7 @@
 36	dan	dan	CCONJ	CC	_	37	cc	_	_
 37	lifting	lifting	X	FW	Foreign=Yes	6	conj	_	_
 38	minyak	minyak	NOUN	NN	Number=Sing	37	nmod	_	_
-39	950.000	950.000	NUM	CD	_	40	nummod	_	_
+39	950.000	950.000	NUM	CD	NumType=Card	40	nummod	_	_
 40	barel	barel	NOUN	NN	Number=Sing	37	nmod	_	_
 41	per	per	ADP	IN	_	42	case	_	_
 42	hari	hari	NOUN	NN	Number=Sing	40	nmod	_	SpaceAfter=No
@@ -2167,35 +2167,35 @@
 9	diperkirakan	kira	VERB	VB	Voice=Pass	0	root	_	_
 10	akan	akan	AUX	MD	_	11	aux	_	_
 11	tetap	tetap	ADJ	JJ	_	9	xcomp	_	_
-12	1,5	1,5	NUM	CD	_	13	nummod	_	_
+12	1,5	1,5	NUM	CD	NumType=Card	13	nummod	_	_
 13	persen	persen	NOUN	NN	Number=Sing	11	obl	_	_
 14	atau	atau	CCONJ	CC	_	15	cc	_	_
 15	Rp	Rp	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
-16	58	58	NUM	CD	_	15	nummod	_	_
-17	triliun	triliun	NUM	CD	_	16	flat	_	_
+16	58	58	NUM	CD	NumType=Card	15	nummod	_	_
+17	triliun	triliun	NUM	CD	NumType=Card	16	flat	_	_
 18	dengan	dengan	ADP	IN	_	19	case	_	_
 19	penerimaan	terima	NOUN	NN	Number=Sing	9	obl	_	_
 20	negara	negara	NOUN	NN	Number=Sing	19	nmod	_	_
 21	Rp	Rp	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
-22	722,1	722,1	NUM	CD	_	21	nummod	_	_
-23	triliun	triliun	NUM	CD	_	22	flat	_	_
+22	722,1	722,1	NUM	CD	NumType=Card	21	nummod	_	_
+23	triliun	triliun	NUM	CD	NumType=Card	22	flat	_	_
 24	atau	atau	CCONJ	CC	_	25	cc	_	_
 25	naik	naik	VERB	VB	Voice=Act	21	conj	_	_
 26	Rp	Rp	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
-27	28	28	NUM	CD	_	26	nummod	_	_
-28	triliun	triliun	NUM	CD	_	27	flat	_	_
+27	28	28	NUM	CD	NumType=Card	26	nummod	_	_
+28	triliun	triliun	NUM	CD	NumType=Card	27	flat	_	_
 29	dari	dari	ADP	IN	_	30	case	_	_
 30	APBN-P	APBN-P	PROPN	NNP	_	25	obl	_	_
 31	dan	dan	CCONJ	CC	_	32	cc	_	_
 32	belanja	belanja	NOUN	NN	Number=Sing	19	conj	_	_
 33	negara	negara	NOUN	NN	Number=Sing	32	nmod	_	_
 34	Rp	Rp	NOUN	NN	Number=Sing	32	nmod	_	SpaceAfter=No
-35	780,3	780,3	NUM	CD	_	34	nummod	_	_
-36	triliun	triliun	NUM	CD	_	35	flat	_	_
+35	780,3	780,3	NUM	CD	NumType=Card	34	nummod	_	_
+36	triliun	triliun	NUM	CD	NumType=Card	35	flat	_	_
 37	atau	atau	CCONJ	CC	_	38	cc	_	_
 38	naik	naik	VERB	VB	Voice=Act	34	conj	_	_
 39	Rp	Rp	NOUN	NN	Number=Sing	38	obl	_	SpaceAfter=No
-40	27,9	27,9	NUM	CD	_	39	nummod	_	_
+40	27,9	27,9	NUM	CD	NumType=Card	39	nummod	_	_
 41	dari	dari	ADP	IN	_	42	case	_	_
 42	APBN-P	APBN-P	PROPN	NNP	_	38	obl	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	9	punct	_	_
@@ -2215,10 +2215,10 @@
 10	devisa	devisa	NOUN	NN	Number=Sing	9	nmod	_	_
 11	akhir	akhir	NOUN	NN	Number=Sing	12	nmod:lmod	_	_
 12	tahun	tahun	NOUN	NN	Number=Sing	9	nmod:tmod	_	_
-13	2007	2007	NUM	CD	_	12	nummod	_	_
+13	2007	2007	NUM	CD	NumType=Card	12	nummod	_	_
 14	mencapai	capai	VERB	VB	Voice=Act	8	ccomp	_	_
-15	56,655	56,655	NUM	CD	_	17	nummod	_	_
-16	miliar	miliar	NUM	CD	_	15	flat	_	_
+15	56,655	56,655	NUM	CD	NumType=Card	17	nummod	_	_
+16	miliar	miliar	NUM	CD	NumType=Card	15	flat	_	_
 17	dolar	dolar	NOUN	NN	Number=Sing	14	obj	_	_
 18	AS	AS	PROPN	NNP	_	17	nmod	_	_
 19	karena	karena	ADP	IN	_	20	case	_	_
@@ -2293,21 +2293,21 @@
 14	dan	dan	CCONJ	CC	_	15	cc	_	_
 15	menetapkan	tetap	VERB	VB	Voice=Act	3	conj	_	_
 16	modal	modal	NOUN	NN	Number=Sing	22	nsubj:pass	_	_
-17	4	4	NUM	CD	_	19	nummod	_	_
-18	miliar	miliar	NUM	CD	_	17	flat	_	_
+17	4	4	NUM	CD	NumType=Card	19	nummod	_	_
+18	miliar	miliar	NUM	CD	NumType=Card	17	flat	_	_
 19	dirham	dirham	NOUN	NN	Number=Sing	16	nmod	_	_
 20	itu	itu	DET	DT	PronType=Dem	16	det	_	_
 21	akan	akan	AUX	MD	_	22	aux	_	_
 22	dibagi	bagi	VERB	VB	Voice=Pass	15	ccomp	_	_
 23	dalam	dalam	ADP	IN	_	25	case	_	_
-24	empat	empat	NUM	CD	_	25	nummod	_	_
+24	empat	empat	NUM	CD	NumType=Card	25	nummod	_	_
 25	saham	saham	NOUN	NN	Number=Sing	22	obl	_	_
 26	dengan	dengan	ADP	IN	_	28	case	_	_
 27	masing-masing	masing-masing	DET	DT	_	28	det	_	_
 28	saham	saham	NOUN	NN	Number=Sing	25	nmod	_	_
 29	senilai	nilai	NOUN	NN	Number=Sing	28	nmod	_	_
-30	1	1	NUM	CD	_	32	nummod	_	_
-31	miliar	miliar	NUM	CD	_	30	flat	_	_
+30	1	1	NUM	CD	NumType=Card	32	nummod	_	_
+31	miliar	miliar	NUM	CD	NumType=Card	30	flat	_	_
 32	dirham	dirham	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
 33	,	,	PUNCT	,	_	37	punct	_	_
 34	demikian	demikian	PRON	PRP	PronType=Dem	37	obl	_	_
@@ -2412,7 +2412,7 @@
 21	-	-	PUNCT	:	_	20	punct	_	SpaceAfter=No
 22	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	20	nmod:poss	_	_
 23	naik	naik	VERB	VB	Voice=Act	15	acl:relcl	_	_
-24	10,4	10,4	NUM	CD	_	25	nummod	_	_
+24	10,4	10,4	NUM	CD	NumType=Card	25	nummod	_	_
 25	persen	persen	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	31	punct	_	_
 27	sedangkan	sedangkan	CCONJ	CC	_	31	cc	_	_
@@ -2420,7 +2420,7 @@
 29	-	-	PUNCT	:	_	28	punct	_	SpaceAfter=No
 30	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	28	nmod:poss	_	_
 31	naik	naik	VERB	VB	Voice=Act	23	conj	_	_
-32	12,4	12,4	NUM	CD	_	33	nummod	_	_
+32	12,4	12,4	NUM	CD	NumType=Card	33	nummod	_	_
 33	persen	persen	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
 34	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
 35	"	"	PUNCT	''	_	14	punct	_	_
@@ -2449,7 +2449,7 @@
 14	-	-	PUNCT	:	_	13	punct	_	SpaceAfter=No
 15	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
 16	tumbuh	tumbuh	VERB	VB	Voice=Act	5	acl:relcl	_	_
-17	19,5	19,5	NUM	CD	_	18	nummod	_	_
+17	19,5	19,5	NUM	CD	NumType=Card	18	nummod	_	_
 18	persen	persen	NOUN	NN	Number=Sing	16	obl	_	_
 19	dari	dari	SCONJ	IN	_	23	mark	_	_
 20	sebelumnya	sebelumnya	ADV	RB	_	23	advmod	_	_
@@ -2470,7 +2470,7 @@
 5	-	-	PUNCT	:	_	4	punct	_	SpaceAfter=No
 6	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_
 7	tumbuh	tumbuh	VERB	VB	Voice=Act	2	acl:relcl	_	_
-8	6,3	6,3	NUM	CD	_	9	nummod	_	_
+8	6,3	6,3	NUM	CD	NumType=Card	9	nummod	_	_
 9	persen	persen	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	7	punct	_	_
 11	dari	dari	ADP	IN	_	12	case	_	_
@@ -2478,7 +2478,7 @@
 13	sebelumnya	belum	ADJ	JJ	_	12	amod	_	_
 14	masih	masih	ADV	RB	_	17	advmod	_	_
 15	minus	minus	ADJ	JJ	_	17	advmod	_	_
-16	1,2	1,2	NUM	CD	_	17	nummod	_	_
+16	1,2	1,2	NUM	CD	NumType=Card	17	nummod	_	_
 17	persen	persen	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -2494,7 +2494,7 @@
 7	industri	industri	NOUN	NN	Number=Sing	11	nsubj	_	_
 8	logam	logam	NOUN	NN	Number=Sing	7	nmod	_	_
 9	minus	minus	ADJ	JJ	_	11	advmod	_	_
-10	6,7	6,7	NUM	CD	_	11	nummod	_	_
+10	6,7	6,7	NUM	CD	NumType=Card	11	nummod	_	_
 11	persen	persen	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	21	punct	_	_
 13	namun	namun	CCONJ	CC	_	21	cc	_	_
@@ -2504,7 +2504,7 @@
 17	ini	ini	PRON	PRP	PronType=Dem	21	nsubj	_	_
 18	sudah	sudah	AUX	MD	_	21	aux	_	_
 19	positif	positif	ADJ	JJ	_	21	advmod	_	_
-20	8,9	8,9	NUM	CD	_	21	nummod	_	_
+20	8,9	8,9	NUM	CD	NumType=Card	21	nummod	_	_
 21	persen	persen	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -2517,13 +2517,13 @@
 4	tahun	tahun	NOUN	NN	Number=Sing	8	nmod:tmod	_	_
 5	lalu	lalu	VERB	VB	Voice=Act	4	acl	_	_
 6	minus	minus	ADJ	JJ	_	1	acl:relcl	_	_
-7	13,6	13,6	NUM	CD	_	8	nummod	_	_
+7	13,6	13,6	NUM	CD	NumType=Card	8	nummod	_	_
 8	persen	persen	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	_	_
 10	tahun	tahun	NOUN	NN	Number=Sing	12	obl:tmod	_	_
 11	ini	ini	DET	DT	PronType=Dem	10	det	_	_
 12	naik	naik	VERB	VB	Voice=Act	1	acl:relcl	_	_
-13	8,7	8,7	NUM	CD	_	14	nummod	_	_
+13	8,7	8,7	NUM	CD	NumType=Card	14	nummod	_	_
 14	persen	persen	NOUN	NN	Number=Sing	12	obl	_	_
 15	itu	itu	DET	DT	PronType=Dem	16	det	_	_
 16	PPh	PPh	PROPN	NNP	_	12	nsubj	_	SpaceAfter=No
@@ -2608,7 +2608,7 @@
 41	Annual	Annual	PROPN	NNP	_	40	nmod	_	_
 42	Report	Report	PROPN	NNP	_	41	flat:name	_	_
 43	Awards	Awards	PROPN	NNP	_	41	flat:name	_	_
-44	2006	2006	NUM	CD	_	41	nummod	_	_
+44	2006	2006	NUM	CD	NumType=Card	41	nummod	_	_
 45	di	di	ADP	IN	_	46	case	_	_
 46	Jakarta	Jakarta	PROPN	NNP	_	34	obl	_	SpaceAfter=No
 47	,	,	PUNCT	,	_	34	punct	_	_
@@ -2748,8 +2748,8 @@
 11	negara	negara	NOUN	NN	Number=Sing	8	nmod	_	_
 12	netto	netto	X	FW	Foreign=Yes	13	amod	_	_
 13	Rp	Rp	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
-14	91,6	91,6	NUM	CD	_	13	nummod	_	_
-15	triliun	triliun	NUM	CD	_	14	flat	_	SpaceAfter=No
+14	91,6	91,6	NUM	CD	NumType=Card	13	nummod	_	_
+15	triliun	triliun	NUM	CD	NumType=Card	14	flat	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	_	_
 17	penjualan	jual	NOUN	NN	Number=Sing	7	conj	_	_
 18	aset	aset	NOUN	NN	Number=Sing	17	nmod	_	_
@@ -2763,16 +2763,16 @@
 26	RDI	RDI	PROPN	NNP	_	24	nmod	_	_
 27	sebesar	sebesar	NOUN	NN	Number=Sing	17	nmod	_	_
 28	Rp	Rp	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
-29	0,6	0,6	NUM	CD	_	28	nummod	_	_
-30	triliun	triliun	NUM	CD	_	29	flat	_	SpaceAfter=No
+29	0,6	0,6	NUM	CD	NumType=Card	28	nummod	_	_
+30	triliun	triliun	NUM	CD	NumType=Card	29	flat	_	SpaceAfter=No
 31	,	,	PUNCT	,	_	33	punct	_	_
 32	juga	juga	ADV	RB	_	33	advmod	_	_
 33	hasil	hasil	NOUN	NN	Number=Sing	7	conj	_	_
 34	privatisasi	privatisasi	NOUN	NN	Number=Sing	33	nmod	_	_
 35	netto	netto	X	FW	Foreign=Yes	36	amod	_	_
 36	Rp	Rp	NOUN	NN	Number=Sing	33	nmod	_	SpaceAfter=No
-37	1,5	1,5	NUM	CD	_	36	nummod	_	_
-38	triliun	triliun	NUM	CD	_	37	flat	_	SpaceAfter=No
+37	1,5	1,5	NUM	CD	NumType=Card	36	nummod	_	_
+38	triliun	triliun	NUM	CD	NumType=Card	37	flat	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = csui-test-92
@@ -2792,8 +2792,8 @@
 12	direncanakan	rencana	VERB	VB	Voice=Pass	0	root	_	_
 13	negatif	negatif	ADJ	JJ	_	14	amod	_	_
 14	Rp	Rp	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
-15	16,7	16,7	NUM	CD	_	14	nummod	_	_
-16	triliun	triliun	NUM	CD	_	15	flat	_	SpaceAfter=No
+15	16,7	16,7	NUM	CD	NumType=Card	14	nummod	_	_
+16	triliun	triliun	NUM	CD	NumType=Card	15	flat	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	12	punct	_	_
 18	akibat	akibat	ADP	IN	_	19	case	_	_
 19	penarikan	tarik	NOUN	NN	Number=Sing	12	obl	_	_
@@ -2803,8 +2803,8 @@
 23	pinjaman	pinjam	NOUN	NN	Number=Sing	20	conj	_	_
 24	proyek	proyek	NOUN	NN	Number=Sing	23	nmod	_	_
 25	Rp	Rp	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
-26	43	43	NUM	CD	_	25	nummod	_	_
-27	triliun	triliun	NUM	CD	_	26	flat	_	SpaceAfter=No
+26	43	43	NUM	CD	NumType=Card	25	nummod	_	_
+27	triliun	triliun	NUM	CD	NumType=Card	26	flat	_	SpaceAfter=No
 28	,	,	PUNCT	,	_	19	punct	_	_
 29	yang	yang	PRON	IN	PronType=Rel	31	nsubj	_	_
 30	lebih	lebih	ADV	RB	_	31	advmod	_	_
@@ -2818,8 +2818,8 @@
 38	negeri	negeri	NOUN	NN	Number=Sing	36	nmod	_	_
 39	sebesar	sebesar	NOUN	NN	Number=Sing	33	nmod	_	_
 40	Rp	Rp	NOUN	NN	Number=Sing	39	nmod	_	SpaceAfter=No
-41	59,7	59,7	NUM	CD	_	40	nummod	_	_
-42	triliun	triliun	NUM	CD	_	41	flat	_	SpaceAfter=No
+41	59,7	59,7	NUM	CD	NumType=Card	40	nummod	_	_
+42	triliun	triliun	NUM	CD	NumType=Card	41	flat	_	SpaceAfter=No
 43	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
 44	"	"	PUNCT	''	_	12	punct	_	_
 45	kata	kata	VERB	VB	Voice=Act	12	parataxis	_	_
@@ -2993,7 +2993,7 @@
 35	sehingga	sehingga	SCONJ	IN	_	39	mark	_	_
 36	pada	pada	ADP	IN	_	37	case	_	_
 37	tahun	tahun	NOUN	NN	Number=Sing	39	obl:tmod	_	_
-38	2008	2008	NUM	CD	_	37	nummod	_	_
+38	2008	2008	NUM	CD	NumType=Card	37	nummod	_	_
 39	diharapkan	harap	VERB	VB	Voice=Pass	32	advcl	_	_
 40	keadaan	ada	NOUN	NN	Number=Sing	43	nsubj	_	_
 41	rupiah	rupiah	NOUN	NN	Number=Sing	40	nmod	_	_
@@ -3128,12 +3128,12 @@
 17	akhir	akhir	NOUN	NN	Number=Sing	18	nmod:lmod	_	_
 18	semester	semester	NOUN	NN	Number=Sing	13	nmod	_	_
 19	pertama	pertama	ADJ	JJ	_	18	amod	_	_
-20	2007	2007	NUM	CD	_	18	nummod	_	_
+20	2007	2007	NUM	CD	NumType=Card	18	nummod	_	_
 21	hanya	hanya	ADV	RB	_	22	advmod	_	_
 22	sebesar	sebesar	NOUN	NN	Number=Sing	11	ccomp	_	_
 23	Rp	Rp	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
-24	30,7	30,7	NUM	CD	_	23	nummod	_	_
-25	miliar	miliar	NUM	CD	_	24	flat	_	SpaceAfter=No
+24	30,7	30,7	NUM	CD	NumType=Card	23	nummod	_	_
+25	miliar	miliar	NUM	CD	NumType=Card	24	flat	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	30	punct	_	_
 27	sehingga	sehingga	SCONJ	IN	_	30	mark	_	_
 28	perusahaan	usaha	NOUN	NN	Number=Sing	30	nsubj	_	_
@@ -3176,8 +3176,8 @@
 20	pinjaman	pinjam	NOUN	NN	Number=Sing	6	nmod	_	_
 21	sejumlah	jumlah	NOUN	NN	Number=Sing	20	nmod	_	_
 22	Rp	Rp	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
-23	255,1	255,1	NUM	CD	_	22	nummod	_	_
-24	miliar	miliar	NUM	CD	_	23	flat	_	SpaceAfter=No
+23	255,1	255,1	NUM	CD	NumType=Card	22	nummod	_	_
+24	miliar	miliar	NUM	CD	NumType=Card	23	flat	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
 26	"	"	PUNCT	''	_	6	punct	_	_
 27	kata	kata	VERB	VB	Voice=Act	6	parataxis	_	_
@@ -3209,18 +3209,18 @@
 20	Obligasi	Obligasi	PROPN	NNP	_	19	nmod	_	_
 21	I	I	PROPN	NNP	_	20	flat:name	_	_
 22	Tahun	Tahun	NOUN	NN	Number=Sing	20	nmod	_	_
-23	2003	2003	NUM	CD	_	22	nummod	_	_
+23	2003	2003	NUM	CD	NumType=Card	22	nummod	_	_
 24	sebesar	sebesar	NOUN	NN	Number=Sing	19	nmod	_	_
 25	Rp	Rp	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
-26	165	165	NUM	CD	_	25	nummod	_	_
-27	miliar	miliar	NUM	CD	_	26	flat	_	_
+26	165	165	NUM	CD	NumType=Card	25	nummod	_	_
+27	miliar	miliar	NUM	CD	NumType=Card	26	flat	_	_
 28	yang	yang	PRON	IN	PronType=Rel	30	nsubj	_	_
 29	akan	akan	AUX	MD	_	30	aux	_	_
 30	jatuh	jatuh	VERB	VB	Voice=Act	19	acl:relcl	_	_
 31	tempo	tempo	NOUN	NN	Number=Sing	30	obl	_	_
 32	pada	pada	ADP	IN	_	33	case	_	_
 33	Juli	Juli	PROPN	NNP	_	30	obl	_	_
-34	2008	2008	NUM	CD	_	33	flat	_	_
+34	2008	2008	NUM	CD	NumType=Card	33	flat	_	_
 35	dengan	dengan	ADP	IN	_	36	case	_	_
 36	prospek	prospek	NOUN	NN	Number=Sing	30	obl	_	_
 37	peringkat	peringkat	NOUN	NN	Number=Sing	36	nmod	_	_
@@ -3333,9 +3333,9 @@
 19	Negara	Negara	NOUN	NN	Number=Sing	18	nmod	_	_
 20	BUMN	BUMN	PROPN	NNP	_	18	nmod	_	_
 21	pada	pada	ADP	IN	_	23	case	_	_
-22	19	19	NUM	CD	_	23	nummod	_	_
+22	19	19	NUM	CD	NumType=Card	23	nummod	_	_
 23	Desember	Desember	PROPN	NNP	_	17	nmod:tmod	_	_
-24	2006	2006	NUM	CD	_	23	nummod	_	_
+24	2006	2006	NUM	CD	NumType=Card	23	nummod	_	_
 25	dinyatakan	nyata	VERB	VB	Voice=Pass	0	root	_	_
 26	bahwa	bahwa	SCONJ	IN	_	28	mark	_	_
 27	BNI	BNI	PROPN	NNP	_	28	nsubj:pass	_	_
@@ -3346,7 +3346,7 @@
 32	privatisasi	privatisasi	NOUN	NN	Number=Sing	30	nmod	_	_
 33	BUMN	BUMN	PROPN	NNP	_	32	nmod	_	_
 34	tahun	tahun	NOUN	NN	Number=Sing	30	nmod:tmod	_	_
-35	2007	2007	NUM	CD	_	34	nummod	_	SpaceAfter=No
+35	2007	2007	NUM	CD	NumType=Card	34	nummod	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	25	punct	_	_
 
 # sent_id = csui-test-107
@@ -3360,7 +3360,7 @@
 6	perekonomian	ekonomi	NOUN	NN	Number=Sing	5	nmod	_	_
 7	tertinggi	tinggi	ADJ	JJ	Degree=Sup	5	amod	_	_
 8	selama	selama	ADP	IN	_	10	case	_	_
-9	6	6	NUM	CD	_	10	nummod	_	_
+9	6	6	NUM	CD	NumType=Card	10	nummod	_	_
 10	bulan	bulan	NOUN	NN	Number=Sing	5	nmod:tmod	_	_
 11	terakhir	akhir	ADJ	JJ	Degree=Sup	10	amod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	5	punct	_	_
@@ -3374,17 +3374,17 @@
 4	nasional	nasional	ADJ	JJ	_	3	amod	_	_
 5	hingga	hingga	ADP	IN	_	6	case	_	_
 6	Juni	Juni	PROPN	NNP	_	1	nmod:tmod	_	_
-7	2007	2007	NUM	CD	_	6	nummod	_	_
+7	2007	2007	NUM	CD	NumType=Card	6	nummod	_	_
 8	mencapai	capai	VERB	VB	Voice=Act	0	root	_	_
 9	Rp	Rp	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
-10	49,7	49,7	NUM	CD	_	9	nummod	_	_
-11	triliun	triliun	NUM	CD	_	10	flat	_	_
+10	49,7	49,7	NUM	CD	NumType=Card	9	nummod	_	_
+11	triliun	triliun	NUM	CD	NumType=Card	10	flat	_	_
 12	dengan	dengan	SCONJ	IN	_	18	mark	_	_
-13	62	62	NUM	CD	_	14	nummod	_	_
+13	62	62	NUM	CD	NumType=Card	14	nummod	_	_
 14	persen	persen	NOUN	NN	Number=Sing	18	nsubj	_	_
 15	atau	atau	CCONJ	CC	_	16	cc	_	_
 16	Rp	Rp	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
-17	30,8	30,8	NUM	CD	_	16	nummod	_	_
+17	30,8	30,8	NUM	CD	NumType=Card	16	nummod	_	_
 18	berasal	asal	VERB	VB	Voice=Act	9	acl:relcl	_	_
 19	dari	dari	ADP	IN	_	20	case	_	_
 20	bank	bank	NOUN	NN	Number=Sing	18	obl	_	_
@@ -3440,7 +3440,7 @@
 7	tanker	tanker	NOUN	NN	Number=Sing	6	nmod	_	_
 8	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
 9	menjadi	jadi	VERB	VB	Voice=Act	0	root	_	_
-10	820.600	820.600	NUM	CD	_	9	obj	_	_
+10	820.600	820.600	NUM	CD	NumType=Card	9	obj	_	_
 11	DWT	DWT	PROPN	NNP	_	10	nmod	_	_
 12	(	(	PUNCT	-LRB-	_	13	punct	_	SpaceAfter=No
 13	dry	dry	NOUN	NN	Number=Sing	11	appos	_	_
@@ -3451,7 +3451,7 @@
 18	pangsa	pangsa	NOUN	NN	Number=Sing	22	nmod	_	_
 19	pasar	pasar	NOUN	NN	Number=Sing	18	nmod	_	_
 20	sekitar	sekitar	ADV	RB	_	21	advmod	_	_
-21	10	10	NUM	CD	_	22	nummod	_	_
+21	10	10	NUM	CD	NumType=Card	22	nummod	_	_
 22	persen	persen	NOUN	NN	Number=Sing	9	advcl	_	_
 23	secara	cara	ADP	IN	_	24	case:adv	_	_
 24	internasional	internasional	ADJ	JJ	_	22	acl	_	SpaceAfter=No
@@ -3484,15 +3484,15 @@
 17	ini	ini	DET	DT	PronType=Dem	16	det	_	_
 18	mencapai	capai	VERB	VB	Voice=Act	0	root	_	_
 19	Rp	Rp	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
-20	20,3	20,3	NUM	CD	_	19	nummod	_	_
-21	triliun	triliun	NUM	CD	_	20	flat	_	_
+20	20,3	20,3	NUM	CD	NumType=Card	19	nummod	_	_
+21	triliun	triliun	NUM	CD	NumType=Card	20	flat	_	_
 22	dari	dari	ADP	IN	_	23	case	_	_
 23	posisi	posisi	NOUN	NN	Number=Sing	19	nmod	_	_
 24	awal	awal	NOUN	NN	Number=Sing	25	nummod	_	_
-25	2006	2006	NUM	CD	_	23	nummod	_	_
+25	2006	2006	NUM	CD	NumType=Card	23	nummod	_	_
 26	Rp	Rp	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
-27	4,2	4,2	NUM	CD	_	26	nummod	_	_
-28	triliun	triliun	NUM	CD	_	27	flat	_	SpaceAfter=No
+27	4,2	4,2	NUM	CD	NumType=Card	26	nummod	_	_
+28	triliun	triliun	NUM	CD	NumType=Card	27	flat	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = csui-test-112
@@ -3550,7 +3550,7 @@
 4	pada	pada	ADP	IN	_	5	case	_	_
 5	level	level	NOUN	NN	Number=Sing	3	obl	_	_
 6	tengah	tengah	NOUN	NN	Number=Sing	5	nmod:lmod	_	_
-7	119	119	NUM	CD	_	8	nummod	_	_
+7	119	119	NUM	CD	NumType=Card	8	nummod	_	_
 8	yen	yen	NOUN	NN	Number=Sing	5	nmod	_	_
 9	pada	pada	ADP	IN	_	11	case	_	_
 10	awal	awal	NOUN	NN	Number=Sing	11	nmod:lmod	_	_
@@ -3594,7 +3594,7 @@
 18	mencapai	capai	VERB	VB	Voice=Act	15	ccomp	_	_
 19	level	level	NOUN	NN	Number=Sing	18	obj	_	_
 20	Rp	Rp	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
-21	9.000	9.000	NUM	CD	_	20	nummod	_	_
+21	9.000	9.000	NUM	CD	NumType=Card	20	nummod	_	_
 22	per	per	ADP	IN	_	23	case	_	_
 23	dolar	dolar	NOUN	NN	Number=Sing	20	nmod	_	_
 24	AS	AS	PROPN	NNP	_	23	nmod	_	SpaceAfter=No
@@ -3633,8 +3633,8 @@
 22	PLN	PLN	PROPN	NNP	_	18	appos	_	SpaceAfter=No
 23	)	)	PUNCT	-RRB-	_	22	punct	_	_
 24	senilai	nilai	NOUN	NN	Number=Sing	15	nmod	_	_
-25	430	430	NUM	CD	_	24	nummod	_	_
-26	juta	juta	NUM	CD	_	25	flat	_	_
+25	430	430	NUM	CD	NumType=Card	24	nummod	_	_
+26	juta	juta	NUM	CD	NumType=Card	25	flat	_	_
 27	dolar	dolar	NOUN	NN	Number=Sing	24	nmod	_	_
 28	AS	AS	PROPN	NNP	_	24	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	14	punct	_	_
@@ -3644,12 +3644,12 @@
 # text_en = "The purchase of 38,360 shares or 70 percent of PT Chandra Asri's shares was carried out either through direct or indirect purchases," said Barito Pacific President Director, Anton BS Hudyana to the Jakarta Stock Exchange on Friday.
 1	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
 2	Pembelian	Pembelian	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
-3	38.360	38.360	NUM	CD	_	4	nummod	_	_
+3	38.360	38.360	NUM	CD	NumType=Card	4	nummod	_	_
 4	saham	saham	NOUN	NN	Number=Sing	2	nmod	_	_
 5	atau	atau	CCONJ	CC	_	7	cc	_	_
 6	yang	yang	PRON	IN	PronType=Rel	7	nsubj	_	_
 7	merupakan	rupa	VERB	VB	Voice=Act	4	conj	_	_
-8	70	70	NUM	CD	_	9	nummod	_	_
+8	70	70	NUM	CD	NumType=Card	9	nummod	_	_
 9	persen	persen	NOUN	NN	Number=Sing	7	obj	_	_
 10	saham	saham	NOUN	NN	Number=Sing	9	nmod	_	_
 11	PT	PT	PROPN	NNP	_	10	nmod	_	_
@@ -3752,7 +3752,7 @@
 7	Mitsubishi	Mitsubishi	PROPN	NNP	_	5	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	5	punct	_	_
 9	salah	salah	ADJ	JJ	_	10	advmod	_	_
-10	satu	satu	NUM	CD	_	11	nummod	_	_
+10	satu	satu	NUM	CD	NumType=Card	11	nummod	_	_
 11	perusahaan	usaha	NOUN	NN	Number=Sing	5	appos	_	_
 12	terbuka	buka	VERB	VB	Voice=Pass	11	ccomp	_	_
 13	terbesar	besar	ADJ	JJ	Degree=Sup	11	amod	_	_
@@ -3766,13 +3766,13 @@
 21-22	modalnya	_	_	_	_	_	_	_	_
 21	modal	modal	NOUN	NN	Number=Sing	20	obl	_	_
 22	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	21	nmod:poss	_	_
-23	352	352	NUM	CD	_	25	nummod	_	_
-24	juta	juta	NUM	CD	_	23	flat	_	_
+23	352	352	NUM	CD	NumType=Card	25	nummod	_	_
+24	juta	juta	NUM	CD	NumType=Card	23	flat	_	_
 25	dolar	dolar	NOUN	NN	Number=Sing	20	obj	_	_
 26	AS	AS	PROPN	NNP	_	25	nmod	_	_
 27	untuk	untuk	SCONJ	IN	_	28	mark	_	_
 28	mendapatkan	dapat	VERB	VB	Voice=Act	20	advcl	_	_
-29	39,4	39,4	NUM	CD	_	30	nummod	_	_
+29	39,4	39,4	NUM	CD	NumType=Card	30	nummod	_	_
 30	persen	persen	NOUN	NN	Number=Sing	28	obj	_	_
 31	saham	saham	NOUN	NN	Number=Sing	30	nmod	_	_
 32	yang	yang	PRON	IN	PronType=Rel	33	nsubj:pass	_	_
@@ -3804,7 +3804,7 @@
 17	Selasa	Selasa	PROPN	NNP	_	25	nsubj:pass	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	25	punct	_	_
 19	sebelumnya	sebelumnya	ADV	RB	_	21	advmod	_	_
-20	50,695	50,695	NUM	CD	_	21	nummod	_	_
+20	50,695	50,695	NUM	CD	NumType=Card	21	nummod	_	_
 21	persen	persen	NOUN	NN	Number=Sing	25	nsubj:pass	_	_
 22	saham	saham	NOUN	NN	Number=Sing	21	nmod	_	_
 23	MedcoEnergi	MedcoEnergi	PROPN	NNP	_	21	nmod	_	_
@@ -3859,8 +3859,8 @@
 4	akuisisi	akuisisi	NOUN	NN	Number=Sing	3	nmod	_	_
 5	senilai	nilai	NOUN	NN	Number=Sing	3	nmod	_	_
 6	Rp	Rp	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
-7	8,4	8,4	NUM	CD	_	6	nummod	_	_
-8	triliun	triliun	NUM	CD	_	7	flat	_	_
+7	8,4	8,4	NUM	CD	NumType=Card	6	nummod	_	_
+8	triliun	triliun	NUM	CD	NumType=Card	7	flat	_	_
 9	akan	akan	AUX	MD	_	10	aux	_	_
 10	dibiayai	biaya	VERB	VB	Voice=Pass	2	ccomp	_	_
 11	oleh	oleh	ADP	IN	_	12	case	_	_
@@ -3960,7 +3960,7 @@
 # text = "23.100 ton CPO ini selanjutnya berdasarkan perjanjian Offtake CPO dijual ke perseroan," jelas Fitri.
 # text_en = "This 23,100 tons of CPO will then be sold based on the CPO Offtake agreement to the company," Fitri explained.
 1	"	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
-2	23.100	23.100	NUM	CD	_	3	nummod	_	_
+2	23.100	23.100	NUM	CD	NumType=Card	3	nummod	_	_
 3	ton	ton	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
 4	CPO	CPO	PROPN	NNP	_	3	appos	_	_
 5	ini	ini	DET	DT	PronType=Dem	3	det	_	_
@@ -3989,18 +3989,18 @@
 6	rupiah	rupiah	NOUN	NN	Number=Sing	4	nmod	_	_
 7	pada	pada	ADP	IN	_	8	case	_	_
 8	Oktober	Oktober	PROPN	NNP	_	4	nmod:tmod	_	_
-9	2007	2007	NUM	CD	_	8	nummod	_	_
+9	2007	2007	NUM	CD	NumType=Card	8	nummod	_	_
 10	secara	cara	ADP	IN	_	11	case:adv	_	_
 11	rata-rata	rata	ADJ	JJ	_	12	advcl	_	_
 12	menguat	kuat	VERB	VB	Voice=Act	0	root	_	_
-13	2,2	2,2	NUM	CD	_	14	nummod	_	_
+13	2,2	2,2	NUM	CD	NumType=Card	14	nummod	_	_
 14	persen	persen	NOUN	NN	Number=Sing	12	obj	_	_
 15	dibandingkan	banding	VERB	VB	Voice=Pass	14	acl:relcl	_	_
 16	September	September	PROPN	NNP	_	15	obl:tmod	_	_
 17	atau	atau	CCONJ	CC	_	18	cc	_	_
 18	rata-rata	rata	ADJ	JJ	_	14	conj	_	_
 19	Rp	Rp	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
-20	9.101	9.101	NUM	CD	_	19	nummod	_	_
+20	9.101	9.101	NUM	CD	NumType=Card	19	nummod	_	_
 21	per	per	ADP	IN	_	22	case	_	_
 22	dolar	dolar	NOUN	NN	Number=Sing	18	obl	_	_
 23	AS	AS	PROPN	NNP	_	22	nmod	_	SpaceAfter=No
@@ -4022,14 +4022,14 @@
 11	surplus	surplus	NOUN	NN	Number=Sing	18	nsubj	_	_
 12	anggaran	anggar	NOUN	NN	Number=Sing	11	nmod	_	_
 13	hingga	hingga	ADP	IN	_	15	case	_	_
-14	31	31	NUM	CD	_	15	nummod	_	_
+14	31	31	NUM	CD	NumType=Card	15	nummod	_	_
 15	Oktober	Oktober	PROPN	NNP	_	11	nmod:tmod	_	_
-16	2007	2007	NUM	CD	_	15	nummod	_	_
+16	2007	2007	NUM	CD	NumType=Card	15	nummod	_	_
 17	masih	masih	ADV	RB	_	18	advmod	_	_
 18	mencapai	capai	VERB	VB	Voice=Act	9	ccomp	_	_
 19	Rp	Rp	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
-20	17,6	17,6	NUM	CD	_	19	nummod	_	_
-21	triliun	triliun	NUM	CD	_	20	flat	_	SpaceAfter=No
+20	17,6	17,6	NUM	CD	NumType=Card	19	nummod	_	_
+21	triliun	triliun	NUM	CD	NumType=Card	20	flat	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = csui-test-128
@@ -4039,11 +4039,11 @@
 2	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	7	nsubj	_	_
 3	kredit	kredit	NOUN	NN	Number=Sing	2	nmod	_	_
 4	sebesar	sebesar	NOUN	NN	Number=Sing	2	nmod	_	_
-5	10	10	NUM	CD	_	6	nummod	_	_
+5	10	10	NUM	CD	NumType=Card	6	nummod	_	_
 6	persen	persen	NOUN	NN	Number=Sing	4	nmod	_	_
 7	menjadi	jadi	VERB	VB	Voice=Act	0	root	_	_
-8	111,4	111,4	NUM	CD	_	7	obj	_	_
-9	triliun	triliun	NUM	CD	_	8	flat	_	SpaceAfter=No
+8	111,4	111,4	NUM	CD	NumType=Card	7	obj	_	_
+9	triliun	triliun	NUM	CD	NumType=Card	8	flat	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = csui-test-129
@@ -4053,9 +4053,9 @@
 2	total	total	NOUN	NN	Number=Sing	15	obl	_	_
 3	penjualan	jual	NOUN	NN	Number=Sing	2	nmod	_	_
 4	sepanjang	sepanjang	NOUN	NN	Number=Sing	6	nmod:lmod	_	_
-5	9	9	NUM	CD	_	6	nummod	_	_
+5	9	9	NUM	CD	NumType=Card	6	nummod	_	_
 6	bulan	bulan	NOUN	NN	Number=Sing	2	nmod	_	_
-7	2007	2007	NUM	CD	_	6	nummod	_	SpaceAfter=No
+7	2007	2007	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	15	punct	_	_
 9	penjualan	jual	NOUN	NN	Number=Sing	15	nsubj	_	_
 10	mobil	mobil	NOUN	NN	Number=Sing	9	nmod	_	_
@@ -4064,7 +4064,7 @@
 13	Astra	Astra	PROPN	NNP	_	12	nmod	_	_
 14	Internasional	Internasional	PROPN	NNP	_	13	flat:name	_	_
 15	mencapai	capai	VERB	VB	Voice=Act	0	root	_	_
-16	179.603	179.603	NUM	CD	_	17	nummod	_	_
+16	179.603	179.603	NUM	CD	NumType=Card	17	nummod	_	_
 17	unit	unit	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	15	punct	_	_
 
@@ -4097,7 +4097,7 @@
 23	Pemerintah	Pemerintah	NOUN	NN	Number=Sing	22	nmod	_	_
 24	Atas	Atas	ADP	IN	_	25	case	_	_
 25	RAPBN	RAPBN	NOUN	NN	Number=Sing	19	nmod	_	_
-26	2008	2008	NUM	CD	_	25	nummod	_	_
+26	2008	2008	NUM	CD	NumType=Card	25	nummod	_	_
 27	beserta	beserta	CCONJ	CC	_	28	cc	_	_
 28	Nota	Nota	NOUN	NN	Number=Sing	25	conj	_	_
 29-30	Keuangannya	_	_	_	_	_	_	_	_
@@ -4179,12 +4179,12 @@
 37	mesin	mesin	NOUN	NN	Number=Sing	36	nmod	_	_
 38	konstruksi	konstruksi	NOUN	NN	Number=Sing	36	nmod	_	_
 39	dari	dari	ADP	IN	_	41	case	_	_
-40	48	48	NUM	CD	_	41	nummod	_	_
+40	48	48	NUM	CD	NumType=Card	41	nummod	_	_
 41	persen	persen	NOUN	NN	Number=Sing	33	nmod	_	_
 42	tahun	tahun	NOUN	NN	Number=Sing	41	nmod:tmod	_	_
 43	lalu	lalu	VERB	VB	Voice=Act	42	ccomp	_	_
 44	menjadi	jadi	VERB	VB	Voice=Act	33	acl:relcl	_	_
-45	51	51	NUM	CD	_	46	nummod	_	_
+45	51	51	NUM	CD	NumType=Card	46	nummod	_	_
 46	persen	persen	NOUN	NN	Number=Sing	44	obj	_	_
 47	tahun	tahun	NOUN	NN	Number=Sing	46	nmod:tmod	_	_
 48	ini	ini	DET	DT	PronType=Dem	47	det	_	SpaceAfter=No
@@ -4198,7 +4198,7 @@
 3	salah	salah	ADJ	JJ	_	4	advmod	_	_
 4	seorang	orang	DET	DT	Definite=Ind|PronType=Art	2	obj	_	_
 5	dari	dari	ADP	IN	_	7	case	_	_
-6	puluhan	puluh	NUM	CD	_	7	nummod	_	_
+6	puluhan	puluh	NUM	CD	NumType=Card	7	nummod	_	_
 7	calon	calon	NOUN	NN	Number=Sing	4	nmod	_	_
 8	yang	yang	PRON	IN	PronType=Rel	9	nsubj	_	_
 9	berasal	asal	VERB	VB	Voice=Act	7	acl:relcl	_	_
@@ -4247,7 +4247,7 @@
 17	melakukan	laku	VERB	VB	Voice=Act	13	advcl	_	_
 18	pemanenan	panen	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	13	punct	_	_
-20	dua	dua	NUM	CD	_	21	nummod	_	_
+20	dua	dua	NUM	CD	NumType=Card	21	nummod	_	_
 21	orang	orang	NOUN	NN	Number=Sing	23	obl	_	_
 22	saja	saja	ADV	RB	_	21	advmod	_	_
 23	cukup	cukup	ADJ	JJ	_	13	parataxis	_	SpaceAfter=No
@@ -4273,14 +4273,14 @@
 7	PT	PT	PROPN	NNP	_	1	nmod	_	_
 8	Inco	Inco	PROPN	NNP	_	7	flat:name	_	_
 9	sebesar	sebesar	NOUN	NN	Number=Sing	0	root	_	_
-10	29,149	29,149	NUM	CD	_	11	nummod	_	_
+10	29,149	29,149	NUM	CD	NumType=Card	11	nummod	_	_
 11	dolar	dolar	NOUN	NN	Number=Sing	9	nmod	_	_
 12	AS	AS	PROPN	NNP	_	11	nmod	_	_
 13	per	per	ADP	IN	_	14	case	_	_
 14	ton	ton	NOUN	NN	Number=Sing	9	nmod	_	_
 15	pada	pada	ADP	IN	_	16	case	_	_
 16	K1	K1	PROPN	NNP	_	9	nmod	_	_
-17	2007	2007	NUM	CD	_	16	nummod	_	_
+17	2007	2007	NUM	CD	NumType=Card	16	nummod	_	_
 18	atau	atau	CCONJ	CC	_	20	cc	_	_
 19	lebih	lebih	ADV	RB	_	20	advmod	_	_
 20	baik	baik	ADJ	JJ	_	9	conj	_	_
@@ -4288,7 +4288,7 @@
 22	periode	periode	NOUN	NN	Number=Sing	21	obl:tmod	_	_
 23	sama	sama	ADJ	JJ	_	22	amod	_	_
 24	sebelumnya	belum	ADJ	JJ	_	22	amod	_	_
-25	11,136	11,136	NUM	CD	_	26	nummod	_	_
+25	11,136	11,136	NUM	CD	NumType=Card	26	nummod	_	_
 26	dolar	dolar	NOUN	NN	Number=Sing	22	nmod	_	_
 27	AS	AS	PROPN	NNP	_	26	nmod	_	_
 28	per	per	ADP	IN	_	29	case	_	_
@@ -4363,7 +4363,7 @@
 2	izin	izin	NOUN	NN	Number=Sing	1	nmod	_	_
 3	usaha	usaha	NOUN	NN	Number=Sing	2	nmod	_	_
 4	atas	atas	ADP	IN	_	6	case	_	_
-5	dua	dua	NUM	CD	_	6	nummod	_	_
+5	dua	dua	NUM	CD	NumType=Card	6	nummod	_	_
 6	perusahaan	usaha	NOUN	NN	Number=Sing	1	nmod	_	_
 7-8	lainnya	_	_	_	_	_	_	_	_
 7	lain	lain	ADJ	JJ	_	6	amod	_	_
@@ -4391,7 +4391,7 @@
 5	Tbk	Tbk	PROPN	NNP	_	1	flat:name	_	_
 6	akan	akan	AUX	MD	_	7	aux	_	_
 7	mengakuisisi	akuisisi	VERB	VB	Voice=Act	0	root	_	_
-8	70	70	NUM	CD	_	9	nummod	_	_
+8	70	70	NUM	CD	NumType=Card	9	nummod	_	_
 9	persen	persen	NOUN	NN	Number=Sing	7	obj	_	_
 10	saham	saham	NOUN	NN	Number=Sing	9	nmod	_	_
 11	PT	PT	PROPN	NNP	_	10	nmod	_	_
@@ -4415,9 +4415,9 @@
 11	di	di	ADP	IN	_	12	case	_	_
 12	kisaran	kisar	NOUN	NN	Number=Sing	10	obl	_	_
 13	rata-rata	rata	ADJ	JJ	_	12	amod	_	_
-14	9,6	9,6	NUM	CD	_	17	nummod	_	SpaceAfter=No
+14	9,6	9,6	NUM	CD	NumType=Card	17	nummod	_	SpaceAfter=No
 15	-	-	PUNCT	:	_	14	punct	_	SpaceAfter=No
-16	13,8	13,8	NUM	CD	_	14	flat	_	_
+16	13,8	13,8	NUM	CD	NumType=Card	14	flat	_	_
 17	persen	persen	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -4435,18 +4435,18 @@
 8	rumah	rumah	NOUN	NN	Number=Sing	7	nmod	_	_
 9	tangga	tangga	NOUN	NN	Number=Sing	8	nmod	_	_
 10	tumbuh	tumbuh	VERB	VB	Voice=Act	0	root	_	_
-11	1,46	1,46	NUM	CD	_	12	nummod	_	_
+11	1,46	1,46	NUM	CD	NumType=Card	12	nummod	_	_
 12	persen	persen	NOUN	NN	Number=Sing	10	obj	_	_
 13	pada	pada	ADP	IN	_	14	case	_	_
 14	triwulan	triwulan	NOUN	NN	Number=Sing	12	nmod:tmod	_	_
 15	I	I	ADJ	JJ	_	14	amod	_	_
-16	2007	2007	NUM	CD	_	14	nummod	_	_
+16	2007	2007	NUM	CD	NumType=Card	14	nummod	_	_
 17	dibanding	banding	VERB	VB	Voice=Pass	12	acl:relcl	_	_
 18	periode	periode	NOUN	NN	Number=Sing	17	obl:tmod	_	_
 19	sebelumnya	belum	ADJ	JJ	_	18	amod	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	23	punct	_	_
 21	dan	dan	CCONJ	CC	_	23	cc	_	_
-22	4,71	4,71	NUM	CD	_	23	nummod	_	_
+22	4,71	4,71	NUM	CD	NumType=Card	23	nummod	_	_
 23	persen	persen	NOUN	NN	Number=Sing	12	conj	_	_
 24	secara	cara	ADP	IN	_	26	case:adv	_	_
 25	'	'	PUNCT	``	_	26	punct	_	SpaceAfter=No
@@ -4458,14 +4458,14 @@
 31	yang	yang	PRON	IN	PronType=Rel	32	nsubj	_	_
 32	terdiri	terdiri	VERB	VB	Voice=Pass	23	acl:relcl	_	_
 33	atas	atas	ADP	IN	_	35	case	_	_
-34	1,1	1,1	NUM	CD	_	35	nummod	_	_
+34	1,1	1,1	NUM	CD	NumType=Card	35	nummod	_	_
 35	persen	persen	NOUN	NN	Number=Sing	32	obl	_	_
 36	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	35	nmod	_	_
 37	konsumsi	konsumsi	NOUN	NN	Number=Sing	36	nmod	_	_
 38	makanan	makan	NOUN	NN	Number=Sing	36	nmod	_	SpaceAfter=No
 39	,	,	PUNCT	,	_	42	punct	_	_
 40	dan	dan	CCONJ	CC	_	42	cc	_	_
-41	3,92	3,92	NUM	CD	_	42	nummod	_	_
+41	3,92	3,92	NUM	CD	NumType=Card	42	nummod	_	_
 42	persen	persen	NOUN	NN	Number=Sing	35	conj	_	_
 43	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	42	nmod	_	_
 44	konsumsi	konsumsi	NOUN	NN	Number=Sing	43	nmod	_	_
@@ -4482,7 +4482,7 @@
 4	Oktober	Oktober	PROPN	NNP	_	2	nmod:tmod	_	_
 5	yang	yang	PRON	IN	PronType=Rel	6	nsubj	_	_
 6	sebesar	sebesar	NOUN	NN	Number=Sing	2	nmod	_	_
-7	6,88	6,88	NUM	CD	_	8	nummod	_	_
+7	6,88	6,88	NUM	CD	NumType=Card	8	nummod	_	_
 8	persen	persen	NOUN	NN	Number=Sing	6	nmod	_	_
 9	atau	atau	CCONJ	CC	_	11	cc	_	_
 10	lebih	lebih	ADV	RB	_	11	advmod	_	_
@@ -4490,7 +4490,7 @@
 12	dibandingkan	banding	VERB	VB	Voice=Pass	11	ccomp	_	_
 13	September	September	PROPN	NNP	_	12	obl:tmod	_	_
 14	yaitu	yaitu	SCONJ	IN	_	16	mark	_	_
-15	6,95	6,95	NUM	CD	_	16	nummod	_	_
+15	6,95	6,95	NUM	CD	NumType=Card	16	nummod	_	_
 16	persen	persen	NOUN	NN	Number=Sing	13	nmod	_	_
 17	menurut	turut	ADP	IN	_	18	case	_	_
 18	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
@@ -4539,7 +4539,7 @@
 15	di	di	ADP	IN	_	17	case	_	_
 16	akhir	akhir	NOUN	NN	Number=Sing	17	nmod:lmod	_	_
 17	tahun	tahun	NOUN	NN	Number=Sing	12	nmod:tmod	_	_
-18	2006	2006	NUM	CD	_	17	nummod	_	SpaceAfter=No
+18	2006	2006	NUM	CD	NumType=Card	17	nummod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = csui-test-144
@@ -4559,12 +4559,12 @@
 12	dari	dari	ADP	IN	_	13	case	_	_
 13	semula	mula	NOUN	NN	Number=Sing	11	obl	_	_
 14	Rp	Rp	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
-15	3,67	3,67	NUM	CD	_	14	nummod	_	_
-16	miliar	miliar	NUM	CD	_	15	flat	_	_
+15	3,67	3,67	NUM	CD	NumType=Card	14	nummod	_	_
+16	miliar	miliar	NUM	CD	NumType=Card	15	flat	_	_
 17	menjadi	jadi	VERB	VB	Voice=Act	11	ccomp	_	_
 18	Rp	Rp	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
-19	19,65	19,65	NUM	CD	_	18	nummod	_	_
-20	miliar	miliar	NUM	CD	_	19	flat	_	SpaceAfter=No
+19	19,65	19,65	NUM	CD	NumType=Card	18	nummod	_	_
+20	miliar	miliar	NUM	CD	NumType=Card	19	flat	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	11	punct	_	_
 22	sehingga	sehingga	SCONJ	IN	_	30	mark	_	_
 23	laba	laba	NOUN	NN	Number=Sing	30	nsubj	_	_
@@ -4577,10 +4577,10 @@
 30	meningkat	tingkat	VERB	VB	Voice=Act	11	advcl	_	_
 31	dari	dari	ADP	IN	_	32	case	_	_
 32	Rp	Rp	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
-33	0,39	0,39	NUM	CD	_	32	nummod	_	_
+33	0,39	0,39	NUM	CD	NumType=Card	32	nummod	_	_
 34	menjadi	jadi	VERB	VB	Voice=Act	30	ccomp	_	_
 35	Rp	Rp	NOUN	NN	Number=Sing	34	obj	_	SpaceAfter=No
-36	2,48	2,48	NUM	CD	_	35	nummod	_	_
+36	2,48	2,48	NUM	CD	NumType=Card	35	nummod	_	_
 37	meski	meski	SCONJ	IN	_	39	mark	_	_
 38	perseroan	perseroan	NOUN	NN	Number=Sing	39	nsubj	_	_
 39	menanggung	tanggung	VERB	VB	Voice=Act	30	advcl	_	_
@@ -4591,12 +4591,12 @@
 44	meningkat	tingkat	VERB	VB	Voice=Act	40	acl:relcl	_	_
 45	dari	dari	ADP	IN	_	46	case	_	_
 46	Rp	Rp	NOUN	NN	Number=Sing	44	obl	_	SpaceAfter=No
-47	2,25	2,25	NUM	CD	_	46	nummod	_	_
-48	miliar	miliar	NUM	CD	_	47	flat	_	_
+47	2,25	2,25	NUM	CD	NumType=Card	46	nummod	_	_
+48	miliar	miliar	NUM	CD	NumType=Card	47	flat	_	_
 49	menjadi	jadi	VERB	VB	Voice=Act	44	ccomp	_	_
 50	Rp	Rp	NOUN	NN	Number=Sing	49	obj	_	SpaceAfter=No
-51	4,99	4,99	NUM	CD	_	50	nummod	_	_
-52	miliar	miliar	NUM	CD	_	51	flat	_	SpaceAfter=No
+51	4,99	4,99	NUM	CD	NumType=Card	50	nummod	_	_
+52	miliar	miliar	NUM	CD	NumType=Card	51	flat	_	SpaceAfter=No
 53	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = csui-test-145
@@ -4616,7 +4616,7 @@
 11	akan	akan	AUX	MD	_	12	aux	_	_
 12	diselenggarakan	selenggara	VERB	VB	Voice=Pass	9	acl:relcl	_	_
 13	pada	pada	ADP	IN	_	15	case	_	_
-14	26	26	NUM	CD	_	15	nummod	_	_
+14	26	26	NUM	CD	NumType=Card	15	nummod	_	_
 15	Oktober	Oktober	PROPN	NNP	_	12	obl:tmod	_	_
 16	mendatang	datang	VERB	VB	Voice=Act	15	acl:relcl	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	1	punct	_	_
@@ -4636,7 +4636,7 @@
 10	secara	cara	ADP	IN	_	11	case:adv	_	_
 11	umum	umum	ADJ	JJ	_	14	advcl	_	_
 12	APBNP	APBNP	PROPN	NNP	_	14	obl	_	_
-13	2007	2007	NUM	CD	_	12	nummod	_	_
+13	2007	2007	NUM	CD	NumType=Card	12	nummod	_	_
 14	aman	aman	ADJ	JJ	_	9	advcl	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	14	punct	_	_
 16-17	meskipun	_	_	_	_	_	_	_	_
@@ -4676,7 +4676,7 @@
 22	di	di	ADP	IN	_	25	case	_	_
 23	sekitar	sekitar	ADV	RB	_	25	advmod	_	_
 24	Rp	Rp	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
-25	9.000	9.000	NUM	CD	_	21	obl	_	_
+25	9.000	9.000	NUM	CD	NumType=Card	21	obl	_	_
 26	per	per	ADP	IN	_	27	case	_	_
 27	dolar	dolar	NOUN	NN	Number=Sing	25	nmod	_	_
 28	AS	AS	PROPN	NNP	_	27	nmod	_	SpaceAfter=No
@@ -4750,9 +4750,9 @@
 30	Indonesia	Indonesia	PROPN	NNP	_	29	flat:name	_	_
 31	pada	pada	ADP	IN	_	32	case	_	_
 32	tanggal	tanggal	NOUN	NN	Number=Sing	27	obl:tmod	_	_
-33	27	27	NUM	CD	_	32	nummod	_	_
+33	27	27	NUM	CD	NumType=Card	32	nummod	_	_
 34	April	April	PROPN	NNP	_	32	nmod:tmod	_	_
-35	2007	2007	NUM	CD	_	32	nummod	_	SpaceAfter=No
+35	2007	2007	NUM	CD	NumType=Card	32	nummod	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = csui-test-150
@@ -4762,7 +4762,7 @@
 1	Menurut	turut	ADP	IN	_	2	case	_	_
 2	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	9	obl	_	_
 3	,	,	PUNCT	,	_	9	punct	_	_
-4	kedua	kedua	NUM	CD	_	5	nummod	_	_
+4	kedua	kedua	NUM	CD	NumType=Card	5	nummod	_	_
 5	unit	unit	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
 6	tanker	tanker	NOUN	NN	Number=Sing	5	nmod	_	_
 7	tersebut	sebut	DET	DT	_	5	det	_	_
@@ -4803,16 +4803,16 @@
 7	mengungkapkan	ungkap	VERB	VB	Voice=Act	11	parataxis	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	_	_
 9	inflasi	inflasi	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
-10	2007	2007	NUM	CD	_	9	nummod	_	_
+10	2007	2007	NUM	CD	NumType=Card	9	nummod	_	_
 11	diperkirakan	kira	VERB	VB	Voice=Pass	0	root	_	_
 12	akan	akan	AUX	MD	_	13	aux	_	_
 13	mencapai	capai	VERB	VB	Voice=Act	11	ccomp	_	_
-14	6,5	6,5	NUM	CD	_	15	nummod	_	_
+14	6,5	6,5	NUM	CD	NumType=Card	15	nummod	_	_
 15	persen	persen	NOUN	NN	Number=Sing	13	obj	_	_
 16	dengan	dengan	SCONJ	IN	_	20	mark	_	_
 17	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	20	nmod	_	_
 18	ekonomi	ekonomi	NOUN	NN	Number=Sing	17	nmod	_	_
-19	6,3	6,3	NUM	CD	_	20	nummod	_	_
+19	6,3	6,3	NUM	CD	NumType=Card	20	nummod	_	_
 20	persen	persen	NOUN	NN	Number=Sing	13	advcl	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -4854,11 +4854,11 @@
 6	adalah	adalah	AUX	VBZ	_	7	cop	_	_
 7	Thailand	Thailand	PROPN	NNP	_	0	root	_	_
 8	sebesar	sebesar	NOUN	NN	Number=Sing	7	nmod	_	_
-9	11,4	11,4	NUM	CD	_	8	nummod	_	_
-10	miliar	miliar	NUM	CD	_	9	flat	_	_
+9	11,4	11,4	NUM	CD	NumType=Card	8	nummod	_	_
+10	miliar	miliar	NUM	CD	NumType=Card	9	flat	_	_
 11	Ringgit	Ringgit	NOUN	NN	Number=Sing	8	nmod	_	_
-12	3,16	3,16	NUM	CD	_	14	nummod	_	_
-13	miliar	miliar	NUM	CD	_	12	flat	_	_
+12	3,16	3,16	NUM	CD	NumType=Card	14	nummod	_	_
+13	miliar	miliar	NUM	CD	NumType=Card	12	flat	_	_
 14	dolar	dolar	NOUN	NN	Number=Sing	8	nmod	_	_
 15	AS	AS	PROPN	NNP	_	14	nmod	_	_
 16	dan	dan	CCONJ	CC	_	18	cc	_	_
@@ -4869,8 +4869,8 @@
 21	ke-4	ke-4	ADJ	JJ	_	20	amod	_	_
 22	dengan	dengan	ADP	IN	_	23	case	_	_
 23	nilai	nilai	NOUN	NN	Number=Sing	20	nmod	_	_
-24	4,7	4,7	NUM	CD	_	26	nummod	_	_
-25	miliar	miliar	NUM	CD	_	24	flat	_	_
+24	4,7	4,7	NUM	CD	NumType=Card	26	nummod	_	_
+25	miliar	miliar	NUM	CD	NumType=Card	24	flat	_	_
 26	Ringgit	Ringgit	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -4904,7 +4904,7 @@
 25	target	target	NOUN	NN	Number=Sing	30	nsubj:pass	_	_
 26	inflasi	inflasi	NOUN	NN	Number=Sing	25	nmod	_	_
 27	tahun	tahun	NOUN	NN	Number=Sing	25	nmod:tmod	_	_
-28	2007	2007	NUM	CD	_	27	nummod	_	_
+28	2007	2007	NUM	CD	NumType=Card	27	nummod	_	_
 29	akan	akan	AUX	MD	_	30	aux	_	_
 30	terkendali	terkendali	VERB	VB	Voice=Pass	24	advcl	_	_
 31	dan	dan	CCONJ	CC	_	34	cc	_	_
@@ -4922,8 +4922,8 @@
 # text_en = Japan donated 1 million US dollars from the Policy and Human Resource Development (PHRD) Trust Fund, to support strengthening the tax administration system and improving services.
 1	Jepang	jepang	PROPN	NNP	_	2	nsubj	_	_
 2	menghibahkan	hibah	VERB	VB	Voice=Act	0	root	_	_
-3	1	1	NUM	CD	_	5	nummod	_	_
-4	juta	juta	NUM	CD	_	3	flat	_	_
+3	1	1	NUM	CD	NumType=Card	5	nummod	_	_
+4	juta	juta	NUM	CD	NumType=Card	3	flat	_	_
 5	dolar	dolar	NOUN	NN	Number=Sing	2	obj	_	_
 6	AS	AS	PROPN	NNP	_	5	nmod	_	_
 7	yang	yang	PRON	IN	PronType=Rel	8	nsubj	_	_
@@ -4966,7 +4966,7 @@
 10	Ware	Ware	PROPN	NNP	_	9	flat:name	_	_
 11	yang	yang	PRON	IN	PronType=Rel	12	nsubj	_	_
 12	berusia	usia	VERB	VB	Voice=Act	9	acl:relcl	_	_
-13	18	18	NUM	CD	_	14	nummod	_	_
+13	18	18	NUM	CD	NumType=Card	14	nummod	_	_
 14	tahun	tahun	NOUN	NN	Number=Sing	12	obl:tmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -4986,12 +4986,12 @@
 11	terdiri	terdiri	VERB	VB	Voice=Pass	0	root	_	_
 12	dari	dari	ADP	IN	_	13	case	_	_
 13	Elnusa	Elnusa	PROPN	NNP	_	11	obl	_	_
-14	60	60	NUM	CD	_	15	nummod	_	_
+14	60	60	NUM	CD	NumType=Card	15	nummod	_	_
 15	persen	persen	NOUN	NN	Number=Sing	13	nmod	_	_
 16	dan	dan	CCONJ	CC	_	17	cc	_	_
 17	Talisman	Talisman	PROPN	NNP	_	13	conj	_	_
 18	Energi	Energi	PROPN	NNP	_	17	flat:name	_	_
-19	40	40	NUM	CD	_	20	nummod	_	_
+19	40	40	NUM	CD	NumType=Card	20	nummod	_	_
 20	persen	persen	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -5025,19 +5025,19 @@
 25	dibanding	banding	VERB	VB	Voice=Pass	23	acl:relcl	_	_
 26	pada	pada	ADP	IN	_	28	case	_	_
 27	akhir	akhir	NOUN	NN	Number=Sing	28	nummod	_	_
-28	2006	2006	NUM	CD	_	25	obl	_	_
+28	2006	2006	NUM	CD	NumType=Card	25	obl	_	_
 29	yang	yang	PRON	IN	PronType=Rel	31	nsubj	_	_
 30	hanya	hanya	ADV	RB	_	31	advmod	_	_
 31	sebesar	sebesar	NOUN	NN	Number=Sing	28	nmod	_	_
-32	37,4	37,4	NUM	CD	_	33	nummod	_	_
+32	37,4	37,4	NUM	CD	NumType=Card	33	nummod	_	_
 33	persen	persen	NOUN	NN	Number=Sing	31	nmod	_	_
 34	dari	dari	ADP	IN	_	35	case	_	_
 35	PDB	PDB	PROPN	NNP	_	31	nmod	_	_
 36	dengan	dengan	ADP	IN	_	37	case	_	_
 37	kapitalisasi	kapitalisasi	NOUN	NN	Number=Sing	31	nmod	_	_
 38	Rp	Rp	NOUN	NN	Number=Sing	37	nmod	_	SpaceAfter=No
-39	1.250	1.250	NUM	CD	_	38	nummod	_	_
-40	triliun	triliun	NUM	CD	_	39	flat	_	SpaceAfter=No
+39	1.250	1.250	NUM	CD	NumType=Card	38	nummod	_	_
+40	triliun	triliun	NUM	CD	NumType=Card	39	flat	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = csui-test-159
@@ -5092,12 +5092,12 @@
 10	kredit	kredit	NOUN	NN	Number=Sing	9	nmod	_	_
 11	per	per	ADP	IN	_	12	case	_	_
 12	Agustus	Agustus	PROPN	NNP	_	9	nmod:tmod	_	_
-13	2007	2007	NUM	CD	_	12	nummod	_	_
+13	2007	2007	NUM	CD	NumType=Card	12	nummod	_	_
 14	yoy	yoy	X	FW	Foreign=Yes	9	amod	_	_
 15	mencapai	capai	VERB	VB	Voice=Act	8	ccomp	_	_
 16	lebih	lebih	ADJ	JJ	_	18	acl:relcl	_	_
 17	dari	dari	SCONJ	IN	_	16	fixed	_	_
-18	20	20	NUM	CD	_	15	obj	_	_
+18	20	20	NUM	CD	NumType=Card	15	obj	_	_
 19	persen	persen	NOUN	NN	Number=Sing	18	nmod	_	_
 20	karena	karena	ADP	IN	_	21	case	_	_
 21-22	adanya	_	_	_	_	_	_	_	_
@@ -5165,7 +5165,7 @@
 3	yang	yang	PRON	IN	PronType=Rel	4	nsubj	_	_
 4	sama	sama	ADJ	JJ	_	2	acl:relcl	_	_
 5	sebesar	sebesar	NOUN	NN	Number=Sing	2	nmod	_	_
-6	0,11	0,11	NUM	CD	_	5	nummod	_	_
+6	0,11	0,11	NUM	CD	NumType=Card	5	nummod	_	_
 7	dolar	dolar	NOUN	NN	Number=Sing	5	nmod	_	_
 8	AS	AS	PROPN	NNP	_	5	nmod	_	_
 9	per	per	ADP	IN	_	10	case	_	_
@@ -5175,7 +5175,7 @@
 13	dibayarkan	bayar	VERB	VB	Voice=Pass	0	root	_	_
 14	untuk	untuk	ADP	IN	_	15	case	_	_
 15	tahun	tahun	NOUN	NN	Number=Sing	13	obl:tmod	_	_
-16	2005	2005	NUM	CD	_	15	nummod	_	SpaceAfter=No
+16	2005	2005	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
 18	"	"	PUNCT	''	_	13	punct	_	_
 19	kata	kata	VERB	VB	Voice=Act	13	parataxis	_	_
@@ -5218,12 +5218,12 @@
 1	Sebelumnya	sebelumnya	ADV	RB	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
 3	pada	pada	ADP	IN	_	4	case	_	_
-4	2007	2007	NUM	CD	_	7	obl	_	_
+4	2007	2007	NUM	CD	NumType=Card	7	obl	_	_
 5-6	pihaknya	_	_	_	_	_	_	_	_
 5	pihak	pihak	NOUN	NN	Number=Sing	7	nsubj	_	_
 6	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
 7	menambah	tambah	VERB	VB	Voice=Act	0	root	_	_
-8	400	400	NUM	CD	_	9	nummod	_	_
+8	400	400	NUM	CD	NumType=Card	9	nummod	_	_
 9	unit	unit	NOUN	NN	Number=Sing	7	obj	_	_
 10	ATM	ATM	NOUN	NN	Number=Sing	9	nmod	_	_
 11	dari	dari	ADP	IN	_	12	case	_	_
@@ -5233,7 +5233,7 @@
 15	saat	saat	NOUN	NN	Number=Sing	12	nmod	_	_
 16	ini	ini	DET	DT	PronType=Dem	15	det	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	12	punct	_	_
-18	2650	2650	NUM	CD	_	19	nummod	_	_
+18	2650	2650	NUM	CD	NumType=Card	19	nummod	_	_
 19	unit	unit	NOUN	NN	Number=Sing	12	appos	_	_
 20	di	di	ADP	IN	_	22	case	_	_
 21	seluruh	seluruh	DET	DT	PronType=Tot	22	det	_	_
@@ -5241,11 +5241,11 @@
 23	serta	serta	CCONJ	CC	_	24	cc	_	_
 24	menambah	tambah	VERB	VB	Voice=Act	7	conj	_	_
 25	menjadi	jadi	VERB	VB	Voice=Act	24	ccomp	_	_
-26	25.000	25.000	NUM	CD	_	27	nummod	_	_
+26	25.000	25.000	NUM	CD	NumType=Card	27	nummod	_	_
 27	unit	unit	NOUN	NN	Number=Sing	25	obj	_	_
 28	EDC	EDC	PROPN	NNP	_	27	appos	_	_
 29	dari	dari	ADP	IN	_	30	case	_	_
-30	21.500	21.500	NUM	CD	_	24	obl	_	_
+30	21.500	21.500	NUM	CD	NumType=Card	24	obl	_	_
 31	EDC	EDC	PROPN	NNP	_	30	appos	_	_
 32	yang	yang	PRON	IN	PronType=Rel	33	nsubj	_	_
 33	ada	ada	VERB	VB	Voice=Act	30	acl:relcl	_	_
@@ -5264,7 +5264,7 @@
 6	beroperasi	operasi	VERB	VB	Voice=Act	5	ccomp	_	_
 7	sejak	sejak	ADP	IN	_	8	case	_	_
 8	tahun	tahun	NOUN	NN	Number=Sing	6	obl:tmod	_	_
-9	1998	1998	NUM	CD	_	8	nummod	_	SpaceAfter=No
+9	1998	1998	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	_	_
 11	dan	dan	CCONJ	CC	_	13	cc	_	_
 12	baru	baru	ADV	RB	_	13	advmod	_	_
@@ -5272,7 +5272,7 @@
 14	beroperasi	operasi	VERB	VB	Voice=Act	13	xcomp	_	_
 15	pada	pada	ADP	IN	_	16	case	_	_
 16	Maret	Maret	PROPN	NNP	_	14	obl:tmod	_	_
-17	2003	2003	NUM	CD	_	16	nummod	_	SpaceAfter=No
+17	2003	2003	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = csui-test-166
@@ -5315,7 +5315,7 @@
 8	Minggu	Minggu	PROPN	NNP	_	2	obl:tmod	_	_
 9	malam	malam	NOUN	NN	Number=Sing	8	nmod	_	_
 10	(	(	PUNCT	-LRB-	_	8	punct	_	SpaceAfter=No
-11	26-Sep	26-Sep	NUM	CD	_	8	nummod	_	SpaceAfter=No
+11	26-Sep	26-Sep	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
 12	)	)	PUNCT	-RRB-	_	8	punct	_	_
 13	memanfaatkan	manfaat	VERB	VB	Voice=Act	2	advcl	_	_
 14	terang	terang	NOUN	NN	Number=Sing	13	obj	_	_
@@ -5323,7 +5323,7 @@
 16	untuk	untuk	SCONJ	IN	_	17	mark	_	_
 17	mencuri	curi	VERB	VB	Voice=Act	13	advcl	_	_
 18	hingga	hingga	ADP	IN	_	20	case	_	_
-19	30	30	NUM	CD	_	20	nummod	_	_
+19	30	30	NUM	CD	NumType=Card	20	nummod	_	_
 20	ton	ton	NOUN	NN	Number=Sing	17	obl	_	_
 21	anggur	anggur	NOUN	NN	Number=Sing	20	nmod	_	_
 22	dengan	dengan	SCONJ	IN	_	23	mark	_	_
@@ -5478,13 +5478,13 @@
 20	I/2007	I/2007	PROPN	NNP	_	19	flat:name	_	_
 21	berjangka	jangka	VERB	VB	Voice=Act	19	acl:relcl	_	_
 22	waktu	waktu	NOUN	NN	Number=Sing	21	obl	_	_
-23	2,5	2,5	NUM	CD	_	24	nummod	_	_
+23	2,5	2,5	NUM	CD	NumType=Card	24	nummod	_	_
 24	tahun	tahun	NOUN	NN	Number=Sing	21	obl:tmod	_	_
 25	sebesar	sebesar	NOUN	NN	Number=Sing	19	nmod	_	_
 26	maksimum	maksimum	NOUN	NN	Number=Sing	25	nmod	_	_
 27	Rp	Rp	NOUN	NN	Number=Sing	26	nummod	_	SpaceAfter=No
-28	300	300	NUM	CD	_	27	nummod	_	_
-29	miliar	miliar	NUM	CD	_	28	flat	_	_
+28	300	300	NUM	CD	NumType=Card	27	nummod	_	_
+29	miliar	miliar	NUM	CD	NumType=Card	28	flat	_	_
 30	dengan	dengan	ADP	IN	_	31	case	_	_
 31	prospek	prospek	NOUN	NN	Number=Sing	19	nmod	_	_
 32	stabil	stabil	ADJ	JJ	_	31	amod	_	SpaceAfter=No
@@ -5504,7 +5504,7 @@
 9	berada	ada	VERB	VB	Voice=Act	2	ccomp	_	_
 10	pada	pada	ADP	IN	_	11	case	_	_
 11	kisaran	kisar	NOUN	NN	Number=Sing	9	obl	_	_
-12	6,04	6,04	NUM	CD	_	13	nummod	_	_
+12	6,04	6,04	NUM	CD	NumType=Card	13	nummod	_	_
 13	persen	persen	NOUN	NN	Number=Sing	11	nmod	_	_
 14	mengingat	ingat	VERB	VB	Voice=Act	16	advcl	_	_
 15	sangat	sangat	ADV	RB	_	16	advmod	_	_
@@ -5551,7 +5551,7 @@
 27	PLN	PLN	PROPN	NNP	_	19	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	,	_	19	punct	_	_
 29	pada	pada	ADP	IN	_	31	case	_	_
-30	21	21	NUM	CD	_	31	nummod	_	_
+30	21	21	NUM	CD	NumType=Card	31	nummod	_	_
 31	Maret	Maret	PROPN	NNP	_	18	obl:tmod	_	_
 32	lalu	lalu	VERB	VB	Voice=Act	31	acl:relcl	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	13	punct	_	_
@@ -5593,13 +5593,13 @@
 12	melakukan	laku	VERB	VB	Voice=Act	0	root	_	_
 13	pembelian	beli	NOUN	NN	Number=Sing	12	obj	_	_
 14	sebanyak	sebanyak	NOUN	NN	Number=Sing	13	nmod	_	_
-15	2.700	2.700	NUM	CD	_	16	nummod	_	_
+15	2.700	2.700	NUM	CD	NumType=Card	16	nummod	_	_
 16	saham	saham	NOUN	NN	Number=Sing	14	nmod	_	_
 17	dengan	dengan	ADP	IN	_	18	case	_	_
 18	nilai	nilai	NOUN	NN	Number=Sing	14	nmod	_	_
 19	nominal	nominal	NOUN	NN	Number=Sing	18	nmod	_	_
 20	Rp	Rp	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
-21	1.000	1.000	NUM	CD	_	20	nummod	_	_
+21	1.000	1.000	NUM	CD	NumType=Card	20	nummod	_	_
 22	per	per	ADP	IN	_	23	case	_	_
 23	saham	saham	NOUN	NN	Number=Sing	20	nmod	_	_
 24	di	di	ADP	IN	_	25	case	_	_
@@ -5626,15 +5626,15 @@
 9	berkunjung	kunjung	VERB	VB	Voice=Act	0	root	_	_
 10	ke	ke	ADP	IN	_	11	case	_	_
 11	India	India	PROPN	NNP	_	9	obl	_	_
-12	21	21	NUM	CD	_	15	nummod	_	SpaceAfter=No
+12	21	21	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No
 13	-	-	PUNCT	:	_	12	punct	_	SpaceAfter=No
-14	23	23	NUM	CD	_	12	flat	_	_
+14	23	23	NUM	CD	NumType=Card	12	flat	_	_
 15	Agustus	Agustus	PROPN	NNP	_	11	nmod	_	_
 16	dan	dan	CCONJ	CC	_	17	cc	_	_
 17	Malaysia	Malaysia	PROPN	NNP	_	11	conj	_	_
-18	23	23	NUM	CD	_	21	nummod	_	SpaceAfter=No
+18	23	23	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
 19	-	-	PUNCT	:	_	18	punct	_	SpaceAfter=No
-20	25	25	NUM	CD	_	18	flat	_	_
+20	25	25	NUM	CD	NumType=Card	18	flat	_	_
 21	Agustus	Agustus	PROPN	NNP	_	17	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	9	punct	_	_
 
@@ -5694,7 +5694,7 @@
 8	perkiraan	kira	NOUN	NN	Number=Sing	5	nmod	_	_
 9	BI	BI	PROPN	NNP	_	8	nmod	_	_
 10	sebesar	sebesar	NOUN	NN	Number=Sing	5	nmod	_	_
-11	69,8	69,8	NUM	CD	_	10	nummod	_	_
+11	69,8	69,8	NUM	CD	NumType=Card	10	nummod	_	_
 12	dolar	dolar	NOUN	NN	Number=Sing	10	nmod	_	_
 13	AS	AS	PROPN	NNP	_	10	nmod	_	_
 14	per	per	ADP	IN	_	15	case	_	_
@@ -5704,8 +5704,8 @@
 18	cadangan	cadang	NOUN	NN	Number=Sing	20	nsubj	_	_
 19	devisa	devisa	NOUN	NN	Number=Sing	18	nmod	_	_
 20	menjadi	jadi	VERB	VB	Voice=Act	0	root	_	_
-21	56,655	56,655	NUM	CD	_	23	nummod	_	_
-22	miliar	miliar	NUM	CD	_	21	flat	_	_
+21	56,655	56,655	NUM	CD	NumType=Card	23	nummod	_	_
+22	miliar	miliar	NUM	CD	NumType=Card	21	flat	_	_
 23	dolar	dolar	NOUN	NN	Number=Sing	20	obj	_	_
 24	AS	AS	PROPN	NNP	_	23	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	20	punct	_	SpaceAfter=No
@@ -5793,7 +5793,7 @@
 14	dipertahankan	tahan	VERB	VB	Voice=Pass	0	root	_	_
 15	pada	pada	ADP	IN	_	16	case	_	_
 16	level	level	NOUN	NN	Number=Sing	14	obl	_	_
-17	4,75	4,75	NUM	CD	_	18	nummod	_	_
+17	4,75	4,75	NUM	CD	NumType=Card	18	nummod	_	_
 18	persen	persen	NOUN	NN	Number=Sing	16	nmod	_	_
 
 # sent_id = csui-test-182
@@ -5846,7 +5846,7 @@
 1	Ditulis	tulis	VERB	VB	Voice=Pass	8	ccomp	_	_
 2	pada	pada	ADP	IN	_	3	case	_	_
 3	tahun	tahun	NOUN	NN	Number=Sing	1	obl:tmod	_	_
-4	1605	1605	NUM	CD	_	3	nummod	_	SpaceAfter=No
+4	1605	1605	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	8	punct	_	_
 6	novel	novel	NOUN	NN	Number=Sing	8	nsubj	_	_
 7	ini	ini	DET	DT	PronType=Dem	6	det	_	_
@@ -5917,15 +5917,15 @@
 9	dalam	dalam	ADP	IN	_	10	case	_	_
 10	kurun	kurun	NOUN	NN	Number=Sing	7	obl	_	_
 11	waktu	waktu	NOUN	NN	Number=Sing	10	nmod	_	_
-12	2008	2008	NUM	CD	_	10	nummod	_	SpaceAfter=No
+12	2008	2008	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
 13	-	-	PUNCT	:	_	10	punct	_	SpaceAfter=No
-14	2017	2017	NUM	CD	_	10	nummod	_	SpaceAfter=No
+14	2017	2017	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	7	punct	_	_
 16	dengan	dengan	ADP	IN	_	17	case	_	_
 17	total	total	NOUN	NN	Number=Sing	7	obl	_	_
 18	volume	volume	NOUN	NN	Number=Sing	17	nmod	_	_
-19	133	133	NUM	CD	_	21	nummod	_	_
-20	miliar	miliar	NUM	CD	_	19	flat	_	_
+19	133	133	NUM	CD	NumType=Card	21	nummod	_	_
+20	miliar	miliar	NUM	CD	NumType=Card	19	flat	_	_
 21	kaki	kaki	NOUN	NN	Number=Sing	17	nmod	_	_
 22	kubik	kubik	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	7	punct	_	_
@@ -6028,8 +6028,8 @@
 12	memberikan	beri	VERB	VB	Voice=Act	11	ccomp	_	_
 13	pinjaman	pinjam	NOUN	NN	Number=Sing	12	obj	_	_
 14	sebesar	sebesar	NOUN	NN	Number=Sing	13	nmod	_	_
-15	200	200	NUM	CD	_	14	nummod	_	_
-16	juta	juta	NUM	CD	_	15	flat	_	_
+15	200	200	NUM	CD	NumType=Card	14	nummod	_	_
+16	juta	juta	NUM	CD	NumType=Card	15	flat	_	_
 17	dolar	dolar	NOUN	NN	Number=Sing	14	nmod	_	_
 18	AS	AS	PROPN	NNP	_	14	nmod	_	_
 19	untuk	untuk	ADP	IN	_	20	case	_	_
@@ -6049,7 +6049,7 @@
 3	dolar	dolar	NOUN	NN	Number=Sing	1	nmod	_	_
 4	AS	AS	PROPN	NNP	_	3	nmod	_	_
 5	mencapai	capai	VERB	VB	Voice=Act	0	root	_	_
-6	121,32	121,32	NUM	CD	_	5	obj	_	SpaceAfter=No
+6	121,32	121,32	NUM	CD	NumType=Card	5	obj	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = csui-test-190
@@ -6067,7 +6067,7 @@
 10	sejak	sejak	ADP	IN	_	12	case	_	_
 11	akhir	akhir	NOUN	NN	Number=Sing	12	nmod:lmod	_	_
 12	Februari	Februari	PROPN	NNP	_	6	obl:tmod	_	_
-13	2007	2007	NUM	CD	_	12	nummod	_	_
+13	2007	2007	NUM	CD	NumType=Card	12	nummod	_	_
 14	telah	telah	AUX	MD	_	16	aux	_	_
 15	sedikit	sedikit	ADV	RB	_	16	advmod	_	_
 16	meningkatkan	tingkat	VERB	VB	Voice=Act	0	root	_	_
@@ -6154,7 +6154,7 @@
 7	telah	telah	AUX	MD	_	8	aux	_	_
 8	melakukan	laku	VERB	VB	Voice=Act	0	root	_	_
 9	akuisisi	akuisisi	NOUN	NN	Number=Sing	8	obj	_	_
-10	100	100	NUM	CD	_	11	nummod	_	_
+10	100	100	NUM	CD	NumType=Card	11	nummod	_	_
 11	persen	persen	NOUN	NN	Number=Sing	9	nmod	_	_
 12	saham	saham	NOUN	NN	Number=Sing	11	nmod	_	_
 13	Conocophilips	Conocophilips	PROPN	NNP	_	12	nmod	_	_
@@ -6175,7 +6175,7 @@
 28	yang	yang	PRON	IN	PronType=Rel	29	nsubj	_	_
 29	merupakan	rupa	VERB	VB	Voice=Act	13	acl:relcl	_	_
 30	salah	salah	ADJ	JJ	_	31	advmod	_	_
-31	satu	satu	NUM	CD	_	32	nummod	_	_
+31	satu	satu	NUM	CD	NumType=Card	32	nummod	_	_
 32	anak	anak	NOUN	NN	Number=Sing	29	obj	_	_
 33	perusahaan	usaha	NOUN	NN	Number=Sing	32	nmod	_	_
 34	Conocophilips	Conocophilips	PROPN	NNP	_	32	nmod	_	_
@@ -6194,7 +6194,7 @@
 7	telah	telah	AUX	MD	_	8	aux	_	_
 8	terjalin	jalin	VERB	VB	Voice=Pass	0	root	_	_
 9	sejak	sejak	ADP	IN	_	10	case	_	_
-10	1972	1972	NUM	CD	_	8	obl	_	_
+10	1972	1972	NUM	CD	NumType=Card	8	obl	_	_
 11	dengan	dengan	SCONJ	IN	_	12	mark	_	_
 12	menjadi	jadi	VERB	VB	Voice=Act	8	advcl	_	_
 13	nasabah	nasabah	NOUN	NN	Number=Sing	12	obj	_	_
@@ -6204,7 +6204,7 @@
 17	debitur	debitur	NOUN	NN	Number=Sing	16	obj	_	_
 18	sejak	sejak	ADP	IN	_	19	case	_	_
 19	tahun	tahun	NOUN	NN	Number=Sing	16	obl:tmod	_	_
-20	1994	1994	NUM	CD	_	19	nummod	_	SpaceAfter=No
+20	1994	1994	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
 22	"	"	PUNCT	''	_	8	punct	_	_
 23-24	ucapnya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -6268,12 +6268,12 @@
 7	perseroan	perseroan	NOUN	NN	Number=Sing	8	nsubj	_	_
 8	mencatat	catat	VERB	VB	Voice=Act	36	advcl	_	_
 9	kenaikan	naik	NOUN	NN	Number=Sing	8	obj	_	_
-10	tiga	tiga	NUM	CD	_	11	nummod	_	_
+10	tiga	tiga	NUM	CD	NumType=Card	11	nummod	_	_
 11	persen	persen	NOUN	NN	Number=Sing	9	nmod	_	_
 12	dari	dari	ADP	IN	_	13	case	_	_
 13	Rp	Rp	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
-14	538	538	NUM	CD	_	13	nummod	_	_
-15	miliar	miliar	NUM	CD	_	14	flat	_	_
+14	538	538	NUM	CD	NumType=Card	13	nummod	_	_
+15	miliar	miliar	NUM	CD	NumType=Card	14	flat	_	_
 16	pada	pada	ADP	IN	_	17	case	_	_
 17	semester	semester	NOUN	NN	Number=Sing	13	nmod:tmod	_	_
 18	pertama	pertama	ADJ	JJ	_	17	amod	_	_
@@ -6281,8 +6281,8 @@
 20	lalu	lalu	VERB	VB	Voice=Act	19	ccomp	_	_
 21	menjadi	jadi	VERB	VB	Voice=Act	9	acl:relcl	_	_
 22	Rp	Rp	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
-23	552	552	NUM	CD	_	22	nummod	_	_
-24	miliar	miliar	NUM	CD	_	23	flat	_	_
+23	552	552	NUM	CD	NumType=Card	22	nummod	_	_
+24	miliar	miliar	NUM	CD	NumType=Card	23	flat	_	_
 25	pada	pada	ADP	IN	_	26	case	_	_
 26	semester	semester	NOUN	NN	Number=Sing	22	nmod:tmod	_	_
 27	pertama	pertama	ADJ	JJ	_	26	amod	_	_
@@ -6297,10 +6297,10 @@
 36	meningkat	tingkat	VERB	VB	Voice=Act	0	root	_	_
 37	dari	dari	ADP	IN	_	38	case	_	_
 38	Rp	Rp	NOUN	NN	Number=Sing	36	obl	_	SpaceAfter=No
-39	189	189	NUM	CD	_	38	nummod	_	_
+39	189	189	NUM	CD	NumType=Card	38	nummod	_	_
 40	menjadi	jadi	VERB	VB	Voice=Act	36	ccomp	_	_
 41	Rp	Rp	NOUN	NN	Number=Sing	40	obj	_	SpaceAfter=No
-42	194	194	NUM	CD	_	41	nummod	_	SpaceAfter=No
+42	194	194	NUM	CD	NumType=Card	41	nummod	_	SpaceAfter=No
 43	,	,	PUNCT	,	_	36	punct	_	SpaceAfter=No
 44	"	"	PUNCT	''	_	36	punct	_	_
 45-46	ungkapnya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -6372,7 +6372,7 @@
 26	tersebut	sebut	DET	DT	_	25	det	_	_
 27	dilaksanakan	laksana	VERB	VB	Voice=Pass	24	advcl	_	_
 28	pada	pada	ADP	IN	_	30	case	_	_
-29	24	24	NUM	CD	_	30	nummod	_	_
+29	24	24	NUM	CD	NumType=Card	30	nummod	_	_
 30	Agustus	Agustus	PROPN	NNP	_	27	obl:tmod	_	_
 31	lalu	lalu	VERB	VB	Voice=Act	30	acl:relcl	_	_
 32	dan	dan	CCONJ	CC	_	35	cc	_	_
@@ -6417,7 +6417,7 @@
 25	karena	karena	SCONJ	IN	_	30	mark	_	_
 26	neraca	neraca	NOUN	NN	Number=Sing	30	nsubj	_	_
 27	pembayaran	bayar	NOUN	NN	Number=Sing	26	nmod	_	_
-28	2007	2007	NUM	CD	_	26	nummod	_	_
+28	2007	2007	NUM	CD	NumType=Card	26	nummod	_	_
 29	akan	akan	AUX	MD	_	30	aux	_	_
 30	menghadapi	hadap	VERB	VB	Voice=Act	19	advcl	_	_
 31-32	melemahnya	_	_	_	_	_	_	_	_
@@ -6443,7 +6443,7 @@
 2	sisa	sisa	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
 3	nya	nya	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 4	sebesar	sebesar	NOUN	NN	Number=Sing	2	nmod	_	_
-5	17	17	NUM	CD	_	6	nummod	_	_
+5	17	17	NUM	CD	NumType=Card	6	nummod	_	_
 6	persen	persen	NOUN	NN	Number=Sing	4	nmod	_	_
 7	digolongkan	golong	VERB	VB	Voice=Pass	0	root	_	_
 8	sebagai	bagai	ADP	IN	_	9	case	_	_
@@ -6459,7 +6459,7 @@
 17	pun	pun	PART	RP	_	16	advmod:emph	_	_
 18	meningkat	tingkat	VERB	VB	Voice=Act	9	acl:relcl	_	_
 19	di	di	ADP	IN	_	20	case	_	_
-20	2006	2006	NUM	CD	_	18	obl	_	_
+20	2006	2006	NUM	CD	NumType=Card	18	obl	_	_
 21	tetapi	tetapi	CCONJ	CC	_	23	cc	_	_
 22	dari	dari	ADP	IN	_	23	case	_	_
 23	basis	basis	NOUN	NN	Number=Sing	18	conj	_	_
@@ -6471,23 +6471,23 @@
 29	kredit	kredit	NOUN	NN	Number=Sing	28	nmod	_	_
 30	bermasalah	masalah	VERB	VB	Voice=Act	29	ccomp	_	_
 31	dari	dari	ADP	IN	_	33	case	_	_
-32	kedua	kedua	NUM	CD	_	33	nummod	_	_
+32	kedua	kedua	NUM	CD	NumType=Card	33	nummod	_	_
 33	segmen	segmen	NOUN	NN	Number=Sing	28	nmod	_	_
 34	tersebut	sebut	DET	DT	_	33	det	_	_
 35	meningkat	tingkat	VERB	VB	Voice=Act	23	acl:relcl	_	_
 36	menjadi	jadi	VERB	VB	Voice=Act	35	ccomp	_	_
-37	2,1	2,1	NUM	CD	_	38	nummod	_	_
+37	2,1	2,1	NUM	CD	NumType=Card	38	nummod	_	_
 38	persen	persen	NOUN	NN	Number=Sing	36	obj	_	_
 39	di	di	ADP	IN	_	41	case	_	_
 40	akhir	akhir	NOUN	NN	Number=Sing	41	nmod:lmod	_	_
 41	tahun	tahun	NOUN	NN	Number=Sing	38	nmod:tmod	_	_
-42	2006	2006	NUM	CD	_	41	nummod	_	_
+42	2006	2006	NUM	CD	NumType=Card	41	nummod	_	_
 43	dari	dari	ADP	IN	_	45	case	_	_
-44	1,7	1,7	NUM	CD	_	45	nummod	_	_
+44	1,7	1,7	NUM	CD	NumType=Card	45	nummod	_	_
 45	persen	persen	NOUN	NN	Number=Sing	35	obl	_	_
 46	di	di	ADP	IN	_	48	case	_	_
 47	akhir	akhir	NOUN	NN	Number=Sing	48	nummod	_	_
-48	2005	2005	NUM	CD	_	45	nmod	_	SpaceAfter=No
+48	2005	2005	NUM	CD	NumType=Card	45	nmod	_	SpaceAfter=No
 49	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = csui-test-201
@@ -6508,12 +6508,12 @@
 13	CPO	CPO	PROPN	NNP	_	10	appos	_	_
 14	perseroan	perseroan	NOUN	NN	Number=Sing	10	nmod	_	_
 15	sebesar	sebesar	NOUN	NN	Number=Sing	10	nmod	_	_
-16	66,1	66,1	NUM	CD	_	17	nummod	_	_
+16	66,1	66,1	NUM	CD	NumType=Card	17	nummod	_	_
 17	persen	persen	NOUN	NN	Number=Sing	15	nmod	_	_
 18	atau	atau	CCONJ	CC	_	19	cc	_	_
 19	menjadi	jadi	VERB	VB	Voice=Act	5	conj	_	_
 20	Rp	Rp	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
-21	5.763	5.763	NUM	CD	_	20	nummod	_	_
+21	5.763	5.763	NUM	CD	NumType=Card	20	nummod	_	_
 22	per	per	ADP	IN	_	23	case	_	_
 23	kg	kg	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	5	punct	_	_
@@ -6543,7 +6543,7 @@
 20	tua	tua	NOUN	NN	Number=Sing	19	nmod	_	_
 21	perokok	rokok	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	25	punct	_	_
-23	90	90	NUM	CD	_	24	nummod	_	SpaceAfter=No
+23	90	90	NUM	CD	NumType=Card	24	nummod	_	SpaceAfter=No
 24	%	%	SYM	SYM	_	25	nsubj	_	_
 25	menjadi	jadi	VERB	VB	Voice=Act	14	advcl	_	_
 26	perokok	rokok	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
@@ -6555,23 +6555,23 @@
 # text_en = "The 2007 APBN will be closed with a deficit of IDR 49.5 trillion or less than the target of IDR 58.3 trillion," said the Minister of Finance at a press conference after the plenary cabinet meeting at the Presidential Office, Jakarta, Tuesday.
 1	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
 2	APBNP	APBNP	PROPN	NNP	_	5	nsubj:pass	_	_
-3	2007	2007	NUM	CD	_	2	nummod	_	_
+3	2007	2007	NUM	CD	NumType=Card	2	nummod	_	_
 4	akan	akan	AUX	MD	_	5	aux	_	_
 5	ditutup	tutup	VERB	VB	Voice=Pass	0	root	_	_
 6	dengan	dengan	SCONJ	IN	_	8	mark	_	_
 7	defisit	defisit	NOUN	NN	Number=Sing	8	nmod	_	_
 8	sebesar	sebesar	NOUN	NN	Number=Sing	5	advcl	_	_
 9	Rp	Rp	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
-10	49,5	49,5	NUM	CD	_	9	nummod	_	_
-11	triliun	triliun	NUM	CD	_	10	flat	_	_
+10	49,5	49,5	NUM	CD	NumType=Card	9	nummod	_	_
+11	triliun	triliun	NUM	CD	NumType=Card	10	flat	_	_
 12	atau	atau	CCONJ	CC	_	14	cc	_	_
 13	lebih	lebih	ADV	RB	_	14	advmod	_	_
 14	kecil	kecil	ADJ	JJ	_	8	conj	_	_
 15	dari	dari	ADP	IN	_	16	case	_	_
 16	sasaran	sasar	NOUN	NN	Number=Sing	14	obl	_	_
 17	Rp	Rp	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
-18	58,3	58,3	NUM	CD	_	17	nummod	_	_
-19	triliun	triliun	NUM	CD	_	18	flat	_	SpaceAfter=No
+18	58,3	58,3	NUM	CD	NumType=Card	17	nummod	_	_
+19	triliun	triliun	NUM	CD	NumType=Card	18	flat	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
 21	"	"	PUNCT	''	_	5	punct	_	_
 22	kata	kata	VERB	VB	Voice=Act	5	parataxis	_	_
@@ -6609,22 +6609,22 @@
 13	CPO	CPO	PROPN	NNP	_	10	appos	_	_
 14	AALI	AALI	PROPN	NNP	_	9	appos	_	_
 15	sebesar	sebesar	NOUN	NN	Number=Sing	8	nmod	_	_
-16	10	10	NUM	CD	_	17	nummod	_	_
+16	10	10	NUM	CD	NumType=Card	17	nummod	_	_
 17	persen	persen	NOUN	NN	Number=Sing	15	nmod	_	_
 18	dari	dari	ADP	IN	_	20	case	_	_
-19	223	223	NUM	CD	_	20	nummod	_	_
+19	223	223	NUM	CD	NumType=Card	20	nummod	_	_
 20	ton	ton	NOUN	NN	Number=Sing	8	nmod	_	_
 21	pada	pada	ADP	IN	_	22	case	_	_
 22	kuartal	kuartal	NOUN	NN	Number=Sing	20	nmod:tmod	_	_
 23	I	I	ADJ	JJ	_	22	amod	_	_
-24	2006	2006	NUM	CD	_	22	nummod	_	_
+24	2006	2006	NUM	CD	NumType=Card	22	nummod	_	_
 25	menjadi	jadi	VERB	VB	Voice=Act	8	acl:relcl	_	_
-26	200.662	200.662	NUM	CD	_	27	nummod	_	_
+26	200.662	200.662	NUM	CD	NumType=Card	27	nummod	_	_
 27	ton	ton	NOUN	NN	Number=Sing	25	obj	_	_
 28	pada	pada	ADP	IN	_	29	case	_	_
 29	kuartal	kuartal	NOUN	NN	Number=Sing	27	nmod:tmod	_	_
 30	I	I	ADJ	JJ	_	29	amod	_	_
-31	2007	2007	NUM	CD	_	29	nummod	_	SpaceAfter=No
+31	2007	2007	NUM	CD	NumType=Card	29	nummod	_	SpaceAfter=No
 32	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
 33	"	"	PUNCT	''	_	5	punct	_	_
 34-35	katanya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -6648,7 +6648,7 @@
 11	di	di	ADP	IN	_	12	case	_	_
 12	bulan	bulan	NOUN	NN	Number=Sing	10	obl:tmod	_	_
 13	April	April	PROPN	NNP	_	12	nmod:tmod	_	_
-14	2007	2007	NUM	CD	_	12	nummod	_	SpaceAfter=No
+14	2007	2007	NUM	CD	NumType=Card	12	nummod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = csui-test-206
@@ -6760,7 +6760,7 @@
 26	bahkan	bahkan	ADV	RB	_	30	advmod	_	_
 27	di	di	ADP	IN	_	30	case	_	_
 28	atas	atas	NOUN	NN	Number=Sing	30	nmod:lmod	_	_
-29	10	10	NUM	CD	_	30	nummod	_	_
+29	10	10	NUM	CD	NumType=Card	30	nummod	_	_
 30	persen	persen	NOUN	NN	Number=Sing	23	conj	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	20	punct	_	_
 
@@ -6814,16 +6814,16 @@
 22	II/2003	II/2003	PROPN	NNP	_	21	flat:name	_	_
 23	sebesar	sebesar	NOUN	NN	Number=Sing	21	nmod	_	_
 24	Rp	Rp	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
-25	300	300	NUM	CD	_	24	nummod	_	_
-26	miliar	miliar	NUM	CD	_	25	flat	_	_
+25	300	300	NUM	CD	NumType=Card	24	nummod	_	_
+26	miliar	miliar	NUM	CD	NumType=Card	25	flat	_	_
 27	yang	yang	PRON	IN	PronType=Rel	29	nsubj	_	_
 28	akan	akan	AUX	MD	_	29	aux	_	_
 29	jatuh	jatuh	VERB	VB	Voice=Act	21	acl:relcl	_	_
 30	tempo	tempo	NOUN	NN	Number=Sing	29	obj	_	_
 31	pada	pada	ADP	IN	_	33	case	_	_
-32	24	24	NUM	CD	_	33	nummod	_	_
+32	24	24	NUM	CD	NumType=Card	33	nummod	_	_
 33	Juni	Juni	PROPN	NNP	_	29	obl:tmod	_	_
-34	2008	2008	NUM	CD	_	33	nummod	_	SpaceAfter=No
+34	2008	2008	NUM	CD	NumType=Card	33	nummod	_	SpaceAfter=No
 35	,	,	PUNCT	,	_	37	punct	_	_
 36	dan	dan	CCONJ	CC	_	37	cc	_	_
 37	memberikan	beri	VERB	VB	Voice=Act	8	conj	_	_
@@ -6881,7 +6881,7 @@
 41	rata-rata	rata	NOUN	NN	Number=Sing	39	obl	_	_
 42	tingkat	tingkat	NOUN	NN	Number=Sing	41	nmod	_	_
 43	inflasi	inflasi	NOUN	NN	Number=Sing	41	nmod	_	_
-44	6	6	NUM	CD	_	45	nummod	_	_
+44	6	6	NUM	CD	NumType=Card	45	nummod	_	_
 45	persen	persen	NOUN	NN	Number=Sing	41	nmod	_	SpaceAfter=No
 46	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -6940,7 +6940,7 @@
 # text_en = In the first 10 months, AALI's super CPO production increased by 4.6 percent from 482,302 tons to 504,469 tons.
 1	Pada	pada	ADP	IN	_	2	case	_	_
 2	periode	periode	NOUN	NN	Number=Sing	11	obl:tmod	_	_
-3	10	10	NUM	CD	_	4	nummod	_	_
+3	10	10	NUM	CD	NumType=Card	4	nummod	_	_
 4	bulan	bulan	NOUN	NN	Number=Sing	2	nmod	_	_
 5	pertama	pertama	ADJ	JJ	_	4	amod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	11	punct	_	_
@@ -6950,13 +6950,13 @@
 10	AALI	AALI	PROPN	NNP	_	7	appos	_	_
 11	naik	naik	VERB	VB	Voice=Act	0	root	_	_
 12	sebesar	sebesar	NOUN	NN	Number=Sing	11	obj	_	_
-13	4,6	4,6	NUM	CD	_	14	nummod	_	_
+13	4,6	4,6	NUM	CD	NumType=Card	14	nummod	_	_
 14	persen	persen	NOUN	NN	Number=Sing	12	nmod	_	_
 15	dari	dari	ADP	IN	_	17	case	_	_
-16	482.302	482.302	NUM	CD	_	17	nummod	_	_
+16	482.302	482.302	NUM	CD	NumType=Card	17	nummod	_	_
 17	ton	ton	NOUN	NN	Number=Sing	11	obl	_	_
 18	menjadi	jadi	VERB	VB	Voice=Act	11	advcl	_	_
-19	504.469	504.469	NUM	CD	_	20	nummod	_	_
+19	504.469	504.469	NUM	CD	NumType=Card	20	nummod	_	_
 20	ton	ton	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -6976,28 +6976,28 @@
 11	pada	pada	ADP	IN	_	12	case	_	_
 12	triwulan	triwulan	NOUN	NN	Number=Sing	10	obl:tmod	_	_
 13	II	II	ADJ	JJ	_	12	amod	_	_
-14	2007	2007	NUM	CD	_	12	nummod	_	_
+14	2007	2007	NUM	CD	NumType=Card	12	nummod	_	_
 15	sebesar	sebesar	NOUN	NN	Number=Sing	10	obj	_	_
-16	2,41	2,41	NUM	CD	_	17	nummod	_	_
+16	2,41	2,41	NUM	CD	NumType=Card	17	nummod	_	_
 17	persen	persen	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	10	punct	_	_
 19	sedangkan	sedangkan	CCONJ	CC	_	36	cc	_	_
 20	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	27	nmod	_	_
 21	ekonomi	ekonomi	NOUN	NN	Number=Sing	20	nmod	_	_
 22	pada	pada	ADP	IN	_	24	case	_	_
-23	enam	enam	NUM	CD	_	24	nummod	_	_
+23	enam	enam	NUM	CD	NumType=Card	24	nummod	_	_
 24	bulan	bulan	NOUN	NN	Number=Sing	27	nmod:tmod	_	_
 25	pertama	pertama	ADJ	JJ	_	24	amod	_	_
-26	2007	2007	NUM	CD	_	24	nummod	_	_
+26	2007	2007	NUM	CD	NumType=Card	24	nummod	_	_
 27	sebesar	sebesar	NOUN	NN	Number=Sing	10	parataxis	_	_
-28	6,13	6,13	NUM	CD	_	29	nummod	_	_
+28	6,13	6,13	NUM	CD	NumType=Card	29	nummod	_	_
 29	persen	persen	NOUN	NN	Number=Sing	27	nmod	_	_
 30	dan	dan	CCONJ	CC	_	36	cc	_	_
 31	secara	cara	ADP	IN	_	32	case:adv	_	_
 32	year	year	X	FW	Foreign=Yes	36	nmod	_	_
 33	on	on	X	FW	Foreign=Yes	32	flat:foreign	_	_
 34	year	year	X	FW	Foreign=Yes	32	flat:foreign	_	_
-35	6,28	6,28	NUM	CD	_	36	nummod	_	_
+35	6,28	6,28	NUM	CD	NumType=Card	36	nummod	_	_
 36	persen	persen	NOUN	NN	Number=Sing	27	conj	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -7041,7 +7041,7 @@
 2	keberhasilan	hasil	NOUN	NN	Number=Sing	18	obl	_	_
 3	menyelesaikan	selesai	VERB	VB	Voice=Act	2	ccomp	_	_
 4	penyelesaian	penyelesaian	NOUN	NN	Number=Sing	3	obj	_	_
-5	tiga	tiga	NUM	CD	_	6	nummod	_	_
+5	tiga	tiga	NUM	CD	NumType=Card	6	nummod	_	_
 6	Undang-undang	Undang-undang	NOUN	NN	Number=Sing	4	nmod	_	_
 7	yang	yang	PRON	IN	PronType=Rel	8	nsubj	_	_
 8	mendukung	dukung	VERB	VB	Voice=Act	6	acl:relcl	_	_
@@ -7069,17 +7069,17 @@
 4	keuangan	uang	NOUN	NN	Number=Sing	3	nmod	_	_
 5	LTLS	LTLS	PROPN	NNP	_	3	nmod	_	_
 6	per	per	ADP	IN	_	8	case	_	_
-7	30	30	NUM	CD	_	8	nummod	_	_
+7	30	30	NUM	CD	NumType=Card	8	nummod	_	_
 8	Juni	Juni	PROPN	NNP	_	3	nmod:tmod	_	_
-9	2007	2007	NUM	CD	_	8	nummod	_	SpaceAfter=No
+9	2007	2007	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	2	punct	_	_
 11	outstanding	outstanding	X	FW	Foreign=Yes	2	obl	_	_
 12	Obligasi	Obligasi	PROPN	NNP	_	11	nmod	_	_
 13	II/2003	II/2003	PROPN	NNP	_	12	flat:name	_	_
 14	hanya	hanya	ADV	RB	_	15	advmod	_	_
 15	Rp	Rp	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
-16	246,76	246,76	NUM	CD	_	15	nummod	_	_
-17	miliar	miliar	NUM	CD	_	16	flat	_	_
+16	246,76	246,76	NUM	CD	NumType=Card	15	nummod	_	_
+17	miliar	miliar	NUM	CD	NumType=Card	16	flat	_	_
 18	karena	karena	SCONJ	IN	_	24	mark	_	_
 19	beberapa	beberapa	DET	DT	Number=Plur|PronType=Ind	24	nsubj:pass	_	_
 20	di	di	ADP	IN	_	22	case	_	_
@@ -7124,7 +7124,7 @@
 11	ini	ini	DET	DT	PronType=Dem	10	det	_	_
 12	berencana	rencana	VERB	VB	Voice=Act	0	root	_	_
 13	menambah	tambah	VERB	VB	Voice=Act	12	ccomp	_	_
-14	lima	lima	NUM	CD	_	15	nummod	_	_
+14	lima	lima	NUM	CD	NumType=Card	15	nummod	_	_
 15	pesawat	pesawat	NOUN	NN	Number=Sing	13	obj	_	_
 16	terbang	terbang	NOUN	NN	Number=Sing	15	nmod	_	_
 17	lagi	lagi	ADV	RB	_	13	advmod	_	_
@@ -7210,7 +7210,7 @@
 16	Mayapada	Mayapada	PROPN	NNP	_	14	flat:name	_	_
 17	II	II	PROPN	NNP	_	14	flat:name	_	_
 18	Tahun	Tahun	NOUN	NN	Number=Sing	14	nmod	_	_
-19	2007	2007	NUM	CD	_	18	nummod	_	_
+19	2007	2007	NUM	CD	NumType=Card	18	nummod	_	_
 20	akan	akan	AUX	MD	_	21	aux	_	_
 21	diterbitkan	terbit	VERB	VB	Voice=Pass	13	ccomp	_	_
 22	dalam	dalam	ADP	IN	_	23	case	_	_
@@ -7218,14 +7218,14 @@
 24	A	A	PROPN	NNP	_	23	flat:name	_	_
 25	berjangka	jangka	VERB	VB	Voice=Act	23	acl:relcl	_	_
 26	waktu	waktu	NOUN	NN	Number=Sing	25	obl	_	_
-27	tiga	tiga	NUM	CD	_	28	nummod	_	_
+27	tiga	tiga	NUM	CD	NumType=Card	28	nummod	_	_
 28	tahun	tahun	NOUN	NN	Number=Sing	25	obl:tmod	_	_
 29	dan	dan	CCONJ	CC	_	30	cc	_	_
 30	Seri	Seri	PROPN	NNP	_	23	conj	_	_
 31	B	B	PROPN	NNP	_	30	flat:name	_	_
 32	berjangka	jangka	VERB	VB	Voice=Act	30	acl:relcl	_	_
 33	waktu	waktu	NOUN	NN	Number=Sing	32	obl	_	_
-34	lima	lima	NUM	CD	_	35	nummod	_	_
+34	lima	lima	NUM	CD	NumType=Card	35	nummod	_	_
 35	tahun	tahun	NOUN	NN	Number=Sing	32	obl:tmod	_	_
 36	dengan	dengan	SCONJ	IN	_	37	mark	_	_
 37	memberikan	beri	VERB	VB	Voice=Act	21	advcl	_	_
@@ -7363,7 +7363,7 @@
 19	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	18	nmod:poss	_	_
 20	yang	yang	PRON	IN	PronType=Rel	21	nsubj	_	_
 21	mencapai	capai	VERB	VB	Voice=Act	16	acl:relcl	_	_
-22	23,32	23,32	NUM	CD	_	23	nummod	_	_
+22	23,32	23,32	NUM	CD	NumType=Card	23	nummod	_	_
 23	persen	persen	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -7431,7 +7431,7 @@
 26	sama	sama	ADJ	JJ	_	24	acl:relcl	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	24	punct	_	_
 28	yaitu	yaitu	SCONJ	IN	_	30	mark	_	_
-29	9	9	NUM	CD	_	30	nummod	_	_
+29	9	9	NUM	CD	NumType=Card	30	nummod	_	_
 30	persen	persen	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	,	_	24	punct	_	_
 32	setelah	setelah	SCONJ	IN	_	45	mark	_	_
@@ -7488,11 +7488,11 @@
 6	restoran	restoran	NOUN	NN	Number=Sing	2	conj	_	_
 7	PPh	PPh	NOUN	NN	Number=Sing	8	nsubj	_	_
 8	tumbuh	tumbuh	VERB	VB	Voice=Act	0	root	_	_
-9	25,8	25,8	NUM	CD	_	10	nummod	_	_
+9	25,8	25,8	NUM	CD	NumType=Card	10	nummod	_	_
 10	persen	persen	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	8	punct	_	_
 12	PPN	PPN	NOUN	NN	Number=Sing	8	conj	_	_
-13	27,4	27,4	NUM	CD	_	14	nummod	_	_
+13	27,4	27,4	NUM	CD	NumType=Card	14	nummod	_	_
 14	persen	persen	NOUN	NN	Number=Sing	12	orphan	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -7504,17 +7504,17 @@
 3	ini	ini	DET	DT	PronType=Dem	2	det	_	_
 4	mengalami	alam	VERB	VB	Voice=Act	0	root	_	_
 5	penurunan	turun	NOUN	NN	Number=Sing	4	obj	_	_
-6	8,7	8,7	NUM	CD	_	7	nummod	_	_
+6	8,7	8,7	NUM	CD	NumType=Card	7	nummod	_	_
 7	persen	persen	NOUN	NN	Number=Sing	5	nmod	_	_
 8	dibanding	banding	VERB	VB	Voice=Pass	5	ccomp	_	_
 9	periode	periode	NOUN	NN	Number=Sing	8	obl:tmod	_	_
 10	Januari	Januari	PROPN	NNP	_	9	nmod	_	SpaceAfter=No
 11	-	-	PUNCT	:	_	12	punct	_	SpaceAfter=No
 12	Oktober	Oktober	PROPN	NNP	_	10	nmod:tmod	_	_
-13	2006	2006	NUM	CD	_	10	nummod	_	_
+13	2006	2006	NUM	CD	NumType=Card	10	nummod	_	_
 14	yang	yang	PRON	IN	PronType=Rel	15	nsubj	_	_
 15	mencapai	capai	VERB	VB	Voice=Act	9	acl:relcl	_	_
-16	761.253	761.253	NUM	CD	_	17	nummod	_	_
+16	761.253	761.253	NUM	CD	NumType=Card	17	nummod	_	_
 17	ton	ton	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -7567,11 +7567,11 @@
 7	(	(	PUNCT	-LRB-	_	8	punct	_	SpaceAfter=No
 8	APBN	APBN	PROPN	NNP	_	2	appos	_	SpaceAfter=No
 9	)	)	PUNCT	-RRB-	_	8	punct	_	_
-10	2007	2007	NUM	CD	_	2	nummod	_	_
+10	2007	2007	NUM	CD	NumType=Card	2	nummod	_	_
 11	sebesar	sebesar	NOUN	NN	Number=Sing	0	root	_	_
 12	Rp	Rp	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
-13	763	763	NUM	CD	_	12	nummod	_	_
-14	triliun	triliun	NUM	CD	_	13	flat	_	_
+13	763	763	NUM	CD	NumType=Card	12	nummod	_	_
+14	triliun	triliun	NUM	CD	NumType=Card	13	flat	_	_
 15	dengan	dengan	SCONJ	IN	_	23	mark	_	_
 16	alokasi	alokasi	NOUN	NN	Number=Sing	23	nsubj	_	_
 17	untuk	untuk	ADP	IN	_	18	case	_	_
@@ -7581,11 +7581,11 @@
 21	daerah	daerah	NOUN	NN	Number=Sing	18	conj	_	_
 22	masing-masing	masing-masing	PRON	PRP	_	23	nmod	_	_
 23	Rp	Rp	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
-24	504	504	NUM	CD	_	23	nummod	_	_
+24	504	504	NUM	CD	NumType=Card	23	nummod	_	_
 25	dan	dan	CCONJ	CC	_	26	cc	_	_
 26	Rp	Rp	NOUN	NN	Number=Sing	23	conj	_	SpaceAfter=No
-27	259	259	NUM	CD	_	26	nummod	_	_
-28	triliun	triliun	NUM	CD	_	27	flat	_	SpaceAfter=No
+27	259	259	NUM	CD	NumType=Card	26	nummod	_	_
+28	triliun	triliun	NUM	CD	NumType=Card	27	flat	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = csui-test-234
@@ -7607,29 +7607,29 @@
 14	,	,	PUNCT	,	_	15	punct	_	_
 15	menyatakan	nyata	VERB	VB	Voice=Act	0	root	_	_
 16	dalam	dalam	ADP	IN	_	18	case	_	_
-17	tiga	tiga	NUM	CD	_	18	nummod	_	_
+17	tiga	tiga	NUM	CD	NumType=Card	18	nummod	_	_
 18	bulan	bulan	NOUN	NN	Number=Sing	23	obl:tmod	_	_
 19	pertama	pertama	ADJ	JJ	_	18	amod	_	_
 20	hingga	hingga	ADP	IN	_	21	case	_	_
 21	Maret	Maret	PROPN	NNP	_	23	obl:tmod	_	_
-22	2007	2007	NUM	CD	_	21	nummod	_	_
+22	2007	2007	NUM	CD	NumType=Card	21	nummod	_	_
 23	berhasil	hasil	VERB	VB	Voice=Act	15	ccomp	_	_
 24	membukukan	buku	VERB	VB	Voice=Act	23	ccomp	_	_
 25	laba	laba	NOUN	NN	Number=Sing	24	obj	_	_
 26	bersih	bersih	ADJ	JJ	_	25	amod	_	_
 27	konsolidasi	konsolidasi	NOUN	NN	Number=Sing	25	nmod	_	_
 28	Rp	Rp	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
-29	13,91	13,91	NUM	CD	_	28	nummod	_	_
-30	miliar	miliar	NUM	CD	_	29	flat	_	SpaceAfter=No
+29	13,91	13,91	NUM	CD	NumType=Card	28	nummod	_	_
+30	miliar	miliar	NUM	CD	NumType=Card	29	flat	_	SpaceAfter=No
 31	,	,	PUNCT	,	_	33	punct	_	_
 32	atau	atau	CCONJ	CC	_	33	cc	_	_
 33	melonjak	lonjak	VERB	VB	Voice=Act	28	conj	_	_
-34	543,98	543,98	NUM	CD	_	35	nummod	_	_
+34	543,98	543,98	NUM	CD	NumType=Card	35	nummod	_	_
 35	persen	persen	NOUN	NN	Number=Sing	33	obj	_	_
 36	dari	dari	ADP	IN	_	37	case	_	_
 37	Rp	Rp	NOUN	NN	Number=Sing	35	nmod	_	SpaceAfter=No
-38	2,16	2,16	NUM	CD	_	37	nummod	_	_
-39	miliar	miliar	NUM	CD	_	38	flat	_	_
+38	2,16	2,16	NUM	CD	NumType=Card	37	nummod	_	_
+39	miliar	miliar	NUM	CD	NumType=Card	38	flat	_	_
 40	pada	pada	ADP	IN	_	41	case	_	_
 41	periode	periode	NOUN	NN	Number=Sing	37	nmod:tmod	_	_
 42	sama	sama	ADJ	JJ	_	41	amod	_	_
@@ -7662,15 +7662,15 @@
 2	Dari	Dari	ADP	IN	_	3	case	_	_
 3	kontrak	kontrak	NOUN	NN	Number=Sing	12	nmod	_	_
 4	awal	awal	NOUN	NN	Number=Sing	3	nmod:lmod	_	_
-5	62	62	NUM	CD	_	6	nummod	_	_
+5	62	62	NUM	CD	NumType=Card	6	nummod	_	_
 6	MMSCFD	MMSCFD	NOUN	NN	Number=Sing	3	nmod	_	_
 7	pasokan	pasok	NOUN	NN	Number=Sing	12	nmod	_	_
 8	gas	gas	NOUN	NN	Number=Sing	7	nmod	_	_
 9	yang	yang	PRON	IN	PronType=Rel	10	nsubj:pass	_	_
 10	diterima	terima	VERB	VB	Voice=Pass	7	acl:relcl	_	_
 11	hanya	hanya	ADV	RB	_	12	advmod	_	_
-12	45	45	NUM	CD	_	0	root	_	_
-13	juta	juta	NUM	CD	_	12	flat	_	_
+12	45	45	NUM	CD	NumType=Card	0	root	_	_
+13	juta	juta	NUM	CD	NumType=Card	12	flat	_	_
 14	metrik	metrik	NOUN	NN	Number=Sing	12	nmod	_	_
 15	kaki	kaki	NOUN	NN	Number=Sing	14	nmod	_	_
 16	kubik	kubik	NOUN	NN	Number=Sing	14	nmod	_	_
@@ -7729,11 +7729,11 @@
 16	obligasi	obligasi	PROPN	NNP	_	12	conj	_	_
 17	I	I	PROPN	NNP	_	16	flat:name	_	_
 18	tahun	tahun	NOUN	NN	Number=Sing	16	nmod:tmod	_	_
-19	2007	2007	NUM	CD	_	18	nummod	_	_
+19	2007	2007	NUM	CD	NumType=Card	18	nummod	_	_
 20	senilai	nilai	NOUN	NN	Number=Sing	16	nmod	_	_
 21	Rp	Rp	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
-22	750	750	NUM	CD	_	21	nummod	_	_
-23	miliar	miliar	NUM	CD	_	22	flat	_	_
+22	750	750	NUM	CD	NumType=Card	21	nummod	_	_
+23	miliar	miliar	NUM	CD	NumType=Card	22	flat	_	_
 24	yang	yang	PRON	IN	PronType=Rel	25	nsubj:pass	_	_
 25	digunakan	guna	VERB	VB	Voice=Pass	16	acl:relcl	_	_
 26	untuk	untuk	ADP	IN	_	28	case	_	_
@@ -7777,18 +7777,18 @@
 6	kata	kata	VERB	VB	Voice=Act	11	parataxis	_	_
 7	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	6	punct	_	_
-9	49,6	49,6	NUM	CD	_	10	nummod	_	_
+9	49,6	49,6	NUM	CD	NumType=Card	10	nummod	_	_
 10	persen	persen	NOUN	NN	Number=Sing	11	nsubj	_	_
 11	berasal	asal	VERB	VB	Voice=Act	0	root	_	_
 12	dari	dari	ADP	IN	_	13	case	_	_
 13	Sumatera	Sumatera	PROPN	NNP	_	11	obl	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	16	punct	_	_
-15	29,6	29,6	NUM	CD	_	16	nummod	_	_
+15	29,6	29,6	NUM	CD	NumType=Card	16	nummod	_	_
 16	persen	persen	NOUN	NN	Number=Sing	11	conj	_	_
 17	dari	dari	ADP	IN	_	18	case	_	_
 18	Kalimantan	Kalimantan	PROPN	NNP	_	16	nmod	_	_
 19	dan	dan	CCONJ	CC	_	21	cc	_	_
-20	20,9	20,9	NUM	CD	_	21	nummod	_	_
+20	20,9	20,9	NUM	CD	NumType=Card	21	nummod	_	_
 21	persen	persen	NOUN	NN	Number=Sing	11	conj	_	_
 22	dari	dari	ADP	IN	_	23	case	_	_
 23	Sulawesi	Sulawesi	PROPN	NNP	_	21	nmod	_	SpaceAfter=No
@@ -7846,7 +7846,7 @@
 3	didirikan	diri	VERB	VB	Voice=Pass	0	root	_	_
 4	pada	pada	ADP	IN	_	5	case	_	_
 5	tahun	tahun	NOUN	NN	Number=Sing	3	obl:tmod	_	_
-6	1971	1971	NUM	CD	_	5	nummod	_	_
+6	1971	1971	NUM	CD	NumType=Card	5	nummod	_	_
 7	oleh	oleh	ADP	IN	_	8	case	_	_
 8	keluarga	keluarga	NOUN	NN	Number=Sing	3	obl:agent	_	_
 9	Gunawan	Gunawan	PROPN	NNP	_	8	nmod	_	_
@@ -7866,7 +7866,7 @@
 23	Tbk	Tbk	PROPN	NNP	_	20	flat:name	_	_
 24	yang	yang	PRON	IN	PronType=Rel	25	nsubj	_	_
 25	menguasai	kuasa	VERB	VB	Voice=Act	20	acl:relcl	_	_
-26	45,1	45,1	NUM	CD	_	27	nummod	_	SpaceAfter=No
+26	45,1	45,1	NUM	CD	NumType=Card	27	nummod	_	SpaceAfter=No
 27	%	%	SYM	SYM	_	25	obj	_	_
 28	saham	saham	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	3	punct	_	_
@@ -7964,7 +7964,7 @@
 4	ekspor	ekspor	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
 5	tersebut	sebut	DET	DT	_	4	det	_	_
 6	sebesar	sebesar	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
-7	45,6	45,6	NUM	CD	_	8	nummod	_	_
+7	45,6	45,6	NUM	CD	NumType=Card	8	nummod	_	_
 8	persen	persen	NOUN	NN	Number=Sing	6	nmod	_	_
 9	dipasarkan	pasar	VERB	VB	Voice=Pass	0	root	_	_
 10	ke	ke	ADP	IN	_	11	case	_	_
@@ -7983,25 +7983,25 @@
 22	nya	nya	DET	DT	Definite=Def|PronType=Art	21	det	_	_
 23	ke	ke	ADP	IN	_	24	case	_	_
 24	Vietnam	Vietnam	PROPN	NNP	_	21	nmod	_	_
-25	14,5	14,5	NUM	CD	_	26	nummod	_	_
+25	14,5	14,5	NUM	CD	NumType=Card	26	nummod	_	_
 26	persen	persen	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	28	punct	_	_
 28	Belanda	Belanda	PROPN	NNP	_	24	conj	_	_
-29	13,1	13,1	NUM	CD	_	30	nummod	_	_
+29	13,1	13,1	NUM	CD	NumType=Card	30	nummod	_	_
 30	persen	persen	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	,	_	32	punct	_	_
 32	China	China	PROPN	NNP	_	24	conj	_	_
-33	9,4	9,4	NUM	CD	_	34	nummod	_	_
+33	9,4	9,4	NUM	CD	NumType=Card	34	nummod	_	_
 34	persen	persen	NOUN	NN	Number=Sing	32	nmod	_	SpaceAfter=No
 35	,	,	PUNCT	,	_	36	punct	_	_
 36	Malaysia	Malaysia	PROPN	NNP	_	24	conj	_	_
-37	2,4	2,4	NUM	CD	_	38	nummod	_	_
+37	2,4	2,4	NUM	CD	NumType=Card	38	nummod	_	_
 38	persen	persen	NOUN	NN	Number=Sing	36	nmod	_	_
 39	dan	dan	CCONJ	CC	_	40	cc	_	_
 40-41	lainnya	_	_	_	_	_	_	_	_
 40	lain	lain	ADJ	JJ	_	24	conj	_	_
 41	nya	nya	DET	DT	Definite=Def|PronType=Art	40	det	_	_
-42	15	15	NUM	CD	_	43	nummod	_	_
+42	15	15	NUM	CD	NumType=Card	43	nummod	_	_
 43	persen	persen	NOUN	NN	Number=Sing	40	obl	_	SpaceAfter=No
 44	.	.	PUNCT	.	_	9	punct	_	_
 
@@ -8021,8 +8021,8 @@
 11	dana	dana	NOUN	NN	Number=Sing	10	obj	_	_
 12	sekitar	sekitar	ADV	RB	_	13	advmod	_	_
 13	Rp	Rp	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
-14	8,4	8,4	NUM	CD	_	13	nummod	_	_
-15	triliun	triliun	NUM	CD	_	14	flat	_	_
+14	8,4	8,4	NUM	CD	NumType=Card	13	nummod	_	_
+15	triliun	triliun	NUM	CD	NumType=Card	14	flat	_	_
 16	untuk	untuk	SCONJ	IN	_	17	mark	_	_
 17	mengakuisisi	akuisisi	VERB	VB	Voice=Act	10	advcl	_	_
 18	PT	PT	PROPN	NNP	_	17	obj	_	_
@@ -8043,7 +8043,7 @@
 4	di	di	ADP	IN	_	5	case	_	_
 5	bulan	bulan	NOUN	NN	Number=Sing	1	nmod:tmod	_	_
 6	Juni	Juni	PROPN	NNP	_	5	nmod:tmod	_	_
-7	2007	2007	NUM	CD	_	5	nummod	_	_
+7	2007	2007	NUM	CD	NumType=Card	5	nummod	_	_
 8	sangat	sangat	ADV	RB	_	9	advmod	_	_
 9	positif	positif	ADJ	JJ	_	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	9	punct	_	_
@@ -8063,14 +8063,14 @@
 10	ketiga	ketiga	ADJ	JJ	_	9	amod	_	_
 11	sebesar	sebesar	NOUN	NN	Number=Sing	7	nmod	_	_
 12	Rp	Rp	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
-13	7,4	7,4	NUM	CD	_	12	nummod	_	_
-14	triliun	triliun	NUM	CD	_	13	flat	_	SpaceAfter=No
+13	7,4	7,4	NUM	CD	NumType=Card	12	nummod	_	_
+14	triliun	triliun	NUM	CD	NumType=Card	13	flat	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = csui-test-251
 # text = Enam perusahaan di bidang Penilai Kerugian Asuransi, yaitu PT Aspac Insurance Adjuster, PT Catur Dharma Karya, PT First National Adjustment, PT Manggala Pirsa Nusantara, PT Piranti Nusa Arta Manunggal, dan PT Trias Adjastama.
 # text_en = Six companies in the Insurance Loss Assessor sector, namely PT Aspac Insurance Adjuster, PT Catur Dharma Karya, PT First National Adjustment, PT Manggala Pirsa Nusantara, PT Piranti Nusa Arta Manunggal, and PT Trias Adjastama.
-1	Enam	enam	NUM	CD	_	2	nummod	_	_
+1	Enam	enam	NUM	CD	NumType=Card	2	nummod	_	_
 2	perusahaan	usaha	NOUN	NN	Number=Sing	0	root	_	_
 3	di	di	ADP	IN	_	4	case	_	_
 4	bidang	bidang	NOUN	NN	Number=Sing	2	nmod	_	_
@@ -8161,7 +8161,7 @@
 # text_en = It only took Zuckerberg six years to achieve the success he is today, having previously launched this site while still a student at Harvard University.
 1	Hanya	hanya	ADV	RB	_	2	advmod	_	_
 2	butuh	butuh	VERB	VB	Voice=Act	0	root	_	_
-3	enam	enam	NUM	CD	_	4	nummod	_	_
+3	enam	enam	NUM	CD	NumType=Card	4	nummod	_	_
 4	tahun	tahun	NOUN	NN	Number=Sing	2	obl:tmod	_	_
 5	bagi	bagi	ADP	IN	_	6	case	_	_
 6	Zuckerberg	Zuckerberg	PROPN	NNP	_	2	obl	_	_
@@ -8208,19 +8208,19 @@
 14	)	)	PUNCT	-RRB-	_	13	punct	_	_
 15	pada	pada	ADP	IN	_	16	case	_	_
 16	Oktober	Oktober	PROPN	NNP	_	1	nmod:tmod	_	_
-17	2007	2007	NUM	CD	_	16	nummod	_	_
+17	2007	2007	NUM	CD	NumType=Card	16	nummod	_	_
 18	naik	naik	VERB	VB	Voice=Act	0	root	_	_
 19	sebesar	sebesar	NOUN	NN	Number=Sing	18	obj	_	_
-20	11,6	11,6	NUM	CD	_	21	nummod	_	_
+20	11,6	11,6	NUM	CD	NumType=Card	21	nummod	_	_
 21	persen	persen	NOUN	NN	Number=Sing	19	nmod	_	_
 22	menjadi	jadi	VERB	VB	Voice=Act	18	advcl	_	_
-23	88.343	88.343	NUM	CD	_	24	nummod	_	_
+23	88.343	88.343	NUM	CD	NumType=Card	24	nummod	_	_
 24	ton	ton	NOUN	NN	Number=Sing	22	obj	_	_
 25	dibanding	banding	VERB	VB	Voice=Pass	18	advcl	_	_
 26	September	September	PROPN	NNP	_	25	obl:tmod	_	_
 27	yang	yang	PRON	IN	PronType=Rel	30	nsubj	_	_
 28	hanya	hanya	ADV	RB	_	29	advmod	_	_
-29	79.161	79.161	NUM	CD	_	30	nummod	_	_
+29	79.161	79.161	NUM	CD	NumType=Card	30	nummod	_	_
 30	ton	ton	NOUN	NN	Number=Sing	26	acl:relcl	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	18	punct	_	_
 
@@ -8291,7 +8291,7 @@
 1	Efektif	efektif	ADJ	JJ	_	7	advcl	_	_
 2	sejak	sejak	ADP	IN	_	3	case	_	_
 3	Agustus	Agustus	PROPN	NNP	_	1	obl:tmod	_	_
-4	2007	2007	NUM	CD	_	3	nummod	_	SpaceAfter=No
+4	2007	2007	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	_	_
 6	TRJE	TRJE	PROPN	NNP	_	7	nsubj	_	_
 7	berubah	ubah	VERB	VB	Voice=Act	0	root	_	_
@@ -8307,7 +8307,7 @@
 17	Manunggal	Manunggal	PROPN	NNP	_	16	flat:name	_	_
 18	Infrasolusi	Infrasolusi	PROPN	NNP	_	16	flat:name	_	_
 19	mengakuisisi	akuisisi	VERB	VB	Voice=Act	7	advcl	_	_
-20	45	45	NUM	CD	_	21	nummod	_	_
+20	45	45	NUM	CD	NumType=Card	21	nummod	_	_
 21	persen	persen	NOUN	NN	Number=Sing	19	obj	_	_
 22-23	sahamnya	_	_	_	_	_	_	_	_
 22	saham	saham	NOUN	NN	Number=Sing	21	nmod	_	_
@@ -8321,7 +8321,7 @@
 # text_en = In the 2007 APBN, the DPR and the government increased excise revenues to Rp42.03 trillion due to an increase in funding needs.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	APBN	APBN	PROPN	NNP	_	8	obl	_	_
-3	2007	2007	NUM	CD	_	2	nummod	_	SpaceAfter=No
+3	2007	2007	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	8	punct	_	_
 5	DPR	DPR	PROPN	NNP	_	8	nsubj	_	_
 6	dan	dan	CCONJ	CC	_	7	cc	_	_
@@ -8331,8 +8331,8 @@
 10	cukai	cukai	NOUN	NN	Number=Sing	9	nmod	_	_
 11	menjadi	jadi	VERB	VB	Voice=Act	8	advcl	_	_
 12	Rp	Rp	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
-13	42,03	42,03	NUM	CD	_	12	nummod	_	_
-14	triliun	triliun	NUM	CD	_	13	flat	_	_
+13	42,03	42,03	NUM	CD	NumType=Card	12	nummod	_	_
+14	triliun	triliun	NUM	CD	NumType=Card	13	flat	_	_
 15	karena	karena	ADP	IN	_	16	case	_	_
 16-17	adanya	_	_	_	_	_	_	_	_
 16	ada	ada	VERB	VB	Voice=Act	8	advcl	_	_
@@ -8357,18 +8357,18 @@
 9	bersih	bersih	ADJ	JJ	_	8	amod	_	_
 10	perseroan	perseroan	NOUN	NN	Number=Sing	7	nmod	_	_
 11	untuk	untuk	ADP	IN	_	12	case	_	_
-12	2007	2007	NUM	CD	_	7	nmod	_	_
+12	2007	2007	NUM	CD	NumType=Card	7	nmod	_	_
 13	dapat	dapat	AUX	MD	_	14	aux	_	_
 14	meningkat	tingkat	VERB	VB	Voice=Act	6	ccomp	_	_
 15	signifikan	signifikan	ADJ	JJ	_	14	xcomp	_	_
 16	dari	dari	ADP	IN	_	19	case	_	_
-17	70	70	NUM	CD	_	19	nummod	_	_
-18	juta	juta	NUM	CD	_	17	flat	_	_
+17	70	70	NUM	CD	NumType=Card	19	nummod	_	_
+18	juta	juta	NUM	CD	NumType=Card	17	flat	_	_
 19	dolar	dolar	NOUN	NN	Number=Sing	14	obl	_	_
 20	AS	AS	PROPN	NNP	_	19	nmod	_	_
 21	menjadi	jadi	VERB	VB	Voice=Act	14	ccomp	_	_
-22	120	120	NUM	CD	_	24	nummod	_	_
-23	juta	juta	NUM	CD	_	22	flat	_	_
+22	120	120	NUM	CD	NumType=Card	24	nummod	_	_
+23	juta	juta	NUM	CD	NumType=Card	22	flat	_	_
 24	dolar	dolar	NOUN	NN	Number=Sing	21	obj	_	_
 25	AS	AS	PROPN	NNP	_	24	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	6	punct	_	_
@@ -8474,21 +8474,21 @@
 26	Januari	Januari	PROPN	NNP	_	25	nmod	_	SpaceAfter=No
 27	-	-	PUNCT	:	_	28	punct	_	SpaceAfter=No
 28	Oktober	Oktober	PROPN	NNP	_	26	nmod:tmod	_	_
-29	2007	2007	NUM	CD	_	26	nummod	_	_
+29	2007	2007	NUM	CD	NumType=Card	26	nummod	_	_
 30	hanya	hanya	ADV	RB	_	32	advmod	_	_
-31	124.450	124.450	NUM	CD	_	32	nummod	_	_
+31	124.450	124.450	NUM	CD	NumType=Card	32	nummod	_	_
 32	ton	ton	NOUN	NN	Number=Sing	21	xcomp	_	_
 33	atau	atau	CCONJ	CC	_	34	cc	_	_
 34	turun	turun	VERB	VB	Voice=Act	32	conj	_	_
-35	51,6	51,6	NUM	CD	_	36	nummod	_	_
+35	51,6	51,6	NUM	CD	NumType=Card	36	nummod	_	_
 36	persen	persen	NOUN	NN	Number=Sing	34	obj	_	_
 37	dibanding	banding	VERB	VB	Voice=Pass	34	advcl	_	_
 38	periode	periode	NOUN	NN	Number=Sing	37	obl:tmod	_	_
 39	sama	sama	ADJ	JJ	_	38	amod	_	_
-40	2006	2006	NUM	CD	_	38	nummod	_	_
+40	2006	2006	NUM	CD	NumType=Card	38	nummod	_	_
 41	yang	yang	PRON	IN	PronType=Rel	42	nsubj	_	_
 42	mencapai	capai	VERB	VB	Voice=Act	38	acl:relcl	_	_
-43	257.145	257.145	NUM	CD	_	44	nummod	_	_
+43	257.145	257.145	NUM	CD	NumType=Card	44	nummod	_	_
 44	ton	ton	NOUN	NN	Number=Sing	42	obj	_	SpaceAfter=No
 45	.	.	PUNCT	.	_	13	punct	_	_
 
@@ -8515,7 +8515,7 @@
 18	inflasi	inflasi	NOUN	NN	Number=Sing	17	nmod	_	_
 19	menjelang	jelang	ADP	IN	_	21	case	_	_
 20	akhir	akhir	NOUN	NN	Number=Sing	21	nummod	_	_
-21	2007	2007	NUM	CD	_	17	nmod	_	SpaceAfter=No
+21	2007	2007	NUM	CD	NumType=Card	17	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = csui-test-265
@@ -8576,17 +8576,17 @@
 15	nilai	nilai	NOUN	NN	Number=Sing	20	nmod	_	_
 16	total	total	NOUN	NN	Number=Sing	15	nmod	_	_
 17	sekitar	sekitar	ADV	RB	_	20	advmod	_	_
-18	7,5	7,5	NUM	CD	_	20	nummod	_	_
-19	juta	juta	NUM	CD	_	18	flat	_	_
+18	7,5	7,5	NUM	CD	NumType=Card	20	nummod	_	_
+19	juta	juta	NUM	CD	NumType=Card	18	flat	_	_
 20	dolar	dolar	NOUN	NN	Number=Sing	5	nmod	_	_
 21	AS	AS	PROPN	NNP	_	20	nmod	_	_
 22	yang	yang	PRON	IN	PronType=Rel	24	nsubj	_	_
 23	seharusnya	seharusnya	ADV	RB	_	24	advmod	_	_
 24	berakhir	akhir	VERB	VB	Voice=Act	4	acl:relcl	_	_
 25	pada	pada	ADP	IN	_	26	case	_	_
-26	2008	2008	NUM	CD	_	24	obl	_	_
+26	2008	2008	NUM	CD	NumType=Card	24	obl	_	_
 27	menjadi	jadi	VERB	VB	Voice=Act	4	ccomp	_	_
-28	2011	2011	NUM	CD	_	27	obj	_	_
+28	2011	2011	NUM	CD	NumType=Card	27	obj	_	_
 29	karena	karena	ADP	IN	_	30	case	_	_
 30-31	adanya	_	_	_	_	_	_	_	_
 30	ada	ada	VERB	VB	Voice=Act	2	advcl	_	_
@@ -8688,7 +8688,7 @@
 2	Boediono	Boediono	PROPN	NNP	_	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	7	punct	_	_
 4	APBN	APBN	PROPN	NNP	_	7	nsubj	_	_
-5	2008	2008	NUM	CD	_	4	nummod	_	_
+5	2008	2008	NUM	CD	NumType=Card	4	nummod	_	_
 6	akan	akan	AUX	MD	_	7	aux	_	_
 7	aman	aman	ADJ	JJ	_	0	root	_	_
 8	jika	jika	SCONJ	IN	_	12	mark	_	_
@@ -8699,8 +8699,8 @@
 13	sesuai	sesuai	ADJ	JJ	_	12	xcomp	_	_
 14	sasaran	sasar	NOUN	NN	Number=Sing	13	obl	_	_
 15	sebesar	sebesar	NOUN	NN	Number=Sing	14	nmod	_	_
-16	1.034	1.034	NUM	CD	_	15	nummod	_	_
-17	juta	juta	NUM	CD	_	16	flat	_	_
+16	1.034	1.034	NUM	CD	NumType=Card	15	nummod	_	_
+17	juta	juta	NUM	CD	NumType=Card	16	flat	_	_
 18	barel	barel	NOUN	NN	Number=Sing	15	nmod	_	_
 19	per	per	ADP	IN	_	20	case	_	_
 20	hari	hari	NOUN	NN	Number=Sing	15	nmod:tmod	_	_
@@ -8737,7 +8737,7 @@
 # sent_id = csui-test-272
 # text = Dua halaman naskah yang dibingkai dan ditandatangani oleh JK Rowling itu berisi Balada Nick Si Kepala Nyaris Putus.
 # text_en = The two-page manuscript, framed and signed by JK Rowling, contains Nick's Ballad The Barely Headed Off.
-1	Dua	dua	NUM	CD	_	2	nummod	_	_
+1	Dua	dua	NUM	CD	NumType=Card	2	nummod	_	_
 2	halaman	halaman	NOUN	NN	Number=Sing	12	nsubj	_	_
 3	naskah	naskah	NOUN	NN	Number=Sing	2	nmod	_	_
 4	yang	yang	PRON	IN	PronType=Rel	5	nsubj:pass	_	_
@@ -8762,7 +8762,7 @@
 # text_en = The plan to purchase the two tankers, he said, is in accordance with the company's Extraordinary General Meeting of Shareholders (EGMS) to be held on July 28, 2006.
 1	Rencana	rencana	NOUN	NN	Number=Sing	11	obl	_	_
 2	pembelian	beli	NOUN	NN	Number=Sing	1	nmod	_	_
-3	dua	dua	NUM	CD	_	4	nummod	_	_
+3	dua	dua	NUM	CD	NumType=Card	4	nummod	_	_
 4	unit	unit	NOUN	NN	Number=Sing	2	nmod	_	_
 5	tanker	tanker	NOUN	NN	Number=Sing	4	nmod	_	_
 6	tersebut	sebut	DET	DT	_	4	det	_	SpaceAfter=No
@@ -8786,9 +8786,9 @@
 24	yang	yang	PRON	IN	PronType=Rel	25	nsubj:pass	_	_
 25	diselenggarakan	selenggara	VERB	VB	Voice=Pass	13	acl:relcl	_	_
 26	pada	pada	ADP	IN	_	28	case	_	_
-27	28	28	NUM	CD	_	28	nummod	_	_
+27	28	28	NUM	CD	NumType=Card	28	nummod	_	_
 28	Juli	Juli	PROPN	NNP	_	25	obl:tmod	_	_
-29	2006	2006	NUM	CD	_	28	nummod	_	SpaceAfter=No
+29	2006	2006	NUM	CD	NumType=Card	28	nummod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = csui-test-274
@@ -8838,7 +8838,7 @@
 14	ini	ini	DET	DT	PronType=Dem	13	det	_	_
 15	telah	telah	AUX	MD	_	16	aux	_	_
 16	membeli	beli	VERB	VB	Voice=Act	0	root	_	_
-17	32	32	NUM	CD	_	16	obj	_	_
+17	32	32	NUM	CD	NumType=Card	16	obj	_	_
 18	pembangkit	bangkit	NOUN	NN	Number=Sing	17	nmod	_	_
 19	listrik	listrik	NOUN	NN	Number=Sing	18	nmod	_	_
 20	tenaga	tenaga	NOUN	NN	Number=Sing	18	nmod	_	_
@@ -8849,7 +8849,7 @@
 25	yang	yang	PRON	IN	PronType=Rel	26	nsubj	_	_
 26	setara	setara	ADJ	JJ	_	17	acl:relcl	_	_
 27	dengan	dengan	ADP	IN	_	29	case	_	_
-28	32	32	NUM	CD	_	29	nummod	_	_
+28	32	32	NUM	CD	NumType=Card	29	nummod	_	_
 29	Mega	Mega	NOUN	NN	Number=Sing	26	nmod	_	_
 30	Watt	Watt	NOUN	NN	Number=Sing	29	nmod	_	_
 31	untuk	untuk	SCONJ	IN	_	32	mark	_	_
@@ -8882,7 +8882,7 @@
 15	sirkus	sirkus	NOUN	NN	Number=Sing	13	obl	_	_
 16	sejak	sejak	SCONJ	IN	_	17	mark	_	_
 17	berusia	usia	VERB	VB	Voice=Act	13	advcl	_	_
-18	delapan	delapan	NUM	CD	_	19	nummod	_	_
+18	delapan	delapan	NUM	CD	NumType=Card	19	nummod	_	_
 19	tahun	tahun	NOUN	NN	Number=Sing	17	obl:tmod	_	_
 20	di	di	ADP	IN	_	21	case	_	_
 21	negara	negara	NOUN	NN	Number=Sing	13	obl	_	_
@@ -8900,7 +8900,7 @@
 3	pajak	pajak	NOUN	NN	Number=Sing	2	nmod	_	_
 4	sudah	sudah	AUX	MD	_	5	aux	_	_
 5	mencapai	capai	VERB	VB	Voice=Act	0	root	_	_
-6	76,8	76,8	NUM	CD	_	7	nummod	_	_
+6	76,8	76,8	NUM	CD	NumType=Card	7	nummod	_	_
 7	persen	persen	NOUN	NN	Number=Sing	5	obj	_	_
 8	dari	dari	ADP	IN	_	9	case	_	_
 9	target	target	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
@@ -8914,7 +8914,7 @@
 17	PNBP	PNBP	NOUN	NN	Number=Sing	12	appos	_	SpaceAfter=No
 18	)	)	PUNCT	-RRB-	_	17	punct	_	_
 19	mencapai	capai	VERB	VB	Voice=Act	5	parataxis	_	_
-20	73,5	73,5	NUM	CD	_	21	nummod	_	_
+20	73,5	73,5	NUM	CD	NumType=Card	21	nummod	_	_
 21	persen	persen	NOUN	NN	Number=Sing	19	obj	_	_
 22	dari	dari	ADP	IN	_	23	case	_	_
 23	target	target	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
@@ -8931,19 +8931,19 @@
 2	target	target	NOUN	NN	Number=Sing	3	nmod	_	_
 3	laba	laba	NOUN	NN	Number=Sing	6	nmod	_	_
 4	bersih	bersih	ADJ	JJ	_	3	amod	_	_
-5	2007	2007	NUM	CD	_	3	nummod	_	_
+5	2007	2007	NUM	CD	NumType=Card	3	nummod	_	_
 6	sebesar	sebesar	NOUN	NN	Number=Sing	0	root	_	_
 7	Rp	Rp	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
-8	30	30	NUM	CD	_	7	nummod	_	_
-9	miliar	miliar	NUM	CD	_	8	flat	_	_
+8	30	30	NUM	CD	NumType=Card	7	nummod	_	_
+9	miliar	miliar	NUM	CD	NumType=Card	8	flat	_	_
 10	atau	atau	CCONJ	CC	_	11	cc	_	_
 11	naik	naik	VERB	VB	Voice=Act	6	conj	_	_
 12	dibandingkan	banding	VERB	VB	Voice=Pass	11	ccomp	_	_
-13	2006	2006	NUM	CD	_	12	obl	_	_
+13	2006	2006	NUM	CD	NumType=Card	12	obl	_	_
 14	sebesar	sebesar	NOUN	NN	Number=Sing	12	obl	_	_
 15	Rp	Rp	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
-16	28,6	28,6	NUM	CD	_	15	nummod	_	_
-17	miliar	miliar	NUM	CD	_	16	flat	_	SpaceAfter=No
+16	28,6	28,6	NUM	CD	NumType=Card	15	nummod	_	_
+17	miliar	miliar	NUM	CD	NumType=Card	16	flat	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = csui-test-280
@@ -8990,8 +8990,8 @@
 13	rupiah	rupiah	NOUN	NN	Number=Sing	11	nmod	_	_
 14	mencapai	capai	VERB	VB	Voice=Act	0	root	_	_
 15	Rp	Rp	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
-16	438,823	438,823	NUM	CD	_	15	nummod	_	_
-17	triliun	triliun	NUM	CD	_	16	flat	_	_
+16	438,823	438,823	NUM	CD	NumType=Card	15	nummod	_	_
+17	triliun	triliun	NUM	CD	NumType=Card	16	flat	_	_
 18	dan	dan	CCONJ	CC	_	26	cc	_	_
 19	obligasi	obligasi	NOUN	NN	Number=Sing	26	nsubj	_	_
 20	negara	negara	NOUN	NN	Number=Sing	19	nmod	_	_
@@ -9002,23 +9002,23 @@
 25	AS	AS	PROPN	NNP	_	24	nmod	_	_
 26	mencapai	capai	VERB	VB	Voice=Act	14	conj	_	_
 27	Rp	Rp	NOUN	NN	Number=Sing	26	obj	_	SpaceAfter=No
-28	63,945	63,945	NUM	CD	_	27	nummod	_	_
-29	triliun	triliun	NUM	CD	_	28	flat	_	_
+28	63,945	63,945	NUM	CD	NumType=Card	27	nummod	_	_
+29	triliun	triliun	NUM	CD	NumType=Card	28	flat	_	_
 30	kurs	kurs	NOUN	NN	Number=Sing	27	nmod	_	_
 31	Rp	Rp	NOUN	NN	Number=Sing	30	nmod	_	SpaceAfter=No
-32	9.135	9.135	NUM	CD	_	31	nummod	_	SpaceAfter=No
+32	9.135	9.135	NUM	CD	NumType=Card	31	nummod	_	SpaceAfter=No
 33	,	,	PUNCT	,	_	27	punct	_	_
 34	termasuk	masuk	VERB	VB	Voice=Pass	27	acl:relcl	_	_
 35	penerbitan	terbit	NOUN	NN	Number=Sing	34	obl	_	_
 36	terakhir	akhir	ADJ	JJ	Degree=Sup	35	amod	_	_
 37	RI0037	RI0037	PROPN	NNP	_	35	nmod	_	_
 38	pada	pada	ADP	IN	_	40	case	_	_
-39	14	14	NUM	CD	_	40	nummod	_	_
+39	14	14	NUM	CD	NumType=Card	40	nummod	_	_
 40	Februari	Februari	PROPN	NNP	_	35	nmod:tmod	_	_
-41	2007	2007	NUM	CD	_	40	nummod	_	_
+41	2007	2007	NUM	CD	NumType=Card	40	nummod	_	_
 42	senilai	nilai	NOUN	NN	Number=Sing	35	nmod	_	_
-43	1,5	1,5	NUM	CD	_	45	nummod	_	_
-44	miliar	miliar	NUM	CD	_	43	flat	_	_
+43	1,5	1,5	NUM	CD	NumType=Card	45	nummod	_	_
+44	miliar	miliar	NUM	CD	NumType=Card	43	flat	_	_
 45	dolar	dolar	NOUN	NN	Number=Sing	42	nmod	_	_
 46	AS	AS	PROPN	NNP	_	45	nmod	_	SpaceAfter=No
 47	.	.	PUNCT	.	_	14	punct	_	_
@@ -9102,26 +9102,26 @@
 14	bersih	bersih	ADJ	JJ	_	13	amod	_	_
 15	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	12	nmod:poss	_	_
 16	dalam	dalam	ADP	IN	_	18	case	_	_
-17	sembilan	sembilan	NUM	CD	_	18	nummod	_	_
+17	sembilan	sembilan	NUM	CD	NumType=Card	18	nummod	_	_
 18	bulan	bulan	NOUN	NN	Number=Sing	12	nmod:tmod	_	_
 19	pertama	pertama	ADJ	JJ	_	18	amod	_	_
 20	yang	yang	PRON	IN	PronType=Rel	21	nsubj	_	_
 21	berakhir	akhir	VERB	VB	Voice=Act	18	acl:relcl	_	_
-22	30	30	NUM	CD	_	23	nummod	_	_
+22	30	30	NUM	CD	NumType=Card	23	nummod	_	_
 23	September	September	PROPN	NNP	_	21	obl:tmod	_	_
-24	2007	2007	NUM	CD	_	23	nummod	_	SpaceAfter=No
+24	2007	2007	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	26	punct	_	_
 26	turun	turun	VERB	VB	Voice=Act	11	ccomp	_	_
-27	6	6	NUM	CD	_	28	nummod	_	_
+27	6	6	NUM	CD	NumType=Card	28	nummod	_	_
 28	persen	persen	NOUN	NN	Number=Sing	26	obj	_	_
 29	menjadi	jadi	VERB	VB	Voice=Act	26	advcl	_	_
 30	Rp	Rp	NOUN	NN	Number=Sing	29	obj	_	SpaceAfter=No
-31	136,14	136,14	NUM	CD	_	30	nummod	_	_
-32	miliar	miliar	NUM	CD	_	31	flat	_	_
+31	136,14	136,14	NUM	CD	NumType=Card	30	nummod	_	_
+32	miliar	miliar	NUM	CD	NumType=Card	31	flat	_	_
 33	dari	dari	ADP	IN	_	34	case	_	_
 34	Rp	Rp	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
-35	144,88	144,88	NUM	CD	_	34	nummod	_	_
-36	miliar	miliar	NUM	CD	_	35	flat	_	_
+35	144,88	144,88	NUM	CD	NumType=Card	34	nummod	_	_
+36	miliar	miliar	NUM	CD	NumType=Card	35	flat	_	_
 37	pada	pada	ADP	IN	_	38	case	_	_
 38	periode	periode	NOUN	NN	Number=Sing	34	nmod:tmod	_	_
 39	yang	yang	PRON	IN	PronType=Rel	40	nsubj	_	_
@@ -9190,7 +9190,7 @@
 5	kocak	kocak	ADJ	JJ	_	1	acl:relcl	_	_
 6	berhasil	hasil	VERB	VB	Voice=Act	0	root	_	_
 7	meraih	raih	VERB	VB	Voice=Act	6	ccomp	_	_
-8	jutaan	juta	NUM	CD	_	9	nummod	_	_
+8	jutaan	juta	NUM	CD	NumType=Card	9	nummod	_	_
 9	penonton	tonton	NOUN	NN	Number=Sing	7	obj	_	_
 10	di	di	ADP	IN	_	11	case	_	_
 11	YouTube	YouTube	PROPN	NNP	_	7	obl	_	SpaceAfter=No
@@ -9207,13 +9207,13 @@
 5	di	di	ADP	IN	_	6	case	_	_
 6	Kalimantan	Kalimantan	PROPN	NNP	_	4	nmod	_	_
 7	turun	turun	VERB	VB	Voice=Act	0	root	_	_
-8	23,9	23,9	NUM	CD	_	9	nummod	_	_
+8	23,9	23,9	NUM	CD	NumType=Card	9	nummod	_	_
 9	persen	persen	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	7	punct	_	_
 11	wilayah	wilayah	NOUN	NN	Number=Sing	13	nsubj	_	_
 12	Sumatera	Sumatera	PROPN	NNP	_	11	nmod	_	_
 13	turun	turun	VERB	VB	Voice=Act	7	parataxis	_	_
-14	6,5	6,5	NUM	CD	_	15	nummod	_	_
+14	6,5	6,5	NUM	CD	NumType=Card	15	nummod	_	_
 15	persen	persen	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -9224,9 +9224,9 @@
 2	prediksi	prediksi	NOUN	NN	Number=Sing	14	nmod	_	_
 3	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	2	nmod	_	_
 4	ekonomi	ekonomi	NOUN	NN	Number=Sing	3	nmod	_	_
-5	6	6	NUM	CD	_	8	nummod	_	SpaceAfter=No
+5	6	6	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
 6	-	-	PUNCT	:	_	5	punct	_	SpaceAfter=No
-7	6,11	6,11	NUM	CD	_	5	flat	_	_
+7	6,11	6,11	NUM	CD	NumType=Card	5	flat	_	_
 8	persen	persen	NOUN	NN	Number=Sing	2	nmod	_	_
 9	pada	pada	ADP	IN	_	10	case	_	_
 10	kuartal	kuartal	NOUN	NN	Number=Sing	2	nmod:tmod	_	_
@@ -9236,10 +9236,10 @@
 14	optimis	optimis	NOUN	NN	Number=Sing	0	root	_	_
 15	target	target	NOUN	NN	Number=Sing	23	nsubj:pass	_	_
 16	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	15	nmod	_	_
-17	6,3	6,3	NUM	CD	_	18	nummod	_	_
+17	6,3	6,3	NUM	CD	NumType=Card	18	nummod	_	_
 18	persen	persen	NOUN	NN	Number=Sing	15	nmod	_	_
 19	pada	pada	ADP	IN	_	20	case	_	_
-20	2007	2007	NUM	CD	_	23	obl	_	_
+20	2007	2007	NUM	CD	NumType=Card	23	obl	_	_
 21	akan	akan	AUX	MD	_	23	aux	_	_
 22	bisa	bisa	AUX	MD	_	23	aux	_	_
 23	dicapai	capai	VERB	VB	Voice=Pass	14	ccomp	_	SpaceAfter=No
@@ -9284,9 +9284,9 @@
 4	melemah	lemah	VERB	VB	Voice=Act	0	root	_	_
 5	menjadi	jadi	VERB	VB	Voice=Act	4	ccomp	_	_
 6	Rp	Rp	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
-7	9.175	9.175	NUM	CD	_	6	nummod	_	SpaceAfter=No
+7	9.175	9.175	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
 8	/	/	CCONJ	CC	_	9	cc	_	SpaceAfter=No
-9	9.180	9.180	NUM	CD	_	6	conj	_	_
+9	9.180	9.180	NUM	CD	NumType=Card	6	conj	_	_
 10	per	per	ADP	IN	_	11	case	_	_
 11	dolar	dolar	NOUN	NN	Number=Sing	6	nmod	_	_
 12	AS	AS	PROPN	NNP	_	11	nmod	_	_
@@ -9295,15 +9295,15 @@
 15	hari	hari	NOUN	NN	Number=Sing	14	nmod	_	_
 16	sebelumnya	belum	ADJ	JJ	_	15	amod	_	_
 17	Rp	Rp	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
-18	9.165	9.165	NUM	CD	_	17	nummod	_	SpaceAfter=No
+18	9.165	9.165	NUM	CD	NumType=Card	17	nummod	_	SpaceAfter=No
 19	/	/	CCONJ	CC	_	20	cc	_	SpaceAfter=No
-20	9.177	9.177	NUM	CD	_	17	conj	_	_
+20	9.177	9.177	NUM	CD	NumType=Card	17	conj	_	_
 21	per	per	ADP	IN	_	22	case	_	_
 22	dolar	dolar	NOUN	NN	Number=Sing	17	nmod	_	_
 23	AS	AS	PROPN	NNP	_	22	nmod	_	_
 24	atau	atau	CCONJ	CC	_	25	cc	_	_
 25	turun	turun	VERB	VB	Voice=Act	4	conj	_	_
-26	10	10	NUM	CD	_	27	nummod	_	_
+26	10	10	NUM	CD	NumType=Card	27	nummod	_	_
 27	poin	poin	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -9341,14 +9341,14 @@
 1	Pada	pada	ADP	IN	_	2	case	_	_
 2	Akhir	Akhir	NOUN	NN	Number=Sing	9	obl	_	_
 3	Oktober	Oktober	PROPN	NNP	_	2	nmod:tmod	_	_
-4	2007	2007	NUM	CD	_	2	nummod	_	_
+4	2007	2007	NUM	CD	NumType=Card	2	nummod	_	_
 5	cadangan	cadang	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
 6	devisa	devisa	NOUN	NN	Number=Sing	5	nmod	_	_
 7	menurut	turut	ADP	IN	_	8	case	_	_
 8	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	9	obl	_	_
 9	tercatat	catat	VERB	VB	Voice=Pass	0	root	_	_
-10	54,2	54,2	NUM	CD	_	12	nummod	_	_
-11	miliar	miliar	NUM	CD	_	10	flat	_	_
+10	54,2	54,2	NUM	CD	NumType=Card	12	nummod	_	_
+11	miliar	miliar	NUM	CD	NumType=Card	10	flat	_	_
 12	dolar	dolar	NOUN	NN	Number=Sing	9	obl	_	_
 13	AS	AS	PROPN	NNP	_	12	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	9	punct	_	_
@@ -9358,9 +9358,9 @@
 # text_en = The condition of the 2007 State Budget in the first two weeks was generally good and the government will continue to implement sound policies so as to create policy consistency that gives investors confidence.
 1	Kondisi	kondisi	NOUN	NN	Number=Sing	10	obl	_	_
 2	APBN	APBN	PROPN	NNP	_	1	nmod	_	_
-3	2007	2007	NUM	CD	_	2	nummod	_	_
+3	2007	2007	NUM	CD	NumType=Card	2	nummod	_	_
 4	pada	pada	ADP	IN	_	6	case	_	_
-5	dua	dua	NUM	CD	_	6	nummod	_	_
+5	dua	dua	NUM	CD	NumType=Card	6	nummod	_	_
 6	pekan	pekan	NOUN	NN	Number=Sing	1	nmod	_	_
 7	awal	awal	NOUN	NN	Number=Sing	6	nmod:lmod	_	_
 8	secara	cara	ADP	IN	_	9	case:adv	_	_
@@ -9405,22 +9405,22 @@
 10	UKM	UKM	PROPN	NNP	_	5	appos	_	SpaceAfter=No
 11	)	)	PUNCT	-RRB-	_	10	punct	_	_
 12	tumbuh	tumbuh	VERB	VB	Voice=Act	0	root	_	_
-13	16,1	16,1	NUM	CD	_	14	nummod	_	_
+13	16,1	16,1	NUM	CD	NumType=Card	14	nummod	_	_
 14	persen	persen	NOUN	NN	Number=Sing	12	obj	_	_
 15	menjadi	jadi	VERB	VB	Voice=Act	12	advcl	_	_
 16	Rp	Rp	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
-17	29,2	29,2	NUM	CD	_	16	nummod	_	_
-18	triliun	triliun	NUM	CD	_	17	flat	_	_
+17	29,2	29,2	NUM	CD	NumType=Card	16	nummod	_	_
+18	triliun	triliun	NUM	CD	NumType=Card	17	flat	_	_
 19	dan	dan	CCONJ	CC	_	22	cc	_	_
 20	Kredit	Kredit	NOUN	NN	Number=Sing	22	nsubj	_	_
 21	Konsumer	Konsumer	NOUN	NN	Number=Sing	20	nmod	_	_
 22	turun	turun	VERB	VB	Voice=Act	12	conj	_	_
-23	4,9	4,9	NUM	CD	_	24	nummod	_	_
+23	4,9	4,9	NUM	CD	NumType=Card	24	nummod	_	_
 24	persen	persen	NOUN	NN	Number=Sing	22	obj	_	_
 25	menjadi	jadi	VERB	VB	Voice=Act	22	advcl	_	_
 26	Rp	Rp	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
-27	8,5	8,5	NUM	CD	_	26	nummod	_	_
-28	triliun	triliun	NUM	CD	_	27	flat	_	_
+27	8,5	8,5	NUM	CD	NumType=Card	26	nummod	_	_
+28	triliun	triliun	NUM	CD	NumType=Card	27	flat	_	_
 29	terutama	utama	ADV	RB	_	30	advmod	_	_
 30	disebabkan	sebab	VERB	VB	Voice=Pass	22	advcl	_	_
 31	oleh	oleh	ADP	IN	_	32	case	_	_
@@ -9430,12 +9430,12 @@
 35	Bermotor	Bermotor	VERB	VB	Voice=Act	34	acl:relcl	_	_
 36	yang	yang	PRON	IN	PronType=Rel	37	nsubj	_	_
 37	turun	turun	VERB	VB	Voice=Act	32	acl:relcl	_	_
-38	40,9	40,9	NUM	CD	_	39	nummod	_	_
+38	40,9	40,9	NUM	CD	NumType=Card	39	nummod	_	_
 39	persen	persen	NOUN	NN	Number=Sing	37	obj	_	_
 40	menjadi	jadi	VERB	VB	Voice=Act	37	advcl	_	_
 41	Rp	Rp	NOUN	NN	Number=Sing	40	obj	_	SpaceAfter=No
-42	2,5	2,5	NUM	CD	_	41	nummod	_	_
-43	triliun	triliun	NUM	CD	_	42	flat	_	SpaceAfter=No
+42	2,5	2,5	NUM	CD	NumType=Card	41	nummod	_	_
+43	triliun	triliun	NUM	CD	NumType=Card	42	flat	_	SpaceAfter=No
 44	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = csui-test-296
@@ -9463,7 +9463,7 @@
 20	atas	atas	NOUN	NN	Number=Sing	21	nmod:lmod	_	_
 21	level	level	NOUN	NN	Number=Sing	16	obl	_	_
 22	Rp	Rp	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
-23	9.400	9.400	NUM	CD	_	22	nummod	_	_
+23	9.400	9.400	NUM	CD	NumType=Card	22	nummod	_	_
 24	per	per	ADP	IN	_	25	case	_	_
 25	dolar	dolar	NOUN	NN	Number=Sing	22	nmod	_	_
 26	AS	AS	PROPN	NNP	_	25	nmod	_	SpaceAfter=No
@@ -9514,7 +9514,7 @@
 # sent_id = csui-test-298
 # text = Ke-23 saham (BES) yang akan dilelang tersebut atas nama PT Inti Prebon Securities, PT Mashill Jaya Sekuritas, PT Trisula Cipta Dana, PT Pamamitra Artha Pertiwi, PT Kestrel Sekuritas Surabaya, PT Finanza Indonesia, PT Pentasena Arthasentosa dan PT Bomar Sekuritas.
 # text_en = The 23 shares (BES) to be auctioned are under the names of PT Inti Prebon Securities, PT Mashill Jaya Sekuritas, PT Trisula Cipta Dana, PT Pamamitra Artha Pertiwi, PT Kestrel Sekuritas Surabaya, PT Finanza Indonesia, PT Pentasena Arthasentosa and PT Bomar Sekuritas.
-1	Ke-23	ke-23	NUM	CD	_	2	nummod	_	_
+1	Ke-23	ke-23	NUM	CD	NumType=Card	2	nummod	_	_
 2	saham	saham	NOUN	NN	Number=Sing	11	nmod	_	_
 3	(	(	PUNCT	-LRB-	_	4	punct	_	SpaceAfter=No
 4	BES	BES	PROPN	NNP	_	2	nmod	_	SpaceAfter=No
@@ -9617,7 +9617,7 @@
 23	I	I	ADJ	JJ	_	22	amod	_	_
 24	hingga	hingga	SCONJ	IN	_	25	mark	_	_
 25	mencapai	capai	VERB	VB	Voice=Act	17	advcl	_	_
-26	5,97	5,97	NUM	CD	_	27	nummod	_	_
+26	5,97	5,97	NUM	CD	NumType=Card	27	nummod	_	_
 27	persen	persen	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
 28	,	,	PUNCT	,	_	17	punct	_	_
 29-30	apakah	_	_	_	_	_	_	_	_
@@ -9689,10 +9689,10 @@
 4	dengan	dengan	ADP	IN	_	5	case	_	_
 5	semester	semester	NOUN	NN	Number=Sing	3	obl:tmod	_	_
 6	I	I	ADJ	JJ	_	5	amod	_	_
-7	2006	2006	NUM	CD	_	5	nummod	_	SpaceAfter=No
+7	2006	2006	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	14	punct	_	_
 9	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	14	nsubj	_	_
-10	tiga	tiga	NUM	CD	_	11	nummod	_	_
+10	tiga	tiga	NUM	CD	NumType=Card	11	nummod	_	_
 11	sektor	sektor	NOUN	NN	Number=Sing	9	nmod	_	_
 12	tersebut	sebut	DET	DT	_	9	det	_	_
 13	adalah	adalah	AUX	VBZ	_	14	cop	_	_
@@ -9700,7 +9700,7 @@
 15	-	-	PUNCT	:	_	16	punct	_	_
 16	komunikasi	komunikasi	NOUN	NN	Number=Sing	14	conj	_	_
 17	tumbuh	tumbuh	VERB	VB	Voice=Act	0	root	_	_
-18	11,9	11,9	NUM	CD	_	19	nummod	_	_
+18	11,9	11,9	NUM	CD	NumType=Card	19	nummod	_	_
 19	persen	persen	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	_	_
 21	listrik	listrik	NOUN	NN	Number=Sing	17	conj	_	_
@@ -9709,7 +9709,7 @@
 24	-	-	PUNCT	:	_	25	punct	_	_
 25	air	air	NOUN	NN	Number=Sing	21	conj	_	_
 26	bersih	bersih	ADJ	JJ	_	25	amod	_	_
-27	10,5	10,5	NUM	CD	_	28	nummod	_	_
+27	10,5	10,5	NUM	CD	NumType=Card	28	nummod	_	_
 28	persen	persen	NOUN	NN	Number=Sing	21	orphan	_	_
 29	dan	dan	CCONJ	CC	_	30	cc	_	_
 30	sektor	sektor	NOUN	NN	Number=Sing	17	conj	_	_
@@ -9717,7 +9717,7 @@
 32	-	-	PUNCT	:	_	33	punct	_	_
 33	hotel	hotel	NOUN	NN	Number=Sing	31	conj	_	_
 34	restoran	restoran	NOUN	NN	Number=Sing	31	conj	_	_
-35	8,3	8,3	NUM	CD	_	36	nummod	_	_
+35	8,3	8,3	NUM	CD	NumType=Card	36	nummod	_	_
 36	persen	persen	NOUN	NN	Number=Sing	30	orphan	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	17	punct	_	_
 
@@ -9783,8 +9783,8 @@
 9	tidak	tidak	PART	RP	Polarity=Neg	10	advmod	_	_
 10	sebulan	bulan	NOUN	NN	Number=Sing	3	conj	_	_
 11	sebesar	sebesar	NOUN	NN	Number=Sing	10	nmod	_	_
-12	160	160	NUM	CD	_	11	nummod	_	_
-13	ribu	ribu	NUM	CD	_	12	flat	_	_
+12	160	160	NUM	CD	NumType=Card	11	nummod	_	_
+13	ribu	ribu	NUM	CD	NumType=Card	12	flat	_	_
 14	dolar	dolar	NOUN	NN	Number=Sing	11	nmod	_	_
 15	AS	AS	PROPN	NNP	_	11	nmod	_	_
 16	per	per	ADP	IN	_	17	case	_	_
@@ -9804,9 +9804,9 @@
 8	pada	pada	ADP	IN	_	9	case	_	_
 9	kuartal	kuartal	NOUN	NN	Number=Sing	12	obl:tmod	_	_
 10	pertama	pertama	ADJ	JJ	_	9	amod	_	_
-11	2007	2007	NUM	CD	_	9	nummod	_	_
+11	2007	2007	NUM	CD	NumType=Card	9	nummod	_	_
 12	turun	turun	VERB	VB	Voice=Act	0	root	_	_
-13	8,3	8,3	NUM	CD	_	14	nummod	_	_
+13	8,3	8,3	NUM	CD	NumType=Card	14	nummod	_	_
 14	persen	persen	NOUN	NN	Number=Sing	12	obj	_	_
 15	dibandingkan	banding	VERB	VB	Voice=Pass	12	advcl	_	_
 16	periode	periode	NOUN	NN	Number=Sing	15	obl:tmod	_	_
@@ -9825,7 +9825,7 @@
 6	-	-	PUNCT	:	_	5	punct	_	SpaceAfter=No
 7	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
 8	tumbuh	tumbuh	VERB	VB	Voice=Act	0	root	_	_
-9	35,4	35,4	NUM	CD	_	10	nummod	_	_
+9	35,4	35,4	NUM	CD	NumType=Card	10	nummod	_	_
 10	persen	persen	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	8	punct	_	_
 12	meski	meski	SCONJ	IN	_	16	mark	_	_
@@ -9834,7 +9834,7 @@
 15	rendah	rendah	ADJ	JJ	_	16	advcl	_	_
 16	tumbuh	tumbuh	VERB	VB	Voice=Act	8	advcl	_	_
 17	sebesar	sebesar	NOUN	NN	Number=Sing	16	obj	_	_
-18	3,4	3,4	NUM	CD	_	19	nummod	_	_
+18	3,4	3,4	NUM	CD	NumType=Card	19	nummod	_	_
 19	persen	persen	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -9842,14 +9842,14 @@
 # text = Sepanjang sepuluh bulan 2007 penjualan mobil nasional mencapai 349.489 unit.
 # text_en = During the ten months of 2007, national car sales reached 349,489 units.
 1	Sepanjang	sepanjang	NOUN	NN	Number=Sing	3	nmod	_	_
-2	sepuluh	sepuluh	NUM	CD	_	3	nummod	_	_
+2	sepuluh	sepuluh	NUM	CD	NumType=Card	3	nummod	_	_
 3	bulan	bulan	NOUN	NN	Number=Sing	8	obl:tmod	_	_
-4	2007	2007	NUM	CD	_	3	nummod	_	_
+4	2007	2007	NUM	CD	NumType=Card	3	nummod	_	_
 5	penjualan	jual	NOUN	NN	Number=Sing	8	nsubj	_	_
 6	mobil	mobil	NOUN	NN	Number=Sing	5	nmod	_	_
 7	nasional	nasional	ADJ	JJ	_	5	amod	_	_
 8	mencapai	capai	VERB	VB	Voice=Act	0	root	_	_
-9	349.489	349.489	NUM	CD	_	10	nummod	_	_
+9	349.489	349.489	NUM	CD	NumType=Card	10	nummod	_	_
 10	unit	unit	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -9894,7 +9894,7 @@
 12	bahwa	bahwa	SCONJ	IN	_	19	mark	_	_
 13	prospek	prospek	NOUN	NN	Number=Sing	19	nsubj	_	_
 14	rating	rating	X	FW	Foreign=Yes	13	nmod	_	_
-15	kedua	kedua	NUM	CD	_	16	nummod	_	_
+15	kedua	kedua	NUM	CD	NumType=Card	16	nummod	_	_
 16	bank	bank	NOUN	NN	Number=Sing	13	nmod	_	_
 17	itu	itu	DET	DT	PronType=Dem	16	det	_	_
 18	tetap	tetap	ADV	RB	_	19	advmod	_	_
@@ -9910,12 +9910,12 @@
 4	II/2007	II/2007	PROPN	NNP	_	3	nmod	_	_
 5	ini	ini	DET	DT	PronType=Dem	3	det	_	_
 6	turun	turun	VERB	VB	Voice=Act	0	root	_	_
-7	26	26	NUM	CD	_	8	nummod	_	_
+7	26	26	NUM	CD	NumType=Card	8	nummod	_	_
 8	persen	persen	NOUN	NN	Number=Sing	6	obj	_	_
 9	dibandingkan	banding	VERB	VB	Voice=Pass	6	advcl	_	_
 10	kuartal	kuartal	NOUN	NN	Number=Sing	9	obl:tmod	_	_
 11	I	I	ADJ	JJ	_	10	amod	_	_
-12	2007	2007	NUM	CD	_	10	nummod	_	SpaceAfter=No
+12	2007	2007	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	_	_
 14	namun	namun	CCONJ	CC	_	15	cc	_	_
 15	neraca	neraca	NOUN	NN	Number=Sing	6	conj	_	_
@@ -9924,8 +9924,8 @@
 18	tetap	tetap	ADV	RB	_	19	advmod	_	_
 19	surplus	surplus	NOUN	NN	Number=Sing	6	obl	_	_
 20	sebesar	sebesar	NOUN	NN	Number=Sing	19	nmod	_	_
-21	1,7	1,7	NUM	CD	_	23	nummod	_	_
-22	miliar	miliar	NUM	CD	_	21	flat	_	_
+21	1,7	1,7	NUM	CD	NumType=Card	23	nummod	_	_
+22	miliar	miliar	NUM	CD	NumType=Card	21	flat	_	_
 23	dolar	dolar	NOUN	NN	Number=Sing	20	nmod	_	_
 24	AS	AS	PROPN	NNP	_	23	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	6	punct	_	_
@@ -9992,7 +9992,7 @@
 8	sama	sama	ADJ	JJ	_	7	amod	_	_
 9	sebelumnya	sebelumnya	ADV	RB	_	7	advmod	_	_
 10	sebanyak	sebanyak	NOUN	NN	Number=Sing	6	obl	_	_
-11	174.827	174.827	NUM	CD	_	12	nummod	_	_
+11	174.827	174.827	NUM	CD	NumType=Card	12	nummod	_	_
 12	unit	unit	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -10011,7 +10011,7 @@
 10	down	down	X	FW	Foreign=Yes	9	nmod	_	_
 11	'	'	PUNCT	''	_	9	punct	_	SpaceAfter=No
 12	cuma	cuma	ADV	RB	_	14	advmod	_	_
-13	0,34	0,34	NUM	CD	_	14	nummod	_	_
+13	0,34	0,34	NUM	CD	NumType=Card	14	nummod	_	_
 14	persen	persen	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	21	punct	_	_
 16	tapi	tapi	CCONJ	CC	_	21	cc	_	_
@@ -10069,10 +10069,10 @@
 5	kredit	kredit	NOUN	NN	Number=Sing	6	nsubj	_	_
 6	tumbuh	tumbuh	VERB	VB	Voice=Act	0	root	_	_
 7	rata-rata	rata	ADJ	JJ	_	8	advmod	_	_
-8	20	20	NUM	CD	_	6	obj	_	SpaceAfter=No
+8	20	20	NUM	CD	NumType=Card	6	obj	_	SpaceAfter=No
 9	-	-	PUNCT	:	_	10	punct	_	SpaceAfter=No
-10	25	25	NUM	CD	_	8	flat	_	_
-11	triliun	triliun	NUM	CD	_	10	flat	_	SpaceAfter=No
+10	25	25	NUM	CD	NumType=Card	8	flat	_	_
+11	triliun	triliun	NUM	CD	NumType=Card	10	flat	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	6	punct	_	_
 13	meski	meski	SCONJ	IN	_	17	mark	_	_
 14	hal	hal	NOUN	NN	Number=Sing	17	nmod	_	_
@@ -10084,8 +10084,8 @@
 20	yang	yang	PRON	IN	PronType=Rel	21	nsubj	_	_
 21	mencapai	capai	VERB	VB	Voice=Act	18	acl:relcl	_	_
 22	Rp	Rp	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
-23	36	36	NUM	CD	_	22	nummod	_	_
-24	triliun	triliun	NUM	CD	_	23	flat	_	SpaceAfter=No
+23	36	36	NUM	CD	NumType=Card	22	nummod	_	_
+24	triliun	triliun	NUM	CD	NumType=Card	23	flat	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = csui-test-319
@@ -10108,7 +10108,7 @@
 15	Rahasia	Rahasia	NOUN	NN	Number=Sing	14	nmod	_	_
 16	tetapi	tetapi	CCONJ	CC	_	21	cc	_	_
 17	kemudian	kemudian	ADV	RB	_	21	advmod	_	_
-18	kedua	kedua	NUM	CD	_	19	nummod	_	_
+18	kedua	kedua	NUM	CD	NumType=Card	19	nummod	_	_
 19	halaman	halaman	NOUN	NN	Number=Sing	21	nsubj:pass	_	_
 20	itu	itu	DET	DT	PronType=Dem	19	det	_	_
 21	dibuang	buang	VERB	VB	Voice=Pass	6	conj	_	_
@@ -10136,12 +10136,12 @@
 10	Agus	Agus	PROPN	NNP	_	4	obl	_	_
 11	Wartowardoyo	Wartowardoyo	PROPN	NNP	_	10	flat:name	_	_
 12	untuk	untuk	ADP	IN	_	14	case	_	_
-13	keempat	keempat	NUM	CD	_	14	nummod	_	_
+13	keempat	keempat	NUM	CD	NumType=Card	14	nummod	_	_
 14	pabrik	pabrik	NOUN	NN	Number=Sing	4	obl	_	_
 15	baru	baru	ADJ	JJ	_	14	amod	_	_
 16	hanya	hanya	ADV	RB	_	17	advmod	_	_
 17	mencapai	capai	VERB	VB	Voice=Act	0	root	_	_
-18	70	70	NUM	CD	_	19	nummod	_	_
+18	70	70	NUM	CD	NumType=Card	19	nummod	_	_
 19	persen	persen	NOUN	NN	Number=Sing	17	obj	_	_
 20	kebutuhan	butuh	NOUN	NN	Number=Sing	19	nmod	_	_
 21	dana	dana	NOUN	NN	Number=Sing	20	nmod	_	_
@@ -10149,7 +10149,7 @@
 23	diperlukan	perlu	VERB	VB	Voice=Pass	20	acl:relcl	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	17	punct	_	_
 25	sedangkan	sedangkan	CCONJ	CC	_	29	cc	_	_
-26	30	30	NUM	CD	_	27	nummod	_	_
+26	30	30	NUM	CD	NumType=Card	27	nummod	_	_
 27	persen	persen	NOUN	NN	Number=Sing	29	nsubj	_	_
 28	lagi	lagi	ADV	RB	_	27	advmod	_	_
 29	berasal	asal	VERB	VB	Voice=Act	17	parataxis	_	_
@@ -10168,20 +10168,20 @@
 5	perpajakan	pajak	NOUN	NN	Number=Sing	3	nmod	_	_
 6	dalam	dalam	ADP	IN	_	7	case	_	_
 7	RAPBN	RAPBN	NOUN	NN	Number=Sing	3	nmod	_	_
-8	2008	2008	NUM	CD	_	7	nummod	_	_
+8	2008	2008	NUM	CD	NumType=Card	7	nummod	_	_
 9	mencapai	capai	VERB	VB	Voice=Act	2	ccomp	_	_
 10	Rp	Rp	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
-11	583,7	583,7	NUM	CD	_	10	nummod	_	_
-12	triliun	triliun	NUM	CD	_	11	flat	_	SpaceAfter=No
+11	583,7	583,7	NUM	CD	NumType=Card	10	nummod	_	_
+12	triliun	triliun	NUM	CD	NumType=Card	11	flat	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	10	punct	_	_
 14	naik	naik	VERB	VB	Voice=Act	10	acl:relcl	_	_
 15	sebesar	sebesar	NOUN	NN	Number=Sing	14	obj	_	_
 16	Rp	Rp	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
-17	93,8	93,8	NUM	CD	_	16	nummod	_	_
-18	triliun	triliun	NUM	CD	_	17	flat	_	SpaceAfter=No
+17	93,8	93,8	NUM	CD	NumType=Card	16	nummod	_	_
+18	triliun	triliun	NUM	CD	NumType=Card	17	flat	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	22	punct	_	_
 20	atau	atau	CCONJ	CC	_	22	cc	_	_
-21	19,1	19,1	NUM	CD	_	22	nummod	_	_
+21	19,1	19,1	NUM	CD	NumType=Card	22	nummod	_	_
 22	persen	persen	NOUN	NN	Number=Sing	15	conj	_	_
 23	dibanding	banding	VERB	VB	Voice=Pass	14	advcl	_	_
 24	sasaran	sasar	NOUN	NN	Number=Sing	23	obl	_	_
@@ -10189,11 +10189,11 @@
 26	perpajakan	pajak	NOUN	NN	Number=Sing	24	nmod	_	_
 27	pada	pada	ADP	IN	_	28	case	_	_
 28	RAPBN-P	RAPBN-P	NOUN	NN	Number=Sing	24	nmod	_	_
-29	2007	2007	NUM	CD	_	28	nummod	_	_
+29	2007	2007	NUM	CD	NumType=Card	28	nummod	_	_
 30	sebesar	sebesar	NOUN	NN	Number=Sing	24	nmod	_	_
 31	Rp	Rp	NOUN	NN	Number=Sing	30	nmod	_	SpaceAfter=No
-32	489,9	489,9	NUM	CD	_	31	nummod	_	_
-33	triliun	triliun	NUM	CD	_	32	flat	_	SpaceAfter=No
+32	489,9	489,9	NUM	CD	NumType=Card	31	nummod	_	_
+33	triliun	triliun	NUM	CD	NumType=Card	32	flat	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = csui-test-322
@@ -10216,7 +10216,7 @@
 15	menghasilkan	hasil	VERB	VB	Voice=Act	7	acl:relcl	_	_
 16	minimal	minimal	ADJ	JJ	_	17	advmod	_	_
 17	sebanyak	sebanyak	NOUN	NN	Number=Sing	15	obj	_	_
-18	23.100	23.100	NUM	CD	_	19	nummod	_	_
+18	23.100	23.100	NUM	CD	NumType=Card	19	nummod	_	_
 19	ton	ton	NOUN	NN	Number=Sing	17	nmod	_	_
 20	minyak	minyak	NOUN	NN	Number=Sing	17	nmod	_	_
 21	sawit	sawit	NOUN	NN	Number=Sing	20	nmod	_	_
@@ -10266,7 +10266,7 @@
 12	masih	masih	ADV	RB	_	13	advmod	_	_
 13	surplus	surplus	ADJ	JJ	_	8	conj	_	_
 14	dalam	dalam	ADP	IN	_	16	case	_	_
-15	dua	dua	NUM	CD	_	16	nummod	_	_
+15	dua	dua	NUM	CD	NumType=Card	16	nummod	_	_
 16	bulan	bulan	NOUN	NN	Number=Sing	13	obl:tmod	_	_
 17	ini	ini	DET	DT	PronType=Dem	16	det	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
@@ -10287,23 +10287,23 @@
 2	itu	itu	PRON	PRP	PronType=Dem	7	advcl	_	_
 3	sampai	sampai	ADP	IN	_	4	case	_	_
 4	akhir	akhir	NOUN	NN	Number=Sing	7	obl	_	_
-5	2007	2007	NUM	CD	_	4	nummod	_	_
+5	2007	2007	NUM	CD	NumType=Card	4	nummod	_	_
 6	perseroan	perseroan	NOUN	NN	Number=Sing	7	nsubj	_	_
 7	menargetkan	target	VERB	VB	Voice=Act	0	root	_	_
 8	pendapatan	dapat	NOUN	NN	Number=Sing	9	nsubj	_	_
 9	sebesar	sebesar	NOUN	NN	Number=Sing	7	xcomp	_	_
 10	Rp	Rp	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
-11	300	300	NUM	CD	_	10	nummod	_	_
-12	miliar	miliar	NUM	CD	_	11	flat	_	_
+11	300	300	NUM	CD	NumType=Card	10	nummod	_	_
+12	miliar	miliar	NUM	CD	NumType=Card	11	flat	_	_
 13	atau	atau	CCONJ	CC	_	14	cc	_	_
 14	naik	naik	VERB	VB	Voice=Act	9	conj	_	_
 15	dibandingkan	banding	VERB	VB	Voice=Pass	14	ccomp	_	_
-16	2006	2006	NUM	CD	_	15	obl	_	_
+16	2006	2006	NUM	CD	NumType=Card	15	obl	_	_
 17	hanya	hanya	ADV	RB	_	19	advmod	_	_
 18	sebesar	sebesar	NOUN	NN	Number=Sing	19	nmod	_	_
 19	Rp	Rp	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
-20	204	204	NUM	CD	_	19	nummod	_	_
-21	miliar	miliar	NUM	CD	_	20	flat	_	SpaceAfter=No
+20	204	204	NUM	CD	NumType=Card	19	nummod	_	_
+21	miliar	miliar	NUM	CD	NumType=Card	20	flat	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = csui-test-326
@@ -10322,7 +10322,7 @@
 11	turun	turun	VERB	VB	Voice=Act	9	ccomp	_	_
 12	ke	ke	ADP	IN	_	15	case	_	_
 13	sekitar	sekitar	ADV	RB	_	14	advmod	_	_
-14	66	66	NUM	CD	_	15	nummod	_	_
+14	66	66	NUM	CD	NumType=Card	15	nummod	_	_
 15	persen	persen	NOUN	NN	Number=Sing	11	obl	_	_
 16	dari	dari	ADP	IN	_	17	case	_	_
 17	cadangan	cadang	NOUN	NN	Number=Sing	11	obl	_	_
@@ -10374,11 +10374,11 @@
 4	mobil	mobil	NOUN	NN	Number=Sing	3	nmod	_	_
 5	non-Astra	non-Astra	ADJ	JJ	_	3	acl:relcl	_	_
 6	selama	selama	ADP	IN	_	8	case	_	_
-7	9	9	NUM	CD	_	8	nummod	_	_
+7	9	9	NUM	CD	NumType=Card	8	nummod	_	_
 8	bulan	bulan	NOUN	NN	Number=Sing	3	nmod:tmod	_	_
-9	2007	2007	NUM	CD	_	8	nummod	_	_
+9	2007	2007	NUM	CD	NumType=Card	8	nummod	_	_
 10	mencapai	capai	VERB	VB	Voice=Act	0	root	_	_
-11	169.886	169.886	NUM	CD	_	12	nummod	_	_
+11	169.886	169.886	NUM	CD	NumType=Card	12	nummod	_	_
 12	unit	unit	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	10	punct	_	_
 
@@ -10457,34 +10457,34 @@
 # text_en = At 9 am, the dollar was quoted at 119.52-57 yen compared with 5 pm Wednesday which was quoted at 119.58-68 yen in New York and 119.26-29 yen in Tokyo.
 1	Pada	pada	ADP	IN	_	2	case	_	_
 2	pukul	pukul	NOUN	NN	Number=Sing	6	obl	_	_
-3	09.00	09.00	NUM	CD	_	2	nummod	_	SpaceAfter=No
+3	09.00	09.00	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	_	_
 5	dolar	dolar	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
 6	dikutip	kutip	VERB	VB	Voice=Pass	0	root	_	_
 7	pada	pada	ADP	IN	_	11	case	_	_
-8	119,52	119,52	NUM	CD	_	11	nummod	_	SpaceAfter=No
+8	119,52	119,52	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
 9	-	-	PUNCT	:	_	8	punct	_	SpaceAfter=No
-10	57	57	NUM	CD	_	8	flat	_	_
+10	57	57	NUM	CD	NumType=Card	8	flat	_	_
 11	yen	yen	NOUN	NN	Number=Sing	6	obl	_	_
 12	dibandingkan	banding	VERB	VB	Voice=Pass	11	acl:relcl	_	_
 13	dengan	dengan	ADP	IN	_	14	case	_	_
 14	Rabu	Rabu	PROPN	NNP	_	12	obl:tmod	_	_
 15	pukul	pukul	NOUN	NN	Number=Sing	14	nmod	_	_
-16	17.00	17.00	NUM	CD	_	14	nummod	_	_
+16	17.00	17.00	NUM	CD	NumType=Card	14	nummod	_	_
 17	yang	yang	PRON	IN	PronType=Rel	18	nsubj:pass	_	_
 18	dikutip	kutip	VERB	VB	Voice=Pass	14	acl:relcl	_	_
 19	pada	pada	ADP	IN	_	23	case	_	_
-20	119,58	119,58	NUM	CD	_	23	nummod	_	SpaceAfter=No
+20	119,58	119,58	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
 21	-	-	PUNCT	:	_	20	punct	_	SpaceAfter=No
-22	68	68	NUM	CD	_	20	flat	_	_
+22	68	68	NUM	CD	NumType=Card	20	flat	_	_
 23	yen	yen	NOUN	NN	Number=Sing	18	obl	_	_
 24	di	di	ADP	IN	_	25	case	_	_
 25	New	New	PROPN	NNP	_	23	nmod	_	_
 26	York	York	PROPN	NNP	_	25	flat:name	_	_
 27	dan	dan	CCONJ	CC	_	31	cc	_	_
-28	119,26	119,26	NUM	CD	_	31	nummod	_	SpaceAfter=No
+28	119,26	119,26	NUM	CD	NumType=Card	31	nummod	_	SpaceAfter=No
 29	-	-	PUNCT	:	_	28	punct	_	SpaceAfter=No
-30	29	29	NUM	CD	_	28	flat	_	_
+30	29	29	NUM	CD	NumType=Card	28	flat	_	_
 31	yen	yen	NOUN	NN	Number=Sing	23	conj	_	_
 32	di	di	ADP	IN	_	33	case	_	_
 33	Tokyo	Tokyo	PROPN	NNP	_	31	nmod	_	SpaceAfter=No
@@ -10495,7 +10495,7 @@
 # text_en = CPRL has a 60 percent stake in the onshore oil mining block Ramba in South Sumatra.
 1	CPRL	cprl	PROPN	NNP	_	2	nsubj	_	_
 2	memiliki	milik	VERB	VB	Voice=Act	0	root	_	_
-3	60	60	NUM	CD	_	4	nummod	_	_
+3	60	60	NUM	CD	NumType=Card	4	nummod	_	_
 4	persen	persen	NOUN	NN	Number=Sing	2	obj	_	_
 5-6	sahamnya	_	_	_	_	_	_	_	_
 5	saham	saham	NOUN	NN	Number=Sing	4	nmod	_	_
@@ -10529,7 +10529,7 @@
 1	Tahun	tahun	NOUN	NN	Number=Sing	0	root	_	_
 2	ini	ini	DET	DT	PronType=Dem	1	det	_	_
 3	akan	akan	AUX	MD	_	5	aux	_	_
-4	22	22	NUM	CD	_	5	nummod	_	_
+4	22	22	NUM	CD	NumType=Card	5	nummod	_	_
 5	persen	persen	NOUN	NN	Number=Sing	1	orphan	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -10548,18 +10548,18 @@
 1	Frekuensi	frekuensi	NOUN	NN	Number=Sing	3	nsubj	_	_
 2	perdagangan	dagang	NOUN	NN	Number=Sing	1	nmod	_	_
 3	mencapai	capai	VERB	VB	Voice=Act	0	root	_	_
-4	2.343	2.343	NUM	CD	_	5	nummod	_	_
+4	2.343	2.343	NUM	CD	NumType=Card	5	nummod	_	_
 5	kali	kali	NOUN	NN	Number=Sing	3	obj	_	_
 6	dengan	dengan	ADP	IN	_	7	case	_	_
 7	volume	volume	NOUN	NN	Number=Sing	5	nmod	_	_
-8	52,033	52,033	NUM	CD	_	10	nummod	_	_
-9	juta	juta	NUM	CD	_	8	flat	_	_
+8	52,033	52,033	NUM	CD	NumType=Card	10	nummod	_	_
+9	juta	juta	NUM	CD	NumType=Card	8	flat	_	_
 10	lembar	lembar	NOUN	NN	Number=Sing	7	nmod	_	_
 11	dan	dan	CCONJ	CC	_	12	cc	_	_
 12	nilai	nilai	NOUN	NN	Number=Sing	7	conj	_	_
 13	Rp	Rp	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
-14	424,222	424,222	NUM	CD	_	13	nummod	_	_
-15	miliar	miliar	NUM	CD	_	14	flat	_	SpaceAfter=No
+14	424,222	424,222	NUM	CD	NumType=Card	13	nummod	_	_
+15	miliar	miliar	NUM	CD	NumType=Card	14	flat	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = csui-test-338
@@ -10611,14 +10611,14 @@
 9	diperkirakan	kira	VERB	VB	Voice=Pass	0	root	_	_
 10	akan	akan	AUX	MD	_	11	aux	_	_
 11	mencapai	capai	VERB	VB	Voice=Act	9	xcomp	_	_
-12	56,2	56,2	NUM	CD	_	14	nummod	_	_
-13	miliar	miliar	NUM	CD	_	12	flat	_	_
+12	56,2	56,2	NUM	CD	NumType=Card	14	nummod	_	_
+13	miliar	miliar	NUM	CD	NumType=Card	12	flat	_	_
 14	dolar	dolar	NOUN	NN	Number=Sing	11	obj	_	_
 15	AS	AS	PROPN	NNP	_	14	nmod	_	_
 16	atau	atau	CCONJ	CC	_	17	cc	_	_
 17	setara	setara	NOUN	NN	Number=Sing	11	conj	_	_
 18	dengan	dengan	ADP	IN	_	20	case	_	_
-19	5,6	5,6	NUM	CD	_	20	nummod	_	_
+19	5,6	5,6	NUM	CD	NumType=Card	20	nummod	_	_
 20	bulan	bulan	NOUN	NN	Number=Sing	17	nmod:tmod	_	_
 21	impor	impor	NOUN	NN	Number=Sing	20	nmod	_	_
 22	dan	dan	CCONJ	CC	_	23	cc	_	_
@@ -10647,7 +10647,7 @@
 13	obligasi	obligasi	NOUN	NN	Number=Sing	12	nmod	_	_
 14	pemerintah	perintah	NOUN	NN	Number=Sing	12	nmod	_	_
 15	di	di	ADP	IN	_	16	case	_	_
-16	2006	2006	NUM	CD	_	12	nmod	_	SpaceAfter=No
+16	2006	2006	NUM	CD	NumType=Card	12	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = csui-test-342
@@ -10698,11 +10698,11 @@
 # text_en = Until July 2010 more than 500 million registered in the social networking site.
 1	Hingga	hingga	ADP	IN	_	2	case	_	_
 2	Juli	Juli	PROPN	NNP	_	6	nmod	_	_
-3	2010	2010	NUM	CD	_	2	nummod	_	_
+3	2010	2010	NUM	CD	NumType=Card	2	nummod	_	_
 4	lebih	lebih	ADJ	JJ	_	6	acl:relcl	_	_
 5	dari	dari	SCONJ	IN	_	4	fixed	_	_
-6	500	500	NUM	CD	_	0	root	_	_
-7	juta	juta	NUM	CD	_	6	flat	_	_
+6	500	500	NUM	CD	NumType=Card	0	root	_	_
+7	juta	juta	NUM	CD	NumType=Card	6	flat	_	_
 8	yang	yang	PRON	IN	PronType=Rel	9	nsubj:pass	_	_
 9	terdaftar	terdaftar	VERB	VB	Voice=Pass	6	acl:relcl	_	_
 10	dalam	dalam	ADP	IN	_	11	case	_	_
@@ -10733,15 +10733,15 @@
 16	tetap	tetap	ADV	RB	_	15	advmod	_	_
 17	hingga	hingga	ADP	IN	_	18	case	_	_
 18	Rp	Rp	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
-19	263,38	263,38	NUM	CD	_	18	nummod	_	_
-20	triliun	triliun	NUM	CD	_	19	flat	_	SpaceAfter=No
+19	263,38	263,38	NUM	CD	NumType=Card	18	nummod	_	_
+20	triliun	triliun	NUM	CD	NumType=Card	19	flat	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	13	punct	_	_
 22	yang	yang	PRON	IN	PronType=Rel	23	nsubj:pass	_	_
 23	terdiri	terdiri	VERB	VB	Voice=Pass	13	acl:relcl	_	_
 24	atas	atas	ADP	IN	_	25	case	_	_
 25	Rp	Rp	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
-26	253,863	253,863	NUM	CD	_	25	nummod	_	_
-27	triliun	triliun	NUM	CD	_	26	flat	_	_
+26	253,863	253,863	NUM	CD	NumType=Card	25	nummod	_	_
+27	triliun	triliun	NUM	CD	NumType=Card	26	flat	_	_
 28	berupa	rupa	VERB	VB	Voice=Act	25	acl:relcl	_	_
 29	Surat	Surat	PROPN	NNP	_	28	obj	_	_
 30	Utang	Utang	PROPN	NNP	_	29	flat:name	_	_
@@ -10750,8 +10750,8 @@
 33	SUN	SUN	PROPN	NNP	_	29	conj	_	_
 34	dan	dan	CCONJ	CC	_	35	cc	_	_
 35	Rp	Rp	NOUN	NN	Number=Sing	25	conj	_	SpaceAfter=No
-36	9,516	9,516	NUM	CD	_	35	nummod	_	_
-37	triliun	triliun	NUM	CD	_	36	flat	_	_
+36	9,516	9,516	NUM	CD	NumType=Card	35	nummod	_	_
+37	triliun	triliun	NUM	CD	NumType=Card	36	flat	_	_
 38	berupa	rupa	VERB	VB	Voice=Act	35	acl:relcl	_	_
 39	Obligasi	Obligasi	PROPN	NNP	_	38	obj	_	_
 40	Negara	Negara	NOUN	NN	Number=Sing	39	nmod	_	_
@@ -10858,7 +10858,7 @@
 2	konsumsi	konsumsi	NOUN	NN	Number=Sing	4	nsubj	_	_
 3	pemerintah	perintah	NOUN	NN	Number=Sing	2	nmod	_	_
 4	tumbuh	tumbuh	VERB	VB	Voice=Act	0	root	_	_
-5	8,9	8,9	NUM	CD	_	6	nummod	_	_
+5	8,9	8,9	NUM	CD	NumType=Card	6	nummod	_	_
 6	persen	persen	NOUN	NN	Number=Sing	4	obj	_	_
 7	yang	yang	PRON	IN	PronType=Rel	8	nsubj	_	_
 8	terdiri	terdiri	VERB	VB	Voice=Pass	6	acl:relcl	_	_
@@ -10867,25 +10867,25 @@
 11	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	8	advcl	_	_
 12	belanja	belanja	NOUN	NN	Number=Sing	11	nmod	_	_
 13	pegawai	pegawai	NOUN	NN	Number=Sing	11	nmod	_	_
-14	55,8	55,8	NUM	CD	_	15	nummod	_	_
+14	55,8	55,8	NUM	CD	NumType=Card	15	nummod	_	_
 15	persen	persen	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	_	_
 17	belanja	belanja	NOUN	NN	Number=Sing	11	nmod	_	_
 18	barang	barang	NOUN	NN	Number=Sing	17	nmod	_	_
-19	10,1	10,1	NUM	CD	_	20	nummod	_	_
+19	10,1	10,1	NUM	CD	NumType=Card	20	nummod	_	_
 20	persen	persen	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	22	punct	_	_
 22	belanja	belanja	NOUN	NN	Number=Sing	11	nmod	_	_
 23-24	lainnya	_	_	_	_	_	_	_	_
 23	lain	lain	ADJ	JJ	_	22	amod	_	_
 24	nya	nya	DET	DT	Definite=Def|PronType=Art	22	det	_	_
-25	47,2	47,2	NUM	CD	_	26	nummod	_	_
+25	47,2	47,2	NUM	CD	NumType=Card	26	nummod	_	_
 26	persen	persen	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	29	punct	_	_
 28	dan	dan	CCONJ	CC	_	29	cc	_	_
 29	belanja	belanja	NOUN	NN	Number=Sing	11	nmod	_	_
 30	daerah	daerah	NOUN	NN	Number=Sing	29	nmod	_	_
-31	-4,9	-4,9	NUM	CD	_	32	nummod	_	_
+31	-4,9	-4,9	NUM	CD	NumType=Card	32	nummod	_	_
 32	persen	persen	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -10973,9 +10973,9 @@
 5	cepat	cepat	ADJ	JJ	_	3	advcl	_	_
 6	di	di	ADP	IN	_	7	case	_	_
 7	tahun	tahun	NOUN	NN	Number=Sing	3	obl:tmod	_	_
-8	2005	2005	NUM	CD	_	7	nummod	_	SpaceAfter=No
+8	2005	2005	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
 9	-	-	PUNCT	:	_	7	punct	_	SpaceAfter=No
-10	2006	2006	NUM	CD	_	7	nummod	_	_
+10	2006	2006	NUM	CD	NumType=Card	7	nummod	_	_
 11	namun	namun	CCONJ	CC	_	16	cc	_	_
 12-13	kualitasnya	_	_	_	_	_	_	_	_
 12	kualitas	kualitas	NOUN	NN	Number=Sing	16	nsubj:pass	_	_
@@ -11007,11 +11007,11 @@
 17	tinggi	tinggi	NOUN	NN	Number=Sing	15	nmod	_	_
 18	badan	badan	NOUN	NN	Number=Sing	17	nmod	_	_
 19	antara	antara	ADP	IN	_	21	case	_	_
-20	123	123	NUM	CD	_	21	nummod	_	_
+20	123	123	NUM	CD	NumType=Card	21	nummod	_	_
 21	cm	cm	NOUN	NN	Number=Sing	17	nmod	_	_
 22	dan	dan	CCONJ	CC	_	23	cc	_	_
 23	maksimum	maksimum	NOUN	NN	Number=Sing	21	conj	_	_
-24	158	158	NUM	CD	_	25	nummod	_	_
+24	158	158	NUM	CD	NumType=Card	25	nummod	_	_
 25	cm	cm	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -11030,7 +11030,7 @@
 10	)	)	PUNCT	-RRB-	_	9	punct	_	_
 11	pemegang	pegang	NOUN	NN	Number=Sing	27	nsubj:pass	_	_
 12	saham	saham	NOUN	NN	Number=Sing	11	nmod	_	_
-13	lima	lima	NUM	CD	_	14	nummod	_	_
+13	lima	lima	NUM	CD	NumType=Card	14	nummod	_	_
 14	persen	persen	NOUN	NN	Number=Sing	11	nmod	_	_
 15	atau	atau	CCONJ	CC	_	16	cc	_	_
 16	lebih	lebih	ADV	RB	_	14	conj	_	_
@@ -11041,28 +11041,28 @@
 21	Telecom	Telecom	PROPN	NNP	_	17	flat:name	_	_
 22	Tbk	Tbk	PROPN	NNP	_	17	flat:name	_	_
 23	per	per	ADP	IN	_	25	case	_	_
-24	31	31	NUM	CD	_	25	nummod	_	_
+24	31	31	NUM	CD	NumType=Card	25	nummod	_	_
 25	Agustus	Agustus	PROPN	NNP	_	11	nmod:tmod	_	_
-26	2007	2007	NUM	CD	_	25	nummod	_	_
+26	2007	2007	NUM	CD	NumType=Card	25	nummod	_	_
 27	terdiri	terdiri	VERB	VB	Voice=Pass	0	root	_	_
 28	dari	dari	ADP	IN	_	29	case	_	_
 29	PT	PT	PROPN	NNP	_	27	obl	_	_
 30	Global	Global	PROPN	NNP	_	29	flat:name	_	_
 31	Mediacom	Mediacom	PROPN	NNP	_	29	flat:name	_	_
 32	Tbk	Tbk	PROPN	NNP	_	29	flat:name	_	_
-33	38,52	38,52	NUM	CD	_	34	nummod	_	_
+33	38,52	38,52	NUM	CD	NumType=Card	34	nummod	_	_
 34	persen	persen	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
 35	,	,	PUNCT	,	_	29	punct	_	_
 36	PT	PT	PROPN	NNP	_	29	appos	_	_
 37	Global	Global	PROPN	NNP	_	36	flat:name	_	_
 38	Mediacom	Mediacom	PROPN	NNP	_	36	flat:name	_	_
 39	Tbk	Tbk	PROPN	NNP	_	36	flat:name	_	_
-40	18,18	18,18	NUM	CD	_	41	nummod	_	_
+40	18,18	18,18	NUM	CD	NumType=Card	41	nummod	_	_
 41	persen	persen	NOUN	NN	Number=Sing	36	nmod	_	_
 42	dan	dan	CCONJ	CC	_	43	cc	_	_
 43	Qualcomm	Qualcomm	PROPN	NNP	_	29	nmod	_	_
 44	Incorporated	Incorporated	PROPN	NNP	_	43	flat:name	_	_
-45	5,01	5,01	NUM	CD	_	46	nummod	_	_
+45	5,01	5,01	NUM	CD	NumType=Card	46	nummod	_	_
 46	persen	persen	NOUN	NN	Number=Sing	43	nmod	_	SpaceAfter=No
 47	.	.	PUNCT	.	_	27	punct	_	_
 
@@ -11184,7 +11184,7 @@
 7	sama	sama	ADJ	JJ	_	6	amod	_	_
 8	sebelumnya	sebelumnya	ADV	RB	_	6	advmod	_	_
 9	sebanyak	sebanyak	NOUN	NN	Number=Sing	5	obl	_	_
-10	144.077	144.077	NUM	CD	_	11	nummod	_	_
+10	144.077	144.077	NUM	CD	NumType=Card	11	nummod	_	_
 11	unit	unit	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -11264,19 +11264,19 @@
 7	secara	cara	ADP	IN	_	8	case	_	_
 8	keseluruhan	seluruh	NOUN	NN	Number=Sing	5	nmod	_	_
 9	tumbuh	tumbuh	VERB	VB	Voice=Act	0	root	_	_
-10	24,18	24,18	NUM	CD	_	11	nummod	_	_
+10	24,18	24,18	NUM	CD	NumType=Card	11	nummod	_	_
 11	persen	persen	NOUN	NN	Number=Sing	9	obj	_	_
 12	dibanding	banding	VERB	VB	Voice=Pass	11	acl:relcl	_	_
 13	periode	periode	NOUN	NN	Number=Sing	12	obl:tmod	_	_
 14	sebelumnya	belum	ADJ	JJ	_	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	18	punct	_	_
 16	atau	atau	CCONJ	CC	_	18	cc	_	_
-17	3,83	3,83	NUM	CD	_	18	nummod	_	_
+17	3,83	3,83	NUM	CD	NumType=Card	18	nummod	_	_
 18	persen	persen	NOUN	NN	Number=Sing	11	conj	_	_
 19	dibanding	banding	VERB	VB	Voice=Pass	18	acl:relcl	_	_
 20	triwulan	triwulan	NOUN	NN	Number=Sing	19	obl:tmod	_	_
 21	II	II	ADJ	JJ	_	20	amod	_	_
-22	2006	2006	NUM	CD	_	20	nummod	_	SpaceAfter=No
+22	2006	2006	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
 24	"	"	PUNCT	''	_	9	punct	_	_
 25-26	katanya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -11310,7 +11310,7 @@
 20	melakukan	laku	VERB	VB	Voice=Act	15	ccomp	_	_
 21	pelelangan	lelang	NOUN	NN	Number=Sing	20	obj	_	_
 22	atas	atas	ADP	IN	_	24	case	_	_
-23	23	23	NUM	CD	_	24	nummod	_	_
+23	23	23	NUM	CD	NumType=Card	24	nummod	_	_
 24	saham	saham	NOUN	NN	Number=Sing	21	nmod	_	_
 25	BES	BES	PROPN	NNP	_	24	nmod	_	_
 26	kategori	kategori	NOUN	NN	Number=Sing	24	nmod	_	_
@@ -11318,9 +11318,9 @@
 28	treasury	treasury	X	FW	Foreign=Yes	26	nmod	_	_
 29	stock	stock	X	FW	Foreign=Yes	28	flat:foreign	_	_
 30	pada	pada	ADP	IN	_	32	case	_	_
-31	4	4	NUM	CD	_	32	nummod	_	_
+31	4	4	NUM	CD	NumType=Card	32	nummod	_	_
 32	Juni	Juni	PROPN	NNP	_	24	nmod:tmod	_	_
-33	2007	2007	NUM	CD	_	32	nummod	_	_
+33	2007	2007	NUM	CD	NumType=Card	32	nummod	_	_
 34	di	di	ADP	IN	_	35	case	_	_
 35	Jakarta	Jakarta	PROPN	NNP	_	24	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	15	punct	_	_
@@ -11338,7 +11338,7 @@
 8	kuartal	kuartal	NOUN	NN	Number=Sing	5	nmod:tmod	_	_
 9	II/2007	II/2007	PROPN	NNP	_	8	nmod	_	_
 10	tumbuh	tumbuh	VERB	VB	Voice=Act	0	root	_	_
-11	4,9	4,9	NUM	CD	_	12	nummod	_	_
+11	4,9	4,9	NUM	CD	NumType=Card	12	nummod	_	_
 12	persen	persen	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	_	_
 14	yang	yang	PRON	IN	PronType=Rel	15	nsubj:pass	_	_
@@ -11347,34 +11347,34 @@
 17	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	15	obl	_	_
 18	penjualan	jual	NOUN	NN	Number=Sing	17	nmod	_	_
 19	mobil	mobil	NOUN	NN	Number=Sing	17	nmod	_	_
-20	7,46	7,46	NUM	CD	_	21	nummod	_	_
+20	7,46	7,46	NUM	CD	NumType=Card	21	nummod	_	_
 21	persen	persen	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	_	_
 23	penjualan	jual	NOUN	NN	Number=Sing	17	conj	_	_
 24	motor	motor	NOUN	NN	Number=Sing	23	nmod	_	_
-25	61,9	61,9	NUM	CD	_	26	nummod	_	_
+25	61,9	61,9	NUM	CD	NumType=Card	26	nummod	_	_
 26	persen	persen	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	28	punct	_	_
 28	konsumsi	konsumsi	NOUN	NN	Number=Sing	17	conj	_	_
 29	listrik	listrik	NOUN	NN	Number=Sing	28	nmod	_	_
-30	8,2	8,2	NUM	CD	_	31	nummod	_	_
+30	8,2	8,2	NUM	CD	NumType=Card	31	nummod	_	_
 31	persen	persen	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
 32	,	,	PUNCT	,	_	33	punct	_	_
 33	kredit	kredit	NOUN	NN	Number=Sing	17	conj	_	_
 34	konsumsi	konsumsi	NOUN	NN	Number=Sing	33	nmod	_	_
-35	18	18	NUM	CD	_	36	nummod	_	_
+35	18	18	NUM	CD	NumType=Card	36	nummod	_	_
 36	persen	persen	NOUN	NN	Number=Sing	33	nmod	_	SpaceAfter=No
 37	,	,	PUNCT	,	_	38	punct	_	_
 38	PPN	PPN	NOUN	NN	Number=Sing	17	conj	_	_
 39	dalam	dalam	NOUN	NN	Number=Sing	40	nmod:lmod	_	_
 40	negeri	negeri	NOUN	NN	Number=Sing	38	nmod	_	_
-41	20	20	NUM	CD	_	42	nummod	_	_
+41	20	20	NUM	CD	NumType=Card	42	nummod	_	_
 42	persen	persen	NOUN	NN	Number=Sing	38	nmod	_	SpaceAfter=No
 43	,	,	PUNCT	,	_	45	punct	_	_
 44	dan	dan	CCONJ	CC	_	45	cc	_	_
 45	PPN	PPN	NOUN	NN	Number=Sing	17	conj	_	_
 46	Impor	Impor	NOUN	NN	Number=Sing	45	nmod	_	_
-47	28	28	NUM	CD	_	48	nummod	_	_
+47	28	28	NUM	CD	NumType=Card	48	nummod	_	_
 48	persen	persen	NOUN	NN	Number=Sing	45	nmod	_	SpaceAfter=No
 49	.	.	PUNCT	.	_	10	punct	_	_
 
@@ -11388,12 +11388,12 @@
 5	pemerintah	perintah	NOUN	NN	Number=Sing	3	nmod	_	_
 6	pada	pada	ADP	IN	_	8	case	_	_
 7	akhir	akhir	NOUN	NN	Number=Sing	8	nummod	_	_
-8	2008	2008	NUM	CD	_	3	nmod	_	_
+8	2008	2008	NUM	CD	NumType=Card	3	nmod	_	_
 9	diperkirakan	kira	VERB	VB	Voice=Pass	0	root	_	_
 10	turun	turun	VERB	VB	Voice=Act	9	ccomp	_	_
 11	menjadi	jadi	VERB	VB	Voice=Act	10	ccomp	_	_
 12	sekitar	sekitar	ADV	RB	_	13	advmod	_	_
-13	33	33	NUM	CD	_	14	nummod	_	_
+13	33	33	NUM	CD	NumType=Card	14	nummod	_	_
 14	persen	persen	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
 16	"	"	PUNCT	''	_	9	punct	_	_
@@ -11446,9 +11446,9 @@
 5	penjualan	jual	NOUN	NN	Number=Sing	4	obj	_	_
 6	mobil	mobil	NOUN	NN	Number=Sing	5	nmod	_	_
 7	selama	selama	ADP	IN	_	8	case	_	_
-8	2006	2006	NUM	CD	_	5	nmod	_	_
+8	2006	2006	NUM	CD	NumType=Card	5	nmod	_	_
 9	sebanyak	sebanyak	NOUN	NN	Number=Sing	5	nmod	_	_
-10	318.904	318.904	NUM	CD	_	11	nummod	_	_
+10	318.904	318.904	NUM	CD	NumType=Card	11	nummod	_	_
 11	unit	unit	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -11481,16 +11481,16 @@
 4	diharapkan	harap	VERB	VB	Voice=Pass	0	root	_	_
 5	berlangsung	langsung	VERB	VB	Voice=Act	4	ccomp	_	_
 6	dalam	dalam	ADP	IN	_	7	case	_	_
-7	90	90	NUM	CD	_	5	obl	_	_
+7	90	90	NUM	CD	NumType=Card	5	obl	_	_
 8	hingga	hingga	ADP	IN	_	10	case	_	_
-9	120	120	NUM	CD	_	10	nummod	_	_
+9	120	120	NUM	CD	NumType=Card	10	nummod	_	_
 10	hari	hari	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	_	_
 12	Medco	Medco	PROPN	NNP	_	15	nsubj	_	_
 13	Energi	Energi	PROPN	NNP	_	12	flat:name	_	_
 14	US	US	PROPN	NNP	_	12	flat:name	_	_
 15	memiliki	milik	VERB	VB	Voice=Act	4	parataxis	_	_
-16	60	60	NUM	CD	_	17	nummod	_	_
+16	60	60	NUM	CD	NumType=Card	17	nummod	_	_
 17	persen	persen	NOUN	NN	Number=Sing	15	obj	_	_
 18	working	working	X	FW	Foreign=Yes	17	nmod	_	_
 19	interest	interest	X	FW	Foreign=Yes	18	flat:foreign	_	_
@@ -11523,8 +11523,8 @@
 11	menghemat	hemat	VERB	VB	Voice=Act	0	root	_	_
 12	biaya	biaya	NOUN	NN	Number=Sing	11	obj	_	_
 13	Rp	Rp	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
-14	100	100	NUM	CD	_	13	nummod	_	_
-15	miliar	miliar	NUM	CD	_	14	flat	_	_
+14	100	100	NUM	CD	NumType=Card	13	nummod	_	_
+15	miliar	miliar	NUM	CD	NumType=Card	14	flat	_	_
 16	per	per	ADP	IN	_	17	case	_	_
 17	tahun	tahun	NOUN	NN	Number=Sing	13	nmod:tmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	11	punct	_	_
@@ -11536,14 +11536,14 @@
 2	ekspor	ekspor	NOUN	NN	Number=Sing	3	nsubj	_	_
 3	mengalami	alam	VERB	VB	Voice=Act	0	root	_	_
 4	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	3	obj	_	_
-5	9,4	9,4	NUM	CD	_	6	nummod	_	_
+5	9,4	9,4	NUM	CD	NumType=Card	6	nummod	_	_
 6	persen	persen	NOUN	NN	Number=Sing	4	nmod	_	_
 7	non-migas	non-migas	NOUN	NN	_	3	conj	_	_
-8	22	22	NUM	CD	_	9	nummod	_	_
+8	22	22	NUM	CD	NumType=Card	9	nummod	_	_
 9	persen	persen	NOUN	NN	Number=Sing	7	orphan	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	7	punct	_	_
 11	migas	migas	NOUN	NN	Number=Sing	3	conj	_	_
-12	7	7	NUM	CD	_	13	nummod	_	_
+12	7	7	NUM	CD	NumType=Card	13	nummod	_	_
 13	persen	persen	NOUN	NN	Number=Sing	11	orphan	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	16	punct	_	_
 15	dan	dan	CCONJ	CC	_	16	cc	_	_
@@ -11551,16 +11551,16 @@
 17	impor	impor	NOUN	NN	Number=Sing	16	nmod	_	_
 18	yang	yang	PRON	IN	PronType=Rel	19	nsubj	_	_
 19	tumbuh	tumbuh	VERB	VB	Voice=Act	16	acl:relcl	_	_
-20	11,99	11,99	NUM	CD	_	21	nummod	_	_
+20	11,99	11,99	NUM	CD	NumType=Card	21	nummod	_	_
 21	persen	persen	NOUN	NN	Number=Sing	19	obl	_	_
 22	barang	barang	NOUN	NN	Number=Sing	3	conj	_	_
 23	modal	modal	NOUN	NN	Number=Sing	22	nmod	_	_
-24	40	40	NUM	CD	_	25	nummod	_	_
+24	40	40	NUM	CD	NumType=Card	25	nummod	_	_
 25	persen	persen	NOUN	NN	Number=Sing	22	orphan	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	22	punct	_	_
 27	barang	barang	NOUN	NN	Number=Sing	3	conj	_	_
 28	konsumsi	konsumsi	NOUN	NN	Number=Sing	27	nmod	_	_
-29	2	2	NUM	CD	_	30	nummod	_	_
+29	2	2	NUM	CD	NumType=Card	30	nummod	_	_
 30	persen	persen	NOUN	NN	Number=Sing	27	orphan	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -11669,11 +11669,11 @@
 4	Panin	Panin	PROPN	NNP	_	1	nmod	_	_
 5	meningkat	tingkat	VERB	VB	Voice=Act	0	root	_	_
 6	ke	ke	ADP	IN	_	8	case	_	_
-7	9,3	9,3	NUM	CD	_	8	nummod	_	_
+7	9,3	9,3	NUM	CD	NumType=Card	8	nummod	_	_
 8	persen	persen	NOUN	NN	Number=Sing	5	obl	_	_
 9	di	di	ADP	IN	_	11	case	_	_
 10	akhir	akhir	NOUN	NN	Number=Sing	11	nmod:lmod	_	_
-11	2005	2005	NUM	CD	_	5	obl:tmod	_	_
+11	2005	2005	NUM	CD	NumType=Card	5	obl:tmod	_	_
 12	yang	yang	SCONJ	IN	_	14	mark	_	_
 13	sebagian	sebagian	NOUN	NN	Number=Sing	14	nsubj	_	_
 14	disebabkan	sebab	VERB	VB	Voice=Pass	5	acl:relcl	_	_
@@ -11706,6 +11706,6 @@
 41	yang	yang	PRON	IN	PronType=Rel	42	nsubj	_	_
 42	meningkat	tingkat	VERB	VB	Voice=Act	38	acl:relcl	_	_
 43	sejak	sejak	ADP	IN	_	44	case	_	_
-44	2005	2005	NUM	CD	_	42	obl	_	SpaceAfter=No
+44	2005	2005	NUM	CD	NumType=Card	42	obl	_	SpaceAfter=No
 45	.	.	PUNCT	.	_	5	punct	_	_
 
