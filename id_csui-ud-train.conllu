@@ -149,9 +149,9 @@
 15	itu	itu	DET	DT	PronType=Dem	6	det	_	_
 16	pada	pada	ADP	IN	_	17	case	_	_
 17	kuartal	kuartal	NOUN	NN	Number=Sing	5	obl:tmod	_	_
-18	kedua	kedua	ADJ	JJ	_	17	amod	_	_
+18	kedua	kedua	ADJ	JJ	NumType=Ord	17	amod	_	_
 19	dan	dan	CCONJ	CC	_	20	cc	_	_
-20	ketiga	ketiga	ADJ	JJ	_	18	advcl	_	SpaceAfter=No
+20	ketiga	ketiga	ADJ	JJ	NumType=Ord	18	advcl	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	5	punct	_	_
 22	saat	saat	SCONJ	IN	_	31	mark	_	_
 23	ada	ada	VERB	VB	Voice=Act	31	advcl	_	_
@@ -548,7 +548,7 @@
 19	di	di	ADP	IN	_	20	case	_	_
 20	Indonesia	Indonesia	PROPN	NNP	_	17	nmod	_	_
 21	terbesar	besar	ADJ	JJ	Degree=Sup	11	conj	_	_
-22	kedua	kedua	ADJ	JJ	_	21	advcl	_	_
+22	kedua	kedua	ADJ	JJ	NumType=Ord	21	advcl	_	_
 23	setelah	setelah	SCONJ	IN	_	24	mark	_	_
 24	Jepang	Jepang	PROPN	NNP	_	21	obl	_	_
 25	dan	dan	CCONJ	CC	_	26	cc	_	_
@@ -621,7 +621,7 @@
 29	,	,	PUNCT	,	_	26	punct	_	_
 30	hingga	hingga	ADP	IN	_	31	case	_	_
 31	kuartal	kuartal	NOUN	NN	Number=Sing	36	obl:tmod	_	_
-32	pertama	pertama	ADJ	JJ	_	31	amod	_	_
+32	pertama	pertama	ADJ	JJ	NumType=Ord	31	amod	_	_
 33	2007	2007	NUM	CD	NumType=Card	31	nummod	_	_
 34	ini	ini	DET	DT	PronType=Dem	31	det	_	_
 35	telah	telah	AUX	MD	_	36	aux	_	_
@@ -739,7 +739,7 @@
 6	Tbk	Tbk	PROPN	NNP	_	4	flat:name	_	_
 7	sampai	sampai	ADP	IN	_	8	case	_	_
 8	triwulan	triwulan	NOUN	NN	Number=Sing	1	nmod:tmod	_	_
-9	pertama	pertama	ADJ	JJ	_	8	amod	_	_
+9	pertama	pertama	ADJ	JJ	NumType=Ord	8	amod	_	_
 10	K1	K1	PROPN	NNP	_	8	nmod	_	_
 11	2007	2007	NUM	CD	NumType=Card	10	nummod	_	_
 12	naik	naik	VERB	VB	Voice=Act	0	root	_	_
@@ -1073,7 +1073,7 @@
 21	dalam	dalam	ADP	IN	_	23	case	_	_
 22	tiga	tiga	NUM	CD	NumType=Card	23	nummod	_	_
 23	bulan	bulan	NOUN	NN	Number=Sing	17	nmod:tmod	_	_
-24	pertama	pertama	ADJ	JJ	_	23	amod	_	_
+24	pertama	pertama	ADJ	JJ	NumType=Ord	23	amod	_	_
 25	yang	yang	SCONJ	IN	_	26	mark	_	_
 26	berakhir	akhir	VERB	VB	Voice=Act	23	acl:relcl	_	_
 27	Maret	Maret	PROPN	NNP	_	26	obl:tmod	_	_
@@ -1192,7 +1192,7 @@
 1	Panin	panin	PROPN	NNP	_	3	nsubj	_	_
 2	adalah	adalah	AUX	VBZ	_	3	cop	_	_
 3	bank	bank	NOUN	NN	Number=Sing	0	root	_	_
-4	kedelapan	kedelapan	ADJ	JJ	_	3	amod	_	_
+4	kedelapan	kedelapan	ADJ	JJ	NumType=Ord	3	amod	_	_
 5	terbesar	besar	ADJ	JJ	Degree=Sup	3	amod	_	_
 6	di	di	ADP	IN	_	7	case	_	_
 7	Indonesia	Indonesia	PROPN	NNP	_	3	nmod	_	_
@@ -1968,7 +1968,7 @@
 13	kapal	kapal	NOUN	NN	Number=Sing	11	obj	_	_
 14	tanker	tanker	NOUN	NN	Number=Sing	13	nmod	_	_
 15	terbesar	besar	ADJ	JJ	Degree=Sup	13	amod	_	_
-16	ketiga	ketiga	ADJ	JJ	_	13	amod	_	_
+16	ketiga	ketiga	ADJ	JJ	NumType=Ord	13	amod	_	_
 17	di	di	ADP	IN	_	18	case	_	_
 18	dunia	dunia	NOUN	NN	Number=Sing	13	nmod	_	_
 19	dalam	dalam	ADP	IN	_	20	case	_	_
@@ -2206,7 +2206,7 @@
 26	)	)	PUNCT	-RRB-	_	24	punct	_	_
 27	pada	pada	ADP	IN	_	28	case	_	_
 28	semester	semester	NOUN	NN	Number=Sing	15	obl:tmod	_	_
-29	pertama	pertama	ADJ	JJ	_	28	amod	_	_
+29	pertama	pertama	ADJ	JJ	NumType=Ord	28	amod	_	_
 30	tahun	tahun	NOUN	NN	Number=Sing	28	nmod:tmod	_	_
 31	ini	ini	DET	DT	PronType=Dem	30	det	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	13	punct	_	_
@@ -2659,7 +2659,7 @@
 6	dalam	dalam	ADP	IN	_	8	case	_	_
 7	dua	dua	NUM	CD	NumType=Card	8	nummod	_	_
 8	bulan	bulan	NOUN	NN	Number=Sing	16	obl:tmod	_	_
-9	pertama	pertama	ADJ	JJ	_	8	amod	_	_
+9	pertama	pertama	ADJ	JJ	NumType=Ord	8	amod	_	_
 10	2007	2007	NUM	CD	NumType=Card	8	nummod	_	_
 11	ini	ini	DET	DT	PronType=Dem	8	det	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	16	punct	_	_
@@ -2762,7 +2762,7 @@
 29	dibanding	banding	VERB	VB	Voice=Pass	26	ccomp	_	_
 30	pada	pada	ADP	IN	_	31	case	_	_
 31	semester	semester	NOUN	NN	Number=Sing	29	obl:tmod	_	_
-32	pertama	pertama	ADJ	JJ	_	31	amod	_	_
+32	pertama	pertama	ADJ	JJ	NumType=Ord	31	amod	_	_
 33	tahun	tahun	NOUN	NN	Number=Sing	31	nmod:tmod	_	_
 34	lalu	lalu	VERB	VB	Voice=Act	33	ccomp	_	_
 35	sebesar	sebesar	NOUN	NN	Number=Sing	31	nmod	_	_
@@ -3391,7 +3391,7 @@
 23	ton	ton	NOUN	NN	Number=Sing	20	nmod	_	_
 24	pada	pada	ADP	IN	_	25	case	_	_
 25	kuartal	kuartal	NOUN	NN	Number=Sing	9	obl:tmod	_	_
-26	kedua	kedua	ADJ	JJ	_	25	amod	_	_
+26	kedua	kedua	ADJ	JJ	NumType=Ord	25	amod	_	_
 27	2007	2007	NUM	CD	NumType=Card	25	nummod	_	_
 28	dibanding	banding	VERB	VB	Voice=Pass	9	advcl	_	_
 29	periode	periode	NOUN	NN	Number=Sing	28	obl	_	_
@@ -3412,7 +3412,7 @@
 44	ton	ton	NOUN	NN	Number=Sing	41	nmod	_	_
 45	pada	pada	ADP	IN	_	46	case	_	_
 46	kuartal	kuartal	NOUN	NN	Number=Sing	32	nmod:tmod	_	_
-47	pertama	pertama	ADJ	JJ	_	46	amod	_	_
+47	pertama	pertama	ADJ	JJ	NumType=Ord	46	amod	_	_
 48	2007	2007	NUM	CD	NumType=Card	46	nummod	_	SpaceAfter=No
 49	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -3869,7 +3869,7 @@
 16	persen	persen	NOUN	NN	Number=Sing	12	obl	_	_
 17	di	di	ADP	IN	_	18	case	_	_
 18	semester	semester	NOUN	NN	Number=Sing	12	obl:tmod	_	_
-19	kedua	kedua	ADJ	JJ	_	18	amod	_	SpaceAfter=No
+19	kedua	kedua	ADJ	JJ	NumType=Ord	18	amod	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	24	punct	_	_
 21	maka	maka	SCONJ	IN	_	24	mark	_	_
 22	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	24	nsubj	_	_
@@ -4125,7 +4125,7 @@
 1	EPA	epa	PROPN	NNP	_	3	nsubj	_	_
 2	tersebut	sebut	DET	DT	_	1	det	_	_
 3	merupakan	rupa	VERB	VB	Voice=Act	0	root	_	_
-4	pertama	pertama	ADJ	JJ	_	5	amod	_	_
+4	pertama	pertama	ADJ	JJ	NumType=Ord	5	amod	_	_
 5-6	kalinya	_	_	_	_	_	_	_	_
 5	kali	kali	NOUN	NN	Number=Sing	3	obj	_	_
 6	nya	nya	DET	DT	Definite=Def|PronType=Art	5	det	_	_
@@ -4134,7 +4134,7 @@
 9	,	,	PUNCT	,	_	11	punct	_	_
 10	namun	namun	CCONJ	CC	_	11	cc	_	_
 11	yang	yang	PRON	PRP	PronType=Rel	5	conj	_	_
-12	kedelapan	kedelapan	ADJ	JJ	_	11	amod	_	_
+12	kedelapan	kedelapan	ADJ	JJ	NumType=Ord	11	amod	_	_
 13	bagi	bagi	ADP	IN	_	14	case	_	_
 14	Jepang	Jepang	PROPN	NNP	_	11	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	_	_
@@ -4174,7 +4174,7 @@
 7	mulai	mulai	VERB	VB	Voice=Act	0	root	_	_
 8	diterbitkan	terbit	VERB	VB	Voice=Pass	7	xcomp	_	_
 9	semester	semester	NOUN	NN	Number=Sing	8	obl:tmod	_	_
-10	kedua	kedua	ADJ	JJ	_	9	amod	_	_
+10	kedua	kedua	ADJ	JJ	NumType=Ord	9	amod	_	_
 11	tahun	tahun	NOUN	NN	Number=Sing	9	nmod:tmod	_	_
 12	2007	2007	NUM	CD	NumType=Card	11	nummod	_	_
 13	dan	dan	CCONJ	CC	_	18	cc	_	_
@@ -4774,7 +4774,7 @@
 9	Negara	Negara	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	7	punct	_	_
 11	untuk	untuk	ADP	IN	_	13	case	_	_
-12	pertama	pertama	ADJ	JJ	_	13	amod	_	_
+12	pertama	pertama	ADJ	JJ	NumType=Ord	13	amod	_	_
 13-14	kalinya	_	_	_	_	_	_	_	_
 13	kali	kali	NOUN	NN	Number=Sing	16	obl	_	_
 14	nya	nya	DET	DT	Definite=Def|PronType=Art	13	det	_	_
@@ -5164,7 +5164,7 @@
 15	pada	pada	ADP	IN	_	16	case	_	_
 16	10	10	NUM	CD	NumType=Card	17	nmod:tmod	_	_
 17	bulan	bulan	NOUN	NN	Number=Sing	20	obl:tmod	_	_
-18	pertama	pertama	ADJ	JJ	_	17	amod	_	_
+18	pertama	pertama	ADJ	JJ	NumType=Ord	17	amod	_	_
 19	2007	2007	NUM	CD	NumType=Card	17	nummod	_	_
 20	turun	turun	VERB	VB	Voice=Act	0	root	_	_
 21	51,6	51,6	NUM	CD	NumType=Card	22	nummod	_	_
@@ -5313,7 +5313,7 @@
 8	terhadap	hadap	ADP	IN	_	9	case	_	_
 9	dana	dana	NOUN	NN	Number=Sing	7	nmod	_	_
 10	pihak	pihak	NOUN	NN	Number=Sing	9	nmod	_	_
-11	ketiga	ketiga	ADJ	JJ	_	10	amod	_	_
+11	ketiga	ketiga	ADJ	JJ	NumType=Ord	10	amod	_	_
 12	LDR	LDR	PROPN	NNP	_	6	appos	_	_
 13	perbankan	bank	NOUN	NN	Number=Sing	6	nmod	_	_
 14	yang	yang	SCONJ	IN	_	15	mark	_	_
@@ -6591,7 +6591,7 @@
 1	Penyebab	sebab	NOUN	NN	Number=Sing	4	nsubj	_	_
 2	nya	nya	DET	DT	Definite=Def|PronType=Art	1	det	_	_
 3	adalah	adalah	AUX	VBZ	_	4	cop	_	_
-4	pertama	pertama	ADJ	JJ	_	0	root	_	SpaceAfter=No
+4	pertama	pertama	ADJ	JJ	NumType=Ord	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
 6	porsi	porsi	NOUN	NN	Number=Sing	4	appos	_	_
 7	pinjaman	pinjam	NOUN	NN	Number=Sing	6	nmod	_	_
@@ -7012,7 +7012,7 @@
 29	grup	grup	NOUN	NN	Number=Sing	23	appos	_	_
 30	perbankan	bank	NOUN	NN	Number=Sing	29	nmod	_	_
 31	terbesar	besar	ADJ	JJ	Degree=Sup	29	amod	_	_
-32	kedua	kedua	ADJ	JJ	_	29	amod	_	_
+32	kedua	kedua	ADJ	JJ	NumType=Ord	29	amod	_	_
 33	di	di	ADP	IN	_	34	case	_	_
 34	Malaysia	Malaysia	PROPN	NNP	_	29	nmod	_	_
 35	berdasarkan	dasar	VERB	VB	Voice=Act	29	acl:relcl	_	_
@@ -7457,7 +7457,7 @@
 24	miliar	miliar	NUM	CD	NumType=Card	23	flat	_	_
 25	pada	pada	ADP	IN	_	26	case	_	_
 26	kuartal	kuartal	NOUN	NN	Number=Sing	22	nmod:tmod	_	_
-27	pertama	pertama	ADJ	JJ	_	26	amod	_	_
+27	pertama	pertama	ADJ	JJ	NumType=Ord	26	amod	_	_
 28	2006	2006	NUM	CD	NumType=Card	26	nummod	_	_
 29	menjadi	jadi	VERB	VB	Voice=Act	17	acl:relcl	_	_
 30	Rp	Rp	NOUN	NN	Number=Sing	29	obj	_	SpaceAfter=No
@@ -7465,7 +7465,7 @@
 32	miliar	miliar	NUM	CD	NumType=Card	31	flat	_	_
 33	pada	pada	ADP	IN	_	34	case	_	_
 34	kuartal	kuartal	NOUN	NN	Number=Sing	30	nmod:tmod	_	_
-35	pertama	pertama	ADJ	JJ	_	34	amod	_	_
+35	pertama	pertama	ADJ	JJ	NumType=Ord	34	amod	_	_
 36	tahun	tahun	NOUN	NN	Number=Sing	34	nmod:tmod	_	_
 37	ini	ini	DET	DT	PronType=Dem	36	det	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	8	punct	_	_
@@ -9478,7 +9478,7 @@
 12	DEJ	DEJ	PROPN	NNP	_	11	nmod	_	_
 13	kepada	kepada	ADP	IN	_	14	case	_	_
 14	pihak	pihak	NOUN	NN	Number=Sing	11	nmod	_	_
-15	ketiga	ketiga	ADJ	JJ	_	14	amod	_	_
+15	ketiga	ketiga	ADJ	JJ	NumType=Ord	14	amod	_	_
 16	sampai	sampai	ADP	IN	_	18	case	_	_
 17	dengan	dengan	ADP	IN	_	18	case	_	_
 18	jumlah	jumlah	NOUN	NN	Number=Sing	11	nmod	_	_
@@ -9645,7 +9645,7 @@
 17	penjualan	jual	NOUN	NN	Number=Sing	16	nmod	_	_
 18	enam	enam	NUM	CD	NumType=Card	19	nummod	_	_
 19	bulan	bulan	NOUN	NN	Number=Sing	17	nmod	_	_
-20	pertama	pertama	ADJ	JJ	_	19	amod	_	_
+20	pertama	pertama	ADJ	JJ	NumType=Ord	19	amod	_	_
 21	ini	ini	DET	DT	PronType=Dem	16	det	_	_
 22	telah	telah	AUX	MD	_	23	aux	_	_
 23	mendorong	dorong	VERB	VB	Voice=Act	15	ccomp	_	_
@@ -10549,9 +10549,9 @@
 17	tetap	tetap	ADJ	JJ	_	14	amod	_	_
 18	untuk	untuk	ADP	IN	_	19	case	_	_
 19	tahun	tahun	NOUN	NN	Number=Sing	14	nmod:tmod	_	_
-20	pertama	pertama	ADJ	JJ	_	19	amod	_	_
+20	pertama	pertama	ADJ	JJ	NumType=Ord	19	amod	_	_
 21	sampai	sampai	ADP	IN	_	22	case	_	_
-22	kelima	kelima	ADJ	JJ	_	20	advcl	_	_
+22	kelima	kelima	ADJ	JJ	NumType=Ord	20	flat	_	_
 23	dan	dan	CCONJ	CC	_	24	cc	_	_
 24	suku	suku	NOUN	NN	Number=Sing	14	conj	_	_
 25	bunga	bunga	NOUN	NN	Number=Sing	24	nmod	_	_
@@ -10561,15 +10561,15 @@
 29	tinggi	tinggi	ADJ	JJ	_	24	acl:relcl	_	_
 30	untuk	untuk	ADP	IN	_	31	case	_	_
 31	tahun	tahun	NOUN	NN	Number=Sing	24	nmod:tmod	_	_
-32	keenam	keenam	ADJ	JJ	_	31	amod	_	_
+32	keenam	keenam	ADJ	JJ	NumType=Ord	31	amod	_	_
 33	hingga	hingga	ADP	IN	_	34	case	_	_
-34	ke-10	ke-10	ADJ	JJ	_	32	advcl	_	_
+34	ke-10	ke-10	ADJ	JJ	NumType=Ord	32	flat	_	_
 35	dengan	dengan	ADP	IN	_	36	case	_	_
 36	opsi	opsi	NOUN	NN	Number=Sing	24	nmod	_	_
 37	beli	beli	VERB	VB	Voice=Act	36	acl:relcl	_	_
 38	pada	pada	ADP	IN	_	39	case	_	_
 39	tahun	tahun	NOUN	NN	Number=Sing	36	nmod:tmod	_	_
-40	kelima	kelima	ADJ	JJ	_	39	amod	_	SpaceAfter=No
+40	kelima	kelima	ADJ	JJ	NumType=Ord	39	amod	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = csui-train-322
@@ -11403,7 +11403,7 @@
 3	,	,	PUNCT	,	_	11	punct	_	_
 4	untuk	untuk	ADP	IN	_	5	case	_	_
 5	paruh	paruh	NOUN	NN	Number=Sing	11	obl	_	_
-6	pertama	pertama	ADJ	JJ	_	5	amod	_	_
+6	pertama	pertama	ADJ	JJ	NumType=Ord	5	amod	_	_
 7	2007	2007	NUM	CD	NumType=Card	5	nummod	_	_
 8	ini	ini	DET	DT	PronType=Dem	5	det	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	_	_
@@ -11713,7 +11713,7 @@
 18	dalam	dalam	ADP	IN	_	20	case	_	_
 19	sembilan	sembilan	NUM	CD	NumType=Card	20	nummod	_	_
 20	bulan	bulan	NOUN	NN	Number=Sing	24	obl:tmod	_	_
-21	pertama	pertama	ADJ	JJ	_	20	amod	_	_
+21	pertama	pertama	ADJ	JJ	NumType=Ord	20	amod	_	_
 22	tahun	tahun	NOUN	NN	Number=Sing	20	nmod:tmod	_	_
 23	ini	ini	DET	DT	PronType=Dem	22	det	_	_
 24	meningkat	tingkat	VERB	VB	Voice=Act	0	root	_	_
@@ -11888,13 +11888,13 @@
 28	21	21	NUM	CD	NumType=Card	27	nummod	_	_
 29	pada	pada	ADP	IN	_	30	case	_	_
 30	kuartal	kuartal	NOUN	NN	Number=Sing	27	nmod:tmod	_	_
-31	pertama	pertama	ADJ	JJ	_	30	amod	_	_
+31	pertama	pertama	ADJ	JJ	NumType=Ord	30	amod	_	_
 32	2006	2006	NUM	CD	NumType=Card	30	nummod	_	_
 33	menjadi	jadi	VERB	VB	Voice=Act	25	ccomp	_	_
 34	Rp	Rp	NOUN	NN	Number=Sing	33	obj	_	SpaceAfter=No
 35	24	24	NUM	CD	NumType=Card	34	nummod	_	_
 36	kuartal	kuartal	NOUN	NN	Number=Sing	34	nmod	_	_
-37	pertama	pertama	ADJ	JJ	_	36	amod	_	_
+37	pertama	pertama	ADJ	JJ	NumType=Ord	36	amod	_	_
 38	2007	2007	NUM	CD	NumType=Card	36	nummod	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -12245,10 +12245,10 @@
 27	persen	persen	NOUN	NN	Number=Sing	25	obj	_	_
 28	pada	pada	ADP	IN	_	29	case	_	_
 29	triwulan	triwulan	NOUN	NN	Number=Sing	27	nmod:tmod	_	_
-30	kedua	kedua	ADJ	JJ	_	29	amod	_	_
+30	kedua	kedua	ADJ	JJ	NumType=Ord	29	amod	_	_
 31	dibanding	banding	VERB	VB	Voice=Pass	27	acl:relcl	_	_
 32	triwulan	triwulan	NOUN	NN	Number=Sing	31	obl:tmod	_	_
-33	pertama	pertama	ADJ	JJ	_	32	amod	_	_
+33	pertama	pertama	ADJ	JJ	NumType=Ord	32	amod	_	_
 34	dan	dan	CCONJ	CC	_	35	cc	_	_
 35	sebesar	sebesar	NOUN	NN	Number=Sing	27	conj	_	_
 36	9,79	9,79	NUM	CD	NumType=Card	37	nummod	_	_
@@ -12712,7 +12712,7 @@
 18	terutama	utama	ADV	RB	_	16	obl	_	_
 19	pada	pada	ADP	IN	_	20	case	_	_
 20	kuartal	kuartal	NOUN	NN	Number=Sing	18	nmod	_	_
-21	ketiga	ketiga	ADJ	JJ	_	20	amod	_	_
+21	ketiga	ketiga	ADJ	JJ	NumType=Ord	20	amod	_	_
 22	2007	2007	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -13854,7 +13854,7 @@
 3	rate	rate	X	FW	Foreign=Yes	2	nmod	_	_
 4	ini	ini	DET	DT	PronType=Dem	1	det	_	_
 5	yang	yang	SCONJ	IN	_	7	mark	_	_
-6	kesebelas	kesebelas	ADJ	JJ	_	7	amod	_	_
+6	kesebelas	kesebelas	ADJ	JJ	NumType=Ord	7	amod	_	_
 7-8	kalinya	_	_	_	_	_	_	_	_
 7	kali	kali	NOUN	NN	Number=Sing	0	root	_	_
 8	nya	nya	DET	DT	Definite=Def|PronType=Art	7	det	_	_
@@ -14207,7 +14207,7 @@
 8	)	)	PUNCT	-RRB-	_	7	punct	_	_
 9	pada	pada	ADP	IN	_	10	case	_	_
 10	semester	semester	NOUN	NN	Number=Sing	14	obl:tmod	_	_
-11	pertama	pertama	ADJ	JJ	_	10	amod	_	_
+11	pertama	pertama	ADJ	JJ	NumType=Ord	10	amod	_	_
 12	tahun	tahun	NOUN	NN	Number=Sing	10	nmod:tmod	_	_
 13	ini	ini	DET	DT	PronType=Dem	12	det	_	_
 14	naik	naik	VERB	VB	Voice=Act	0	root	_	_
@@ -15387,7 +15387,7 @@
 11	)	)	PUNCT	-RRB-	_	10	punct	_	_
 12	sampai	sampai	ADP	IN	_	13	case	_	_
 13	kuartal	kuartal	NOUN	NN	Number=Sing	16	obl:tmod	_	_
-14	pertama	pertama	ADJ	JJ	_	13	amod	_	_
+14	pertama	pertama	ADJ	JJ	NumType=Ord	13	amod	_	_
 15	2007	2007	NUM	CD	NumType=Card	13	nummod	_	_
 16	naik	naik	VERB	VB	Voice=Act	0	root	_	_
 17	47,6	47,6	NUM	CD	NumType=Card	18	nummod	_	_
@@ -17628,7 +17628,7 @@
 10	produksi	produksi	NOUN	NN	Number=Sing	9	obl	_	_
 11	nikel	nikel	NOUN	NN	Number=Sing	10	nmod	_	_
 12	semester	semester	NOUN	NN	Number=Sing	10	nmod	_	_
-13	pertama	pertama	ADJ	JJ	_	12	amod	_	_
+13	pertama	pertama	ADJ	JJ	NumType=Ord	12	amod	_	_
 14	yang	yang	SCONJ	IN	_	15	mark	_	_
 15	naik	naik	VERB	VB	Voice=Act	10	acl:relcl	_	_
 16	18	18	NUM	CD	NumType=Card	17	nummod	_	_
@@ -17648,7 +17648,7 @@
 30	pada	pada	ADP	IN	_	32	case	_	_
 31	enam	enam	NUM	CD	NumType=Card	32	nummod	_	_
 32	bulan	bulan	NOUN	NN	Number=Sing	15	obl:tmod	_	_
-33	pertama	pertama	ADJ	JJ	_	32	amod	_	_
+33	pertama	pertama	ADJ	JJ	NumType=Ord	32	amod	_	_
 34	2006	2006	NUM	CD	NumType=Card	32	nummod	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	9	punct	_	_
 
@@ -17831,7 +17831,7 @@
 20	dirasakan	rasa	VERB	VB	Voice=Pass	5	conj	_	_
 21	pada	pada	ADP	IN	_	22	case	_	_
 22	kuartal	kuartal	NOUN	NN	Number=Sing	20	obl:tmod	_	_
-23	pertama	pertama	ADJ	JJ	_	22	amod	_	_
+23	pertama	pertama	ADJ	JJ	NumType=Ord	22	amod	_	_
 24	2007	2007	NUM	CD	NumType=Card	22	nummod	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
 26	"	"	PUNCT	''	_	5	punct	_	_
@@ -19046,7 +19046,7 @@
 6	periode	periode	NOUN	NN	Number=Sing	4	obl:tmod	_	_
 7	sembilan	sembilan	NUM	CD	NumType=Card	8	nummod	_	_
 8	bulan	bulan	NOUN	NN	Number=Sing	6	nmod	_	_
-9	pertama	pertama	ADJ	JJ	_	8	amod	_	_
+9	pertama	pertama	ADJ	JJ	NumType=Ord	8	amod	_	_
 10	tahun	tahun	NOUN	NN	Number=Sing	8	nmod:tmod	_	_
 11	lalu	lalu	VERB	VB	Voice=Act	10	ccomp	_	_
 12	yang	yang	SCONJ	IN	_	14	mark	_	_
@@ -19165,9 +19165,9 @@
 5	2007	2007	NUM	CD	NumType=Card	1	nmod	_	_
 6	merupakan	rupa	VERB	VB	Voice=Act	0	root	_	_
 7	yang	yang	PRON	PRP	PronType=Rel	6	obj	_	_
-8	keenam	keenam	ADJ	JJ	_	7	amod	_	_
+8	keenam	keenam	ADJ	JJ	NumType=Ord	7	amod	_	_
 9	setelah	setelah	ADP	IN	_	10	case	_	_
-10	pertama	pertama	ADJ	JJ	_	6	obl	_	_
+10	pertama	pertama	ADJ	JJ	NumType=Ord	6	obl	_	_
 11	pada	pada	ADP	IN	_	12	case	_	_
 12	2002	2002	NUM	CD	NumType=Card	10	obl	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	6	punct	_	_
@@ -19585,7 +19585,7 @@
 16	di	di	ADP	IN	_	18	case	_	_
 17	akhir	akhir	NOUN	NN	Number=Sing	18	nmod:lmod	_	_
 18	semester	semester	NOUN	NN	Number=Sing	14	nmod:tmod	_	_
-19	pertama	pertama	ADJ	JJ	_	18	amod	_	_
+19	pertama	pertama	ADJ	JJ	NumType=Ord	18	amod	_	_
 20	tahun	tahun	NOUN	NN	Number=Sing	18	nmod:tmod	_	_
 21	2007	2007	NUM	CD	NumType=Card	20	nummod	_	_
 22	dan	dan	CCONJ	CC	_	24	cc	_	_
@@ -19769,7 +19769,7 @@
 18	pemeliharaan	pelihara	NOUN	NN	Number=Sing	17	nmod	_	_
 19	pada	pada	ADP	IN	_	20	case	_	_
 20	kuartal	kuartal	NOUN	NN	Number=Sing	17	nmod:tmod	_	_
-21	kedua	kedua	ADJ	JJ	_	20	amod	_	SpaceAfter=No
+21	kedua	kedua	ADJ	JJ	NumType=Ord	20	amod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = csui-train-615
@@ -19802,7 +19802,7 @@
 25	Tunai	Tunai	ADJ	JJ	_	24	amod	_	_
 26	sejak	sejak	ADP	IN	_	27	case	_	_
 27	sesi	sesi	NOUN	NN	Number=Sing	8	obl	_	_
-28	pertama	pertama	ADJ	JJ	_	27	amod	_	_
+28	pertama	pertama	ADJ	JJ	NumType=Ord	27	amod	_	_
 29	perdagangan	dagang	NOUN	NN	Number=Sing	27	nmod	_	_
 30	Jumat	Jumat	PROPN	NNP	_	29	nmod:tmod	_	_
 31	hingga	hingga	ADP	IN	_	32	case	_	_
@@ -20336,7 +20336,7 @@
 21	miliar	miliar	NUM	CD	NumType=Card	20	flat	_	_
 22	pada	pada	ADP	IN	_	23	case	_	_
 23	kuartal	kuartal	NOUN	NN	Number=Sing	19	nmod:tmod	_	_
-24	pertama	pertama	ADJ	JJ	_	23	amod	_	_
+24	pertama	pertama	ADJ	JJ	NumType=Ord	23	amod	_	_
 25	2006	2006	NUM	CD	NumType=Card	23	nummod	_	_
 26	menjadi	jadi	VERB	VB	Voice=Act	17	ccomp	_	_
 27	Rp	Rp	NOUN	NN	Number=Sing	26	obj	_	SpaceAfter=No
@@ -20344,7 +20344,7 @@
 29	miliar	miliar	NUM	CD	NumType=Card	28	flat	_	_
 30	pada	pada	ADP	IN	_	31	case	_	_
 31	kuartal	kuartal	NOUN	NN	Number=Sing	27	nmod:tmod	_	_
-32	pertama	pertama	ADJ	JJ	_	31	amod	_	_
+32	pertama	pertama	ADJ	JJ	NumType=Ord	31	amod	_	_
 33	2007	2007	NUM	CD	NumType=Card	31	nummod	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -20400,7 +20400,7 @@
 19	akan	akan	AUX	MD	_	20	aux	_	_
 20	memasuki	masuk	VERB	VB	Voice=Act	3	parataxis	_	_
 21	tahun	tahun	NOUN	NN	Number=Sing	20	obl:tmod	_	_
-22	ke-50	ke-50	ADJ	JJ	_	21	amod	_	SpaceAfter=No
+22	ke-50	ke-50	ADJ	JJ	NumType=Ord	21	amod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = csui-train-634

@@ -702,7 +702,7 @@
 20	Malaysia	Malaysia	PROPN	NNP	_	21	nsubj	_	_
 21	menduduki	duduk	VERB	VB	Voice=Act	15	ccomp	_	_
 22	urutan	urut	NOUN	NN	Number=Sing	21	obj	_	_
-23	ke-2	ke-2	ADJ	JJ	_	22	amod	_	_
+23	ke-2	ke-2	ADJ	JJ	NumType=Ord	22	amod	_	_
 24	setelah	setelah	ADP	IN	_	25	case	_	_
 25	Singapura	Singapura	PROPN	NNP	_	22	nmod	_	_
 26	di	di	ADP	IN	_	27	case	_	_
@@ -1041,7 +1041,7 @@
 29	(	(	PUNCT	-LRB-	_	30	punct	_	SpaceAfter=No
 30	ADB	ADB	PROPN	NNP	_	26	appos	_	SpaceAfter=No
 31	)	)	PUNCT	-RRB-	_	30	punct	_	_
-32	ke-40	ke-40	ADJ	JJ	_	24	amod	_	SpaceAfter=No
+32	ke-40	ke-40	ADJ	JJ	NumType=Ord	24	amod	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = csui-test-39
@@ -3127,7 +3127,7 @@
 16	pada	pada	ADP	IN	_	18	case	_	_
 17	akhir	akhir	NOUN	NN	Number=Sing	18	nmod:lmod	_	_
 18	semester	semester	NOUN	NN	Number=Sing	13	nmod	_	_
-19	pertama	pertama	ADJ	JJ	_	18	amod	_	_
+19	pertama	pertama	ADJ	JJ	NumType=Ord	18	amod	_	_
 20	2007	2007	NUM	CD	NumType=Card	18	nummod	_	_
 21	hanya	hanya	ADV	RB	_	22	advmod	_	_
 22	sebesar	sebesar	NOUN	NN	Number=Sing	11	ccomp	_	_
@@ -4850,7 +4850,7 @@
 2	itu	itu	PRON	PRP	PronType=Dem	7	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	posisi	posisi	NOUN	NN	Number=Sing	7	nsubj	_	_
-5	ketiga	ketiga	ADJ	JJ	_	4	amod	_	_
+5	ketiga	ketiga	ADJ	JJ	NumType=Ord	4	amod	_	_
 6	adalah	adalah	AUX	VBZ	_	7	cop	_	_
 7	Thailand	Thailand	PROPN	NNP	_	0	root	_	_
 8	sebesar	sebesar	NOUN	NN	Number=Sing	7	nmod	_	_
@@ -4866,7 +4866,7 @@
 18	berada	ada	VERB	VB	Voice=Act	6	conj	_	_
 19	di	di	ADP	IN	_	20	case	_	_
 20	urutan	urut	NOUN	NN	Number=Sing	18	obl	_	_
-21	ke-4	ke-4	ADJ	JJ	_	20	amod	_	_
+21	ke-4	ke-4	ADJ	JJ	NumType=Ord	20	amod	_	_
 22	dengan	dengan	ADP	IN	_	23	case	_	_
 23	nilai	nilai	NOUN	NN	Number=Sing	20	nmod	_	_
 24	4,7	4,7	NUM	CD	NumType=Card	26	nummod	_	_
@@ -6276,7 +6276,7 @@
 15	miliar	miliar	NUM	CD	NumType=Card	14	flat	_	_
 16	pada	pada	ADP	IN	_	17	case	_	_
 17	semester	semester	NOUN	NN	Number=Sing	13	nmod:tmod	_	_
-18	pertama	pertama	ADJ	JJ	_	17	amod	_	_
+18	pertama	pertama	ADJ	JJ	NumType=Ord	17	amod	_	_
 19	tahun	tahun	NOUN	NN	Number=Sing	17	nmod:tmod	_	_
 20	lalu	lalu	VERB	VB	Voice=Act	19	ccomp	_	_
 21	menjadi	jadi	VERB	VB	Voice=Act	9	acl:relcl	_	_
@@ -6285,7 +6285,7 @@
 24	miliar	miliar	NUM	CD	NumType=Card	23	flat	_	_
 25	pada	pada	ADP	IN	_	26	case	_	_
 26	semester	semester	NOUN	NN	Number=Sing	22	nmod:tmod	_	_
-27	pertama	pertama	ADJ	JJ	_	26	amod	_	_
+27	pertama	pertama	ADJ	JJ	NumType=Ord	26	amod	_	_
 28	tahun	tahun	NOUN	NN	Number=Sing	26	nmod:tmod	_	_
 29	ini	ini	DET	DT	PronType=Dem	28	det	_	_
 30	dan	dan	CCONJ	CC	_	36	cc	_	_
@@ -6726,7 +6726,7 @@
 20	seri	seri	NOUN	NN	Number=Sing	17	obl	_	_
 21	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	20	nmod:poss	_	_
 22	yang	yang	PRON	IN	PronType=Rel	23	nsubj	_	_
-23	keenam	keenam	ADJ	JJ	_	20	acl:relcl	_	SpaceAfter=No
+23	keenam	keenam	ADJ	JJ	NumType=Ord	20	acl:relcl	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = csui-test-209
@@ -6942,7 +6942,7 @@
 2	periode	periode	NOUN	NN	Number=Sing	11	obl:tmod	_	_
 3	10	10	NUM	CD	NumType=Card	4	nummod	_	_
 4	bulan	bulan	NOUN	NN	Number=Sing	2	nmod	_	_
-5	pertama	pertama	ADJ	JJ	_	4	amod	_	SpaceAfter=No
+5	pertama	pertama	ADJ	JJ	NumType=Ord	4	amod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	11	punct	_	_
 7	produksi	produksi	NOUN	NN	Number=Sing	11	nsubj	_	_
 8	super	super	X	FW	Foreign=Yes	7	nmod	_	_
@@ -6987,7 +6987,7 @@
 22	pada	pada	ADP	IN	_	24	case	_	_
 23	enam	enam	NUM	CD	NumType=Card	24	nummod	_	_
 24	bulan	bulan	NOUN	NN	Number=Sing	27	nmod:tmod	_	_
-25	pertama	pertama	ADJ	JJ	_	24	amod	_	_
+25	pertama	pertama	ADJ	JJ	NumType=Ord	24	amod	_	_
 26	2007	2007	NUM	CD	NumType=Card	24	nummod	_	_
 27	sebesar	sebesar	NOUN	NN	Number=Sing	10	parataxis	_	_
 28	6,13	6,13	NUM	CD	NumType=Card	29	nummod	_	_
@@ -7609,7 +7609,7 @@
 16	dalam	dalam	ADP	IN	_	18	case	_	_
 17	tiga	tiga	NUM	CD	NumType=Card	18	nummod	_	_
 18	bulan	bulan	NOUN	NN	Number=Sing	23	obl:tmod	_	_
-19	pertama	pertama	ADJ	JJ	_	18	amod	_	_
+19	pertama	pertama	ADJ	JJ	NumType=Ord	18	amod	_	_
 20	hingga	hingga	ADP	IN	_	21	case	_	_
 21	Maret	Maret	PROPN	NNP	_	23	obl:tmod	_	_
 22	2007	2007	NUM	CD	NumType=Card	21	nummod	_	_
@@ -8060,7 +8060,7 @@
 7	penurunan	turun	NOUN	NN	Number=Sing	4	obl	_	_
 8	dana	dana	NOUN	NN	Number=Sing	7	nmod	_	_
 9	pihak	pihak	NOUN	NN	Number=Sing	7	nmod	_	_
-10	ketiga	ketiga	ADJ	JJ	_	9	amod	_	_
+10	ketiga	ketiga	ADJ	JJ	NumType=Ord	9	amod	_	_
 11	sebesar	sebesar	NOUN	NN	Number=Sing	7	nmod	_	_
 12	Rp	Rp	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
 13	7,4	7,4	NUM	CD	NumType=Card	12	nummod	_	_
@@ -9104,7 +9104,7 @@
 16	dalam	dalam	ADP	IN	_	18	case	_	_
 17	sembilan	sembilan	NUM	CD	NumType=Card	18	nummod	_	_
 18	bulan	bulan	NOUN	NN	Number=Sing	12	nmod:tmod	_	_
-19	pertama	pertama	ADJ	JJ	_	18	amod	_	_
+19	pertama	pertama	ADJ	JJ	NumType=Ord	18	amod	_	_
 20	yang	yang	PRON	IN	PronType=Rel	21	nsubj	_	_
 21	berakhir	akhir	VERB	VB	Voice=Act	18	acl:relcl	_	_
 22	30	30	NUM	CD	NumType=Card	23	nummod	_	_
@@ -9514,7 +9514,7 @@
 # sent_id = csui-test-298
 # text = Ke-23 saham (BES) yang akan dilelang tersebut atas nama PT Inti Prebon Securities, PT Mashill Jaya Sekuritas, PT Trisula Cipta Dana, PT Pamamitra Artha Pertiwi, PT Kestrel Sekuritas Surabaya, PT Finanza Indonesia, PT Pentasena Arthasentosa dan PT Bomar Sekuritas.
 # text_en = The 23 shares (BES) to be auctioned are under the names of PT Inti Prebon Securities, PT Mashill Jaya Sekuritas, PT Trisula Cipta Dana, PT Pamamitra Artha Pertiwi, PT Kestrel Sekuritas Surabaya, PT Finanza Indonesia, PT Pentasena Arthasentosa and PT Bomar Sekuritas.
-1	Ke-23	ke-23	NUM	CD	NumType=Card	2	nummod	_	_
+1	Ke-23	ke-23	NUM	CD	NumType=Card|PronType=Tot	2	nummod	_	_
 2	saham	saham	NOUN	NN	Number=Sing	11	nmod	_	_
 3	(	(	PUNCT	-LRB-	_	4	punct	_	SpaceAfter=No
 4	BES	BES	PROPN	NNP	_	2	nmod	_	SpaceAfter=No
@@ -9803,7 +9803,7 @@
 7	AALI	AALI	PROPN	NNP	_	3	appos	_	_
 8	pada	pada	ADP	IN	_	9	case	_	_
 9	kuartal	kuartal	NOUN	NN	Number=Sing	12	obl:tmod	_	_
-10	pertama	pertama	ADJ	JJ	_	9	amod	_	_
+10	pertama	pertama	ADJ	JJ	NumType=Ord	9	amod	_	_
 11	2007	2007	NUM	CD	NumType=Card	9	nummod	_	_
 12	turun	turun	VERB	VB	Voice=Act	0	root	_	_
 13	8,3	8,3	NUM	CD	NumType=Card	14	nummod	_	_

@@ -31,9 +31,10 @@ Other characteristics of the treebank:
 * 2021-11-15 v2.9
   * added text_en (translation of each sentence to English, generated using Google Translate)
   * removed feature Poss (Poss=Yes)
-  * added features Polite (Polite=Form and Polite=Infm) and Definite (Definite=Ind and Definite=Def)
+  * added features NumType (values: Card, Ord), Polite (values: Form, Infm), and Definite (values: Ind, Def)
   * fixed FEATS columns for various words
   * fixed the annotations for "di mana" (where)
+  * fixed the annotations for "yang" 
 
 * 2020-11-15 v2.7
   * Initial release in Universal Dependencies.
