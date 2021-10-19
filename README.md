@@ -19,14 +19,17 @@ Other characteristics of the treebank:
 
 * The original constituency treebank was built with manual annotation by [Arawinda Dinakaramani, Fam Rashel, Andry Luthfi, and Ruli Manurung](https://github.com/famrashel/idn-treebank) at Faculty of Computer Science, Universitas Indonesia in 2015.
 * The previous treebank was converted to the Penn Treebank format by Ika Alfina and Jessica Naraiswari Arwidarasti at Faculty of Computer Science, Universitas Indonesia in 2019-2020. This PTB version was named [**Kethu**](https://github.com/ialfina/kethu).
-* The Kethu treebank was converted to a UD treebank by Ika Alfina et al. in 2020.
-* The lemma (LEMMA) and morphological features (FEATS) were generated using [Aksara](https://github.com/bahasa-csui/aksara).
+* The Kethu treebank was converted to a UD treebank by Alfina et al. (2020).
+* The lemma (LEMMA) and morphological features (FEATS) were generated using [Aksara](https://github.com/bahasa-csui/aksara) and manually corrected.
 
 ## References
 * Ika Alfina, Indra Budi, and Heru Suhartanto. ["**Tree Rotations for Dependency Trees: Converting the Head-Directionality of Noun Phrases**"](http://www.thescipub.com/abstract/jcssp.2020.1585.1597). In Journal of Computer Science, 2020, Vol 16 No 11. 
 * M. Yudistira Hanifmuti and Ika Alfina. [**"Aksara: An Indonesian Morphological Analyzer that Conforms to the UD v2 Annotation Guidelines"**](https://ieeexplore.ieee.org/document/9310490). In Proceeding of the 2020 International Conference of Asian Language Processing (IALP)  in Kuala Lumpur, Malaysia, 4-6 Desember 2020. 
 
 # Changelog
+
+* 2021-11-15 v2.9
+  * added text_en (translation of each sentences to English, generated using Google Translate)
 
 * 2020-11-15 v2.7
   * Initial release in Universal Dependencies.
