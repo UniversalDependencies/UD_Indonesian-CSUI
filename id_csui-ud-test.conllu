@@ -19,7 +19,7 @@
 7	mengusir	usir	VERB	VB	Voice=Act	4	advcl	_	_
 8	monyet-monyet	monyet	NOUN	NN	Number=Plur	7	obj	_	_
 9	lain	lain	ADJ	JJ	_	8	amod	_	_
-10	yang	yang	SCONJ	IN	_	11	mark	_	_
+10	yang	yang	PRON	IN	PronType=Rel	11	nsubj	_	_
 11	berbadan	badan	VERB	VB	Voice=Act	8	acl:relcl	_	_
 12	lebih	lebih	ADV	RB	_	13	advmod	_	_
 13	kecil	kecil	ADJ	JJ	_	11	xcomp	_	_
@@ -107,7 +107,7 @@
 5	dari	dari	ADP	IN	_	7	case	_	_
 6	enam	enam	NUM	CD	_	7	nummod	_	_
 7	pihak	pihak	NOUN	NN	Number=Sing	4	nmod	_	_
-8	yang	yang	SCONJ	IN	_	9	mark	_	_
+8	yang	yang	PRON	IN	PronType=Rel	9	nsubj	_	_
 9	mengklaim	klaim	VERB	VB	Voice=Act	7	acl:relcl	_	_
 10	sebagai	bagai	ADP	IN	_	11	case	_	_
 11	pemilik	milik	NOUN	NN	Number=Sing	9	obl	_	_
@@ -121,7 +121,7 @@
 # text_en = One problem he faced was that he lost his receipt due to a fire that hit his house.
 1	Satu	satu	NUM	CD	_	2	nummod	_	_
 2	masalah	masalah	NOUN	NN	Number=Sing	5	nsubj	_	_
-3	yang	yang	SCONJ	IN	_	4	mark	_	_
+3	yang	yang	PRON	IN	PronType=Rel	4	nsubj:pass	_	_
 4	dihadapi	hadap	VERB	VB	Voice=Pass	2	acl:relcl	_	_
 5	adalah	adalah	AUX	VBZ	_	0	root	_	_
 6	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
@@ -130,7 +130,7 @@
 9	terima	terima	NOUN	NN	Number=Sing	8	nmod	_	_
 10	akibat	akibat	ADP	IN	_	11	case	_	_
 11	kebakaran	bakar	NOUN	NN	Number=Sing	7	obl	_	_
-12	yang	yang	SCONJ	IN	_	13	mark	_	_
+12	yang	yang	PRON	IN	PronType=Rel	13	nsubj	_	_
 13	melanda	landa	VERB	VB	Voice=Act	11	acl:relcl	_	_
 14-15	rumahnya	_	_	_	_	_	_	_	SpaceAfter=No
 14	rumah	rumah	NOUN	NN	Number=Sing	13	obj	_	_
@@ -168,7 +168,7 @@
 # text_en = One thing is known that the stone was stored in a bank vault in New Orleans which was flooded when the area was hit by Hurricane Katrina, so the precious stone was submerged in the water for several months.
 1	Satu	satu	NUM	CD	_	2	nummod	_	_
 2	hal	hal	NOUN	NN	Number=Sing	8	obl	_	_
-3	yang	yang	SCONJ	IN	_	4	mark	_	_
+3	yang	yang	PRON	IN	PronType=Rel	4	nsubj:pass	_	_
 4	diketahui	diketahui	VERB	VB	Voice=Pass	2	acl:relcl	_	_
 5	batu	batu	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
 6	itu	itu	DET	DT	PronType=Dem	5	det	_	_
@@ -181,7 +181,7 @@
 13	di	di	ADP	IN	_	14	case	_	_
 14	New	New	PROPN	NNP	_	10	nmod	_	_
 15	Orleans	Orleans	PROPN	NNP	_	14	flat:name	_	_
-16	yang	yang	SCONJ	IN	_	17	mark	_	_
+16	yang	yang	PRON	IN	PronType=Rel	17	nsubj:pass	_	_
 17	terkena	kena	VERB	VB	Voice=Pass	10	acl:relcl	_	_
 18	banjir	banjir	NOUN	NN	Number=Sing	17	obl	_	_
 19	ketika	ketika	SCONJ	IN	_	22	mark	_	_
@@ -235,7 +235,7 @@
 4	-	-	PUNCT	:	_	2	punct	_	_
 5	seorang	orang	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
 6	model	model	NOUN	NN	Number=Sing	2	appos	_	_
-7	yang	yang	SCONJ	IN	_	8	mark	_	_
+7	yang	yang	PRON	IN	PronType=Rel	8	nsubj	_	_
 8	merangkap	rangkap	VERB	VB	Voice=Act	6	acl:relcl	_	_
 9	presenter	presenter	X	FW	Foreign=Yes	8	obj	_	_
 10	TV	TV	NOUN	NN	Number=Sing	9	nmod	_	_
@@ -297,7 +297,7 @@
 8	sebagai	bagai	ADP	IN	_	9	case	_	_
 9	novel	novel	NOUN	NN	Number=Sing	7	obl	_	_
 10	Spanyol	Spanyol	PROPN	NNP	_	9	nmod	_	_
-11	yang	yang	SCONJ	IN	_	13	mark	_	_
+11	yang	yang	PRON	IN	PronType=Rel	13	nsubj	_	_
 12	paling	paling	ADV	RB	_	13	advmod	_	_
 13	populer	populer	ADJ	JJ	_	9	acl:relcl	_	_
 14	walau	walau	SCONJ	IN	_	16	mark	_	_
@@ -319,7 +319,7 @@
 4	Kerajaan	Kerajaan	PROPN	NNP	_	3	flat:name	_	_
 5	Spanyol	Spanyol	PROPN	NNP	_	3	flat:name	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	_	_
-7	yang	yang	SCONJ	IN	_	8	mark	_	_
+7	yang	yang	PRON	IN	PronType=Rel	8	nsubj	_	_
 8	merupakan	rupa	VERB	VB	Voice=Act	3	acl:relcl	_	_
 9	pelindung	lindung	NOUN	NN	Number=Sing	8	obj	_	_
 10	resmi	resmi	ADJ	JJ	_	9	amod	_	_
@@ -440,7 +440,7 @@
 7	banyak	banyak	ADJ	JJ	_	0	root	_	_
 8	pengusaha	usaha	NOUN	NN	Number=Sing	7	nsubj	_	_
 9	Indonesia	Indonesia	PROPN	NNP	_	8	nmod	_	_
-10	yang	yang	SCONJ	IN	_	11	mark	_	_
+10	yang	yang	PRON	IN	PronType=Rel	11	nsubj	_	_
 11	melakukan	laku	VERB	VB	Voice=Act	8	acl:relcl	_	_
 12	ekspansi	ekspansi	NOUN	NN	Number=Sing	11	obj	_	_
 13	ke	ke	ADP	IN	_	14	case	_	_
@@ -452,7 +452,7 @@
 # text_en = This gap can be done by ICMI London in an effort to bridge Indonesian businessmen who will spread their wings in the British Empire.
 1	Celah	celah	NOUN	NN	Number=Sing	0	root	_	_
 2	ini	ini	DET	DT	PronType=Dem	1	det	_	_
-3	yang	yang	SCONJ	IN	_	5	mark	_	_
+3	yang	yang	PRON	IN	PronType=Rel	5	nsubj:pass	_	_
 4	bisa	bisa	AUX	MD	_	5	aux	_	_
 5	dilakukan	laku	VERB	VB	Voice=Pass	1	acl:relcl	_	_
 6	oleh	oleh	ADP	IN	_	7	case	_	_
@@ -464,7 +464,7 @@
 12	para	para	DET	DT	Number=Plur	13	det	_	_
 13	pengusaha	usaha	NOUN	NN	Number=Sing	11	obj	_	_
 14	Indonesia	Indonesia	PROPN	NNP	_	13	nmod	_	_
-15	yang	yang	SCONJ	IN	_	17	mark	_	_
+15	yang	yang	PRON	IN	PronType=Rel	17	nsubj	_	_
 16	akan	akan	AUX	MD	_	17	aux	_	_
 17	melebarkan	lebar	VERB	VB	Voice=Act	13	acl:relcl	_	_
 18-19	sayapnya	_	_	_	_	_	_	_	_
@@ -490,7 +490,7 @@
 10	produk	produk	NOUN	NN	Number=Sing	9	obj	_	_
 11	unggulan	unggul	NOUN	NN	Number=Sing	10	nmod	_	_
 12	Indonesia	Indonesia	PROPN	NNP	_	10	nmod	_	_
-13	yang	yang	SCONJ	IN	_	15	mark	_	_
+13	yang	yang	PRON	IN	PronType=Rel	15	nsubj:pass	_	_
 14	bisa	bisa	AUX	MD	_	15	aux	_	_
 15	dijual	jual	VERB	VB	Voice=Pass	10	acl:relcl	_	_
 16	di	di	ADP	IN	_	17	case	_	_
@@ -499,11 +499,11 @@
 19	"	"	PUNCT	''	_	5	punct	_	_
 20	ujar	ujar	VERB	VB	Voice=Act	5	parataxis	_	_
 21	Dubes	Dubes	NOUN	NN	Number=Sing	20	nsubj	_	_
-22	yang	yang	SCONJ	IN	_	23	mark	_	_
+22	yang	yang	PRON	IN	PronType=Rel	23	nsubj	_	_
 23	melihat	lihat	VERB	VB	Voice=Act	21	acl:relcl	_	_
 24	banyak	banyak	DET	DT	Number=Plur|PronType=Ind	25	det	_	_
 25	hal	hal	NOUN	NN	Number=Sing	23	obj	_	_
-26	yang	yang	SCONJ	IN	_	28	mark	_	_
+26	yang	yang	PRON	IN	PronType=Rel	28	nsubj:pass	_	_
 27	bisa	bisa	AUX	MD	_	28	aux	_	_
 28	dilakukan	laku	VERB	VB	Voice=Pass	25	acl:relcl	_	_
 29	pengusaha	usaha	NOUN	NN	Number=Sing	28	obl:agent	_	_
@@ -559,7 +559,7 @@
 22	Pound	Pound	PROPN	NNP	_	19	nmod	_	_
 23	Sterling	Sterling	PROPN	NNP	_	22	flat:name	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	18	punct	_	_
-25	yang	yang	SCONJ	IN	_	27	mark	_	_
+25	yang	yang	PRON	IN	PronType=Rel	27	nsubj:pass	_	_
 26	kebanyakan	banyak	NOUN	NN	Number=Sing	27	nsubj:pass	_	_
 27	didominasi	didominasi	VERB	VB	Voice=Pass	18	advcl	_	_
 28	jenis	jenis	NOUN	NN	Number=Sing	27	obl:agent	_	_
@@ -575,7 +575,7 @@
 # text_en = In the syndicate, which will disburse Rp1.461 trillion of funds, BCA disburses loans of Rp584 billion.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	sindikasi	sindikasi	NOUN	NN	Number=Sing	13	obl	_	_
-3	yang	yang	SCONJ	IN	_	5	mark	_	_
+3	yang	yang	PRON	IN	PronType=Rel	5	nsubj	_	_
 4	akan	akan	AUX	MD	_	5	aux	_	_
 5	mengucurkan	kucur	VERB	VB	Voice=Act	2	acl:relcl	_	_
 6	dana	dana	NOUN	NN	Number=Sing	5	obj	_	_
@@ -645,7 +645,7 @@
 10	Lumpur	Lumpur	PROPN	NNP	_	9	flat:name	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	17	punct	_	_
 12	PMA	PMA	PROPN	NNP	_	17	nsubj	_	_
-13	yang	yang	SCONJ	IN	_	14	mark	_	_
+13	yang	yang	PRON	IN	PronType=Rel	14	nsubj	_	_
 14	masuk	masuk	VERB	VB	Voice=Act	12	acl:relcl	_	_
 15	ke	ke	ADP	IN	_	16	case	_	_
 16	Malaysia	Malaysia	PROPN	NNP	_	14	obl	_	_
@@ -662,7 +662,7 @@
 27	)	)	PUNCT	-RRB-	_	25	punct	_	_
 28	dibandingkan	banding	VERB	VB	Voice=Pass	17	advcl	_	_
 29	Indonesia	Indonesia	PROPN	NNP	_	28	obl	_	_
-30	yang	yang	SCONJ	IN	_	32	mark	_	_
+30	yang	yang	PRON	IN	PronType=Rel	32	nsubj	_	_
 31	hanya	hanya	ADV	RB	_	32	advmod	_	_
 32	mencapai	capai	VERB	VB	Voice=Act	29	acl:relcl	_	_
 33	4,7	4,7	NUM	CD	_	35	nummod	_	_
@@ -879,7 +879,7 @@
 12	terakhir	akhir	ADJ	JJ	Degree=Sup	11	amod	_	_
 13	di	di	ADP	IN	_	14	case	_	_
 14	Indonesia	Indonesia	PROPN	NNP	_	11	nmod	_	_
-15	yang	yang	SCONJ	IN	_	16	mark	_	_
+15	yang	yang	PRON	IN	PronType=Rel	16	nsubj	_	_
 16	mengalami	alami	VERB	VB	Voice=Act	11	acl:relcl	_	_
 17	banyak	banyak	DET	DT	Number=Plur|PronType=Ind	18	det	_	_
 18	bencana	bencana	NOUN	NN	Number=Sing	16	obj	_	_
@@ -918,7 +918,7 @@
 9	akan	akan	AUX	MD	_	10	aux	_	_
 10	membantu	bantu	VERB	VB	Voice=Act	6	acl	_	_
 11	Indonesia	Indonesia	PROPN	NNP	_	10	obj	_	_
-12	yang	yang	SCONJ	IN	_	13	mark	_	_
+12	yang	yang	PRON	IN	PronType=Rel	13	nsubj	_	_
 13	ingin	ingin	VERB	VB	Voice=Act	11	acl:relcl	_	_
 14	meminta	pinta	VERB	VB	Voice=Act	13	xcomp	_	_
 15	IDA	IDA	PROPN	NNP	_	14	obj	_	_
@@ -929,7 +929,7 @@
 20	-	-	PUNCT	:	_	17	punct	_	_
 21	red	red	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
 22	)	)	PUNCT	-RRB-	_	17	punct	_	_
-23	yang	yang	SCONJ	IN	_	24	mark	_	_
+23	yang	yang	PRON	IN	PronType=Rel	24	nsubj	_	_
 24	berbunga	bunga	VERB	VB	Voice=Act	15	acl:relcl	_	_
 25	rendah	rendah	ADJ	JJ	_	24	xcomp	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	29	punct	_	_
@@ -1029,7 +1029,7 @@
 17	sebelum	belum	SCONJ	IN	_	18	mark	_	_
 18	memasuki	masuk	VERB	VB	Voice=Act	16	acl	_	_
 19	seminar	seminar	NOUN	NN	Number=Sing	18	obj	_	_
-20	yang	yang	SCONJ	IN	_	21	mark	_	_
+20	yang	yang	PRON	IN	PronType=Rel	21	nsubj:pass	_	_
 21	diadakan	ada	VERB	VB	Voice=Pass	19	acl:relcl	_	_
 22	dalam	dalam	ADP	IN	_	23	case	_	_
 23	rangka	rangka	NOUN	NN	Number=Sing	21	obl	_	_
@@ -1065,7 +1065,7 @@
 16	untuk	untuk	SCONJ	IN	_	17	mark	_	_
 17	melakukan	laku	VERB	VB	Voice=Act	15	ccomp	_	_
 18	diskusi	diskusi	NOUN	NN	Number=Sing	17	obj	_	_
-19	yang	yang	SCONJ	IN	_	21	mark	_	_
+19	yang	yang	PRON	IN	PronType=Rel	21	nsubj	_	_
 20	lebih	lebih	ADV	RB	_	21	advmod	_	_
 21	mendetail	detail	NOUN	NN	Number=Sing	18	acl:relcl	_	_
 22	baik	baik	CCONJ	CC	_	23	cc	_	_
@@ -1095,7 +1095,7 @@
 7	kerja	kerja	NOUN	NN	Number=Sing	5	obl	_	_
 8	sama	sama	NOUN	NN	Number=Sing	7	nmod	_	_
 9	bilateral	bilateral	ADJ	JJ	_	7	amod	_	_
-10	yang	yang	SCONJ	IN	_	11	mark	_	_
+10	yang	yang	PRON	IN	PronType=Rel	11	nsubj:pass	_	_
 11	dinilai	nilai	VERB	VB	Voice=Pass	7	acl:relcl	_	_
 12	lebih	lebih	ADV	RB	_	13	advmod	_	_
 13	adil	adil	ADJ	JJ	_	11	xcomp	_	_
@@ -1127,14 +1127,14 @@
 13	,	,	PUNCT	,	_	12	punct	_	_
 14	karena	karena	ADP	IN	_	15	case	_	_
 15	situasi	situasi	NOUN	NN	Number=Sing	12	obl	_	_
-16	yang	yang	SCONJ	IN	_	17	mark	_	_
+16	yang	yang	PRON	IN	PronType=Rel	17	nsubj	_	_
 17	khusus	khusus	ADJ	JJ	_	15	acl:relcl	_	_
 18	di	di	ADP	IN	_	20	mark	_	MWEPOS=SCONJ
 19	mana	mana	PRON	PRP	PronType=Dem	18	fixed	_	_
 20	membutuhkan	butuh	VERB	VB	Voice=Act	15	acl:relcl	_	_
 21	belanja	belanja	NOUN	NN	Number=Sing	20	obj	_	_
 22	teknologi	teknologi	NOUN	NN	Number=Sing	21	nmod	_	_
-23	yang	yang	SCONJ	IN	_	24	mark	_	_
+23	yang	yang	PRON	IN	PronType=Rel	24	nsubj	_	_
 24	baru	baru	ADJ	JJ	_	22	acl:relcl	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
 26	"	"	PUNCT	''	_	3	punct	_	_
@@ -1170,7 +1170,7 @@
 12	,	,	PUNCT	,	_	8	punct	_	_
 13	dengan	dengan	ADP	IN	_	14	case	_	_
 14	dana	dana	NOUN	NN	Number=Sing	8	obl	_	_
-15	yang	yang	SCONJ	IN	_	16	mark	_	_
+15	yang	yang	PRON	IN	PronType=Rel	16	nsubj:pass	_	_
 16	dipersiapkan	siap	VERB	VB	Voice=Pass	14	acl:relcl	_	_
 17	sebesar	sebesar	NOUN	NN	Number=Sing	14	nmod	_	_
 18	200	200	NUM	CD	_	20	nummod	_	_
@@ -1330,7 +1330,7 @@
 21	dari	dari	ADP	IN	_	22	case	_	_
 22	Indonesia	Indonesia	PROPN	NNP	_	18	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	13	punct	_	_
-24	yang	yang	SCONJ	IN	_	25	mark	_	_
+24	yang	yang	PRON	IN	PronType=Rel	25	nsubj:pass	_	_
 25	disebut	sebut	VERB	VB	Voice=Pass	13	acl:relcl	_	_
 26	Issuer	Issuer	X	FW	Foreign=Yes	25	obl	_	_
 27	Default	Default	X	FW	Foreign=Yes	26	flat:foreign	_	_
@@ -1368,7 +1368,7 @@
 2	pula	pula	ADV	RB	_	1	advmod	_	_
 3	pada	pada	ADP	IN	_	4	case	_	_
 4	saat	saat	NOUN	NN	Number=Sing	1	nmod	_	_
-5	yang	yang	SCONJ	IN	_	6	mark	_	_
+5	yang	yang	PRON	IN	PronType=Rel	6	nsubj	_	_
 6	sama	sama	ADJ	JJ	_	4	acl:relcl	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	_	_
 8	Fitch	Fitch	PROPN	NNP	_	9	nsubj	_	_
@@ -1432,7 +1432,7 @@
 27	agenda	agenda	NOUN	NN	Number=Sing	26	obj	_	_
 28	reformasi	reformasi	NOUN	NN	Number=Sing	27	nmod	_	_
 29	struktural	struktural	ADJ	JJ	_	27	amod	_	_
-30	yang	yang	SCONJ	IN	_	31	mark	_	_
+30	yang	yang	PRON	IN	PronType=Rel	31	nsubj	_	_
 31	bertujuan	tuju	VERB	VB	Voice=Act	27	acl:relcl	_	_
 32	untuk	untuk	SCONJ	IN	_	33	mark	_	_
 33	memperbaiki	baik	VERB	VB	Voice=Act	31	xcomp	_	_
@@ -1543,7 +1543,7 @@
 6	sendiri	sendiri	DET	DT	PronType=Emp	4	det	_	_
 7	bukan	bukan	PART	RP	_	8	advmod	_	_
 8	hal	hal	NOUN	NN	Number=Sing	0	root	_	_
-9	yang	yang	SCONJ	IN	_	10	mark	_	_
+9	yang	yang	PRON	IN	PronType=Rel	10	nsubj	_	_
 10	buruk	buruk	ADJ	JJ	_	8	acl:relcl	_	_
 11	mengingat	ingat	VERB	VB	Voice=Act	8	acl	_	_
 12	dalam	dalam	ADP	IN	_	13	case	_	_
@@ -1598,7 +1598,7 @@
 29	departemen	departemen	NOUN	NN	Number=Sing	26	nmod	_	_
 30	karena	karena	SCONJ	IN	_	34	mark	_	_
 31	proyek	proyek	NOUN	NN	Number=Sing	34	nsubj	_	_
-32	yang	yang	SCONJ	IN	_	33	mark	_	_
+32	yang	yang	PRON	IN	PronType=Rel	33	nsubj:pass	_	_
 33	dibiayai	biaya	VERB	VB	Voice=Pass	31	acl:relcl	_	_
 34	berjalan	jalan	VERB	VB	Voice=Act	10	acl	_	_
 35	lambat	lambat	ADJ	JJ	_	34	xcomp	_	_
@@ -1917,7 +1917,7 @@
 5	dari	dari	ADP	IN	_	6	case	_	_
 6	keterbukaan	keterbukaan	NOUN	NN	Number=Sing	4	obl	_	_
 7	informasi	informasi	NOUN	NN	Number=Sing	6	nmod	_	_
-8	yang	yang	SCONJ	IN	_	9	mark	_	_
+8	yang	yang	PRON	IN	PronType=Rel	9	nsubj:pass	_	_
 9	disampaikan	sampai	VERB	VB	Voice=Pass	6	acl:relcl	_	_
 10	pada	pada	ADP	IN	_	11	case	_	_
 11	14	14	NUM	CD	_	9	obl	_	_
@@ -2227,7 +2227,7 @@
 22	minyak	minyak	NOUN	NN	Number=Sing	21	nmod	_	_
 23	mentah	mentah	ADJ	JJ	_	22	amod	_	_
 24	dunia	dunia	NOUN	NN	Number=Sing	21	nmod	_	_
-25	yang	yang	SCONJ	IN	_	26	mark	_	_
+25	yang	yang	PRON	IN	PronType=Rel	26	nsubj:pass	_	_
 26	terjadi	jadi	VERB	VB	Voice=Pass	20	acl:relcl	_	_
 27	baru-baru	baru	ADV	RB	_	26	advmod	_	_
 28	ini	ini	DET	DT	PronType=Dem	27	fixed	_	SpaceAfter=No
@@ -2243,7 +2243,7 @@
 5	menyediakan	sedia	VERB	VB	Voice=Act	0	root	_	_
 6	semua	semua	DET	DT	PronType=Tot	7	det	_	_
 7	jasa	jasa	NOUN	NN	Number=Sing	5	obj	_	_
-8	yang	yang	SCONJ	IN	_	9	mark	_	_
+8	yang	yang	PRON	IN	PronType=Rel	9	nsubj	_	_
 9	ada	ada	VERB	VB	Voice=Act	7	acl:relcl	_	_
 10	pada	pada	ADP	IN	_	11	case	_	_
 11	bank	bank	NOUN	NN	Number=Sing	9	obl	_	_
@@ -2377,7 +2377,7 @@
 8	di	di	ADP	IN	_	9	case	_	_
 9	pembiayaan	biaya	NOUN	NN	Number=Sing	7	obl	_	_
 10	konsumen	konsumen	NOUN	NN	Number=Sing	9	nmod	_	_
-11	yang	yang	SCONJ	IN	_	12	mark	_	_
+11	yang	yang	PRON	IN	PronType=Rel	12	nsubj	_	_
 12	selaras	selaras	ADJ	JJ	_	9	acl:relcl	_	_
 13	dengan	dengan	ADP	IN	_	14	case	_	_
 14	kerangka	kerangka	NOUN	NN	Number=Sing	12	obl	_	_
@@ -2392,7 +2392,7 @@
 1	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
 2	Industri	Industri	NOUN	NN	Number=Sing	14	nsubj	_	_
 3	pengolahan	olah	NOUN	NN	Number=Sing	2	nmod	_	_
-4	yang	yang	SCONJ	IN	_	7	mark	_	_
+4	yang	yang	PRON	IN	PronType=Rel	7	nsubj:pass	_	_
 5	selama	selama	ADP	IN	_	6	case	_	_
 6	ini	ini	PRON	PRP	PronType=Dem	7	obl	_	_
 7	dianggap	anggap	VERB	VB	Voice=Pass	2	acl	_	_
@@ -2444,7 +2444,7 @@
 9	makanan	makan	NOUN	NN	Number=Sing	8	nmod	_	_
 10	dan	dan	CCONJ	CC	_	11	cc	_	_
 11	minuman	minum	NOUN	NN	Number=Sing	9	conj	_	_
-12	yang	yang	SCONJ	IN	_	16	mark	_	_
+12	yang	yang	PRON	IN	PronType=Rel	16	nsubj	_	_
 13	PPh	PPh	PROPN	NNP	_	16	nsubj	_	SpaceAfter=No
 14	-	-	PUNCT	:	_	13	punct	_	SpaceAfter=No
 15	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
@@ -2513,12 +2513,12 @@
 # text_en = The electronics industry, which was minus 13.6 percent last year, this year it's increased by 8.7 percent is the income tax.
 1	Industri	industri	NOUN	NN	Number=Sing	0	root	_	_
 2	elektronika	elektronika	NOUN	NN	Number=Sing	1	nmod	_	_
-3	yang	yang	SCONJ	IN	_	8	mark	_	_
+3	yang	yang	PRON	IN	PronType=Rel	8	nsubj	_	_
 4	tahun	tahun	NOUN	NN	Number=Sing	8	nmod:tmod	_	_
 5	lalu	lalu	VERB	VB	Voice=Act	4	acl	_	_
-6	minus	minus	ADJ	JJ	_	8	advmod	_	_
+6	minus	minus	ADJ	JJ	_	1	acl:relcl	_	_
 7	13,6	13,6	NUM	CD	_	8	nummod	_	_
-8	persen	persen	NOUN	NN	Number=Sing	1	acl:relcl	_	SpaceAfter=No
+8	persen	persen	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	_	_
 10	tahun	tahun	NOUN	NN	Number=Sing	12	obl:tmod	_	_
 11	ini	ini	DET	DT	PronType=Dem	10	det	_	_
@@ -2541,8 +2541,8 @@
 5	ekonomi	ekonomi	NOUN	NN	Number=Sing	4	nmod	_	_
 6	dan	dan	CCONJ	CC	_	7	cc	_	_
 7	investasi	investasi	NOUN	NN	Number=Sing	4	nmod	_	_
-8	yang	yang	SCONJ	IN	_	9	mark	_	_
-9	tinggi	tinggi	ADJ	JJ	_	4	acl:relcl	_	_
+8	yang	yang	PRON	IN	PronType=Rel	9	nsubj	_	_
+9	tinggi	tinggi	ADJ	JJ	_	3	acl:relcl	_	_
 10	dan	dan	CCONJ	CC	_	11	cc	_	_
 11	sustainable	sustainable	X	FW	Foreign=Yes	9	conj	_	_
 12	tidak	tidak	PART	RP	Polarity=Neg	14	advmod	_	_
@@ -2570,7 +2570,7 @@
 3	apa	apa	PRON	WP	PronType=Rel	2	nmod	_	_
 4	pun	pun	PART	RP	_	3	advmod:emph	_	_
 5	upaya	upaya	NOUN	NN	Number=Sing	2	nmod	_	_
-6	yang	yang	SCONJ	IN	_	7	mark	_	_
+6	yang	yang	PRON	IN	PronType=Rel	7	nsubj:pass	_	_
 7	dilakukan	laku	VERB	VB	Voice=Pass	5	acl:relcl	_	_
 8	pemerintah	perintah	NOUN	NN	Number=Sing	7	obl:agent	_	_
 9	tidak	tidak	PART	RP	Polarity=Neg	11	advmod	_	_
@@ -2583,7 +2583,7 @@
 16	ekonomi	ekonomi	NOUN	NN	Number=Sing	14	nmod	_	_
 17	dan	dan	CCONJ	CC	_	18	cc	_	_
 18	investasi	investasi	NOUN	NN	Number=Sing	16	conj	_	_
-19	yang	yang	SCONJ	IN	_	20	mark	_	_
+19	yang	yang	PRON	IN	PronType=Rel	20	nsubj	_	_
 20	tinggi	tinggi	ADJ	JJ	_	14	acl:relcl	_	_
 21	dan	dan	CCONJ	CC	_	22	cc	_	_
 22	sustainable	sustainable	X	FW	Foreign=Yes	20	conj	_	_
@@ -2674,7 +2674,7 @@
 14	kepedulian	peduli	NOUN	NN	Number=Sing	13	obj	_	_
 15	untuk	untuk	SCONJ	IN	_	16	mark	_	_
 16	berbuat	buat	VERB	VB	Voice=Act	14	acl	_	_
-17	yang	yang	SCONJ	IN	_	18	mark	_	_
+17	yang	yang	PRON	IN	PronType=Rel	18	nsubj	_	_
 18	terbaik	baik	ADJ	JJ	Degree=Sup	16	xcomp	_	_
 19	tidak	tidak	PART	RP	Polarity=Neg	20	advmod	_	_
 20	hanya	hanya	ADV	RB	_	22	advmod	_	_
@@ -2691,7 +2691,7 @@
 31-32	lainnya	_	_	_	_	_	_	_	_
 31	lain	lain	ADJ	JJ	_	30	amod	_	_
 32	nya	nya	DET	DT	Definite=Def|PronType=Art	30	det	_	_
-33	yang	yang	SCONJ	IN	_	34	mark	_	_
+33	yang	yang	PRON	IN	PronType=Rel	34	nsubj	_	_
 34	mewakili	wakil	VERB	VB	Voice=Act	30	acl:relcl	_	_
 35	kepentingan	penting	NOUN	NN	Number=Sing	34	obj	_	_
 36	bangsa	bangsa	NOUN	NN	Number=Sing	35	nmod	_	SpaceAfter=No
@@ -2705,7 +2705,7 @@
 3-4	inilah	_	_	_	_	_	_	_	_
 3	ini	ini	DET	DT	PronType=Dem	1	det	_	_
 4	lah	lah	PART	RP	_	3	advmod:emph	_	_
-5	yang	yang	SCONJ	IN	_	6	mark	_	_
+5	yang	yang	PRON	IN	PronType=Rel	6	nsubj	_	_
 6	mendasari	dasar	VERB	VB	Voice=Act	1	acl	_	_
 7-8	lahirnya	_	_	_	_	_	_	_	_
 7	lahir	lahir	VERB	VB	Voice=Act	6	xcomp	_	_
@@ -2715,8 +2715,8 @@
 11	dari	dari	ADP	IN	_	12	case	_	_
 12	tata	tata	NOUN	NN	Number=Sing	9	nmod	_	_
 13	kelola	kelola	VERB	VB	Voice=Act	12	nmod	_	_
-14	yang	yang	SCONJ	IN	_	15	mark	_	_
-15	baik	baik	ADJ	JJ	_	12	acl	_	SpaceAfter=No
+14	yang	yang	PRON	IN	PronType=Rel	15	nsubj	_	_
+15	baik	baik	ADJ	JJ	_	12	acl:relcl	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	7	punct	_	_
 17	mulai	mulai	VERB	VB	Voice=Act	7	advcl	_	_
 18	dari	dari	ADP	IN	_	19	case	_	_
@@ -2783,7 +2783,7 @@
 3	,	,	PUNCT	,	_	12	punct	_	_
 4	pembiayaan	biaya	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
 5	anggaran	anggar	NOUN	NN	Number=Sing	4	nmod	_	_
-6	yang	yang	SCONJ	IN	_	7	mark	_	_
+6	yang	yang	PRON	IN	PronType=Rel	7	nsubj	_	_
 7	bersumber	sumber	VERB	VB	Voice=Act	4	acl:relcl	_	_
 8	dari	dari	ADP	IN	_	9	case	_	_
 9	pinjaman	pinjam	NOUN	NN	Number=Sing	7	obl	_	_
@@ -2806,7 +2806,7 @@
 26	43	43	NUM	CD	_	25	nummod	_	_
 27	triliun	triliun	NUM	CD	_	26	flat	_	SpaceAfter=No
 28	,	,	PUNCT	,	_	19	punct	_	_
-29	yang	yang	SCONJ	IN	_	31	mark	_	_
+29	yang	yang	PRON	IN	PronType=Rel	31	nsubj	_	_
 30	lebih	lebih	ADV	RB	_	31	advmod	_	_
 31	kecil	kecil	ADJ	JJ	_	19	acl:relcl	_	_
 32	dari	dari	ADP	IN	_	33	case	_	_
@@ -2922,7 +2922,7 @@
 12	fundamental	fundamental	ADJ	JJ	_	10	amod	_	_
 13	perekonomian	ekonomi	NOUN	NN	Number=Sing	10	nmod	_	_
 14	nasional	nasional	ADJ	JJ	_	13	amod	_	_
-15	yang	yang	SCONJ	IN	_	17	mark	_	_
+15	yang	yang	PRON	IN	PronType=Rel	17	nsubj	_	_
 16	semakin	semakin	ADV	RB	_	17	advmod	_	_
 17	membaik	baik	VERB	VB	Voice=Act	10	acl:relcl	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
@@ -3012,7 +3012,7 @@
 6	berbagai	berbagai	DET	DT	Number=Plur	7	det	_	_
 7	langkah	langkah	NOUN	NN	Number=Sing	3	nmod	_	_
 8	kebijakan	bijak	NOUN	NN	Number=Sing	7	nmod	_	_
-9	yang	yang	SCONJ	IN	_	10	mark	_	_
+9	yang	yang	PRON	IN	PronType=Rel	10	nsubj	_	_
 10	ditempuh	tempuh	VERB	VB	Voice=Pass	7	acl:relcl	_	_
 11	beberapa	beberapa	DET	DT	Number=Plur|PronType=Ind	12	det	_	_
 12	bank	bank	NOUN	NN	Number=Sing	10	obl:agent	_	_
@@ -3067,7 +3067,7 @@
 8	krisis	krisis	NOUN	NN	Number=Sing	5	nmod	_	_
 9	subprime	subprime	X	FW	Foreign=Yes	8	nmod	_	_
 10	mortgage	mortgage	X	FW	Foreign=Yes	9	flat:foreign	_	_
-11	yang	yang	SCONJ	IN	_	12	mark	_	_
+11	yang	yang	PRON	IN	PronType=Rel	12	nsubj	_	_
 12	menekan	tekan	VERB	VB	Voice=Act	5	acl:relcl	_	_
 13	rupiah	rupiah	NOUN	NN	Number=Sing	12	obj	_	_
 14-15	bukanlah	_	_	_	_	_	_	_	_
@@ -3075,7 +3075,7 @@
 15	lah	lah	PART	RP	_	14	advmod:emph	_	_
 16	faktor	faktor	NOUN	NN	Number=Sing	3	ccomp	_	_
 17	penyebab	sebab	NOUN	NN	Number=Sing	16	nmod	_	_
-18	yang	yang	SCONJ	IN	_	19	mark	_	_
+18	yang	yang	PRON	IN	PronType=Rel	19	nsubj	_	_
 19	fundamental	fundamental	ADJ	JJ	_	16	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -3145,7 +3145,7 @@
 34	membayar	bayar	VERB	VB	Voice=Act	30	advcl	_	_
 35	kembali	kembali	ADV	RB	_	34	advmod	_	_
 36	obligasi	obligasi	NOUN	NN	Number=Sing	34	obj	_	_
-37	yang	yang	SCONJ	IN	_	38	mark	_	_
+37	yang	yang	PRON	IN	PronType=Rel	38	nsubj	_	_
 38	jatuh	jatuh	VERB	VB	Voice=Act	36	acl:relcl	_	_
 39	tempo	tempo	NOUN	NN	Number=Sing	38	obl	_	_
 40	tersebut	sebut	DET	DT	_	36	det	_	SpaceAfter=No
@@ -3214,7 +3214,7 @@
 25	Rp	Rp	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
 26	165	165	NUM	CD	_	25	nummod	_	_
 27	miliar	miliar	NUM	CD	_	26	flat	_	_
-28	yang	yang	SCONJ	IN	_	30	mark	_	_
+28	yang	yang	PRON	IN	PronType=Rel	30	nsubj	_	_
 29	akan	akan	AUX	MD	_	30	aux	_	_
 30	jatuh	jatuh	VERB	VB	Voice=Act	19	acl:relcl	_	_
 31	tempo	tempo	NOUN	NN	Number=Sing	30	obl	_	_
@@ -3253,7 +3253,7 @@
 8	posisi	posisi	NOUN	NN	Number=Sing	6	obl	_	_
 9	pasar	pasar	NOUN	NN	Number=Sing	8	nmod	_	_
 10	SERA	SERA	PROPN	NNP	_	8	nmod:poss	_	_
-11	yang	yang	SCONJ	IN	_	12	mark	_	_
+11	yang	yang	PRON	IN	PronType=Rel	12	nsubj	_	_
 12	kuat	kuat	ADJ	JJ	_	8	acl:relcl	_	_
 13	di	di	ADP	IN	_	14	case	_	_
 14	usaha	usaha	NOUN	NN	Number=Sing	12	obl	_	_
@@ -3262,7 +3262,7 @@
 17	,	,	PUNCT	,	_	18	punct	_	_
 18	aliran	alir	NOUN	NN	Number=Sing	8	conj	_	_
 19	pendapatan	dapat	NOUN	NN	Number=Sing	18	nmod	_	_
-20	yang	yang	SCONJ	IN	_	21	mark	_	_
+20	yang	yang	PRON	IN	PronType=Rel	21	nsubj	_	_
 21	berkelanjutan	lanjut	VERB	VB	Voice=Act	18	acl:relcl	_	_
 22	dari	dari	ADP	IN	_	23	case	_	_
 23	jasa	jasa	NOUN	NN	Number=Sing	18	nmod	_	_
@@ -3276,7 +3276,7 @@
 31	proteksi	proteksi	NOUN	NN	Number=Sing	8	conj	_	_
 32	arus	arus	NOUN	NN	Number=Sing	31	nmod	_	_
 33	kas	kas	NOUN	NN	Number=Sing	32	nmod	_	_
-34	yang	yang	SCONJ	IN	_	35	mark	_	_
+34	yang	yang	PRON	IN	PronType=Rel	35	nsubj	_	_
 35	terus-menerus	terus	ADV	RB	_	31	acl:relcl	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -3296,7 +3296,7 @@
 11	posisi	posisi	NOUN	NN	Number=Sing	9	obl	_	_
 12	leverage	leverage	X	FW	Foreign=Yes	11	nmod	_	_
 13	perusahaan	usaha	NOUN	NN	Number=Sing	12	nmod	_	_
-14	yang	yang	SCONJ	IN	_	15	mark	_	_
+14	yang	yang	PRON	IN	PronType=Rel	15	nsubj	_	_
 15	tinggi	tinggi	ADJ	JJ	_	11	acl:relcl	_	_
 16	dan	dan	CCONJ	CC	_	17	cc	_	_
 17-18	rendahnya	_	_	_	_	_	_	_	_
@@ -3503,8 +3503,8 @@
 3	eksternal	eksternal	ADJ	JJ	_	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	34	punct	_	_
 5	peningkatan	tingkat	NOUN	NN	Number=Sing	34	nsubj	_	_
-6	yang	yang	SCONJ	IN	_	7	mark	_	_
-7	besar	besar	ADJ	JJ	_	5	ccomp	_	_
+6	yang	yang	PRON	IN	PronType=Rel	7	nsubj	_	_
+7	besar	besar	ADJ	JJ	_	5	acl:relcl	_	_
 8	pada	pada	ADP	IN	_	9	case	_	_
 9	cadangan	cadang	NOUN	NN	Number=Sing	5	nmod	_	_
 10	devisa	devisa	NOUN	NN	Number=Sing	9	nmod	_	_
@@ -3520,7 +3520,7 @@
 20	oleh	oleh	ADP	IN	_	21	case	_	_
 21	sektor	sektor	NOUN	NN	Number=Sing	17	nmod	_	_
 22	manufaktur	manufaktur	NOUN	NN	Number=Sing	21	nmod	_	_
-23	yang	yang	SCONJ	IN	_	25	mark	_	_
+23	yang	yang	PRON	IN	PronType=Rel	25	nsubj	_	_
 24	lebih	lebih	ADV	RB	_	25	advmod	_	_
 25	tinggi	tinggi	ADJ	JJ	_	17	acl:relcl	_	_
 26	dari	dari	ADP	IN	_	27	case	_	_
@@ -3587,7 +3587,7 @@
 11	mendapat	dapat	VERB	VB	Voice=Act	0	root	_	_
 12	dukungan	dukung	NOUN	NN	Number=Sing	11	obj	_	_
 13	besar	besar	ADJ	JJ	_	12	amod	_	_
-14	yang	yang	SCONJ	IN	_	15	mark	_	_
+14	yang	yang	PRON	IN	PronType=Rel	15	nsubj:pass	_	_
 15	diperkirakan	kira	VERB	VB	Voice=Pass	12	acl:relcl	_	_
 16	akan	akan	AUX	MD	_	18	aux	_	_
 17	bisa	bisa	AUX	MD	_	18	aux	_	_
@@ -3647,7 +3647,7 @@
 3	38.360	38.360	NUM	CD	_	4	nummod	_	_
 4	saham	saham	NOUN	NN	Number=Sing	2	nmod	_	_
 5	atau	atau	CCONJ	CC	_	7	cc	_	_
-6	yang	yang	SCONJ	IN	_	7	mark	_	_
+6	yang	yang	PRON	IN	PronType=Rel	7	nsubj	_	_
 7	merupakan	rupa	VERB	VB	Voice=Act	4	conj	_	_
 8	70	70	NUM	CD	_	9	nummod	_	_
 9	persen	persen	NOUN	NN	Number=Sing	7	obj	_	_
@@ -3775,7 +3775,7 @@
 29	39,4	39,4	NUM	CD	_	30	nummod	_	_
 30	persen	persen	NOUN	NN	Number=Sing	28	obj	_	_
 31	saham	saham	NOUN	NN	Number=Sing	30	nmod	_	_
-32	yang	yang	SCONJ	IN	_	33	mark	_	_
+32	yang	yang	PRON	IN	PronType=Rel	33	nsubj:pass	_	_
 33	diterbitkan	terbit	VERB	VB	Voice=Pass	30	acl:relcl	_	_
 34	Encore	Encore	PROPN	NNP	_	33	obl	_	_
 35	Energy	Energy	PROPN	NNP	_	34	flat:name	_	SpaceAfter=No
@@ -3833,7 +3833,7 @@
 # text_en = Toba Pulp, formerly known as PT Inti Indorayon, is known as a pulp company owned by conglomerate Sukanto Tanoto.
 1	Toba	toba	PROPN	NNP	_	9	nsubj:pass	_	_
 2	Pulp	Pulp	PROPN	NNP	_	1	flat:name	_	_
-3	yang	yang	SCONJ	IN	_	5	mark	_	_
+3	yang	yang	PRON	IN	PronType=Rel	5	nsubj	_	_
 4	dahulu	dahulu	NOUN	NN	Number=Sing	5	nsubj	_	_
 5	bernama	nama	VERB	VB	Voice=Act	1	acl:relcl	_	_
 6	PT	PT	PROPN	NNP	_	5	obj	_	_
@@ -3889,7 +3889,7 @@
 12	posisi	posisi	NOUN	NN	Number=Sing	4	conj	_	_
 13	usaha	usaha	NOUN	NN	Number=Sing	12	nmod	_	_
 14	perusahaan	usaha	NOUN	NN	Number=Sing	12	nmod	_	_
-15	yang	yang	SCONJ	IN	_	16	mark	_	_
+15	yang	yang	PRON	IN	PronType=Rel	16	nsubj	_	_
 16	kuat	kuat	ADJ	JJ	_	12	acl:relcl	_	_
 17	dalam	dalam	ADP	IN	_	18	case	_	_
 18	bisnis	bisnis	NOUN	NN	Number=Sing	16	obl	_	_
@@ -3950,7 +3950,7 @@
 27	namun	namun	CCONJ	CC	_	33	cc	_	_
 28	koreksi	koreksi	NOUN	NN	Number=Sing	33	obl	_	_
 29	harga	harga	NOUN	NN	Number=Sing	28	nmod	_	_
-30	yang	yang	SCONJ	IN	_	31	mark	_	_
+30	yang	yang	PRON	IN	PronType=Rel	31	nsubj	_	_
 31	terjadi	jadi	VERB	VB	Voice=Pass	28	acl:relcl	_	_
 32	relatif	relatif	ADJ	JJ	_	33	advmod	_	_
 33	kecil	kecil	ADJ	JJ	_	15	conj	_	SpaceAfter=No
@@ -4120,16 +4120,16 @@
 2	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	hal-hal	hal	NOUN	NN	Number=Plur	12	nmod	_	_
-5	yang	yang	SCONJ	IN	_	6	mark	_	_
-6	mendorong	dorong	VERB	VB	Voice=Act	4	ccomp	_	_
+5	yang	yang	PRON	IN	PronType=Rel	6	nsubj	_	_
+6	mendorong	dorong	VERB	VB	Voice=Act	4	acl:relcl	_	_
 7	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	6	obj	_	_
 8	tersebut	sebut	DET	DT	_	7	det	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	_	_
 10	antara	antara	ADP	IN	_	11	case	_	_
 11	lain	lain	ADJ	JJ	_	12	advcl	_	_
 12	investasi	investasi	NOUN	NN	Number=Sing	2	obl	_	_
-13	yang	yang	SCONJ	IN	_	14	mark	_	_
-14	mulai	mulai	VERB	VB	Voice=Act	12	ccomp	_	_
+13	yang	yang	PRON	IN	PronType=Rel	14	nsubj	_	_
+14	mulai	mulai	VERB	VB	Voice=Act	12	acl:relcl	_	_
 15	tumbuh	tumbuh	VERB	VB	Voice=Act	14	xcomp	_	_
 16	dan	dan	CCONJ	CC	_	17	cc	_	_
 17	berjalan	jalan	VERB	VB	Voice=Act	15	conj	_	SpaceAfter=No
@@ -4200,7 +4200,7 @@
 5	dari	dari	ADP	IN	_	7	case	_	_
 6	puluhan	puluh	NUM	CD	_	7	nummod	_	_
 7	calon	calon	NOUN	NN	Number=Sing	4	nmod	_	_
-8	yang	yang	SCONJ	IN	_	9	mark	_	_
+8	yang	yang	PRON	IN	PronType=Rel	9	nsubj	_	_
 9	berasal	asal	VERB	VB	Voice=Act	7	acl:relcl	_	_
 10	dari	dari	ADP	IN	_	11	case	_	_
 11	dunia	dunia	NOUN	NN	Number=Sing	9	obl	_	_
@@ -4208,7 +4208,7 @@
 13	maupun	maupun	CCONJ	CC	_	14	cc	_	_
 14	pertunjukan	tunjuk	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	7	punct	_	_
-16	yang	yang	SCONJ	IN	_	17	mark	_	_
+16	yang	yang	PRON	IN	PronType=Rel	17	nsubj	_	_
 17	berjuang	juang	VERB	VB	Voice=Act	7	acl:relcl	_	_
 18	untuk	untuk	SCONJ	IN	_	19	mark	_	_
 19	merebut	rebut	VERB	VB	Voice=Act	17	advcl	_	_
@@ -4349,7 +4349,7 @@
 27	pers	pers	NOUN	NN	Number=Sing	26	nmod	_	_
 28	Bank	Bank	PROPN	NNP	_	26	nmod	_	_
 29	Dunia	Dunia	PROPN	NNP	_	28	flat:name	_	_
-30	yang	yang	SCONJ	IN	_	31	mark	_	_
+30	yang	yang	PRON	IN	PronType=Rel	31	nsubj	_	_
 31	diterima	terima	VERB	VB	Voice=Pass	26	acl:relcl	_	_
 32	ANTARA	ANTARA	PROPN	NNP	_	31	obl	_	SpaceAfter=No
 33	,	,	PUNCT	,	_	31	punct	_	_
@@ -4455,7 +4455,7 @@
 28	year	year	X	FW	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
 29	'	'	PUNCT	''	_	26	punct	_	SpaceAfter=No
 30	,	,	PUNCT	,	_	23	punct	_	_
-31	yang	yang	SCONJ	IN	_	32	mark	_	_
+31	yang	yang	PRON	IN	PronType=Rel	32	nsubj	_	_
 32	terdiri	terdiri	VERB	VB	Voice=Pass	23	acl:relcl	_	_
 33	atas	atas	ADP	IN	_	35	case	_	_
 34	1,1	1,1	NUM	CD	_	35	nummod	_	_
@@ -4480,7 +4480,7 @@
 2	Inflasi	Inflasi	NOUN	NN	Number=Sing	0	root	_	_
 3	pada	pada	ADP	IN	_	4	case	_	_
 4	Oktober	Oktober	PROPN	NNP	_	2	nmod:tmod	_	_
-5	yang	yang	SCONJ	IN	_	6	mark	_	_
+5	yang	yang	PRON	IN	PronType=Rel	6	nsubj	_	_
 6	sebesar	sebesar	NOUN	NN	Number=Sing	2	nmod	_	_
 7	6,88	6,88	NUM	CD	_	8	nummod	_	_
 8	persen	persen	NOUN	NN	Number=Sing	6	nmod	_	_
@@ -4502,7 +4502,7 @@
 23	pada	pada	ADP	IN	_	24	case	_	_
 24	kelompok	kelompok	NOUN	NN	Number=Sing	20	obl	_	_
 25	makanan	makan	NOUN	NN	Number=Sing	24	nmod	_	_
-26	yang	yang	SCONJ	IN	_	27	mark	_	_
+26	yang	yang	PRON	IN	PronType=Rel	27	nsubj	_	_
 27	bergejolak	gejolak	VERB	VB	Voice=Act	25	ccomp	_	_
 28	(	(	PUNCT	-LRB-	_	29	punct	_	SpaceAfter=No
 29	volatile	volatile	X	FW	Foreign=Yes	25	appos	_	_
@@ -4553,8 +4553,8 @@
 6	,	,	PUNCT	,	_	11	punct	_	_
 7	dalam	dalam	ADP	IN	_	8	case	_	_
 8	waktu	waktu	NOUN	NN	Number=Sing	11	obl	_	_
-9	yang	yang	SCONJ	IN	_	10	mark	_	_
-10	sama	sama	ADJ	JJ	_	8	ccomp	_	_
+9	yang	yang	PRON	IN	PronType=Rel	10	nsubj	_	_
+10	sama	sama	ADJ	JJ	_	8	acl:relcl	_	_
 11	terangkat	angkat	VERB	VB	Voice=Pass	0	root	_	_
 12	dari	dari	ADP	IN	_	13	case	_	_
 13	semula	mula	NOUN	NN	Number=Sing	11	obl	_	_
@@ -4587,7 +4587,7 @@
 40	beban	beban	NOUN	NN	Number=Sing	39	obj	_	_
 41	lain-lain	lain	NOUN	NN	Number=Sing	40	nmod	_	_
 42	bersih	bersih	ADJ	JJ	_	40	amod	_	_
-43	yang	yang	SCONJ	IN	_	44	mark	_	_
+43	yang	yang	PRON	IN	PronType=Rel	44	nsubj	_	_
 44	meningkat	tingkat	VERB	VB	Voice=Act	40	acl:relcl	_	_
 45	dari	dari	ADP	IN	_	46	case	_	_
 46	Rp	Rp	NOUN	NN	Number=Sing	44	obl	_	SpaceAfter=No
@@ -4612,7 +4612,7 @@
 7	persetujuan	setuju	NOUN	NN	Number=Sing	6	obl	_	_
 8	dalam	dalam	ADP	IN	_	9	case	_	_
 9	RUPSLB	RUPSLB	PROPN	NNP	_	6	obl	_	_
-10	yang	yang	SCONJ	IN	_	12	mark	_	_
+10	yang	yang	PRON	IN	PronType=Rel	12	nsubj:pass	_	_
 11	akan	akan	AUX	MD	_	12	aux	_	_
 12	diselenggarakan	selenggara	VERB	VB	Voice=Pass	9	acl:relcl	_	_
 13	pada	pada	ADP	IN	_	15	case	_	_
@@ -4630,8 +4630,8 @@
 4	Boediono	Boediono	PROPN	NNP	_	2	flat:name	_	_
 5	di	di	ADP	IN	_	6	case	_	_
 6	tempat	tempat	NOUN	NN	Number=Sing	9	obl	_	_
-7	yang	yang	SCONJ	IN	_	8	mark	_	_
-8	sama	sama	ADJ	JJ	_	6	ccomp	_	_
+7	yang	yang	PRON	IN	PronType=Rel	8	nsubj	_	_
+8	sama	sama	ADJ	JJ	_	6	acl:relcl	_	_
 9	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	_
 10	secara	cara	ADP	IN	_	11	case:adv	_	_
 11	umum	umum	ADJ	JJ	_	14	advcl	_	_
@@ -4697,7 +4697,7 @@
 9	terkenal	kenal	ADJ	JJ	_	8	amod	_	_
 10	itu	itu	DET	DT	PronType=Dem	5	det	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	5	punct	_	_
-12	yang	yang	SCONJ	IN	_	14	mark	_	_
+12	yang	yang	PRON	IN	PronType=Rel	14	nsubj	_	_
 13	akan	akan	AUX	MD	_	14	aux	_	_
 14	menggunakan	guna	VERB	VB	Voice=Act	5	acl:relcl	_	_
 15	judul	judul	NOUN	NN	Number=Sing	14	obj	_	_
@@ -4730,20 +4730,20 @@
 11	rupiah	rupiah	NOUN	NN	Number=Sing	9	nmod	_	_
 12	yang	yang	SCONJ	IN	_	15	mark	_	_
 13-14	nilainya	_	_	_	_	_	_	_	_
-13	nilai	nilai	NOUN	NN	Number=Sing	15	nmod	_	_
+13	nilai	nilai	NOUN	NN	Number=Sing	15	nsubj	_	_
 14	nya	nya	DET	DT	Definite=Def|PronType=Art	13	det	_	_
-15	setara	setara	NOUN	NN	Number=Sing	9	nmod	_	_
+15	setara	setara	ADJ	JJ	_	8	advcl	_	_
 16	dengan	dengan	ADP	IN	_	17	case	_	_
-17	dividen	dividen	NOUN	NN	Number=Sing	15	nmod	_	_
-18	yang	yang	SCONJ	IN	_	19	mark	_	_
-19	dibayarkan	bayar	VERB	VB	Voice=Pass	17	ccomp	_	_
+17	dividen	dividen	NOUN	NN	Number=Sing	15	obl	_	_
+18	yang	yang	PRON	IN	PronType=Rel	19	nsubj	_	_
+19	dibayarkan	bayar	VERB	VB	Voice=Pass	17	acl:relcl	_	_
 20	dalam	dalam	ADP	IN	_	21	case	_	_
 21	dollar	dollar	NOUN	NN	Number=Sing	19	obl	_	_
 22	AS	AS	PROPN	NNP	_	21	nmod	_	_
 23	berdasarkan	dasar	VERB	VB	Voice=Act	15	acl:relcl	_	_
 24	kurs	kurs	NOUN	NN	Number=Sing	23	obj	_	_
 25	tengah	tengah	NOUN	NN	Number=Sing	24	nmod:lmod	_	_
-26	yang	yang	SCONJ	IN	_	27	mark	_	_
+26	yang	yang	PRON	IN	PronType=Rel	27	nsubj	_	_
 27	ditetapkan	tetap	VERB	VB	Voice=Pass	24	acl:relcl	_	_
 28	oleh	oleh	ADP	IN	_	29	case	_	_
 29	Bank	Bank	PROPN	NNP	_	27	obl:agent	_	_
@@ -4774,7 +4774,7 @@
 13	perusahaan	usaha	NOUN	NN	Number=Sing	12	nmod	_	_
 14	APOL	APOL	PROPN	NNP	_	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	12	punct	_	_
-16	yang	yang	SCONJ	IN	_	17	mark	_	_
+16	yang	yang	PRON	IN	PronType=Rel	17	nsubj	_	_
 17	merupakan	rupa	VERB	VB	Voice=Act	12	acl:relcl	_	_
 18	usaha	usaha	NOUN	NN	Number=Sing	17	obj	_	_
 19	patungan	patungan	NOUN	NN	_	18	nmod	_	_
@@ -4796,8 +4796,8 @@
 # text_en = On the same occasion, the Minister of Finance said that inflation in 2007 is estimated to reach 6.5 percent with an economic growth of 6.3 percent.
 1	Dalam	dalam	ADP	IN	_	2	case	_	_
 2	kesempatan	kesempatan	NOUN	NN	Number=Sing	11	obl	_	_
-3	yang	yang	SCONJ	IN	_	4	mark	_	_
-4	sama	sama	ADJ	JJ	_	2	ccomp	_	SpaceAfter=No
+3	yang	yang	PRON	IN	PronType=Rel	4	nsubj	_	_
+4	sama	sama	ADJ	JJ	_	2	acl:relcl	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	_	_
 6	Menkeu	Menkeu	NOUN	NN	Number=Sing	7	nsubj	_	_
 7	mengungkapkan	ungkap	VERB	VB	Voice=Act	11	parataxis	_	SpaceAfter=No
@@ -4833,9 +4833,9 @@
 10	untuk	untuk	SCONJ	IN	_	11	mark	_	_
 11	memberi	beri	VERB	VB	Voice=Act	7	advcl	_	_
 12	contoh	contoh	NOUN	NN	Number=Sing	11	obj	_	_
-13	yang	yang	SCONJ	IN	_	15	mark	_	_
+13	yang	yang	PRON	IN	PronType=Rel	15	nsubj	_	_
 14	lebih	lebih	ADV	RB	_	15	advmod	_	_
-15	baik	baik	ADJ	JJ	_	12	ccomp	_	_
+15	baik	baik	ADJ	JJ	_	12	acl:relcl	_	_
 16	karena	karena	SCONJ	IN	_	18	mark	_	_
 17	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	18	nsubj:pass	_	_
 18	diidolakan	diidolakan	VERB	VB	Voice=Pass	7	advcl	_	_
@@ -4926,7 +4926,7 @@
 4	juta	juta	NUM	CD	_	3	flat	_	_
 5	dolar	dolar	NOUN	NN	Number=Sing	2	obj	_	_
 6	AS	AS	PROPN	NNP	_	5	nmod	_	_
-7	yang	yang	SCONJ	IN	_	8	mark	_	_
+7	yang	yang	PRON	IN	PronType=Rel	8	nsubj	_	_
 8	berasal	asal	VERB	VB	Voice=Act	5	acl:relcl	_	_
 9	dari	dari	ADP	IN	_	10	case	_	_
 10	Policy	Policy	X	FW	Foreign=Yes	8	obl	_	_
@@ -4958,13 +4958,13 @@
 2	kemudian	kemudian	ADV	RB	_	3	advmod	_	_
 3	mengumumkan	umum	VERB	VB	Voice=Act	0	root	_	_
 4	pemenang	menang	NOUN	NN	Number=Sing	3	obj	_	_
-5	yang	yang	SCONJ	IN	_	6	mark	_	_
-6	sebenarnya	sebenarnya	ADV	RB	_	4	ccomp	_	SpaceAfter=No
+5	yang	yang	PRON	IN	PronType=Rel	6	nsubj	_	_
+6	sebenarnya	sebenarnya	ADJ	JJ	_	4	acl:relcl	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	4	punct	_	_
 8	yaitu	yaitu	SCONJ	IN	_	9	mark	_	_
 9	Amanda	Amanda	PROPN	NNP	_	4	nmod	_	_
 10	Ware	Ware	PROPN	NNP	_	9	flat:name	_	_
-11	yang	yang	SCONJ	IN	_	12	mark	_	_
+11	yang	yang	PRON	IN	PronType=Rel	12	nsubj	_	_
 12	berusia	usia	VERB	VB	Voice=Act	9	acl:relcl	_	_
 13	18	18	NUM	CD	_	14	nummod	_	_
 14	tahun	tahun	NOUN	NN	Number=Sing	12	obl:tmod	_	SpaceAfter=No
@@ -5026,7 +5026,7 @@
 26	pada	pada	ADP	IN	_	28	case	_	_
 27	akhir	akhir	NOUN	NN	Number=Sing	28	nummod	_	_
 28	2006	2006	NUM	CD	_	25	obl	_	_
-29	yang	yang	SCONJ	IN	_	31	mark	_	_
+29	yang	yang	PRON	IN	PronType=Rel	31	nsubj	_	_
 30	hanya	hanya	ADV	RB	_	31	advmod	_	_
 31	sebesar	sebesar	NOUN	NN	Number=Sing	28	nmod	_	_
 32	37,4	37,4	NUM	CD	_	33	nummod	_	_
@@ -5162,8 +5162,8 @@
 # text_en = "The same amount of 0.11 US dollars per share was paid for 2005," he said.
 1	"	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
 2	Jumlah	Jumlah	NOUN	NN	Number=Sing	13	nsubj:pass	_	_
-3	yang	yang	SCONJ	IN	_	4	mark	_	_
-4	sama	sama	ADJ	JJ	_	2	ccomp	_	_
+3	yang	yang	PRON	IN	PronType=Rel	4	nsubj	_	_
+4	sama	sama	ADJ	JJ	_	2	acl:relcl	_	_
 5	sebesar	sebesar	NOUN	NN	Number=Sing	2	nmod	_	_
 6	0,11	0,11	NUM	CD	_	5	nummod	_	_
 7	dolar	dolar	NOUN	NN	Number=Sing	5	nmod	_	_
@@ -5228,8 +5228,8 @@
 10	ATM	ATM	NOUN	NN	Number=Sing	9	nmod	_	_
 11	dari	dari	ADP	IN	_	12	case	_	_
 12	jumlah	jumlah	NOUN	NN	Number=Sing	9	nmod	_	_
-13	yang	yang	SCONJ	IN	_	14	mark	_	_
-14	ada	ada	VERB	VB	Voice=Act	12	ccomp	_	_
+13	yang	yang	PRON	IN	PronType=Rel	14	nsubj	_	_
+14	ada	ada	VERB	VB	Voice=Act	12	acl:relcl	_	_
 15	saat	saat	NOUN	NN	Number=Sing	12	nmod	_	_
 16	ini	ini	DET	DT	PronType=Dem	15	det	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	12	punct	_	_
@@ -5247,7 +5247,7 @@
 29	dari	dari	ADP	IN	_	30	case	_	_
 30	21.500	21.500	NUM	CD	_	24	obl	_	_
 31	EDC	EDC	PROPN	NNP	_	30	appos	_	_
-32	yang	yang	SCONJ	IN	_	33	mark	_	_
+32	yang	yang	PRON	IN	PronType=Rel	33	nsubj	_	_
 33	ada	ada	VERB	VB	Voice=Act	30	acl:relcl	_	_
 34	saat	saat	NOUN	NN	Number=Sing	30	nmod	_	_
 35	ini	ini	DET	DT	PronType=Dem	34	det	_	SpaceAfter=No
@@ -5286,8 +5286,8 @@
 6	Soetaryo	Soetaryo	PROPN	NNP	_	5	obj	_	_
 7	Sigit	Sigit	PROPN	NNP	_	6	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	6	punct	_	_
-9	yang	yang	SCONJ	IN	_	11	mark	_	_
-10	efektif	efektif	ADJ	JJ	_	11	advcl	_	_
+9	yang	yang	PRON	IN	PronType=Rel	11	nsubj	_	_
+10	efektif	efektif	ADJ	JJ	_	11	advmod	_	_
 11	pensiun	pensiun	VERB	VB	Voice=Act	6	acl:relcl	_	_
 12	dari	dari	ADP	IN	_	13	case	_	_
 13	perseroan	perseroan	NOUN	NN	Number=Sing	11	obl	_	_
@@ -5370,8 +5370,8 @@
 8	salah	salah	ADJ	JJ	_	9	advmod	_	_
 9	seorang	orang	DET	DT	Definite=Ind|PronType=Art	7	obj	_	_
 10	pelawak	pelawak	NOUN	NN	Number=Sing	9	nmod	_	_
-11	yang	yang	SCONJ	IN	_	12	mark	_	_
-12	terkenal	kenal	ADJ	JJ	_	10	ccomp	_	_
+11	yang	yang	PRON	IN	PronType=Rel	12	nsubj	_	_
+12	terkenal	kenal	ADJ	JJ	_	10	acl:relcl	_	_
 13	di	di	ADP	IN	_	14	case	_	_
 14	TV	TV	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	7	punct	_	_
@@ -5416,8 +5416,8 @@
 34	atau	atau	CCONJ	CC	_	35	cc	_	_
 35	harga	harga	NOUN	NN	Number=Sing	33	conj	_	_
 36	domestik	domestik	ADJ	JJ	_	35	amod	_	_
-37	yang	yang	SCONJ	IN	_	38	mark	_	_
-38	mendadak	mendadak	ADV	RB	_	32	advmod	_	SpaceAfter=No
+37	yang	yang	PRON	IN	PronType=Rel	38	nsubj	_	_
+38	mendadak	mendadak	ADJ	JJ	_	32	acl:relcl	_	SpaceAfter=No
 39	)	)	PUNCT	-RRB-	_	28	punct	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -5442,15 +5442,15 @@
 16	mengenai	kena	ADP	IN	_	17	case	_	_
 17	bidang-bidang	bidang	NOUN	NN	Number=Plur	15	nmod	_	_
 18	usaha	usaha	NOUN	NN	Number=Sing	17	nmod	_	_
-19	yang	yang	SCONJ	IN	_	20	mark	_	_
+19	yang	yang	PRON	IN	PronType=Rel	20	nsubj	_	_
 20	memiliki	milik	VERB	VB	Voice=Act	17	acl:relcl	_	_
 21	prospek	prospek	NOUN	NN	Number=Sing	20	obj	_	_
-22	yang	yang	SCONJ	IN	_	23	mark	_	_
-23	baik	baik	ADJ	JJ	_	21	ccomp	_	_
+22	yang	yang	PRON	IN	PronType=Rel	23	nsubj	_	_
+23	baik	baik	ADJ	JJ	_	21	acl:relcl	_	_
 24	dan	dan	CCONJ	CC	_	25	cc	_	_
 25	potensial	potensial	ADJ	JJ	_	23	conj	_	_
 26	untuk	untuk	SCONJ	IN	_	27	mark	_	_
-27	dibiayai	biaya	VERB	VB	Voice=Pass	25	ccomp	_	SpaceAfter=No
+27	dibiayai	biaya	VERB	VB	Voice=Pass	23	advcl	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = csui-test-172
@@ -5606,7 +5606,7 @@
 25	PT	PT	PROPN	NNP	_	18	nmod	_	_
 26	Nibung	Nibung	PROPN	NNP	_	25	flat:name	_	_
 27	Arthamulia	Arthamulia	PROPN	NNP	_	25	flat:name	_	_
-28	yang	yang	SCONJ	IN	_	29	mark	_	_
+28	yang	yang	PRON	IN	PronType=Rel	29	nsubj	_	_
 29	berkedudukan	berkedudukan	VERB	VB	Voice=Act	25	acl:relcl	_	_
 30	di	di	ADP	IN	_	31	case	_	_
 31	Palembang	Palembang	PROPN	NNP	_	29	obl	_	SpaceAfter=No
@@ -5651,8 +5651,8 @@
 8	BUMN	BUMN	PROPN	NNP	_	7	nmod	_	_
 9	melakukan	laku	VERB	VB	Voice=Act	5	advcl	_	_
 10	persiapan	persiapan	NOUN	NN	Number=Sing	9	obj	_	_
-11	yang	yang	SCONJ	IN	_	12	mark	_	_
-12	proper	proper	X	FW	Foreign=Yes	10	ccomp	_	_
+11	yang	yang	PRON	IN	PronType=Rel	12	nsubj	_	_
+12	proper	proper	X	FW	Foreign=Yes	10	acl:relcl	_	_
 13	dalam	dalam	ADP	IN	_	14	case	_	_
 14	implementasi	implementasi	NOUN	NN	Number=Sing	10	nmod	_	_
 15	PP	PP	PROPN	NNP	_	14	nmod	_	_
@@ -5861,7 +5861,7 @@
 16	la	la	PROPN	NNP	_	15	nmod	_	_
 17	Mancha	Mancha	PROPN	NNP	_	16	flat:name	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	12	punct	_	_
-19	yang	yang	SCONJ	IN	_	20	mark	_	_
+19	yang	yang	PRON	IN	PronType=Rel	20	nsubj	_	_
 20	punya	punya	VERB	VB	Voice=Act	12	acl:relcl	_	_
 21	obsesi	obsesi	NOUN	NN	Number=Sing	20	obj	_	_
 22	dengan	dengan	ADP	IN	_	23	case	_	_
@@ -5889,7 +5889,7 @@
 15	beberapa	beberapa	DET	DT	Number=Plur|PronType=Ind	16	det	_	_
 16	tuntutan	tuntut	NOUN	NN	Number=Sing	13	obl	_	_
 17	hukum	hukum	NOUN	NN	Number=Sing	16	nmod	_	_
-18	yang	yang	SCONJ	IN	_	19	mark	_	_
+18	yang	yang	PRON	IN	PronType=Rel	19	nsubj	_	_
 19	berprofil	profil	VERB	VB	Voice=Act	16	acl:relcl	_	_
 20	tinggi	tinggi	ADJ	JJ	_	19	xcomp	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	22	punct	_	_
@@ -5992,7 +5992,7 @@
 18	sebuah	buah	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
 19	rencana	rencana	NOUN	NN	Number=Sing	17	obj	_	_
 20	reformasi	reformasi	NOUN	NN	Number=Sing	19	nmod	_	_
-21	yang	yang	SCONJ	IN	_	22	mark	_	_
+21	yang	yang	PRON	IN	PronType=Rel	22	nsubj	_	_
 22	komprehensif	komprehensif	ADJ	JJ	_	19	acl:relcl	_	_
 23	dalam	dalam	ADP	IN	_	24	case	_	_
 24	bidang	bidang	NOUN	NN	Number=Sing	19	nmod	_	_
@@ -6035,7 +6035,7 @@
 19	untuk	untuk	ADP	IN	_	20	case	_	_
 20	tahun	tahun	NOUN	NN	Number=Sing	14	nmod:tmod	_	_
 21	ini	ini	DET	DT	PronType=Dem	20	det	_	_
-22	yang	yang	SCONJ	IN	_	23	mark	_	_
+22	yang	yang	PRON	IN	PronType=Rel	23	nsubj	_	_
 23	terealisasi	terealisasi	VERB	VB	Voice=Pass	13	acl:relcl	_	_
 24	Maret	Maret	PROPN	NNP	_	23	obl:tmod	_	_
 25	lalu	lalu	VERB	VB	Voice=Act	24	acl:relcl	_	SpaceAfter=No
@@ -6059,7 +6059,7 @@
 2	Kondisi	Kondisi	NOUN	NN	Number=Sing	16	nsubj	_	_
 3	curah	curah	NOUN	NN	Number=Sing	2	nmod	_	_
 4	hujan	hujan	NOUN	NN	Number=Sing	3	nmod	_	_
-5	yang	yang	SCONJ	IN	_	6	mark	_	_
+5	yang	yang	PRON	IN	PronType=Rel	6	nsubj	_	_
 6	berada	ada	VERB	VB	Voice=Act	2	acl:relcl	_	_
 7	di	di	ADP	IN	_	9	case	_	_
 8	atas	atas	NOUN	NN	Number=Sing	9	nmod:lmod	_	_
@@ -6113,14 +6113,14 @@
 9	dan	dan	CCONJ	CC	_	10	cc	_	_
 10	pasar	pasar	NOUN	NN	Number=Sing	7	conj	_	_
 11	LTLS	LTLS	PROPN	NNP	_	10	nmod	_	_
-12	yang	yang	SCONJ	IN	_	13	mark	_	_
+12	yang	yang	PRON	IN	PronType=Rel	13	nsubj	_	_
 13	baik	baik	ADJ	JJ	_	10	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	10	punct	_	_
 15	termasuk	masuk	VERB	VB	Voice=Pass	10	acl:relcl	_	_
 16-17	operasionalnya	_	_	_	_	_	_	_	_
 16	operasional	operasional	NOUN	NN	Number=Sing	15	nsubj	_	_
 17	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	16	nmod:poss	_	_
-18	yang	yang	SCONJ	IN	_	19	mark	_	_
+18	yang	yang	PRON	IN	PronType=Rel	19	nsubj	_	_
 19	terintegrasi	terintegrasi	VERB	VB	Voice=Pass	16	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -6172,7 +6172,7 @@
 25	Sumatra	Sumatra	PROPN	NNP	_	20	nmod	_	_
 26	Selatan	Selatan	PROPN	NNP	_	25	flat:name	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	13	punct	_	_
-28	yang	yang	SCONJ	IN	_	29	mark	_	_
+28	yang	yang	PRON	IN	PronType=Rel	29	nsubj	_	_
 29	merupakan	rupa	VERB	VB	Voice=Act	13	acl:relcl	_	_
 30	salah	salah	ADJ	JJ	_	31	advmod	_	_
 31	satu	satu	NUM	CD	_	32	nummod	_	_
@@ -6235,7 +6235,7 @@
 18	pembatalan	pembatalan	NOUN	NN	Number=Sing	17	obj	_	_
 19	sisa	sisa	NOUN	NN	Number=Sing	18	nmod	_	_
 20	pinjaman	pinjam	NOUN	NN	Number=Sing	19	nmod	_	_
-21	yang	yang	SCONJ	IN	_	23	mark	_	_
+21	yang	yang	PRON	IN	PronType=Rel	23	nsubj:pass	_	_
 22	tidak	tidak	PART	RP	Polarity=Neg	23	advmod	_	_
 23	terpakai	pakai	VERB	VB	Voice=Pass	19	acl:relcl	_	_
 24	itu	itu	DET	DT	PronType=Dem	19	det	_	SpaceAfter=No
@@ -6453,7 +6453,7 @@
 12	dan	dan	CCONJ	CC	_	13	cc	_	_
 13	konsumsi	konsumsi	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	9	punct	_	_
-15	yang	yang	SCONJ	IN	_	18	mark	_	_
+15	yang	yang	PRON	IN	PronType=Rel	18	nsubj	_	_
 16-17	walaupun	_	_	_	_	_	_	_	_
 16	walau	walau	SCONJ	IN	_	18	mark	_	_
 17	pun	pun	PART	RP	_	16	advmod:emph	_	_
@@ -6463,8 +6463,8 @@
 21	tetapi	tetapi	CCONJ	CC	_	23	cc	_	_
 22	dari	dari	ADP	IN	_	23	case	_	_
 23	basis	basis	NOUN	NN	Number=Sing	18	conj	_	_
-24	yang	yang	SCONJ	IN	_	25	mark	_	_
-25	rendah	rendah	ADJ	JJ	_	23	ccomp	_	SpaceAfter=No
+24	yang	yang	PRON	IN	PronType=Rel	25	nsubj	_	_
+25	rendah	rendah	ADJ	JJ	_	23	acl:relcl	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	23	punct	_	_
 27	dengan	dengan	SCONJ	IN	_	35	mark	_	_
 28	rasio	rasio	NOUN	NN	Number=Sing	35	nsubj	_	_
@@ -6536,7 +6536,7 @@
 13	Penelitian	Penelitian	NOUN	NN	Number=Sing	14	nsubj	_	_
 14	membuktikan	bukti	VERB	VB	Voice=Act	3	parataxis	_	_
 15	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	25	obl	_	_
-16	yang	yang	SCONJ	IN	_	17	mark	_	_
+16	yang	yang	PRON	IN	PronType=Rel	17	nsubj	_	_
 17	tumbuh	tumbuh	VERB	VB	Voice=Act	15	acl:relcl	_	_
 18	dengan	dengan	ADP	IN	_	19	case	_	_
 19	orang	orang	NOUN	NN	Number=Sing	17	obl	_	_
@@ -6643,7 +6643,7 @@
 6	dengan	dengan	ADP	IN	_	7	case	_	_
 7	peringkat	peringkat	NOUN	NN	Number=Sing	5	obl	_	_
 8	ekspektasi	ekspektasi	NOUN	NN	Number=Sing	7	nmod	_	_
-9	yang	yang	SCONJ	IN	_	10	mark	_	_
+9	yang	yang	PRON	IN	PronType=Rel	10	nsubj:pass	_	_
 10	diberikan	beri	VERB	VB	Voice=Pass	7	acl:relcl	_	_
 11	di	di	ADP	IN	_	12	case	_	_
 12	bulan	bulan	NOUN	NN	Number=Sing	10	obl:tmod	_	_
@@ -6696,7 +6696,7 @@
 18	mencapai	capai	VERB	VB	Voice=Act	16	ccomp	_	_
 19	kemandirian	mandiri	NOUN	NN	Number=Sing	18	obj	_	_
 20	fiskal	fiskal	ADJ	JJ	_	19	amod	_	_
-21	yang	yang	SCONJ	IN	_	22	mark	_	_
+21	yang	yang	PRON	IN	PronType=Rel	22	nsubj:pass	_	_
 22	berkelanjutan	berkelanjutan	VERB	VB	Voice=Act	19	acl:relcl	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	9	punct	_	_
 
@@ -6714,18 +6714,18 @@
 9	sempat	sempat	ADV	RB	_	10	advmod	_	_
 10	mengumumkan	umum	VERB	VB	Voice=Act	0	root	_	_
 11	pemenang	menang	NOUN	NN	Number=Sing	10	obj	_	_
-12	yang	yang	SCONJ	IN	_	13	mark	_	_
-13	salah	salah	ADJ	JJ	_	11	ccomp	_	_
+12	yang	yang	PRON	IN	PronType=Rel	13	nsubj	_	_
+13	salah	salah	ADJ	JJ	_	11	acl:relcl	_	_
 14	dalam	dalam	ADP	IN	_	15	case	_	_
 15	final	final	NOUN	NN	Number=Sing	10	obl	_	_
-16	yang	yang	SCONJ	IN	_	17	mark	_	_
-17	disiarkan	siar	VERB	VB	Voice=Pass	15	ccomp	_	_
+16	yang	yang	PRON	IN	PronType=Rel	17	nsubj:pass	_	_
+17	disiarkan	siar	VERB	VB	Voice=Pass	15	acl:relcl	_	_
 18	langsung	langsung	ADV	RB	_	17	advmod	_	_
 19	pada	pada	ADP	IN	_	20	case	_	_
 20-21	serinya	_	_	_	_	_	_	_	_
 20	seri	seri	NOUN	NN	Number=Sing	17	obl	_	_
 21	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	20	nmod:poss	_	_
-22	yang	yang	SCONJ	IN	_	23	mark	_	_
+22	yang	yang	PRON	IN	PronType=Rel	23	nsubj	_	_
 23	keenam	keenam	ADJ	JJ	_	20	acl:relcl	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	10	punct	_	_
 
@@ -6734,7 +6734,7 @@
 # text_en = Other sectors related to the primary sector, for example, agriculture, mining, and oil and gas and non-oil and gas mining also showed good growth, or even above 10 percent.
 1	Sektor-sektor	sektor	NOUN	NN	Number=Plur	20	nsubj	_	_
 2	lain	lain	ADJ	JJ	_	1	amod	_	_
-3	yang	yang	SCONJ	IN	_	4	mark	_	_
+3	yang	yang	PRON	IN	PronType=Rel	4	nsubj	_	_
 4	berhubungan	hubung	VERB	VB	Voice=Act	1	acl:relcl	_	_
 5	dengan	dengan	ADP	IN	_	6	case	_	_
 6	sektor	sektor	NOUN	NN	Number=Sing	4	obl	_	_
@@ -6753,7 +6753,7 @@
 19	juga	juga	ADV	RB	_	20	advmod	_	_
 20	menunjukkan	tunjuk	VERB	VB	Voice=Act	0	root	_	_
 21	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	20	obj	_	_
-22	yang	yang	SCONJ	IN	_	23	mark	_	_
+22	yang	yang	PRON	IN	PronType=Rel	23	nsubj	_	_
 23	baik	baik	ADJ	JJ	_	21	acl:relcl	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	30	punct	_	_
 25	atau	atau	CCONJ	CC	_	30	cc	_	_
@@ -6816,7 +6816,7 @@
 24	Rp	Rp	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
 25	300	300	NUM	CD	_	24	nummod	_	_
 26	miliar	miliar	NUM	CD	_	25	flat	_	_
-27	yang	yang	SCONJ	IN	_	29	mark	_	_
+27	yang	yang	PRON	IN	PronType=Rel	29	nsubj	_	_
 28	akan	akan	AUX	MD	_	29	aux	_	_
 29	jatuh	jatuh	VERB	VB	Voice=Act	21	acl:relcl	_	_
 30	tempo	tempo	NOUN	NN	Number=Sing	29	obj	_	_
@@ -6869,7 +6869,7 @@
 29	(	(	PUNCT	-LRB-	_	30	punct	_	SpaceAfter=No
 30	PPN	PPN	NOUN	NN	Number=Sing	26	appos	_	SpaceAfter=No
 31	)	)	PUNCT	-RRB-	_	30	punct	_	_
-32	yang	yang	SCONJ	IN	_	37	mark	_	_
+32	yang	yang	PRON	IN	PronType=Rel	37	nsubj:pass	_	_
 33	hingga	hingga	ADP	IN	_	35	case	_	_
 34	akhir	akhir	NOUN	NN	Number=Sing	35	nmod:lmod	_	_
 35	tahun	tahun	NOUN	NN	Number=Sing	37	obl:tmod	_	_
@@ -6909,7 +6909,7 @@
 19	NPL	NPL	PROPN	NNP	_	18	nmod	_	_
 20	berdasar	dasar	VERB	VB	Voice=Act	17	advcl	_	_
 21	peraturan	atur	NOUN	NN	Number=Sing	20	obj	_	_
-22	yang	yang	SCONJ	IN	_	24	mark	_	_
+22	yang	yang	PRON	IN	PronType=Rel	24	nsubj:pass	_	_
 23	telah	telah	AUX	MD	_	24	aux	_	_
 24	diterbitkan	terbit	VERB	VB	Voice=Pass	21	ccomp	_	_
 25	yaitu	yaitu	SCONJ	IN	_	26	mark	_	_
@@ -7009,7 +7009,7 @@
 3-4	pernyataannya	_	_	_	_	_	_	_	_
 3	pernyataan	pernyataan	NOUN	NN	Number=Sing	14	obl	_	_
 4	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
-5	yang	yang	SCONJ	IN	_	6	mark	_	_
+5	yang	yang	PRON	IN	PronType=Rel	6	nsubj:pass	_	_
 6	dikutip	kutip	VERB	VB	Voice=Pass	3	acl:relcl	_	_
 7	Thomson	Thomson	PROPN	NNP	_	6	obl	_	_
 8	Financial	Financial	PROPN	NNP	_	7	flat:name	_	SpaceAfter=No
@@ -7043,7 +7043,7 @@
 4	penyelesaian	penyelesaian	NOUN	NN	Number=Sing	3	obj	_	_
 5	tiga	tiga	NUM	CD	_	6	nummod	_	_
 6	Undang-undang	Undang-undang	NOUN	NN	Number=Sing	4	nmod	_	_
-7	yang	yang	SCONJ	IN	_	8	mark	_	_
+7	yang	yang	PRON	IN	PronType=Rel	8	nsubj	_	_
 8	mendukung	dukung	VERB	VB	Voice=Act	6	acl:relcl	_	_
 9	penyempurnaan	penyempurnaan	NOUN	NN	Number=Sing	8	obj	_	_
 10	penerapan	terap	NOUN	NN	Number=Sing	9	nmod	_	_
@@ -7158,7 +7158,7 @@
 # text = Film yang ditulis oleh pencipta serial West Wing Aaron Sorkin dan disutradarai oleh David Fincher yang pernah menggarap film Fight's Club ini sebenarnya belum memperoleh izin Mark Zuckerberg.
 # text_en = The film, written by the creator of the West Wing series Aaron Sorkin and directed by David Fincher, who has worked on the film Fight's Club, has not actually obtained Mark Zuckerberg's permission.
 1	Film	film	NOUN	NN	Number=Sing	26	nsubj	_	_
-2	yang	yang	SCONJ	IN	_	3	mark	_	_
+2	yang	yang	PRON	IN	PronType=Rel	3	nsubj:pass	_	_
 3	ditulis	tulis	VERB	VB	Voice=Pass	1	ccomp	_	_
 4	oleh	oleh	ADP	IN	_	5	case	_	_
 5	pencipta	cipta	NOUN	NN	Number=Sing	3	obl:agent	_	_
@@ -7172,7 +7172,7 @@
 13	oleh	oleh	ADP	IN	_	14	case	_	_
 14	David	David	PROPN	NNP	_	12	obl:agent	_	_
 15	Fincher	Fincher	PROPN	NNP	_	14	flat:name	_	_
-16	yang	yang	SCONJ	IN	_	18	mark	_	_
+16	yang	yang	PRON	IN	PronType=Rel	18	nsubj	_	_
 17	pernah	pernah	ADV	RB	_	18	advmod	_	_
 18	menggarap	garap	VERB	VB	Voice=Act	14	acl:relcl	_	_
 19	film	film	NOUN	NN	Number=Sing	18	obj	_	_
@@ -7195,7 +7195,7 @@
 2-3	prospektusnya	_	_	_	_	_	_	_	_
 2	prospektus	prospektus	NOUN	NN	Number=Sing	13	obl	_	_
 3	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
-4	yang	yang	SCONJ	IN	_	5	mark	_	_
+4	yang	yang	PRON	IN	PronType=Rel	5	nsubj:pass	_	_
 5	dipublikasikan	publikasi	VERB	VB	Voice=Pass	2	acl:relcl	_	_
 6	di	di	ADP	IN	_	7	case	_	_
 7	Jakarta	Jakarta	PROPN	NNP	_	5	obl	_	SpaceAfter=No
@@ -7236,7 +7236,7 @@
 42	dan	dan	CCONJ	CC	_	43	cc	_	_
 43	nilai	nilai	NOUN	NN	Number=Sing	38	conj	_	_
 44	nominal	nominal	NOUN	NN	Number=Sing	43	nmod	_	_
-45	yang	yang	SCONJ	IN	_	47	mark	_	_
+45	yang	yang	PRON	IN	PronType=Rel	47	nsubj:pass	_	_
 46	akan	akan	AUX	MD	_	47	aux	_	_
 47	ditentukan	tentu	VERB	VB	Voice=Pass	43	acl:relcl	_	_
 48	kemudian	kemudian	ADV	RB	_	47	obl	_	SpaceAfter=No
@@ -7249,7 +7249,7 @@
 2	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	rakortas	rakortas	NOUN	NN	Number=Sing	15	nsubj	_	_
-5	yang	yang	SCONJ	IN	_	6	mark	_	_
+5	yang	yang	PRON	IN	PronType=Rel	6	nsubj:pass	_	_
 6	dihadiri	hadir	VERB	VB	Voice=Pass	4	ccomp	_	_
 7	seluruh	seluruh	DET	DT	PronType=Tot	8	det	_	_
 8	pengambil	ambil	NOUN	NN	Number=Sing	6	obl	_	_
@@ -7361,7 +7361,7 @@
 18-19	sahamnya	_	_	_	_	_	_	_	_
 18	saham	saham	NOUN	NN	Number=Sing	17	nmod	_	_
 19	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	18	nmod:poss	_	_
-20	yang	yang	SCONJ	IN	_	21	mark	_	_
+20	yang	yang	PRON	IN	PronType=Rel	21	nsubj	_	_
 21	mencapai	capai	VERB	VB	Voice=Act	16	acl:relcl	_	_
 22	23,32	23,32	NUM	CD	_	23	nummod	_	_
 23	persen	persen	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
@@ -7427,8 +7427,8 @@
 22	kembali	kembali	VERB	VB	Voice=Act	7	acl:relcl	_	_
 23	pada	pada	ADP	IN	_	24	case	_	_
 24	posisi	posisi	NOUN	NN	Number=Sing	22	obl	_	_
-25	yang	yang	SCONJ	IN	_	26	mark	_	_
-26	sama	sama	ADJ	JJ	_	24	ccomp	_	SpaceAfter=No
+25	yang	yang	PRON	IN	PronType=Rel	26	nsubj	_	_
+26	sama	sama	ADJ	JJ	_	24	acl:relcl	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	24	punct	_	_
 28	yaitu	yaitu	SCONJ	IN	_	30	mark	_	_
 29	9	9	NUM	CD	_	30	nummod	_	_
@@ -7512,7 +7512,7 @@
 11	-	-	PUNCT	:	_	12	punct	_	SpaceAfter=No
 12	Oktober	Oktober	PROPN	NNP	_	10	nmod:tmod	_	_
 13	2006	2006	NUM	CD	_	10	nummod	_	_
-14	yang	yang	SCONJ	IN	_	15	mark	_	_
+14	yang	yang	PRON	IN	PronType=Rel	15	nsubj	_	_
 15	mencapai	capai	VERB	VB	Voice=Act	9	acl:relcl	_	_
 16	761.253	761.253	NUM	CD	_	17	nummod	_	_
 17	ton	ton	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
@@ -7666,7 +7666,7 @@
 6	MMSCFD	MMSCFD	NOUN	NN	Number=Sing	3	nmod	_	_
 7	pasokan	pasok	NOUN	NN	Number=Sing	12	nmod	_	_
 8	gas	gas	NOUN	NN	Number=Sing	7	nmod	_	_
-9	yang	yang	SCONJ	IN	_	10	mark	_	_
+9	yang	yang	PRON	IN	PronType=Rel	10	nsubj:pass	_	_
 10	diterima	terima	VERB	VB	Voice=Pass	7	acl:relcl	_	_
 11	hanya	hanya	ADV	RB	_	12	advmod	_	_
 12	45	45	NUM	CD	_	0	root	_	_
@@ -7734,7 +7734,7 @@
 21	Rp	Rp	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
 22	750	750	NUM	CD	_	21	nummod	_	_
 23	miliar	miliar	NUM	CD	_	22	flat	_	_
-24	yang	yang	SCONJ	IN	_	25	mark	_	_
+24	yang	yang	PRON	IN	PronType=Rel	25	nsubj:pass	_	_
 25	digunakan	guna	VERB	VB	Voice=Pass	16	acl:relcl	_	_
 26	untuk	untuk	ADP	IN	_	28	case	_	_
 27	sebagian	sebagian	DET	DT	_	28	det	_	_
@@ -7850,7 +7850,7 @@
 7	oleh	oleh	ADP	IN	_	8	case	_	_
 8	keluarga	keluarga	NOUN	NN	Number=Sing	3	obl:agent	_	_
 9	Gunawan	Gunawan	PROPN	NNP	_	8	nmod	_	_
-10	yang	yang	SCONJ	IN	_	12	mark	_	_
+10	yang	yang	PRON	IN	PronType=Rel	12	nsubj	_	_
 11	masih	masih	ADV	RB	_	12	advmod	_	_
 12	memegang	pegang	VERB	VB	Voice=Act	8	acl:relcl	_	_
 13	kontrol	kontrol	NOUN	NN	Number=Sing	12	obj	_	_
@@ -7864,7 +7864,7 @@
 21	Panin	Panin	PROPN	NNP	_	20	flat:name	_	_
 22	Life	Life	PROPN	NNP	_	20	flat:name	_	_
 23	Tbk	Tbk	PROPN	NNP	_	20	flat:name	_	_
-24	yang	yang	SCONJ	IN	_	25	mark	_	_
+24	yang	yang	PRON	IN	PronType=Rel	25	nsubj	_	_
 25	menguasai	kuasa	VERB	VB	Voice=Act	20	acl:relcl	_	_
 26	45,1	45,1	NUM	CD	_	27	nummod	_	SpaceAfter=No
 27	%	%	SYM	SYM	_	25	obj	_	_
@@ -7880,7 +7880,7 @@
 4	terletak	terletak	VERB	VB	Voice=Pass	0	root	_	_
 5	di	di	ADP	IN	_	6	case	_	_
 6	kawasan	kawasan	NOUN	NN	Number=Sing	4	obl	_	_
-7	yang	yang	SCONJ	IN	_	9	mark	_	_
+7	yang	yang	PRON	IN	PronType=Rel	9	nsubj:pass	_	_
 8	cukup	cukup	ADV	RB	_	9	advmod	_	_
 9	terpencil	terpencil	VERB	VB	Voice=Pass	6	ccomp	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	12	punct	_	_
@@ -7920,7 +7920,7 @@
 11	indikator	indikator	NOUN	NN	Number=Sing	10	nmod	_	_
 12	ekonomi	ekonomi	NOUN	NN	Number=Sing	10	nmod	_	_
 13	AS	AS	PROPN	NNP	_	10	nmod	_	_
-14	yang	yang	SCONJ	IN	_	16	mark	_	_
+14	yang	yang	PRON	IN	PronType=Rel	16	nsubj	_	_
 15	akan	akan	AUX	MD	_	16	aux	_	_
 16	menunjukkan	tunjuk	VERB	VB	Voice=Act	10	acl:relcl	_	_
 17	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	20	nsubj	_	_
@@ -7935,16 +7935,16 @@
 # text = Bagi yang berminat harus mendaftarkan diri di YouTube dan yang terpilih akan membaca segmen tertentu untuk diunggah di YouTube.
 # text_en = Those who are interested must register on YouTube and those who are selected will read certain segments to be uploaded on YouTube.
 1	Bagi	bagi	SCONJ	IN	_	3	mark	_	_
-2	yang	yang	PRON	PRP	PronType=Rel	3	obl	_	_
-3	berminat	minat	VERB	VB	Voice=Act	5	advcl	_	_
+2	yang	yang	PRON	PRP	PronType=Rel	3	nsubj	_	_
+3	berminat	minat	VERB	VB	Voice=Act	5	csubj	_	_
 4	harus	harus	AUX	MD	_	5	aux	_	_
 5	mendaftarkan	daftar	VERB	VB	Voice=Act	0	root	_	_
 6	diri	diri	PRON	PRP	PronType=Prs|Reflex=Yes	5	obj	_	_
 7	di	di	ADP	IN	_	8	case	_	_
 8	YouTube	YouTube	PROPN	NNP	_	5	obl	_	_
 9	dan	dan	CCONJ	CC	_	13	cc	_	_
-10	yang	yang	SCONJ	IN	_	11	mark	_	_
-11	terpilih	pilih	VERB	VB	Voice=Pass	13	csubj:pass	_	_
+10	yang	yang	PRON	IN	PronType=Rel	11	nsubj:pass	_	_
+11	terpilih	pilih	VERB	VB	Voice=Pass	13	csubj	_	_
 12	akan	akan	AUX	MD	_	13	aux	_	_
 13	membaca	baca	VERB	VB	Voice=Act	5	conj	_	_
 14	segmen	segmen	NOUN	NN	Number=Sing	13	obj	_	_
@@ -7969,7 +7969,7 @@
 9	dipasarkan	pasar	VERB	VB	Voice=Pass	0	root	_	_
 10	ke	ke	ADP	IN	_	11	case	_	_
 11	India	India	PROPN	NNP	_	9	obl	_	_
-12	yang	yang	SCONJ	IN	_	13	mark	_	_
+12	yang	yang	PRON	IN	PronType=Rel	13	nsubj	_	_
 13	merupakan	rupa	VERB	VB	Voice=Act	11	acl:relcl	_	_
 14	negara	negara	NOUN	NN	Number=Sing	13	obj	_	_
 15	tujuan	tuju	NOUN	NN	Number=Sing	14	nmod	_	_
@@ -8218,10 +8218,10 @@
 24	ton	ton	NOUN	NN	Number=Sing	22	obj	_	_
 25	dibanding	banding	VERB	VB	Voice=Pass	18	advcl	_	_
 26	September	September	PROPN	NNP	_	25	obl:tmod	_	_
-27	yang	yang	SCONJ	IN	_	30	mark	_	_
+27	yang	yang	PRON	IN	PronType=Rel	30	nsubj	_	_
 28	hanya	hanya	ADV	RB	_	29	advmod	_	_
 29	79.161	79.161	NUM	CD	_	30	nummod	_	_
-30	ton	ton	NOUN	NN	Number=Sing	25	advcl	_	SpaceAfter=No
+30	ton	ton	NOUN	NN	Number=Sing	26	acl:relcl	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = csui-test-256
@@ -8263,7 +8263,7 @@
 2	Penelitian	Penelitian	NOUN	NN	Number=Sing	3	nsubj	_	_
 3	membuktikan	bukti	VERB	VB	Voice=Act	0	root	_	_
 4	bahwa	bahwa	SCONJ	IN	_	15	mark	_	_
-5	tekanan	tekan	NOUN	NN	Number=Sing	15	obl	_	_
+5	tekanan	tekan	NOUN	NN	Number=Sing	3	advcl	_	_
 6	dari	dari	ADP	IN	_	7	case	_	_
 7	lingkungan	lingkung	NOUN	NN	Number=Sing	5	nmod	_	_
 8	pergaulan	gaul	NOUN	NN	Number=Sing	7	nmod	_	_
@@ -8273,8 +8273,8 @@
 12-13	keluargalah	_	_	_	_	_	_	_	_
 12	keluarga	keluarga	NOUN	NN	Number=Sing	11	nmod	_	_
 13	lah	lah	PART	RP	_	5	advmod:emph	_	_
-14	yang	yang	SCONJ	IN	_	15	mark	_	_
-15	mendorong	dorong	VERB	VB	Voice=Act	3	advcl	_	_
+14	yang	yang	PRON	IN	PronType=Rel	15	nsubj	_	_
+15	mendorong	dorong	VERB	VB	Voice=Act	5	acl:relcl	_	_
 16	remaja	remaja	NOUN	NN	Number=Sing	15	obj	_	_
 17	untuk	untuk	SCONJ	IN	_	18	mark	_	_
 18	merokok	rokok	VERB	VB	Voice=Act	15	advcl	_	SpaceAfter=No
@@ -8430,7 +8430,7 @@
 9	Putus	Putus	VERB	VB	Voice=Act	7	ccomp	_	_
 10	adalah	adalah	AUX	VBZ	_	11	cop	_	_
 11	cara	cara	NOUN	NN	Number=Sing	0	root	_	_
-12	yang	yang	SCONJ	IN	_	14	mark	_	_
+12	yang	yang	PRON	IN	PronType=Rel	14	nsubj	_	_
 13	sangat	sangat	ADV	RB	_	14	advmod	_	_
 14	bagus	bagus	ADJ	JJ	_	11	acl:relcl	_	_
 15	untuk	untuk	SCONJ	IN	_	16	mark	_	_
@@ -8486,7 +8486,7 @@
 38	periode	periode	NOUN	NN	Number=Sing	37	obl:tmod	_	_
 39	sama	sama	ADJ	JJ	_	38	amod	_	_
 40	2006	2006	NUM	CD	_	38	nummod	_	_
-41	yang	yang	SCONJ	IN	_	42	mark	_	_
+41	yang	yang	PRON	IN	PronType=Rel	42	nsubj	_	_
 42	mencapai	capai	VERB	VB	Voice=Act	38	acl:relcl	_	_
 43	257.145	257.145	NUM	CD	_	44	nummod	_	_
 44	ton	ton	NOUN	NN	Number=Sing	42	obj	_	SpaceAfter=No
@@ -8502,7 +8502,7 @@
 5	mencermati	cermat	VERB	VB	Voice=Act	0	root	_	_
 6	sentimen	sentimen	NOUN	NN	Number=Sing	5	obj	_	_
 7	negatif	negatif	ADJ	JJ	_	6	amod	_	_
-8	yang	yang	SCONJ	IN	_	10	mark	_	_
+8	yang	yang	PRON	IN	PronType=Rel	10	nsubj	_	_
 9	bisa	bisa	AUX	MD	_	10	aux	_	_
 10	mempengaruhi	mempengaruhi	VERB	VB	Voice=Act	6	acl:relcl	_	_
 11	perekonomian	ekonomi	NOUN	NN	Number=Sing	10	obj	_	_
@@ -8532,7 +8532,7 @@
 8	karena	karena	SCONJ	IN	_	9	mark	_	_
 9	iklim	iklim	NOUN	NN	Number=Sing	3	obl	_	_
 10	ekonomi	ekonomi	NOUN	NN	Number=Sing	9	nmod	_	_
-11	yang	yang	SCONJ	IN	_	12	mark	_	_
+11	yang	yang	PRON	IN	PronType=Rel	12	nsubj	_	_
 12	baik	baik	ADJ	JJ	_	9	acl:relcl	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	_	_
 14	dan	dan	CCONJ	CC	_	16	cc	_	_
@@ -8580,9 +8580,9 @@
 19	juta	juta	NUM	CD	_	18	flat	_	_
 20	dolar	dolar	NOUN	NN	Number=Sing	5	nmod	_	_
 21	AS	AS	PROPN	NNP	_	20	nmod	_	_
-22	yang	yang	SCONJ	IN	_	24	mark	_	_
+22	yang	yang	PRON	IN	PronType=Rel	24	nsubj	_	_
 23	seharusnya	seharusnya	ADV	RB	_	24	advmod	_	_
-24	berakhir	akhir	VERB	VB	Voice=Act	4	ccomp	_	_
+24	berakhir	akhir	VERB	VB	Voice=Act	4	acl:relcl	_	_
 25	pada	pada	ADP	IN	_	26	case	_	_
 26	2008	2008	NUM	CD	_	24	obl	_	_
 27	menjadi	jadi	VERB	VB	Voice=Act	4	ccomp	_	_
@@ -8666,7 +8666,7 @@
 25	Bukit	Bukit	PROPN	NNP	_	23	flat:name	_	_
 26	Gantang	Gantang	PROPN	NNP	_	23	flat:name	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	17	punct	_	_
-28	yang	yang	SCONJ	IN	_	29	mark	_	_
+28	yang	yang	PRON	IN	PronType=Rel	29	nsubj	_	_
 29	menyatakan	nyata	VERB	VB	Voice=Act	17	acl:relcl	_	_
 30	bahwa	bahwa	SCONJ	IN	_	34	mark	_	_
 31	PMA	PMA	PROPN	NNP	_	34	nsubj	_	_
@@ -8740,7 +8740,7 @@
 1	Dua	dua	NUM	CD	_	2	nummod	_	_
 2	halaman	halaman	NOUN	NN	Number=Sing	12	nsubj	_	_
 3	naskah	naskah	NOUN	NN	Number=Sing	2	nmod	_	_
-4	yang	yang	SCONJ	IN	_	5	mark	_	_
+4	yang	yang	PRON	IN	PronType=Rel	5	nsubj:pass	_	_
 5	dibingkai	dibingkai	VERB	VB	Voice=Pass	2	acl:relcl	_	_
 6	dan	dan	CCONJ	CC	_	7	cc	_	_
 7	ditandatangani	ditandatangani	VERB	VB	Voice=Pass	5	conj	_	_
@@ -8783,7 +8783,7 @@
 21	RUPSLB	RUPSLB	PROPN	NNP	_	14	appos	_	SpaceAfter=No
 22	)	)	PUNCT	-RRB-	_	21	punct	_	_
 23	perseroan	perseroan	NOUN	NN	Number=Sing	14	nmod	_	_
-24	yang	yang	SCONJ	IN	_	25	mark	_	_
+24	yang	yang	PRON	IN	PronType=Rel	25	nsubj:pass	_	_
 25	diselenggarakan	selenggara	VERB	VB	Voice=Pass	13	acl:relcl	_	_
 26	pada	pada	ADP	IN	_	28	case	_	_
 27	28	28	NUM	CD	_	28	nummod	_	_
@@ -8830,8 +8830,8 @@
 6	,	,	PUNCT	,	_	16	punct	_	_
 7	dalam	dalam	ADP	IN	_	8	case	_	_
 8	kesempatan	kesempatan	NOUN	NN	Number=Sing	16	obl	_	_
-9	yang	yang	SCONJ	IN	_	10	mark	_	_
-10	sama	sama	ADJ	JJ	_	8	ccomp	_	SpaceAfter=No
+9	yang	yang	PRON	IN	PronType=Rel	10	nsubj	_	_
+10	sama	sama	ADJ	JJ	_	8	acl:relcl	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	16	punct	_	_
 12	perseroan	perseroan	NOUN	NN	Number=Sing	16	nsubj	_	_
 13	tahun	tahun	NOUN	NN	Number=Sing	16	obl:tmod	_	_
@@ -8846,8 +8846,8 @@
 22	(	(	PUNCT	-LRB-	_	23	punct	_	SpaceAfter=No
 23	PLTD	PLTD	PROPN	NNP	_	18	appos	_	SpaceAfter=No
 24	)	)	PUNCT	-RRB-	_	23	punct	_	_
-25	yang	yang	SCONJ	IN	_	26	mark	_	_
-26	setara	setara	NOUN	NN	Number=Sing	17	nmod	_	_
+25	yang	yang	PRON	IN	PronType=Rel	26	nsubj	_	_
+26	setara	setara	ADJ	JJ	_	17	acl:relcl	_	_
 27	dengan	dengan	ADP	IN	_	29	case	_	_
 28	32	32	NUM	CD	_	29	nummod	_	_
 29	Mega	Mega	NOUN	NN	Number=Sing	26	nmod	_	_
@@ -8867,11 +8867,11 @@
 1	Tiririca	tiririca	PROPN	NNP	_	12	nsubj	_	SpaceAfter=No
 2	-	-	PUNCT	:	_	1	punct	_	_
 3	yang	yang	SCONJ	IN	_	7	mark	_	_
-4	nama	nama	NOUN	NN	Number=Sing	7	nmod	_	_
+4	nama	nama	NOUN	NN	Number=Sing	7	nsubj	_	_
 5-6	aslinya	_	_	_	_	_	_	_	_
 5	asli	asli	ADJ	JJ	_	4	amod	_	_
 6	nya	nya	DET	DT	Definite=Def|PronType=Art	4	det	_	_
-7	Francisco	Francisco	PROPN	NNP	_	1	nmod	_	_
+7	Francisco	Francisco	PROPN	NNP	_	1	advcl	_	_
 8	Everardo	Everardo	PROPN	NNP	_	7	flat:name	_	_
 9	Oliveira	Oliveira	PROPN	NNP	_	7	flat:name	_	_
 10	Silva	Silva	PROPN	NNP	_	7	flat:name	_	SpaceAfter=No
@@ -8950,7 +8950,7 @@
 # text = Ronzulli yang mewakili Partai Kebebasan Rakyat pimpinan PM Italia Silvio Berlusconi mendapat sambutan meriah ketika berdiri untuk menyampaikan pidatonya.
 # text_en = Ronzulli, who represents Italian PM Silvio Berlusconi's People's Freedom Party, received a standing ovation when he stood up to deliver his speech.
 1	Ronzulli	ronzulli	PROPN	NNP	_	12	nsubj	_	_
-2	yang	yang	SCONJ	IN	_	3	mark	_	_
+2	yang	yang	PRON	IN	PronType=Rel	3	nsubj	_	_
 3	mewakili	wakil	VERB	VB	Voice=Act	1	acl:relcl	_	_
 4	Partai	Partai	PROPN	NNP	_	3	obj	_	_
 5	Kebebasan	Kebebasan	PROPN	NNP	_	4	flat:name	_	_
@@ -8977,9 +8977,9 @@
 # text_en = Of the tradable bonds, government bonds denominated in rupiah reached Rp438.823 trillion and government bonds denominated in US dollars reached Rp63.945 trillion at an exchange rate of Rp9,135, including the last issuance of RI0037 on February 14, 2007 worth 1.5 billion dollars. US.
 1	Dari	dari	ADP	IN	_	2	case	_	_
 2	obligasi	obligasi	NOUN	NN	Number=Sing	14	obl	_	_
-3	yang	yang	SCONJ	IN	_	5	mark	_	_
+3	yang	yang	PRON	IN	PronType=Rel	5	nsubj	_	_
 4	bisa	bisa	AUX	MD	_	5	aux	_	_
-5	diperdagangkan	dagang	VERB	VB	Voice=Pass	2	ccomp	_	_
+5	diperdagangkan	dagang	VERB	VB	Voice=Pass	2	acl:relcl	_	_
 6	itu	itu	DET	DT	PronType=Dem	2	det	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	2	punct	_	_
 8	obligasi	obligasi	NOUN	NN	Number=Sing	14	nsubj	_	_
@@ -9034,8 +9034,8 @@
 6	sekarang	sekarang	NOUN	NN	Number=Sing	0	root	_	_
 7	dalam	dalam	ADP	IN	_	8	case	_	_
 8	posisi	posisi	NOUN	NN	Number=Sing	6	nmod	_	_
-9	yang	yang	SCONJ	IN	_	10	mark	_	_
-10	kuat	kuat	ADJ	JJ	_	8	ccomp	_	_
+9	yang	yang	PRON	IN	PronType=Rel	10	nsubj	_	_
+10	kuat	kuat	ADJ	JJ	_	8	acl:relcl	_	_
 11	secara	cara	ADP	IN	_	12	case:adv	_	_
 12	finansial	finansial	ADJ	JJ	_	10	advcl	_	_
 13	dan	dan	CCONJ	CC	_	16	cc	_	_
@@ -9050,7 +9050,7 @@
 1	Restrukturisasi	restrukturisasi	NOUN	NN	Number=Sing	23	nsubj:pass	_	_
 2	kredit	kredit	NOUN	NN	Number=Sing	1	nmod	_	_
 3	bermasalah	masalah	VERB	VB	Voice=Act	2	ccomp	_	_
-4	yang	yang	SCONJ	IN	_	6	mark	_	_
+4	yang	yang	PRON	IN	PronType=Rel	6	nsubj:pass	_	_
 5	sedang	sedang	AUX	MD	_	6	aux	_	_
 6	dilakukan	laku	VERB	VB	Voice=Pass	1	acl:relcl	_	_
 7	terutama	utama	ADJ	JJ	Degree=Sup	6	ccomp	_	_
@@ -9061,13 +9061,13 @@
 12	bermasalah	masalah	VERB	VB	Voice=Act	10	acl:relcl	_	_
 13	yang	yang	SCONJ	IN	_	16	mark	_	_
 14-15	jumlahnya	_	_	_	_	_	_	_	_
-14	jumlah	jumlah	NOUN	NN	Number=Sing	16	obl	_	_
+14	jumlah	jumlah	NOUN	NN	Number=Sing	16	nsubj	_	_
 15	nya	nya	DET	DT	Definite=Def|PronType=Art	14	det	_	_
 16	besar	besar	ADJ	JJ	_	10	acl:relcl	_	_
 17	dan	dan	CCONJ	CC	_	18	cc	_	_
 18	ekspektasi	ekspektasi	NOUN	NN	Number=Sing	1	conj	_	_
 19	ekonomi	ekonomi	NOUN	NN	Number=Sing	18	nmod	_	_
-20	yang	yang	SCONJ	IN	_	22	mark	_	_
+20	yang	yang	PRON	IN	PronType=Rel	22	nsubj	_	_
 21	lebih	lebih	ADV	RB	_	22	advmod	_	_
 22	baik	baik	ADJ	JJ	_	18	acl:relcl	_	_
 23	diharapkan	harap	VERB	VB	Voice=Pass	0	root	_	_
@@ -9105,7 +9105,7 @@
 17	sembilan	sembilan	NUM	CD	_	18	nummod	_	_
 18	bulan	bulan	NOUN	NN	Number=Sing	12	nmod:tmod	_	_
 19	pertama	pertama	ADJ	JJ	_	18	amod	_	_
-20	yang	yang	SCONJ	IN	_	21	mark	_	_
+20	yang	yang	PRON	IN	PronType=Rel	21	nsubj	_	_
 21	berakhir	akhir	VERB	VB	Voice=Act	18	acl:relcl	_	_
 22	30	30	NUM	CD	_	23	nummod	_	_
 23	September	September	PROPN	NNP	_	21	obl:tmod	_	_
@@ -9124,8 +9124,8 @@
 36	miliar	miliar	NUM	CD	_	35	flat	_	_
 37	pada	pada	ADP	IN	_	38	case	_	_
 38	periode	periode	NOUN	NN	Number=Sing	34	nmod:tmod	_	_
-39	yang	yang	SCONJ	IN	_	40	mark	_	_
-40	sama	sama	ADJ	JJ	_	38	ccomp	_	_
+39	yang	yang	PRON	IN	PronType=Rel	40	nsubj	_	_
+40	sama	sama	ADJ	JJ	_	38	acl:relcl	_	_
 41	tahun	tahun	NOUN	NN	Number=Sing	38	nmod:tmod	_	_
 42	lalu	lalu	VERB	VB	Voice=Act	41	ccomp	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	11	punct	_	_
@@ -9141,8 +9141,8 @@
 6	panjang	panjang	ADJ	JJ	_	5	amod	_	_
 7	dan	dan	CCONJ	CC	_	13	cc	_	_
 8	pelatih	latih	NOUN	NN	Number=Sing	13	nsubj	_	_
-9	yang	yang	SCONJ	IN	_	10	mark	_	_
-10	mengawasi	awas	VERB	VB	Voice=Act	8	ccomp	_	_
+9	yang	yang	PRON	IN	PronType=Rel	10	nsubj	_	_
+10	mengawasi	awas	VERB	VB	Voice=Act	8	acl:relcl	_	_
 11	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	10	obj	_	_
 12	akan	akan	AUX	MD	_	13	aux	_	_
 13	melepas	lepas	VERB	VB	Voice=Act	3	conj	_	_
@@ -9186,7 +9186,7 @@
 2-3	kampanyenya	_	_	_	_	_	_	_	_
 2	kampanye	kampanye	NOUN	NN	Number=Sing	1	nmod	_	_
 3	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
-4	yang	yang	SCONJ	IN	_	5	mark	_	_
+4	yang	yang	PRON	IN	PronType=Rel	5	nsubj	_	_
 5	kocak	kocak	ADJ	JJ	_	1	acl:relcl	_	_
 6	berhasil	hasil	VERB	VB	Voice=Act	0	root	_	_
 7	meraih	raih	VERB	VB	Voice=Act	6	ccomp	_	_
@@ -9316,8 +9316,8 @@
 4	tidak	tidak	PART	RP	Polarity=Neg	5	advmod	_	_
 5	mendapat	dapat	VERB	VB	Voice=Act	0	root	_	_
 6	ruang	ruang	NOUN	NN	Number=Sing	5	obj	_	_
-7	yang	yang	SCONJ	IN	_	8	mark	_	_
-8	sepatutnya	sepatutnya	ADV	RB	_	6	ccomp	_	_
+7	yang	yang	PRON	IN	PronType=Rel	8	nsubj	_	_
+8	sepatutnya	sepatutnya	ADJ	JJ	_	6	acl:relcl	_	_
 9	di	di	ADP	IN	_	10	case	_	_
 10	internet	internet	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
@@ -9372,10 +9372,10 @@
 14	terus	terus	ADV	RB	_	15	advmod	_	_
 15	menjalankan	jalan	VERB	VB	Voice=Act	10	conj	_	_
 16	kebijakan	bijak	NOUN	NN	Number=Sing	15	obj	_	_
-17	yang	yang	SCONJ	IN	_	20	mark	_	_
-18	sound	sound	X	FW	Foreign=Yes	20	obl	_	_
+17	yang	yang	PRON	IN	PronType=Rel	20	nsubj	_	_
+18	sound	sound	X	FW	Foreign=Yes	16	acl:relcl	_	_
 19	(	(	PUNCT	-LRB-	_	20	punct	_	SpaceAfter=No
-20	tepat	tepat	ADJ	JJ	_	16	ccomp	_	SpaceAfter=No
+20	tepat	tepat	ADJ	JJ	_	18	appos	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	20	punct	_	_
 22	red	red	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
 23	)	)	PUNCT	-RRB-	_	20	punct	_	_
@@ -9383,7 +9383,7 @@
 25	tercipta	cipta	VERB	VB	Voice=Pass	15	advcl	_	_
 26	konsistensi	konsistensi	NOUN	NN	Number=Sing	25	obl	_	_
 27	kebijakan	bijak	NOUN	NN	Number=Sing	26	nmod	_	_
-28	yang	yang	SCONJ	IN	_	29	mark	_	_
+28	yang	yang	PRON	IN	PronType=Rel	29	nsubj	_	_
 29	memberikan	beri	VERB	VB	Voice=Act	26	acl:relcl	_	_
 30	keyakinan	yakin	NOUN	NN	Number=Sing	29	obj	_	_
 31	kepada	kepada	ADP	IN	_	32	case	_	_
@@ -9428,7 +9428,7 @@
 33	Kredit	Kredit	NOUN	NN	Number=Sing	32	nmod	_	_
 34	Kendaraan	Kendaraan	NOUN	NN	Number=Sing	33	nmod	_	_
 35	Bermotor	Bermotor	VERB	VB	Voice=Act	34	acl:relcl	_	_
-36	yang	yang	SCONJ	IN	_	37	mark	_	_
+36	yang	yang	PRON	IN	PronType=Rel	37	nsubj	_	_
 37	turun	turun	VERB	VB	Voice=Act	32	acl:relcl	_	_
 38	40,9	40,9	NUM	CD	_	39	nummod	_	_
 39	persen	persen	NOUN	NN	Number=Sing	37	obj	_	_
@@ -9491,7 +9491,7 @@
 8	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	7	nmod	_	_
 9	ekonomi	ekonomi	NOUN	NN	Number=Sing	8	nmod	_	_
 10	Asia	Asia	PROPN	NNP	_	8	nmod	_	_
-11	yang	yang	SCONJ	IN	_	13	mark	_	_
+11	yang	yang	PRON	IN	PronType=Rel	13	nsubj	_	_
 12	tetap	tetap	ADV	RB	_	13	advmod	_	_
 13	kondusif	kondusif	ADJ	JJ	_	7	acl:relcl	_	_
 14	dalam	dalam	ADP	IN	_	15	case	_	_
@@ -9519,7 +9519,7 @@
 3	(	(	PUNCT	-LRB-	_	4	punct	_	SpaceAfter=No
 4	BES	BES	PROPN	NNP	_	2	nmod	_	SpaceAfter=No
 5	)	)	PUNCT	-RRB-	_	4	punct	_	_
-6	yang	yang	SCONJ	IN	_	8	mark	_	_
+6	yang	yang	PRON	IN	PronType=Rel	8	nsubj:pass	_	_
 7	akan	akan	AUX	MD	_	8	aux	_	_
 8	dilelang	dilelang	VERB	VB	Voice=Pass	2	acl:relcl	_	_
 9	tersebut	sebut	DET	DT	_	2	det	_	_
@@ -9629,10 +9629,10 @@
 34	mempunyai	mempunyai	VERB	VB	Voice=Act	17	parataxis	_	_
 35	multiplier	multiplier	X	FW	Foreign=Yes	34	obj	_	_
 36	effect	effect	X	FW	Foreign=Yes	35	flat:foreign	_	_
-37	yang	yang	PRON	PRP	PronType=Rel	35	nmod	_	_
-38	besar	besar	ADJ	JJ	_	37	amod	_	_
+37	yang	yang	PRON	PRP	PronType=Rel	38	nsubj	_	_
+38	besar	besar	ADJ	JJ	_	35	acl:relcl	_	_
 39	atau	atau	CCONJ	CC	_	40	cc	_	_
-40	tidak	tidak	PART	RP	Polarity=Neg	34	conj	_	SpaceAfter=No
+40	tidak	tidak	PART	RP	Polarity=Neg	38	conj	_	SpaceAfter=No
 41	,	,	PUNCT	,	_	45	punct	_	_
 42	serta	serta	CCONJ	CC	_	45	cc	_	_
 43-44	apakah	_	_	_	_	_	_	_	_
@@ -9953,7 +9953,7 @@
 6	melihat	lihat	VERB	VB	Voice=Act	0	root	_	_
 7	banyak	banyak	DET	DT	Number=Plur|PronType=Ind	8	det	_	_
 8	hal	hal	NOUN	NN	Number=Sing	6	obj	_	_
-9	yang	yang	SCONJ	IN	_	11	mark	_	_
+9	yang	yang	PRON	IN	PronType=Rel	11	nsubj	_	_
 10	bisa	bisa	AUX	MD	_	11	aux	_	_
 11	dilakukan	laku	VERB	VB	Voice=Pass	8	acl:relcl	_	_
 12	oleh	oleh	ADP	IN	_	13	case	_	_
@@ -9962,14 +9962,14 @@
 15	dalam	dalam	SCONJ	IN	_	16	mark	_	_
 16	mengisi	isi	VERB	VB	Voice=Act	11	advcl	_	_
 17	peluang	peluang	NOUN	NN	Number=Sing	16	obj	_	_
-18	yang	yang	SCONJ	IN	_	19	mark	_	_
-19	ada	ada	VERB	VB	Voice=Act	17	ccomp	_	_
+18	yang	yang	PRON	IN	PronType=Rel	19	nsubj	_	_
+19	ada	ada	VERB	VB	Voice=Act	17	acl:relcl	_	_
 20	dalam	dalam	ADP	IN	_	21	case	_	_
 21	upaya	upaya	NOUN	NN	Number=Sing	11	obl	_	_
-22	membantu	bantu	VERB	VB	Voice=Act	21	ccomp	_	_
+22	membantu	bantu	VERB	VB	Voice=Act	21	advcl	_	_
 23	pengusaha	usaha	NOUN	NN	Number=Sing	22	obj	_	_
 24	Indonesia	Indonesia	PROPN	NNP	_	23	nmod	_	_
-25	yang	yang	SCONJ	IN	_	27	mark	_	_
+25	yang	yang	PRON	IN	PronType=Rel	27	nsubj	_	_
 26	akan	akan	AUX	MD	_	27	aux	_	_
 27	mengembangkan	kembang	VERB	VB	Voice=Act	23	acl:relcl	_	_
 28-29	sayapnya	_	_	_	_	_	_	_	_
@@ -10020,7 +10020,7 @@
 19	tidak	tidak	PART	RP	Polarity=Neg	21	advmod	_	_
 20	bisa	bisa	AUX	MD	_	21	aux	_	_
 21	memotret	potret	VERB	VB	Voice=Act	9	acl	_	_
-22	yang	yang	SCONJ	IN	_	23	mark	_	_
+22	yang	yang	PRON	IN	PronType=Rel	23	nsubj	_	_
 23	lalu	lalu	VERB	VB	Voice=Act	21	advcl	_	_
 24	dan	dan	CCONJ	CC	_	25	cc	_	_
 25	yakin	yakin	ADJ	JJ	_	21	conj	_	_
@@ -10081,7 +10081,7 @@
 17	sebesar	sebesar	NOUN	NN	Number=Sing	6	advcl	_	_
 18	bulan	bulan	NOUN	NN	Number=Sing	17	nmod	_	_
 19	Juni	Juni	PROPN	NNP	_	18	nmod:tmod	_	_
-20	yang	yang	SCONJ	IN	_	21	mark	_	_
+20	yang	yang	PRON	IN	PronType=Rel	21	nsubj	_	_
 21	mencapai	capai	VERB	VB	Voice=Act	18	acl:relcl	_	_
 22	Rp	Rp	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
 23	36	36	NUM	CD	_	22	nummod	_	_
@@ -10117,8 +10117,8 @@
 24	termasuk	masuk	VERB	VB	Voice=Pass	21	advcl	_	_
 25	dalam	dalam	ADP	IN	_	26	case	_	_
 26	buku	buku	NOUN	NN	Number=Sing	24	obl	_	_
-27	yang	yang	SCONJ	IN	_	28	mark	_	_
-28	diterbitkan	terbit	VERB	VB	Voice=Pass	26	ccomp	_	SpaceAfter=No
+27	yang	yang	PRON	IN	PronType=Rel	28	nsubj:pass	_	_
+28	diterbitkan	terbit	VERB	VB	Voice=Pass	26	acl:relcl	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = csui-test-320
@@ -10126,7 +10126,7 @@
 # text_en = According to Agus Wartowardoyo, the loan funds obtained from Bank Mandiri for the four new factories only reached 70 percent of the required funds, while the remaining 30 percent came from PKG internally.
 1	Dana	dana	NOUN	NN	Number=Sing	17	nsubj	_	_
 2	pinjaman	pinjam	NOUN	NN	Number=Sing	1	nmod	_	_
-3	yang	yang	SCONJ	IN	_	4	mark	_	_
+3	yang	yang	PRON	IN	PronType=Rel	4	nsubj	_	_
 4	diperoleh	diperoleh	VERB	VB	Voice=Pass	1	acl:relcl	_	_
 5	dari	dari	ADP	IN	_	6	case	_	_
 6	Bank	Bank	PROPN	NNP	_	4	obl	_	_
@@ -10145,7 +10145,7 @@
 19	persen	persen	NOUN	NN	Number=Sing	17	obj	_	_
 20	kebutuhan	butuh	NOUN	NN	Number=Sing	19	nmod	_	_
 21	dana	dana	NOUN	NN	Number=Sing	20	nmod	_	_
-22	yang	yang	SCONJ	IN	_	23	mark	_	_
+22	yang	yang	PRON	IN	PronType=Rel	23	nsubj:pass	_	_
 23	diperlukan	perlu	VERB	VB	Voice=Pass	20	acl:relcl	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	17	punct	_	_
 25	sedangkan	sedangkan	CCONJ	CC	_	29	cc	_	_
@@ -10245,8 +10245,8 @@
 10	dengan	dengan	SCONJ	IN	_	11	mark	_	_
 11	jatuh	jatuh	VERB	VB	Voice=Act	9	ccomp	_	_
 12	tempo	tempo	NOUN	NN	Number=Sing	11	obj	_	_
-13	yang	yang	SCONJ	IN	_	14	mark	_	_
-14	berbeda-beda	beda	VERB	VB	Voice=Act	11	advcl	_	SpaceAfter=No
+13	yang	yang	PRON	IN	PronType=Rel	14	nsubj	_	_
+14	berbeda-beda	beda	VERB	VB	Voice=Act	11	acl:relcl	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = csui-test-324
@@ -10421,8 +10421,8 @@
 25	melemah	lemah	VERB	VB	Voice=Act	23	ccomp	_	_
 26	dalam	dalam	ADP	IN	_	27	case	_	_
 27	waktu	waktu	NOUN	NN	Number=Sing	22	obl	_	_
-28	yang	yang	SCONJ	IN	_	29	mark	_	_
-29	cepat	cepat	ADJ	JJ	_	27	ccomp	_	_
+28	yang	yang	PRON	IN	PronType=Rel	29	nsubj	_	_
+29	cepat	cepat	ADJ	JJ	_	27	acl:relcl	_	_
 30	pula	pula	ADV	RB	_	22	advmod	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -10430,8 +10430,8 @@
 # text = Dampak yang dirasakan dapat dilihat pada koreksi harga saham dan nilai tukar uang yang cukup tajam di seluruh dunia termasuk Indonesia.
 # text_en = The impact felt can be seen in the sharp correction of stock prices and currency exchange rates throughout the world, including Indonesia.
 1	Dampak	dampak	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
-2	yang	yang	SCONJ	IN	_	3	mark	_	_
-3	dirasakan	rasa	VERB	VB	Voice=Pass	1	ccomp	_	_
+2	yang	yang	PRON	IN	PronType=Rel	3	nsubj	_	_
+3	dirasakan	rasa	VERB	VB	Voice=Pass	1	acl:relcl	_	_
 4	dapat	dapat	AUX	MD	_	5	aux	_	_
 5	dilihat	lihat	VERB	VB	Voice=Pass	0	root	_	_
 6	pada	pada	ADP	IN	_	7	case	_	_
@@ -10442,7 +10442,7 @@
 11	nilai	nilai	NOUN	NN	Number=Sing	8	conj	_	_
 12	tukar	tukar	NOUN	NN	Number=Sing	11	nmod	_	_
 13	uang	uang	NOUN	NN	Number=Sing	11	nmod	_	_
-14	yang	yang	SCONJ	IN	_	16	mark	_	_
+14	yang	yang	PRON	IN	PronType=Rel	16	nsubj	_	_
 15	cukup	cukup	ADV	RB	_	16	advmod	_	_
 16	tajam	tajam	ADJ	JJ	_	7	acl:relcl	_	_
 17	di	di	ADP	IN	_	19	case	_	_
@@ -10471,7 +10471,7 @@
 14	Rabu	Rabu	PROPN	NNP	_	12	obl:tmod	_	_
 15	pukul	pukul	NOUN	NN	Number=Sing	14	nmod	_	_
 16	17.00	17.00	NUM	CD	_	14	nummod	_	_
-17	yang	yang	SCONJ	IN	_	18	mark	_	_
+17	yang	yang	PRON	IN	PronType=Rel	18	nsubj:pass	_	_
 18	dikutip	kutip	VERB	VB	Voice=Pass	14	acl:relcl	_	_
 19	pada	pada	ADP	IN	_	23	case	_	_
 20	119,58	119,58	NUM	CD	_	23	nummod	_	SpaceAfter=No
@@ -10575,7 +10575,7 @@
 8	akan	akan	AUX	MD	_	10	aux	_	_
 9	segera	segera	ADV	RB	_	10	advmod	_	_
 10	hilang	hilang	VERB	VB	Voice=Act	3	ccomp	_	_
-11	yang	yang	SCONJ	IN	_	12	mark	_	_
+11	yang	yang	PRON	IN	PronType=Rel	12	nsubj:pass	_	_
 12	terkonfirmasi	terkonfirmasi	VERB	VB	Voice=Pass	10	advcl	_	_
 13	dari	dari	ADP	IN	_	14	case	_	_
 14	harga	harga	NOUN	NN	Number=Sing	12	obl	_	_
@@ -10638,7 +10638,7 @@
 4	pendapatan	dapat	NOUN	NN	Number=Sing	10	nsubj	_	_
 5	bukan	bukan	PART	RP	Polarity=Neg	4	advmod	_	_
 6	bunga	bunga	NOUN	NN	Number=Sing	4	nmod	_	_
-7	yang	yang	SCONJ	IN	_	9	mark	_	_
+7	yang	yang	PRON	IN	PronType=Rel	9	nsubj	_	_
 8	lebih	lebih	ADV	RB	_	9	advmod	_	_
 9	tinggi	tinggi	ADJ	JJ	_	4	acl:relcl	_	_
 10	berasal	asal	VERB	VB	Voice=Act	0	root	_	_
@@ -10703,7 +10703,7 @@
 5	dari	dari	SCONJ	IN	_	4	fixed	_	_
 6	500	500	NUM	CD	_	0	root	_	_
 7	juta	juta	NUM	CD	_	6	flat	_	_
-8	yang	yang	SCONJ	IN	_	9	mark	_	_
+8	yang	yang	PRON	IN	PronType=Rel	9	nsubj:pass	_	_
 9	terdaftar	terdaftar	VERB	VB	Voice=Pass	6	acl:relcl	_	_
 10	dalam	dalam	ADP	IN	_	11	case	_	_
 11	situs	situs	NOUN	NN	Number=Sing	9	obl	_	_
@@ -10736,7 +10736,7 @@
 19	263,38	263,38	NUM	CD	_	18	nummod	_	_
 20	triliun	triliun	NUM	CD	_	19	flat	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	13	punct	_	_
-22	yang	yang	SCONJ	IN	_	23	mark	_	_
+22	yang	yang	PRON	IN	PronType=Rel	23	nsubj:pass	_	_
 23	terdiri	terdiri	VERB	VB	Voice=Pass	13	acl:relcl	_	_
 24	atas	atas	ADP	IN	_	25	case	_	_
 25	Rp	Rp	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
@@ -10782,7 +10782,7 @@
 17	Program	Program	NOUN	NN	Number=Sing	16	obj	_	_
 18	Reformasi	Reformasi	NOUN	NN	Number=Sing	17	nmod	_	_
 19	Birokrasi	Birokrasi	NOUN	NN	Number=Sing	17	nmod	_	_
-20	yang	yang	SCONJ	IN	_	21	mark	_	_
+20	yang	yang	PRON	IN	PronType=Rel	21	nsubj	_	_
 21	bertujuan	tuju	VERB	VB	Voice=Act	17	acl:relcl	_	_
 22	untuk	untuk	SCONJ	IN	_	23	mark	_	_
 23	mendorong	dorong	VERB	VB	Voice=Act	21	advcl	_	_
@@ -10860,7 +10860,7 @@
 4	tumbuh	tumbuh	VERB	VB	Voice=Act	0	root	_	_
 5	8,9	8,9	NUM	CD	_	6	nummod	_	_
 6	persen	persen	NOUN	NN	Number=Sing	4	obj	_	_
-7	yang	yang	SCONJ	IN	_	8	mark	_	_
+7	yang	yang	PRON	IN	PronType=Rel	8	nsubj	_	_
 8	terdiri	terdiri	VERB	VB	Voice=Pass	6	acl:relcl	_	_
 9	atas	atas	ADP	IN	_	11	case	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	_	_
@@ -10959,8 +10959,8 @@
 37	kembali	kembali	ADV	RB	_	38	advmod	_	_
 38	menjadi	jadi	VERB	VB	Voice=Act	32	advcl	_	_
 39	perusahaan	usaha	NOUN	NN	Number=Sing	38	obj	_	_
-40	yang	yang	SCONJ	IN	_	41	mark	_	_
-41	sehat	sehat	ADJ	JJ	_	39	ccomp	_	SpaceAfter=No
+40	yang	yang	PRON	IN	PronType=Rel	41	nsubj	_	_
+41	sehat	sehat	ADJ	JJ	_	39	acl:relcl	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = csui-test-351
@@ -10989,8 +10989,8 @@
 # text = Iklan yang muncul di koran terbitan Wellington, Selandia Baru menyebutkan Wingnut Films mencari pria dengan tinggi badan antara 123 cm dan maksimum 158 cm.
 # text_en = An ad that appeared in a newspaper published in Wellington, New Zealand said Wingnut Films was looking for a man with a height between 123 cm and a maximum of 158 cm.
 1	Iklan	iklan	NOUN	NN	Number=Sing	11	nsubj	_	_
-2	yang	yang	SCONJ	IN	_	3	mark	_	_
-3	muncul	muncul	VERB	VB	Voice=Act	1	ccomp	_	_
+2	yang	yang	PRON	IN	PronType=Rel	3	nsubj	_	_
+3	muncul	muncul	VERB	VB	Voice=Act	1	acl:relcl	_	_
 4	di	di	ADP	IN	_	5	case	_	_
 5	koran	koran	NOUN	NN	Number=Sing	3	obl	_	_
 6	terbitan	terbit	NOUN	NN	Number=Sing	5	nmod	_	_
@@ -11087,17 +11087,17 @@
 16	.	.	PUNCT	.	_	4	punct	_	_
 17	Jadi	Jadi	SCONJ	IN	_	25	mark	_	_
 18	panutan	panutan	NOUN	NN	Number=Sing	25	nsubj	_	_
-19	yang	yang	SCONJ	IN	_	20	mark	_	_
-20	negatif	negatif	ADJ	JJ	_	18	ccomp	_	SpaceAfter=No
+19	yang	yang	PRON	IN	PronType=Rel	20	nsubj	_	_
+20	negatif	negatif	ADJ	JJ	_	18	acl:relcl	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	18	punct	_	_
 22	termasuk	masuk	VERB	VB	Voice=Pass	18	acl:relcl	_	_
 23	olahragawan	olahragawan	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	18	punct	_	_
 25	memiliki	milik	VERB	VB	Voice=Act	4	parataxis	_	_
 26	efek	efek	NOUN	NN	Number=Sing	25	obj	_	_
-27	yang	yang	SCONJ	IN	_	29	mark	_	_
+27	yang	yang	PRON	IN	PronType=Rel	29	nsubj	_	_
 28	kurang	kurang	ADV	RB	_	29	advmod	_	_
-29	baik	baik	ADJ	JJ	_	26	ccomp	_	SpaceAfter=No
+29	baik	baik	ADJ	JJ	_	26	acl:relcl	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
 31	"	"	PUNCT	''	_	4	punct	_	_
 
@@ -11141,21 +11141,21 @@
 7	Tidak	Tidak	ADV	RB	_	10	advmod	_	_
 8	bisa	bisa	AUX	MD	_	10	aux	_	_
 9	lebih	lebih	ADV	RB	_	10	advmod	_	_
-10	buruk	buruk	ADJ	JJ	_	5	acl:relcl	_	_
+10	buruk	buruk	ADJ	JJ	_	5	acl	_	_
 11	lagi	lagi	ADV	RB	_	10	advmod	_	SpaceAfter=No
 12	"	"	PUNCT	''	_	10	punct	_	_
-13	dan	dan	CCONJ	CC	_	24	cc	_	_
-14	"	"	PUNCT	``	_	24	punct	_	SpaceAfter=No
-15	Apa	Apa	PRON	WP	_	17	obl	_	_
-16	yang	yang	SCONJ	IN	_	17	mark	_	_
-17	dilakukan	laku	VERB	VB	Voice=Pass	24	advcl	_	_
-18	wakil	wakil	NOUN	NN	Number=Sing	17	obl	_	_
-19	anda	anda	PRON	PRP	Number=Sing|Person=2|Polite=Form|PronType=Prs	18	nmod	_	SpaceAfter=No
+13	dan	dan	CCONJ	CC	_	15	cc	_	_
+14	"	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+15	Apa	Apa	PRON	WP	_	10	conj	_	_
+16	yang	yang	PRON	IN	PronType=Rel	17	nsubj:pass	_	_
+17	dilakukan	laku	VERB	VB	Voice=Pass	15	acl:relcl	_	_
+18	wakil	wakil	NOUN	NN	Number=Sing	17	obl:agent	_	_
+19	anda	anda	PRON	PRP	Number=Sing|Person=2|Polite=Form|PronType=Prs	18	nmod:poss	_	SpaceAfter=No
 20	?	?	PUNCT	.	_	17	punct	_	_
 21	Sungguh	Sungguh	ADV	RB	_	24	advmod	_	_
 22	saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
 23	tidak	tidak	PART	RP	Polarity=Neg	24	advmod	_	_
-24	tahu	tahu	VERB	VB	Voice=Act	10	conj	_	SpaceAfter=No
+24	tahu	tahu	VERB	VB	Voice=Act	10	parataxis	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	24	punct	_	_
 26	Tapi	Tapi	CCONJ	CC	_	33	cc	_	_
 27-28	pilihlah	_	_	_	_	_	_	_	_
@@ -11201,7 +11201,7 @@
 7	nya	nya	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 8	ekspansi	ekspansi	NOUN	NN	Number=Sing	6	nsubj	_	_
 9	perusahaan	usaha	NOUN	NN	Number=Sing	8	nmod	_	_
-10	yang	yang	SCONJ	IN	_	12	mark	_	_
+10	yang	yang	PRON	IN	PronType=Rel	12	nsubj	_	_
 11	akan	akan	AUX	MD	_	12	aux	_	_
 12	mengarah	arah	VERB	VB	Voice=Act	8	acl:relcl	_	_
 13	pada	pada	SCONJ	IN	_	14	mark	_	_
@@ -11226,7 +11226,7 @@
 30	persaingan	saing	NOUN	NN	Number=Sing	26	conj	_	_
 31	di	di	ADP	IN	_	32	case	_	_
 32	industri	industri	NOUN	NN	Number=Sing	30	nmod	_	_
-33	yang	yang	SCONJ	IN	_	35	mark	_	_
+33	yang	yang	PRON	IN	PronType=Rel	35	nsubj	_	_
 34	makin	makin	ADV	RB	_	35	advmod	_	_
 35	ketat	ketat	ADJ	JJ	_	30	acl:relcl	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	4	punct	_	_
@@ -11341,7 +11341,7 @@
 11	4,9	4,9	NUM	CD	_	12	nummod	_	_
 12	persen	persen	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	_	_
-14	yang	yang	SCONJ	IN	_	15	mark	_	_
+14	yang	yang	PRON	IN	PronType=Rel	15	nsubj:pass	_	_
 15	terdiri	terdiri	VERB	VB	Voice=Pass	12	acl:relcl	_	_
 16	atas	atas	ADP	IN	_	17	case	_	_
 17	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	15	obl	_	_
@@ -11431,9 +11431,9 @@
 25	kembali	kembali	VERB	VB	Voice=Act	2	conj	_	_
 26	ke	ke	ADP	IN	_	27	case	_	_
 27	level	level	NOUN	NN	Number=Sing	25	obl	_	_
-28	yang	yang	SCONJ	IN	_	30	mark	_	_
+28	yang	yang	PRON	IN	PronType=Rel	30	nsubj	_	_
 29	cukup	cukup	ADV	RB	_	30	advmod	_	_
-30	baik	baik	ADJ	JJ	_	27	ccomp	_	SpaceAfter=No
+30	baik	baik	ADJ	JJ	_	27	acl:relcl	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = csui-test-365
@@ -11538,30 +11538,30 @@
 4	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	3	obj	_	_
 5	9,4	9,4	NUM	CD	_	6	nummod	_	_
 6	persen	persen	NOUN	NN	Number=Sing	4	nmod	_	_
-7	non-migas	non-migas	ADJ	JJ	_	6	acl:relcl	_	_
+7	non-migas	non-migas	NOUN	NN	_	3	conj	_	_
 8	22	22	NUM	CD	_	9	nummod	_	_
-9	persen	persen	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+9	persen	persen	NOUN	NN	Number=Sing	7	orphan	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	7	punct	_	_
-11	migas	migas	NOUN	NN	Number=Sing	7	appos	_	_
+11	migas	migas	NOUN	NN	Number=Sing	3	conj	_	_
 12	7	7	NUM	CD	_	13	nummod	_	_
-13	persen	persen	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	,	_	19	punct	_	_
-15	dan	dan	CCONJ	CC	_	19	cc	_	_
-16	sisi	sisi	NOUN	NN	Number=Sing	19	obl	_	_
+13	persen	persen	NOUN	NN	Number=Sing	11	orphan	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	dan	dan	CCONJ	CC	_	16	cc	_	_
+16	sisi	sisi	NOUN	NN	Number=Sing	3	conj	_	_
 17	impor	impor	NOUN	NN	Number=Sing	16	nmod	_	_
-18	yang	yang	SCONJ	IN	_	19	mark	_	_
-19	tumbuh	tumbuh	VERB	VB	Voice=Act	3	conj	_	_
+18	yang	yang	PRON	IN	PronType=Rel	19	nsubj	_	_
+19	tumbuh	tumbuh	VERB	VB	Voice=Act	16	acl:relcl	_	_
 20	11,99	11,99	NUM	CD	_	21	nummod	_	_
-21	persen	persen	NOUN	NN	Number=Sing	19	obj	_	_
-22	barang	barang	NOUN	NN	Number=Sing	21	nmod	_	_
+21	persen	persen	NOUN	NN	Number=Sing	19	obl	_	_
+22	barang	barang	NOUN	NN	Number=Sing	3	conj	_	_
 23	modal	modal	NOUN	NN	Number=Sing	22	nmod	_	_
 24	40	40	NUM	CD	_	25	nummod	_	_
-25	persen	persen	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+25	persen	persen	NOUN	NN	Number=Sing	22	orphan	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	22	punct	_	_
-27	barang	barang	NOUN	NN	Number=Sing	22	appos	_	_
+27	barang	barang	NOUN	NN	Number=Sing	3	conj	_	_
 28	konsumsi	konsumsi	NOUN	NN	Number=Sing	27	nmod	_	_
 29	2	2	NUM	CD	_	30	nummod	_	_
-30	persen	persen	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
+30	persen	persen	NOUN	NN	Number=Sing	27	orphan	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = csui-test-370
@@ -11665,24 +11665,24 @@
 # text_en = Panin's non-performing loan ratio increased to 9.3 percent at the end of 2005 which was partly due to the implementation of stricter credit classification regulations and also due to unfavorable macroeconomic conditions including rising fuel prices and subsequently rising interest rates since 2005.
 1	Rasio	rasio	NOUN	NN	Number=Sing	5	nsubj	_	_
 2	kredit	kredit	NOUN	NN	Number=Sing	1	nmod	_	_
-3	bermasalah	masalah	VERB	VB	Voice=Act	2	ccomp	_	_
+3	bermasalah	masalah	VERB	VB	Voice=Act	2	acl	_	_
 4	Panin	Panin	PROPN	NNP	_	1	nmod	_	_
 5	meningkat	tingkat	VERB	VB	Voice=Act	0	root	_	_
 6	ke	ke	ADP	IN	_	8	case	_	_
 7	9,3	9,3	NUM	CD	_	8	nummod	_	_
 8	persen	persen	NOUN	NN	Number=Sing	5	obl	_	_
 9	di	di	ADP	IN	_	11	case	_	_
-10	akhir	akhir	NOUN	NN	Number=Sing	11	nummod	_	_
-11	2005	2005	NUM	CD	_	5	obl	_	_
-12	yang	yang	SCONJ	IN	_	13	mark	_	_
-13	sebagian	sebagian	NOUN	NN	Number=Sing	5	advcl	_	_
-14	disebabkan	sebab	VERB	VB	Voice=Pass	13	acl:relcl	_	_
+10	akhir	akhir	NOUN	NN	Number=Sing	11	nmod:lmod	_	_
+11	2005	2005	NUM	CD	_	5	obl:tmod	_	_
+12	yang	yang	SCONJ	IN	_	14	mark	_	_
+13	sebagian	sebagian	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	disebabkan	sebab	VERB	VB	Voice=Pass	5	acl:relcl	_	_
 15	oleh	oleh	ADP	IN	_	16	case	_	_
-16	implementasi	implementasi	NOUN	NN	Number=Sing	13	advcl	_	_
+16	implementasi	implementasi	NOUN	NN	Number=Sing	14	advcl	_	_
 17	regulasi	regulasi	NOUN	NN	Number=Sing	16	nmod	_	_
 18	penggolongan	golong	NOUN	NN	Number=Sing	17	nmod	_	_
 19	kredit	kredit	NOUN	NN	Number=Sing	17	nmod	_	_
-20	yang	yang	SCONJ	IN	_	22	mark	_	_
+20	yang	yang	PRON	IN	PronType=Rel	22	nsubj	_	_
 21	lebih	lebih	ADV	RB	_	22	advmod	_	_
 22	ketat	ketat	ADJ	JJ	_	17	acl:relcl	_	_
 23	dan	dan	CCONJ	CC	_	26	cc	_	_
@@ -11690,7 +11690,7 @@
 25	karena	karena	ADP	IN	_	26	case	_	_
 26	kondisi	kondisi	NOUN	NN	Number=Sing	16	nmod	_	_
 27	makroekonomi	makroekonomi	NOUN	NN	Number=Sing	26	nmod	_	_
-28	yang	yang	SCONJ	IN	_	30	mark	_	_
+28	yang	yang	PRON	IN	PronType=Rel	30	nsubj	_	_
 29	kurang	kurang	ADV	RB	_	30	advmod	_	_
 30	menguntungkan	untung	VERB	VB	Voice=Act	26	acl:relcl	_	_
 31	termasuk	masuk	VERB	VB	Voice=Pass	26	acl:relcl	_	_
@@ -11703,7 +11703,7 @@
 38	tingkat	tingkat	NOUN	NN	Number=Sing	32	nmod	_	_
 39	suku	suku	NOUN	NN	Number=Sing	38	nmod	_	_
 40	bunga	bunga	NOUN	NN	Number=Sing	38	nmod	_	_
-41	yang	yang	SCONJ	IN	_	42	mark	_	_
+41	yang	yang	PRON	IN	PronType=Rel	42	nsubj	_	_
 42	meningkat	tingkat	VERB	VB	Voice=Act	38	acl:relcl	_	_
 43	sejak	sejak	ADP	IN	_	44	case	_	_
 44	2005	2005	NUM	CD	_	42	obl	_	SpaceAfter=No
