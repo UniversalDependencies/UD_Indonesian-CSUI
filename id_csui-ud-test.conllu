@@ -2303,7 +2303,7 @@
 24	empat	empat	NUM	CD	NumType=Card	25	nummod	_	_
 25	saham	saham	NOUN	NN	Number=Sing	22	obl	_	_
 26	dengan	dengan	ADP	IN	_	28	case	_	_
-27	masing-masing	masing-masing	DET	DT	_	28	det	_	_
+27	masing-masing	masing-masing	DET	DT	PronType=Tot	28	det	_	_
 28	saham	saham	NOUN	NN	Number=Sing	25	nmod	_	_
 29	senilai	nilai	NOUN	NN	Number=Sing	28	nmod	_	_
 30	1	1	NUM	CD	NumType=Card	32	nummod	_	_
@@ -6134,7 +6134,7 @@
 5	mendapat	dapat	VERB	VB	Voice=Act	0	root	_	_
 6	kupon	kupon	NOUN	NN	Number=Sing	5	obj	_	_
 7	untuk	untuk	SCONJ	IN	_	8	mark	_	_
-8	makan	makan	VERB	VB	Voice=Act	6	ccomp	_	_
+8	makan	makan	VERB	VB	Voice=Act	6	acl	_	_
 9	pangsit	pangsit	NOUN	NN	Number=Sing	8	obj	_	_
 10	kapan	kapan	ADV	WRB	_	13	advmod	_	_
 11	pun	pun	PART	RP	_	10	advmod:emph	_	_
@@ -6278,7 +6278,7 @@
 17	semester	semester	NOUN	NN	Number=Sing	13	nmod:tmod	_	_
 18	pertama	pertama	ADJ	JJ	NumType=Ord	17	amod	_	_
 19	tahun	tahun	NOUN	NN	Number=Sing	17	nmod:tmod	_	_
-20	lalu	lalu	VERB	VB	Voice=Act	19	ccomp	_	_
+20	lalu	lalu	VERB	VB	Voice=Act	19	acl	_	_
 21	menjadi	jadi	VERB	VB	Voice=Act	9	acl:relcl	_	_
 22	Rp	Rp	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
 23	552	552	NUM	CD	NumType=Card	22	nummod	_	_
@@ -6448,7 +6448,7 @@
 7	digolongkan	golong	VERB	VB	Voice=Pass	0	root	_	_
 8	sebagai	bagai	ADP	IN	_	9	case	_	_
 9	kredit	kredit	NOUN	NN	Number=Sing	7	obl	_	_
-10	bermasalah	masalah	VERB	VB	Voice=Act	9	ccomp	_	_
+10	bermasalah	masalah	VERB	VB	Voice=Act	9	acl	_	_
 11	komersial	komersial	ADJ	JJ	_	9	amod	_	_
 12	dan	dan	CCONJ	CC	_	13	cc	_	_
 13	konsumsi	konsumsi	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
@@ -6469,7 +6469,7 @@
 27	dengan	dengan	SCONJ	IN	_	35	mark	_	_
 28	rasio	rasio	NOUN	NN	Number=Sing	35	nsubj	_	_
 29	kredit	kredit	NOUN	NN	Number=Sing	28	nmod	_	_
-30	bermasalah	masalah	VERB	VB	Voice=Act	29	ccomp	_	_
+30	bermasalah	masalah	VERB	VB	Voice=Act	29	acl	_	_
 31	dari	dari	ADP	IN	_	33	case	_	_
 32	kedua	kedua	NUM	CD	NumType=Card	33	nummod	_	_
 33	segmen	segmen	NOUN	NN	Number=Sing	28	nmod	_	_
@@ -6500,7 +6500,7 @@
 5	mengalami	alam	VERB	VB	Voice=Act	0	root	_	_
 6	peningkatan	tingkat	NOUN	NN	Number=Sing	5	obj	_	_
 7	karena	karena	SCONJ	IN	_	8	mark	_	_
-8	didorong	dorong	VERB	VB	Voice=Pass	6	ccomp	_	_
+8	didorong	dorong	VERB	VB	Voice=Pass	6	acl	_	_
 9	oleh	oleh	ADP	IN	_	10	case	_	_
 10	harga	harga	NOUN	NN	Number=Sing	8	obl:agent	_	_
 11	jual	jual	VERB	VB	Voice=Act	10	acl:relcl	_	_
@@ -6660,7 +6660,7 @@
 4	The	The	PROPN	NNP	_	2	nmod	_	_
 5	Hobbit	Hobbit	PROPN	NNP	_	4	flat:name	_	_
 6	dijadwalkan	jadwal	VERB	VB	Voice=Pass	0	root	_	_
-7	berlangsung	langsung	VERB	VB	Voice=Act	6	ccomp	_	_
+7	berlangsung	langsung	VERB	VB	Voice=Act	6	xcomp	_	_
 8	hari	hari	NOUN	NN	Number=Sing	7	obl:tmod	_	_
 9	Minggu	Minggu	PROPN	NNP	_	8	nmod:tmod	_	_
 10	di	di	ADP	IN	_	11	case	_	_
@@ -7579,7 +7579,7 @@
 19	pusat	pusat	NOUN	NN	Number=Sing	18	nmod	_	_
 20	dan	dan	CCONJ	CC	_	21	cc	_	_
 21	daerah	daerah	NOUN	NN	Number=Sing	18	conj	_	_
-22	masing-masing	masing-masing	PRON	PRP	_	23	nmod	_	_
+22	masing-masing	masing-masing	DET	DT	PronType=Tot	23	det	_	_
 23	Rp	Rp	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
 24	504	504	NUM	CD	NumType=Card	23	nummod	_	_
 25	dan	dan	CCONJ	CC	_	26	cc	_	_
