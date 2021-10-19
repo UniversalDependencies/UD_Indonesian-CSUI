@@ -1129,8 +1129,8 @@
 15	situasi	situasi	NOUN	NN	Number=Sing	12	obl	_	_
 16	yang	yang	SCONJ	IN	_	17	mark	_	_
 17	khusus	khusus	ADJ	JJ	_	15	acl:relcl	_	_
-18	di	di	ADP	IN	_	19	case	_	_
-19	mana	mana	PRON	PRP	Number=Sing	20	obl	_	_
+18	di	di	ADP	IN	_	20	mark	_	MWEPOS=SCONJ
+19	mana	mana	PRON	PRP	PronType=Dem	18	fixed	_	_
 20	membutuhkan	butuh	VERB	VB	Voice=Act	15	acl:relcl	_	_
 21	belanja	belanja	NOUN	NN	Number=Sing	20	obj	_	_
 22	teknologi	teknologi	NOUN	NN	Number=Sing	21	nmod	_	_
@@ -2406,8 +2406,8 @@
 15	peningkatan	tingkat	NOUN	NN	Number=Sing	14	obj	_	_
 16	cukup	cukup	ADV	RB	_	17	advmod	_	_
 17	besar	besar	ADJ	JJ	_	15	amod	_	_
-18	di	di	ADP	IN	_	19	case	_	_
-19	mana	mana	PRON	PRP	Number=Sing	23	obl	_	_
+18	di	di	ADP	IN	_	23	mark	_	MWEPOS=SCONJ
+19	mana	mana	PRON	PRP	PronType=Dem	18	fixed	_	_
 20	PPh	PPh	PROPN	NNP	_	23	nsubj	_	SpaceAfter=No
 21	-	-	PUNCT	:	_	20	punct	_	SpaceAfter=No
 22	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	20	nmod:poss	_	_

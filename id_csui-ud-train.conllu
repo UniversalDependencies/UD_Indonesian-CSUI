@@ -191,7 +191,7 @@
 14	mengeluarkan	keluar	VERB	VB	Voice=Act	9	conj	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	18	punct	_	_
 16	dan	dan	CCONJ	CC	_	18	cc	_	_
-17	bagaimana	bagaimana	ADV	WRB	_	18	advmod	_	_
+17	bagaimana	bagaimana	ADV	WRB	PronType=Rel	18	advmod	_	_
 18-19	pengaruhnya	_	_	_	_	_	_	_	_
 18	pengaruh	pengaruh	NOUN	NN	Number=Sing	9	conj	_	_
 19	nya	nya	DET	DT	Definite=Def|PronType=Art	18	det	_	_
@@ -4831,8 +4831,8 @@
 14	modal	modal	NOUN	NN	Number=Sing	13	nmod	_	_
 15	Indonesia	Indonesia	PROPN	NNP	_	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	11	punct	_	_
-17	di	di	ADP	IN	_	18	case	_	_
-18	mana	mana	PRON	PRP	Number=Sing	27	obl	_	_
+17	di	di	ADP	IN	_	27	mark	_	MWEPOS=SCONJ
+18	mana	mana	PRON	PRP	PronType=Dem	17	fixed	_	_
 19	indeks	indeks	NOUN	NN	Number=Sing	27	nsubj	_	_
 20	Bursa	Bursa	PROPN	NNP	_	19	nmod	_	_
 21	Efek	Efek	PROPN	NNP	_	20	flat:name	_	_
@@ -6625,7 +6625,7 @@
 11	sama	sama	ADJ	JJ	_	10	advmod	_	_
 12	sekali	sekali	ADV	RB	_	11	fixed	_	_
 13	akan	akan	SCONJ	IN	_	17	mark	_	_
-14	siapa	siapa	PRON	WP	_	17	obl	_	_
+14	siapa	siapa	PRON	WP	PronType=Rel	17	obl	_	_
 15	yang	yang	SCONJ	IN	_	17	mark	_	_
 16	kira-kira	kira	ADV	RB	_	17	advmod	_	_
 17	melakukan	laku	VERB	VB	Voice=Act	10	advcl	_	_
@@ -6662,8 +6662,8 @@
 7	dengan	dengan	ADP	IN	_	8	case	_	_
 8	tahun	tahun	NOUN	NN	Number=Sing	6	obl:tmod	_	_
 9	lalu	lalu	VERB	VB	Voice=Act	8	ccomp	_	_
-10	di	di	ADP	IN	_	11	case	_	_
-11	mana	mana	PRON	PRP	Number=Sing	12	obl	_	_
+10	di	di	ADP	IN	_	12	mark	_	MWEPOS=SCONJ
+11	mana	mana	PRON	PRP	PronType=Dem	10	fixed	_	_
 12	terdapat	dapat	VERB	VB	Voice=Pass	8	acl:relcl	_	_
 13	penyisihan	sisih	NOUN	NN	Number=Sing	12	obl	_	_
 14	piutang	piutang	NOUN	NN	Number=Sing	13	nmod	_	_
@@ -10320,8 +10320,8 @@
 16	setelah	setelah	ADP	IN	_	17	case	_	_
 17	panen	panen	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	17	punct	_	_
-19	di	di	ADP	IN	_	20	case	_	_
-20	mana	mana	PRON	PRP	Number=Sing	24	obl	_	_
+19	di	di	ADP	IN	_	24	mark	_	MWEPOS=SCONJ
+20	mana	mana	PRON	PRP	PronType=Dem	19	fixed	_	_
 21	satu	satu	NUM	CD	_	22	nummod	_	_
 22	kali	kali	NOUN	NN	Number=Sing	24	nsubj	_	_
 23	tanam	tanam	VERB	VB	Voice=Act	22	acl:relcl	_	_
@@ -12807,7 +12807,7 @@
 2	Saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	4	nsubj	_	_
 3	belum	belum	PART	RP	Polarity=Neg	4	advmod	_	_
 4	tahu	tahu	VERB	VB	Voice=Act	0	root	_	_
-5	siapa	siapa	PRON	WP	_	8	obl	_	_
+5	siapa	siapa	PRON	WP	PronType=Rel	8	obl	_	_
 6	yang	yang	SCONJ	IN	_	8	mark	_	_
 7	akan	akan	AUX	MD	_	8	aux	_	_
 8	menggantikan	ganti	VERB	VB	Voice=Act	4	advcl	_	_
@@ -13208,7 +13208,7 @@
 9	ke	ke	ADP	IN	_	10	case	_	_
 10	atas	atas	NOUN	NN	Number=Sing	8	acl	_	_
 11	dan	dan	CCONJ	CC	_	21	cc	_	_
-12	siapa	siapa	PRON	WP	_	16	obl	_	_
+12	siapa	siapa	PRON	WP	PronType=Rel	16	obl	_	_
 13	pun	pun	PART	RP	_	12	advmod:emph	_	_
 14	yang	yang	SCONJ	IN	_	16	mark	_	_
 15	tidak	tidak	PART	RP	Polarity=Neg	16	advmod	_	_
@@ -13388,8 +13388,8 @@
 33	Juli	Juli	PROPN	NNP	_	22	obl:tmod	_	_
 34	2007	2007	NUM	CD	_	33	nummod	_	SpaceAfter=No
 35	,	,	PUNCT	,	_	22	punct	_	_
-36	di	di	ADP	IN	_	37	case	_	_
-37	mana	mana	PRON	PRP	Number=Sing	40	obl	_	_
+36	di	di	ADP	IN	_	40	mark	_	MWEPOS=SCONJ
+37	mana	mana	PRON	PRP	PronType=Dem	36	fixed	_	_
 38	SPA	SPA	PROPN	NNP	_	40	nsubj	_	_
 39	akan	akan	AUX	MD	_	40	aux	_	_
 40	menjual	jual	VERB	VB	Voice=Act	22	advcl	_	_
@@ -15835,8 +15835,8 @@
 3	anomali	anomali	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
 4	tersebut	sebut	DET	DT	_	3	det	_	_
 5	terjadi	jadi	VERB	VB	Voice=Pass	2	ccomp	_	_
-6	di	di	ADP	IN	_	7	case	_	_
-7	mana	mana	PRON	PRP	Number=Sing	14	obl	_	_
+6	di	di	ADP	IN	_	14	mark	_	MWEPOS=SCONJ
+7	mana	mana	PRON	PRP	PronType=Dem	6	fixed	_	_
 8	BI	BI	PROPN	NNP	_	14	obl	_	_
 9	rate	rate	X	FW	Foreign=Yes	8	nmod	_	_
 10	sebesar	sebesar	NOUN	NN	Number=Sing	8	nmod	_	_

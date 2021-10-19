@@ -42,14 +42,14 @@
     <feat name="Degree" value="Sup" upos="ADJ">49</feat><!-- terakhir, terbesar, tertinggi, terbaik, tertentu, terkaya, terdekat, terbanyak, terendah, terutama -->
     <feat name="Foreign" value="Yes" upos="X">376</feat><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">209</feat><!-- kita, mereka, beberapa, kami, banyak, para, berbagai, langkah-langkah, negara-negara, bank-bank -->
-    <feat name="Number" value="Sing" upos="NOUN,PRON">8028</feat><!-- persen, nya, Rp, tahun, dolar, sebesar, saham, perusahaan, pemerintah, negara -->
+    <feat name="Number" value="Sing" upos="NOUN,PRON">8026</feat><!-- persen, nya, Rp, tahun, dolar, sebesar, saham, perusahaan, pemerintah, negara -->
     <feat name="Person" value="1" upos="PRON">79</feat><!-- kita, saya, kami -->
     <feat name="Person" value="2" upos="PRON">2</feat><!-- anda -->
     <feat name="Person" value="3" upos="PRON">442</feat><!-- nya, dia, ia, mereka -->
     <feat name="Polarity" value="Neg" upos="PART">124</feat><!-- tidak, belum, bukan, tak, jangan -->
     <feat name="Polite" value="Form" upos="PRON">8</feat><!-- Saya, anda -->
     <feat name="PronType" value="Art" upos="DET">208</feat><!-- nya, sebuah, seorang, suatu -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">383</feat><!-- ini, itu, demikian, sana -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">385</feat><!-- ini, itu, demikian, mana, sana -->
     <feat name="PronType" value="Emp" upos="DET">15</feat><!-- sendiri -->
     <feat name="PronType" value="Ind" upos="DET,PRON">39</feat><!-- beberapa, banyak, sesuatu -->
     <feat name="PronType" value="Prs" upos="PRON">528</feat><!-- nya, dia, ia, kita, mereka, saya, kami, diri, anda -->
@@ -69,7 +69,7 @@
     <dep name="amod">684</dep>
     <dep name="appos">424</dep>
     <dep name="aux">416</dep>
-    <dep name="case">2197</dep>
+    <dep name="case">2195</dep>
     <dep name="case:adv">28</dep>
     <dep name="cc">768</dep>
     <dep name="cc:preconj">3</dep>
@@ -83,12 +83,12 @@
     <dep name="det">720</dep>
     <dep name="discourse">7</dep>
     <dep name="dislocated">1</dep>
-    <dep name="fixed">13</dep>
+    <dep name="fixed">15</dep>
     <dep name="flat">368</dep>
     <dep name="flat:foreign">134</dep>
     <dep name="flat:name">1432</dep>
     <dep name="iobj">1</dep>
-    <dep name="mark">1118</dep>
+    <dep name="mark">1120</dep>
     <dep name="nmod">4931</dep>
     <dep name="nmod:lmod">101</dep>
     <dep name="nmod:poss">154</dep>
@@ -97,7 +97,7 @@
     <dep name="nsubj:pass">280</dep>
     <dep name="nummod">1388</dep>
     <dep name="obj">1099</dep>
-    <dep name="obl">1333</dep>
+    <dep name="obl">1331</dep>
     <dep name="obl:agent">61</dep>
     <dep name="obl:tmod">244</dep>
     <dep name="orphan">12</dep>

@@ -18,9 +18,9 @@ Other characteristics of the treebank:
 # Acknowledgments
 
 * The original constituency treebank was built with manual annotation by [Arawinda Dinakaramani, Fam Rashel, Andry Luthfi, and Ruli Manurung](https://github.com/famrashel/idn-treebank) at Faculty of Computer Science, Universitas Indonesia in 2015.
-* The previous treebank was converted to the Penn Treebank format by Ika Alfina and Jessica Naraiswari Arwidarasti at Faculty of Computer Science, Universitas Indonesia in 2019-2020. This PTB version was named [**Kethu**](https://github.com/ialfina/kethu).
+* The previous treebank was converted to the Penn Treebank format by Ika Alfina and Jessica Naraiswari Arwidarasti at Faculty of Computer Science, Universitas Indonesia in 2019-2020. This PTB version was named [**Kethu**](https://github.com/ir-nlp-csui/kethu-id-ptb).
 * The Kethu treebank was converted to a UD treebank by Alfina et al. (2020).
-* The lemma (LEMMA) and morphological features (FEATS) were generated using [Aksara](https://github.com/bahasa-csui/aksara) and manually corrected.
+* The lemma (LEMMA) and morphological features (FEATS) were generated using [Aksara](https://github.com/ir-nlp-csui/aksara) and manually corrected.
 
 ## References
 * Ika Alfina, Indra Budi, and Heru Suhartanto. ["**Tree Rotations for Dependency Trees: Converting the Head-Directionality of Noun Phrases**"](http://www.thescipub.com/abstract/jcssp.2020.1585.1597). In Journal of Computer Science, 2020, Vol 16 No 11. 
@@ -29,10 +29,11 @@ Other characteristics of the treebank:
 # Changelog
 
 * 2021-11-15 v2.9
-  * added text_en (translation of each sentences to English, generated using Google Translate)
-  * removed feature Poss
-  * added features Polite and Definite
-  * fixed FEATS columns
+  * added text_en (translation of each sentence to English, generated using Google Translate)
+  * removed feature Poss (Poss=Yes)
+  * added features Polite (Polite=Form and Polite=Infm) and Definite (Definite=Ind and Definite=Def)
+  * fixed FEATS columns for various words
+  * fixed the annotations for "di mana" (where)
 
 * 2020-11-15 v2.7
   * Initial release in Universal Dependencies.
@@ -44,13 +45,13 @@ Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: nonfiction news
-Lemmas: automatic
-UPOS: converted from manual
+Lemmas: automatic with corrections
+UPOS: converted with corrections
 XPOS: converted from manual
 Features: automatic with corrections
 Relations: converted with corrections
 Contributors: Alfina, Ika; Arwidarasti, Jessica Naraiswari; Hanifmuti, Muhammad Yudistira; Dinakaramani, Arawinda; Manurung, Ruli; Rashel, Fam; Luthfi, Andry
-Contributing: elsewhere
+Contributing: here
 Contact: ika.alfina@cs.ui.ac.id
 ===============================================================================
 </pre>
