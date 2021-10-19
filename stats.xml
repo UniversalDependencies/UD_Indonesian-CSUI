@@ -22,34 +22,39 @@
     <tag name="CCONJ">771</tag><!-- dan, atau, namun, sedangkan, /, serta, maupun, tapi, tetapi, sementara -->
     <tag name="DET">734</tag><!-- ini, nya, sebut, itu, beberapa, buah, seluruh, banyak, sendiri, orang -->
     <tag name="INTJ">4</tag><!-- Mari, Ok, Ya, nih -->
-    <tag name="NOUN">7656</tag><!-- persen, Rp, tahun, dolar, usaha, sebesar, saham, bank, negara, ekonomi -->
+    <tag name="NOUN">7655</tag><!-- persen, Rp, tahun, dolar, usaha, sebesar, saham, bank, negara, ekonomi -->
     <tag name="NUM">1857</tag><!-- 2007, triliun, miliar, 2006, juta, 2008, satu, dua, 30, 10 -->
     <tag name="PART">159</tag><!-- tidak, belum, pun, bukan, lah, kah, tak, jangan -->
-    <tag name="PRON">684</tag><!-- nya, dia, itu, kita, ia, mereka, demikian, ini, saya, kami -->
-    <tag name="PROPN">3834</tag><!-- pt, AS, indonesia, Jakarta, bank, BI, tbk, Oktober, efek, Kamis -->
+    <tag name="PRON">683</tag><!-- nya, dia, itu, kita, ia, mereka, demikian, ini, saya, kami -->
+    <tag name="PROPN">3835</tag><!-- pt, AS, indonesia, Jakarta, bank, BI, tbk, Oktober, efek, Kamis -->
     <tag name="PUNCT">3531</tag><!-- ,, ., ", (, ), -, ', ";", :, ` -->
-    <tag name="SCONJ">1122</tag><!-- yang, untuk, dengan, karena, sementara, bahwa, sehingga, meski, setelah, maka -->
+    <tag name="SCONJ">1123</tag><!-- yang, untuk, dengan, karena, sementara, bahwa, sehingga, meski, setelah, maka -->
     <tag name="SYM">17</tag><!-- %, $, +, -, £ -->
     <tag name="VERB">2971</tag><!-- kata, jadi, capai, ada, banding, tingkat, laku, naik, turun, beri -->
     <tag name="X">376</tag><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="18">
-    <feat name="Clusivity" value="Ex" upos="PRON">14</feat><!-- kami -->
+  <feats unique="23">
+    <feat name="Clusivity" value="Ex" upos="PRON">20</feat><!-- kami -->
     <feat name="Clusivity" value="In" upos="PRON">36</feat><!-- kita -->
+    <feat name="Definite" value="Def" upos="DET">174</feat><!-- nya -->
+    <feat name="Definite" value="Ind" upos="DET">34</feat><!-- sebuah, seorang, suatu -->
     <feat name="Degree" value="Sup" upos="ADJ">49</feat><!-- terakhir, terbesar, tertinggi, terbaik, tertentu, terkaya, terdekat, terbanyak, terendah, terutama -->
     <feat name="Foreign" value="Yes" upos="X">376</feat><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
-    <feat name="Number" value="Plur" upos="NOUN,PRON">144</feat><!-- kita, mereka, kami, langkah-langkah, negara-negara, bank-bank, syarat-syarat, anak-anak, monyet-monyet, nama-nama -->
-    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">7926</feat><!-- persen, Rp, tahun, nya, dolar, sebesar, saham, perusahaan, pemerintah, negara -->
-    <feat name="Person" value="1" upos="PRON">67</feat><!-- kita, saya, kami -->
+    <feat name="Number" value="Plur" upos="DET,NOUN,PRON">209</feat><!-- kita, mereka, beberapa, kami, banyak, para, berbagai, langkah-langkah, negara-negara, bank-bank -->
+    <feat name="Number" value="Sing" upos="NOUN,PRON">8028</feat><!-- persen, nya, Rp, tahun, dolar, sebesar, saham, perusahaan, pemerintah, negara -->
+    <feat name="Person" value="1" upos="PRON">79</feat><!-- kita, saya, kami -->
     <feat name="Person" value="2" upos="PRON">2</feat><!-- anda -->
-    <feat name="Person" value="3" upos="PRON">311</feat><!-- nya, dia, ia, mereka -->
+    <feat name="Person" value="3" upos="PRON">442</feat><!-- nya, dia, ia, mereka -->
     <feat name="Polarity" value="Neg" upos="PART">124</feat><!-- tidak, belum, bukan, tak, jangan -->
+    <feat name="Polite" value="Form" upos="PRON">8</feat><!-- Saya, anda -->
+    <feat name="PronType" value="Art" upos="DET">208</feat><!-- nya, sebuah, seorang, suatu -->
     <feat name="PronType" value="Dem" upos="DET,PRON">383</feat><!-- ini, itu, demikian, sana -->
-    <feat name="PronType" value="Ind" upos="DET">31</feat><!-- sebuah, seorang -->
-    <feat name="PronType" value="Prs" upos="PRON">385</feat><!-- nya, dia, ia, kita, mereka, saya, kami, diri, anda -->
-    <feat name="PronType" value="Rel" upos="PRON">9</feat><!-- yang -->
-    <feat name="PronType" value="Tot" upos="DET">1</feat><!-- segala -->
+    <feat name="PronType" value="Emp" upos="DET">15</feat><!-- sendiri -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">39</feat><!-- beberapa, banyak, sesuatu -->
+    <feat name="PronType" value="Prs" upos="PRON">528</feat><!-- nya, dia, ia, kita, mereka, saya, kami, diri, anda -->
+    <feat name="PronType" value="Rel" upos="PRON">11</feat><!-- yang, apa, siapa -->
+    <feat name="PronType" value="Tot" upos="DET">34</feat><!-- seluruh, semua, setiap, segala -->
     <feat name="Reflex" value="Yes" upos="PRON">5</feat><!-- diri -->
     <feat name="Voice" value="Act" upos="VERB">2300</feat><!-- kata, menjadi, mencapai, mengatakan, ada, meningkat, naik, lalu, merupakan, turun -->
     <feat name="Voice" value="Pass" upos="VERB">671</feat><!-- dibandingkan, dibanding, terjadi, dilakukan, diperkirakan, termasuk, terdiri, diharapkan, didorong, diterbitkan -->
@@ -83,12 +88,12 @@
     <dep name="flat:foreign">134</dep>
     <dep name="flat:name">1432</dep>
     <dep name="iobj">1</dep>
-    <dep name="mark">1117</dep>
+    <dep name="mark">1118</dep>
     <dep name="nmod">4931</dep>
     <dep name="nmod:lmod">101</dep>
     <dep name="nmod:poss">154</dep>
     <dep name="nmod:tmod">227</dep>
-    <dep name="nsubj">1477</dep>
+    <dep name="nsubj">1476</dep>
     <dep name="nsubj:pass">280</dep>
     <dep name="nummod">1388</dep>
     <dep name="obj">1099</dep>

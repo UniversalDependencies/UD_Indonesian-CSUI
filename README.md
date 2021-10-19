@@ -30,6 +30,9 @@ Other characteristics of the treebank:
 
 * 2021-11-15 v2.9
   * added text_en (translation of each sentences to English, generated using Google Translate)
+  * removed feature Poss
+  * added features Polite and Definite
+  * fixed FEATS columns
 
 * 2020-11-15 v2.7
   * Initial release in Universal Dependencies.
