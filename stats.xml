@@ -36,24 +36,24 @@
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="24">
     <feat name="Clusivity" value="Ex" upos="PRON">20</feat><!-- kami -->
-    <feat name="Clusivity" value="In" upos="PRON">36</feat><!-- kita -->
+    <feat name="Clusivity" value="In" upos="PRON">44</feat><!-- kita -->
     <feat name="Definite" value="Def" upos="DET">174</feat><!-- nya -->
     <feat name="Definite" value="Ind" upos="DET">34</feat><!-- sebuah, seorang, suatu -->
     <feat name="Degree" value="Sup" upos="ADJ">49</feat><!-- terakhir, terbesar, tertinggi, terbaik, tertentu, terkaya, terdekat, terbanyak, terendah, terutama -->
     <feat name="Foreign" value="Yes" upos="X">376</feat><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
-    <feat name="Number" value="Plur" upos="DET,NOUN,PRON">209</feat><!-- kita, mereka, beberapa, kami, banyak, para, berbagai, langkah-langkah, negara-negara, bank-bank -->
+    <feat name="Number" value="Plur" upos="DET,NOUN,PRON">220</feat><!-- kita, mereka, beberapa, kami, banyak, para, berbagai, langkah-langkah, negara-negara, bank-bank -->
     <feat name="Number" value="Sing" upos="NOUN,PRON">8019</feat><!-- persen, nya, Rp, tahun, dolar, sebesar, saham, perusahaan, pemerintah, negara -->
     <feat name="NumType" value="Card" upos="NUM">1857</feat><!-- 2007, triliun, miliar, 2006, juta, 2008, satu, dua, 30, 10 -->
-    <feat name="Person" value="1" upos="PRON">79</feat><!-- kita, saya, kami -->
+    <feat name="Person" value="1" upos="PRON">87</feat><!-- kita, saya, kami -->
     <feat name="Person" value="2" upos="PRON">2</feat><!-- anda -->
-    <feat name="Person" value="3" upos="PRON">442</feat><!-- nya, dia, ia, mereka -->
+    <feat name="Person" value="3" upos="PRON">445</feat><!-- nya, dia, ia, mereka -->
     <feat name="Polarity" value="Neg" upos="PART">124</feat><!-- tidak, belum, bukan, tak, jangan -->
-    <feat name="Polite" value="Form" upos="PRON">8</feat><!-- Saya, anda -->
+    <feat name="Polite" value="Form" upos="PRON">25</feat><!-- saya, anda -->
     <feat name="PronType" value="Art" upos="DET">208</feat><!-- nya, sebuah, seorang, suatu -->
     <feat name="PronType" value="Dem" upos="DET,PRON">390</feat><!-- ini, itu, demikian, mana, sana -->
     <feat name="PronType" value="Emp" upos="DET">15</feat><!-- sendiri -->
     <feat name="PronType" value="Ind" upos="DET,PRON">39</feat><!-- beberapa, banyak, sesuatu -->
-    <feat name="PronType" value="Prs" upos="PRON">528</feat><!-- nya, dia, ia, kita, mereka, saya, kami, diri, anda -->
+    <feat name="PronType" value="Prs" upos="PRON">539</feat><!-- nya, dia, kita, ia, mereka, saya, kami, diri, anda -->
     <feat name="PronType" value="Rel" upos="ADV,PRON">213</feat><!-- yang, siapa, apa, bagaimana -->
     <feat name="PronType" value="Tot" upos="DET">34</feat><!-- seluruh, semua, setiap, segala -->
     <feat name="Reflex" value="Yes" upos="PRON">5</feat><!-- diri -->
@@ -81,7 +81,7 @@
     <dep name="cop">34</dep>
     <dep name="csubj">11</dep>
     <dep name="csubj:pass">2</dep>
-    <dep name="det">720</dep>
+    <dep name="det">722</dep>
     <dep name="discourse">7</dep>
     <dep name="dislocated">1</dep>
     <dep name="fixed">20</dep>
@@ -94,7 +94,7 @@
     <dep name="nmod:lmod">102</dep>
     <dep name="nmod:poss">155</dep>
     <dep name="nmod:tmod">227</dep>
-    <dep name="nsubj">1634</dep>
+    <dep name="nsubj">1632</dep>
     <dep name="nsubj:pass">326</dep>
     <dep name="nummod">1387</dep>
     <dep name="obj">1098</dep>

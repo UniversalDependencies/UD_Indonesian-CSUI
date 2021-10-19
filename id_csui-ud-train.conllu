@@ -444,7 +444,7 @@
 3	,	,	PUNCT	,	_	4	punct	_	_
 4-5	lanjutnya	_	_	_	_	_	_	_	SpaceAfter=No
 4	lanjut	lanjut	VERB	VB	Voice=Act	7	parataxis	_	_
-5	nya	nya	DET	DT	Definite=Def|PronType=Art	4	nsubj	_	_
+5	nya	nya	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 6	,	,	PUNCT	,	_	4	punct	_	_
 7	meningkat	tingkat	VERB	VB	Voice=Act	0	root	_	_
 8	dari	dari	ADP	IN	_	9	case	_	_
@@ -1482,7 +1482,7 @@
 # sent_id = csui-train-47
 # text = Saya akan meninggalkan Indonesia pada 28 Februari mendatang ke London.
 # text_en = I will leave Indonesia on February 28 for London.
-1	Saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+1	Saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	3	nsubj	_	_
 2	akan	akan	AUX	MD	_	3	aux	_	_
 3	meninggalkan	tinggal	VERB	VB	Voice=Act	0	root	_	_
 4	Indonesia	Indonesia	PROPN	NNP	_	3	obj	_	_
@@ -3100,7 +3100,7 @@
 # sent_id = csui-train-95
 # text = Saya kira lebih tinggi dari target tahun ini.
 # text_en = I think it's higher than this year's target.
-1	Saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+1	Saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	2	nsubj	_	_
 2	kira	kira	VERB	VB	Voice=Act	0	root	_	_
 3	lebih	lebih	ADV	RB	_	4	advmod	_	_
 4	tinggi	tinggi	ADJ	JJ	_	2	xcomp	_	_
@@ -4241,7 +4241,7 @@
 # text = "Kita anggarkan Rp4 triliun untuk korporasi," kata Wakil Presiden BCA Jahja Setiaatmadja di Jakarta, baru-baru ini.
 # text_en = "We have budgeted Rp4 trillion for corporations," said BCA Vice President Jahja Setiaatmadja in Jakarta recently.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
-2	Kita	Kita	PRON	PRP	_	3	nsubj	_	_
+2	Kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	anggarkan	anggarkan	VERB	VB	Voice=Act	0	root	_	_
 4	Rp	Rp	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
 5	4	4	NUM	CD	NumType=Card	4	nummod	_	_
@@ -4401,11 +4401,11 @@
 13	festival	festival	NOUN	NN	Number=Sing	11	obj	_	_
 14	buku	buku	NOUN	NN	Number=Sing	13	nmod	_	_
 15	tetapi	tetapi	CCONJ	CC	_	18	cc	_	_
-16	saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+16	saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	18	nsubj	_	_
 17	harus	harus	AUX	MD	_	18	aux	_	_
 18	mengatakan	kata	VERB	VB	Voice=Act	11	conj	_	_
 19	bahwa	bahwa	SCONJ	IN	_	22	mark	_	_
-20	saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	22	obl	_	_
+20	saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	22	obl	_	_
 21	sangat	sangat	ADV	RB	_	22	advmod	_	_
 22	senang	senang	ADJ	JJ	_	18	advcl	_	_
 23	kami	kami	PRON	PRP	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
@@ -4593,7 +4593,7 @@
 # text = "Kita pengen menunjukkan kayak-kayaknya nih kalau besok susah, kita mau minjam ke Bank Dunia," tuturnya.
 # text_en = "We want to show that if tomorrow is difficult, we want to borrow from the World Bank," he said.
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
-2	Kita	Kita	PRON	PRP	_	4	nsubj	_	_
+2	Kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 3	pengen	pengen	X	FW	Foreign=Yes	4	obl	_	_
 4	menunjukkan	tunjuk	VERB	VB	Voice=Act	0	root	_	_
 5	kayak-kayaknya	kayak	X	FW	Foreign=Yes	12	obl	_	_
@@ -4647,7 +4647,7 @@
 # text = "Kita berharap bahwa langkah-langkah yang dilakukan oleh otoritas-otoritas keuangan di negara maju, dapat segera meredam gejolak ini," kata Presiden.
 # text_en = "We hope that the steps taken by financial authorities in developed countries can immediately reduce this turmoil," said the President.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
-2	Kita	Kita	PRON	PRP	_	3	nsubj	_	_
+2	Kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	berharap	harap	VERB	VB	Voice=Act	0	root	_	_
 4	bahwa	bahwa	SCONJ	IN	_	17	mark	_	_
 5	langkah-langkah	langkah	NOUN	NN	Number=Plur	17	nsubj	_	_
@@ -4718,7 +4718,7 @@
 12	orang	orang	NOUN	NN	Number=Sing	3	nmod	_	_
 13	dewasa	dewasa	ADJ	JJ	_	12	amod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	3	punct	_	_
-15	Mereka	Mereka	PRON	PRP	_	18	nsubj	_	_
+15	Mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
 16	boleh	boleh	AUX	MD	_	18	aux	_	_
 17	saja	saja	ADV	RB	_	18	advmod	_	_
 18	merokok	rokok	VERB	VB	Voice=Act	3	parataxis	_	_
@@ -5281,9 +5281,9 @@
 14	membuat	buat	VERB	VB	Voice=Act	12	ccomp	_	_
 15	film	film	NOUN	NN	Number=Sing	14	obj	_	_
 16	tentang	tentang	ADP	IN	_	17	case	_	_
-17	saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	15	nmod	_	_
+17	saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	15	nmod	_	_
 18	ketika	ketika	SCONJ	IN	_	21	mark	_	_
-19	saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+19	saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	21	nsubj	_	_
 20	masih	masih	ADV	RB	_	21	advmod	_	_
 21	hidup	hidup	VERB	VB	Voice=Act	14	advcl	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
@@ -7104,7 +7104,7 @@
 # sent_id = csui-train-221
 # text = Saya sangat gembira jika CGI dibubarkan, menurut saya itu pertanda kesuksesan.
 # text_en = I'm very happy if CGI disbanded, I think it's a sign of success.
-1	Saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+1	Saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	3	obl	_	_
 2	sangat	sangat	ADV	RB	_	3	advmod	_	_
 3	gembira	gembira	ADJ	JJ	_	0	root	_	_
 4	jika	jika	SCONJ	IN	_	6	mark	_	_
@@ -7112,7 +7112,7 @@
 6	dibubarkan	bubar	VERB	VB	Voice=Pass	3	ccomp	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	3	punct	_	_
 8	menurut	turut	ADP	IN	_	9	case	_	_
-9	saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	11	nmod	_	_
+9	saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	11	nmod	_	_
 10	itu	itu	DET	DT	PronType=Dem	11	det	_	_
 11	pertanda	pertanda	NOUN	NN	Number=Sing	3	parataxis	_	_
 12	kesuksesan	sukses	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
@@ -8473,7 +8473,7 @@
 3	,	,	PUNCT	,	_	4	punct	_	_
 4-5	lanjutnya	_	_	_	_	_	_	_	SpaceAfter=No
 4	lanjut	lanjut	VERB	VB	Voice=Act	14	parataxis	_	_
-5	nya	nya	DET	DT	Definite=Def|PronType=Art	4	nsubj	_	_
+5	nya	nya	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 6	,	,	PUNCT	,	_	4	punct	_	_
 7	penurunan	turun	NOUN	NN	Number=Sing	14	nsubj	_	_
 8	permintaan	minta	NOUN	NN	Number=Sing	7	nmod	_	_
@@ -12153,7 +12153,7 @@
 # sent_id = csui-train-377
 # text = Saya yakin, dengan kekuatan fundamental ekonomi dan keuangan kita
 # text_en = I believe, with the strength of our economic and financial fundamentals
-1	Saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+1	Saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	2	obl	_	_
 2	yakin	yakin	ADJ	JJ	_	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	dengan	dengan	ADP	IN	_	5	case	_	_
@@ -12811,7 +12811,7 @@
 6	yang	yang	SCONJ	IN	_	8	mark	_	_
 7	akan	akan	AUX	MD	_	8	aux	_	_
 8	menggantikan	ganti	VERB	VB	Voice=Act	4	advcl	_	_
-9	saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	8	obj	_	SpaceAfter=No
+9	saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	8	obj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
 11	"	"	PUNCT	''	_	4	punct	_	_
 12-13	katanya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -14722,7 +14722,7 @@
 6	yang	yang	SCONJ	IN	_	7	mark	_	_
 7	dihadapi	hadap	VERB	VB	Voice=Pass	4	acl:relcl	_	_
 8	nanti	nanti	NOUN	NN	Number=Sing	7	obl:tmod	_	_
-9	saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	11	nsubj	_	_
 10	sangat	sangat	ADV	RB	_	11	advmod	_	_
 11	positif	positif	ADJ	JJ	_	0	root	_	_
 12	dengan	dengan	ADP	IN	_	13	case	_	_
@@ -17743,7 +17743,7 @@
 # text = "Kita tunggu saja," katanya.
 # text_en = "We'll just have to wait," he said.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
-2	Kita	Kita	PRON	PRP	_	3	nsubj	_	_
+2	Kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	tunggu	tunggu	VERB	VB	Voice=Act	0	root	_	_
 4	saja	saja	ADV	RB	_	3	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
@@ -18902,7 +18902,7 @@
 # text = "Kita akan menjaga dan mengawal stabilitas ini khususnya untuk sampai pada masa yang datang sehingga bisa tenteram membangun perekonomian nasional lagi," katanya.
 # text_en = "We will maintain and oversee this stability, especially to arrive in the future so that we can peacefully build the national economy again," he said.
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
-2	Kita	Kita	PRON	PRP	_	4	nsubj	_	_
+2	Kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 3	akan	akan	AUX	MD	_	4	aux	_	_
 4	menjaga	jaga	VERB	VB	Voice=Act	0	root	_	_
 5	dan	dan	CCONJ	CC	_	6	cc	_	_

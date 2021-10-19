@@ -4228,7 +4228,7 @@
 # text = "Mereka menggunakan mesin pemanen anggur. Itu artinya mereka tidak memerlukan banyak orang untuk melakukan pemanenan, dua orang saja cukup," kata Cavaille kepada harian Le Parisien.
 # text_en = "They use a grape harvesting machine. That means they don't need a lot of people to do the harvest, two people are enough," Cavaille told the daily Le Parisien.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
-2	Mereka	Mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	Mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 3	menggunakan	guna	VERB	VB	Voice=Act	0	root	_	_
 4	mesin	mesin	NOUN	NN	Number=Sing	3	obj	_	_
 5	pemanen	panen	NOUN	NN	Number=Sing	4	nmod	_	_
@@ -6522,7 +6522,7 @@
 # text = "Kita tahu anak-anak itu terpengaruh oleh orang di sekeliling mereka. Penelitian membuktikan mereka yang tumbuh dengan orang tua perokok, 90% menjadi perokok."
 # text_en = "We know that children are influenced by the people around them. Research has shown that those who grow up with smoking parents 90% become smokers."
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
-2	Kita	Kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	Kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	tahu	tahu	VERB	VB	Voice=Act	0	root	_	_
 4	anak-anak	anak	NOUN	NN	Number=Plur	6	nsubj:pass	_	_
 5	itu	itu	DET	DT	PronType=Dem	4	det	_	_
@@ -7798,7 +7798,7 @@
 # text = "Mereka akan mulai merokok kalau melihat idola mereka merokok."
 # text_en = "They will start smoking if they see their idol smoking."
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
-2	Mereka	Mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	Mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 3	akan	akan	AUX	MD	_	4	aux	_	_
 4	mulai	mulai	VERB	VB	Voice=Act	0	root	_	_
 5	merokok	rokok	VERB	VB	Voice=Act	4	xcomp	_	_
@@ -10566,7 +10566,7 @@
 # text = "Kita melihat faktor inflasi dari makanan akan segera hilang yang terkonfirmasi dari harga beras di semua provinsi," katanya.
 # text_en = "We see that the inflation factor from food will soon disappear, which is confirmed by the price of rice in all provinces," he said.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
-2	Kita	Kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	Kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	melihat	lihat	VERB	VB	Voice=Act	0	root	_	_
 4	faktor	faktor	NOUN	NN	Number=Sing	10	nsubj	_	_
 5	inflasi	inflasi	NOUN	NN	Number=Sing	4	nmod	_	_
@@ -11070,7 +11070,7 @@
 # text = "Kita juga tahu bahwa sponsor pabrik rokok kepada olahraga ikut mempengaruhi anak-anak untuk merokok. Jadi panutan yang negatif, termasuk olahragawan, memiliki efek yang kurang baik."
 # text_en = "We also know that cigarette manufacturers' sponsorship of sport also influences children to smoke. So negative role models, including sportspeople, have a negative effect."
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
-2	Kita	Kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	Kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 3	juga	juga	ADV	RB	_	4	advmod	_	_
 4	tahu	tahu	VERB	VB	Voice=Act	0	root	_	_
 5	bahwa	bahwa	SCONJ	IN	_	11	mark	_	_
