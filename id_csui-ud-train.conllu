@@ -511,7 +511,7 @@
 12	baru	baru	ADJ	JJ	_	11	amod	_	_
 13	bagi	bagi	ADP	IN	_	14	case	_	_
 14	pembangunan	bangun	NOUN	NN	Number=Sing	11	nmod	_	_
-15	kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	14	nmod	_	SpaceAfter=No
+15	kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	14	nmod:poss	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	_	_
 17	juga	juga	ADV	RB	_	18	advmod	_	_
 18	mengandung	kandung	VERB	VB	Voice=Act	5	advcl	_	_
@@ -841,7 +841,7 @@
 30	rata-rata	rata	NOUN	NN	Number=Sing	35	nsubj	_	_
 31	tinggi	tinggi	NOUN	NN	Number=Sing	30	nmod	_	_
 32	badan	badan	NOUN	NN	Number=Sing	31	nmod	_	_
-33	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	30	nmod	_	_
+33	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	30	nmod:poss	_	_
 34	tiga	tiga	NUM	CD	NumType=Card	35	nummod	_	_
 35	kaki	kaki	NOUN	NN	Number=Sing	13	conj	_	_
 36	enam	enam	NUM	CD	NumType=Card	37	nummod	_	_
@@ -1508,7 +1508,7 @@
 9	sebagai	bagai	ADP	IN	_	10	case	_	_
 10	pengganti	ganti	NOUN	NN	Number=Sing	4	obl	_	_
 11	aktor	aktor	NOUN	NN	Number=Sing	10	nmod	_	_
-12	kami	kami	PRON	PRP	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	10	nmod	_	SpaceAfter=No
+12	kami	kami	PRON	PRP	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	10	nmod:poss	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	_	_
 14	dan	dan	CCONJ	CC	_	15	cc	_	_
 15	muncul	muncul	VERB	VB	Voice=Act	4	conj	_	_
@@ -4713,7 +4713,7 @@
 7	yang	yang	SCONJ	IN	_	8	mark	_	_
 8	lain	lain	ADJ	JJ	_	5	acl:relcl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	3	punct	_	_
-10	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	3	nmod	_	_
+10	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	3	nmod:poss	_	_
 11	ini	ini	DET	DT	PronType=Dem	10	det	_	_
 12	orang	orang	NOUN	NN	Number=Sing	3	nmod	_	_
 13	dewasa	dewasa	ADJ	JJ	_	12	amod	_	SpaceAfter=No
@@ -5129,7 +5129,7 @@
 1	Secara	cara	ADP	IN	_	2	case:adv	_	_
 2	fundamental	fundamental	ADJ	JJ	_	6	advcl	_	_
 3	perbankan	bank	NOUN	NN	Number=Sing	6	obl	_	_
-4	kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nmod	_	_
+4	kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nmod:poss	_	_
 5	lebih	lebih	ADV	RB	_	6	advmod	_	_
 6	kuat	kuat	ADJ	JJ	_	0	root	_	_
 7	seperti	seperti	SCONJ	IN	_	9	mark	_	_
@@ -5749,7 +5749,7 @@
 # text_en = But his path to success was not smooth.
 1	Tetapi	tetapi	CCONJ	CC	_	8	cc	_	_
 2	langkah	langkah	NOUN	NN	Number=Sing	8	obl	_	_
-3	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
+3	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
 4	menuju	tuju	VERB	VB	Voice=Act	2	acl:relcl	_	_
 5	kesuksesan	sukses	NOUN	NN	Number=Sing	4	obj	_	_
 6-7	tidaklah	_	_	_	_	_	_	_	_
@@ -6956,7 +6956,7 @@
 3	mempengaruhi	mempengaruhi	VERB	VB	Voice=Act	0	root	_	_
 4	neraca	neraca	NOUN	NN	Number=Sing	3	obj	_	_
 5	pembayaran	bayar	NOUN	NN	Number=Sing	4	nmod	_	_
-6	kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	nmod	_	SpaceAfter=No
+6	kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	nmod:poss	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = csui-train-217
@@ -12162,7 +12162,7 @@
 7	ekonomi	ekonomi	NOUN	NN	Number=Sing	5	nmod	_	_
 8	dan	dan	CCONJ	CC	_	9	cc	_	_
 9	keuangan	uang	NOUN	NN	Number=Sing	7	conj	_	_
-10	kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	5	nmod	_	_
+10	kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	5	nmod:poss	_	_
 
 # sent_id = csui-train-378
 # text = KPR tumbuh 23,9 persen menjadi Rp4,4 triliun dan Kartu Kredit tumbuh 34,3% menjadi Rp1,6 triliun.
@@ -17802,7 +17802,7 @@
 17	menyumbangkan	sumbang	VERB	VB	Voice=Act	8	advcl	_	_
 18	separuh	paruh	NUM	CD	NumType=Card	19	nummod	_	_
 19	kekayaan	kaya	NOUN	NN	Number=Sing	17	obj	_	_
-20	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	19	nmod	_	SpaceAfter=No
+20	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	19	nmod:poss	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = csui-train-555
