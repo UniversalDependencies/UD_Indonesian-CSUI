@@ -4228,7 +4228,7 @@
 # text = "Mereka menggunakan mesin pemanen anggur. Itu artinya mereka tidak memerlukan banyak orang untuk melakukan pemanenan, dua orang saja cukup," kata Cavaille kepada harian Le Parisien.
 # text_en = "They use a grape harvesting machine. That means they don't need a lot of people to do the harvest, two people are enough," Cavaille told the daily Le Parisien.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
-2	Mereka	Mereka	PRON	PRP	_	3	nsubj	_	_
+2	Mereka	Mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 3	menggunakan	guna	VERB	VB	Voice=Act	0	root	_	_
 4	mesin	mesin	NOUN	NN	Number=Sing	3	obj	_	_
 5	pemanen	panen	NOUN	NN	Number=Sing	4	nmod	_	_
@@ -5193,7 +5193,7 @@
 6	atau	atau	CCONJ	CC	_	7	cc	_	_
 7	tidak	tidak	PART	RP	Polarity=Neg	5	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	5	punct	_	_
-9	saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	10	nsubj	_	_
 10	katakan	katak	VERB	VB	Voice=Act	5	parataxis	_	_
 11	baik	baik	ADJ	JJ	_	10	advcl	_	_
 12	dan	dan	CCONJ	CC	_	21	cc	_	_
@@ -6522,7 +6522,7 @@
 # text = "Kita tahu anak-anak itu terpengaruh oleh orang di sekeliling mereka. Penelitian membuktikan mereka yang tumbuh dengan orang tua perokok, 90% menjadi perokok."
 # text_en = "We know that children are influenced by the people around them. Research has shown that those who grow up with smoking parents 90% become smokers."
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
-2	Kita	Kita	PRON	PRP	_	3	nsubj	_	_
+2	Kita	Kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	tahu	tahu	VERB	VB	Voice=Act	0	root	_	_
 4	anak-anak	anak	NOUN	NN	Number=Plur	6	nsubj:pass	_	_
 5	itu	itu	DET	DT	PronType=Dem	4	det	_	_
@@ -7798,7 +7798,7 @@
 # text = "Mereka akan mulai merokok kalau melihat idola mereka merokok."
 # text_en = "They will start smoking if they see their idol smoking."
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
-2	Mereka	Mereka	PRON	PRP	_	4	nsubj	_	_
+2	Mereka	Mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 3	akan	akan	AUX	MD	_	4	aux	_	_
 4	mulai	mulai	VERB	VB	Voice=Act	0	root	_	_
 5	merokok	rokok	VERB	VB	Voice=Act	4	xcomp	_	_
@@ -8794,7 +8794,7 @@
 # sent_id = csui-test-274
 # text = Saya akan bekerja di pemerintah Inggris.
 # text_en = I will work in the UK government.
-1	Saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+1	Saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	3	nsubj	_	_
 2	akan	akan	AUX	MD	_	3	aux	_	_
 3	bekerja	bekerja	VERB	VB	Voice=Act	0	root	_	_
 4	di	di	ADP	IN	_	5	case	_	_
@@ -10257,7 +10257,7 @@
 3	'	'	PUNCT	``	_	4	punct	_	_
 4	overall	overall	X	FW	Foreign=Yes	8	advcl	_	_
 5	'	'	PUNCT	''	_	4	punct	_	SpaceAfter=No
-6	saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	8	nsubj	_	_
 7	belum	belum	PART	RP	Polarity=Neg	8	advmod	_	_
 8	lihat	lihat	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	13	punct	_	_
@@ -10566,7 +10566,7 @@
 # text = "Kita melihat faktor inflasi dari makanan akan segera hilang yang terkonfirmasi dari harga beras di semua provinsi," katanya.
 # text_en = "We see that the inflation factor from food will soon disappear, which is confirmed by the price of rice in all provinces," he said.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
-2	Kita	Kita	PRON	PRP	_	3	nsubj	_	_
+2	Kita	Kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	melihat	lihat	VERB	VB	Voice=Act	0	root	_	_
 4	faktor	faktor	NOUN	NN	Number=Sing	10	nsubj	_	_
 5	inflasi	inflasi	NOUN	NN	Number=Sing	4	nmod	_	_
@@ -11070,7 +11070,7 @@
 # text = "Kita juga tahu bahwa sponsor pabrik rokok kepada olahraga ikut mempengaruhi anak-anak untuk merokok. Jadi panutan yang negatif, termasuk olahragawan, memiliki efek yang kurang baik."
 # text_en = "We also know that cigarette manufacturers' sponsorship of sport also influences children to smoke. So negative role models, including sportspeople, have a negative effect."
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
-2	Kita	Kita	PRON	PRP	_	4	nsubj	_	_
+2	Kita	Kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 3	juga	juga	ADV	RB	_	4	advmod	_	_
 4	tahu	tahu	VERB	VB	Voice=Act	0	root	_	_
 5	bahwa	bahwa	SCONJ	IN	_	11	mark	_	_
@@ -11153,7 +11153,7 @@
 19	anda	anda	PRON	PRP	Number=Sing|Person=2|Polite=Form|PronType=Prs	18	nmod:poss	_	SpaceAfter=No
 20	?	?	PUNCT	.	_	17	punct	_	_
 21	Sungguh	Sungguh	ADV	RB	_	24	advmod	_	_
-22	saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+22	saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	24	nsubj	_	_
 23	tidak	tidak	PART	RP	Polarity=Neg	24	advmod	_	_
 24	tahu	tahu	VERB	VB	Voice=Act	10	parataxis	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	24	punct	_	_
@@ -11161,9 +11161,9 @@
 27-28	pilihlah	_	_	_	_	_	_	_	_
 27	pilih	pilih	VERB	VB	Voice=Act	24	parataxis	_	_
 28	lah	lah	PART	RP	_	27	advmod:emph	_	_
-29	saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	27	obj	_	_
+29	saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	27	obj	_	_
 30	dan	dan	CCONJ	CC	_	33	cc	_	_
-31	saya	saya	PRON	PRP	Number=Sing|Person=1|PronType=Prs	33	nsubj	_	_
+31	saya	saya	PRON	PRP	Number=Sing|Person=1|Polite=Form|PronType=Prs	33	nsubj	_	_
 32	akan	akan	AUX	MD	_	33	aux	_	_
 33	mencari	cari	VERB	VB	Voice=Act	27	conj	_	_
 34	tahu	tahu	VERB	VB	Voice=Act	33	xcomp	_	_
