@@ -1508,7 +1508,7 @@
 9	sebagai	bagai	ADP	IN	_	10	case	_	_
 10	pengganti	ganti	NOUN	NN	Number=Sing	4	obl	_	_
 11	aktor	aktor	NOUN	NN	Number=Sing	10	nmod	_	_
-12	kami	kami	PRON	PRP	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	10	nmod:poss	_	SpaceAfter=No
+12	kami	kami	PRON	PRP	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	11	nmod:poss	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	_	_
 14	dan	dan	CCONJ	CC	_	15	cc	_	_
 15	muncul	muncul	VERB	VB	Voice=Act	4	conj	_	_
@@ -4706,18 +4706,18 @@
 # text_en = "As for Rooney and other idol stars, they are adults. They can smoke without being held responsible for what is beyond their control."
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
 2	Kalau	Kalau	SCONJ	IN	_	3	mark	_	_
-3	Rooney	Rooney	PROPN	NNP	_	0	root	_	_
+3	Rooney	Rooney	PROPN	NNP	_	12	advcl	_	_
 4	maupun	maupun	CCONJ	CC	_	5	cc	_	_
 5	bintang	bintang	NOUN	NN	Number=Sing	3	conj	_	_
 6	idola	idola	NOUN	NN	Number=Sing	5	nmod	_	_
 7	yang	yang	SCONJ	IN	_	8	mark	_	_
 8	lain	lain	ADJ	JJ	_	5	acl:relcl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	3	punct	_	_
-10	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	3	nmod:poss	_	_
+10	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 11	ini	ini	DET	DT	PronType=Dem	10	det	_	_
-12	orang	orang	NOUN	NN	Number=Sing	3	nmod	_	_
+12	orang	orang	NOUN	NN	Number=Sing	0	root	_	_
 13	dewasa	dewasa	ADJ	JJ	_	12	amod	_	SpaceAfter=No
-14	.	.	PUNCT	.	_	3	punct	_	_
+14	.	.	PUNCT	.	_	12	punct	_	_
 15	Mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
 16	boleh	boleh	AUX	MD	_	18	aux	_	_
 17	saja	saja	ADV	RB	_	18	advmod	_	_
@@ -4735,8 +4735,8 @@
 29-30	kekuasaannya	_	_	_	_	_	_	_	SpaceAfter=No
 29	kekuasaan	kuasa	NOUN	NN	Number=Sing	25	nmod	_	_
 30	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	29	nmod:poss	_	_
-31	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
-32	"	"	PUNCT	''	_	3	punct	_	_
+31	.	.	PUNCT	.	_	12	punct	_	SpaceAfter=No
+32	"	"	PUNCT	''	_	12	punct	_	_
 
 # sent_id = csui-train-144
 # text = Kevin mengatakan perseroan akan meminjam dana dari keempat bank tersebut dengan total nilai 750 juta dolar AS.
