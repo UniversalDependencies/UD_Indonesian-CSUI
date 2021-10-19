@@ -134,7 +134,7 @@
 13	melanda	landa	VERB	VB	Voice=Act	11	acl:relcl	_	_
 14-15	rumahnya	_	_	_	_	_	_	_	SpaceAfter=No
 14	rumah	rumah	NOUN	NN	Number=Sing	13	obj	_	_
-15	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+15	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	_
 16	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = csui-test-8
@@ -160,7 +160,7 @@
 16	siapa	siapa	PRON	WP	_	15	nsubj	_	_
 17-18	pemiliknya	_	_	_	_	_	_	_	SpaceAfter=No
 17	pemilik	milik	NOUN	NN	Number=Sing	16	acl:relcl	_	_
-18	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+18	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	17	nmod:poss	_	_
 19	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = csui-test-9
@@ -384,7 +384,7 @@
 11	kesehatan	sehat	NOUN	NN	Number=Sing	10	obj	_	_
 12-13	tubuhnya	_	_	_	_	_	_	_	_
 12	tubuh	tubuh	NOUN	NN	Number=Sing	11	nmod	_	_
-13	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+13	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	_
 14	tanpa	tanpa	SCONJ	IN	_	15	mark	_	_
 15	terkecuali	terkecuali	VERB	VB	Voice=Pass	10	advcl	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	15	punct	_	_
@@ -469,7 +469,7 @@
 17	melebarkan	lebar	VERB	VB	Voice=Act	13	acl:relcl	_	_
 18-19	sayapnya	_	_	_	_	_	_	_	_
 18	sayap	sayap	NOUN	NN	Number=Sing	17	obj	_	_
-19	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+19	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	18	nmod:poss	_	_
 20	di	di	ADP	IN	_	21	case	_	_
 21	Kerajaan	Kerajaan	PROPN	NNP	_	17	obl	_	_
 22	Inggris	Inggris	PROPN	NNP	_	21	flat:name	_	SpaceAfter=No
@@ -1456,7 +1456,7 @@
 51	dalam	dalam	ADP	IN	_	52	case	_	_
 52-53	statemennya	_	_	_	_	_	_	_	SpaceAfter=No
 52	statemen	statemen	X	FW	Foreign=Yes	38	obl	_	_
-53	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	52	nmod:poss	_	_
+53	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	52	nmod:poss	_	_
 54	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = csui-test-51
@@ -1685,7 +1685,7 @@
 9	menyatakan	nyata	VERB	VB	Voice=Act	0	root	_	_
 10-11	pihaknya	_	_	_	_	_	_	_	_
 10	pihak	pihak	NOUN	NN	Number=Sing	13	nsubj	_	_
-11	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+11	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	_
 12	telah	telah	AUX	MD	_	13	aux	_	_
 13	mencatat	catat	VERB	VB	Voice=Act	9	ccomp	_	_
 14	angka	angka	NOUN	NN	Number=Sing	13	obj	_	_
@@ -1754,7 +1754,7 @@
 13	karena	karena	SCONJ	IN	_	17	mark	_	_
 14-15	pengeluarannya	_	_	_	_	_	_	_	_
 14	pengeluaran	keluar	NOUN	NN	Number=Sing	17	nsubj	_	_
-15	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+15	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	_
 16	masih	masih	ADV	RB	_	17	advmod	_	_
 17	kecil	kecil	ADJ	JJ	_	8	advcl	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	8	punct	_	_
@@ -1872,7 +1872,7 @@
 27	dalam	dalam	ADP	IN	_	28	case	_	_
 28-29	penjelasannya	_	_	_	_	_	_	_	_
 28	penjelasan	penjelasan	NOUN	NN	Number=Sing	22	obl	_	_
-29	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+29	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	28	nmod:poss	_	_
 30	ke	ke	ADP	IN	_	31	case	_	_
 31	Bursa	Bursa	PROPN	NNP	_	28	nmod	_	_
 32	Efek	Efek	PROPN	NNP	_	31	flat:name	_	_
@@ -2046,7 +2046,7 @@
 27	mencatatkan	catat	VERB	VB	Voice=Act	24	acl	_	_
 28-29	sahamnya	_	_	_	_	_	_	_	SpaceAfter=No
 28	saham	saham	NOUN	NN	Number=Sing	27	obj	_	_
-29	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+29	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	28	nmod:poss	_	_
 30	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = csui-test-71
@@ -2410,7 +2410,7 @@
 19	mana	mana	PRON	PRP	Number=Sing	23	obl	_	_
 20	PPh	PPh	PROPN	NNP	_	23	nsubj	_	SpaceAfter=No
 21	-	-	PUNCT	:	_	20	punct	_	SpaceAfter=No
-22	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+22	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	20	nmod:poss	_	_
 23	naik	naik	VERB	VB	Voice=Act	15	acl:relcl	_	_
 24	10,4	10,4	NUM	CD	_	25	nummod	_	_
 25	persen	persen	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
@@ -2418,7 +2418,7 @@
 27	sedangkan	sedangkan	CCONJ	CC	_	31	cc	_	_
 28	PPN	PPN	NOUN	NN	Number=Sing	31	nsubj	_	_
 29	-	-	PUNCT	:	_	28	punct	_	SpaceAfter=No
-30	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+30	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	28	nmod:poss	_	_
 31	naik	naik	VERB	VB	Voice=Act	23	conj	_	_
 32	12,4	12,4	NUM	CD	_	33	nummod	_	_
 33	persen	persen	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
@@ -2447,7 +2447,7 @@
 12	yang	yang	SCONJ	IN	_	16	mark	_	_
 13	PPh	PPh	PROPN	NNP	_	16	nsubj	_	SpaceAfter=No
 14	-	-	PUNCT	:	_	13	punct	_	SpaceAfter=No
-15	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+15	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
 16	tumbuh	tumbuh	VERB	VB	Voice=Act	5	acl:relcl	_	_
 17	19,5	19,5	NUM	CD	_	18	nummod	_	_
 18	persen	persen	NOUN	NN	Number=Sing	16	obl	_	_
@@ -2455,7 +2455,7 @@
 20	sebelumnya	sebelumnya	ADV	RB	_	23	advmod	_	_
 21-22	pertumbuhannya	_	_	_	_	_	_	_	_
 21	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	23	nsubj	_	_
-22	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+22	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	21	nmod:poss	_	_
 23	tercatat	catat	VERB	VB	Voice=Pass	18	acl	_	_
 24	negatif	negatif	ADJ	JJ	_	23	xcomp	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	1	punct	_	_
@@ -2468,7 +2468,7 @@
 3	tekstil	tekstil	NOUN	NN	Number=Sing	2	nmod	_	_
 4	PPh	PPh	NOUN	NN	Number=Sing	7	nsubj	_	_
 5	-	-	PUNCT	:	_	4	punct	_	SpaceAfter=No
-6	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+6	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_
 7	tumbuh	tumbuh	VERB	VB	Voice=Act	2	acl:relcl	_	_
 8	6,3	6,3	NUM	CD	_	9	nummod	_	_
 9	persen	persen	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
@@ -2528,7 +2528,7 @@
 15	itu	itu	DET	DT	PronType=Dem	16	det	_	_
 16	PPh	PPh	PROPN	NNP	_	12	nsubj	_	SpaceAfter=No
 17	-	-	PUNCT	:	_	18	punct	_	SpaceAfter=No
-18	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	SpaceAfter=No
+18	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	16	nmod:poss	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = csui-test-86
@@ -3112,7 +3112,7 @@
 2	sebuah	buah	DET	DT	Number=Sing|PronType=Ind	3	det	_	_
 3-4	pernyataannya	_	_	_	_	_	_	_	_
 3	pernyataan	pernyataan	NOUN	NN	Number=Sing	11	obl	_	_
-4	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+4	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
 5	di	di	ADP	IN	_	6	case	_	_
 6	Jakarta	Jakarta	PROPN	NNP	_	11	obl	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	11	punct	_	_
@@ -3233,7 +3233,7 @@
 44	dalam	dalam	ADP	IN	_	45	case	_	_
 45-46	pernyataannya	_	_	_	_	_	_	_	_
 45	pernyataan	pernyataan	NOUN	NN	Number=Sing	42	obl	_	_
-46	nya	nya	PRON	PRP$	Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	nmod:poss	_	_
+46	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	45	nmod:poss	_	_
 47	di	di	ADP	IN	_	48	case	_	_
 48	Jakarta	Jakarta	PROPN	NNP	_	45	nmod	_	SpaceAfter=No
 49	,	,	PUNCT	,	_	42	punct	_	_
