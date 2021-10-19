@@ -1584,14 +1584,14 @@
 15	LN	LN	NOUN	NN	Number=Sing	13	appos	_	SpaceAfter=No
 16	)	)	PUNCT	-RRB-	_	15	punct	_	_
 17	pada	pada	ADP	IN	_	18	case	_	_
-18	2006	2006	NUM	CD	NumType=Card	11	nmod	_	_
+18	2006	2006	NUM	CD	NumType=Card	11	nmod:tmod	_	_
 19	senilai	nilai	NOUN	NN	Number=Sing	11	nmod	_	_
 20	370	370	NUM	CD	NumType=Card	22	nummod	_	_
 21	juta	juta	NUM	CD	NumType=Card	20	flat	_	_
 22	dolar	dolar	NOUN	NN	Number=Sing	19	nmod	_	_
 23	AS	AS	PROPN	NNP	_	22	nmod	_	_
 24	pada	pada	ADP	IN	_	25	case	_	_
-25	11	11	NUM	CD	NumType=Card	26	nmod:tmod	_	_
+25	11	11	NUM	CD	NumType=Card	26	nmod	_	_
 26	proyek	proyek	NOUN	NN	Number=Sing	11	nmod	_	_
 27	di	di	ADP	IN	_	29	case	_	_
 28	berbagai	berbagai	DET	DT	Number=Plur	29	det	_	_

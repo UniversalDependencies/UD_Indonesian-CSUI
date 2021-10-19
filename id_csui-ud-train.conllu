@@ -959,10 +959,10 @@
 14	ke	ke	ADP	IN	_	15	case	_	_
 15	Jakarta	Jakarta	PROPN	NNP	_	9	nmod	_	_
 16	pada	pada	ADP	IN	_	17	case	_	_
-17	19	19	NUM	CD	NumType=Card	20	nmod:tmod	_	SpaceAfter=No
+17	19	19	NUM	CD	NumType=Card	9	nmod:tmod	_	SpaceAfter=No
 18	-	-	PUNCT	:	_	17	punct	_	SpaceAfter=No
 19	21	21	NUM	CD	NumType=Card	17	flat	_	_
-20	Agustus	Agustus	PROPN	NNP	_	9	nmod:tmod	_	_
+20	Agustus	Agustus	PROPN	NNP	_	17	flat	_	_
 21	mendatang	datang	VERB	VB	Voice=Act	20	acl:relcl	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	_	_
 23	merupakan	rupa	VERB	VB	Voice=Act	0	root	_	_
@@ -5948,7 +5948,7 @@
 18	setelah	setelah	SCONJ	IN	_	23	mark	_	_
 19	pada	pada	ADP	IN	_	20	case	_	_
 20	pekan	pekan	NOUN	NN	Number=Sing	23	obl:tmod	_	_
-21	lalu	lalu	VERB	VB	Voice=Act	20	ccomp	_	_
+21	lalu	lalu	VERB	VB	Voice=Act	20	acl	_	_
 22	sempat	sempat	ADV	RB	_	23	advmod	_	_
 23	melemah	lemah	VERB	VB	Voice=Act	12	ccomp	_	_
 24	ke	ke	ADP	IN	_	25	case	_	_
@@ -13488,7 +13488,7 @@
 16	)	)	PUNCT	-RRB-	_	15	punct	_	_
 17	pada	pada	ADP	IN	_	18	case	_	_
 18	Maret	Maret	PROPN	NNP	_	20	obl:tmod	_	_
-19	2007	2007	NUM	CD	NumType=Card	18	nummod	_	_
+19	2007	2007	NUM	CD	NumType=Card	18	flat	_	_
 20	mencapai	capai	VERB	VB	Voice=Act	25	ccomp	_	_
 21	23,37	23,37	NUM	CD	NumType=Card	22	nummod	_	_
 22	persen	persen	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
