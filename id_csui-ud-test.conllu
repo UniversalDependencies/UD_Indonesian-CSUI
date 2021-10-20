@@ -559,7 +559,7 @@
 22	Pound	Pound	PROPN	NNP	_	19	nmod	_	_
 23	Sterling	Sterling	PROPN	NNP	_	22	flat:name	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	18	punct	_	_
-25	yang	yang	PRON	IN	PronType=Rel	27	nsubj:pass	_	_
+25	yang	yang	SCONJ	IN	_	27	mark	_	_
 26	kebanyakan	banyak	NOUN	NN	Number=Sing	27	nsubj:pass	_	_
 27	didominasi	didominasi	VERB	VB	Voice=Pass	18	advcl	_	_
 28	jenis	jenis	NOUN	NN	Number=Sing	27	obl:agent	_	_
@@ -2444,9 +2444,9 @@
 9	makanan	makan	NOUN	NN	Number=Sing	8	nmod	_	_
 10	dan	dan	CCONJ	CC	_	11	cc	_	_
 11	minuman	minum	NOUN	NN	Number=Sing	9	conj	_	_
-12	yang	yang	PRON	IN	PronType=Rel	16	nsubj	_	_
+12	yang	yang	SCONJ	IN	_	16	mark	_	_
 13	PPh	PPh	PROPN	NNP	_	16	nsubj	_	SpaceAfter=No
-14	-	-	PUNCT	:	_	13	punct	_	SpaceAfter=No
+14	-	-	PUNCT	:	_	15	punct	_	SpaceAfter=No
 15	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
 16	tumbuh	tumbuh	VERB	VB	Voice=Act	5	acl:relcl	_	_
 17	19,5	19,5	NUM	CD	NumType=Card	18	nummod	_	_
@@ -3296,7 +3296,7 @@
 11	posisi	posisi	NOUN	NN	Number=Sing	9	obl	_	_
 12	leverage	leverage	X	FW	Foreign=Yes	11	nmod	_	_
 13	perusahaan	usaha	NOUN	NN	Number=Sing	12	nmod	_	_
-14	yang	yang	PRON	IN	PronType=Rel	15	nsubj	_	_
+14	yang	yang	SCONJ	IN	_	15	mark	_	_
 15	tinggi	tinggi	ADJ	JJ	_	11	acl:relcl	_	_
 16	dan	dan	CCONJ	CC	_	17	cc	_	_
 17-18	rendahnya	_	_	_	_	_	_	_	_
@@ -3834,7 +3834,7 @@
 1	Toba	toba	PROPN	NNP	_	9	nsubj:pass	_	_
 2	Pulp	Pulp	PROPN	NNP	_	1	flat:name	_	_
 3	yang	yang	PRON	IN	PronType=Rel	5	nsubj	_	_
-4	dahulu	dahulu	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	dahulu	dahulu	NOUN	NN	Number=Sing	5	obl:tmod	_	_
 5	bernama	nama	VERB	VB	Voice=Act	1	acl:relcl	_	_
 6	PT	PT	PROPN	NNP	_	5	obj	_	_
 7	Inti	Inti	PROPN	NNP	_	6	flat:name	_	_
