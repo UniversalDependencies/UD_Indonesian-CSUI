@@ -18,7 +18,7 @@ Other characteristics of the treebank:
 # Acknowledgments
 
 * The original constituency treebank was built with manual annotation by [Arawinda Dinakaramani, Fam Rashel, Andry Luthfi, and Ruli Manurung](https://github.com/famrashel/idn-treebank) at Faculty of Computer Science, Universitas Indonesia in 2015.
-* The previous treebank was converted to the Penn Treebank format by Ika Alfina and Jessica Naraiswari Arwidarasti at Faculty of Computer Science, Universitas Indonesia in 2019-2020. This PTB version was named [**Kethu**](https://github.com/ir-nlp-csui/kethu-id-ptb).
+* The previous treebank was converted to the Penn Treebank format by Ika Alfina and Jessica Naraiswari Arwidarasti in 2019-2020. This PTB version was named [**Kethu**](https://github.com/ir-nlp-csui/kethu-id-ptb).
 * The Kethu treebank was converted to this UD treebank by Alfina et al. (2020).
 * The lemma (LEMMA) and morphological features (FEATS) were generated using [Aksara](https://github.com/ir-nlp-csui/aksara) and manually corrected.
 
@@ -30,10 +30,11 @@ Other characteristics of the treebank:
 
 * 2021-11-15 v2.9
   * added text_en (translation of each sentence to English, generated using Google Translate)
-  * removed feature Poss (value:Yes)
   * added features NumType (values: Card, Ord), Polite (values: Form, Infm), and Definite (values: Ind, Def)
+  * removed feature Poss (value:Yes)
   * fixed FEATS columns for various words
-  * fixed the annotations for "di mana" (where), "yang" (which), "sementara itu" (meanwhile), "oleh karena itu" (therefore), etc.
+  * fixed the annotations for "di mana" (where), "yang" (which)
+  * fixed the annotations for transition words "sementara itu" (meanwhile), "oleh karena itu" (therefore), etc.
 
 * 2020-11-15 v2.7
   * Initial release in Universal Dependencies.
