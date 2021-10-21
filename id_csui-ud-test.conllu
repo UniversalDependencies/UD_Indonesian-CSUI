@@ -313,7 +313,7 @@
 # sent_id = csui-test-15
 # text = Namun kini Akademi Kerajaan Spanyol, yang merupakan pelindung resmi bahasa Spanyol, membagi karya itu ke dalam 2.000 segmen.
 # text_en = But now the Royal Spanish Academy, which is the official patron of the Spanish language, divides the work into 2,000 segments.
-1	Namun	namun	CCONJ	CC	_	14	cc	_	_
+1	Namun	namun	ADV	RB	_	14	advmod	_	_
 2	kini	kini	NOUN	NN	Number=Sing	14	obl:tmod	_	_
 3	Akademi	Akademi	PROPN	NNP	_	14	nsubj	_	_
 4	Kerajaan	Kerajaan	PROPN	NNP	_	3	flat:name	_	_
@@ -397,7 +397,7 @@
 # sent_id = csui-test-18
 # text = Namun Rooney tidak sendirian.
 # text_en = But Rooney is not alone.
-1	Namun	namun	CCONJ	CC	_	4	cc	_	_
+1	Namun	namun	ADV	RB	_	4	advmod	_	_
 2	Rooney	Rooney	PROPN	NNP	_	4	nsubj	_	_
 3	tidak	tidak	PART	RP	Polarity=Neg	4	advmod	_	_
 4	sendirian	sendiri	ADJ	JJ	_	0	root	_	SpaceAfter=No
@@ -431,7 +431,7 @@
 # sent_id = csui-test-21
 # text = Namun di sisi lain, tidak banyak pengusaha Indonesia yang melakukan ekspansi ke Inggris.
 # text_en = But on the other hand, not many Indonesian businessmen are expanding to the UK.
-1	Namun	namun	CCONJ	CC	_	7	cc	_	_
+1	Namun	namun	ADV	RB	_	7	advmod	_	_
 2	di	di	ADP	IN	_	3	case	_	_
 3	sisi	sisi	NOUN	NN	Number=Sing	7	obl	_	_
 4	lain	lain	ADJ	JJ	_	3	amod	_	SpaceAfter=No
@@ -1181,7 +1181,7 @@
 # sent_id = csui-test-43
 # text = Namun dana tersebut baru terpakai 168 juta dolar AS.
 # text_en = However, the funds have only been used for 168 million US dollars.
-1	Namun	namun	CCONJ	CC	_	5	cc	_	_
+1	Namun	namun	ADV	RB	_	5	advmod	_	_
 2	dana	dana	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
 3	tersebut	sebut	DET	DT	_	2	det	_	_
 4	baru	baru	ADV	RB	_	5	advmod	_	_
@@ -1674,7 +1674,7 @@
 # sent_id = csui-test-58
 # text = Sedangkan untuk penerimaan dari sektor cukai, Herry menyatakan pihaknya telah mencatat angka lebih dari Rp10 triliun.
 # text_en = As for the revenue from the excise sector, Herry stated that his party had recorded a figure of more than Rp. 10 trillion.
-1	Sedangkan	sedangkan	CCONJ	CC	_	9	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	9	advmod	_	_
 2	untuk	untuk	ADP	IN	_	3	case	_	_
 3	penerimaan	terima	NOUN	NN	Number=Sing	9	obl	_	_
 4	dari	dari	ADP	IN	_	5	case	_	_
@@ -2000,7 +2000,7 @@
 # sent_id = csui-test-69
 # text = Namun menurutnya, pihak RGM masih mengkaji tawaran dari Pinnacle.
 # text_en = However, according to him, RGM is still reviewing the offer from Pinnacle.
-1	Namun	namun	CCONJ	CC	_	8	cc	_	_
+1	Namun	namun	ADV	RB	_	8	advmod	_	_
 2-3	menurutnya	_	_	_	_	_	_	_	SpaceAfter=No
 2	menurut	turut	ADP	IN	_	3	case	_	_
 3	nya	nya	PRON	PRP	Number=Sing|Person=3|PronType=Prs	8	obl	_	_
@@ -2052,7 +2052,7 @@
 # sent_id = csui-test-71
 # text = Sedangkan cadangan devisa diperkirakan mencapai 56,6 miliar dolar AS dengan transaksi perdagangan ekspor 118,6 miliar dolar AS dan impor 85,6 miliar dolar AS.
 # text_en = Meanwhile, foreign exchange reserves are estimated to reach 56.6 billion US dollars with export trade transactions of 118.6 billion US dollars and imports of 85.6 billion US dollars.
-1	Sedangkan	sedangkan	CCONJ	CC	_	4	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	4	advmod	_	_
 2	cadangan	cadang	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
 3	devisa	devisa	NOUN	NN	Number=Sing	2	nmod	_	_
 4	diperkirakan	kira	VERB	VB	Voice=Pass	0	root	_	_
@@ -2658,7 +2658,7 @@
 # sent_id = csui-test-89
 # text = Namun dari sisi responsibilitas sebagai anggota masyarakat, korporasi dituntut pula untuk menunjukkan kepedulian untuk berbuat yang terbaik tidak hanya untuk pemegang saham dan perusahaan, tetapi juga kepada stakeholders lainnya yang mewakili kepentingan bangsa.
 # text_en = However, in terms of responsibility as a member of society, corporations are also required to show concern to do their best not only for shareholders and the company, but also for other stakeholders who represent the interests of the nation.
-1	Namun	namun	CCONJ	CC	_	10	cc	_	_
+1	Namun	namun	ADV	RB	_	10	advmod	_	_
 2	dari	dari	ADP	IN	_	3	case	_	_
 3	sisi	sisi	NOUN	NN	Number=Sing	10	obl	_	_
 4	responsibilitas	responsibilitas	NOUN	NN	Number=Sing	3	nmod	_	_
@@ -3082,8 +3082,8 @@
 # sent_id = csui-test-100
 # text = Namun demikian ia mengatakan, BI dan Pemerintah tetap waspada memandang dampak lanjutan dari akibat krisis tersebut meski telah mulai terkendali.
 # text_en = However, he said, BI and the Government remained vigilant in seeing the continued impact of the crisis even though it had begun to be under control.
-1	Namun	namun	CCONJ	CC	_	4	cc	_	_
-2	demikian	demikian	PRON	PRP	PronType=Dem	4	obl	_	_
+1	Namun	namun	ADV	RB	_	4	advmod	_	MWEPOS=ADV
+2	demikian	demikian	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
@@ -3283,7 +3283,7 @@
 # sent_id = csui-test-105
 # text = Namun, kata lembaga tersebut, peringkat tersebut dibatasi oleh posisi leverage perusahaan yang tinggi dan rendahnya margin dari bisnis mobil bekas.
 # text_en = However, the agency said, the rating is constrained by the company's high leverage position and low margins from the used car business.
-1	Namun	namun	CCONJ	CC	_	9	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	RB	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	3	punct	_	_
 3	kata	kata	VERB	VB	Voice=Act	9	parataxis	_	_
 4	lembaga	lembaga	NOUN	NN	Number=Sing	3	nsubj	_	_
@@ -3312,7 +3312,7 @@
 # sent_id = csui-test-106
 # text = Sedangkan berkenaan dengan rencana divestasi saham milik Negara RI di BNI, kata dia, berdasarkan surat Menteri Negara BUMN pada 19 Desember 2006 dinyatakan bahwa BNI termasuk dalam program tahunan privatisasi BUMN tahun 2007.
 # text_en = As for the plan to divest the Indonesian state-owned shares in BNI, he said, based on a letter from the Minister of State-Owned Enterprises dated December 19, 2006 it was stated that BNI was included in the 2007 BUMN privatization annual program.
-1	Sedangkan	sedangkan	CCONJ	CC	_	25	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	25	advmod	_	_
 2	berkenaan	kena	VERB	VB	Voice=Act	25	advcl	_	_
 3	dengan	dengan	ADP	IN	_	4	case	_	_
 4	rencana	rencana	NOUN	NN	Number=Sing	2	obl	_	_
@@ -3684,7 +3684,7 @@
 # sent_id = csui-test-117
 # text = Namun Simon Clark, direktur kelompok lobi untuk perokok Forest, mengatakan menyalahkan olahragawan idola sebagai penyebab remaja merokok tidaklah tepat.
 # text_en = But Simon Clark, director of the lobby group for smokers Forest, said blaming idol sportsmen for causing teens to smoke was inappropriate.
-1	Namun	namun	CCONJ	CC	_	12	cc	_	_
+1	Namun	namun	ADV	RB	_	12	advmod	_	_
 2	Simon	Simon	PROPN	NNP	_	12	nsubj	_	_
 3	Clark	Clark	PROPN	NNP	_	2	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	2	punct	_	_
@@ -5334,7 +5334,7 @@
 # sent_id = csui-test-168
 # text = Namun, peringkat tersebut diperlemah oleh relatif tingginya level leverage LTLS dan eksposure perseroan terhadap fluktuasi valuta asing.
 # text_en = However, the rating is weakened by the relatively high level of LTLS leverage and the company's exposure to foreign exchange fluctuations.
-1	Namun	namun	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	RB	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	5	punct	_	_
 3	peringkat	peringkat	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
 4	tersebut	sebut	DET	DT	_	3	det	_	_
@@ -6438,7 +6438,7 @@
 # sent_id = csui-test-200
 # text = Sedangkan sisanya sebesar 17 persen digolongkan sebagai kredit bermasalah komersial dan konsumsi, yang walaupun meningkat di 2006 tetapi dari basis yang rendah, dengan rasio kredit bermasalah dari kedua segmen tersebut meningkat menjadi 2,1 persen di akhir tahun 2006 dari 1,7 persen di akhir 2005.
 # text_en = While the remaining 17 percent is classified as commercial and consumer non-performing loans, which although increased in 2006 but from a low basis, with the ratio of non-performing loans from both segments increasing to 2.1 percent at the end of 2006 from 1.7 percent at the end of 2005. .
-1	Sedangkan	sedangkan	CCONJ	CC	_	7	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	7	advmod	_	_
 2-3	sisanya	_	_	_	_	_	_	_	_
 2	sisa	sisa	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
 3	nya	nya	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -6493,7 +6493,7 @@
 # sent_id = csui-test-201
 # text = Sedangkan untuk nilai penjualan mengalami peningkatan karena didorong oleh harga jual rata-rata CPO perseroan sebesar 66,1 persen atau menjadi Rp5.763 per kg.
 # text_en = Meanwhile, the sales value increased because it was driven by the company's average CPO selling price of 66.1 percent or Rp. 5,763 per kg.
-1	Sedangkan	sedangkan	CCONJ	CC	_	19	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	5	advmod	_	_
 2	untuk	untuk	ADP	IN	_	3	case	_	_
 3	nilai	nilai	NOUN	NN	Number=Sing	5	obl	_	_
 4	penjualan	jual	NOUN	NN	Number=Sing	3	nmod	_	_
@@ -6635,7 +6635,7 @@
 # sent_id = csui-test-205
 # text = Namun demikian rating ini sama dengan peringkat ekspektasi yang diberikan di bulan April 2007.
 # text_en = However, this rating is the same as the expected rating given in April 2007.
-1	Namun	namun	CCONJ	CC	_	5	cc	_	_
+1	Namun	namun	ADV	RB	_	5	advmod	_	_
 2	demikian	demikian	PRON	PRP	PronType=Dem	5	obl	_	_
 3	rating	rating	X	FW	Foreign=Yes	5	obl	_	_
 4	ini	ini	DET	DT	PronType=Dem	3	det	_	_
@@ -7277,7 +7277,7 @@
 # sent_id = csui-test-223
 # text = Namun saat ini perseroan juga menyediakan juga kebutuhan pesawat untuk perusahaan travel.
 # text_en = However, at this time the company also provides aircraft needs for travel companies.
-1	Namun	namun	CCONJ	CC	_	6	cc	_	_
+1	Namun	namun	ADV	RB	_	6	advmod	_	_
 2	saat	saat	NOUN	NN	Number=Sing	6	nsubj	_	_
 3	ini	ini	DET	DT	PronType=Dem	2	det	_	_
 4	perseroan	perseroan	NOUN	NN	Number=Sing	6	nsubj	_	_
@@ -7499,7 +7499,7 @@
 # sent_id = csui-test-231
 # text = Namun produksi ini mengalami penurunan 8,7 persen dibanding periode Januari-Oktober 2006 yang mencapai 761.253 ton.
 # text_en = However, this production decreased by 8.7 percent compared to the period January-October 2006 which reached 761,253 tons.
-1	Namun	namun	CCONJ	CC	_	4	cc	_	_
+1	Namun	namun	ADV	RB	_	4	advmod	_	_
 2	produksi	produksi	NOUN	NN	Number=Sing	4	nsubj	_	_
 3	ini	ini	DET	DT	PronType=Dem	2	det	_	_
 4	mengalami	alam	VERB	VB	Voice=Act	0	root	_	_
@@ -7558,7 +7558,7 @@
 # sent_id = csui-test-233
 # text = Sedangkan Anggaran Pendapatan dan Belanja Negara (APBN) 2007 sebesar Rp763 triliun dengan alokasi untuk pemerintah pusat dan daerah masing-masing Rp504 dan Rp259 triliun.
 # text_en = Meanwhile, the 2007 State Revenue and Expenditure Budget (APBN) was Rp. 763 trillion with allocations for the central and regional governments of Rp. 504 and Rp. 259 trillion, respectively.
-1	Sedangkan	sedangkan	CCONJ	CC	_	11	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	11	advmod	_	_
 2	Anggaran	Anggaran	NOUN	NN	Number=Sing	11	nmod	_	_
 3	Pendapatan	Pendapatan	NOUN	NN	Number=Sing	2	nmod	_	_
 4	dan	dan	CCONJ	CC	_	5	cc	_	_
@@ -7640,8 +7640,8 @@
 # sent_id = csui-test-235
 # text = Selain itu, kurangnya pasokan gas menyebabkan produksi urea tidak maksimal.
 # text_en = In addition, the lack of gas supply causes urea production to be not optimal.
-1	Selain	selain	ADP	IN	_	2	case	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	8	obl	_	SpaceAfter=No
+1	Selain	selain	ADP	IN	_	8	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	8	punct	_	_
 4-5	kurangnya	_	_	_	_	_	_	_	_
 4	kurang	kurang	ADJ	JJ	_	8	advcl	_	_
@@ -8495,8 +8495,8 @@
 # sent_id = csui-test-264
 # text = Namun demikian, BI mencermati sentimen negatif yang bisa mempengaruhi perekonomian Indonesia seperti sentimen ekspektasi terhadap tekanan inflasi menjelang akhir 2007.
 # text_en = However, BI is keeping a close watch on negative sentiments that could affect the Indonesian economy, such as sentiment on expectations of inflationary pressure towards the end of 2007.
-1	Namun	namun	CCONJ	CC	_	5	cc	_	_
-2	demikian	demikian	PRON	PRP	PronType=Dem	5	nsubj	_	SpaceAfter=No
+1	Namun	namun	ADV	RB	_	5	advmod	_	MWEPOS=ADV
+2	demikian	demikian	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	BI	BI	PROPN	NNP	_	5	nsubj	_	_
 5	mencermati	cermat	VERB	VB	Voice=Act	0	root	_	_
@@ -8927,7 +8927,7 @@
 # sent_id = csui-test-279
 # text = Sedangkan target laba bersih 2007 sebesar Rp30 miliar atau naik dibandingkan 2006 sebesar Rp28,6 miliar.
 # text_en = Meanwhile, the 2007 net profit target was Rp. 30 billion, an increase compared to 2006 which was Rp. 28.6 billion.
-1	Sedangkan	sedangkan	CCONJ	CC	_	11	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	11	advmod	_	_
 2	target	target	NOUN	NN	Number=Sing	3	nmod	_	_
 3	laba	laba	NOUN	NN	Number=Sing	6	nmod	_	_
 4	bersih	bersih	ADJ	JJ	_	3	amod	_	_
@@ -9393,7 +9393,7 @@
 # sent_id = csui-test-295
 # text = Sedangkan kredit Komersial dan Usaha Kecil dan Menengah (UKM) tumbuh 16,1 persen menjadi Rp29,2 triliun dan Kredit Konsumer turun 4,9 persen menjadi Rp8,5 triliun terutama disebabkan oleh penurunan Kredit Kendaraan Bermotor yang turun 40,9 persen menjadi Rp2,5 triliun.
 # text_en = Meanwhile, Commercial and Small and Medium Enterprises (SMEs) loans grew 16.1 percent to Rp29.2 trillion and Consumer Loans fell 4.9 percent to Rp8.5 trillion, mainly due to a decrease in Motor Vehicle Loans, which fell 40.9 percent to Rp2. 5 trillion.
-1	Sedangkan	sedangkan	CCONJ	CC	_	22	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	22	advmod	_	_
 2	kredit	kredit	NOUN	NN	Number=Sing	12	nsubj	_	_
 3	Komersial	Komersial	ADJ	JJ	_	2	amod	_	_
 4	dan	dan	CCONJ	CC	_	5	cc	_	_
@@ -9683,7 +9683,7 @@
 # sent_id = csui-test-303
 # text = Sedangkan jika dibandingkan dengan semester I 2006, pertumbuhan tiga sektor tersebut adalah pengangkutan - komunikasi tumbuh 11,9 persen, listrik - gas - air bersih 10,5 persen dan sektor perdagangan - hotel restoran 8,3 persen.
 # text_en = Meanwhile, when compared to the first semester of 2006, the growth of the three sectors was transportation - communication grew 11.9 percent, electricity - gas - clean water 10.5 percent and trade sector - hotel restaurant 8.3 percent.
-1	Sedangkan	sedangkan	CCONJ	CC	_	14	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	14	advmod	_	_
 2	jika	jika	SCONJ	IN	_	3	mark	_	_
 3	dibandingkan	banding	VERB	VB	Voice=Pass	14	advcl	_	_
 4	dengan	dengan	ADP	IN	_	5	case	_	_
@@ -10042,7 +10042,7 @@
 # sent_id = csui-test-317
 # text = Namun ia tidak menyebutkan nilai transaksi dan porsi kepemilikan saham pada PT Nibung Arthamulia tersebut.
 # text_en = However, he did not mention the transaction value and share ownership in PT Nibung Arthamulia.
-1	Namun	namun	CCONJ	CC	_	4	cc	_	_
+1	Namun	namun	ADV	RB	_	4	advmod	_	_
 2	ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 3	tidak	tidak	PART	RP	Polarity=Neg	4	advmod	_	_
 4	menyebutkan	sebut	VERB	VB	Voice=Act	0	root	_	_
@@ -10715,7 +10715,7 @@
 # sent_id = csui-test-345
 # text = Sedangkan untuk obligasi negara dalam mata uang rupiah, Pemerintah telah menerbitkan obligasi negara berbunga tetap hingga Rp263,38 triliun, yang terdiri atas Rp253,863 triliun berupa Surat Utang Negara atau SUN dan Rp9,516 triliun berupa Obligasi Negara Ritel atau ORI.
 # text_en = As for government bonds denominated in rupiah, the Government has issued fixed-interest government bonds of up to Rp.263.38 trillion, consisting of Rp.253.863 trillion in the form of Government Securities or SUN and Rp.9.516 trillion in the form of Retail Government Bonds or ORI.
-1	Sedangkan	sedangkan	CCONJ	CC	_	12	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	12	advmod	_	_
 2	untuk	untuk	ADP	IN	_	3	case	_	_
 3	obligasi	obligasi	NOUN	NN	Number=Sing	12	obl	_	_
 4	negara	negara	NOUN	NN	Number=Sing	3	nmod	_	_
@@ -10854,7 +10854,7 @@
 # sent_id = csui-test-348
 # text = Sedangkan konsumsi pemerintah tumbuh 8,9 persen yang terdiri atas, pertumbuhan belanja pegawai 55,8 persen, belanja barang 10,1 persen, belanja lainnya 47,2 persen, dan belanja daerah -4,9 persen.
 # text_en = Meanwhile, government consumption grew by 8.9 percent, consisting of 55.8 percent growth in personnel spending, 10.1 percent in goods spending, 47.2 percent in other spending, and -4.9 percent in regional spending.
-1	Sedangkan	sedangkan	CCONJ	CC	_	4	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	4	advmod	_	_
 2	konsumsi	konsumsi	NOUN	NN	Number=Sing	4	nsubj	_	_
 3	pemerintah	perintah	NOUN	NN	Number=Sing	2	nmod	_	_
 4	tumbuh	tumbuh	VERB	VB	Voice=Act	0	root	_	_
@@ -11191,7 +11191,7 @@
 # sent_id = csui-test-358
 # text = Namun peringkat tersebut diperlemah oleh agresifnya ekspansi perusahaan yang akan mengarah pada tingginya leverage keuangan dan potensi tingginya risiko perusahaan terhadap fluktuasi mata uang asing maupun persaingan di industri yang makin ketat.
 # text_en = However, the rating is weakened by the company's aggressive expansion which will lead to high financial leverage and the potential high risk of the company to foreign currency fluctuations as well as increasingly tight competition in the industry.
-1	Namun	namun	CCONJ	CC	_	4	cc	_	_
+1	Namun	namun	ADV	RB	_	4	advmod	_	_
 2	peringkat	peringkat	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
 3	tersebut	sebut	DET	DT	_	2	det	_	_
 4	diperlemah	lemah	VERB	VB	Voice=Pass	0	root	_	_
@@ -11567,7 +11567,7 @@
 # sent_id = csui-test-370
 # text = Namun menurut dia, tingkat suku bunga dapat ditekan bila persaingan bisnis perbankan makin kompetitif sehingga intermediasi perbankan pun semakin membaik.
 # text_en = However, according to him, interest rates can be reduced if the banking business competition becomes more competitive so that banking intermediation will improve.
-1	Namun	namun	CCONJ	CC	_	9	cc	_	_
+1	Namun	namun	ADV	RB	_	9	advmod	_	_
 2	menurut	turut	ADP	IN	_	3	case	_	_
 3	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	9	punct	_	_

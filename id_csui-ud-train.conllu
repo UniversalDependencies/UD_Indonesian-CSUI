@@ -1790,8 +1790,8 @@
 # sent_id = csui-train-56
 # text = Selain itu, pemerintah juga telah menerbitkan obligasi negara dalam rupiah dengan bunga tidak tetap hingga Rp175,443 triliun.
 # text_en = In addition, the government has also issued state bonds in rupiah with variable interest rates of up to Rp175,443 trillion.
-1	Selain	selain	ADP	IN	_	2	case	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	7	obl	_	SpaceAfter=No
+1	Selain	selain	ADP	IN	_	7	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	7	punct	_	_
 4	pemerintah	perintah	NOUN	NN	Number=Sing	7	nsubj	_	_
 5	juga	juga	ADV	RB	_	7	advmod	_	_
@@ -3113,7 +3113,7 @@
 # sent_id = csui-train-96
 # text = Namun di sisi harga, kenaikan harga CPO dunia yang cukup tinggi menyebabkan harga jual rata-rata CPO dan kernel AALI meningkat masing-masing sebesar 43 persen dan 22,9 persen.
 # text_en = However, on the price side, the high increase in world CPO prices caused the average selling price of CPO and AALI kernels to increase by 43 percent and 22.9 percent, respectively.
-1	Namun	namun	ADV	CC	_	13	advmod	_	_
+1	Namun	namun	ADV	RB	_	13	advmod	_	_
 2	di	di	ADP	IN	_	3	case	_	_
 3	sisi	sisi	NOUN	NN	Number=Sing	13	obl	_	_
 4	harga	harga	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
@@ -4941,7 +4941,7 @@
 # sent_id = csui-train-151
 # text = Sedangkan untuk tahun 2008, pemerintah telah menyiapkan perubahan parameter yang mungkin terjadi dengan membuat beberapa perhitungan harga minyak, konsumsi minyak, produksi minyak dan nilai tukar rupiah.
 # text_en = As for 2008, the government has prepared parameter changes that may occur by making several calculations of oil prices, oil consumption, oil production and the rupiah exchange rate.
-1	Sedangkan	sedangkan	CCONJ	CC	_	8	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	8	advmod	_	_
 2	untuk	untuk	ADP	IN	_	3	case	_	_
 3	tahun	tahun	NOUN	NN	Number=Sing	8	obl:tmod	_	_
 4	2008	2008	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
@@ -5688,7 +5688,7 @@
 # sent_id = csui-train-175
 # text = Sedangkan Dirjen Pajak Depkeu, Darmin Nasution mengatakan pihaknya menyambut baik dukungan masyarakat internasional terhadap reformasi perpajakan yang tengah dilakukan pihaknya.
 # text_en = Meanwhile, the Director General of Taxes at the Ministry of Finance, Darmin Nasution, said that his party welcomes the international community's support for the tax reforms that are being carried out by his party.
-1	Sedangkan	sedangkan	CCONJ	CC	_	8	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	8	advmod	_	_
 2	Dirjen	Dirjen	PROPN	NNP	_	8	nsubj	_	_
 3	Pajak	Pajak	PROPN	NNP	_	2	flat:name	_	_
 4	Depkeu	Depkeu	PROPN	NNP	_	2	flat:name	_	SpaceAfter=No
@@ -7158,7 +7158,7 @@
 # sent_id = csui-train-223
 # text = Sedangkan outstanding pinjaman LN pada akhir triwulan I/2006 mencapai 134,627 miliar dolar AS, turun menjadi 129,934 miliar dolar AS pada akhir triwulan II/2006, dan menjadi 127,528 miliar dolar AS pada akhir triwulan III/2006.
 # text_en = Meanwhile, outstanding foreign loans at the end of quarter I/2006 reached USD 134,627 billion, decreased to USD 129.934 billion at the end of quarter II/2006, and became USD 127,528 billion at the end of quarter III/2006.
-1	Sedangkan	sedangkan	CCONJ	CC	_	9	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	9	advmod	_	_
 2	outstanding	outstanding	X	FW	Foreign=Yes	9	nsubj	_	_
 3	pinjaman	pinjam	NOUN	NN	Number=Sing	2	nmod	_	_
 4	LN	LN	NOUN	NN	Number=Sing	3	nmod	_	_
@@ -8050,7 +8050,7 @@
 # sent_id = csui-train-247
 # text = Sedangkan untuk penarikan pinjaman LN pada 2007, kata Paskah, berdasarkan kesepakatan dengan Panitia Anggaran DPR jumlahnya mencapai 4,3 miliar dolar AS, yang terdiri atas 1,76 miliar dolar AS pinjaman program dan 2,5 miliar dolar AS.
 # text_en = As for the withdrawal of foreign loans in 2007, said Easter, based on an agreement with the House Budget Committee, the amount reached US$4.3 billion, consisting of US$1.76 billion in program loans and US$2.5 billion.
-1	Sedangkan	sedangkan	CCONJ	CC	_	20	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	20	advmod	_	_
 2	untuk	untuk	ADP	IN	_	3	case	_	_
 3	penarikan	tarik	NOUN	NN	Number=Sing	20	obl	_	_
 4	pinjaman	pinjam	NOUN	NN	Number=Sing	3	nmod	_	_
@@ -8671,8 +8671,8 @@
 # text = "Selain itu, lahan-lahan kritis yang selama ini kosong atau kurang dimanfaatkan akan lebih produktif," katanya.
 # text_en = "In addition, critical lands that have been empty or underutilized will be more productive," he said.
 1	"	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
-2	Selain	Selain	ADP	IN	_	3	case	_	_
-3	itu	itu	PRON	PRP	PronType=Dem	16	obl	_	SpaceAfter=No
+2	Selain	Selain	ADP	IN	_	16	advmod	_	MWEPOS=ADV
+3	itu	itu	PRON	PRP	PronType=Dem	2	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	16	punct	_	_
 5	lahan-lahan	lahan	NOUN	NN	Number=Plur	16	nsubj	_	_
 6	kritis	kritis	ADJ	JJ	_	5	amod	_	_
@@ -9156,8 +9156,8 @@
 # sent_id = csui-train-280
 # text = Selain itu, juga meminimalkan biaya dan tingkat risiko utang, serta menyempurnakan struktur portofolio utang.
 # text_en = In addition, it also minimizes the cost and level of debt risk, and improves the structure of the debt portfolio.
-1	Selain	selain	ADP	IN	_	2	case	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	5	obl	_	SpaceAfter=No
+1	Selain	selain	ADP	IN	_	5	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	juga	juga	ADV	RB	_	5	advmod	_	_
 5	meminimalkan	minimal	VERB	VB	Voice=Act	0	root	_	_
@@ -9427,8 +9427,8 @@
 # sent_id = csui-train-287
 # text = Selain itu, ucapnya pemegang saham juga mengangkat kembali Eddie A Arsyad, Ciho D Bangun dan Dirk Theuninck sebagai Direktur-Direktur Perseroan yang akan bekerja sampai penutupan RUPS tahunan 2009.
 # text_en = In addition, he said, shareholders also reappointed Eddie A Arsyad, Ciho D Bangun and Dirk Theuninck as Directors of the Company who will work until the closing of the 2009 Annual General Meeting of Shareholders.
-1	Selain	selain	ADP	IN	_	2	case	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	9	obl	_	SpaceAfter=No
+1	Selain	selain	ADP	IN	_	9	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	_	_
 4-5	ucapnya	_	_	_	_	_	_	_	_
 4	ucap	ucap	VERB	VB	Voice=Act	9	parataxis	_	_
@@ -9536,8 +9536,8 @@
 # sent_id = csui-train-290
 # text = Selain itu, kenaikan harga minyak mentah dunia juga telah mendorong stabilitas nilai tukar rupiah mengingat pada November 2007 rata-rata nilai tukar rupiah Rp9.107 per dolar AS.
 # text_en = In addition, the increase in world crude oil prices has also boosted the stability of the rupiah exchange rate considering that in November 2007 the average exchange rate of the rupiah was Rp9,107 per US dollar.
-1	Selain	selain	ADP	IN	_	2	case	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	11	obl	_	SpaceAfter=No
+1	Selain	selain	ADP	IN	_	11	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	11	punct	_	_
 4	kenaikan	naik	NOUN	NN	Number=Sing	11	nsubj	_	_
 5	harga	harga	NOUN	NN	Number=Sing	4	nmod	_	_
@@ -11478,7 +11478,7 @@
 # sent_id = csui-train-353
 # text = Sedangkan rasio kecukupan modal sebesar 22,4 persen.
 # text_en = Meanwhile, the capital adequacy ratio is 22.4 percent.
-1	Sedangkan	sedangkan	CCONJ	CC	_	5	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	5	advmod	_	_
 2	rasio	rasio	NOUN	NN	Number=Sing	5	nmod	_	_
 3	kecukupan	cukup	NOUN	NN	Number=Sing	2	nmod	_	_
 4	modal	modal	NOUN	NN	Number=Sing	2	nmod	_	_
@@ -11518,7 +11518,7 @@
 # sent_id = csui-train-356
 # text = Sedangkan untuk net buy saham oleh investor asing non-residence mencapai Rp17,3 triliun dari posisi awal tahun Rp2,1 triliun.
 # text_en = Meanwhile, the net buy of shares by non-resident foreign investors reached Rp. 17.3 trillion from the initial position of Rp. 2.1 trillion.
-1	Sedangkan	sedangkan	CCONJ	CC	_	10	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	10	advmod	_	_
 2	untuk	untuk	ADP	IN	_	3	case	_	_
 3	net	net	X	FW	Foreign=Yes	10	obl	_	_
 4	buy	buy	X	FW	Foreign=Yes	3	flat:foreign	_	_
@@ -14276,7 +14276,7 @@
 # sent_id = csui-train-444
 # text = Sedangkan untuk tahun yang berakhir Desember 2006, perseroan membukukan laba bersih Rp272,58 miliar, turun 8,16 persen dibanding periode sama tahun sebelumnya Rp296,82 miliar.
 # text_en = Meanwhile, for the year ending December 2006, the company posted a net profit of Rp272.58 billion, a decrease of 8.16% compared to the same period the previous year of Rp296.82 billion.
-1	Sedangkan	sedangkan	CCONJ	CC	_	10	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	10	advmod	_	_
 2	untuk	untuk	ADP	IN	_	3	case	_	_
 3	tahun	tahun	NOUN	NN	Number=Sing	10	obl:tmod	_	_
 4	yang	yang	PRON	IN	PronType=Rel	5	nsubj	_	_
@@ -16428,7 +16428,7 @@
 # sent_id = csui-train-511
 # text = Sedangkan industri motor yang tahun lalu minus 30 persen, tahun ini sudah positif 16 persen.
 # text_en = While the motorcycle industry last year was minus 30 percent, this year it has been positive 16 percent.
-1	Sedangkan	sedangkan	CCONJ	CC	_	2	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	2	advmod	_	_
 2	industri	industri	NOUN	NN	Number=Sing	14	obl	_	_
 3	motor	motor	NOUN	NN	Number=Sing	2	nmod	_	_
 4	yang	yang	PRON	IN	PronType=Rel	7	nsubj	_	_
@@ -17616,8 +17616,8 @@
 # sent_id = csui-train-549
 # text = Selain itu, lanjut, kenaikan ini juga didorong produksi nikel semester pertama yang naik 18 persen menjadi 39.100 ton 86,1 juta pon dari 32.200 ton 73,3 juta pon pada enam bulan pertama 2006.
 # text_en = In addition, he continued, this increase was also driven by nickel production in the first half, which rose 18 percent to 39,100 tons 86.1 million pounds from 32,200 tons 73.3 million pounds in the first six months of 2006.
-1	Selain	selain	ADP	IN	_	2	case	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	9	obl	_	SpaceAfter=No
+1	Selain	selain	ADP	IN	_	9	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	_	_
 4	lanjut	lanjut	VERB	VB	Voice=Act	9	parataxis	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
@@ -18205,7 +18205,7 @@
 # sent_id = csui-train-565
 # text = Sedangkan penerimaan pemerintah, katanya, dianggap masih positif dan diperkuat masuknya dana penjualan obligasi internasional pada Februari lalu.
 # text_en = Meanwhile, the government's revenue, he said, was still considered positive and strengthened by the entry of funds from the sale of international bonds last February.
-1	Sedangkan	sedangkan	CCONJ	CC	_	12	cc	_	_
+1	Sedangkan	sedangkan	ADV	RB	_	12	advmod	_	_
 2	penerimaan	terima	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
 3	pemerintah	perintah	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	_	_
@@ -18390,8 +18390,8 @@
 # sent_id = csui-train-571
 # text = Selain itu, pertemuan bilateral dengan Jepang yang berlangsung Sabtu pagi (05-May) juga membicarakan mengenai kerja sama negara-negara Asean dengan mitra bisnisnya, yakni Jepang, China dan Korea Selatan, atau dikenal dengan istilah Asean + 3.
 # text_en = In addition, the bilateral meeting with Japan which took place on Saturday morning (05-May) also discussed the cooperation between Asean countries and their business partners, namely Japan, China and South Korea, otherwise known as Asean + 3.
-1	Selain	selain	ADP	IN	_	2	case	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	16	obl	_	SpaceAfter=No
+1	Selain	selain	ADP	IN	_	16	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	16	punct	_	_
 4	pertemuan	temu	NOUN	NN	Number=Sing	16	nsubj	_	_
 5	bilateral	bilateral	ADJ	JJ	_	4	amod	_	_
