@@ -30,15 +30,13 @@ Other characteristics of the treebank:
 
 * 2021-11-15 v2.9
   * added text_en (translation of each sentence to English, generated using Google Translate)
-  * removed feature Poss (Poss=Yes)
+  * removed feature Poss (value:Yes)
   * added features NumType (values: Card, Ord), Polite (values: Form, Infm), and Definite (values: Ind, Def)
   * fixed FEATS columns for various words
-  * fixed the annotations for "di mana" (where)
-  * fixed the annotations for "yang" 
+  * fixed the annotations for "di mana" (where), "yang" (which), "sementara itu" (meanwhile), "oleh karena itu" (therefore)
 
 * 2020-11-15 v2.7
   * Initial release in Universal Dependencies.
-
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================

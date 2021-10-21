@@ -674,8 +674,8 @@
 # sent_id = csui-train-22
 # text = Sementara itu, saat ini BCA dan Mandiri menjadi sindikasi untuk menyalurkan kredit bagi investasi jalan tol Jagorawi-Cinere.
 # text_en = Meanwhile, currently BCA and Mandiri are syndicated to channel credit for investment in the Jagorawi-Cinere toll road.
-1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	9	advcl	_	SpaceAfter=No
+1	Sementara	sementara	SCONJ	IN	_	9	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	9	punct	_	_
 4	saat	saat	NOUN	NN	Number=Sing	9	nsubj	_	_
 5	ini	ini	DET	DT	PronType=Dem	4	det	_	_
@@ -2214,9 +2214,9 @@
 # sent_id = csui-train-69
 # text = Oleh karena itu, rata-rata nilai tukar per dolar AS pada 2007 akan berada pada kisaran Rp9.050 hingga Rp9.125.
 # text_en = Therefore, the average exchange rate per US dollar in 2007 will be in the range of Rp 9,050 to Rp 9,125.
-1	Oleh	oleh	ADP	IN	_	3	case	_	_
-2	karena	karena	ADP	IN	_	3	case	_	_
-3	itu	itu	PRON	PRP	PronType=Dem	14	obl	_	SpaceAfter=No
+1	Oleh	oleh	ADP	IN	_	14	advmod	_	MWEPOS=ADV
+2	karena	karena	ADP	IN	_	1	fixed	_	_
+3	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	14	punct	_	_
 5	rata-rata	rata	NOUN	NN	Number=Sing	14	nsubj	_	_
 6	nilai	nilai	NOUN	NN	Number=Sing	5	nmod	_	_
@@ -2471,7 +2471,7 @@
 # sent_id = csui-train-77
 # text = Sementara itu, Dirjend Industri Logam Mesin Tekstil Departemen Perindustrian Ansari Bukhari mengatakan sebenarnya pembiayaan perbankan ke sektor TPT masih cukup baik karena banyak nasabah dari industri TPT yang cukup bagus.
 # text_en = Meanwhile, Director General of Metal, Machinery, Textile Industry, Ministry of Industry, Ansari Bukhari, said that actually banking financing to the textile sector is still quite good because many customers from the textile industry are quite good.
-1	Sementara	sementara	ADV	IN	_	13	advmod	_	_
+1	Sementara	sementara	SCONJ	IN	_	13	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	13	punct	_	_
 4	Dirjend	Dirjend	PROPN	NNP	_	13	nsubj	_	_
@@ -5124,7 +5124,7 @@
 21	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = csui-train-157
-# text = Secara fundamental perbankan kita lebih kuat seperti kita lihat dalam kejadian ` subprime mortgage 'misalnya.
+# text = Secara fundamental perbankan kita lebih kuat seperti kita lihat dalam kejadian `subprime mortgage' misalnya.
 # text_en = Fundamentally, our banking sector is stronger, as we can see in the `subprime mortgage' incident, for example.
 1	Secara	cara	ADP	IN	_	2	case:adv	_	_
 2	fundamental	fundamental	ADJ	JJ	_	6	advcl	_	_
@@ -5137,11 +5137,11 @@
 9	lihat	lihat	VERB	VB	Voice=Act	6	advcl	_	_
 10	dalam	dalam	ADP	IN	_	11	case	_	_
 11	kejadian	jadi	NOUN	NN	Number=Sing	9	obl	_	_
-12	`	`	PUNCT	``	_	13	punct	_	_
+12	`	`	PUNCT	``	_	13	punct	_	SpaceAfter=No
 13	subprime	subprime	X	FW	Foreign=Yes	11	nmod	_	_
-14	mortgage	mortgage	X	FW	Foreign=Yes	13	flat:foreign	_	_
-15	'	'	PUNCT	''	_	13	punct	_	SpaceAfter=No
-16	misalnya	misal	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	mortgage	mortgage	X	FW	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	'	'	PUNCT	''	_	13	punct	_	_
+16	misalnya	misal	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = csui-train-158
@@ -8095,8 +8095,8 @@
 # sent_id = csui-train-248
 # text = Sementara itu ia mengatakan meski masih ada sedikit hambatan berupa tingkat bunga yang masih dianggap tinggi dan belum menyesuaikan dengan BI Rate yang terus turun, namun intermediasi perbankan masih tetap berjalan.
 # text_en = Meanwhile, he said that although there are still a few obstacles in the form of interest rates that are still considered high and have not adjusted to the BI Rate which continues to fall, banking intermediation is still running.
-1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	4	advcl	_	_
+1	Sementara	sementara	SCONJ	IN	_	4	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	_
 5	meski	meski	SCONJ	IN	_	7	mark	_	_
@@ -9111,8 +9111,8 @@
 # sent_id = csui-train-279
 # text = Sementara itu, menurut Menteri Negara BUMN, Sugiharto, Bank Mandiri adalah bank yang berhasil menurunkan NPLnya dari 16,17 persen atau Rp16,2 triliun pada 2005 menjadi 6,06 persen atau sebesar Rp6,6 triliun pada tahun 2006.
 # text_en = Meanwhile, according to the Minister of State-Owned Enterprises, Sugiharto, Bank Mandiri is a bank that has succeeded in reducing its NPL from 16.17 percent or Rp. 16.2 trillion in 2005 to 6.06 percent or Rp. 6.6 trillion in 2006.
-1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	14	advcl	_	SpaceAfter=No
+1	Sementara	sementara	SCONJ	IN	_	14	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	14	punct	_	_
 4	menurut	turut	ADP	IN	_	5	case	_	_
 5	Menteri	Menteri	PROPN	NNP	_	14	nmod	_	_
@@ -10121,8 +10121,8 @@
 # sent_id = csui-train-307
 # text = Sementara itu mengenai kemungkinan para bankir takut memberikan kredit atas tuduhan korupsi Menkeu menjelaskan bahwa konsep tersebut sudah dibahas sehingga diharapkan kekhawatiran seperti itu tidak terjadi.
 # text_en = Meanwhile, regarding the possibility that bankers are afraid to give credit for allegations of corruption, the Minister of Finance explained that the concept has been discussed so that it is hoped that such concerns will not occur.
-1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	14	advcl	_	_
+1	Sementara	sementara	SCONJ	IN	_	14	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	mengenai	kena	ADP	IN	_	4	case	_	_
 4	kemungkinan	mungkin	NOUN	NN	Number=Sing	14	obl	_	_
 5	para	para	DET	DT	Number=Plur	6	det	_	_
@@ -10745,8 +10745,8 @@
 # sent_id = csui-train-328
 # text = Sementara itu, ujar dia, dividen interim untuk tahun 2006 sebesar 0,025 dolar AS per lembar saham telah dibayarkan sebelumnya pada tanggal lima Desember 2006, sehingga secara keseluruhan dividen tahun 2006 sebesar 0,525 dolar AS per lembar saham.
 # text_en = Meanwhile, he said, the interim dividend for 2006 of US$0.025 per share was previously paid on December 5, 2006, so that the overall dividend for 2006 was US$0.525 per share.
-1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	20	advcl	_	SpaceAfter=No
+1	Sementara	sementara	SCONJ	IN	_	20	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	_	_
 4	ujar	ujar	VERB	VB	Voice=Act	20	parataxis	_	_
 5	dia	dia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
@@ -11398,8 +11398,8 @@
 # sent_id = csui-train-350
 # text = Sementara itu, untuk paruh pertama 2007 ini, ia mengatakan NPI surplus sebesar 3,7 miliar dolar AS yang didorong oleh perbaikan kinerja neraca modal finansial.
 # text_en = Meanwhile, for the first half of 2007, he said the BOP had a surplus of US$3.7 billion, driven by the improvement in the performance of the financial capital account.
-1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	11	advcl	_	SpaceAfter=No
+1	Sementara	sementara	SCONJ	IN	_	11	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	11	punct	_	_
 4	untuk	untuk	ADP	IN	_	5	case	_	_
 5	paruh	paruh	NOUN	NN	Number=Sing	11	obl	_	_
@@ -13092,12 +13092,12 @@
 # sent_id = csui-train-407
 # text = Sementara itu tekanan inflasi sendiri didorong oleh kenaikan harga minyak dunia bersama dengan kenaikan harga komoditas primer global.
 # text_en = Meanwhile, inflationary pressure was driven by the increase in world oil prices along with the increase in global primary commodity prices.
-1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	0	root	_	_
-3	tekanan	tekan	NOUN	NN	Number=Sing	2	nmod	_	_
+1	Sementara	sementara	SCONJ	IN	_	6	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	_
+3	tekanan	tekan	NOUN	NN	Number=Sing	6	nsubj	_	_
 4	inflasi	inflasi	NOUN	NN	Number=Sing	3	nmod	_	_
 5	sendiri	sendiri	DET	DT	PronType=Emp	3	det	_	_
-6	didorong	dorong	VERB	VB	Voice=Pass	2	acl:relcl	_	_
+6	didorong	dorong	VERB	VB	Voice=Pass	0	root	_	_
 7	oleh	oleh	ADP	IN	_	8	case	_	_
 8	kenaikan	naik	NOUN	NN	Number=Sing	6	obl:agent	_	_
 9	harga	harga	NOUN	NN	Number=Sing	8	nmod	_	_
@@ -13110,7 +13110,7 @@
 16	komoditas	komoditas	NOUN	NN	Number=Sing	15	nmod	_	_
 17	primer	primer	ADJ	JJ	_	16	amod	_	_
 18	global	global	ADJ	JJ	_	16	amod	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	2	punct	_	_
+19	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = csui-train-408
 # text = Defisit anggaran dalam APBN 2007 mencapai Rp40,512 triliun, sedangkan obligasi negara yang jatuh tempo pada 2007 mencapai Rp24,49 triliun.
@@ -16477,8 +16477,8 @@
 # sent_id = csui-train-513
 # text = Sementara itu Net Interest Income (NII), pendapatan bunga bersih perbankan terus meningkat mencapai Rp7,9 triliun, yang merupakan angka tertinggi sejak krisis sembilan tahun lalu.
 # text_en = Meanwhile, Net Interest Income (NII), banking net interest income continued to increase to reach Rp7.9 trillion, which was the highest figure since the crisis nine years ago.
-1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	15	advcl	_	_
+1	Sementara	sementara	SCONJ	IN	_	15	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	Net	Net	X	FW	Foreign=Yes	15	nsubj	_	_
 4	Interest	Interest	X	FW	Foreign=Yes	3	flat:foreign	_	_
 5	Income	Income	X	FW	Foreign=Yes	3	flat:foreign	_	_
@@ -16691,7 +16691,7 @@
 # sent_id = csui-train-521
 # text = Sementara itu dolar AS terpuruk terhadap euro menjadi 13,836 bahkan diperkirakan akan mencapai 13,845, karena besar aksi lepas dolar AS.
 # text_en = Meanwhile, the US dollar slumped against the euro to 13,836 and is even expected to reach 13,845, due to the large release of the US dollar.
-1	Sementara	sementara	ADV	IN	_	5	advmod	_	_
+1	Sementara	sementara	SCONJ	IN	_	5	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	dolar	dolar	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
 4	AS	AS	PROPN	NNP	_	3	nmod	_	_
@@ -17009,8 +17009,8 @@
 # sent_id = csui-train-531
 # text = Sementara itu, berdasarkan data imigrasi dari KBRI Tokyo, tercatat sedikitnya 150 perusahaan top yang akan berkunjung ke Jakarta, mendampingi PM Abe, yang terdiri dari perusahaan top Jepang, mulai dari komunitas perbankan, industri otomotif, perusahaan konstruksi, hingga perusahaan yang bergerak di sektor energi.
 # text_en = Meanwhile, based on immigration data from the Indonesian Embassy in Tokyo, there are at least 150 top companies that will visit Jakarta, accompanying PM Abe, which consists of top Japanese companies, ranging from the banking community, the automotive industry, construction companies, to companies operating in the energy sector. .
-1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	11	advcl	_	SpaceAfter=No
+1	Sementara	sementara	SCONJ	IN	_	11	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	11	punct	_	_
 4	berdasarkan	dasar	VERB	VB	Voice=Act	11	advcl	_	_
 5	data	data	NOUN	NN	Number=Sing	4	obj	_	_
@@ -21131,7 +21131,7 @@
 # sent_id = csui-train-656
 # text = Sementara itu, terkait dengan asumsi nilai tukar dalam RAPBN 2008 sebesar Rp9.100 per dolar AS, Aslim mengatakan, masih realistis dan tetap searah dengan perkiraan BI.
 # text_en = Meanwhile, with regard to the exchange rate assumption in the 2008 RAPBN of Rp9,100 per US dollar, Aslim said, it is still realistic and remains in line with BI estimates.
-1	Sementara	sementara	ADV	IN	_	20	advmod	_	_
+1	Sementara	sementara	SCONJ	IN	_	20	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	1	punct	_	_
 4	terkait	kait	VERB	VB	Voice=Pass	20	advcl	_	_

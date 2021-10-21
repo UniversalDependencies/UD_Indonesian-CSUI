@@ -3701,8 +3701,8 @@
 15	idola	idola	NOUN	NN	Number=Sing	14	nmod	_	_
 16	sebagai	bagai	ADP	IN	_	17	case	_	_
 17	penyebab	sebab	NOUN	NN	Number=Sing	13	obl	_	_
-18	remaja	remaja	NOUN	NN	Number=Sing	17	nmod	_	_
-19	merokok	rokok	VERB	VB	Voice=Act	18	acl	_	_
+18	remaja	remaja	NOUN	NN	Number=Sing	19	nsubj	_	_
+19	merokok	rokok	VERB	VB	Voice=Act	17	acl	_	_
 20-21	tidaklah	_	_	_	_	_	_	_	_
 20	tidak	tidak	PART	RP	Polarity=Neg	22	advmod	_	_
 21	lah	lah	PART	RP	_	20	advmod:emph	_	_
@@ -3981,8 +3981,8 @@
 # sent_id = csui-test-126
 # text = Sementara itu, nilai tukar rupiah pada Oktober 2007 secara rata-rata menguat 2,2 persen dibandingkan September atau rata-rata Rp9.101 per dolar AS.
 # text_en = Meanwhile, the rupiah exchange rate in October 2007 strengthened an average of 2.2 percent compared to September or an average of Rp9,101 per US dollar.
-1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	12	advcl	_	SpaceAfter=No
+1	Sementara	sementara	SCONJ	IN	_	12	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	12	punct	_	_
 4	nilai	nilai	NOUN	NN	Number=Sing	12	nsubj	_	_
 5	tukar	tukar	NOUN	NN	Number=Sing	4	nmod	_	_
@@ -4424,8 +4424,8 @@
 # sent_id = csui-test-141
 # text = Sementara itu, ujarnya, konsumsi rumah tangga tumbuh 1,46 persen pada triwulan I 2007 dibanding periode sebelumnya, dan 4,71 persen secara 'year on year', yang terdiri atas 1,1 persen pertumbuhan konsumsi makanan, dan 3,92 persen pertumbuhan konsumsi bukan makanan.
 # text_en = Meanwhile, he said, household consumption grew by 1.46 percent in the first quarter of 2007 compared to the previous period, and 4.71 percent year on year, consisting of 1.1 percent growth in food consumption and 3.92 percent growth. non-food consumption.
-1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	10	advcl	_	SpaceAfter=No
+1	Sementara	sementara	SCONJ	IN	_	10	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	_	_
 4-5	ujarnya	_	_	_	_	_	_	_	SpaceAfter=No
 4	ujar	ujar	VERB	VB	Voice=Act	10	parataxis	_	_
@@ -4846,9 +4846,9 @@
 # sent_id = csui-test-153
 # text = Sementara itu, posisi ketiga adalah Thailand sebesar 11,4 miliar Ringgit 3,16 miliar dolar AS dan Indonesia berada di urutan ke-4 dengan nilai 4,7 miliar Ringgit.
 # text_en = Meanwhile, the third position is Thailand at 11.4 billion Ringgit 3.16 billion US dollars and Indonesia is in 4th place with a value of 4.7 billion Ringgit.
-1	Sementara	sementara	ADP	IN	_	2	case	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	7	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	,	_	2	punct	_	_
+1	Sementara	sementara	SCONJ	IN	_	7	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
 4	posisi	posisi	NOUN	NN	Number=Sing	7	nsubj	_	_
 5	ketiga	ketiga	ADJ	JJ	NumType=Ord	4	amod	_	_
 6	adalah	adalah	AUX	VBZ	_	7	cop	_	_
@@ -5777,8 +5777,8 @@
 # sent_id = csui-test-181
 # text = Sementara itu, suku bunga penjaminan untuk simpanan dalam bentuk dolar AS tetap dipertahankan pada level 4,75 persen
 # text_en = Meanwhile, the guarantee interest rate for deposits in US dollars was maintained at 4.75 percent
-1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	14	advcl	_	SpaceAfter=No
+1	Sementara	sementara	SCONJ	IN	_	14	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	14	punct	_	_
 4	suku	suku	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
 5	bunga	bunga	NOUN	NN	Number=Sing	4	nmod	_	_
@@ -5799,8 +5799,8 @@
 # sent_id = csui-test-182
 # text = Sementara itu Direktur Utama PT Mirantha Nuansa Ayu, Henry Sulysto, mengatakan, kerja sama dengan perusahaan penyewaan pesawat sangat diperlukan karena tidak mungkin perseroan menyediakan pesawat sendiri, karena risiko dan investasinya besar, kata Henry
 # text_en = Meanwhile, President Director of PT Mirantha Nuansa Ayu, Henry Sulysto, said that cooperation with aircraft rental companies is very necessary because it is impossible for the company to provide its own aircraft, because the risks and investments are large, said Henry.
-1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	13	advcl	_	_
+1	Sementara	sementara	SCONJ	IN	_	13	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	Direktur	Direktur	NOUN	NN	Number=Sing	13	nsubj	_	_
 4	Utama	Utama	ADJ	JJ	_	3	amod	_	_
 5	PT	PT	PROPN	NNP	_	3	nmod	_	_
@@ -6739,9 +6739,9 @@
 5	dengan	dengan	ADP	IN	_	6	case	_	_
 6	sektor	sektor	NOUN	NN	Number=Sing	4	obl	_	_
 7	primer	primer	ADJ	JJ	_	6	amod	_	_
-8	misalnya	misal	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	,	_	8	punct	_	_
-10	pertanian	tani	NOUN	NN	Number=Sing	8	appos	_	SpaceAfter=No
+8	misalnya	misal	ADP	NN	_	10	case	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	pertanian	tani	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	_	_
 12	pertambangan	tambang	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	_	_
@@ -6837,14 +6837,14 @@
 # sent_id = csui-test-212
 # text = Sementara itu, Menteri Keuangan Sri Mulyani menjelaskan, indikasi membaiknya sektor riil juga terlihat dari peningkatan penerimaan Pajak Penghasilan (PPh) dan Pajak Pertambahan Nilai (PPN) yang hingga akhir tahun bisa diperkirakan lebih tinggi dari rata-rata tingkat inflasi 6 persen.
 # text_en = Meanwhile, Minister of Finance Sri Mulyani explained, indications of improvement in the real sector can also be seen from the increase in income tax (PPh) and value added tax (VAT) revenues, which by the end of the year can be estimated to be higher than the average inflation rate of 6 percent.
-1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	0	root	_	SpaceAfter=No
+1	Sementara	sementara	SCONJ	IN	_	8	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
-4	Menteri	Menteri	PROPN	NNP	_	2	nmod	_	_
+4	Menteri	Menteri	PROPN	NNP	_	8	nsubj	_	_
 5	Keuangan	Keuangan	NOUN	NN	Number=Sing	4	nmod	_	_
-6	Sri	Sri	PROPN	NNP	_	4	flat:name	_	_
-7	Mulyani	Mulyani	PROPN	NNP	_	4	flat:name	_	_
-8	menjelaskan	jelas	VERB	VB	Voice=Act	4	acl:relcl	_	SpaceAfter=No
+6	Sri	Sri	PROPN	NNP	_	4	appos	_	_
+7	Mulyani	Mulyani	PROPN	NNP	_	6	flat:name	_	_
+8	menjelaskan	jelas	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
 10	indikasi	indikasi	NOUN	NN	Number=Sing	16	nsubj:pass	_	_
 11-12	membaiknya	_	_	_	_	_	_	_	_
@@ -6883,7 +6883,7 @@
 43	inflasi	inflasi	NOUN	NN	Number=Sing	41	nmod	_	_
 44	6	6	NUM	CD	NumType=Card	45	nummod	_	_
 45	persen	persen	NOUN	NN	Number=Sing	41	nmod	_	SpaceAfter=No
-46	.	.	PUNCT	.	_	4	punct	_	_
+46	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = csui-test-213
 # text = Akhir pekan lalu, Departemen Keuangan meminta direksi bank-bank BUMN untuk tidak takut dan ragu untuk mempercepat restrukturisasi NPL berdasar peraturan yang telah diterbitkan yaitu Peraturan Pemerintah (PP) Nomor 33 tahun 2006 dan Peraturan Menteri Keuangan (PMK) Nomor 87 tahun 2006.
@@ -10283,8 +10283,8 @@
 # sent_id = csui-test-325
 # text = Sementara itu sampai akhir 2007 perseroan menargetkan pendapatan sebesar Rp300 miliar atau naik dibandingkan 2006 hanya sebesar Rp204 miliar.
 # text_en = Meanwhile, until the end of 2007, the company targets a revenue of Rp300 billion, an increase compared to 2006 which was only Rp204 billion.
-1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	7	advcl	_	_
+1	Sementara	sementara	SCONJ	IN	_	7	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	sampai	sampai	ADP	IN	_	4	case	_	_
 4	akhir	akhir	NOUN	NN	Number=Sing	7	obl	_	_
 5	2007	2007	NUM	CD	NumType=Card	4	nummod	_	_
@@ -10632,8 +10632,8 @@
 # sent_id = csui-test-341
 # text = Sementara itu, pendapatan bukan bunga yang lebih tinggi berasal dari penjualan obligasi pemerintah di 2006.
 # text_en = Meanwhile, higher non-interest income came from selling government bonds in 2006.
-1	Sementara	sementara	SCONJ	IN	_	2	mark	_	_
-2	itu	itu	PRON	PRP	PronType=Dem	10	advcl	_	SpaceAfter=No
+1	Sementara	sementara	SCONJ	IN	_	10	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	10	punct	_	_
 4	pendapatan	dapat	NOUN	NN	Number=Sing	10	nsubj	_	_
 5	bukan	bukan	PART	RP	Polarity=Neg	4	advmod	_	_
