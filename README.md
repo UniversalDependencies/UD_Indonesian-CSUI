@@ -19,7 +19,7 @@ Other characteristics of the treebank:
 
 * The original constituency treebank was built with manual annotation by [Arawinda Dinakaramani, Fam Rashel, Andry Luthfi, and Ruli Manurung](https://github.com/famrashel/idn-treebank) at Faculty of Computer Science, Universitas Indonesia in 2015.
 * The previous treebank was converted to the Penn Treebank format by Ika Alfina and Jessica Naraiswari Arwidarasti at Faculty of Computer Science, Universitas Indonesia in 2019-2020. This PTB version was named [**Kethu**](https://github.com/ir-nlp-csui/kethu-id-ptb).
-* The Kethu treebank was converted to a UD treebank by Alfina et al. (2020).
+* The Kethu treebank was converted to this UD treebank by Alfina et al. (2020).
 * The lemma (LEMMA) and morphological features (FEATS) were generated using [Aksara](https://github.com/ir-nlp-csui/aksara) and manually corrected.
 
 ## References
