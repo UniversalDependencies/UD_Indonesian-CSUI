@@ -456,10 +456,10 @@
 14	724,5	724,5	NUM	CD	NumType=Card	13	nummod	_	_
 15	triliun	triliun	NUM	CD	NumType=Card	14	flat	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	20	punct	_	_
-17	sementara	sementara	CCONJ	CC	_	20	cc	_	_
+17	sementara	sementara	SCONJ	IN	_	20	mark	_	_
 18	belanja	belanja	NOUN	NN	Number=Sing	20	nsubj	_	_
 19	negara	negara	NOUN	NN	Number=Sing	18	nmod	_	_
-20	meningkat	tingkat	VERB	VB	Voice=Act	7	parataxis	_	_
+20	meningkat	tingkat	VERB	VB	Voice=Act	7	advcl	_	_
 21	menjadi	jadi	VERB	VB	Voice=Act	20	ccomp	_	_
 22	Rp	Rp	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
 23	774	774	NUM	CD	NumType=Card	22	nummod	_	_
@@ -674,7 +674,7 @@
 # sent_id = csui-train-22
 # text = Sementara itu, saat ini BCA dan Mandiri menjadi sindikasi untuk menyalurkan kredit bagi investasi jalan tol Jagorawi-Cinere.
 # text_en = Meanwhile, currently BCA and Mandiri are syndicated to channel credit for investment in the Jagorawi-Cinere toll road.
-1	Sementara	sementara	SCONJ	IN	_	9	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	9	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	9	punct	_	_
 4	saat	saat	NOUN	NN	Number=Sing	9	nsubj	_	_
@@ -758,9 +758,9 @@
 25	sama	sama	ADJ	JJ	_	24	amod	_	_
 26	sebelumnya	sebelumnya	ADV	RB	_	24	advmod	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	12	punct	_	_
-28	sedangkan	sedangkan	CCONJ	CC	_	30	cc	_	_
+28	sedangkan	sedangkan	SCONJ	IN	_	30	mark	_	_
 29	penjualan	jual	NOUN	NN	Number=Sing	30	nsubj	_	_
-30	naik	naik	VERB	VB	Voice=Act	12	parataxis	_	_
+30	naik	naik	VERB	VB	Voice=Act	12	advcl	_	_
 31	146	146	NUM	CD	NumType=Card	32	nummod	_	_
 32	persen	persen	NOUN	NN	Number=Sing	30	obj	_	_
 33	menjadi	jadi	VERB	VB	Voice=Act	30	advcl	_	_
@@ -1693,11 +1693,11 @@
 13	dolar	dolar	NOUN	NN	Number=Sing	10	obj	_	_
 14	AS	AS	PROPN	NNP	_	13	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	10	punct	_	_
-16	sedangkan	sedangkan	CCONJ	CC	_	20	cc	_	_
+16	sedangkan	sedangkan	SCONJ	IN	_	20	mark	_	_
 17	pada	pada	ADP	IN	_	18	case	_	_
 18	tahun	tahun	NOUN	NN	Number=Sing	20	obl:tmod	_	_
 19	ini	ini	DET	DT	PronType=Dem	18	det	_	_
-20	ditargetkan	target	VERB	VB	Voice=Pass	10	parataxis	_	_
+20	ditargetkan	target	VERB	VB	Voice=Pass	10	advcl	_	_
 21	mencapai	capai	VERB	VB	Voice=Act	20	ccomp	_	_
 22	10	10	NUM	CD	NumType=Card	24	nummod	_	_
 23	miliar	miliar	NUM	CD	NumType=Card	22	flat	_	_
@@ -2471,7 +2471,7 @@
 # sent_id = csui-train-77
 # text = Sementara itu, Dirjend Industri Logam Mesin Tekstil Departemen Perindustrian Ansari Bukhari mengatakan sebenarnya pembiayaan perbankan ke sektor TPT masih cukup baik karena banyak nasabah dari industri TPT yang cukup bagus.
 # text_en = Meanwhile, Director General of Metal, Machinery, Textile Industry, Ministry of Industry, Ansari Bukhari, said that actually banking financing to the textile sector is still quite good because many customers from the textile industry are quite good.
-1	Sementara	sementara	SCONJ	IN	_	13	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	13	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	13	punct	_	_
 4	Dirjend	Dirjend	PROPN	NNP	_	13	nsubj	_	_
@@ -2612,7 +2612,7 @@
 # sent_id = csui-train-81
 # text = Sementara untuk kenaikan rating individual dan peringkat nasional LPBN mencerminkan kemampuan mempertahankan neraca yang sehat, kualitas aset yang kuat, dan profitabilitas yang meningkat sejak dipimpin oleh tim manajemen yang diangkat oleh Khazanah.
 # text_en = Meanwhile, the increase in the individual rating and national rating of LPBN reflects the ability to maintain a healthy balance sheet, strong asset quality, and increased profitability since being led by a management team appointed by Khazanah.
-1	Sementara	sementara	SCONJ	IN	_	10	mark	_	_
+1	Sementara	sementara	ADV	RB	_	10	advmod	_	_
 2	untuk	untuk	ADP	IN	_	3	case	_	_
 3	kenaikan	naik	NOUN	NN	Number=Sing	10	obl	_	_
 4	rating	rating	X	FW	Foreign=Yes	3	nmod	_	_
@@ -2826,7 +2826,7 @@
 # sent_id = csui-train-87
 # text = Sementara penjualan bersihnya sendiri dalam periode tersebut masih meningkat 39,1 persen menjadi Rp1,12 triliun dan laba usahanya naik 49,8 persen menjadi Rp326,54 miliar.
 # text_en = Meanwhile, net sales in that period still increased 39.1 percent to Rp1.12 trillion and operating profit rose 49.8 percent to Rp326.54 billion.
-1	Sementara	sementara	SCONJ	IN	_	10	mark	_	_
+1	Sementara	sementara	ADV	RB	_	10	advmod	_	_
 2	penjualan	jual	NOUN	NN	Number=Sing	10	nsubj	_	_
 3-4	bersihnya	_	_	_	_	_	_	_	_
 3	bersih	bersih	ADJ	JJ	_	2	amod	_	_
@@ -5845,8 +5845,8 @@
 # sent_id = csui-train-180
 # text = Lebih lanjut Anwar menjelaskan bahwa penerapan tarif spesifik yaitu tarif cukai untuk per batang rokok ditujukan untuk mengurangi gap atau ketimpangan golongan tarif cukai yang ada saat ini.
 # text_en = Anwar further explained that the application of a specific tariff, namely the excise rate for per cigarette, is aimed at reducing the gap or inequality in the current excise rate class.
-1	Lebih	lebih	ADV	RB	_	2	advmod	_	_
-2	lanjut	lanjut	VERB	VB	Voice=Act	4	advcl	_	_
+1	Lebih	lebih	ADV	RB	_	4	advmod	_	_
+2	lanjut	lanjut	VERB	VB	Voice=Act	1	fixed	_	_
 3	Anwar	Anwar	PROPN	NNP	_	4	nsubj	_	_
 4	menjelaskan	jelas	VERB	VB	Voice=Act	0	root	_	_
 5	bahwa	bahwa	SCONJ	IN	_	16	mark	_	_
@@ -6427,11 +6427,11 @@
 19	persen	persen	NOUN	NN	Number=Sing	15	nmod	_	_
 20	dari	dari	ADP	IN	_	21	case	_	_
 21	APBN-P	APBN-P	PROPN	NNP	_	19	nmod	_	_
-22	sedangkan	sedangkan	CCONJ	CC	_	26	cc	_	_
+22	sedangkan	sedangkan	SCONJ	IN	_	26	mark	_	_
 23	belanja	belanja	NOUN	NN	Number=Sing	26	nmod	_	_
 24	ke	ke	ADP	IN	_	25	case	_	_
 25	daerah	daerah	NOUN	NN	Number=Sing	23	nmod	_	_
-26	Rp	Rp	NOUN	NN	Number=Sing	14	parataxis	_	SpaceAfter=No
+26	Rp	Rp	NOUN	NN	Number=Sing	14	advcl	_	SpaceAfter=No
 27	196,5	196,5	NUM	CD	NumType=Card	26	nummod	_	_
 28	triliun	triliun	NUM	CD	NumType=Card	27	flat	_	_
 29	77,3	77,3	NUM	CD	NumType=Card	30	nummod	_	_
@@ -6572,7 +6572,7 @@
 # sent_id = csui-train-203
 # text = Sementara sistem pengadaan dengan tender terbuka elektronis telah memperbaiki transparansi.
 # text_en = Meanwhile, the procurement system with electronic open tender has improved transparency.
-1	Sementara	sementara	SCONJ	IN	_	9	mark	_	_
+1	Sementara	sementara	ADV	RB	_	9	advmod	_	_
 2	sistem	sistem	NOUN	NN	Number=Sing	9	nsubj	_	_
 3	pengadaan	pengadaan	NOUN	NN	Number=Sing	2	nmod	_	_
 4	dengan	dengan	ADP	IN	_	5	case	_	_
@@ -6860,7 +6860,7 @@
 # sent_id = csui-train-213
 # text = Sementara wilayah NTT, NTB dan Labuhan Bajo sudah menjadi daerah tujuan wisata turis, namun transportasi yang menuju ke arah sana masih sangat kurang terutama pesawat udara.
 # text_en = While the areas of NTT, NTB and Labuhan Bajo have become tourist destinations, there is still very little transportation to get there, especially airplanes.
-1	Sementara	sementara	SCONJ	IN	_	10	mark	_	_
+1	Sementara	sementara	ADV	RB	_	10	advmod	_	_
 2	wilayah	wilayah	NOUN	NN	Number=Sing	10	nsubj	_	_
 3	NTT	NTT	PROPN	NNP	_	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	_	_
@@ -6962,7 +6962,7 @@
 # sent_id = csui-train-217
 # text = Sementara peringkat batas tertinggi obligasi dalam mata uang asing naik menjadi Ba2 dari Ba3.
 # text_en = Meanwhile, the highest limit rating for bonds denominated in foreign currencies rose to Ba2 from Ba3.
-1	Sementara	sementara	SCONJ	IN	_	10	mark	_	_
+1	Sementara	sementara	ADV	RB	_	10	advmod	_	_
 2	peringkat	peringkat	NOUN	NN	Number=Sing	10	nsubj	_	_
 3	batas	batas	NOUN	NN	Number=Sing	2	nmod	_	_
 4	tertinggi	tinggi	ADJ	JJ	Degree=Sup	2	amod	_	_
@@ -7044,7 +7044,7 @@
 # sent_id = csui-train-220
 # text = Sementara divisi kontraktor penambangan, kata dia, memberikan kontribusi pendapatan sebesar 41 persen dan sisanya pendapatan sebesar 8 persen disumbangkan oleh segmen usaha perseroan di bidang penjualan komoditas batu bara, melalui konsesi tambang batu bara PT Dasa Eka Jasatama (DEJ) yang sejak 30 April 2007 dimiliki sepenuhnya oleh perseroan.
 # text_en = Meanwhile, the mining contractor division, he said, contributed 41 percent of revenue and the remaining 8 percent of revenue was contributed by the company's business segment in the sale of coal commodities, through the coal mining concession of PT Dasa Eka Jasatama (DEJ), which since 30 April 2007 has been owned by the company. entirely by the company.
-1	Sementara	sementara	SCONJ	IN	_	9	mark	_	_
+1	Sementara	sementara	ADV	RB	_	9	advmod	_	_
 2	divisi	divisi	NOUN	NN	Number=Sing	9	nsubj	_	_
 3	kontraktor	kontraktor	NOUN	NN	Number=Sing	2	nmod	_	_
 4	penambangan	tambang	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
@@ -7249,14 +7249,14 @@
 20	di	di	ADP	IN	_	21	case	_	_
 21	Indonesia	Indonesia	PROPN	NNP	_	16	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	30	punct	_	_
-23	sedangkan	sedangkan	CCONJ	CC	_	30	cc	_	_
+23	sedangkan	sedangkan	SCONJ	IN	_	30	mark	_	_
 24	Governor	Governor	X	FW	Foreign=Yes	30	nsubj	_	_
 25	Bank	Bank	PROPN	NNP	_	24	nmod	_	_
 26	Dunia	Dunia	PROPN	NNP	_	25	flat:name	_	_
 27	di	di	ADP	IN	_	28	case	_	_
 28	Indonesia	Indonesia	PROPN	NNP	_	24	nmod	_	_
 29	adalah	adalah	AUX	VBZ	_	30	cop	_	_
-30	Menkeu	Menkeu	PROPN	NNP	_	16	conj	_	_
+30	Menkeu	Menkeu	PROPN	NNP	_	16	advcl	_	_
 31	Sri	Sri	PROPN	NNP	_	30	flat:name	_	_
 32	Mulyani	Mulyani	PROPN	NNP	_	30	flat:name	_	_
 33	Indrawati	Indrawati	PROPN	NNP	_	30	flat:name	_	SpaceAfter=No
@@ -8095,7 +8095,7 @@
 # sent_id = csui-train-248
 # text = Sementara itu ia mengatakan meski masih ada sedikit hambatan berupa tingkat bunga yang masih dianggap tinggi dan belum menyesuaikan dengan BI Rate yang terus turun, namun intermediasi perbankan masih tetap berjalan.
 # text_en = Meanwhile, he said that although there are still a few obstacles in the form of interest rates that are still considered high and have not adjusted to the BI Rate which continues to fall, banking intermediation is still running.
-1	Sementara	sementara	SCONJ	IN	_	4	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	4	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	mengatakan	kata	VERB	VB	Voice=Act	0	root	_	_
@@ -8361,7 +8361,7 @@
 # sent_id = csui-train-256
 # text = Sementara untuk 2008, BI memperkirakan pertumbuhan ekonomi Indonesia mencapai 6,2-6,8 persen dengan inflasi 5 plus minus 1 persen, rata-rata suku bunga SBI 3 bulan 7,5-8 persen, rata-rata kurs Rp9.000-9.300 per dolar AS, harga minyak 56 dolar AS per barel dan lifting minyak 1,034-1,04 juta barel per hari.
 # text_en = Meanwhile, for 2008, BI estimates that Indonesia's economic growth will reach 6.2-6.8 percent with inflation of 5 plus minus 1 percent, the average 3-month SBI interest rate of 7.5-8 percent, the average exchange rate of Rp. 9,000-9,300. per US dollar, oil price 56 US dollars per barrel and oil lifting 1.034-1.04 million barrels per day.
-1	Sementara	sementara	SCONJ	IN	_	6	mark	_	_
+1	Sementara	sementara	ADV	RB	_	6	advmod	_	_
 2	untuk	untuk	ADP	IN	_	3	case	_	_
 3	2008	2008	NUM	CD	NumType=Card	6	obl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	_	_
@@ -8495,9 +8495,9 @@
 24	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	22	obl	_	_
 25	relatif	relatif	ADJ	JJ	_	26	advmod	_	_
 26	stabil	stabil	ADJ	JJ	_	24	amod	_	_
-27	sedangkan	sedangkan	CCONJ	CC	_	29	cc	_	_
+27	sedangkan	sedangkan	SCONJ	IN	_	29	mark	_	_
 28	impor	impor	NOUN	NN	Number=Sing	29	nsubj	_	_
-29	menurun	turun	VERB	VB	Voice=Act	22	parataxis	_	SpaceAfter=No
+29	menurun	turun	VERB	VB	Voice=Act	22	advcl	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = csui-train-259
@@ -8614,7 +8614,7 @@
 15	sebesar	sebesar	NOUN	NN	Number=Sing	10	nmod	_	_
 16	7	7	NUM	CD	NumType=Card	17	nummod	_	_
 17	persen	persen	NOUN	NN	Number=Sing	15	nmod	_	_
-18	sedangkan	sedangkan	CCONJ	CC	_	23	cc	_	_
+18	sedangkan	sedangkan	SCONJ	IN	_	23	mark	_	_
 19	apabila	apabila	SCONJ	IN	_	20	mark	_	_
 20	dihitung	hitung	VERB	VB	Voice=Pass	23	advcl	_	_
 21	secara	cara	ADP	IN	_	22	case	_	_
@@ -9042,7 +9042,7 @@
 # sent_id = csui-train-276
 # text = Sementara untuk wilayah Sulawesi masih memberikan peningkatan produksi sebesar 14,2 persen.
 # text_en = Meanwhile, for the Sulawesi region, it still provides an increase in production of 14.2 percent.
-1	Sementara	sementara	SCONJ	IN	_	6	mark	_	_
+1	Sementara	sementara	ADV	RB	_	6	advmod	_	_
 2	untuk	untuk	ADP	IN	_	3	case	_	_
 3	wilayah	wilayah	NOUN	NN	Number=Sing	6	obl	_	_
 4	Sulawesi	Sulawesi	PROPN	NNP	_	3	nmod	_	_
@@ -9111,7 +9111,7 @@
 # sent_id = csui-train-279
 # text = Sementara itu, menurut Menteri Negara BUMN, Sugiharto, Bank Mandiri adalah bank yang berhasil menurunkan NPLnya dari 16,17 persen atau Rp16,2 triliun pada 2005 menjadi 6,06 persen atau sebesar Rp6,6 triliun pada tahun 2006.
 # text_en = Meanwhile, according to the Minister of State-Owned Enterprises, Sugiharto, Bank Mandiri is a bank that has succeeded in reducing its NPL from 16.17 percent or Rp. 16.2 trillion in 2005 to 6.06 percent or Rp. 6.6 trillion in 2006.
-1	Sementara	sementara	SCONJ	IN	_	14	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	14	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	14	punct	_	_
 4	menurut	turut	ADP	IN	_	5	case	_	_
@@ -10121,7 +10121,7 @@
 # sent_id = csui-train-307
 # text = Sementara itu mengenai kemungkinan para bankir takut memberikan kredit atas tuduhan korupsi Menkeu menjelaskan bahwa konsep tersebut sudah dibahas sehingga diharapkan kekhawatiran seperti itu tidak terjadi.
 # text_en = Meanwhile, regarding the possibility that bankers are afraid to give credit for allegations of corruption, the Minister of Finance explained that the concept has been discussed so that it is hoped that such concerns will not occur.
-1	Sementara	sementara	SCONJ	IN	_	14	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	14	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	mengenai	kena	ADP	IN	_	4	case	_	_
 4	kemungkinan	mungkin	NOUN	NN	Number=Sing	14	obl	_	_
@@ -10163,7 +10163,7 @@
 9	0,8	0,8	NUM	CD	NumType=Card	10	nummod	_	_
 10	persen	persen	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	22	punct	_	_
-12	sedangkan	sedangkan	CCONJ	CC	_	22	cc	_	_
+12	sedangkan	sedangkan	SCONJ	IN	_	22	mark	_	_
 13	inflasi	inflasi	NOUN	NN	Number=Sing	22	nmod	_	_
 14	komponen	komponen	NOUN	NN	Number=Sing	13	nmod	_	_
 15	inti	inti	NOUN	NN	Number=Sing	14	nmod	_	_
@@ -10530,7 +10530,7 @@
 # sent_id = csui-train-321
 # text = Sementara Obligasi Subordinasi Bank Mayapada II Tahun 2007 berjangka waktu 10 tahun memberikan tingkat suku bunga tetap untuk tahun pertama sampai kelima dan suku bunga tetap yang lebih tinggi untuk tahun keenam hingga ke-10 dengan opsi beli pada tahun kelima.
 # text_en = Meanwhile, the Subordinated Bonds of Bank Mayapada II Year 2007 have a tenor of 10 years providing a fixed interest rate for the first to fifth years and a higher fixed interest rate for the sixth to 10th years with a call option in the fifth year.
-1	Sementara	sementara	SCONJ	IN	_	13	mark	_	_
+1	Sementara	sementara	ADV	RB	_	13	advmod	_	_
 2	Obligasi	Obligasi	PROPN	NNP	_	13	nsubj	_	_
 3	Subordinasi	Subordinasi	PROPN	NNP	_	2	flat:name	_	_
 4	Bank	Bank	PROPN	NNP	_	2	flat:name	_	_
@@ -10745,7 +10745,7 @@
 # sent_id = csui-train-328
 # text = Sementara itu, ujar dia, dividen interim untuk tahun 2006 sebesar 0,025 dolar AS per lembar saham telah dibayarkan sebelumnya pada tanggal lima Desember 2006, sehingga secara keseluruhan dividen tahun 2006 sebesar 0,525 dolar AS per lembar saham.
 # text_en = Meanwhile, he said, the interim dividend for 2006 of US$0.025 per share was previously paid on December 5, 2006, so that the overall dividend for 2006 was US$0.525 per share.
-1	Sementara	sementara	SCONJ	IN	_	20	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	20	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	_	_
 4	ujar	ujar	VERB	VB	Voice=Act	20	parataxis	_	_
@@ -11398,7 +11398,7 @@
 # sent_id = csui-train-350
 # text = Sementara itu, untuk paruh pertama 2007 ini, ia mengatakan NPI surplus sebesar 3,7 miliar dolar AS yang didorong oleh perbaikan kinerja neraca modal finansial.
 # text_en = Meanwhile, for the first half of 2007, he said the BOP had a surplus of US$3.7 billion, driven by the improvement in the performance of the financial capital account.
-1	Sementara	sementara	SCONJ	IN	_	11	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	11	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	11	punct	_	_
 4	untuk	untuk	ADP	IN	_	5	case	_	_
@@ -11441,7 +11441,7 @@
 10	564,6	564,6	NUM	CD	NumType=Card	9	nummod	_	_
 11	triliun	triliun	NUM	CD	NumType=Card	10	flat	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	8	punct	_	_
-13	sedangkan	sedangkan	CCONJ	CC	_	18	cc	_	_
+13	sedangkan	sedangkan	SCONJ	IN	_	18	mark	_	_
 14	belanja	belanja	NOUN	NN	Number=Sing	18	nmod	_	_
 15	ke	ke	ADP	IN	_	16	case	_	_
 16	daerah	daerah	NOUN	NN	Number=Sing	14	nmod	_	_
@@ -11507,10 +11507,10 @@
 9	30	30	NUM	CD	NumType=Card	10	nummod	_	_
 10	persen	persen	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	8	punct	_	_
-12	sedangkan	sedangkan	CCONJ	CC	_	15	cc	_	_
+12	sedangkan	sedangkan	SCONJ	IN	_	15	mark	_	_
 13	untuk	untuk	ADP	IN	_	14	case	_	_
 14	PPN	PPN	NOUN	NN	Number=Sing	15	obl	_	_
-15	tumbuh	tumbuh	VERB	VB	Voice=Act	8	parataxis	_	_
+15	tumbuh	tumbuh	VERB	VB	Voice=Act	8	advcl	_	_
 16	39,2	39,2	NUM	CD	NumType=Card	17	nummod	_	_
 17	persen	persen	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	8	punct	_	_
@@ -11858,7 +11858,7 @@
 # sent_id = csui-train-368
 # text = Sementara laba usaha perseroan dalam periode tersebut tampak naik tipis dari semula Rp117,27 miliar menjadi Rp117,82 miliar dan laba bersih per saham meningkat dari Rp21 pada kuartal pertama 2006 menjadi Rp24 kuartal pertama 2007.
 # text_en = Meanwhile, the company's operating profit in the period appeared to slightly increase from Rp. 117.27 billion to Rp. 117.82 billion and its net income per share increased from Rp. 21 in the first quarter of 2006 to Rp. 24 in the first quarter of 2007.
-1	Sementara	sementara	SCONJ	IN	_	8	mark	_	_
+1	Sementara	sementara	ADV	RB	_	8	advmod	_	_
 2	laba	laba	NOUN	NN	Number=Sing	8	nsubj	_	_
 3	usaha	usaha	NOUN	NN	Number=Sing	2	nmod	_	_
 4	perseroan	perseroan	NOUN	NN	Number=Sing	2	nmod	_	_
@@ -13092,7 +13092,7 @@
 # sent_id = csui-train-407
 # text = Sementara itu tekanan inflasi sendiri didorong oleh kenaikan harga minyak dunia bersama dengan kenaikan harga komoditas primer global.
 # text_en = Meanwhile, inflationary pressure was driven by the increase in world oil prices along with the increase in global primary commodity prices.
-1	Sementara	sementara	SCONJ	IN	_	6	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	6	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	tekanan	tekan	NOUN	NN	Number=Sing	6	nsubj	_	_
 4	inflasi	inflasi	NOUN	NN	Number=Sing	3	nmod	_	_
@@ -13125,7 +13125,7 @@
 8	40,512	40,512	NUM	CD	NumType=Card	7	nummod	_	_
 9	triliun	triliun	NUM	CD	NumType=Card	8	flat	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	6	punct	_	_
-11	sedangkan	sedangkan	CCONJ	CC	_	19	cc	_	_
+11	sedangkan	sedangkan	SCONJ	IN	_	19	mark	_	_
 12	obligasi	obligasi	NOUN	NN	Number=Sing	19	nsubj	_	_
 13	negara	negara	NOUN	NN	Number=Sing	12	nmod	_	_
 14	yang	yang	PRON	IN	PronType=Rel	15	nsubj	_	_
@@ -13133,7 +13133,7 @@
 16	tempo	tempo	NOUN	NN	Number=Sing	15	obj	_	_
 17	pada	pada	ADP	IN	_	18	case	_	_
 18	2007	2007	NUM	CD	NumType=Card	15	obl	_	_
-19	mencapai	capai	VERB	VB	Voice=Act	6	parataxis	_	_
+19	mencapai	capai	VERB	VB	Voice=Act	6	advcl	_	_
 20	Rp	Rp	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
 21	24,49	24,49	NUM	CD	NumType=Card	20	nummod	_	_
 22	triliun	triliun	NUM	CD	NumType=Card	21	flat	_	SpaceAfter=No
@@ -13638,11 +13638,11 @@
 10	Selandia	Selandia	PROPN	NNP	_	6	obl	_	_
 11	Baru	Baru	PROPN	NNP	_	10	flat:name	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	17	punct	_	_
-13	sementara	sementara	CCONJ	CC	_	17	cc	_	_
+13	sementara	sementara	SCONJ	IN	_	17	mark	_	_
 14	sutradara	sutradara	NOUN	NN	Number=Sing	17	nsubj	_	_
 15	Peter	Peter	PROPN	NNP	_	14	nmod	_	_
 16	Jackson	Jackson	PROPN	NNP	_	14	nmod	_	_
-17	berancang-ancang	rancang	VERB	VB	Voice=Act	6	parataxis	_	_
+17	berancang-ancang	rancang	VERB	VB	Voice=Act	6	advcl	_	_
 18	untuk	untuk	SCONJ	IN	_	19	mark	_	_
 19	merealisasikan	realisasi	VERB	VB	Voice=Act	17	advcl	_	_
 20	rencana	rencana	NOUN	NN	Number=Sing	19	obj	_	_
@@ -13658,13 +13658,13 @@
 3	ekonomi	ekonomi	NOUN	NN	Number=Sing	2	nmod	_	_
 4	membaik	baik	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
-6	sedangkan	sedangkan	CCONJ	CC	_	12	cc	_	_
+6	sedangkan	sedangkan	SCONJ	IN	_	12	mark	_	_
 7	inflasi	inflasi	NOUN	NN	Number=Sing	12	obl	_	_
 8	dan	dan	CCONJ	CC	_	9	cc	_	_
 9	nilai	nilai	NOUN	NN	Number=Sing	7	conj	_	_
 10	tukar	tukar	NOUN	NN	Number=Sing	9	nmod	_	_
 11	terus	terus	ADV	RB	_	12	advmod	_	_
-12	stabil	stabil	ADJ	JJ	_	4	parataxis	_	SpaceAfter=No
+12	stabil	stabil	ADJ	JJ	_	4	advcl	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
 14	"	"	PUNCT	''	_	4	punct	_	_
 15	kata	kata	VERB	VB	Voice=Act	4	parataxis	_	_
@@ -16268,11 +16268,11 @@
 20	dengan	dengan	ADP	IN	_	21	case	_	_
 21	dialog	dialog	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	11	punct	_	_
-23	sedangkan	sedangkan	CCONJ	CC	_	27	cc	_	_
+23	sedangkan	sedangkan	SCONJ	IN	_	27	mark	_	_
 24	audisi	audisi	NOUN	NN	Number=Sing	27	nsubj:pass	_	_
 25	juga	juga	ADV	RB	_	27	advmod	_	_
 26	akan	akan	AUX	MD	_	27	aux	_	_
-27	diadakan	ada	VERB	VB	Voice=Pass	11	parataxis	_	_
+27	diadakan	ada	VERB	VB	Voice=Pass	11	advcl	_	_
 28	untuk	untuk	ADP	IN	_	29	case	_	_
 29	figuran	figur	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	3	punct	_	_
@@ -16477,7 +16477,7 @@
 # sent_id = csui-train-513
 # text = Sementara itu Net Interest Income (NII), pendapatan bunga bersih perbankan terus meningkat mencapai Rp7,9 triliun, yang merupakan angka tertinggi sejak krisis sembilan tahun lalu.
 # text_en = Meanwhile, Net Interest Income (NII), banking net interest income continued to increase to reach Rp7.9 trillion, which was the highest figure since the crisis nine years ago.
-1	Sementara	sementara	SCONJ	IN	_	15	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	15	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	Net	Net	X	FW	Foreign=Yes	15	nsubj	_	_
 4	Interest	Interest	X	FW	Foreign=Yes	3	flat:foreign	_	_
@@ -16636,7 +16636,7 @@
 9	miliar	miliar	NUM	CD	NumType=Card	8	flat	_	_
 10	dolar	dolar	NOUN	NN	Number=Sing	7	obj	_	_
 11	AS	AS	PROPN	NNP	_	10	nmod	_	_
-12	sedangkan	sedangkan	CCONJ	CC	_	25	cc	_	_
+12	sedangkan	sedangkan	SCONJ	IN	_	25	mark	_	_
 13	pada	pada	ADP	IN	_	14	case	_	_
 14	Jumat	Jumat	PROPN	NNP	_	25	obl:tmod	_	_
 15	(	(	PUNCT	-LRB-	_	16	punct	_	SpaceAfter=No
@@ -16649,8 +16649,8 @@
 22	,	,	PUNCT	,	_	25	punct	_	_
 23	cadangan	cadang	NOUN	NN	Number=Sing	25	nsubj	_	_
 24	devisa	devisa	NOUN	NN	Number=Sing	23	nmod	_	_
-25	turun	turun	VERB	VB	Voice=Act	7	parataxis	_	_
-26	menjadi	jadi	VERB	VB	Voice=Act	25	ccomp	_	_
+25	turun	turun	VERB	VB	Voice=Act	7	advcl	_	_
+26	menjadi	jadi	VERB	VB	Voice=Act	25	xcomp	_	_
 27	51,73	51,73	NUM	CD	NumType=Card	29	nummod	_	_
 28	miliar	miliar	NUM	CD	NumType=Card	27	flat	_	_
 29	dolar	dolar	NOUN	NN	Number=Sing	26	obj	_	_
@@ -16691,7 +16691,7 @@
 # sent_id = csui-train-521
 # text = Sementara itu dolar AS terpuruk terhadap euro menjadi 13,836 bahkan diperkirakan akan mencapai 13,845, karena besar aksi lepas dolar AS.
 # text_en = Meanwhile, the US dollar slumped against the euro to 13,836 and is even expected to reach 13,845, due to the large release of the US dollar.
-1	Sementara	sementara	SCONJ	IN	_	5	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	5	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	dolar	dolar	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
 4	AS	AS	PROPN	NNP	_	3	nmod	_	_
@@ -17009,7 +17009,7 @@
 # sent_id = csui-train-531
 # text = Sementara itu, berdasarkan data imigrasi dari KBRI Tokyo, tercatat sedikitnya 150 perusahaan top yang akan berkunjung ke Jakarta, mendampingi PM Abe, yang terdiri dari perusahaan top Jepang, mulai dari komunitas perbankan, industri otomotif, perusahaan konstruksi, hingga perusahaan yang bergerak di sektor energi.
 # text_en = Meanwhile, based on immigration data from the Indonesian Embassy in Tokyo, there are at least 150 top companies that will visit Jakarta, accompanying PM Abe, which consists of top Japanese companies, ranging from the banking community, the automotive industry, construction companies, to companies operating in the energy sector. .
-1	Sementara	sementara	SCONJ	IN	_	11	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	11	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	11	punct	_	_
 4	berdasarkan	dasar	VERB	VB	Voice=Act	11	advcl	_	_
@@ -17168,14 +17168,14 @@
 16	tahun	tahun	NOUN	NN	Number=Sing	9	nmod	_	_
 17	nya	nya	DET	DT	Definite=Def|PronType=Art	16	det	_	_
 18	,	,	PUNCT	,	_	7	punct	_	_
-19	sedangkan	sedangkan	CCONJ	CC	_	26	cc	_	_
+19	sedangkan	sedangkan	SCONJ	IN	_	26	mark	_	_
 20	pembayaran	bayar	NOUN	NN	Number=Sing	26	nsubj:pass	_	_
 21	kupon	kupon	NOUN	NN	Number=Sing	20	nmod	_	_
 22	obligasi	obligasi	NOUN	NN	Number=Sing	21	nmod	_	_
 23	negara	negara	NOUN	NN	Number=Sing	21	nmod	_	_
 24	seri	seri	NOUN	NN	Number=Sing	21	nmod	_	_
 25	FR0047	FR0047	PROPN	NNP	_	24	nmod	_	_
-26	dilakukan	laku	VERB	VB	Voice=Pass	7	parataxis	_	_
+26	dilakukan	laku	VERB	VB	Voice=Pass	7	advcl	_	_
 27	pada	pada	ADP	IN	_	28	case	_	_
 28	tanggal	tanggal	NOUN	NN	Number=Sing	26	obl:tmod	_	_
 29	15	15	NUM	CD	NumType=Card	30	nummod	_	_
@@ -17563,10 +17563,10 @@
 34	35,66	35,66	NUM	CD	NumType=Card	33	nummod	_	_
 35	triliun	triliun	NUM	CD	NumType=Card	34	flat	_	SpaceAfter=No
 36	,	,	PUNCT	,	_	7	punct	_	_
-37	sedangkan	sedangkan	CCONJ	CC	_	40	cc	_	_
+37	sedangkan	sedangkan	SCONJ	IN	_	40	mark	_	_
 38	belanja	belanja	NOUN	NN	Number=Sing	40	nsubj	_	_
 39	modal	modal	NOUN	NN	Number=Sing	38	nmod	_	_
-40	naik	naik	VERB	VB	Voice=Act	7	parataxis	_	_
+40	naik	naik	VERB	VB	Voice=Act	7	advcl	_	_
 41	menjadi	jadi	VERB	VB	Voice=Act	40	ccomp	_	_
 42	Rp	Rp	NOUN	NN	Number=Sing	41	obj	_	SpaceAfter=No
 43	9,66	9,66	NUM	CD	NumType=Card	42	nummod	_	_
@@ -18069,11 +18069,11 @@
 22	sama	sama	ADJ	JJ	_	21	amod	_	_
 23	sebelumnya	sebelumnya	ADV	RB	_	21	advmod	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	12	punct	_	_
-25	sedangkan	sedangkan	CCONJ	CC	_	29	cc	_	_
+25	sedangkan	sedangkan	SCONJ	IN	_	29	mark	_	_
 26	pendapatan	dapat	NOUN	NN	Number=Sing	29	nsubj	_	_
 27	bunga	bunga	NOUN	NN	Number=Sing	26	nmod	_	_
 28	bersih	bersih	ADJ	JJ	_	26	amod	_	_
-29	naik	naik	VERB	VB	Voice=Act	12	parataxis	_	_
+29	naik	naik	VERB	VB	Voice=Act	12	advcl	_	_
 30	29,5	29,5	NUM	CD	NumType=Card	31	nummod	_	_
 31	persen	persen	NOUN	NN	Number=Sing	29	obj	_	_
 32	menjadi	jadi	VERB	VB	Voice=Act	29	advcl	_	_
@@ -18616,10 +18616,10 @@
 15	total	total	NOUN	NN	Number=Sing	13	nmod	_	_
 16	kredit	kredit	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	21	punct	_	_
-18	sementara	sementara	CCONJ	CC	_	21	cc	_	_
+18	sementara	sementara	SCONJ	IN	_	21	mark	_	_
 19	kredit	kredit	NOUN	NN	Number=Sing	21	nsubj	_	_
 20	Korporasi	Korporasi	NOUN	NN	Number=Sing	19	nmod	_	_
-21	berkontribusi	kontribusi	VERB	VB	Voice=Act	11	parataxis	_	_
+21	berkontribusi	kontribusi	VERB	VB	Voice=Act	11	advcl	_	_
 22	38,8	38,8	NUM	CD	NumType=Card	23	nummod	_	_
 23	persen	persen	NOUN	NN	Number=Sing	21	obj	_	_
 24	dan	dan	CCONJ	CC	_	28	cc	_	_
@@ -21131,7 +21131,7 @@
 # sent_id = csui-train-656
 # text = Sementara itu, terkait dengan asumsi nilai tukar dalam RAPBN 2008 sebesar Rp9.100 per dolar AS, Aslim mengatakan, masih realistis dan tetap searah dengan perkiraan BI.
 # text_en = Meanwhile, with regard to the exchange rate assumption in the 2008 RAPBN of Rp9,100 per US dollar, Aslim said, it is still realistic and remains in line with BI estimates.
-1	Sementara	sementara	SCONJ	IN	_	20	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	20	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	1	punct	_	_
 4	terkait	kait	VERB	VB	Voice=Pass	20	advcl	_	_

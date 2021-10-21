@@ -2415,11 +2415,11 @@
 24	10,4	10,4	NUM	CD	NumType=Card	25	nummod	_	_
 25	persen	persen	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	31	punct	_	_
-27	sedangkan	sedangkan	CCONJ	CC	_	31	cc	_	_
+27	sedangkan	sedangkan	SCONJ	IN	_	31	mark	_	_
 28	PPN	PPN	NOUN	NN	Number=Sing	31	nsubj	_	_
 29	-	-	PUNCT	:	_	28	punct	_	SpaceAfter=No
 30	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	28	nmod:poss	_	_
-31	naik	naik	VERB	VB	Voice=Act	23	conj	_	_
+31	naik	naik	VERB	VB	Voice=Act	23	advcl	_	_
 32	12,4	12,4	NUM	CD	NumType=Card	33	nummod	_	_
 33	persen	persen	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
 34	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
@@ -6981,7 +6981,7 @@
 16	2,41	2,41	NUM	CD	NumType=Card	17	nummod	_	_
 17	persen	persen	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	10	punct	_	_
-19	sedangkan	sedangkan	CCONJ	CC	_	36	cc	_	_
+19	sedangkan	sedangkan	SCONJ	IN	_	36	mark	_	_
 20	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	27	nmod	_	_
 21	ekonomi	ekonomi	NOUN	NN	Number=Sing	20	nmod	_	_
 22	pada	pada	ADP	IN	_	24	case	_	_
@@ -6998,7 +6998,7 @@
 33	on	on	X	FW	Foreign=Yes	32	flat:foreign	_	_
 34	year	year	X	FW	Foreign=Yes	32	flat:foreign	_	_
 35	6,28	6,28	NUM	CD	NumType=Card	36	nummod	_	_
-36	persen	persen	NOUN	NN	Number=Sing	27	conj	_	SpaceAfter=No
+36	persen	persen	NOUN	NN	Number=Sing	27	advcl	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = csui-test-216
@@ -7977,9 +7977,9 @@
 17	ekspor	ekspor	NOUN	NN	Number=Sing	14	nmod	_	_
 18	perseroan	perseroan	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	9	punct	_	_
-20	sedangkan	sedangkan	CCONJ	CC	_	21	cc	_	_
+20	sedangkan	sedangkan	SCONJ	IN	_	21	mark	_	_
 21-22	sisanya	_	_	_	_	_	_	_	_
-21	sisa	sisa	NOUN	NN	Number=Sing	9	parataxis	_	_
+21	sisa	sisa	NOUN	NN	Number=Sing	9	advcl	_	_
 22	nya	nya	DET	DT	Definite=Def|PronType=Art	21	det	_	_
 23	ke	ke	ADP	IN	_	24	case	_	_
 24	Vietnam	Vietnam	PROPN	NNP	_	21	nmod	_	_
@@ -8905,7 +8905,7 @@
 8	dari	dari	ADP	IN	_	9	case	_	_
 9	target	target	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	5	punct	_	_
-11	sedangkan	sedangkan	CCONJ	CC	_	19	cc	_	_
+11	sedangkan	sedangkan	SCONJ	IN	_	19	mark	_	_
 12	penerimaan	terima	NOUN	NN	Number=Sing	19	nsubj	_	_
 13	negara	negara	NOUN	NN	Number=Sing	12	nmod	_	_
 14	bukan	bukan	PART	RP	Polarity=Neg	15	advmod	_	_
@@ -8913,7 +8913,7 @@
 16	(	(	PUNCT	-LRB-	_	17	punct	_	SpaceAfter=No
 17	PNBP	PNBP	NOUN	NN	Number=Sing	12	appos	_	SpaceAfter=No
 18	)	)	PUNCT	-RRB-	_	17	punct	_	_
-19	mencapai	capai	VERB	VB	Voice=Act	5	parataxis	_	_
+19	mencapai	capai	VERB	VB	Voice=Act	5	advcl	_	_
 20	73,5	73,5	NUM	CD	NumType=Card	21	nummod	_	_
 21	persen	persen	NOUN	NN	Number=Sing	19	obj	_	_
 22	dari	dari	ADP	IN	_	23	case	_	_
@@ -10148,11 +10148,11 @@
 22	yang	yang	PRON	IN	PronType=Rel	23	nsubj:pass	_	_
 23	diperlukan	perlu	VERB	VB	Voice=Pass	20	acl:relcl	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	17	punct	_	_
-25	sedangkan	sedangkan	CCONJ	CC	_	29	cc	_	_
+25	sedangkan	sedangkan	SCONJ	IN	_	29	mark	_	_
 26	30	30	NUM	CD	NumType=Card	27	nummod	_	_
 27	persen	persen	NOUN	NN	Number=Sing	29	nsubj	_	_
 28	lagi	lagi	ADV	RB	_	27	advmod	_	_
-29	berasal	asal	VERB	VB	Voice=Act	17	parataxis	_	_
+29	berasal	asal	VERB	VB	Voice=Act	17	advcl	_	_
 30	dari	dari	ADP	IN	_	32	case	_	_
 31	internal	internal	ADJ	JJ	_	32	amod	_	_
 32	PKG	PKG	PROPN	NNP	_	29	obl	_	SpaceAfter=No

@@ -17,9 +17,9 @@
   <tags unique="17">
     <tag name="ADJ">1169</tag><!-- besar, tinggi, sama, pertama, bersih, baik, lain, asing, rendah, utama -->
     <tag name="ADP">2229</tag><!-- di, pada, dari, dalam, dengan, untuk, per, oleh, turut, ke -->
-    <tag name="ADV">730</tag><!-- lebih, juga, masih, sekitar, tetap, kembali, sebelumnya, hanya, sangat, namun -->
+    <tag name="ADV">752</tag><!-- lebih, juga, masih, sekitar, tetap, kembali, sebelumnya, hanya, sangat, sementara -->
     <tag name="AUX">445</tag><!-- akan, telah, bisa, dapat, adalah, sudah, harus, sedang, mungkin, tengah -->
-    <tag name="CCONJ">733</tag><!-- dan, atau, namun, /, sedangkan, serta, maupun, tapi, tetapi, sementara -->
+    <tag name="CCONJ">709</tag><!-- dan, atau, namun, /, serta, maupun, tapi, tetapi, baik, & -->
     <tag name="DET">740</tag><!-- ini, nya, sebut, itu, beberapa, buah, seluruh, banyak, sendiri, orang -->
     <tag name="INTJ">4</tag><!-- Mari, Ok, Ya, nih -->
     <tag name="NOUN">7653</tag><!-- persen, Rp, tahun, dolar, usaha, sebesar, saham, bank, negara, ekonomi -->
@@ -28,7 +28,7 @@
     <tag name="PRON">1189</tag><!-- yang, nya, dia, itu, kita, ia, mereka, demikian, ini, saya -->
     <tag name="PROPN">3835</tag><!-- pt, AS, indonesia, Jakarta, bank, BI, tbk, Oktober, efek, Kamis -->
     <tag name="PUNCT">3531</tag><!-- ,, ., ", (, ), -, ', ";", :, ` -->
-    <tag name="SCONJ">613</tag><!-- untuk, dengan, karena, sementara, bahwa, sehingga, meski, setelah, maka, yaitu -->
+    <tag name="SCONJ">615</tag><!-- untuk, dengan, karena, bahwa, sehingga, meski, sementara, setelah, sedangkan, maka -->
     <tag name="SYM">17</tag><!-- %, $, +, -, £ -->
     <tag name="VERB">2981</tag><!-- kata, jadi, capai, ada, banding, tingkat, laku, naik, turun, beri -->
     <tag name="X">378</tag><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
@@ -65,20 +65,20 @@
   <deps unique="45">
     <dep name="acl">159</dep>
     <dep name="acl:relcl">746</dep>
-    <dep name="advcl">718</dep>
-    <dep name="advmod">909</dep>
+    <dep name="advcl">738</dep>
+    <dep name="advmod">919</dep>
     <dep name="advmod:emph">33</dep>
     <dep name="amod">685</dep>
     <dep name="appos">424</dep>
     <dep name="aux">405</dep>
     <dep name="case">2179</dep>
     <dep name="case:adv">28</dep>
-    <dep name="cc">730</dep>
+    <dep name="cc">706</dep>
     <dep name="cc:preconj">3</dep>
-    <dep name="ccomp">311</dep>
+    <dep name="ccomp">310</dep>
     <dep name="clf">1</dep>
     <dep name="compound:a">4</dep>
-    <dep name="conj">787</dep>
+    <dep name="conj">784</dep>
     <dep name="cop">35</dep>
     <dep name="csubj">16</dep>
     <dep name="csubj:pass">1</dep>
@@ -86,12 +86,12 @@
     <dep name="det">728</dep>
     <dep name="discourse">7</dep>
     <dep name="dislocated">1</dep>
-    <dep name="fixed">52</dep>
+    <dep name="fixed">53</dep>
     <dep name="flat">416</dep>
     <dep name="flat:foreign">134</dep>
     <dep name="flat:name">1431</dep>
     <dep name="iobj">1</dep>
-    <dep name="mark">595</dep>
+    <dep name="mark">609</dep>
     <dep name="nmod">4876</dep>
     <dep name="nmod:lmod">103</dep>
     <dep name="nmod:poss">170</dep>
@@ -104,9 +104,9 @@
     <dep name="obl:agent">62</dep>
     <dep name="obl:tmod">259</dep>
     <dep name="orphan">17</dep>
-    <dep name="parataxis">292</dep>
+    <dep name="parataxis">274</dep>
     <dep name="punct">3531</dep>
     <dep name="root">1030</dep>
-    <dep name="xcomp">144</dep>
+    <dep name="xcomp">145</dep>
   </deps>
 </treebank>
