@@ -33,8 +33,8 @@ Other characteristics of the treebank:
   * added features NumType (values: Card, Ord), Polite (values: Form, Infm), and Definite (values: Ind, Def)
   * removed feature Poss (value:Yes)
   * fixed FEATS columns for various words
-  * fixed the annotations for "di mana" (where), "yang" (which)
-  * fixed the annotations for transition words "sementara itu" (meanwhile), "oleh karena itu" (therefore), etc.
+  * changed the annotations for "di mana" (where), "yang" (which), 'apa/apakah' (what, whether, adverb in yes-no questions)
+  * changed the annotations for transition words, such as "sementara itu" (meanwhile), "oleh karena itu" (therefore), etc.
 
 * 2020-11-15 v2.7
   * Initial release in Universal Dependencies.
