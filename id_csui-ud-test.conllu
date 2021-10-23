@@ -559,7 +559,7 @@
 22	Pound	Pound	PROPN	NNP	_	19	nmod	_	_
 23	Sterling	Sterling	PROPN	NNP	_	22	flat:name	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	18	punct	_	_
-25	yang	yang	SCONJ	IN	_	27	mark	_	_
+25	yang	yang	PRON	PRP	PronType=Rel	27	obl	_	_
 26	kebanyakan	banyak	NOUN	NN	Number=Sing	27	nsubj:pass	_	_
 27	didominasi	didominasi	VERB	VB	Voice=Pass	18	advcl	_	_
 28	jenis	jenis	NOUN	NN	Number=Sing	27	obl:agent	_	_
@@ -2444,7 +2444,7 @@
 9	makanan	makan	NOUN	NN	Number=Sing	8	nmod	_	_
 10	dan	dan	CCONJ	CC	_	11	cc	_	_
 11	minuman	minum	NOUN	NN	Number=Sing	9	conj	_	_
-12	yang	yang	SCONJ	IN	_	16	mark	_	_
+12	yang	yang	PRON	PRP	PronType=Rel	16	obl	_	_
 13	PPh	PPh	PROPN	NNP	_	16	nsubj	_	SpaceAfter=No
 14	-	-	PUNCT	:	_	15	punct	_	SpaceAfter=No
 15	nya	nya	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
@@ -3296,7 +3296,7 @@
 11	posisi	posisi	NOUN	NN	Number=Sing	9	obl	_	_
 12	leverage	leverage	X	FW	Foreign=Yes	11	nmod	_	_
 13	perusahaan	usaha	NOUN	NN	Number=Sing	12	nmod	_	_
-14	yang	yang	SCONJ	IN	_	15	mark	_	_
+14	yang	yang	PRON	PRP	PronType=Rel	15	obl	_	_
 15	tinggi	tinggi	ADJ	JJ	_	11	acl:relcl	_	_
 16	dan	dan	CCONJ	CC	_	17	cc	_	_
 17-18	rendahnya	_	_	_	_	_	_	_	_
@@ -4728,11 +4728,11 @@
 9	dividen	dividen	NOUN	NN	Number=Sing	8	obj	_	_
 10	dalam	dalam	ADP	IN	_	11	case	_	_
 11	rupiah	rupiah	NOUN	NN	Number=Sing	9	nmod	_	_
-12	yang	yang	SCONJ	IN	_	15	mark	_	_
+12	yang	yang	PRON	PRP	PronType=Rel	15	obl	_	_
 13-14	nilainya	_	_	_	_	_	_	_	_
 13	nilai	nilai	NOUN	NN	Number=Sing	15	nsubj	_	_
 14	nya	nya	DET	DT	Definite=Def|PronType=Art	13	det	_	_
-15	setara	setara	ADJ	JJ	_	8	advcl	_	_
+15	setara	setara	ADJ	JJ	_	9	acl:relcl	_	_
 16	dengan	dengan	ADP	IN	_	17	case	_	_
 17	dividen	dividen	NOUN	NN	Number=Sing	15	obl	_	_
 18	yang	yang	PRON	IN	PronType=Rel	19	nsubj	_	_
@@ -7693,7 +7693,7 @@
 2	Ini	ini	PRON	PRP	PronType=Dem	3	nsubj	_	_
 3	merupakan	rupa	VERB	VB	Voice=Act	0	root	_	_
 4	indikator	indikator	NOUN	NN	Number=Sing	3	obj	_	_
-5	yang	yang	SCONJ	IN	_	7	mark	_	_
+5	yang	yang	PRON	PRP	PronType=Rel	7	obj	_	_
 6	kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 7	amati	amati	VERB	VB	Voice=Act	4	acl:relcl	_	_
 8	agar	agar	SCONJ	IN	_	12	mark	_	_
@@ -8866,7 +8866,7 @@
 # text_en = Tiririca - whose real name is Francisco Everardo Oliveira Silva - started working in a circus at the age of eight in the impoverished state of Ceara.
 1	Tiririca	tiririca	PROPN	NNP	_	12	nsubj	_	SpaceAfter=No
 2	-	-	PUNCT	:	_	1	punct	_	_
-3	yang	yang	SCONJ	IN	_	7	mark	_	_
+3	yang	yang	PRON	PRP	PronType=Rel	7	obl	_	_
 4	nama	nama	NOUN	NN	Number=Sing	7	nsubj	_	_
 5-6	aslinya	_	_	_	_	_	_	_	_
 5	asli	asli	ADJ	JJ	_	4	amod	_	_
@@ -9059,7 +9059,7 @@
 10	kredit	kredit	NOUN	NN	Number=Sing	7	obl	_	_
 11	korporasi	korporasi	NOUN	NN	Number=Sing	10	nmod	_	_
 12	bermasalah	masalah	VERB	VB	Voice=Act	10	acl:relcl	_	_
-13	yang	yang	SCONJ	IN	_	16	mark	_	_
+13	yang	yang	PRON	PRP	PronType=Rel	16	obl	_	_
 14-15	jumlahnya	_	_	_	_	_	_	_	_
 14	jumlah	jumlah	NOUN	NN	Number=Sing	16	nsubj	_	_
 15	nya	nya	DET	DT	Definite=Def|PronType=Art	14	det	_	_
@@ -11674,7 +11674,7 @@
 9	di	di	ADP	IN	_	11	case	_	_
 10	akhir	akhir	NOUN	NN	Number=Sing	11	nmod:lmod	_	_
 11	2005	2005	NUM	CD	NumType=Card	5	obl:tmod	_	_
-12	yang	yang	SCONJ	IN	_	14	mark	_	_
+12	yang	yang	PRON	PRP	PronType=Rel	14	obl	_	_
 13	sebagian	sebagian	NOUN	NN	Number=Sing	14	nsubj	_	_
 14	disebabkan	sebab	VERB	VB	Voice=Pass	5	acl:relcl	_	_
 15	oleh	oleh	ADP	IN	_	16	case	_	_
