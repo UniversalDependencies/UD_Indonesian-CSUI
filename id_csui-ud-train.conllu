@@ -1745,8 +1745,8 @@
 2	Pertanyaan	Pertanyaan	NOUN	NN	Number=Sing	8	obl	_	_
 3	nya	nya	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 4-5	apakah	_	_	_	_	_	_	_	_
-4	apa	apa	PRON	WP	_	8	obl	_	_
-5	kah	kah	PART	RP	_	4	advmod:emph	_	_
+4	apa	apa	ADV	WP	_	8	advmod	_	_
+5	kah	kah	PART	RP	_	8	advmod:emph	_	_
 6	kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 7	masih	masih	ADV	RB	_	8	advmod	_	_
 8	meneruskan	terus	VERB	VB	Voice=Act	0	root	_	_
@@ -8516,8 +8516,8 @@
 # text_en = So whether it can stay at 6 percent at the end of December or beyond, depends on the remaining 0.76 percent being split between November and December.
 1	Jadi	jadi	SCONJ	IN	_	5	mark	_	_
 2-3	apakah	_	_	_	_	_	_	_	_
-2	apa	apa	PRON	WP	_	5	nsubj	_	_
-3	kah	kah	PART	RP	_	2	advmod:emph	_	_
+2	apa	apa	ADV	WP	_	5	advmod	_	_
+3	kah	kah	PART	RP	_	5	advmod:emph	_	_
 4	bisa	bisa	AUX	MD	_	5	aux	_	_
 5	bertahan	tahan	VERB	VB	Voice=Act	17	advcl	_	_
 6	di	di	ADP	IN	_	8	case	_	_
@@ -14827,8 +14827,8 @@
 1	Ketika	ketika	SCONJ	IN	_	2	mark	_	_
 2	ditanya	tanya	VERB	VB	Voice=Pass	24	advcl	_	_
 3-4	apakah	_	_	_	_	_	_	_	_
-3	apa	apa	PRON	WP	_	15	obl	_	_
-4	kah	kah	PART	RP	_	3	advmod:emph	_	_
+3	apa	apa	ADV	WP	_	15	advmod	_	_
+4	kah	kah	PART	RP	_	15	advmod:emph	_	_
 5	rencana	rencana	NOUN	NN	Number=Sing	15	nsubj	_	_
 6	penerbitan	terbit	NOUN	NN	Number=Sing	5	nmod	_	_
 7	SBI	SBI	PROPN	NNP	_	6	nmod	_	_

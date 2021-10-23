@@ -1291,13 +1291,13 @@
 9	mulai	mulai	VERB	VB	Voice=Act	5	advcl	_	_
 10	Maret	Maret	PROPN	NNP	_	9	obl:tmod	_	_
 11	2007	2007	NUM	CD	NumType=Card	10	nummod	_	_
-12	sementara	sementara	CCONJ	CC	_	18	cc	_	_
+12	sementara	sementara	SCONJ	IN	_	18	mark	_	_
 13	penerapan	terap	NOUN	NN	Number=Sing	18	nsubj	_	_
 14	cukai	cukai	NOUN	NN	Number=Sing	13	nmod	_	_
 15	spesifik	spesifik	ADJ	JJ	_	14	amod	_	_
 16	rokok	rokok	NOUN	NN	Number=Sing	14	nmod	_	_
 17	akan	akan	AUX	MD	_	18	aux	_	_
-18	mulai	mulai	VERB	VB	Voice=Act	9	conj	_	_
+18	mulai	mulai	VERB	VB	Voice=Act	9	advcl	_	_
 19	diberlakukan	diberlakukan	VERB	VB	Voice=Pass	18	xcomp	_	_
 20	pada	pada	ADP	IN	_	21	case	_	_
 21	Juni	Juni	PROPN	NNP	_	19	obl:tmod	_	_
@@ -3981,7 +3981,7 @@
 # sent_id = csui-test-126
 # text = Sementara itu, nilai tukar rupiah pada Oktober 2007 secara rata-rata menguat 2,2 persen dibandingkan September atau rata-rata Rp9.101 per dolar AS.
 # text_en = Meanwhile, the rupiah exchange rate in October 2007 strengthened an average of 2.2 percent compared to September or an average of Rp9,101 per US dollar.
-1	Sementara	sementara	SCONJ	IN	_	12	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	12	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	12	punct	_	_
 4	nilai	nilai	NOUN	NN	Number=Sing	12	nsubj	_	_
@@ -4035,7 +4035,7 @@
 # sent_id = csui-test-128
 # text = Sementara pertumbuhan kredit sebesar 10 persen menjadi 111,4 triliun.
 # text_en = Meanwhile, credit growth was 10 percent to 111.4 trillion.
-1	Sementara	sementara	SCONJ	IN	_	7	mark	_	_
+1	Sementara	sementara	ADV	RB	_	7	advmod	_	_
 2	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	7	nsubj	_	_
 3	kredit	kredit	NOUN	NN	Number=Sing	2	nmod	_	_
 4	sebesar	sebesar	NOUN	NN	Number=Sing	2	nmod	_	_
@@ -4424,7 +4424,7 @@
 # sent_id = csui-test-141
 # text = Sementara itu, ujarnya, konsumsi rumah tangga tumbuh 1,46 persen pada triwulan I 2007 dibanding periode sebelumnya, dan 4,71 persen secara 'year on year', yang terdiri atas 1,1 persen pertumbuhan konsumsi makanan, dan 3,92 persen pertumbuhan konsumsi bukan makanan.
 # text_en = Meanwhile, he said, household consumption grew by 1.46 percent in the first quarter of 2007 compared to the previous period, and 4.71 percent year on year, consisting of 1.1 percent growth in food consumption and 3.92 percent growth. non-food consumption.
-1	Sementara	sementara	SCONJ	IN	_	10	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	10	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	_	_
 4-5	ujarnya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -4624,7 +4624,7 @@
 # sent_id = csui-test-146
 # text = Sementara Menko Perekonomian Boediono di tempat yang sama mengatakan secara umum APBNP 2007 aman, meskipun terjadi kenaikan harga minyak dunia.
 # text_en = Meanwhile, Coordinating Minister for the Economy Boediono in the same place said that in general the 2007 APBNP was safe, despite the increase in world oil prices.
-1	Sementara	sementara	SCONJ	IN	_	9	mark	_	_
+1	Sementara	sementara	ADV	RB	_	9	advmod	_	_
 2	Menko	Menko	PROPN	NNP	_	9	nsubj	_	_
 3	Perekonomian	Perekonomian	PROPN	NNP	_	2	flat:name	_	_
 4	Boediono	Boediono	PROPN	NNP	_	2	flat:name	_	_
@@ -4823,7 +4823,7 @@
 1	Persoalan	soal	NOUN	NN	Number=Sing	0	root	_	_
 2	nya	nya	DET	DT	Definite=Def|PronType=Art	1	det	_	_
 3-4	apakah	_	_	_	_	_	_	_	_
-3	apa	apa	SCONJ	WP	_	7	mark	_	_
+3	apa	apa	ADV	WP	_	7	advmod	_	_
 4	kah	kah	PART	RP	_	7	advmod:emph	_	_
 5	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
 6	harus	harus	AUX	MD	_	7	aux	_	_
@@ -4846,7 +4846,7 @@
 # sent_id = csui-test-153
 # text = Sementara itu, posisi ketiga adalah Thailand sebesar 11,4 miliar Ringgit 3,16 miliar dolar AS dan Indonesia berada di urutan ke-4 dengan nilai 4,7 miliar Ringgit.
 # text_en = Meanwhile, the third position is Thailand at 11.4 billion Ringgit 3.16 billion US dollars and Indonesia is in 4th place with a value of 4.7 billion Ringgit.
-1	Sementara	sementara	SCONJ	IN	_	7	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	7	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	7	punct	_	_
 4	posisi	posisi	NOUN	NN	Number=Sing	7	nsubj	_	_
@@ -5777,7 +5777,7 @@
 # sent_id = csui-test-181
 # text = Sementara itu, suku bunga penjaminan untuk simpanan dalam bentuk dolar AS tetap dipertahankan pada level 4,75 persen
 # text_en = Meanwhile, the guarantee interest rate for deposits in US dollars was maintained at 4.75 percent
-1	Sementara	sementara	SCONJ	IN	_	14	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	14	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	14	punct	_	_
 4	suku	suku	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
@@ -5799,7 +5799,7 @@
 # sent_id = csui-test-182
 # text = Sementara itu Direktur Utama PT Mirantha Nuansa Ayu, Henry Sulysto, mengatakan, kerja sama dengan perusahaan penyewaan pesawat sangat diperlukan karena tidak mungkin perseroan menyediakan pesawat sendiri, karena risiko dan investasinya besar, kata Henry
 # text_en = Meanwhile, President Director of PT Mirantha Nuansa Ayu, Henry Sulysto, said that cooperation with aircraft rental companies is very necessary because it is impossible for the company to provide its own aircraft, because the risks and investments are large, said Henry.
-1	Sementara	sementara	SCONJ	IN	_	13	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	13	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	Direktur	Direktur	NOUN	NN	Number=Sing	13	nsubj	_	_
 4	Utama	Utama	ADJ	JJ	_	3	amod	_	_
@@ -6837,7 +6837,7 @@
 # sent_id = csui-test-212
 # text = Sementara itu, Menteri Keuangan Sri Mulyani menjelaskan, indikasi membaiknya sektor riil juga terlihat dari peningkatan penerimaan Pajak Penghasilan (PPh) dan Pajak Pertambahan Nilai (PPN) yang hingga akhir tahun bisa diperkirakan lebih tinggi dari rata-rata tingkat inflasi 6 persen.
 # text_en = Meanwhile, Minister of Finance Sri Mulyani explained, indications of improvement in the real sector can also be seen from the increase in income tax (PPh) and value added tax (VAT) revenues, which by the end of the year can be estimated to be higher than the average inflation rate of 6 percent.
-1	Sementara	sementara	SCONJ	IN	_	8	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	8	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	Menteri	Menteri	PROPN	NNP	_	8	nsubj	_	_
@@ -7261,8 +7261,8 @@
 14	belum	belum	PART	RP	Polarity=Neg	15	advmod	_	_
 15	menentukan	tentu	VERB	VB	Voice=Act	2	ccomp	_	_
 16-17	apakah	_	_	_	_	_	_	_	_
-16	apa	apa	PRON	WP	_	18	nmod	_	_
-17	kah	kah	PART	RP	_	16	advmod:emph	_	_
+16	apa	apa	ADV	WP	_	18	advmod	_	_
+17	kah	kah	PART	RP	_	18	advmod:emph	_	_
 18	Tim	Tim	NOUN	NN	Number=Sing	15	obl	_	_
 19	Koordinasi	Koordinasi	NOUN	NN	Number=Sing	18	nmod	_	_
 20	Pinjaman	Pinjaman	NOUN	NN	Number=Sing	18	nmod	_	_
@@ -8822,7 +8822,7 @@
 # sent_id = csui-test-276
 # text = Sementara Direktur INCO Sri Kuncoro, dalam kesempatan yang sama, perseroan tahun ini telah membeli 32 pembangkit listrik tenaga diesel (PLTD) yang setara dengan 32 Mega Watt untuk memberikan tenaga listrik tambahan bagi perseroan.
 # text_en = Meanwhile, Director of INCO Sri Kuncoro, on the same occasion, this year the company has purchased 32 diesel power plants (PLTD) equivalent to 32 Mega Watts to provide additional electricity for the company.
-1	Sementara	sementara	SCONJ	IN	_	16	mark	_	_
+1	Sementara	sementara	ADV	RB	_	16	advmod	_	_
 2	Direktur	Direktur	PROPN	NNP	_	16	obl	_	_
 3	INCO	INCO	PROPN	NNP	_	2	flat:name	_	_
 4	Sri	Sri	PROPN	NNP	_	2	flat:name	_	_
@@ -9621,8 +9621,8 @@
 27	persen	persen	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
 28	,	,	PUNCT	,	_	17	punct	_	_
 29-30	apakah	_	_	_	_	_	_	_	_
-29	apa	apa	PRON	WP	_	34	nsubj	_	_
-30	kah	kah	PART	RP	_	29	advmod:emph	_	_
+29	apa	apa	ADV	WP	_	34	advmod	_	_
+30	kah	kah	PART	RP	_	34	advmod:emph	_	_
 31	sumber-sumber	sumber	NOUN	NN	Number=Plur	34	nsubj	_	_
 32	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	31	nmod	_	_
 33	tersebut	sebut	DET	DT	_	31	det	_	_
@@ -9636,8 +9636,8 @@
 41	,	,	PUNCT	,	_	45	punct	_	_
 42	serta	serta	CCONJ	CC	_	45	cc	_	_
 43-44	apakah	_	_	_	_	_	_	_	_
-43	apa	apa	PRON	WP	_	45	nsubj	_	_
-44	kah	kah	PART	RP	_	43	advmod:emph	_	_
+43	apa	apa	ADV	WP	_	45	advmod	_	_
+44	kah	kah	PART	RP	_	45	advmod:emph	_	_
 45	memiliki	milik	VERB	VB	Voice=Act	17	advcl	_	_
 46	trend	trend	X	FW	Foreign=Yes	45	obj	_	_
 47	meningkat	tingkat	VERB	VB	Voice=Act	46	acl:relcl	_	_
@@ -10283,7 +10283,7 @@
 # sent_id = csui-test-325
 # text = Sementara itu sampai akhir 2007 perseroan menargetkan pendapatan sebesar Rp300 miliar atau naik dibandingkan 2006 hanya sebesar Rp204 miliar.
 # text_en = Meanwhile, until the end of 2007, the company targets a revenue of Rp300 billion, an increase compared to 2006 which was only Rp204 billion.
-1	Sementara	sementara	SCONJ	IN	_	7	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	7	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	sampai	sampai	ADP	IN	_	4	case	_	_
 4	akhir	akhir	NOUN	NN	Number=Sing	7	obl	_	_
@@ -10368,7 +10368,7 @@
 # sent_id = csui-test-328
 # text = Sementara untuk penjualan mobil non-Astra selama 9 bulan 2007 mencapai 169.886 unit.
 # text_en = Meanwhile, sales of non-Astra cars during the 9 months of 2007 reached 169,886 units.
-1	Sementara	sementara	SCONJ	IN	_	10	mark	_	_
+1	Sementara	sementara	ADV	RB	_	10	advmod	_	_
 2	untuk	untuk	ADP	IN	_	3	case	_	_
 3	penjualan	jual	NOUN	NN	Number=Sing	10	obl	_	_
 4	mobil	mobil	NOUN	NN	Number=Sing	3	nmod	_	_
@@ -10632,7 +10632,7 @@
 # sent_id = csui-test-341
 # text = Sementara itu, pendapatan bukan bunga yang lebih tinggi berasal dari penjualan obligasi pemerintah di 2006.
 # text_en = Meanwhile, higher non-interest income came from selling government bonds in 2006.
-1	Sementara	sementara	SCONJ	IN	_	10	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	_	10	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	10	punct	_	_
 4	pendapatan	dapat	NOUN	NN	Number=Sing	10	nsubj	_	_
@@ -11532,7 +11532,7 @@
 # sent_id = csui-test-369
 # text = Sementara ekspor mengalami pertumbuhan 9,4 persen non-migas 22 persen, migas 7 persen, dan sisi impor yang tumbuh 11,99 persen barang modal 40 persen, barang konsumsi 2 persen.
 # text_en = Meanwhile, exports grew 9.4 percent, non-oil and gas 22 percent, oil and gas 7 percent, and imports grew 11.99 percent, capital goods 40 percent, consumption goods 2 percent.
-1	Sementara	sementara	SCONJ	IN	_	3	mark	_	_
+1	Sementara	sementara	ADV	RB	_	3	advmod	_	_
 2	ekspor	ekspor	NOUN	NN	Number=Sing	3	nsubj	_	_
 3	mengalami	alam	VERB	VB	Voice=Act	0	root	_	_
 4	pertumbuhan	tumbuh	NOUN	NN	Number=Sing	3	obj	_	_
