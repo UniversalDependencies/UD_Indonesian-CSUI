@@ -35,6 +35,7 @@ Other characteristics of the treebank:
   * fixed FEATS columns for various words
   * changed the annotations for "di mana" (where), "yang" (which), 'apa/apakah' (what, whether, adverb in yes-no questions)
   * changed the annotations for transition words, such as "sementara itu" (meanwhile), "oleh karena itu" (therefore), etc.
+  * fixed udapi bugs (multi-obj, multi-subj, no-PronType errors)
 
 * 2020-11-15 v2.7
   * Initial release in Universal Dependencies.
