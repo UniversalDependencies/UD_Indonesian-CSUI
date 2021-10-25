@@ -66,8 +66,8 @@
   <deps unique="44">
     <dep name="acl">153</dep>
     <dep name="acl:relcl">751</dep>
-    <dep name="advcl">757</dep>
-    <dep name="advmod">934</dep>
+    <dep name="advcl">762</dep>
+    <dep name="advmod">935</dep>
     <dep name="advmod:emph">33</dep>
     <dep name="amod">683</dep>
     <dep name="appos">416</dep>
@@ -76,7 +76,7 @@
     <dep name="case:adv">38</dep>
     <dep name="cc">704</dep>
     <dep name="cc:preconj">3</dep>
-    <dep name="ccomp">301</dep>
+    <dep name="ccomp">264</dep>
     <dep name="clf">1</dep>
     <dep name="compound:a">4</dep>
     <dep name="conj">786</dep>
@@ -92,14 +92,14 @@
     <dep name="flat:name">1430</dep>
     <dep name="iobj">2</dep>
     <dep name="mark">580</dep>
-    <dep name="nmod">4804</dep>
+    <dep name="nmod">4805</dep>
     <dep name="nmod:lmod">104</dep>
     <dep name="nmod:poss">171</dep>
     <dep name="nmod:tmod">321</dep>
-    <dep name="nsubj">1765</dep>
+    <dep name="nsubj">1764</dep>
     <dep name="nsubj:pass">440</dep>
     <dep name="nummod">1331</dep>
-    <dep name="obj">1082</dep>
+    <dep name="obj">1083</dep>
     <dep name="obl">1252</dep>
     <dep name="obl:agent">62</dep>
     <dep name="obl:tmod">394</dep>
@@ -107,6 +107,6 @@
     <dep name="parataxis">257</dep>
     <dep name="punct">3531</dep>
     <dep name="root">1030</dep>
-    <dep name="xcomp">152</dep>
+    <dep name="xcomp">182</dep>
   </deps>
 </treebank>
