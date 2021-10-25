@@ -517,7 +517,7 @@
 18	mengandung	kandung	VERB	VB	Voice=Act	5	advcl	_	_
 19	risiko-risiko	risiko	NOUN	NN	Number=Plur	18	obj	_	_
 20	yang	yang	PRON	IN	PronType=Rel	21	nsubj	_	_
-21	perlu	perlu	VERB	VB	_	19	acl:relcl	_	_
+21	perlu	perlu	VERB	VB	Voice=Act	19	acl:relcl	_	_
 22	terus	terus	ADV	RB	_	24	advmod	_	_
 23	kita	kita	PRON	PRP	Clusivity=In|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
 24	waspadai	waspadai	VERB	VB	Voice=Act	21	ccomp	_	SpaceAfter=No
@@ -625,7 +625,7 @@
 33	2007	2007	NUM	CD	NumType=Card	31	nummod	_	_
 34	ini	ini	DET	DT	PronType=Dem	31	det	_	_
 35	telah	telah	AUX	MD	_	36	aux	_	_
-36	berhasil	hasil	VERB	VB	Voice=Act	26	parataxis	_	_
+36	berhasil	hasil	VERB	VB	Voice=Act	26	advcl	_	_
 37	ke	ke	ADP	IN	_	38	case	_	_
 38	level	level	NOUN	NN	Number=Sing	36	obl	_	_
 39	di	di	ADP	IN	_	41	case	_	_
@@ -891,7 +891,7 @@
 11	cadangan	cadang	NOUN	NN	Number=Sing	14	nsubj	_	_
 12	devisa	devisa	NOUN	NN	Number=Sing	11	nmod	_	_
 13	negara	negara	NOUN	NN	Number=Sing	11	nmod	_	_
-14	mencapai	capai	VERB	VB	Voice=Act	7	parataxis	_	_
+14	mencapai	capai	VERB	VB	Voice=Act	7	conj	_	_
 15	54,3	54,3	NUM	CD	NumType=Card	17	nummod	_	_
 16	miliar	miliar	NUM	CD	NumType=Card	15	flat	_	_
 17	dolar	dolar	NOUN	NN	Number=Sing	14	obj	_	_
@@ -1020,7 +1020,7 @@
 # text = "Yang memimpin terus-menerus berganti. Benar-benar tergantung pada beberapa suara. Maju mundur dan akhirnya Amanda pemenangnya," jelasnya.
 # text_en = "The lead keeps changing. It really depends on a few votes. Back and forth and Amanda finally won," he explained.
 1	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
-2	Yang	yang	PRON	PRP	PronType=Rel	3	nsubj	_	_
+2	Yang	yang	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 3	memimpin	pimpin	VERB	VB	Voice=Act	5	csubj	_	_
 4	terus-menerus	terus	ADV	RB	_	5	advmod	_	_
 5	berganti	ganti	VERB	VB	Voice=Act	0	root	_	SpaceAfter=No
@@ -3217,7 +3217,7 @@
 # text = "Yang bertanggung jawab atas banyaknya remaja yang merokok adalah mereka yang memberi akses ke rokok itu sendiri. Itulah yang harus dikejar."
 # text_en = "The ones who are responsible for the number of teenagers smoking are the ones who give access to the cigarettes themselves. That's what we have to pursue."
 1	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
-2	Yang	yang	PRON	PRP	PronType=Rel	3	nsubj	_	_
+2	Yang	yang	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 3	bertanggung	tanggung	VERB	VB	Voice=Act	12	csubj	_	_
 4	jawab	jawab	VERB	VB	Voice=Act	3	xcomp	_	_
 5	atas	atas	SCONJ	IN	_	6	mark	_	_
@@ -3666,7 +3666,7 @@
 35	470.676	470.676	NUM	CD	NumType=Card	36	nummod	_	_
 36	ton	ton	NOUN	NN	Number=Sing	33	conj	_	_
 37	adalah	adalah	AUX	VBZ	_	38	cop	_	_
-38	Super	Super	X	FW	Foreign=Yes	27	acl	_	_
+38	Super	Super	X	FW	Foreign=Yes	27	acl:relcl	_	_
 39	CPO	CPO	PROPN	NNP	_	38	nmod	_	SpaceAfter=No
 40	,	,	PUNCT	,	_	25	punct	_	SpaceAfter=No
 41	"	"	PUNCT	''	_	25	punct	_	_
@@ -4127,7 +4127,7 @@
 3	merupakan	rupa	VERB	VB	Voice=Act	0	root	_	_
 4	pertama	pertama	ADJ	JJ	NumType=Ord	5	amod	_	_
 5-6	kalinya	_	_	_	_	_	_	_	_
-5	kali	kali	NOUN	NN	Number=Sing	3	obl	_	_
+5	kali	kali	NOUN	NN	Number=Sing	3	xcomp	_	_
 6	nya	nya	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 7	bagi	bagi	ADP	IN	_	8	case	_	_
 8	Indonesia	Indonesia	PROPN	NNP	_	5	nmod	_	SpaceAfter=No
@@ -11820,8 +11820,8 @@
 7	riil	riil	ADJ	JJ	_	6	amod	_	_
 8	menunjukkan	tunjuk	VERB	VB	Voice=Act	3	advcl	_	_
 9	perkembangan	kembang	NOUN	NN	Number=Sing	8	obj	_	_
-10	yang	yang	PRON	PRP	PronType=Rel	9	nmod	_	_
-11	positif	positif	ADJ	JJ	_	9	amod	_	SpaceAfter=No
+10	yang	yang	PRON	PRP	PronType=Rel	11	nsubj	_	_
+11	positif	positif	ADJ	JJ	_	9	xcomp	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	8	punct	_	_
 13	Presiden	Presiden	NOUN	NN	Number=Sing	8	obl	_	_
 14	mengarahkan	arah	VERB	VB	Voice=Act	8	advcl	_	_
@@ -12543,7 +12543,7 @@
 12	pasokan	pasok	NOUN	NN	Number=Sing	18	nsubj	_	_
 13	yang	yang	PRON	PRP	PronType=Rel	15	obj	_	_
 14	ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
-15	miliki	miliki	VERB	VB	Voice=Act	12	acl	_	_
+15	miliki	miliki	VERB	VB	Voice=Act	12	acl:relcl	_	_
 16	baru	baru	ADV	RB	_	18	advmod	_	_
 17	akan	akan	AUX	MD	_	18	aux	_	_
 18	habis	habis	VERB	VB	Voice=Act	3	ccomp	_	_
@@ -13202,17 +13202,17 @@
 3	semua	semua	DET	DT	PronType=Tot	4	det	_	_
 4	pelamar	lamar	NOUN	NN	Number=Sing	6	nsubj	_	_
 5	harus	harus	AUX	MD	_	6	aux	_	_
-6	berusia	usia	VERB	VB	Voice=Act	2	advcl	_	_
+6	berusia	usia	VERB	VB	Voice=Act	2	ccomp	_	_
 7	16	16	NUM	CD	NumType=Card	8	nummod	_	_
 8	tahun	tahun	NOUN	NN	Number=Sing	6	obl:tmod	_	_
 9	ke	ke	ADP	IN	_	10	case	_	_
 10	atas	atas	NOUN	NN	Number=Sing	8	acl	_	_
 11	dan	dan	CCONJ	CC	_	21	cc	_	_
-12	siapa	siapa	PRON	WP	PronType=Rel	16	obl	_	_
+12	siapa	siapa	PRON	WP	PronType=Rel	21	nsubj:pass	_	_
 13	pun	pun	PART	RP	_	12	advmod:emph	_	_
 14	yang	yang	PRON	IN	PronType=Rel	16	nsubj	_	_
 15	tidak	tidak	PART	RP	Polarity=Neg	16	advmod	_	_
-16	memenuhi	penuh	VERB	VB	Voice=Act	21	csubj	_	_
+16	memenuhi	penuh	VERB	VB	Voice=Act	12	acl:relcl	_	_
 17	ketentuan	tentu	NOUN	NN	Number=Sing	16	obj	_	_
 18	tinggi	tinggi	NOUN	NN	Number=Sing	17	nmod	_	_
 19	badan	badan	NOUN	NN	Number=Sing	17	nmod	_	_
@@ -13725,7 +13725,7 @@
 39	sehingga	sehingga	SCONJ	IN	_	45	mark	_	_
 40	yang	yang	PRON	IN	PronType=Rel	42	nsubj:pass	_	_
 41	belum	belum	PART	RP	Polarity=Neg	42	advmod	_	_
-42	terserap	serap	VERB	VB	Voice=Pass	45	csubj:pass	_	_
+42	terserap	serap	VERB	VB	Voice=Pass	45	csubj	_	_
 43	atau	atau	CCONJ	CC	_	44	cc	_	_
 44	dicairkan	cair	VERB	VB	Voice=Pass	42	conj	_	_
 45	mencapai	capai	VERB	VB	Voice=Act	34	advcl	_	_
@@ -14893,7 +14893,7 @@
 20	,	,	PUNCT	,	_	6	punct	_	_
 21	FR0047	FR0047	PROPN	NNP	_	23	nsubj	_	_
 22	juga	juga	ADV	RB	_	23	advmod	_	_
-23	memiliki	milik	VERB	VB	Voice=Act	6	parataxis	_	_
+23	memiliki	milik	VERB	VB	Voice=Act	6	conj	_	_
 24	tingkat	tingkat	NOUN	NN	Number=Sing	23	obj	_	_
 25	bunga	bunga	NOUN	NN	Number=Sing	24	nmod	_	_
 26	tetap	tetap	ADV	RB	_	24	advmod	_	_
@@ -15486,10 +15486,10 @@
 7	,	,	PUNCT	,	_	9	punct	_	_
 8	sering	sering	ADV	RB	_	9	advmod	_	_
 9	terpuruk	terpuruk	VERB	VB	Voice=Pass	0	root	_	SpaceAfter=No
-10	,	,	PUNCT	,	_	9	punct	_	_
-11	begitu	begitu	DET	DT	PronType=Dem	12	det	_	_
-12	pula	pula	ADV	RB	_	9	parataxis	_	_
-13	sebaliknya	sebaliknya	ADV	RB	_	12	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	begitu	begitu	PRON	PRP	PronType=Dem	9	obl	_	_
+12	pula	pula	ADV	RB	_	11	advmod	_	_
+13	sebaliknya	sebaliknya	ADV	RB	_	11	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
 15	"	"	PUNCT	''	_	9	punct	_	_
 16-17	katanya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -15669,20 +15669,20 @@
 38	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = csui-train-486
-# text = Pemerintah menargetkan inflasi pada 2007, 6 persen, Sementara BI menargetkan 6 plus minus 1 persen.
+# text = Pemerintah menargetkan inflasi pada 2007, 6 persen, sementara BI menargetkan 6 plus minus 1 persen.
 # text_en = The government targets inflation in 2007, 6 percent, while BI targets 6 plus minus 1 percent.
 1	Pemerintah	perintah	NOUN	NN	Number=Sing	2	nsubj	_	_
 2	menargetkan	target	VERB	VB	Voice=Act	0	root	_	_
-3	inflasi	inflasi	NOUN	NN	Number=Sing	8	nmod	_	_
+3	inflasi	inflasi	NOUN	NN	Number=Sing	8	nsubj	_	_
 4	pada	pada	ADP	IN	_	5	case	_	_
 5	2007	2007	NUM	CD	NumType=Card	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	_	_
 7	6	6	NUM	CD	NumType=Card	8	nummod	_	_
-8	persen	persen	NOUN	NN	Number=Sing	2	xcomp	_	SpaceAfter=No
-9	,	,	PUNCT	,	_	2	punct	_	_
-10	Sementara	Sementara	SCONJ	IN	_	2	mark	_	_
+8	persen	persen	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	sementara	sementara	SCONJ	IN	_	12	mark	_	_
 11	BI	BI	PROPN	NNP	_	12	nsubj	_	_
-12	menargetkan	target	VERB	VB	Voice=Act	2	parataxis	_	_
+12	menargetkan	target	VERB	VB	Voice=Act	2	advcl	_	_
 13	6	6	NUM	CD	NumType=Card	16	nummod	_	_
 14	plus	plus	ADJ	JJ	_	15	advmod	_	_
 15	minus	minus	ADJ	JJ	_	16	acl:relcl	_	_
@@ -16145,7 +16145,7 @@
 17	arti	arti	NOUN	NN	Number=Sing	14	acl	_	_
 18	beramal	amal	VERB	VB	Voice=Act	17	acl:relcl	_	_
 19	bagi	bagi	SCONJ	IN	_	21	mark	_	_
-20	yang	yang	PRON	PRP	PronType=Rel	21	obl	_	_
+20	yang	yang	PRON	PRP	PronType=Rel	21	nsubj	_	_
 21	membutuhkan	butuh	VERB	VB	Voice=Act	18	advcl	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	13	punct	_	_
 
@@ -19164,10 +19164,10 @@
 4	di	di	ADP	IN	_	5	case	_	_
 5	2007	2007	NUM	CD	NumType=Card	1	nmod	_	_
 6	merupakan	rupa	VERB	VB	Voice=Act	0	root	_	_
-7	yang	yang	PRON	PRP	PronType=Rel	6	obl	_	_
-8	keenam	keenam	ADJ	JJ	NumType=Ord	7	amod	_	_
+7	yang	yang	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	keenam	keenam	ADJ	JJ	NumType=Ord	6	xcomp	_	_
 9	setelah	setelah	ADP	IN	_	10	case	_	_
-10	pertama	pertama	ADJ	JJ	NumType=Ord	6	obl	_	_
+10	pertama	pertama	ADJ	JJ	NumType=Ord	8	advcl	_	_
 11	pada	pada	ADP	IN	_	12	case	_	_
 12	2002	2002	NUM	CD	NumType=Card	10	obl	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	6	punct	_	_
@@ -19300,7 +19300,7 @@
 24	harga	harga	NOUN	NN	Number=Sing	27	nmod	_	_
 25	minyak	minyak	NOUN	NN	Number=Sing	24	nmod	_	_
 26	68	68	NUM	CD	NumType=Card	27	nummod	_	_
-27	dolar	dolar	NOUN	NN	Number=Sing	19	parataxis	_	_
+27	dolar	dolar	NOUN	NN	Number=Sing	19	conj	_	_
 28	AS	AS	PROPN	NNP	_	27	nmod	_	_
 29	per	per	ADP	IN	_	30	case	_	_
 30	barel	barel	NOUN	NN	Number=Sing	27	nmod	_	_
@@ -19311,7 +19311,7 @@
 35	harga	harga	NOUN	NN	Number=Sing	38	nmod	_	_
 36	minyak	minyak	NOUN	NN	Number=Sing	35	nmod	_	_
 37	70	70	NUM	CD	NumType=Card	38	nummod	_	_
-38	dolar	dolar	NOUN	NN	Number=Sing	19	parataxis	_	_
+38	dolar	dolar	NOUN	NN	Number=Sing	19	conj	_	_
 39	AS	AS	PROPN	NNP	_	38	nmod	_	_
 40	inflasi	inflasi	NOUN	NN	Number=Sing	38	nmod	_	_
 41	6,3	6,3	NUM	CD	NumType=Card	42	nummod	_	_
@@ -20398,7 +20398,7 @@
 17	kedua	kedua	NUM	CD	NumType=Card	18	nummod	_	_
 18	negara	negara	NOUN	NN	Number=Sing	16	nmod	_	_
 19	akan	akan	AUX	MD	_	20	aux	_	_
-20	memasuki	masuk	VERB	VB	Voice=Act	3	parataxis	_	_
+20	memasuki	masuk	VERB	VB	Voice=Act	3	advcl	_	_
 21	tahun	tahun	NOUN	NN	Number=Sing	20	obl:tmod	_	_
 22	ke-50	ke-50	ADJ	JJ	NumType=Ord	21	amod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	3	punct	_	_
@@ -20469,7 +20469,7 @@
 15	,	,	PUNCT	,	_	12	punct	_	_
 16	mereka	mereka	PRON	PRP	Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
 17	belum	belum	PART	RP	Polarity=Neg	18	advmod	_	_
-18	mau	mau	VERB	VB	Voice=Act	12	parataxis	_	_
+18	mau	mau	VERB	VB	Voice=Act	12	advcl	_	_
 19	masuk	masuk	VERB	VB	Voice=Act	18	xcomp	_	_
 20	pasar	pasar	NOUN	NN	Number=Sing	19	obj	_	_
 21	mengantisipasi	antisipasi	VERB	VB	Voice=Act	19	advcl	_	_
