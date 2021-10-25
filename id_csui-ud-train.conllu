@@ -1898,13 +1898,13 @@
 22	bunga	bunga	NOUN	NN	Number=Sing	21	nmod	_	_
 23	deposito	deposito	NOUN	NN	Number=Sing	21	nmod	_	_
 24	bakal	bakal	X	MD	Foreign=Yes	25	dep	_	_
-25	tercapai	capai	VERB	VB	Voice=Pass	21	acl:relcl	_	_
+25	tercapai	capai	VERB	VB	Voice=Pass	20	advcl	_	_
 26	di	di	ADP	IN	_	27	case	_	_
 27	masa	masa	NOUN	NN	Number=Sing	25	obl:tmod	_	_
 28	yang	yang	PRON	IN	PronType=Rel	30	nsubj	_	_
 29	akan	akan	AUX	MD	_	30	aux	_	_
 30	datang	datang	VERB	VB	Voice=Act	27	acl:relcl	_	_
-31	secara	cara	SCONJ	IN	_	32	mark	_	_
+31	secara	cara	ADP	IN	_	32	case:adv	_	_
 32	bertahap	tahap	VERB	VB	Voice=Act	30	advcl	_	SpaceAfter=No
 33	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
 34	"	"	PUNCT	''	_	5	punct	_	_
@@ -6028,7 +6028,7 @@
 # text_en = "The company will provide integrated services ranging from drilling, shipping, information technology, seismic surveys and others," said Haris
 1	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
 2	Perseroan	Perseroan	NOUN	NN	Number=Sing	6	nsubj	_	_
-3	secara	cara	SCONJ	IN	_	4	mark	_	_
+3	secara	cara	ADP	IN	_	4	case:adv	_	_
 4	terintegrasi	terintegrasi	VERB	VB	Voice=Pass	6	advcl	_	_
 5	akan	akan	AUX	MD	_	6	aux	_	_
 6	memberikan	beri	VERB	VB	Voice=Act	0	root	_	_
@@ -8598,7 +8598,7 @@
 # text = NPL secara gross tercatat sebesar 6,8 persen menurun dari angka akhir akhir tahun 2006 sebesar 7 persen sedangkan apabila dihitung secara net berada pada angka 3,4 persen menurun dari 3,6 persen.
 # text_en = Gross NPL was recorded at 6.8 percent, down from the figure at the end of 2006 which was 7 percent, while if calculated on a net basis, it was at 3.4 percent, down from 3.6 percent.
 1	NPL	npl	X	FW	Foreign=Yes	4	nsubj:pass	_	_
-2	secara	cara	ADP	IN	_	3	case	_	_
+2	secara	cara	ADP	IN	_	3	case:adv	_	_
 3	gross	gross	X	FW	Foreign=Yes	4	advcl	_	_
 4	tercatat	catat	VERB	VB	Voice=Pass	0	root	_	_
 5	sebesar	sebesar	NOUN	NN	Number=Sing	4	xcomp	_	_
@@ -8617,7 +8617,7 @@
 18	sedangkan	sedangkan	SCONJ	IN	_	23	mark	_	_
 19	apabila	apabila	SCONJ	IN	_	20	mark	_	_
 20	dihitung	hitung	VERB	VB	Voice=Pass	23	advcl	_	_
-21	secara	cara	ADP	IN	_	22	case	_	_
+21	secara	cara	ADP	IN	_	22	case:adv	_	_
 22	net	net	X	FW	Foreign=Yes	20	advcl	_	_
 23	berada	ada	VERB	VB	Voice=Act	4	parataxis	_	_
 24	pada	pada	ADP	IN	_	25	case	_	_
@@ -10224,7 +10224,7 @@
 24	saham	saham	NOUN	NN	Number=Sing	23	obj	_	_
 25	DEJ	DEJ	PROPN	NNP	_	24	nmod	_	_
 26	dan	dan	CCONJ	CC	_	31	cc	_	_
-27	secara	cara	ADP	IN	_	29	case	_	_
+27	secara	cara	ADP	IN	_	29	case:adv	_	_
 28	tidak	tidak	PART	RP	Polarity=Neg	29	advmod	_	_
 29	langsung	langsung	ADV	RB	_	31	advcl	_	_
 30	akan	akan	AUX	MD	_	31	aux	_	_
@@ -11214,7 +11214,7 @@
 9	dari	dari	ADP	IN	_	11	case	_	_
 10	dalam	dalam	NOUN	NN	Number=Sing	11	nmod:lmod	_	_
 11	negeri	negeri	NOUN	NN	Number=Sing	8	obl	_	_
-12	secara	cara	ADP	IN	_	13	case	_	_
+12	secara	cara	ADP	IN	_	13	case:adv	_	_
 13	netto	netto	X	FW	Foreign=Yes	14	advcl	_	_
 14	direncanakan	rencana	VERB	VB	Voice=Pass	0	root	_	_
 15	mencapai	capai	VERB	VB	Voice=Act	14	ccomp	_	_
@@ -13858,8 +13858,8 @@
 7-8	kalinya	_	_	_	_	_	_	_	_
 7	kali	kali	NOUN	NN	Number=Sing	1	acl:relcl	_	_
 8	nya	nya	DET	DT	Definite=Def|PronType=Art	7	det	_	_
-9	secara	cara	SCONJ	IN	_	10	mark	_	_
-10	berturut-turut	turut	VERB	VB	Voice=Act	7	acl:relcl	_	_
+9	secara	cara	ADP	IN	_	10	case:adv	_	_
+10	berturut-turut	turut	VERB	VB	Voice=Act	7	advcl	_	_
 11	sejak	sejak	ADP	IN	_	12	case	_	_
 12	Mei	Mei	PROPN	NNP	_	10	obl:tmod	_	_
 13	2006	2006	NUM	CD	NumType=Card	12	nummod	_	_
@@ -15067,7 +15067,7 @@
 17	keputusan	putus	NOUN	NN	Number=Sing	16	obj	_	_
 18	yang	yang	PRON	IN	PronType=Rel	19	nsubj:pass	_	_
 19	dilakukan	laku	VERB	VB	Voice=Pass	17	acl:relcl	_	_
-20	secara	cara	ADP	IN	_	21	case	_	_
+20	secara	cara	ADP	IN	_	21	case:adv	_	_
 21	mendadak	mendadak	ADV	RB	_	19	advcl	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	16	punct	_	_
 
@@ -17971,7 +17971,7 @@
 12	tingkat	tingkat	NOUN	NN	Number=Sing	11	obj	_	_
 13	BI	BI	PROPN	NNP	_	12	nmod	_	_
 14	rate	rate	X	FW	Foreign=Yes	13	nmod	_	_
-15	secara	cara	SCONJ	IN	_	16	mark	_	_
+15	secara	cara	ADP	IN	_	16	case:adv	_	_
 16	bertahap	tahap	VERB	VB	Voice=Act	11	advcl	_	_
 17	sebesar	sebesar	NOUN	NN	Number=Sing	11	obl	_	_
 18	0,25	0,25	NUM	CD	NumType=Card	19	nummod	_	_

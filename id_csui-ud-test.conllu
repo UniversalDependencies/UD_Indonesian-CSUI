@@ -8383,7 +8383,7 @@
 5	ini	ini	DET	DT	PronType=Dem	3	det	_	_
 6	akan	akan	AUX	MD	_	7	aux	_	_
 7	dilakukan	laku	VERB	VB	Voice=Pass	0	root	_	_
-8	secara	cara	ADP	IN	_	10	case	_	_
+8	secara	cara	ADP	IN	_	10	case:adv	_	_
 9	dual	dual	X	FW	Foreign=Yes	10	amod	_	_
 10	transaksi	transaksi	NOUN	NN	Number=Sing	7	obl	_	_
 11	yaitu	yaitu	SCONJ	IN	_	12	mark	_	_

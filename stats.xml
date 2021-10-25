@@ -16,7 +16,7 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">1169</tag><!-- besar, tinggi, sama, pertama, bersih, baik, lain, asing, rendah, utama -->
-    <tag name="ADP">2229</tag><!-- di, pada, dari, dalam, dengan, untuk, per, oleh, turut, ke -->
+    <tag name="ADP">2233</tag><!-- di, pada, dari, dalam, dengan, untuk, per, oleh, turut, ke -->
     <tag name="ADV">772</tag><!-- lebih, juga, masih, sekitar, sementara, tetap, kembali, sebelumnya, hanya, sangat -->
     <tag name="AUX">445</tag><!-- akan, telah, bisa, dapat, adalah, sudah, harus, sedang, mungkin, tengah -->
     <tag name="CCONJ">708</tag><!-- dan, atau, namun, /, serta, maupun, tapi, tetapi, baik, & -->
@@ -28,7 +28,7 @@
     <tag name="PRON">1201</tag><!-- yang, nya, dia, itu, kita, ia, mereka, demikian, ini, saya -->
     <tag name="PROPN">3835</tag><!-- pt, AS, indonesia, Jakarta, bank, BI, tbk, Oktober, efek, Kamis -->
     <tag name="PUNCT">3531</tag><!-- ,, ., ", (, ), -, ', ";", :, ` -->
-    <tag name="SCONJ">585</tag><!-- untuk, dengan, karena, bahwa, sehingga, meski, setelah, sedangkan, maka, yaitu -->
+    <tag name="SCONJ">581</tag><!-- untuk, dengan, karena, bahwa, sehingga, meski, setelah, sedangkan, maka, yaitu -->
     <tag name="SYM">17</tag><!-- %, $, +, -, £ -->
     <tag name="VERB">2981</tag><!-- kata, jadi, capai, ada, banding, tingkat, laku, naik, turun, beri -->
     <tag name="X">378</tag><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
@@ -65,15 +65,15 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="45">
     <dep name="acl">158</dep>
-    <dep name="acl:relcl">746</dep>
-    <dep name="advcl">743</dep>
+    <dep name="acl:relcl">744</dep>
+    <dep name="advcl">745</dep>
     <dep name="advmod">933</dep>
     <dep name="advmod:emph">33</dep>
     <dep name="amod">685</dep>
     <dep name="appos">416</dep>
     <dep name="aux">405</dep>
-    <dep name="case">2179</dep>
-    <dep name="case:adv">28</dep>
+    <dep name="case">2173</dep>
+    <dep name="case:adv">38</dep>
     <dep name="cc">704</dep>
     <dep name="cc:preconj">3</dep>
     <dep name="ccomp">299</dep>
@@ -92,7 +92,7 @@
     <dep name="flat:foreign">134</dep>
     <dep name="flat:name">1430</dep>
     <dep name="iobj">2</dep>
-    <dep name="mark">584</dep>
+    <dep name="mark">580</dep>
     <dep name="nmod">4809</dep>
     <dep name="nmod:lmod">104</dep>
     <dep name="nmod:poss">171</dep>
