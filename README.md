@@ -30,7 +30,7 @@ Other characteristics of the treebank:
 
 * 2021-11-15 v2.9
   * added text_en (translation of each sentence to English, generated using Google Translate)
-  * added features NumType (values: Card, Ord), Polite (values: Form, Infm), and Definite (values: Ind, Def)
+  * added features Definite (values: Ind, Def), Mood (values:Ind, Imp), NumType (values: Card, Ord), and Polite (values: Form, Infm)
   * removed feature Poss (value:Yes)
   * fixed FEATS columns for various words
   * changed the annotations for "di mana" (where), "yang" (which), 'apa/apakah' (what, whether, adverb in yes-no questions)
