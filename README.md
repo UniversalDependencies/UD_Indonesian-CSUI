@@ -19,7 +19,7 @@ Other characteristics of the treebank:
 
 * The original constituency treebank was built with manual annotation by [Arawinda Dinakaramani, Fam Rashel, Andry Luthfi, and Ruli Manurung](https://github.com/famrashel/idn-treebank) at Faculty of Computer Science, Universitas Indonesia in 2015.
 * The previous treebank was converted to the Penn Treebank format by Ika Alfina and Jessica Naraiswari Arwidarasti in 2019-2020. This PTB version was named [**Kethu**](https://github.com/ir-nlp-csui/kethu-id-ptb).
-* The Kethu treebank was converted to this UD treebank by Alfina et al. (2020).
+* The Kethu treebank was converted automatically to this UD treebank by Alfina et al. (2020).
 * The lemma (LEMMA) and morphological features (FEATS) were generated using [Aksara](https://github.com/ir-nlp-csui/aksara) and manually corrected.
 
 ## References
@@ -29,14 +29,13 @@ Other characteristics of the treebank:
 # Changelog
 
 * 2021-11-15 v2.9
-  * added text_en (translation of each sentence to English, generated using Google Translate)
-  * added features Definite (values: Ind, Def), Mood (values:Ind, Imp), NumType (values: Card, Ord), and Polite (values: Form, Infm)
-  * removed feature Poss (value:Yes)
-  * fixed FEATS columns for various words
-  * changed the annotations for "di mana" (where), "yang" (which), 'apa/apakah' (what, whether, adverb in yes-no questions)
-  * changed the annotations for transition words, such as "sementara itu" (meanwhile), "oleh karena itu" (therefore), etc.
-  * fixed udapi bugs (multi-obj, multi-subj, no-PronType errors)
-
+  * Added text_en (translation of each sentence to English, generated using Google Translate)
+  * Added features Definite (values: Ind, Def), Mood (values:Ind, Imp), NumType (values: Card, Ord), and Polite (values: Form, Infm)
+  * Removed feature Poss (value:Yes)
+  * Fixed FEATS columns for various words
+  * Changed the annotations for "di mana" (where), "yang" (which), 'apa/apakah' (what, whether, adverb in yes-no questions)
+  * Changed the annotations for transition words, such as "sementara itu" (meanwhile), "oleh karena itu" (therefore), etc.
+  * Fixed udapi bugs (multi-obj, multi-subj, and so on)
 * 2020-11-15 v2.7
   * Initial release in Universal Dependencies.
 
