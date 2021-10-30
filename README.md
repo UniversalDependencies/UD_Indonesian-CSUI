@@ -47,7 +47,7 @@ Includes text: yes
 Genre: nonfiction news
 Lemmas: automatic with corrections
 UPOS: converted with corrections
-XPOS: converted from manual
+XPOS: converted with corrections
 Features: automatic with corrections
 Relations: converted with corrections
 Contributors: Alfina, Ika; Arwidarasti, Jessica Naraiswari; Hanifmuti, Muhammad Yudistira; Dinakaramani, Arawinda; Manurung, Ruli; Rashel, Fam; Luthfi, Andry
