@@ -4133,8 +4133,8 @@
 8	Indonesia	Indonesia	PROPN	NNP	_	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	_	_
 10	namun	namun	CCONJ	CC	_	11	cc	_	_
-11	yang	yang	DET	DT	Definite=Def|PronType=Art	12	det	_	_
-12	kedelapan	kedelapan	ADJ	JJ	NumType=Ord	5	conj	_	_
+11	yang	yang	PRON	IN	PronType=Rel	5	conj	_	_
+12	kedelapan	kedelapan	ADJ	JJ	NumType=Ord	11	amod	_	_
 13	bagi	bagi	ADP	IN	_	14	case	_	_
 14	Jepang	Jepang	PROPN	NNP	_	11	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	_	_
