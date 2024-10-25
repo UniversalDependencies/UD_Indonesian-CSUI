@@ -783,7 +783,7 @@
 8	ditujukan	tuju	VERB	VB	Mood=Ind|Voice=Pass	0	root	_	_
 9	untuk	untuk	SCONJ	IN	_	10	mark	_	_
 10	memenuhi	penuh	VERB	VB	Mood=Ind|Voice=Act	20	advcl	_	_
-11	sebagian	sebagian	NOUN	NN	Number=Sing	10	obj	_	_
+11	sebagian	bagi	NOUN	NN	Number=Sing	10	obj	_	_
 12	dari	dari	ADP	IN	_	13	case	_	_
 13	target	target	NOUN	NN	Number=Sing	11	nmod	_	_
 14	pembiayaan	biaya	NOUN	NN	Number=Sing	13	nmod	_	_
@@ -2955,7 +2955,7 @@
 7	Juni	Juni	PROPN	NNP	_	1	nmod:tmod	_	_
 8	2007	2007	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	13	punct	_	_
-10	sebagian	sebagian	NOUN	NN	Number=Sing	13	nsubj:pass	_	_
+10	sebagian	bagi	NOUN	NN	Number=Sing	13	nsubj:pass	_	_
 11	besar	besar	ADJ	JJ	_	10	amod	_	_
 12	masih	masih	ADV	RB	_	13	advmod	_	_
 13	dikuasai	kuasa	VERB	VB	Mood=Ind|Voice=Pass	0	root	_	_
@@ -3658,7 +3658,7 @@
 27	ton	ton	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
 28	,	,	PUNCT	,	_	27	punct	_	_
 29	yang	yang	PRON	PRP	PronType=Rel	38	obl	_	_
-30	sebagian	sebagian	NOUN	NN	Number=Sing	38	nsubj	_	_
+30	sebagian	bagi	NOUN	NN	Number=Sing	38	nsubj	_	_
 31	besar	besar	ADJ	JJ	_	30	amod	_	_
 32	73,3	73,3	NUM	CD	NumType=Card	33	nummod	_	_
 33	persen	persen	NOUN	NN	Number=Sing	30	nmod	_	_
