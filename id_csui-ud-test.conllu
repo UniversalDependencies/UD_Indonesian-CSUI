@@ -82,7 +82,7 @@
 6	mencapai	capai	VERB	VB	Mood=Ind|Voice=Act	0	root	_	_
 7	ribuan	ribu	NUM	CD	NumType=Card	6	obj	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	_	_
-9	sebagian	sebagian	NOUN	NN	Number=Sing	11	nsubj	_	_
+9	sebagian	bagi	NOUN	NN	Number=Sing	11	nsubj	_	_
 10	besar	besar	ADJ	JJ	_	9	amod	_	_
 11	berada	ada	VERB	VB	Mood=Ind|Voice=Act	6	advcl	_	_
 12	di	di	ADP	IN	_	13	case	_	_
@@ -11675,7 +11675,7 @@
 10	akhir	akhir	NOUN	NN	Number=Sing	11	nmod:lmod	_	_
 11	2005	2005	NUM	CD	NumType=Card	5	obl:tmod	_	_
 12	yang	yang	PRON	PRP	PronType=Rel	14	obl	_	_
-13	sebagian	sebagian	NOUN	NN	Number=Sing	14	nsubj	_	_
+13	sebagian	bagi	NOUN	NN	Number=Sing	14	nsubj	_	_
 14	disebabkan	sebab	VERB	VB	Mood=Ind|Voice=Pass	5	advcl	_	_
 15	oleh	oleh	ADP	IN	_	16	case	_	_
 16	implementasi	implementasi	NOUN	NN	Number=Sing	14	advcl	_	_

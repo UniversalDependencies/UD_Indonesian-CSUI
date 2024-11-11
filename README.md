@@ -28,6 +28,9 @@ Other characteristics of the treebank:
 
 # Changelog
 
+* 2024-10-25 v2.15
+  * Fixed errors
+
 * 2021-11-15 v2.9
   * Added text_en (translation of each sentence to English, generated using Google Translate)
   * Added features Definite (values: Ind, Def), Mood (values:Ind, Imp), NumType (values: Card, Ord), and Polite (values: Form, Infm)
