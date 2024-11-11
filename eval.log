@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Indonesian-CSUI:
-commit d8b5b962dd19b8c46c87dadeb3cc399ecc6fdeb9
+commit 22d408c408312df415a8986866a4537ec53e764c
+Merge: 4e2d88e ba0c412
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:11:36 2023 +0100
 Size: counted 28263 of 28263 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.68310705746928.
 Size: maximum value 13.815511 is for 1000000 words or more.
