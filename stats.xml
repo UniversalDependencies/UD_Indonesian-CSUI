@@ -16,7 +16,7 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">1170</tag><!-- besar, tinggi, sama, pertama, bersih, baik, lain, asing, rendah, utama -->
-    <tag name="ADP">2233</tag><!-- di, pada, dari, dalam, dengan, untuk, per, oleh, turut, ke -->
+    <tag name="ADP">2234</tag><!-- di, pada, dari, dalam, dengan, untuk, per, oleh, turut, ke -->
     <tag name="ADV">771</tag><!-- lebih, juga, masih, sekitar, sementara, tetap, kembali, sebelumnya, hanya, sangat -->
     <tag name="AUX">445</tag><!-- akan, telah, bisa, dapat, adalah, sudah, harus, sedang, mungkin, tengah -->
     <tag name="CCONJ">708</tag><!-- dan, atau, namun, /, serta, maupun, tapi, tetapi, baik, & -->
@@ -28,18 +28,20 @@
     <tag name="PRON">1198</tag><!-- yang, nya, dia, itu, kita, ia, mereka, demikian, ini, saya -->
     <tag name="PROPN">3835</tag><!-- pt, AS, indonesia, Jakarta, bank, BI, tbk, Oktober, efek, Kamis -->
     <tag name="PUNCT">3531</tag><!-- ,, ., ", (, ), -, ', ";", :, ` -->
-    <tag name="SCONJ">581</tag><!-- untuk, dengan, karena, bahwa, sehingga, meski, setelah, sedangkan, maka, yaitu -->
+    <tag name="SCONJ">580</tag><!-- untuk, dengan, karena, bahwa, sehingga, meski, setelah, sedangkan, maka, yaitu -->
     <tag name="SYM">17</tag><!-- %, $, +, -, £ -->
     <tag name="VERB">2981</tag><!-- kata, jadi, capai, ada, banding, tingkat, laku, naik, turun, beri -->
     <tag name="X">378</tag><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="27">
+  <feats unique="29">
     <feat name="Clusivity" value="Ex" upos="PRON">20</feat><!-- kami -->
     <feat name="Clusivity" value="In" upos="PRON">44</feat><!-- kita -->
     <feat name="Definite" value="Def" upos="DET">178</feat><!-- nya, yang -->
     <feat name="Definite" value="Ind" upos="DET">35</feat><!-- sebuah, seorang, suatu -->
     <feat name="Degree" value="Sup" upos="ADJ">49</feat><!-- terakhir, terbesar, tertinggi, terbaik, tertentu, terkaya, terdekat, terbanyak, terendah, terutama -->
+    <feat name="ExtPos" value="ADV" upos="ADJ,ADP,ADV,CCONJ">45</feat><!-- Sementara, Selain, lebih, Namun, sama, Lagi, Oleh, baru-baru, kurang -->
+    <feat name="ExtPos" value="SCONJ" upos="ADP">8</feat><!-- di, antara -->
     <feat name="Foreign" value="Yes" upos="X">378</feat><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
     <feat name="Mood" value="Ind" upos="VERB">2981</feat><!-- kata, menjadi, mencapai, mengatakan, ada, meningkat, naik, dibandingkan, lalu, merupakan -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">220</feat><!-- kita, mereka, beberapa, kami, banyak, para, berbagai, langkah-langkah, negara-negara, bank-bank -->
@@ -66,9 +68,9 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="44">
     <dep name="acl">153</dep>
-    <dep name="acl:relcl">752</dep>
+    <dep name="acl:relcl">747</dep>
     <dep name="advcl">762</dep>
-    <dep name="advmod">935</dep>
+    <dep name="advmod">939</dep>
     <dep name="advmod:emph">33</dep>
     <dep name="amod">683</dep>
     <dep name="appos">416</dep>
@@ -92,7 +94,7 @@
     <dep name="flat:foreign">134</dep>
     <dep name="flat:name">1430</dep>
     <dep name="iobj">2</dep>
-    <dep name="mark">580</dep>
+    <dep name="mark">581</dep>
     <dep name="nmod">4805</dep>
     <dep name="nmod:lmod">104</dep>
     <dep name="nmod:poss">171</dep>

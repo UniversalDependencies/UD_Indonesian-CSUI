@@ -1129,7 +1129,7 @@
 15	situasi	situasi	NOUN	NN	Number=Sing	12	obl	_	_
 16	yang	yang	PRON	IN	PronType=Rel	17	nsubj	_	_
 17	khusus	khusus	ADJ	JJ	_	15	acl:relcl	_	_
-18	di	di	ADP	IN	_	20	mark	_	MWEPOS=SCONJ
+18	di	di	ADP	IN	ExtPos=SCONJ	20	mark	_	MWEPOS=SCONJ
 19	mana	mana	PRON	PRP	PronType=Dem	18	fixed	_	_
 20	membutuhkan	butuh	VERB	VB	Mood=Ind|Voice=Act	15	acl:relcl	_	_
 21	belanja	belanja	NOUN	NN	Number=Sing	20	obj	_	_
@@ -1689,7 +1689,7 @@
 12	telah	telah	AUX	MD	_	13	aux	_	_
 13	mencatat	catat	VERB	VB	Mood=Ind|Voice=Act	9	ccomp	_	_
 14	angka	angka	NOUN	NN	Number=Sing	13	obj	_	_
-15	lebih	lebih	ADV	RB	_	17	advmod	_	_
+15	lebih	lebih	ADV	RB	ExtPos=ADV	17	advmod	_	_
 16	dari	dari	ADP	IN	_	15	fixed	_	_
 17	Rp	Rp	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
 18	10	10	NUM	CD	NumType=Card	17	nummod	_	_
@@ -2229,7 +2229,7 @@
 24	dunia	dunia	NOUN	NN	Number=Sing	21	nmod	_	_
 25	yang	yang	PRON	IN	PronType=Rel	26	nsubj:pass	_	_
 26	terjadi	jadi	VERB	VB	Mood=Ind|Voice=Pass	20	acl:relcl	_	_
-27	baru-baru	baru	ADV	RB	_	26	advmod	_	_
+27	baru-baru	baru	ADV	RB	ExtPos=ADV	26	advmod	_	_
 28	ini	ini	DET	DT	PronType=Dem	27	fixed	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -2406,7 +2406,7 @@
 15	peningkatan	tingkat	NOUN	NN	Number=Sing	14	obj	_	_
 16	cukup	cukup	ADV	RB	_	17	advmod	_	_
 17	besar	besar	ADJ	JJ	_	15	amod	_	_
-18	di	di	ADP	IN	_	23	mark	_	MWEPOS=SCONJ
+18	di	di	ADP	IN	ExtPos=SCONJ	23	mark	_	MWEPOS=SCONJ
 19	mana	mana	PRON	PRP	PronType=Dem	18	fixed	_	_
 20	PPh	PPh	PROPN	NNP	_	23	nsubj	_	SpaceAfter=No
 21	-	-	PUNCT	:	_	20	punct	_	SpaceAfter=No
@@ -2737,7 +2737,7 @@
 # text_en = This amount came from, among other things, the issuance of government securities net of Rp. 91.6 trillion, the sale of assets from the banking restructuring program and the use of RDI's government accounts of Rp. 0.6 trillion, as well as the net privatization proceeds of Rp. 1.5 trillion.
 1	Jumlah	jumlah	NOUN	NN	Number=Sing	5	nsubj	_	_
 2	itu	itu	DET	DT	PronType=Dem	1	det	_	_
-3	antara	antara	ADP	IN	_	5	advmod	_	_
+3	antara	antara	ADP	IN	ExtPos=SCONJ	5	mark	_	_
 4	lain	lain	ADJ	JJ	_	3	fixed	_	_
 5	bersumber	sumber	VERB	VB	Mood=Ind|Voice=Act	0	root	_	_
 6	dari	dari	ADP	IN	_	7	case	_	_
@@ -3082,7 +3082,7 @@
 # sent_id = csui-test-100
 # text = Namun demikian ia mengatakan, BI dan Pemerintah tetap waspada memandang dampak lanjutan dari akibat krisis tersebut meski telah mulai terkendali.
 # text_en = However, he said, BI and the Government remained vigilant in seeing the continued impact of the crisis even though it had begun to be under control.
-1	Namun	namun	ADV	RB	_	4	advmod	_	MWEPOS=ADV
+1	Namun	namun	ADV	RB	ExtPos=ADV	4	advmod	_	MWEPOS=ADV
 2	demikian	demikian	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	ia	ia	PRON	PRP	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	mengatakan	kata	VERB	VB	Mood=Ind|Voice=Act	0	root	_	SpaceAfter=No
@@ -3981,7 +3981,7 @@
 # sent_id = csui-test-126
 # text = Sementara itu, nilai tukar rupiah pada Oktober 2007 secara rata-rata menguat 2,2 persen dibandingkan September atau rata-rata Rp9.101 per dolar AS.
 # text_en = Meanwhile, the rupiah exchange rate in October 2007 strengthened an average of 2.2 percent compared to September or an average of Rp9,101 per US dollar.
-1	Sementara	sementara	ADV	RB	_	12	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	ExtPos=ADV	12	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	12	punct	_	_
 4	nilai	nilai	NOUN	NN	Number=Sing	12	nsubj	_	_
@@ -4424,7 +4424,7 @@
 # sent_id = csui-test-141
 # text = Sementara itu, ujarnya, konsumsi rumah tangga tumbuh 1,46 persen pada triwulan I 2007 dibanding periode sebelumnya, dan 4,71 persen secara 'year on year', yang terdiri atas 1,1 persen pertumbuhan konsumsi makanan, dan 3,92 persen pertumbuhan konsumsi bukan makanan.
 # text_en = Meanwhile, he said, household consumption grew by 1.46 percent in the first quarter of 2007 compared to the previous period, and 4.71 percent year on year, consisting of 1.1 percent growth in food consumption and 3.92 percent growth. non-food consumption.
-1	Sementara	sementara	ADV	RB	_	10	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	ExtPos=ADV	10	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	_	_
 4-5	ujarnya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -4846,7 +4846,7 @@
 # sent_id = csui-test-153
 # text = Sementara itu, posisi ketiga adalah Thailand sebesar 11,4 miliar Ringgit 3,16 miliar dolar AS dan Indonesia berada di urutan ke-4 dengan nilai 4,7 miliar Ringgit.
 # text_en = Meanwhile, the third position is Thailand at 11.4 billion Ringgit 3.16 billion US dollars and Indonesia is in 4th place with a value of 4.7 billion Ringgit.
-1	Sementara	sementara	ADV	RB	_	7	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	ExtPos=ADV	7	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	7	punct	_	_
 4	posisi	posisi	NOUN	NN	Number=Sing	7	nsubj	_	_
@@ -5095,8 +5095,8 @@
 13	2007	2007	NUM	CD	NumType=Card	12	nummod	_	_
 14	yoy	yoy	X	FW	Foreign=Yes	9	amod	_	_
 15	mencapai	capai	VERB	VB	Mood=Ind|Voice=Act	8	ccomp	_	_
-16	lebih	lebih	ADJ	JJ	_	18	acl:relcl	_	_
-17	dari	dari	SCONJ	IN	_	16	fixed	_	_
+16	lebih	lebih	ADJ	JJ	ExtPos=ADV	18	advmod	_	_
+17	dari	dari	ADP	IN	_	16	fixed	_	_
 18	20	20	NUM	CD	NumType=Card	15	obj	_	_
 19	persen	persen	NOUN	NN	Number=Sing	18	nmod	_	_
 20	karena	karena	ADP	IN	_	21	case	_	_
@@ -5777,7 +5777,7 @@
 # sent_id = csui-test-181
 # text = Sementara itu, suku bunga penjaminan untuk simpanan dalam bentuk dolar AS tetap dipertahankan pada level 4,75 persen
 # text_en = Meanwhile, the guarantee interest rate for deposits in US dollars was maintained at 4.75 percent
-1	Sementara	sementara	ADV	RB	_	14	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	ExtPos=ADV	14	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	14	punct	_	_
 4	suku	suku	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
@@ -5799,7 +5799,7 @@
 # sent_id = csui-test-182
 # text = Sementara itu Direktur Utama PT Mirantha Nuansa Ayu, Henry Sulysto, mengatakan, kerja sama dengan perusahaan penyewaan pesawat sangat diperlukan karena tidak mungkin perseroan menyediakan pesawat sendiri, karena risiko dan investasinya besar, kata Henry
 # text_en = Meanwhile, President Director of PT Mirantha Nuansa Ayu, Henry Sulysto, said that cooperation with aircraft rental companies is very necessary because it is impossible for the company to provide its own aircraft, because the risks and investments are large, said Henry.
-1	Sementara	sementara	ADV	RB	_	13	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	ExtPos=ADV	13	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	Direktur	Direktur	NOUN	NN	Number=Sing	13	nsubj	_	_
 4	Utama	Utama	ADJ	JJ	_	3	amod	_	_
@@ -6837,7 +6837,7 @@
 # sent_id = csui-test-212
 # text = Sementara itu, Menteri Keuangan Sri Mulyani menjelaskan, indikasi membaiknya sektor riil juga terlihat dari peningkatan penerimaan Pajak Penghasilan (PPh) dan Pajak Pertambahan Nilai (PPN) yang hingga akhir tahun bisa diperkirakan lebih tinggi dari rata-rata tingkat inflasi 6 persen.
 # text_en = Meanwhile, Minister of Finance Sri Mulyani explained, indications of improvement in the real sector can also be seen from the increase in income tax (PPh) and value added tax (VAT) revenues, which by the end of the year can be estimated to be higher than the average inflation rate of 6 percent.
-1	Sementara	sementara	ADV	RB	_	8	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	ExtPos=ADV	8	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	Menteri	Menteri	PROPN	NNP	_	8	nsubj	_	_
@@ -7640,7 +7640,7 @@
 # sent_id = csui-test-235
 # text = Selain itu, kurangnya pasokan gas menyebabkan produksi urea tidak maksimal.
 # text_en = In addition, the lack of gas supply causes urea production to be not optimal.
-1	Selain	selain	ADP	IN	_	8	advmod	_	MWEPOS=ADV
+1	Selain	selain	ADP	IN	ExtPos=ADV	8	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	8	punct	_	_
 4-5	kurangnya	_	_	_	_	_	_	_	_
@@ -8495,7 +8495,7 @@
 # sent_id = csui-test-264
 # text = Namun demikian, BI mencermati sentimen negatif yang bisa mempengaruhi perekonomian Indonesia seperti sentimen ekspektasi terhadap tekanan inflasi menjelang akhir 2007.
 # text_en = However, BI is keeping a close watch on negative sentiments that could affect the Indonesian economy, such as sentiment on expectations of inflationary pressure towards the end of 2007.
-1	Namun	namun	ADV	RB	_	5	advmod	_	MWEPOS=ADV
+1	Namun	namun	ADV	RB	ExtPos=ADV	5	advmod	_	MWEPOS=ADV
 2	demikian	demikian	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	BI	BI	PROPN	NNP	_	5	nsubj	_	_
@@ -10283,7 +10283,7 @@
 # sent_id = csui-test-325
 # text = Sementara itu sampai akhir 2007 perseroan menargetkan pendapatan sebesar Rp300 miliar atau naik dibandingkan 2006 hanya sebesar Rp204 miliar.
 # text_en = Meanwhile, until the end of 2007, the company targets a revenue of Rp300 billion, an increase compared to 2006 which was only Rp204 billion.
-1	Sementara	sementara	ADV	RB	_	7	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	ExtPos=ADV	7	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	_
 3	sampai	sampai	ADP	IN	_	4	case	_	_
 4	akhir	akhir	NOUN	NN	Number=Sing	7	obl	_	_
@@ -10632,7 +10632,7 @@
 # sent_id = csui-test-341
 # text = Sementara itu, pendapatan bukan bunga yang lebih tinggi berasal dari penjualan obligasi pemerintah di 2006.
 # text_en = Meanwhile, higher non-interest income came from selling government bonds in 2006.
-1	Sementara	sementara	ADV	RB	_	10	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	RB	ExtPos=ADV	10	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	PRP	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	10	punct	_	_
 4	pendapatan	dapat	NOUN	NN	Number=Sing	10	nsubj	_	_
@@ -10699,7 +10699,7 @@
 1	Hingga	hingga	ADP	IN	_	2	case	_	_
 2	Juli	Juli	PROPN	NNP	_	6	nmod:tmod	_	_
 3	2010	2010	NUM	CD	NumType=Card	2	nummod	_	_
-4	lebih	lebih	ADJ	JJ	_	6	acl:relcl	_	_
+4	lebih	lebih	ADJ	JJ	ExtPos=ADV	6	advmod	_	_
 5	dari	dari	SCONJ	IN	_	4	fixed	_	_
 6	500	500	NUM	CD	NumType=Card	0	root	_	_
 7	juta	juta	NUM	CD	NumType=Card	6	flat	_	_
