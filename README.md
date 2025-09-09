@@ -47,6 +47,7 @@ Other characteristics of the treebank:
 Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction news
 Lemmas: automatic with corrections
 UPOS: converted with corrections
