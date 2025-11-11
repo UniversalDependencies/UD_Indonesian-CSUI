@@ -34,7 +34,7 @@
     <tag name="X">378</tag><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="29">
+  <feats unique="28">
     <feat name="Clusivity" value="Ex" upos="PRON">20</feat><!-- kami -->
     <feat name="Clusivity" value="In" upos="PRON">44</feat><!-- kita -->
     <feat name="Definite" value="Def" upos="DET">178</feat><!-- nya, yang -->
@@ -43,7 +43,6 @@
     <feat name="ExtPos" value="ADV" upos="ADJ,ADP,ADV,CCONJ">45</feat><!-- Sementara, Selain, lebih, Namun, sama, Lagi, Oleh, baru-baru, kurang -->
     <feat name="ExtPos" value="SCONJ" upos="ADP">8</feat><!-- di, antara -->
     <feat name="Foreign" value="Yes" upos="X">378</feat><!-- rate, year, rating, mortgage, subprime, on, listed, net, netto, outlook -->
-    <feat name="Mood" value="Ind" upos="VERB">2981</feat><!-- kata, menjadi, mencapai, mengatakan, ada, meningkat, naik, dibandingkan, lalu, merupakan -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">220</feat><!-- kita, mereka, beberapa, kami, banyak, para, berbagai, langkah-langkah, negara-negara, bank-bank -->
     <feat name="Number" value="Sing" upos="NOUN,PRON">8017</feat><!-- persen, nya, Rp, tahun, dolar, sebesar, saham, perusahaan, pemerintah, negara -->
     <feat name="NumType" value="Card" upos="NUM">1857</feat><!-- 2007, triliun, miliar, 2006, juta, 2008, satu, dua, 30, 10 -->

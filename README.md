@@ -28,6 +28,9 @@ Other characteristics of the treebank:
 
 # Changelog
 
+* 2025-10-13 v2.17
+  * Fixed warning - remove Mood feature.
+
 * 2024-10-25 v2.15
   * Fixed errors
 
@@ -47,6 +50,7 @@ Other characteristics of the treebank:
 Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction news
 Lemmas: automatic with corrections
 UPOS: converted with corrections
